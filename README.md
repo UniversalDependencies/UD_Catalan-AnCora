@@ -1,6 +1,6 @@
 # UD_Catalan
 
-Documentation status: stub
+Documentation status: partial
 Data source: unknown
-Data available since: UD v1.2
+Data available since:
 License:
