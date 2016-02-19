@@ -5,7 +5,7 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>16786</sentences><tokens>527912</tokens><words>527912</words><fused>0</fused></total>
+    <total><sentences>16695</sentences><tokens>519596</tokens><words>519596</words><fused>0</fused></total>
   </size>
   <lemmas unique="24672" /><!-- el, de, ,, ., que, i, a, un, del, haver, anar, en, per, ser, ell -->
   <forms unique="34095" /><!-- de, ,, la, ., que, i, el, a, l', d', en, del, per, les, un -->
@@ -21,7 +21,7 @@
     <tag name="INTJ">11</tag><!-- vaja, he, compte, ep, hola_,_no_sóc_a_marbella, home, mira, valga_'m_déu -->
     <tag name="NOUN">95015</tag><!-- any, milió, pesseta, obra, persona, president, grup, empresa, dia, fet -->
     <tag name="NUM">4258</tag><!-- 10, 15, 20, 5, 30, 4, 12, 50, 25, 14 -->
-    <tag name="PRON">32999</tag><!-- _, que, ell, es, hi, el, un, qual, jo, on -->
+    <tag name="PRON">24683</tag><!-- que, ell, es, hi, el, un, qual, jo, on, què -->
     <tag name="PROPN">53673</tag><!-- de, la, Catalunya, d', barcelona, i, del, generalitat, Govern, l' -->
     <tag name="PUNCT">53082</tag><!-- ,, ., ", (, ), -, :, ;, ?, ¿ -->
     <tag name="SCONJ">9357</tag><!-- que, com, perquè, si, quan, ja_que, segons, encara_que, tot_i_que, mentre -->
@@ -91,30 +91,30 @@
     <dep name="advcl">8427</dep>
     <dep name="advmod">13859</dep>
     <dep name="amod">24156</dep>
-    <dep name="appos">7006</dep>
+    <dep name="appos">6987</dep>
     <dep name="aux">18649</dep>
     <dep name="auxpass:reflex">512</dep>
     <dep name="case">71365</dep>
     <dep name="cc">25362</dep>
     <dep name="ccomp">2885</dep>
-    <dep name="conj">15840</dep>
-    <dep name="cop">4993</dep>
+    <dep name="conj">15838</dep>
+    <dep name="cop">4992</dep>
     <dep name="csubj">995</dep>
     <dep name="dep">78</dep>
     <dep name="det">66706</dep>
     <dep name="det:nummod">2252</dep>
-    <dep name="dobj">36500</dep>
-    <dep name="iobj">988</dep>
+    <dep name="dobj">36493</dep>
+    <dep name="iobj">987</dep>
     <dep name="mark">10527</dep>
     <dep name="mwe">5660</dep>
     <dep name="name">25374</dep>
     <dep name="neg">2737</dep>
-    <dep name="nmod">65988</dep>
-    <dep name="nsubj">34610</dep>
+    <dep name="nmod">65986</dep>
+    <dep name="nsubj">26417</dep>
     <dep name="nummod">3093</dep>
     <dep name="parataxis">239</dep>
     <dep name="punct">53264</dep>
-    <dep name="root">16786</dep>
+    <dep name="root">16695</dep>
     <dep name="xcomp">1481</dep>
   </deps>
 </treebank>
