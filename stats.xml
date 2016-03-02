@@ -19,12 +19,12 @@
     <tag name="CONJ">14887</tag><!-- i, o, però, ni, sinó, y, que, mentre, bé, et -->
     <tag name="DET">69909</tag><!-- el, un, aquest, el_seu, la, tot, altre, seu, l', mateix -->
     <tag name="INTJ">15</tag><!-- vaja, he, 'm, compte, déu, ep, hola, home, marbella, mira -->
-    <tag name="NOUN">99164</tag><!-- any, milió, pesseta, dia, obra, persona, president, mes, grup, tot -->
+    <tag name="NOUN">99165</tag><!-- any, milió, pesseta, dia, obra, persona, president, mes, grup, tot -->
     <tag name="NUM">9221</tag><!-- dos, tres, un, quatre, cent, 10, cinc, sis, 15, 20 -->
     <tag name="PART">147</tag><!-- no -->
     <tag name="PRON">23033</tag><!-- que, ell, es, hi, un, qual, jo, on, què, en -->
-    <tag name="PROPN">46750</tag><!-- Catalunya, barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU, PP -->
-    <tag name="PUNCT">53442</tag><!-- ,, ., ", (, ), -, :, ;, ?, ¿ -->
+    <tag name="PROPN">46753</tag><!-- Catalunya, barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU, PP -->
+    <tag name="PUNCT">53438</tag><!-- ,, ., ", (, ), -, :, ;, ?, ¿ -->
     <tag name="SCONJ">10545</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, Como -->
     <tag name="SYM">4638</tag><!-- ', %, 50/100, 10/100, 30/100, 5/100, 1/100, 2/100, 25/100, 20/100 -->
     <tag name="VERB">41352</tag><!-- fer, tenir, estar, haver, ser, dir, presentar, explicar, passar, demanar -->
