@@ -99,7 +99,7 @@
     <dep name="case">76559</dep>
     <dep name="cc">24953</dep>
     <dep name="ccomp">2939</dep>
-    <dep name="compound">2470</dep>
+    <dep name="compound">2469</dep>
     <dep name="conj">15181</dep>
     <dep name="cop">5001</dep>
     <dep name="csubj">1003</dep>
@@ -109,11 +109,11 @@
     <dep name="iobj">987</dep>
     <dep name="mark">10527</dep>
     <dep name="mwe">9894</dep>
-    <dep name="name">19749</dep>
+    <dep name="name">19569</dep>
     <dep name="neg">2756</dep>
     <dep name="nmod">65247</dep>
     <dep name="nsubj">26517</dep>
-    <dep name="nummod">5325</dep>
+    <dep name="nummod">5506</dep>
     <dep name="parataxis">566</dep>
     <dep name="punct">53265</dep>
     <dep name="root">16695</dep>

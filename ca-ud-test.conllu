@@ -651,7 +651,7 @@
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Banc	Banc	PROPN	PROPN	_	4	name	_	_
 8	Mundial	Mundial	PROPN	PROPN	_	4	name	_	_
-9	2001	2001	NUM	NUM	NumForm=Digit|NumType=Card	4	name	_	_
+9	2001	2001	NUM	NUM	NumForm=Digit|NumType=Card	4	nummod	_	_
 10	-	-	PUNCT	PUNCT	PunctType=Dash	14	punct	_	_
 11	en	en	ADP	ADP	AdpType=Prep	13	case	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -9066,7 +9066,7 @@
 44	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
 45	qualitat	qualitat	NOUN	NOUN	Gender=Fem|Number=Sing	42	nmod	_	_
 46	ISO	ISO	PROPN	PROPN	_	40	appos	_	_
-47	9000	9000	NUM	NUM	NumForm=Digit|NumType=Card	46	name	_	_
+47	9000	9000	NUM	NUM	NumForm=Digit|NumType=Card	46	nummod	_	_
 48	,	,	PUNCT	PUNCT	PunctType=Comm	51	punct	_	_
 49	amb	amb	ADP	ADP	AdpType=Prep	51	case	_	_
 50	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
@@ -9123,7 +9123,7 @@
 43	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
 44	qualitat	qualitat	NOUN	NOUN	Gender=Fem|Number=Sing	41	nmod	_	_
 45	ISO	ISO	PROPN	PROPN	_	39	appos	_	_
-46	9000	9000	NUM	NUM	NumForm=Digit|NumType=Card	45	name	_	_
+46	9000	9000	NUM	NUM	NumForm=Digit|NumType=Card	45	nummod	_	_
 47	,	,	PUNCT	PUNCT	PunctType=Comm	50	punct	_	_
 48	amb	amb	ADP	ADP	AdpType=Prep	50	case	_	_
 49	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
@@ -22743,7 +22743,7 @@
 8	:	:	PUNCT	PUNCT	PunctType=Colo	10	punct	_	_
 9	'	'	SYM	SYM	_	10	nmod	_	_
 10	Faust	Faust	PROPN	PROPN	_	6	cc	_	_
-11	5.0	5.0	NUM	NUM	NumForm=Digit|NumType=Card	10	name	_	_
+11	5.0	5.0	NUM	NUM	NumForm=Digit|NumType=Card	10	nummod	_	_
 12	'	'	SYM	SYM	_	10	nmod	_	_
 13	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 14	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -23142,9 +23142,9 @@
 8	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 9	'	'	SYM	SYM	_	10	nmod	_	_
 10	Cada	Cada	PROPN	PROPN	_	7	appos	_	_
-11	3	3	NUM	NUM	NumForm=Digit|NumType=Card	10	name	_	_
+11	3	3	NUM	NUM	NumForm=Digit|NumType=Card	10	nummod	_	_
 12	per	per	ADP	ADP	AdpType=Prep	13	case	_	_
-13	3	3	NUM	NUM	NumForm=Digit|NumType=Card	10	name	_	_
+13	3	3	NUM	NUM	NumForm=Digit|NumType=Card	10	nummod	_	_
 14	'	'	SYM	SYM	_	10	nmod	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 16	d'	de	ADP	ADP	AdpType=Prep	17	case	_	_
@@ -29441,7 +29441,7 @@
 7	general	general	ADJ	ADJ	Number=Sing	6	amod	_	_
 8	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	9	case	_	_
 9	Fòrum	Fòrum	PROPN	PROPN	_	6	nmod	_	_
-10	2004	2004	NUM	NUM	NumForm=Digit|NumType=Card	9	name	_	_
+10	2004	2004	NUM	NUM	NumForm=Digit|NumType=Card	9	nummod	_	_
 11	des	des	ADP	ADP	AdpType=Prep	14	case	_	_
 12	de	de	ADP	ADP	AdpType=Prep	11	mwe	_	_
 13	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
@@ -30410,7 +30410,7 @@
 9	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 10	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	UETE	UETE	PROPN	PROPN	_	7	nmod	_	_
-12	2000	2000	NUM	NUM	NumForm=Digit|NumType=Card	11	name	_	_
+12	2000	2000	NUM	NUM	NumForm=Digit|NumType=Card	11	nummod	_	_
 13	tindrà_lloc	tenir_lloc	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	dia	dia	NOUN	NOUN	_	13	nmod	_	_
@@ -32584,7 +32584,7 @@
 7	gols	gol	NOUN	NOUN	Gender=Masc|Number=Plur	3	nmod	_	_
 8	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	9	case	_	_
 9	Camp	Camp	PROPN	PROPN	_	7	nmod	_	_
-10	Nou	Nou	NUM	NUM	NumType=Card	9	name	_	_
+10	Nou	Nou	NUM	NUM	NumType=Card	9	nummod	_	_
 11	i	i	CONJ	CONJ	_	3	cc	_	_
 12	ahir	ahir	ADV	ADV	_	18	advmod	_	_
 13	a	a	ADP	ADP	AdpType=Prep	15	case	_	_
@@ -33818,7 +33818,7 @@
 21	Apartado	Apartado	PROPN	PROPN	_	19	nmod	_	_
 22	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
 23	correos	correos	PROPN	PROPN	_	21	name	_	_
-24	1.001	1.001	NUM	NUM	NumForm=Digit|NumType=Card	23	name	_	_
+24	1.001	1.001	NUM	NUM	NumForm=Digit|NumType=Card	23	nummod	_	_
 25	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
 26	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	27	det	_	_
 27	pel·lícula	pel·lícula	NOUN	NOUN	Gender=Fem|Number=Sing	21	appos	_	_
@@ -33878,7 +33878,7 @@
 30	internacionals	internacional	ADJ	ADJ	Number=Plur	29	amod	_	_
 31	:	:	PUNCT	PUNCT	PunctType=Colo	32	punct	_	_
 32	Estambul	Estambul	PROPN	PROPN	_	29	cc	_	_
-33	65	65	NUM	NUM	NumForm=Digit|NumType=Card	32	name	_	_
+33	65	65	NUM	NUM	NumForm=Digit|NumType=Card	32	nummod	_	_
 34	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	35	punct	_	_
 35	1965	1965	NOUN	NOUN	AdvType=Tim	32	appos	_	_
 36	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	35	punct	_	_
@@ -33894,7 +33894,7 @@
 46	Las	Las	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	_
 47	Vegas	Vegas	PROPN	PROPN	_	32	appos	_	_
 48	,	,	PUNCT	PUNCT	_	47	name	_	_
-49	500	500	NUM	NUM	NumForm=Digit|NumType=Card	47	name	_	_
+49	500	500	NUM	NUM	NumForm=Digit|NumType=Card	47	nummod	_	_
 50	millones	millones	PROPN	PROPN	_	47	name	_	_
 51	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	52	punct	_	_
 52	1968	1968	NOUN	NOUN	AdvType=Tim	46	appos	_	_
@@ -34995,7 +34995,7 @@
 9	graella	graella	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
 10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 11	Tele	Tele	PROPN	PROPN	_	9	nmod	_	_
-12	5	5	NUM	NUM	NumForm=Digit|NumType=Card	11	name	_	_
+12	5	5	NUM	NUM	NumForm=Digit|NumType=Card	11	nummod	_	_
 13	amb	amb	ADP	ADP	AdpType=Prep	15	case	_	_
 14	la_seva	el_seu	DET	DET	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
 15	corrosivitat	corrosivitat	NOUN	NOUN	Gender=Fem|Number=Sing	4	cc	_	_
@@ -35065,7 +35065,7 @@
 55	puntals	puntal	NOUN	NOUN	Gender=Masc|Number=Plur	52	nmod	_	_
 56	de	de	ADP	ADP	AdpType=Prep	57	case	_	_
 57	Tele	Tele	PROPN	PROPN	_	55	nmod	_	_
-58	5	5	NUM	NUM	NumForm=Digit|NumType=Card	57	name	_	_
+58	5	5	NUM	NUM	NumForm=Digit|NumType=Card	57	nummod	_	_
 59	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s993
@@ -35890,7 +35890,7 @@
 # sent_id ca-s1027
 # orig_file_sentence 011#27
 1	Tele	Tele	PROPN	PROPN	_	3	nsubj	_	_
-2	5	5	NUM	NUM	NumForm=Digit|NumType=Card	1	name	_	_
+2	5	5	NUM	NUM	NumForm=Digit|NumType=Card	1	nummod	_	_
 3	dedicarà	dedicar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	5	case	_	_
 5	desembre	desembre	NOUN	NOUN	AdvType=Tim	3	nmod	_	_
@@ -42709,7 +42709,7 @@
 29	T'	T'	PROPN	PROPN	_	14	name	_	_
 30	ho	ho	PROPN	PROPN	_	29	name	_	_
 31	diré	diré	PROPN	PROPN	_	29	name	_	_
-32	mil	mil	NUM	NUM	NumType=Card	29	name	_	_
+32	mil	mil	NUM	NUM	NumType=Card	29	nummod	_	_
 33	vegades	vegades	PROPN	PROPN	_	29	name	_	_
 34	'	'	SYM	SYM	_	29	nmod	_	_
 35	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	36	punct	_	_
@@ -50024,7 +50024,7 @@
 79	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	80	case	_	_
 80	Club	Club	PROPN	PROPN	_	76	nmod	_	_
 81	Super	Super	PROPN	PROPN	_	80	name	_	_
-82	3	3	NUM	NUM	NumForm=Digit|NumType=Card	80	name	_	_
+82	3	3	NUM	NUM	NumForm=Digit|NumType=Card	80	nummod	_	_
 83	de	de	ADP	ADP	AdpType=Prep	84	case	_	_
 84	TV3	TV3	PROPN	PROPN	_	80	nmod	_	_
 85	,	,	PUNCT	PUNCT	PunctType=Comm	88	punct	_	_
@@ -55226,7 +55226,7 @@
 12	càpsules	càpsula	NOUN	NOUN	Gender=Fem|Number=Plur	10	dobj	_	_
 13	Deep	Deep	PROPN	PROPN	_	12	appos	_	_
 14	Space	Space	PROPN	PROPN	_	13	name	_	_
-15	2	2	NUM	NUM	NumForm=Digit|NumType=Card	13	name	_	_
+15	2	2	NUM	NUM	NumForm=Digit|NumType=Card	13	nummod	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 17	que	que	PRON	PRON	PronType=Rel	19	nsubj	_	_
 18	s'	ell	PRON	PRON	Person=3	19	dobj	_	_
