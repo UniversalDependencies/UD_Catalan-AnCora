@@ -12,18 +12,18 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="17">
-    <tag name="ADJ">30051</tag><!-- nou, primer, gran, català, passat, polític, general, espanyol, últim, públic -->
-    <tag name="ADP">86128</tag><!-- de, a, del, en, per, al, amb, pel, entre, sobre -->
+    <tag name="ADJ">30047</tag><!-- nou, primer, gran, català, passat, polític, general, espanyol, últim, públic -->
+    <tag name="ADP">87560</tag><!-- de, a, del, en, per, al, amb, pel, d', entre -->
     <tag name="ADV">14911</tag><!-- no, més, també, ja, després, ahir, molt, avui, només, ara -->
     <tag name="AUX">22504</tag><!-- haver, anar, ser, poder, fer, estar, tornar, començar, deixar, continuar -->
     <tag name="CONJ">14887</tag><!-- i, o, però, ni, sinó, y, que, mentre, bé, et -->
-    <tag name="DET">69910</tag><!-- el, un, aquest, el_seu, la, tot, altre, seu, l', mateix -->
+    <tag name="DET">69909</tag><!-- el, un, aquest, el_seu, la, tot, altre, seu, l', mateix -->
     <tag name="INTJ">15</tag><!-- vaja, he, 'm, compte, déu, ep, hola, home, marbella, mira -->
-    <tag name="NOUN">99814</tag><!-- any, milió, pesseta, dia, obra, persona, president, de, mes, grup -->
+    <tag name="NOUN">99164</tag><!-- any, milió, pesseta, dia, obra, persona, president, mes, grup, tot -->
     <tag name="NUM">9221</tag><!-- dos, tres, un, quatre, cent, 10, cinc, sis, 15, 20 -->
     <tag name="PART">147</tag><!-- no -->
-    <tag name="PRON">23032</tag><!-- que, ell, es, hi, un, qual, jo, on, què, en -->
-    <tag name="PROPN">47528</tag><!-- Catalunya, d', barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU -->
+    <tag name="PRON">23033</tag><!-- que, ell, es, hi, un, qual, jo, on, què, en -->
+    <tag name="PROPN">46750</tag><!-- Catalunya, barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU, PP -->
     <tag name="PUNCT">53442</tag><!-- ,, ., ", (, ), -, :, ;, ?, ¿ -->
     <tag name="SCONJ">10545</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, Como -->
     <tag name="SYM">4638</tag><!-- ', %, 50/100, 10/100, 30/100, 5/100, 1/100, 2/100, 25/100, 20/100 -->
@@ -32,7 +32,7 @@
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="54">
-    <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV,PUNCT">71710</feat><!-- de, a, d', en, per, amb, entre, sobre, segons, des -->
+    <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV,PUNCT">73142</feat><!-- de, a, d', en, per, amb, entre, sobre, segons, des -->
     <feat name="AdpType" value="Preppron" upos="ADP,ADV">14714</feat><!-- del, al, dels, als, pel, pels, més, enfront, entorn, do -->
     <feat name="AdvType" value="Tim" upos="ADV,NOUN,NUM,PUNCT,SYM">3100</feat><!-- 1999, 1998, 2000, 2001, divendres, 1997, dilluns, diumenge, dimecres, 1996 -->
     <feat name="Case" value="Acc" upos="PRON">877</feat><!-- el, l', la, -lo, -la, les, -les, 'l, els, li -->
@@ -41,7 +41,7 @@
     <feat name="Definite" value="Def" upos="ADP,DET">52766</feat><!-- la, el, l', les, els, del, al, dels, als, los -->
     <feat name="Definite" value="Ind" upos="DET">188</feat><!-- un, una, en, l', al, col·laboració, la, sa, ses, suficient -->
     <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PUNCT,VERB">84024</feat><!-- la, les, una, aquesta, la_seva, persones, les_seves, dues, aquestes, primera -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,PUNCT,SYM,VERB">106378</feat><!-- el, del, un, els, al, dels, aquest, als, anys, estat -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,PUNCT,SYM,VERB">106421</feat><!-- el, del, un, els, al, dels, aquest, als, anys, estat -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">690</feat><!-- hauria, podria, seria, podrien, haurien, caldria, faria, agradaria, estaria, permetria -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">75</feat><!-- deixi, sigui, seguim, siguin, superi, aclareixi, estigui, estrena, gestioni, miri -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">34872</feat><!-- va, ha, és, van, han, són, està, té, havia, fa -->
@@ -91,27 +91,27 @@
   <deps unique="29">
     <dep name="acl">7620</dep>
     <dep name="advcl">8492</dep>
-    <dep name="advmod">13874</dep>
-    <dep name="amod">24184</dep>
+    <dep name="advmod">13876</dep>
+    <dep name="amod">24181</dep>
     <dep name="appos">7102</dep>
     <dep name="aux">18649</dep>
     <dep name="auxpass:reflex">512</dep>
-    <dep name="case">75625</dep>
+    <dep name="case">76559</dep>
     <dep name="cc">24953</dep>
     <dep name="ccomp">2939</dep>
-    <dep name="compound">2622</dep>
-    <dep name="conj">15182</dep>
+    <dep name="compound">2470</dep>
+    <dep name="conj">15181</dep>
     <dep name="cop">5001</dep>
     <dep name="csubj">1003</dep>
     <dep name="dep">91</dep>
-    <dep name="det">69835</dep>
+    <dep name="det">69834</dep>
     <dep name="dobj">36645</dep>
     <dep name="iobj">987</dep>
     <dep name="mark">10527</dep>
     <dep name="mwe">9894</dep>
-    <dep name="name">20527</dep>
+    <dep name="name">19749</dep>
     <dep name="neg">2756</dep>
-    <dep name="nmod">65248</dep>
+    <dep name="nmod">65247</dep>
     <dep name="nsubj">26517</dep>
     <dep name="nummod">5325</dep>
     <dep name="parataxis">566</dep>
