@@ -5,7 +5,7 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>16695</sentences><tokens>531990</tokens><words>531990</words><fused>0</fused></total>
+    <total><sentences>16678</sentences><tokens>531971</tokens><words>531971</words><fused>0</fused></total>
   </size>
   <lemmas unique="23363" /><!-- el, de, ,, ., que, i, a, un, del, haver, en, anar, per, ser, ell -->
   <forms unique="32527" /><!-- de, ,, la, ., que, el, i, a, l', d', en, del, per, les, un -->
@@ -16,14 +16,14 @@
     <tag name="ADP">87975</tag><!-- de, a, del, en, per, al, amb, pel, d', entre -->
     <tag name="ADV">14911</tag><!-- no, més, també, ja, després, ahir, molt, avui, només, ara -->
     <tag name="AUX">22526</tag><!-- haver, anar, ser, poder, fer, estar, tornar, començar, deixar, continuar -->
-    <tag name="CONJ">14889</tag><!-- i, o, però, ni, sinó, y, que, mentre, bé, et -->
+    <tag name="CONJ">14889</tag><!-- i, o, però, ni, sinó, y, que, mentre, ,, bé -->
     <tag name="DET">72552</tag><!-- el, un, aquest, seu, la, tot, altre, l', mateix, algun -->
     <tag name="INTJ">15</tag><!-- vaja, he, 'm, compte, déu, ep, hola, home, marbella, mira -->
     <tag name="NOUN">99164</tag><!-- any, milió, pesseta, dia, obra, persona, president, mes, grup, tot -->
     <tag name="NUM">9261</tag><!-- dos, tres, un, quatre, cent, 10, cinc, sis, 15, 20 -->
     <tag name="PART">147</tag><!-- no -->
-    <tag name="PRON">23004</tag><!-- que, ell, es, hi, un, qual, jo, on, què, en -->
-    <tag name="PROPN">46741</tag><!-- Catalunya, barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU, PP -->
+    <tag name="PRON">22987</tag><!-- que, ell, es, hi, un, qual, jo, on, què, en -->
+    <tag name="PROPN">46739</tag><!-- Catalunya, barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU, PP -->
     <tag name="PUNCT">53441</tag><!-- ,, ., ", (, ), -, :, ;, ?, ¿ -->
     <tag name="SCONJ">10545</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, Como -->
     <tag name="SYM">4638</tag><!-- ', %, 50/100, 10/100, 30/100, 5/100, 1/100, 2/100, 25/100, 20/100 -->
@@ -109,14 +109,14 @@
     <dep name="iobj">987</dep>
     <dep name="mark">10527</dep>
     <dep name="mwe">9894</dep>
-    <dep name="name">19241</dep>
+    <dep name="name">19239</dep>
     <dep name="neg">2756</dep>
     <dep name="nmod">65236</dep>
     <dep name="nsubj">26517</dep>
     <dep name="nummod">5515</dep>
     <dep name="parataxis">566</dep>
     <dep name="punct">53567</dep>
-    <dep name="root">16695</dep>
+    <dep name="root">16678</dep>
     <dep name="xcomp">1500</dep>
   </deps>
 </treebank>

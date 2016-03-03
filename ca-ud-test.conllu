@@ -7924,7 +7924,7 @@
 13	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
 14	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	"	"	PUNCT	PUNCT	PunctType=Quot	16	punct	_	_
-16	Resposta	Resposta	PROPN	PROPN	_	12	dobj	_	MWE=Resposta_de_l'_estructura_davant_de_plantejaments_arquitectònics_plurifuncionals_:_L'_edifici_Frègoli_,__al_Carrer_Madrazo_,_i_la_nova_Facultat_de_Ciències_de_la_Informació_._Universitat_Ramon_Llull|MWEPOS=PROPN
+16	Resposta	Resposta	PROPN	PROPN	_	12	dobj	_	MWE=Resposta_de_l'_estructura_davant_de_plantejaments_arquitectònics_plurifuncionals_:_L'_edifici_Frègoli_,_al_Carrer_Madrazo_,_i_la_nova_Facultat_de_Ciències_de_la_Informació_._Universitat_Ramon_Llull|MWEPOS=PROPN
 17	de	de	ADP	ADP	AdpType=Prep	19	case	_	_
 18	l'	l'	DET	DET	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
 19	estructura	estructura	PROPN	PROPN	_	16	name	_	_
@@ -7938,26 +7938,25 @@
 27	edifici	edifici	PROPN	PROPN	_	16	name	_	_
 28	Frègoli	Frègoli	PROPN	PROPN	_	27	name	_	_
 29	,	,	PUNCT	PUNCT	_	16	punct	_	_
-30	_	_	PROPN	PROPN	_	16	name	_	_
-31	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	32	case	_	_
-32	Carrer	Carrer	PROPN	PROPN	_	16	name	_	_
-33	Madrazo	Madrazo	PROPN	PROPN	_	32	name	_	_
-34	,	,	PUNCT	PUNCT	_	16	punct	_	_
-35	i	i	CONJ	CONJ	_	16	name	_	_
-36	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	nova	nova	PROPN	PROPN	_	16	name	_	_
-38	Facultat	Facultat	PROPN	PROPN	_	37	name	_	_
-39	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
-40	Ciències	Ciències	PROPN	PROPN	_	37	name	_	_
-41	de	de	ADP	ADP	AdpType=Prep	43	case	_	_
-42	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
-43	Informació	Informació	PROPN	PROPN	_	37	name	_	_
-44	.	.	PUNCT	PUNCT	_	16	punct	_	_
-45	Universitat	Universitat	PROPN	PROPN	_	16	name	_	_
-46	Ramon	Ramon	PROPN	PROPN	_	45	name	_	_
-47	Llull	Llull	PROPN	PROPN	_	45	name	_	_
-48	"	"	PUNCT	PUNCT	PunctType=Quot	16	punct	_	_
-49	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
+30	al	_	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	31	case	_	_
+31	Carrer	al	PROPN	PROPN	_	16	name	_	_
+32	Madrazo	Carrer	PROPN	PROPN	_	31	name	_	_
+33	,	Madrazo	PUNCT	PUNCT	_	16	punct	_	_
+34	i	,	CONJ	CONJ	_	16	name	_	_
+35	la	i	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	nova	la	PROPN	PROPN	_	16	name	_	_
+37	Facultat	nova	PROPN	PROPN	_	36	name	_	_
+38	de	Facultat	ADP	ADP	AdpType=Prep	39	case	_	_
+39	Ciències	de	PROPN	PROPN	_	36	name	_	_
+40	de	Ciències	ADP	ADP	AdpType=Prep	42	case	_	_
+41	la	de	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	Informació	la	PROPN	PROPN	_	36	name	_	_
+43	.	Informació	PUNCT	PUNCT	_	16	punct	_	_
+44	Universitat	.	PROPN	PROPN	_	16	name	_	_
+45	Ramon	Universitat	PROPN	PROPN	_	44	name	_	_
+46	Llull	Ramon	PROPN	PROPN	_	44	name	_	_
+47	"	"	PUNCT	PUNCT	PunctType=Quot	16	punct	_	_
+48	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id ca-s205
 # orig_file_sentence 003#5
@@ -14876,7 +14875,7 @@
 23	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s378
-# orig_file_sentence 004#78
+# orig_file_sentence 004#77
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	foc	foc	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
@@ -14906,7 +14905,7 @@
 27	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
 
 # sent_id ca-s379
-# orig_file_sentence 004#79
+# orig_file_sentence 004#78
 1	Una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	espurna	espurna	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	a	a	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -14924,7 +14923,7 @@
 15	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s380
-# orig_file_sentence 004#80
+# orig_file_sentence 004#79
 1	A	a	ADP	ADP	AdpType=Prep	3	case	_	_
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	plantilla	plantilla	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
@@ -14950,7 +14949,7 @@
 23	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
 
 # sent_id ca-s381
-# orig_file_sentence 004#81
+# orig_file_sentence 004#80
 1	Max	Max	PROPN	PROPN	_	60	cc	_	MWE=Max_Cahner|MWEPOS=PROPN
 2	Cahner	Cahner	PROPN	PROPN	_	1	name	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
@@ -15043,7 +15042,7 @@
 90	.	.	PUNCT	PUNCT	PunctType=Peri	60	punct	_	_
 
 # sent_id ca-s382
-# orig_file_sentence 004#82
+# orig_file_sentence 004#81
 1	Per	per	ADP	ADP	AdpType=Prep	3	case	_	_
 2	tots	tot	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 3	ells	ell	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nmod	_	_
@@ -15070,7 +15069,7 @@
 24	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s383
-# orig_file_sentence 004#83
+# orig_file_sentence 004#82
 1	Max	Max	PROPN	PROPN	_	66	cc	_	MWE=Max_Cahner|MWEPOS=PROPN
 2	Cahner	Cahner	PROPN	PROPN	_	1	name	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
@@ -15172,7 +15171,7 @@
 99	.	.	PUNCT	PUNCT	PunctType=Peri	66	punct	_	_
 
 # sent_id ca-s384
-# orig_file_sentence 004#84
+# orig_file_sentence 004#83
 1	En	en	ADP	ADP	AdpType=Prep	3	case	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	col·loqui	col·loqui	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
@@ -15196,7 +15195,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
 # sent_id ca-s385
-# orig_file_sentence 004#85
+# orig_file_sentence 004#84
 1	Segons	segons	SCONJ	SCONJ	_	3	mark	_	_
 2	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	explicar	explicar	VERB	VERB	VerbForm=Inf	0	root	_	_
@@ -15229,7 +15228,7 @@
 30	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s386
-# orig_file_sentence 004#86
+# orig_file_sentence 004#85
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	director	director	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -15275,7 +15274,7 @@
 43	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id ca-s387
-# orig_file_sentence 004#87
+# orig_file_sentence 004#86
 1	Per	per	ADP	ADP	AdpType=Prep	2	case	_	_
 2	Cahner	Cahner	PROPN	PROPN	_	8	nmod	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
@@ -15316,7 +15315,7 @@
 38	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s388
-# orig_file_sentence 004#88
+# orig_file_sentence 004#87
 1	Segons	segons	SCONJ	SCONJ	_	3	mark	_	_
 2	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	exposar	exposar	VERB	VERB	VerbForm=Inf	32	advcl	_	_
@@ -15370,7 +15369,7 @@
 51	.	.	PUNCT	PUNCT	PunctType=Peri	32	punct	_	_
 
 # sent_id ca-s389
-# orig_file_sentence 004#89
+# orig_file_sentence 004#88
 1	Per	per	ADP	ADP	AdpType=Prep	2	case	_	_
 2	Nadal	Nadal	PROPN	PROPN	_	4	nmod	_	_
 3	"	"	PUNCT	PUNCT	PunctType=Quot	4	punct	_	_
@@ -15398,7 +15397,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s390
-# orig_file_sentence 004#90
+# orig_file_sentence 004#89
 1	Al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	19	advmod	_	MWE=Al_seu_torn|MWEPOS=ADV
 2	seu	seu	PRON	PRON	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	mwe	_	_
 3	torn	torn	NOUN	NOUN	_	1	mwe	_	_
@@ -15445,7 +15444,7 @@
 44	.	.	PUNCT	PUNCT	PunctType=Peri	19	punct	_	_
 
 # sent_id ca-s391
-# orig_file_sentence 004#91
+# orig_file_sentence 004#90
 1	Tots	tot	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	ells	ell	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 3	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -15474,7 +15473,7 @@
 26	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s392
-# orig_file_sentence 004#92
+# orig_file_sentence 004#91
 1	Pels	pel	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	2	case	_	_
 2	directors	director	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -15510,7 +15509,7 @@
 33	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id ca-s393
-# orig_file_sentence 004#93
+# orig_file_sentence 004#92
 1	Narcís	Narcís	PROPN	PROPN	_	5	nsubj	_	MWE=Narcís_Jordi_Aragó|MWEPOS=PROPN
 2	Jordi	Jordi	PROPN	PROPN	_	1	name	_	_
 3	Aragó	Aragó	PROPN	PROPN	_	1	name	_	_
@@ -15555,7 +15554,7 @@
 42	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s394
-# orig_file_sentence 004#94
+# orig_file_sentence 004#93
 1	Les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	conseqüències	conseqüència	NOUN	NOUN	Gender=Fem|Number=Plur	21	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -15586,7 +15585,7 @@
 28	.	.	PUNCT	PUNCT	PunctType=Peri	21	punct	_	_
 
 # sent_id ca-s395
-# orig_file_sentence 004#95
+# orig_file_sentence 004#94
 1	Segons	segons	ADP	ADP	AdpType=Prep	3	case	_	_
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Plataforma	Plataforma	PROPN	PROPN	_	22	nmod	_	MWE=Plataforma_Montsalat|MWEPOS=PROPN
@@ -15625,7 +15624,7 @@
 36	.	.	PUNCT	PUNCT	PunctType=Peri	22	punct	_	_
 
 # sent_id ca-s396
-# orig_file_sentence 004#96
+# orig_file_sentence 004#95
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fiscalia	fiscalia	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -15667,7 +15666,7 @@
 39	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s397
-# orig_file_sentence 004#97
+# orig_file_sentence 004#96
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	decisió	decisió	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -15703,7 +15702,7 @@
 33	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s398
-# orig_file_sentence 004#98
+# orig_file_sentence 004#97
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	petició	petició	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
 3	que	que	PRON	PRON	PronType=Rel	4	dobj	_	_
@@ -15744,7 +15743,7 @@
 38	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id ca-s399
-# orig_file_sentence 004#99
+# orig_file_sentence 004#98
 1	Segons	segons	ADP	ADP	AdpType=Prep	3	case	_	_
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	fiscalia	fiscalia	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	_
@@ -15784,7 +15783,7 @@
 37	.	.	PUNCT	PUNCT	PunctType=Peri	20	punct	_	_
 
 # sent_id ca-s400
-# orig_file_sentence 004#100
+# orig_file_sentence 004#99
 1	Per	per	ADP	ADP	AdpType=Prep	4	case	_	_
 2	a	a	ADP	ADP	AdpType=Prep	4	case	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -22113,7 +22112,7 @@
 18	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s590
-# orig_file_sentence 006#90
+# orig_file_sentence 006#89
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Consell	Consell	PROPN	PROPN	_	11	nsubj	_	MWE=Consell_General_del_II_Pla_Estratègic_Osona_XXI|MWEPOS=PROPN
 3	General	General	PROPN	PROPN	_	2	name	_	_
@@ -22146,7 +22145,7 @@
 30	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id ca-s591
-# orig_file_sentence 006#91
+# orig_file_sentence 006#90
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Pla	Pla	PROPN	PROPN	_	20	nsubj	_	MWE=Pla_Estratègic_Osona_XXI|MWEPOS=PROPN
 3	Estratègic	Estratègic	PROPN	PROPN	_	2	name	_	_
@@ -22173,7 +22172,7 @@
 24	.	.	PUNCT	PUNCT	PunctType=Peri	20	punct	_	_
 
 # sent_id ca-s592
-# orig_file_sentence 006#92
+# orig_file_sentence 006#91
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	esborrany	esborrany	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	que	que	PRON	PRON	PronType=Rel	6	nsubj	_	_
@@ -22222,7 +22221,7 @@
 46	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id ca-s593
-# orig_file_sentence 006#93
+# orig_file_sentence 006#92
 1	Aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	text	text	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	no	no	ADV	ADV	Negative=Neg	5	neg	_	_
@@ -22248,7 +22247,7 @@
 23	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s594
-# orig_file_sentence 006#94
+# orig_file_sentence 006#93
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	objectiu	objectiu	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	4	case	_	_
@@ -22286,7 +22285,7 @@
 35	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s595
-# orig_file_sentence 006#95
+# orig_file_sentence 006#94
 1	Dins	dins	ADV	ADV	_	7	advmod	_	_
 2	d'	de	ADP	ADP	AdpType=Prep	5	case	_	_
 3	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
@@ -22333,7 +22332,7 @@
 44	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s596
-# orig_file_sentence 006#96
+# orig_file_sentence 006#95
 1	Aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	objectiu	objectiu	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	es	es	PRON	PRON	_	4	dobj	_	_
@@ -22440,7 +22439,7 @@
 104	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s597
-# orig_file_sentence 006#97
+# orig_file_sentence 006#96
 1	Tres	tres	NUM	NUM	Number=Plur|NumType=Card	2	nummod	_	_
 2	setmanes	setmana	NOUN	NOUN	Gender=Fem|Number=Plur	3	nmod	_	_
 3	abans	abans	ADV	ADV	_	16	advmod	_	_
@@ -22488,7 +22487,7 @@
 45	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
 
 # sent_id ca-s598
-# orig_file_sentence 006#98
+# orig_file_sentence 006#97
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	director	director	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	no	no	ADV	ADV	Negative=Neg	5	neg	_	_
@@ -22500,7 +22499,7 @@
 9	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s599
-# orig_file_sentence 006#99
+# orig_file_sentence 006#98
 1	Ell	ell	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	una	un	PRON	PRON	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
@@ -22522,7 +22521,7 @@
 19	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s600
-# orig_file_sentence 006#100
+# orig_file_sentence 006#99
 1	De	de	ADP	ADP	AdpType=Prep	42	advmod	_	MWE=De_fet|MWEPOS=ADV
 2	fet	fet	NOUN	NOUN	_	1	mwe	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
@@ -25498,7 +25497,7 @@
 32	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s682
-# orig_file_sentence 007#82
+# orig_file_sentence 007#81
 1	Un	un	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	2	nmod	_	_
 2	5%	5/100	SYM	SYM	NumForm=Digit|NumType=Frac	10	cc	_	_
 3	o	o	CONJ	CONJ	_	2	cc	_	_
@@ -25532,7 +25531,7 @@
 31	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id ca-s683
-# orig_file_sentence 007#83
+# orig_file_sentence 007#82
 1	Al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	2	case	_	_
 2	costat	costat	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
 3	d'	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -25556,7 +25555,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s684
-# orig_file_sentence 007#84
+# orig_file_sentence 007#83
 1	Aquests	aquest	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	últims	últim	ADJ	ADJ	Gender=Masc|Number=Plur|NumType=Ord	11	nsubj	_	_
 3	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	5	punct	_	_
@@ -25587,7 +25586,7 @@
 28	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id ca-s685
-# orig_file_sentence 007#85
+# orig_file_sentence 007#84
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Col·legi	Col.legi	PROPN	PROPN	_	8	nsubj	_	MWE=Col·legi_de_Farmacèutics_de_Barcelona|MWEPOS=PROPN
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -25618,7 +25617,7 @@
 28	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s686
-# orig_file_sentence 007#86
+# orig_file_sentence 007#85
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	iniciativa	iniciativa	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	persegueix	perseguir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -25640,7 +25639,7 @@
 19	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s687
-# orig_file_sentence 007#87
+# orig_file_sentence 007#86
 1	D'	de	ADP	ADP	AdpType=Prep	3	case	_	_
 2	aquesta	aquest	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
 3	manera	manera	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
@@ -25680,7 +25679,7 @@
 37	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s688
-# orig_file_sentence 007#88
+# orig_file_sentence 007#87
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	col·legi	col·legi	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	basa	basar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -25712,7 +25711,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s689
-# orig_file_sentence 007#89
+# orig_file_sentence 007#88
 1	Segons	segons	ADP	ADP	AdpType=Prep	3	case	_	_
 2	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	informe	informe	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
@@ -25756,7 +25755,7 @@
 41	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s690
-# orig_file_sentence 007#90
+# orig_file_sentence 007#89
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	coordinador	coordinador	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	general	general	ADJ	ADJ	Number=Sing	2	amod	_	_
@@ -25817,7 +25816,7 @@
 58	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
 # sent_id ca-s691
-# orig_file_sentence 007#91
+# orig_file_sentence 007#90
 1	Per	per	ADP	ADP	AdpType=Prep	19	advmod	_	_
 2	fer	fer	VERB	VERB	VerbForm=Inf	1	advcl	_	_
 3	-ho	ho	PRON	PRON	Person=3|PronType=Prs	2	dobj	_	_
@@ -25859,7 +25858,7 @@
 39	.	.	PUNCT	PUNCT	PunctType=Peri	19	punct	_	_
 
 # sent_id ca-s692
-# orig_file_sentence 007#92
+# orig_file_sentence 007#91
 1	Ibarretxe	Ibarretxe	PROPN	PROPN	_	0	root	_	_
 2	i	i	CONJ	CONJ	_	1	cc	_	_
 3	Madrazo	Madrazo	PROPN	PROPN	_	1	conj	_	_
@@ -25871,7 +25870,7 @@
 9	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s693
-# orig_file_sentence 007#93
+# orig_file_sentence 007#92
 1	Ara	ara	ADV	ADV	_	3	advmod	_	_
 2	està	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	per	per	ADP	ADP	AdpType=Prep	0	root	_	_
@@ -25903,7 +25902,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s694
-# orig_file_sentence 007#94
+# orig_file_sentence 007#93
 1	En	en	ADP	ADP	AdpType=Prep	7	advmod	_	MWE=En_tot_cas|MWEPOS=ADV
 2	tot	tot	NOUN	NOUN	_	1	mwe	_	_
 3	cas	cas	NOUN	NOUN	_	1	mwe	_	_
@@ -25955,7 +25954,7 @@
 49	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s695
-# orig_file_sentence 007#95
+# orig_file_sentence 007#94
 1	"	"	PUNCT	PUNCT	PunctType=Quot	6	punct	_	_
 2	Aquí	aquí	ADV	ADV	_	6	advmod	_	_
 3	sempre	sempre	ADV	ADV	_	6	advmod	_	_
@@ -25971,7 +25970,7 @@
 13	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id ca-s696
-# orig_file_sentence 007#96
+# orig_file_sentence 007#95
 1	Llamazares	Llamazares	PROPN	PROPN	_	9	nsubj	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 3	per	per	ADP	ADP	AdpType=Prep	6	case	_	_
@@ -26090,7 +26089,7 @@
 116	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s697
-# orig_file_sentence 007#97
+# orig_file_sentence 007#96
 1	Madrazo	Madrazo	PROPN	PROPN	_	9	nsubj	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 3	per	per	ADP	ADP	AdpType=Prep	6	case	_	_
@@ -26157,7 +26156,7 @@
 64	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s698
-# orig_file_sentence 007#98
+# orig_file_sentence 007#97
 1	En	en	ADP	ADP	AdpType=Prep	3	case	_	_
 2	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	sentit	sentit	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
@@ -26210,7 +26209,7 @@
 50	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id ca-s700
-# orig_file_sentence 007#100
+# orig_file_sentence 007#98
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	entitat	entitat	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	no	no	ADV	ADV	Negative=Neg	5	neg	_	_
@@ -29212,12 +29211,8 @@
 75	societat	societat	NOUN	NOUN	Gender=Fem|Number=Sing	72	nmod	_	_
 76	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
 
-# sent_id ca-s782
-# orig_file_sentence 008#82
-1	_	_	PRON	PRON	_	0	root	_	_
-
 # sent_id ca-s783
-# orig_file_sentence 008#83
+# orig_file_sentence 008#82
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	desperfecte	desperfecte	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -29259,7 +29254,7 @@
 39	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s784
-# orig_file_sentence 008#84
+# orig_file_sentence 008#83
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cable	cable	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	uneix	unir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -29285,7 +29280,7 @@
 23	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s786
-# orig_file_sentence 008#86
+# orig_file_sentence 008#84
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	edifici	edifici	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
@@ -29319,7 +29314,7 @@
 31	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
 # sent_id ca-s787
-# orig_file_sentence 008#87
+# orig_file_sentence 008#85
 1	Els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	veïns	veí	NOUN	NOUN	Gender=Masc|Number=Plur	14	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -29340,7 +29335,7 @@
 18	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id ca-s788
-# orig_file_sentence 008#88
+# orig_file_sentence 008#86
 1	A	a	ADP	ADP	AdpType=Prep	3	case	_	_
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	confluència	confluència	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	_
@@ -29392,7 +29387,7 @@
 49	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
 # sent_id ca-s789
-# orig_file_sentence 008#89
+# orig_file_sentence 008#87
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	accés	accés	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	es	es	PRON	PRON	_	4	dobj	_	_
@@ -29416,7 +29411,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s790
-# orig_file_sentence 008#90
+# orig_file_sentence 008#88
 1	Allà	allà	ADV	ADV	_	3	advmod	_	_
 2	es	es	PRON	PRON	_	3	dobj	_	_
 3	veurà	veure	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -29431,7 +29426,7 @@
 12	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s791
-# orig_file_sentence 008#91
+# orig_file_sentence 008#89
 1	Els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	arquitectes	arquitecte	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -29451,7 +29446,7 @@
 17	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s792
-# orig_file_sentence 008#92
+# orig_file_sentence 008#90
 1	Una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	base	base	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	envidriada	envidriat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	2	amod	_	_
@@ -29467,7 +29462,7 @@
 13	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s794
-# orig_file_sentence 008#94
+# orig_file_sentence 008#91
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	exposició	exposició	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
@@ -29507,7 +29502,7 @@
 37	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s795
-# orig_file_sentence 008#95
+# orig_file_sentence 008#92
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	exposició	exposició	NOUN	NOUN	Gender=Fem|Number=Sing	23	nsubj	_	_
 3	Vells	Vells	PROPN	PROPN	_	2	appos	_	MWE=Vells_i_nous_mites|MWEPOS=PROPN
@@ -29563,7 +29558,7 @@
 53	.	.	PUNCT	PUNCT	PunctType=Peri	23	punct	_	_
 
 # sent_id ca-s796
-# orig_file_sentence 008#96
+# orig_file_sentence 008#93
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	projecte	projecte	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -29584,7 +29579,7 @@
 18	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s797
-# orig_file_sentence 008#97
+# orig_file_sentence 008#94
 1	Amb	amb	ADP	ADP	AdpType=Prep	2	case	_	_
 2	ell	ell	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
 3	hi	hi	PRON	PRON	Person=3|PronType=Prs	4	nmod	_	_
@@ -29613,7 +29608,7 @@
 26	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s798
-# orig_file_sentence 008#98
+# orig_file_sentence 008#95
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	economista	economista	NOUN	NOUN	Number=Sing	6	nsubj	_	_
 3	Jordi	Jordi	PROPN	PROPN	_	2	appos	_	MWE=Jordi_Oliveras|MWEPOS=PROPN
@@ -29634,7 +29629,7 @@
 18	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s799
-# orig_file_sentence 008#99
+# orig_file_sentence 008#96
 1	Llavors	llavors	ADV	ADV	_	4	advmod	_	_
 2	es	es	PRON	PRON	_	4	dobj	_	_
 3	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -29649,7 +29644,7 @@
 12	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s800
-# orig_file_sentence 008#100
+# orig_file_sentence 008#97
 1	Destacaven	destacar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	45	45	NUM	NUM	NumForm=Digit	3	nummod	_	_
 3	congressos	congrés	NOUN	NOUN	Gender=Masc|Number=Plur	1	nsubj	_	_
@@ -30956,7 +30951,7 @@
 47	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s837
-# orig_file_sentence 009#37
+# orig_file_sentence 009#36
 1	Uns	un	PRON	PRON	Gender=Masc|Number=Plur|PronType=Ind	2	nmod	_	_
 2	120	120	NUM	NUM	NumForm=Digit	3	nummod	_	_
 3	grups	grup	NOUN	NOUN	Gender=Masc|Number=Plur	11	nsubj	_	_
@@ -30977,7 +30972,7 @@
 18	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id ca-s838
-# orig_file_sentence 009#38
+# orig_file_sentence 009#37
 1	"	"	PUNCT	PUNCT	PunctType=Quot	17	punct	_	_
 2	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 3	primera	primer	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	6	cc	_	_
@@ -31065,7 +31060,7 @@
 85	.	.	PUNCT	PUNCT	PunctType=Peri	33	punct	_	_
 
 # sent_id ca-s839
-# orig_file_sentence 009#39
+# orig_file_sentence 009#38
 1	Tots	tot	PRON	PRON	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
 2	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	coincidir	coincidir	VERB	VERB	VerbForm=Inf	0	root	_	_
@@ -31099,7 +31094,7 @@
 31	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s840
-# orig_file_sentence 009#40
+# orig_file_sentence 009#39
 1	Al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	2	case	_	MWE=Al_voltant_de|MWEPOS=ADP
 2	voltant	voltant	NOUN	NOUN	_	5	nummod	_	_
 3	de	de	ADP	ADP	AdpType=Prep	2	mwe	_	_
@@ -31122,7 +31117,7 @@
 20	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id ca-s841
-# orig_file_sentence 009#41
+# orig_file_sentence 009#40
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	inauguració	inauguració	NOUN	NOUN	Gender=Fem|Number=Sing	36	nsubj	_	_
 3	oficial	oficial	ADJ	ADJ	Number=Sing	2	amod	_	_
@@ -31167,7 +31162,7 @@
 42	.	.	PUNCT	PUNCT	PunctType=Peri	36	punct	_	_
 
 # sent_id ca-s842
-# orig_file_sentence 009#42
+# orig_file_sentence 009#41
 1	Es	es	PRON	PRON	_	2	auxpass:reflex	_	_
 2	tracta	tractar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -31196,7 +31191,7 @@
 26	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s843
-# orig_file_sentence 009#43
+# orig_file_sentence 009#42
 1	Anguera	Anguera	PROPN	PROPN	_	3	nsubj	_	_
 2	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	assenyalar	assenyalar	VERB	VERB	VerbForm=Inf	0	root	_	_
@@ -31212,7 +31207,7 @@
 13	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s844
-# orig_file_sentence 009#44
+# orig_file_sentence 009#43
 1	"	"	PUNCT	PUNCT	PunctType=Quot	3	punct	_	_
 2	Hem	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	rebaixat	rebaixar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	ccomp	_	_
@@ -31242,7 +31237,7 @@
 27	.	.	PUNCT	PUNCT	PunctType=Peri	26	punct	_	_
 
 # sent_id ca-s845
-# orig_file_sentence 009#45
+# orig_file_sentence 009#44
 1	També	també	ADV	ADV	_	3	advmod	_	_
 2	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	afirmar	afirmar	VERB	VERB	VerbForm=Inf	0	root	_	_
@@ -31289,7 +31284,7 @@
 44	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s846
-# orig_file_sentence 009#46
+# orig_file_sentence 009#45
 1	Aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	espai	espai	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	comptarà	comptar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -31313,7 +31308,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s847
-# orig_file_sentence 009#47
+# orig_file_sentence 009#46
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	director	director	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -31345,7 +31340,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s848
-# orig_file_sentence 009#48
+# orig_file_sentence 009#47
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	presència	presència	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -31377,7 +31372,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id ca-s849
-# orig_file_sentence 009#49
+# orig_file_sentence 009#48
 1	Anguera	Anguera	PROPN	PROPN	_	4	nsubj	_	_
 2	es	ell	PRON	PRON	Person=3	4	dobj	_	_
 3	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -31422,7 +31417,7 @@
 42	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s850
-# orig_file_sentence 009#50
+# orig_file_sentence 009#49
 1	I	i	CONJ	CONJ	_	3	advmod	_	_
 2	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	destacar	destacar	VERB	VERB	VerbForm=Inf	0	root	_	_
@@ -31441,7 +31436,7 @@
 16	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s851
-# orig_file_sentence 009#51
+# orig_file_sentence 009#50
 1	No	no	ADV	ADV	Negative=Neg	2	neg	_	_
 2	tothom	tothom	PRON	PRON	Number=Sing|PronType=Ind	3	nsubj	_	_
 3	té	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -31505,14 +31500,14 @@
 61	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s852
-# orig_file_sentence 009#52
+# orig_file_sentence 009#51
 1	Igualet	Igualet	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
 2	que	que	SCONJ	SCONJ	_	3	mark	_	_
 3	Franco	Franco	PROPN	PROPN	_	1	nmod	_	_
 4	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s853
-# orig_file_sentence 009#53
+# orig_file_sentence 009#52
 1	També	també	ADV	ADV	_	7	advmod	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	MWE=el_seu|MWEPOS=DET
 3	seu	seu	DET	DET	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	compound	_	_
@@ -31546,7 +31541,7 @@
 31	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s854
-# orig_file_sentence 009#54
+# orig_file_sentence 009#53
 1	Tots	tot	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	aquests	aquest	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	raonaments	raonament	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -31568,7 +31563,7 @@
 19	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s855
-# orig_file_sentence 009#55
+# orig_file_sentence 009#54
 1	Ni	ni	ADV	ADV	Negative=Neg	6	advmod	_	_
 2	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 3	advocats	advocat	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
@@ -31580,7 +31575,7 @@
 9	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s856
-# orig_file_sentence 009#56
+# orig_file_sentence 009#55
 1	Però	però	CONJ	CONJ	_	6	advmod	_	_
 2	tant	tant	ADV	ADV	_	3	cc	_	_
 3	Fungairiño	Fungairiño	PROPN	PROPN	_	6	cc	_	_
@@ -31602,7 +31597,7 @@
 19	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s857
-# orig_file_sentence 009#57
+# orig_file_sentence 009#56
 1	Produeixen	produir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	més	més	ADV	ADV	_	3	nmod	_	_
 3	repulsió	repulsió	NOUN	NOUN	Gender=Fem|Number=Sing	1	dobj	_	_
@@ -31625,7 +31620,7 @@
 20	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s858
-# orig_file_sentence 009#58
+# orig_file_sentence 009#57
 1	Solen	soler	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	ocultar	ocultar	VERB	VERB	VerbForm=Inf	0	root	_	_
 3	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	MWE=les_seves|MWEPOS=DET
@@ -31655,7 +31650,7 @@
 27	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s859
-# orig_file_sentence 009#59
+# orig_file_sentence 009#58
 1	No	no	ADV	ADV	Negative=Neg	4	neg	_	_
 2	serà	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	_
 3	mai	mai	ADV	ADV	_	4	nmod	_	_
@@ -31683,7 +31678,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s860
-# orig_file_sentence 009#60
+# orig_file_sentence 009#59
 1	Des	des	ADP	ADP	AdpType=Prep	3	case	_	MWE=Des_del|MWEPOS=ADP
 2	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	1	mwe	_	_
 3	punt	punt	NOUN	NOUN	Gender=Masc|Number=Sing	11	nmod	_	_
@@ -31734,7 +31729,7 @@
 48	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id ca-s861
-# orig_file_sentence 009#61
+# orig_file_sentence 009#60
 1	Altres	altre	PRON	PRON	Number=Plur|PronType=Ind	2	nsubj	_	_
 2	fan	fer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	MWE=fan_servir|MWEPOS=VERB
 3	servir	servir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	compound	_	_
@@ -31782,7 +31777,7 @@
 45	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s862
-# orig_file_sentence 009#62
+# orig_file_sentence 009#61
 1	Molts	molt	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	compatriotes	compatriota	NOUN	NOUN	Number=Plur	5	nsubj	_	_
 3	nostres	nostre	DET	DET	Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
@@ -31817,7 +31812,7 @@
 32	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s863
-# orig_file_sentence 009#63
+# orig_file_sentence 009#62
 1	No	no	ADV	ADV	Negative=Neg	4	neg	_	_
 2	ho	ho	PRON	PRON	Person=3|PronType=Prs	4	dobj	_	_
 3	poden	poder	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -31825,7 +31820,7 @@
 5	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s864
-# orig_file_sentence 009#64
+# orig_file_sentence 009#63
 1	Duresa	duresa	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 2	dialèctica	dialèctic	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
@@ -31834,7 +31829,7 @@
 6	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s865
-# orig_file_sentence 009#65
+# orig_file_sentence 009#64
 1	És	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	pràcticament	pràcticament	ADV	ADV	_	3	nmod	_	_
 3	segur	segur	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
@@ -31862,7 +31857,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s866
-# orig_file_sentence 009#66
+# orig_file_sentence 009#65
 1	I	i	CONJ	CONJ	_	3	cc	_	_
 2	quan	quan	SCONJ	SCONJ	_	3	mark	_	_
 3	exigeix	exigir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -31889,7 +31884,7 @@
 24	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s867
-# orig_file_sentence 009#67
+# orig_file_sentence 009#66
 1	Però	però	CONJ	CONJ	_	2	advmod	_	_
 2	tenim	tenir	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -31917,7 +31912,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s868
-# orig_file_sentence 009#68
+# orig_file_sentence 009#67
 1	Encara	encara	NOUN	NOUN	_	5	mark	_	MWE=Encara_que|MWEPOS=SCONJ
 2	que	que	SCONJ	SCONJ	_	1	mwe	_	_
 3	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -31984,7 +31979,7 @@
 64	.	.	PUNCT	PUNCT	PunctType=Peri	31	punct	_	_
 
 # sent_id ca-s869
-# orig_file_sentence 009#69
+# orig_file_sentence 009#68
 1	Són	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 3	recurs	recurs	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -32025,7 +32020,7 @@
 38	...	...	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 
 # sent_id ca-s870
-# orig_file_sentence 009#70
+# orig_file_sentence 009#69
 1	Què	què	PRON	PRON	Number=Sing|PronType=Int	3	dobj	_	_
 2	ens	jo	PRON	PRON	Number=Plur|Person=1|PronType=Prs	3	dobj	_	_
 3	diran	dir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -32047,7 +32042,7 @@
 19	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	3	punct	_	_
 
 # sent_id ca-s871
-# orig_file_sentence 009#71
+# orig_file_sentence 009#70
 1	D'	de	ADP	ADP	AdpType=Prep	3	case	_	_
 2	altra	altre	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 3	banda	banda	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -32065,7 +32060,7 @@
 15	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s872
-# orig_file_sentence 009#72
+# orig_file_sentence 009#71
 1	I	i	CONJ	CONJ	_	2	cc	_	_
 2	falta	falta	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 3	d'	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -32074,7 +32069,7 @@
 6	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s873
-# orig_file_sentence 009#73
+# orig_file_sentence 009#72
 1	I	i	CONJ	CONJ	_	3	cc	_	_
 2	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 3	prevenció	prevenció	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
@@ -32082,7 +32077,7 @@
 5	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s874
-# orig_file_sentence 009#74
+# orig_file_sentence 009#73
 1	A	a	ADP	ADP	AdpType=Prep	6	advmod	_	MWE=A_més_a_més|MWEPOS=ADV
 2	més	més	ADV	ADV	_	1	mwe	_	_
 3	a	a	ADP	ADP	AdpType=Prep	1	mwe	_	_
@@ -32107,7 +32102,7 @@
 22	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s875
-# orig_file_sentence 009#75
+# orig_file_sentence 009#74
 1	Les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	imatges	imatge	NOUN	NOUN	Gender=Fem|Number=Plur	20	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -32131,13 +32126,13 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	20	punct	_	_
 
 # sent_id ca-s876
-# orig_file_sentence 009#76
+# orig_file_sentence 009#75
 1	Anem	anar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	malament	malament	ADV	ADV	_	1	advmod	_	_
 3	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s877
-# orig_file_sentence 009#77
+# orig_file_sentence 009#76
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	opinió	opinió	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	4	case	_	_
@@ -32150,7 +32145,7 @@
 10	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s878
-# orig_file_sentence 009#78
+# orig_file_sentence 009#77
 1	Els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	articulistes	articulista	NOUN	NOUN	Number=Plur	4	nsubj	_	_
 3	hi	hi	PRON	PRON	Person=3|PronType=Prs	4	nmod	_	_
@@ -32160,7 +32155,7 @@
 7	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s879
-# orig_file_sentence 009#79
+# orig_file_sentence 009#78
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Parlament	Parlament	PROPN	PROPN	_	4	nsubj	_	_
 3	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -32195,7 +32190,7 @@
 32	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s880
-# orig_file_sentence 009#80
+# orig_file_sentence 009#79
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	document	document	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	pretén	pretendre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -32226,7 +32221,7 @@
 28	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s881
-# orig_file_sentence 009#81
+# orig_file_sentence 009#80
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	document	document	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -32254,7 +32249,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	18	punct	_	_
 
 # sent_id ca-s882
-# orig_file_sentence 009#82
+# orig_file_sentence 009#81
 1	D'	de	ADP	ADP	AdpType=Prep	3	case	_	_
 2	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 3	banda	banda	NOUN	NOUN	Gender=Fem|Number=Sing	5	dobj	_	_
@@ -32274,7 +32269,7 @@
 17	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s883
-# orig_file_sentence 009#83
+# orig_file_sentence 009#82
 1	En	en	ADP	ADP	AdpType=Prep	3	case	_	_
 2	segon	segon	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	lloc	lloc	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -32325,7 +32320,7 @@
 48	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s884
-# orig_file_sentence 009#84
+# orig_file_sentence 009#83
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	tercera	tercer	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	línia	línia	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -32368,7 +32363,7 @@
 40	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s885
-# orig_file_sentence 009#85
+# orig_file_sentence 009#84
 1	També	també	ADV	ADV	_	2	advmod	_	_
 2	contempla	contemplar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
@@ -32392,7 +32387,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s886
-# orig_file_sentence 009#86
+# orig_file_sentence 009#85
 1	Finalment	finalment	ADV	ADV	_	9	advmod	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -32424,7 +32419,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s887
-# orig_file_sentence 009#87
+# orig_file_sentence 009#86
 1	Font	Font	PROPN	PROPN	_	3	nsubj	_	_
 2	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	destacat	destacar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -32476,7 +32471,7 @@
 49	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s888
-# orig_file_sentence 009#88
+# orig_file_sentence 009#87
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	diputada	diputada	NOUN	NOUN	Gender=Fem|Number=Sing	11	cc	_	_
 3	d'	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -32534,7 +32529,7 @@
 55	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id ca-s889
-# orig_file_sentence 009#89
+# orig_file_sentence 009#88
 1	Paral·lelament	paral·lelament	ADV	ADV	_	2	advmod	_	_
 2	considera	considerar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	necessari	necessari	ADJ	ADJ	Gender=Masc|Number=Sing	2	iobj	_	_
@@ -32559,7 +32554,7 @@
 22	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s890
-# orig_file_sentence 009#90
+# orig_file_sentence 009#89
 1	Víctor	Víctor	PROPN	PROPN	_	6	nsubj	_	MWE=Víctor_Redondo_Sierra|MWEPOS=PROPN
 2	Redondo	Redondo	PROPN	PROPN	_	1	name	_	_
 3	Sierra	Sierra	PROPN	PROPN	_	1	name	_	_
@@ -32578,7 +32573,7 @@
 16	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s891
-# orig_file_sentence 009#91
+# orig_file_sentence 009#90
 1	Redondo	Redondo	PROPN	PROPN	_	2	nsubj	_	_
 2	controla	controlar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
@@ -32597,7 +32592,7 @@
 16	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s892
-# orig_file_sentence 009#92
+# orig_file_sentence 009#91
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	junta	junta	NOUN	NOUN	Gender=Fem|Number=Sing	11	nsubj	_	_
 3	d'	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -32629,7 +32624,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id ca-s893
-# orig_file_sentence 009#93
+# orig_file_sentence 009#92
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Grup	Grup	PROPN	PROPN	_	8	nsubj	_	MWE=Grup_Parlamentari_d'_Izquierda_Unida|MWEPOS=PROPN
 3	Parlamentari	Parlamentari	PROPN	PROPN	_	2	name	_	_
@@ -32664,7 +32659,7 @@
 32	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s894
-# orig_file_sentence 009#94
+# orig_file_sentence 009#93
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	finalitat	finalitat	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -32680,7 +32675,7 @@
 13	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s896
-# orig_file_sentence 009#96
+# orig_file_sentence 009#94
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	ajuntament	ajuntament	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	anima	animar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -32710,7 +32705,7 @@
 27	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s897
-# orig_file_sentence 009#97
+# orig_file_sentence 009#95
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	publicació	publicació	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	també	també	ADV	ADV	_	4	advmod	_	_
@@ -32723,12 +32718,8 @@
 10	impostos	impost	NOUN	NOUN	Gender=Masc|Number=Plur	8	nmod	_	_
 11	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
-# sent_id ca-s898
-# orig_file_sentence 009#98
-1	_	_	PRON	PRON	_	0	root	_	_
-
 # sent_id ca-s899
-# orig_file_sentence 009#99
+# orig_file_sentence 009#96
 1	Quan	quan	SCONJ	SCONJ	_	6	mark	_	_
 2	més	més	ADV	ADV	_	3	nmod	_	_
 3	malament	malament	ADV	ADV	_	6	advmod	_	_
@@ -32781,7 +32772,7 @@
 50	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s900
-# orig_file_sentence 009#100
+# orig_file_sentence 009#97
 1	Va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 2	estar	estar	VERB	VERB	VerbForm=Inf	3	cop	_	_
 3	present	present	ADJ	ADJ	Number=Sing	0	root	_	_
@@ -38429,7 +38420,7 @@
 22	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1103
-# orig_file_sentence 012#3
+# orig_file_sentence 012#2
 1	Lluís	Lluís	PROPN	PROPN	_	10	nsubj	_	MWE=Lluís_Miquel_Pérez|MWEPOS=PROPN
 2	Miquel	Miquel	PROPN	PROPN	_	1	name	_	_
 3	Pérez	Pérez	PROPN	PROPN	_	1	name	_	_
@@ -38471,7 +38462,7 @@
 39	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id ca-s1104
-# orig_file_sentence 012#4
+# orig_file_sentence 012#3
 1	Pérez	Pérez	PROPN	PROPN	_	2	nsubj	_	_
 2	intenta	intentar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	evitar	evitar	VERB	VERB	VerbForm=Inf	2	xcomp	_	_
@@ -38482,7 +38473,7 @@
 8	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1105
-# orig_file_sentence 012#5
+# orig_file_sentence 012#4
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Palau	Palau	PROPN	PROPN	_	7	nsubj	_	MWE=Palau_de_la_Música_Catalana|MWEPOS=PROPN
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -38510,7 +38501,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1106
-# orig_file_sentence 012#6
+# orig_file_sentence 012#5
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	acte	acte	NOUN	NOUN	Gender=Masc|Number=Sing	5	iobj	_	_
 3	l'	ell	PRON	PRON	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	dobj	_	_
@@ -38566,7 +38557,7 @@
 53	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1107
-# orig_file_sentence 012#7
+# orig_file_sentence 012#6
 1	Cinc	cinc	NUM	NUM	Number=Plur|NumType=Card	2	nummod	_	_
 2	bombos	bombo	NOUN	NOUN	Gender=Masc|Number=Plur	14	nsubj	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
@@ -38626,7 +38617,7 @@
 57	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id ca-s1108
-# orig_file_sentence 012#8
+# orig_file_sentence 012#7
 1	"	"	PUNCT	PUNCT	PunctType=Quot	5	punct	_	_
 2	Va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	ser	ser	AUX	AUX	VerbForm=Inf	5	cop	_	_
@@ -38667,7 +38658,7 @@
 38	.	.	PUNCT	PUNCT	PunctType=Peri	21	punct	_	_
 
 # sent_id ca-s1109
-# orig_file_sentence 012#9
+# orig_file_sentence 012#8
 1	Per	per	ADP	ADP	AdpType=Prep	3	case	_	_
 2	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	3	case	_	_
 3	sorteig	sorteig	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
@@ -38711,7 +38702,7 @@
 41	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
 # sent_id ca-s1110
-# orig_file_sentence 012#10
+# orig_file_sentence 012#9
 1	D'	de	ADP	ADP	AdpType=Prep	8	case	_	_
 2	entre	entre	ADP	ADP	AdpType=Prep	8	case	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -38739,7 +38730,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s1111
-# orig_file_sentence 012#11
+# orig_file_sentence 012#10
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	loteria	loteria	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	no	no	ADV	ADV	Negative=Neg	7	neg	_	_
@@ -38763,7 +38754,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1112
-# orig_file_sentence 012#12
+# orig_file_sentence 012#11
 1	Aquesta	aquest	PRON	PRON	Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
 2	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 3	estat	ser	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
@@ -38782,7 +38773,7 @@
 16	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id ca-s1113
-# orig_file_sentence 012#13
+# orig_file_sentence 012#12
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	any	any	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
 3	passat	passat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	2	amod	_	_
@@ -38822,7 +38813,7 @@
 37	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1114
-# orig_file_sentence 012#14
+# orig_file_sentence 012#13
 1	En	en	ADP	ADP	AdpType=Prep	3	case	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	sorteig	sorteig	NOUN	NOUN	Gender=Masc|Number=Sing	30	nmod	_	_
@@ -38884,7 +38875,7 @@
 59	.	.	PUNCT	PUNCT	PunctType=Peri	30	punct	_	_
 
 # sent_id ca-s1115
-# orig_file_sentence 012#15
+# orig_file_sentence 012#14
 1	Sempre	sempre	ADV	ADV	_	3	advmod	_	_
 2	ens	jo	PRON	PRON	Number=Plur|Person=1|PronType=Prs	3	dobj	_	_
 3	posen	posar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -38897,7 +38888,7 @@
 10	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1116
-# orig_file_sentence 012#16
+# orig_file_sentence 012#15
 1	Amb	amb	ADP	ADP	AdpType=Prep	2	case	_	_
 2	Franco	Franco	PROPN	PROPN	_	0	root	_	_
 3	o	o	CONJ	CONJ	_	2	cc	_	_
@@ -38906,7 +38897,7 @@
 6	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1117
-# orig_file_sentence 012#17
+# orig_file_sentence 012#16
 1	Amb	amb	ADP	ADP	AdpType=Prep	3	case	_	_
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Constitució	Constitució	PROPN	PROPN	_	0	root	_	_
@@ -38917,7 +38908,7 @@
 8	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1118
-# orig_file_sentence 012#18
+# orig_file_sentence 012#17
 1	Amb	amb	ADP	ADP	AdpType=Prep	3	case	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Rei	Rei	PROPN	PROPN	_	0	root	_	_
@@ -38928,7 +38919,7 @@
 8	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1119
-# orig_file_sentence 012#19
+# orig_file_sentence 012#18
 1	Amb	amb	ADP	ADP	AdpType=Prep	4	case	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	gran	gran	ADJ	ADJ	Number=Sing	4	amod	_	_
@@ -38941,7 +38932,7 @@
 10	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1120
-# orig_file_sentence 012#20
+# orig_file_sentence 012#19
 1	Només	només	ADV	ADV	_	3	advmod	_	_
 2	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	esqueles	esquela	NOUN	NOUN	Gender=Fem|Number=Plur	13	nsubj	_	_
@@ -38968,7 +38959,7 @@
 24	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
 # sent_id ca-s1121
-# orig_file_sentence 012#21
+# orig_file_sentence 012#20
 1	I	i	CONJ	CONJ	_	8	advmod	_	_
 2	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 3	que	que	SCONJ	SCONJ	_	8	mark	_	_
@@ -39004,7 +38995,7 @@
 33	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s1122
-# orig_file_sentence 012#22
+# orig_file_sentence 012#21
 1	Perquè	perquè	SCONJ	SCONJ	_	4	mark	_	_
 2	no	no	ADV	ADV	Negative=Neg	4	neg	_	_
 3	hi	hi	PRON	PRON	Person=3|PronType=Prs	4	dobj	_	_
@@ -39032,7 +39023,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1123
-# orig_file_sentence 012#23
+# orig_file_sentence 012#22
 1	Potser	potser	ADV	ADV	_	14	advmod	_	_
 2	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 3	que	que	SCONJ	SCONJ	_	14	mark	_	_
@@ -39060,7 +39051,7 @@
 25	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	14	punct	_	_
 
 # sent_id ca-s1124
-# orig_file_sentence 012#24
+# orig_file_sentence 012#23
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ple	ple	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	4	case	_	_
@@ -39085,7 +39076,7 @@
 22	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1125
-# orig_file_sentence 012#25
+# orig_file_sentence 012#24
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	proposició	proposició	NOUN	NOUN	Gender=Fem|Number=Sing	15	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -39124,7 +39115,7 @@
 36	.	.	PUNCT	PUNCT	PunctType=Peri	15	punct	_	_
 
 # sent_id ca-s1126
-# orig_file_sentence 012#26
+# orig_file_sentence 012#25
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	proposició	proposició	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -39175,7 +39166,7 @@
 48	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1127
-# orig_file_sentence 012#27
+# orig_file_sentence 012#26
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	proposició	proposició	NOUN	NOUN	Gender=Fem|Number=Sing	15	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -39231,7 +39222,7 @@
 53	.	.	PUNCT	PUNCT	PunctType=Peri	15	punct	_	_
 
 # sent_id ca-s1128
-# orig_file_sentence 012#28
+# orig_file_sentence 012#27
 1	En	en	ADP	ADP	AdpType=Prep	3	case	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	testament	testament	NOUN	NOUN	Gender=Masc|Number=Sing	6	nmod	_	_
@@ -39285,7 +39276,7 @@
 51	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s1129
-# orig_file_sentence 012#29
+# orig_file_sentence 012#28
 1	A	a	ADP	ADP	AdpType=Prep	4	mark	_	MWE=A_fi_que|MWEPOS=SCONJ
 2	fi	fi	NOUN	NOUN	_	1	mwe	_	_
 3	que	que	SCONJ	SCONJ	_	1	mwe	_	_
@@ -39350,7 +39341,7 @@
 62	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s1130
-# orig_file_sentence 012#30
+# orig_file_sentence 012#29
 1	D'	de	ADP	ADP	AdpType=Prep	3	case	_	_
 2	altra	altre	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 3	banda	banda	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
@@ -39402,7 +39393,7 @@
 49	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1131
-# orig_file_sentence 012#31
+# orig_file_sentence 012#30
 1	Per	per	ADP	ADP	AdpType=Prep	3	case	_	_
 2	als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	3	case	_	_
 3	científics	científic	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
@@ -39452,7 +39443,7 @@
 47	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s1132
-# orig_file_sentence 012#32
+# orig_file_sentence 012#31
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	geòleg	geòleg	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
 3	Miquel	Miquel	PROPN	PROPN	_	2	appos	_	MWE=Miquel_Canals|MWEPOS=PROPN
@@ -39498,7 +39489,7 @@
 43	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
 
 # sent_id ca-s1133
-# orig_file_sentence 012#33
+# orig_file_sentence 012#32
 1	Busca	buscar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	senyals	senyal	NOUN	NOUN	Gender=Masc|Number=Plur	1	dobj	_	_
 3	mil·lenaris	mil·lenari	ADJ	ADJ	Gender=Masc|Number=Plur	2	amod	_	_
@@ -39532,7 +39523,7 @@
 31	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s1134
-# orig_file_sentence 012#34
+# orig_file_sentence 012#33
 1	Una	un	PRON	PRON	Gender=Fem|Number=Sing|PronType=Ind	11	nsubj	_	_
 2	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
 3	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
@@ -39547,7 +39538,7 @@
 12	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id ca-s1135
-# orig_file_sentence 012#35
+# orig_file_sentence 012#34
 1	Ara	ara	ADV	ADV	_	3	advmod	_	_
 2	fa	fer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	21.000	21000	NUM	NUM	NumForm=Digit	13	advmod	_	_
@@ -39567,7 +39558,7 @@
 17	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
 # sent_id ca-s1136
-# orig_file_sentence 012#36
+# orig_file_sentence 012#35
 1	Des	des	ADP	ADP	AdpType=Prep	14	advmod	_	MWE=Des_d'|MWEPOS=ADP
 2	d'	de	ADP	ADP	AdpType=Prep	1	mwe	_	_
 3	aleshores	aleshores	ADV	ADV	_	1	advmod	_	_
@@ -39591,7 +39582,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id ca-s1137
-# orig_file_sentence 012#37
+# orig_file_sentence 012#36
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	accelerada	accelerat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	8	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
@@ -39635,7 +39626,7 @@
 41	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s1138
-# orig_file_sentence 012#38
+# orig_file_sentence 012#37
 1	Canals	Canals	PROPN	PROPN	_	4	nsubj	_	_
 2	acaba	acabar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	mark	_	_
@@ -39679,7 +39670,7 @@
 41	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1139
-# orig_file_sentence 012#39
+# orig_file_sentence 012#38
 1	Un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	vaixell	vaixell	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	espanyol	espanyol	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
@@ -39693,7 +39684,7 @@
 11	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s1140
-# orig_file_sentence 012#40
+# orig_file_sentence 012#39
 1	Veterà	veterà	NOUN	NOUN	Gender=Masc|Number=Sing	22	appos	_	_
 2	d'	de	ADP	ADP	AdpType=Prep	4	case	_	_
 3	aquests	aquest	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
@@ -39730,7 +39721,7 @@
 34	.	.	PUNCT	PUNCT	PunctType=Peri	23	punct	_	_
 
 # sent_id ca-s1141
-# orig_file_sentence 012#41
+# orig_file_sentence 012#40
 1	"	"	PUNCT	PUNCT	PunctType=Quot	4	punct	_	_
 2	És	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
@@ -39771,7 +39762,7 @@
 38	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1142
-# orig_file_sentence 012#42
+# orig_file_sentence 012#41
 1	Deu	deure	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 2	ser	ser	AUX	AUX	VerbForm=Inf	4	cop	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -39779,7 +39770,7 @@
 5	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1143
-# orig_file_sentence 012#43
+# orig_file_sentence 012#42
 1	En	en	ADP	ADP	AdpType=Prep	3	case	_	_
 2	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	estiu	estiu	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
@@ -39818,7 +39809,7 @@
 36	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id ca-s1144
-# orig_file_sentence 012#44
+# orig_file_sentence 012#43
 1	Malgrat	malgrat	ADP	ADP	AdpType=Prep	3	case	_	_
 2	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	equipament	equipament	NOUN	NOUN	Gender=Masc|Number=Sing	16	nmod	_	_
@@ -39849,7 +39840,7 @@
 28	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
 
 # sent_id ca-s1145
-# orig_file_sentence 012#45
+# orig_file_sentence 012#44
 1	Els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	investigadors	investigador	NOUN	NOUN	Gender=Masc|Number=Plur	20	nsubj	_	_
 3	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	9	punct	_	_
@@ -39878,7 +39869,7 @@
 26	.	.	PUNCT	PUNCT	PunctType=Peri	20	punct	_	_
 
 # sent_id ca-s1146
-# orig_file_sentence 012#46
+# orig_file_sentence 012#45
 1	"	"	PUNCT	PUNCT	PunctType=Quot	2	punct	_	_
 2	Tenim	tenir	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
 3	poc	poc	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
@@ -39895,7 +39886,7 @@
 14	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id ca-s1147
-# orig_file_sentence 012#47
+# orig_file_sentence 012#46
 1	En	en	ADP	ADP	AdpType=Prep	3	case	_	_
 2	qualsevol	qualsevol	DET	DET	Number=Sing|PronType=Ind	3	det	_	_
 3	cas	cas	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
@@ -39912,7 +39903,7 @@
 14	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s1148
-# orig_file_sentence 012#48
+# orig_file_sentence 012#47
 1	Cada	cada	DET	DET	Number=Sing|PronType=Ind	2	det	_	_
 2	vegada	vegada	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
 3	hi	hi	PRON	PRON	Person=3|PronType=Prs	4	dobj	_	_
@@ -39947,7 +39938,7 @@
 32	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1150
-# orig_file_sentence 012#50
+# orig_file_sentence 012#48
 1	Fa	fer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	d'	de	ADP	ADP	AdpType=Prep	3	case	_	_
 3	amo	amo	NOUN	NOUN	Gender=Masc|Number=Sing	1	dobj	_	_
@@ -39981,7 +39972,7 @@
 31	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s1151
-# orig_file_sentence 012#51
+# orig_file_sentence 012#49
 1	Amb	amb	ADP	ADP	AdpType=Prep	2	case	_	_
 2	raó	raó	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
 3	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
@@ -39995,7 +39986,7 @@
 11	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s1152
-# orig_file_sentence 012#52
+# orig_file_sentence 012#50
 1	Però	però	CONJ	CONJ	_	9	advmod	_	_
 2	en	en	ADP	ADP	AdpType=Prep	9	advmod	_	MWE=en_comptes_d'|MWEPOS=CONJ
 3	comptes	comptes	NOUN	NOUN	_	2	mwe	_	_
@@ -40022,7 +40013,7 @@
 24	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s1153
-# orig_file_sentence 012#53
+# orig_file_sentence 012#51
 1	És	És	NOUN	NOUN	_	7	cc	_	MWE=És_a_dir|MWEPOS=CONJ
 2	a	a	ADP	ADP	AdpType=Prep	1	mwe	_	_
 3	dir	dir	NOUN	NOUN	_	1	mwe	_	_
@@ -40042,14 +40033,14 @@
 17	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1154
-# orig_file_sentence 012#54
+# orig_file_sentence 012#52
 1	Valor	valor	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 3	germans	germà	NOUN	NOUN	Gender=Masc|Number=Plur	1	appos	_	_
 4	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s1155
-# orig_file_sentence 012#55
+# orig_file_sentence 012#53
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	popular	popular	ADJ	ADJ	Number=Sing	3	amod	_	_
 3	Dr.	Dr.	PROPN	PROPN	_	5	nsubj	_	MWE=Dr._Soler|MWEPOS=PROPN
@@ -40064,7 +40055,7 @@
 12	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1156
-# orig_file_sentence 012#56
+# orig_file_sentence 012#54
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Fundació	Fundació	PROPN	PROPN	_	15	cc	_	MWE=Fundació_'_la_Caixa_'|MWEPOS=PROPN
 3	'	'	PUNCT	PUNCT	_	2	punct	_	_
@@ -40110,7 +40101,7 @@
 43	.	.	PUNCT	PUNCT	PunctType=Peri	15	punct	_	_
 
 # sent_id ca-s1157
-# orig_file_sentence 012#57
+# orig_file_sentence 012#55
 1	A	a	ADP	ADP	AdpType=Prep	10	case	_	MWE=A_través_de|MWEPOS=ADP
 2	través	través	NOUN	NOUN	_	1	mwe	_	_
 3	de	de	ADP	ADP	AdpType=Prep	1	mwe	_	_
@@ -40156,7 +40147,7 @@
 43	.	.	PUNCT	PUNCT	PunctType=Peri	29	punct	_	_
 
 # sent_id ca-s1158
-# orig_file_sentence 012#58
+# orig_file_sentence 012#56
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	exposició	exposició	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	es	es	PRON	PRON	_	5	dobj	_	_
@@ -40182,7 +40173,7 @@
 23	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1159
-# orig_file_sentence 012#59
+# orig_file_sentence 012#57
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	exposició	exposició	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	'	'	SYM	SYM	_	4	nmod	_	_
@@ -40208,7 +40199,7 @@
 23	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s1160
-# orig_file_sentence 012#60
+# orig_file_sentence 012#58
 1	Pel	pel	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	2	case	_	_
 2	comissari	comissari	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -40240,7 +40231,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	15	punct	_	_
 
 # sent_id ca-s1161
-# orig_file_sentence 012#61
+# orig_file_sentence 012#59
 1	Serà	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	aux	_	_
 2	recordada	recordar	VERB	VERB	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 3	com	com	SCONJ	SCONJ	_	5	mark	_	_
@@ -40271,7 +40262,7 @@
 28	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1162
-# orig_file_sentence 012#62
+# orig_file_sentence 012#60
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	mostra	mostra	NOUN	NOUN	Gender=Fem|Number=Sing	20	nsubj	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
@@ -40310,7 +40301,7 @@
 36	.	.	PUNCT	PUNCT	PunctType=Peri	20	punct	_	_
 
 # sent_id ca-s1163
-# orig_file_sentence 012#63
+# orig_file_sentence 012#61
 1	Per	per	ADP	ADP	AdpType=Prep	2	case	_	_
 2	Garcia	Garcia	PROPN	PROPN	_	7	nmod	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
@@ -40324,7 +40315,7 @@
 11	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1164
-# orig_file_sentence 012#64
+# orig_file_sentence 012#62
 1	'	'	SYM	SYM	_	10	nmod	_	_
 2	Tant	tant	NOUN	NOUN	_	10	advmod	_	MWE=Tant_de_bo|MWEPOS=ADV
 3	de	de	ADP	ADP	AdpType=Prep	2	mwe	_	_
@@ -40363,7 +40354,7 @@
 36	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id ca-s1165
-# orig_file_sentence 012#65
+# orig_file_sentence 012#63
 1	Hi	hi	PRON	PRON	Person=3|PronType=Prs	2	dobj	_	_
 2	ha	haver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
@@ -40386,7 +40377,7 @@
 20	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1166
-# orig_file_sentence 012#66
+# orig_file_sentence 012#64
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	títol	títol	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -40402,7 +40393,7 @@
 13	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s1167
-# orig_file_sentence 012#67
+# orig_file_sentence 012#65
 1	Respon	respondre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	a	a	ADP	ADP	AdpType=Prep	5	case	_	_
 3	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
@@ -40490,7 +40481,7 @@
 85	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s1168
-# orig_file_sentence 012#68
+# orig_file_sentence 012#66
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	comissari	comissari	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -40514,7 +40505,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1169
-# orig_file_sentence 012#69
+# orig_file_sentence 012#67
 1	'	'	SYM	SYM	_	11	nmod	_	_
 2	Dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	4	case	_	_
 3	22	22	NUM	NUM	NumForm=Digit	4	nummod	_	_
@@ -40553,7 +40544,7 @@
 36	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id ca-s1170
-# orig_file_sentence 012#70
+# orig_file_sentence 012#68
 1	Darrere	darrere	ADV	ADV	_	10	advmod	_	_
 2	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
 3	cada	cada	DET	DET	Number=Sing|PronType=Ind	4	det	_	_
@@ -40583,7 +40574,7 @@
 27	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id ca-s1171
-# orig_file_sentence 012#71
+# orig_file_sentence 012#69
 1	Cronològicament	cronològicament	ADV	ADV	_	4	advmod	_	_
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	mostra	mostra	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -40631,7 +40622,7 @@
 45	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1172
-# orig_file_sentence 012#72
+# orig_file_sentence 012#70
 1	Als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	2	case	_	_
 2	anys	anys	NOUN	NOUN	_	7	nmod	_	MWE=anys_30|MWEPOS=NOUN
 3	30	30	NUM	NUM	NumForm=Digit|NumType=Card	2	compound	_	_
@@ -40665,7 +40656,7 @@
 31	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1173
-# orig_file_sentence 012#73
+# orig_file_sentence 012#71
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	postguerra	postguerra	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	està	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -40733,7 +40724,7 @@
 65	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1174
-# orig_file_sentence 012#74
+# orig_file_sentence 012#72
 1	Els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	anys	anys	NOUN	NOUN	_	12	cc	_	MWE=anys_70|MWEPOS=NOUN
 3	70	70	NUM	NUM	NumForm=Digit|NumType=Card	2	compound	_	_
@@ -40773,7 +40764,7 @@
 37	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id ca-s1175
-# orig_file_sentence 012#75
+# orig_file_sentence 012#73
 1	ELS	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	DIMECRES	DIMECRES	NOUN	NOUN	AdvType=Tim	0	root	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
@@ -40785,7 +40776,7 @@
 9	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1176
-# orig_file_sentence 012#76
+# orig_file_sentence 012#74
 1	Pascual	Pascual	PROPN	PROPN	_	4	nsubj	_	MWE=Pascual_Maragall|MWEPOS=PROPN
 2	Maragall	Maragall	PROPN	PROPN	_	1	name	_	_
 3	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -40809,7 +40800,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1177
-# orig_file_sentence 012#77
+# orig_file_sentence 012#75
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tempteig	tempteig	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
 3	entre	entre	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -40824,7 +40815,7 @@
 12	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s1178
-# orig_file_sentence 012#78
+# orig_file_sentence 012#76
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	1994	1994	NOUN	NOUN	AdvType=Tim	4	nmod	_	_
 3	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -40858,7 +40849,7 @@
 31	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1179
-# orig_file_sentence 012#79
+# orig_file_sentence 012#77
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	MWE=La_seva|MWEPOS=DET
 2	seva	seu	DET	DET	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	compound	_	_
 3	teoria	teoria	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -40881,7 +40872,7 @@
 20	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1180
-# orig_file_sentence 012#80
+# orig_file_sentence 012#78
 1	Diu	dir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	així	així	ADV	ADV	_	1	advmod	_	_
 3	:	:	PUNCT	PUNCT	PunctType=Colo	7	punct	_	_
@@ -40902,7 +40893,7 @@
 18	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s1181
-# orig_file_sentence 012#81
+# orig_file_sentence 012#79
 1	No	no	ADV	ADV	Negative=Neg	3	neg	_	_
 2	en	en	PRON	PRON	Person=3|PronType=Prs	3	dobj	_	_
 3	té	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -40920,7 +40911,7 @@
 15	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1182
-# orig_file_sentence 012#82
+# orig_file_sentence 012#80
 1	I	i	CONJ	CONJ	_	2	advmod	_	_
 2	llança	llançar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	a	a	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -40943,7 +40934,7 @@
 20	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1183
-# orig_file_sentence 012#83
+# orig_file_sentence 012#81
 1	Les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	opcions	opció	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	són	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -40999,7 +40990,7 @@
 53	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1184
-# orig_file_sentence 012#84
+# orig_file_sentence 012#82
 1	Tant	tant	ADV	ADV	_	2	cc	_	_
 2	X	x	NOUN	NOUN	_	5	cc	_	_
 3	com	com	SCONJ	SCONJ	_	2	cc	_	_
@@ -41026,7 +41017,7 @@
 24	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1185
-# orig_file_sentence 012#85
+# orig_file_sentence 012#83
 1	És	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	dilema	dilema	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -41058,7 +41049,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1186
-# orig_file_sentence 012#86
+# orig_file_sentence 012#84
 1	Una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	versió	versió	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	més	més	ADV	ADV	_	4	nmod	_	_
@@ -41086,7 +41077,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s1187
-# orig_file_sentence 012#87
+# orig_file_sentence 012#85
 1	Deia	dir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	Gregor	Gregor	PROPN	PROPN	_	1	nsubj	_	MWE=Gregor_Gysi|MWEPOS=PROPN
 3	Gysi	Gysi	PROPN	PROPN	_	2	name	_	_
@@ -41127,7 +41118,7 @@
 38	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s1188
-# orig_file_sentence 012#88
+# orig_file_sentence 012#86
 1	És	És	NOUN	NOUN	_	0	root	_	MWE=És_a_dir|MWEPOS=CONJ
 2	a	a	ADP	ADP	AdpType=Prep	1	mwe	_	_
 3	dir	dir	NOUN	NOUN	_	1	mwe	_	_
@@ -41150,7 +41141,7 @@
 20	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s1189
-# orig_file_sentence 012#89
+# orig_file_sentence 012#87
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	dilema	dilema	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	inclou	incloure	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -41188,7 +41179,7 @@
 35	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1190
-# orig_file_sentence 012#90
+# orig_file_sentence 012#88
 1	Per	per	ADP	ADP	AdpType=Prep	8	advmod	_	_
 2	evitar	evitar	VERB	VERB	VerbForm=Inf	1	advcl	_	_
 3	suspicàcies	suspicàcia	NOUN	NOUN	Gender=Fem|Number=Plur	2	dobj	_	_
@@ -41225,7 +41216,7 @@
 34	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s1191
-# orig_file_sentence 012#91
+# orig_file_sentence 012#89
 1	Ara	ara	ADV	ADV	_	42	advmod	_	_
 2	que	que	SCONJ	SCONJ	_	4	mark	_	_
 3	ja	ja	ADV	ADV	_	4	advmod	_	_
@@ -41285,7 +41276,7 @@
 57	.	.	PUNCT	PUNCT	PunctType=Peri	42	punct	_	_
 
 # sent_id ca-s1192
-# orig_file_sentence 012#92
+# orig_file_sentence 012#90
 1	Però	però	CONJ	CONJ	_	18	advmod	_	_
 2	també	també	ADV	ADV	_	5	advmod	_	_
 3	aquestes	aquest	DET	DET	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
@@ -41317,7 +41308,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	18	punct	_	_
 
 # sent_id ca-s1193
-# orig_file_sentence 012#93
+# orig_file_sentence 012#91
 1	Que	que	SCONJ	SCONJ	_	4	mark	_	_
 2	ningú	ningú	PRON	PRON	Number=Sing|PronType=Ind	4	nsubj	_	_
 3	es	ell	PRON	PRON	Person=3	4	dobj	_	_
@@ -41370,7 +41361,7 @@
 50	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1194
-# orig_file_sentence 012#94
+# orig_file_sentence 012#92
 1	I	i	CONJ	CONJ	_	5	advmod	_	_
 2	Gysi	Gysi	PROPN	PROPN	_	5	nsubj	_	_
 3	tampoc	tampoc	ADV	ADV	_	5	advmod	_	_
@@ -41395,7 +41386,7 @@
 22	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1195
-# orig_file_sentence 012#95
+# orig_file_sentence 012#93
 1	Pujol	Pujol	PROPN	PROPN	_	5	cc	_	_
 2	i	i	CONJ	CONJ	_	1	cc	_	_
 3	Maragall	Maragall	PROPN	PROPN	_	1	conj	_	_
@@ -41411,7 +41402,7 @@
 13	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1196
-# orig_file_sentence 012#96
+# orig_file_sentence 012#94
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	president	president	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -41460,7 +41451,7 @@
 46	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1197
-# orig_file_sentence 012#97
+# orig_file_sentence 012#95
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	candidat	candidat	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	Maragall	Maragall	PROPN	PROPN	_	2	appos	_	_
@@ -41522,7 +41513,7 @@
 59	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1198
-# orig_file_sentence 012#98
+# orig_file_sentence 012#96
 1	Si	si	SCONJ	SCONJ	_	2	mark	_	_
 2	seguim	seguir	VERB	VERB	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	19	advcl	_	_
 3	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -41560,7 +41551,7 @@
 35	.	.	PUNCT	PUNCT	PunctType=Peri	19	punct	_	_
 
 # sent_id ca-s1199
-# orig_file_sentence 012#99
+# orig_file_sentence 012#97
 1	Si	si	SCONJ	SCONJ	_	2	mark	_	_
 2	seguim	seguir	VERB	VERB	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	12	advcl	_	_
 3	Gysi	Gysi	PROPN	PROPN	_	2	dobj	_	_
@@ -41623,7 +41614,7 @@
 60	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id ca-s1200
-# orig_file_sentence 012#100
+# orig_file_sentence 012#98
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	curiositat	curiositat	NOUN	NOUN	Gender=Fem|Number=Sing	9	nsubj	_	_
 3	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
@@ -43885,7 +43876,7 @@
 28	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1269
-# orig_file_sentence 013#69
+# orig_file_sentence 013#68
 1	Pares	pare	NOUN	NOUN	Gender=Masc|Number=Plur	15	punct	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 3	escoles	escola	NOUN	NOUN	Gender=Fem|Number=Plur	1	conj	_	_
@@ -43909,7 +43900,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	15	punct	_	_
 
 # sent_id ca-s1270
-# orig_file_sentence 013#70
+# orig_file_sentence 013#69
 1	Tots	tot	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	ells	ell	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 3	s'	ell	PRON	PRON	Person=3	6	dobj	_	_
@@ -43923,7 +43914,7 @@
 11	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s1271
-# orig_file_sentence 013#71
+# orig_file_sentence 013#70
 1	Un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	noi	noi	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	mor	morir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -43936,7 +43927,7 @@
 10	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1272
-# orig_file_sentence 013#72
+# orig_file_sentence 013#71
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	difunt	difunt	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
@@ -43953,7 +43944,7 @@
 14	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s1273
-# orig_file_sentence 013#73
+# orig_file_sentence 013#72
 1	Un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	noi	noi	NOUN	NOUN	Gender=Masc|Number=Sing	23	nsubj	_	_
 3	espanyol	espanyol	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
@@ -44001,7 +43992,7 @@
 45	.	.	PUNCT	PUNCT	PunctType=Peri	23	punct	_	_
 
 # sent_id ca-s1274
-# orig_file_sentence 013#74
+# orig_file_sentence 013#73
 1	Un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 2	altre	altre	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	1	det	_	_
 3	jove	jove	NOUN	NOUN	Number=Sing	9	nsubj	_	_
@@ -44018,7 +44009,7 @@
 14	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s1275
-# orig_file_sentence 013#75
+# orig_file_sentence 013#74
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	vol	vol	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	KL-742	KL-742	PROPN	PROPN	_	2	appos	_	_
@@ -44043,7 +44034,7 @@
 22	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1276
-# orig_file_sentence 013#76
+# orig_file_sentence 013#75
 1	Un	un	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
 2	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	3	case	_	_
 3	passatgers	passatger	NOUN	NOUN	Gender=Masc|Number=Plur	1	nmod	_	_
@@ -44080,7 +44071,7 @@
 34	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s1277
-# orig_file_sentence 013#77
+# orig_file_sentence 013#76
 1	Tant	tant	ADV	ADV	_	3	cc	_	_
 2	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	noi	noi	NOUN	NOUN	Gender=Masc|Number=Sing	9	cc	_	_
@@ -44104,7 +44095,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s1278
-# orig_file_sentence 013#78
+# orig_file_sentence 013#77
 1	Els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	metges	metge	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -44120,7 +44111,7 @@
 13	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1279
-# orig_file_sentence 013#79
+# orig_file_sentence 013#78
 1	En	en	ADP	ADP	AdpType=Prep	4	advmod	_	MWE=En_total|MWEPOS=ADV
 2	total	total	NOUN	NOUN	_	1	mwe	_	_
 3	hi	hi	PRON	PRON	Person=3|PronType=Prs	4	nmod	_	_
@@ -44152,7 +44143,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1280
-# orig_file_sentence 013#80
+# orig_file_sentence 013#79
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	droga	droga	NOUN	NOUN	Number=Sing	4	iobj	_	_
 3	la	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	dobj	_	_
@@ -44164,7 +44155,7 @@
 9	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1281
-# orig_file_sentence 013#81
+# orig_file_sentence 013#80
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	policia	policia	NOUN	NOUN	Number=Sing	6	nsubj	_	_
 3	francesa	francès	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
@@ -44181,7 +44172,7 @@
 14	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s1282
-# orig_file_sentence 013#82
+# orig_file_sentence 013#81
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	comissaria	comissaria	NOUN	NOUN	Gender=Fem|Number=Sing	14	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -44206,7 +44197,7 @@
 22	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id ca-s1283
-# orig_file_sentence 013#83
+# orig_file_sentence 013#82
 1	Un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	responsable	responsable	NOUN	NOUN	Number=Sing	4	nsubj	_	_
 3	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -44233,7 +44224,7 @@
 24	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1284
-# orig_file_sentence 013#84
+# orig_file_sentence 013#83
 1	Els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	detinguts	detingut	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
 3	per	per	ADP	ADP	AdpType=Prep	2	nmod	_	_
@@ -44261,7 +44252,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1285
-# orig_file_sentence 013#85
+# orig_file_sentence 013#84
 1	Dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	3	case	_	_
 2	set	set	NUM	NUM	Number=Plur|NumType=Card	3	nummod	_	_
 3	culeros	culeros	NOUN	NOUN	_	18	dobj	_	_
@@ -44290,7 +44281,7 @@
 26	.	.	PUNCT	PUNCT	PunctType=Peri	18	punct	_	_
 
 # sent_id ca-s1286
-# orig_file_sentence 013#86
+# orig_file_sentence 013#85
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	mateix	mateix	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	1	det	_	_
 3	agent	agent	NOUN	NOUN	Number=Sing	5	nsubj	_	_
@@ -44321,7 +44312,7 @@
 28	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1287
-# orig_file_sentence 013#87
+# orig_file_sentence 013#86
 1	Alguns	algun	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
 2	camells	camell	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
 3	s'	ell	PRON	PRON	Person=3	4	dobj	_	_
@@ -44331,7 +44322,7 @@
 7	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1288
-# orig_file_sentence 013#88
+# orig_file_sentence 013#87
 1	D'	de	ADP	ADP	AdpType=Prep	2	case	_	_
 2	altres	altre	PRON	PRON	Number=Plur|PronType=Ind	5	nsubj	_	_
 3	se	ell	PRON	PRON	Person=3|PronType=Prs	5	iobj	_	_
@@ -44347,7 +44338,7 @@
 13	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1289
-# orig_file_sentence 013#89
+# orig_file_sentence 013#88
 1	Els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fluids	fluid	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -44367,7 +44358,7 @@
 17	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1290
-# orig_file_sentence 013#90
+# orig_file_sentence 013#89
 1	Jesús	Jesús	PROPN	PROPN	_	0	root	_	MWE=Jesús_Alonso|MWEPOS=PROPN
 2	Alonso	Alonso	PROPN	PROPN	_	1	name	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
@@ -44377,7 +44368,7 @@
 7	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s1291
-# orig_file_sentence 013#91
+# orig_file_sentence 013#90
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	candidat	candidat	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -44406,7 +44397,7 @@
 26	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1292
-# orig_file_sentence 013#92
+# orig_file_sentence 013#91
 1	Alonso	Alonso	PROPN	PROPN	_	3	nsubj	_	_
 2	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	aconseguir	aconseguir	VERB	VERB	VerbForm=Inf	0	root	_	_
@@ -44426,7 +44417,7 @@
 17	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1293
-# orig_file_sentence 013#93
+# orig_file_sentence 013#92
 1	Dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	3	case	_	_
 2	7.302	7302	NUM	NUM	NumForm=Digit	3	nummod	_	_
 3	arquitectes	arquitecte	NOUN	NOUN	Gender=Masc|Number=Plur	12	dobj	_	_
@@ -44468,7 +44459,7 @@
 39	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id ca-s1294
-# orig_file_sentence 013#94
+# orig_file_sentence 013#93
 1	Les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	iniciatives	iniciativa	NOUN	NOUN	Gender=Fem|Number=Plur	16	nsubj	_	_
 3	per	per	ADP	ADP	AdpType=Prep	2	nmod	_	_
@@ -44488,7 +44479,7 @@
 17	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
 
 # sent_id ca-s1295
-# orig_file_sentence 013#95
+# orig_file_sentence 013#94
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ministre	ministre	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
 3	alemany	alemany	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
@@ -44528,7 +44519,7 @@
 37	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id ca-s1296
-# orig_file_sentence 013#96
+# orig_file_sentence 013#95
 1	Fischer	Fischer	PROPN	PROPN	_	3	nsubj	_	_
 2	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	afegir	afegir	VERB	VERB	VerbForm=Inf	0	root	_	_
@@ -44552,7 +44543,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1297
-# orig_file_sentence 013#97
+# orig_file_sentence 013#96
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	primer	primer	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
 3	pas	pas	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -44595,7 +44586,7 @@
 40	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s1298
-# orig_file_sentence 013#98
+# orig_file_sentence 013#97
 1	Segons	segons	ADP	ADP	AdpType=Prep	3	case	_	_
 2	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	opinió	opinió	NOUN	NOUN	Gender=Fem|Number=Sing	22	nmod	_	_
@@ -44657,7 +44648,7 @@
 59	.	.	PUNCT	PUNCT	PunctType=Peri	22	punct	_	_
 
 # sent_id ca-s1299
-# orig_file_sentence 013#99
+# orig_file_sentence 013#98
 1	Rambouillet	Rambouillet	PROPN	PROPN	_	0	root	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 3	punt	punt	NOUN	NOUN	Gender=Masc|Number=Sing	1	appos	_	_
@@ -44666,7 +44657,7 @@
 6	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s1300
-# orig_file_sentence 013#100
+# orig_file_sentence 013#99
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	ministre	ministre	NOUN	NOUN	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	alemany	alemany	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
@@ -53578,7 +53569,7 @@
 42	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1550
-# orig_file_sentence 016#50
+# orig_file_sentence 016#49
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	veritat	veritat	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -53589,7 +53580,7 @@
 8	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1551
-# orig_file_sentence 016#51
+# orig_file_sentence 016#50
 1	Com	com	PRON	PRON	PronType=Int	3	nmod	_	_
 2	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	arribar	arribar	VERB	VERB	VerbForm=Inf	0	root	_	_
@@ -53601,7 +53592,7 @@
 9	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	3	punct	_	_
 
 # sent_id ca-s1552
-# orig_file_sentence 016#52
+# orig_file_sentence 016#51
 1	Per	per	ADP	ADP	AdpType=Prep	2	case	_	_
 2	què	què	PRON	PRON	Number=Sing|PronType=Int	6	nmod	_	_
 3	Méry	Méry	PROPN	PROPN	_	6	nsubj	_	_
@@ -53614,7 +53605,7 @@
 10	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	6	punct	_	_
 
 # sent_id ca-s1553
-# orig_file_sentence 016#53
+# orig_file_sentence 016#52
 1	Per	per	ADP	ADP	AdpType=Prep	2	case	_	_
 2	què	què	PRON	PRON	Number=Sing|PronType=Int	5	nmod	_	_
 3	Hamelin	Hamelin	PROPN	PROPN	_	5	nsubj	_	_
@@ -53635,7 +53626,7 @@
 18	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	5	punct	_	_
 
 # sent_id ca-s1554
-# orig_file_sentence 016#54
+# orig_file_sentence 016#53
 1	Per	per	ADP	ADP	AdpType=Prep	2	case	_	_
 2	què	què	PRON	PRON	Number=Sing|PronType=Int	5	nmod	_	_
 3	Belot	Belot	PROPN	PROPN	_	5	nsubj	_	_
@@ -53656,7 +53647,7 @@
 18	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	5	punct	_	_
 
 # sent_id ca-s1555
-# orig_file_sentence 016#55
+# orig_file_sentence 016#54
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	hipòtesi	hipòtesi	NOUN	NOUN	Gender=Fem|Number=Sing	16	nsubj	_	_
 3	que	que	PRON	PRON	PronType=Rel	4	dobj	_	_
@@ -53680,7 +53671,7 @@
 21	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
 
 # sent_id ca-s1556
-# orig_file_sentence 016#56
+# orig_file_sentence 016#55
 1	Belot	Belot	PROPN	PROPN	_	3	nsubj	_	_
 2	hauria	haver	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	3	aux	_	_
 3	entregat	entregar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -53709,7 +53700,7 @@
 26	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1557
-# orig_file_sentence 016#57
+# orig_file_sentence 016#56
 1	Obligat	obligat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	9	dobj	_	_
 2	a	a	ADP	ADP	AdpType=Prep	1	dobj	_	_
 3	retirar	retirar	VERB	VERB	VerbForm=Inf	2	advcl	_	_
@@ -53728,7 +53719,7 @@
 16	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id ca-s1558
-# orig_file_sentence 016#58
+# orig_file_sentence 016#57
 1	Fins	fins	NOUN	NOUN	_	5	advmod	_	MWE=Fins_i_tot|MWEPOS=ADV
 2	i	i	CONJ	CONJ	_	1	mwe	_	_
 3	tot	tot	NOUN	NOUN	_	1	mwe	_	_
@@ -53771,7 +53762,7 @@
 40	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1559
-# orig_file_sentence 016#59
+# orig_file_sentence 016#58
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 2	altra	altre	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	1	det	_	_
 3	hipòtesi	hipòtesi	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -53783,7 +53774,7 @@
 9	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s1560
-# orig_file_sentence 016#60
+# orig_file_sentence 016#59
 1	Com	com	PRON	PRON	PronType=Int	4	nmod	_	_
 2	es	es	PRON	PRON	_	4	dobj	_	_
 3	pot	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -53806,7 +53797,7 @@
 20	?	?	PUNCT	PUNCT	PunctSide=Fin|PunctType=Qest	4	punct	_	_
 
 # sent_id ca-s1561
-# orig_file_sentence 016#61
+# orig_file_sentence 016#60
 1	Però	però	CONJ	CONJ	_	8	cc	_	_
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	desimboltura	desimboltura	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -53829,7 +53820,7 @@
 20	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s1562
-# orig_file_sentence 016#62
+# orig_file_sentence 016#61
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 2	que	que	PRON	PRON	PronType=Rel	4	nsubj	_	_
 3	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -53864,7 +53855,7 @@
 32	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1563
-# orig_file_sentence 016#63
+# orig_file_sentence 016#62
 1	També	també	ADV	ADV	_	3	advmod	_	_
 2	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	cert	cert	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
@@ -53892,7 +53883,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1564
-# orig_file_sentence 016#64
+# orig_file_sentence 016#63
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	investigació	investigació	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
 3	judicial	judicial	ADJ	ADJ	Number=Sing	2	amod	_	_
@@ -53923,7 +53914,7 @@
 28	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id ca-s1565
-# orig_file_sentence 016#65
+# orig_file_sentence 016#64
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	grup	grup	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 3	germanonord-americà	germanonord-americà	ADJ	ADJ	_	2	amod	_	_
@@ -53957,7 +53948,7 @@
 31	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1566
-# orig_file_sentence 016#66
+# orig_file_sentence 016#65
 1	DaimlerChrysler	DaimlerChrysler	PROPN	PROPN	_	3	nsubj	_	_
 2	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	vendre	vendre	VERB	VERB	VerbForm=Inf	0	root	_	_
@@ -53989,7 +53980,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1567
-# orig_file_sentence 016#67
+# orig_file_sentence 016#66
 1	Aquesta	aquest	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	caiguda	caiguda	NOUN	NOUN	Gender=Fem|Number=Sing	4	dobj	_	_
 3	se	se	PRON	PRON	_	4	auxpass:reflex	_	_
@@ -54005,7 +53996,7 @@
 13	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1568
-# orig_file_sentence 016#68
+# orig_file_sentence 016#67
 1	Per	per	ADP	ADP	AdpType=Prep	10	advmod	_	_
 2	donar	donar	VERB	VERB	VerbForm=Inf	1	advcl	_	MWE=donar_sortida|MWEPOS=VERB
 3	sortida	sortida	VERB	VERB	VerbForm=Inf	2	compound	_	_
@@ -54033,7 +54024,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id ca-s1569
-# orig_file_sentence 016#69
+# orig_file_sentence 016#68
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fàbrica	fàbrica	NOUN	NOUN	Gender=Fem|Number=Sing	13	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -54058,7 +54049,7 @@
 22	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
 # sent_id ca-s1570
-# orig_file_sentence 016#70
+# orig_file_sentence 016#69
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	tercera	tercer	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
 3	setmana	setmana	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
@@ -54085,7 +54076,7 @@
 24	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1571
-# orig_file_sentence 016#71
+# orig_file_sentence 016#70
 1	"	"	PUNCT	PUNCT	PunctType=Quot	4	punct	_	_
 2	Hem	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	mark	_	_
@@ -54128,7 +54119,7 @@
 40	.	.	PUNCT	PUNCT	PunctType=Peri	18	punct	_	_
 
 # sent_id ca-s1572
-# orig_file_sentence 016#72
+# orig_file_sentence 016#71
 1	Els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	models	model	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	fabricats	fabricat	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	2	amod	_	_
@@ -54157,7 +54148,7 @@
 26	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
 
 # sent_id ca-s1573
-# orig_file_sentence 016#73
+# orig_file_sentence 016#72
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	associació	associació	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	Defensor	Defensor	PROPN	PROPN	_	2	appos	_	MWE=Defensor_del_Pacient|MWEPOS=PROPN
@@ -54188,7 +54179,7 @@
 28	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1574
-# orig_file_sentence 016#74
+# orig_file_sentence 016#73
 1	Una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	persona	persona	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -54220,7 +54211,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1575
-# orig_file_sentence 016#75
+# orig_file_sentence 016#74
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	mort	mort	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -54248,7 +54239,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
 
 # sent_id ca-s1576
-# orig_file_sentence 016#76
+# orig_file_sentence 016#75
 1	Es	es	PRON	PRON	_	2	auxpass:reflex	_	_
 2	tracta	tractar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -54279,7 +54270,7 @@
 28	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1577
-# orig_file_sentence 016#77
+# orig_file_sentence 016#76
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cas	cas	NOUN	NOUN	Gender=Masc|Number=Sing	15	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -54315,7 +54306,7 @@
 33	.	.	PUNCT	PUNCT	PunctType=Peri	15	punct	_	_
 
 # sent_id ca-s1578
-# orig_file_sentence 016#78
+# orig_file_sentence 016#77
 1	Les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	autoritats	autoritat	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	sanitàries	sanitari	ADJ	ADJ	Gender=Fem|Number=Plur	2	amod	_	_
@@ -54330,7 +54321,7 @@
 12	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1579
-# orig_file_sentence 016#79
+# orig_file_sentence 016#78
 1	Fonts	font	NOUN	NOUN	Gender=Fem|Number=Plur	7	nsubj	_	_
 2	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	3	case	_	_
 3	Ministeri	Ministeri	PROPN	PROPN	_	1	nmod	_	MWE=Ministeri_de_Sanitat|MWEPOS=PROPN
@@ -54352,7 +54343,7 @@
 19	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1580
-# orig_file_sentence 016#80
+# orig_file_sentence 016#79
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Lipobay	Lipobay	PROPN	PROPN	_	5	nsubj	_	_
 3	es	es	PRON	PRON	_	5	dobj	_	_
@@ -54367,7 +54358,7 @@
 12	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1581
-# orig_file_sentence 016#81
+# orig_file_sentence 016#80
 1	Amb	amb	ADP	ADP	AdpType=Prep	5	case	_	_
 2	aquests	aquest	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
 3	dos	dos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	2	nummod	_	_
@@ -54399,7 +54390,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id ca-s1582
-# orig_file_sentence 016#82
+# orig_file_sentence 016#81
 1	Quan	quan	SCONJ	SCONJ	_	6	mark	_	_
 2	ja	ja	ADV	ADV	_	6	advmod	_	_
 3	fa	fer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -54434,7 +54425,7 @@
 32	.	.	PUNCT	PUNCT	PunctType=Peri	15	punct	_	_
 
 # sent_id ca-s1583
-# orig_file_sentence 016#83
+# orig_file_sentence 016#82
 1	D'	de	ADP	ADP	AdpType=Prep	3	case	_	_
 2	altra	altre	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 3	banda	banda	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
@@ -54466,7 +54457,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id ca-s1584
-# orig_file_sentence 016#84
+# orig_file_sentence 016#83
 1	D'	de	ADP	ADP	AdpType=Prep	2	case	_	_
 2	aquestes	aquest	PRON	PRON	Gender=Fem|Number=Plur|PronType=Dem	6	dobj	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
@@ -54487,7 +54478,7 @@
 18	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s1586
-# orig_file_sentence 016#86
+# orig_file_sentence 016#84
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	querella	querella	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
 3	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -54528,7 +54519,7 @@
 38	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1587
-# orig_file_sentence 016#87
+# orig_file_sentence 016#85
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	avalista	avalista	NOUN	NOUN	_	19	nsubj	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
@@ -54557,7 +54548,7 @@
 26	.	.	PUNCT	PUNCT	PunctType=Peri	19	punct	_	_
 
 # sent_id ca-s1588
-# orig_file_sentence 016#88
+# orig_file_sentence 016#86
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	jutgessa	jutgessa	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	investiga	investigar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -54577,7 +54568,7 @@
 17	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1589
-# orig_file_sentence 016#89
+# orig_file_sentence 016#87
 1	Creix	créixer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	18,7%	18.7/100	SYM	SYM	NumForm=Digit|NumType=Frac	1	dobj	_	_
@@ -54589,7 +54580,7 @@
 9	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s1590
-# orig_file_sentence 016#90
+# orig_file_sentence 016#88
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	asseguradora	asseguradora	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -54617,7 +54608,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1591
-# orig_file_sentence 016#91
+# orig_file_sentence 016#89
 1	Els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	MWE=Els_seus|MWEPOS=DET
 2	seus	seu	DET	DET	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	compound	_	_
 3	ingressos	ingrés	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -54643,7 +54634,7 @@
 23	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1592
-# orig_file_sentence 016#92
+# orig_file_sentence 016#90
 1	Les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	vendes	venda	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
 3	d'	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -54656,7 +54647,7 @@
 10	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1593
-# orig_file_sentence 016#93
+# orig_file_sentence 016#91
 1	Les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	matriculacions	matriculació	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -54684,7 +54675,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1594
-# orig_file_sentence 016#94
+# orig_file_sentence 016#92
 1	Toyota	Toyota	PROPN	PROPN	_	10	nsubj	_	_
 2	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 3	tornar	tornar	AUX	AUX	VerbForm=Inf	10	aux	_	_
@@ -54719,7 +54710,7 @@
 32	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id ca-s1595
-# orig_file_sentence 016#95
+# orig_file_sentence 016#93
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	nou	nou	ADJ	ADJ	Gender=Masc|Number=Sing	3	amod	_	_
 3	Mercedes	Mercedes	PROPN	PROPN	_	5	nsubj	_	MWE=Mercedes_A|MWEPOS=PROPN
@@ -54733,7 +54724,7 @@
 11	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1596
-# orig_file_sentence 016#96
+# orig_file_sentence 016#94
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	nova	nou	ADJ	ADJ	Gender=Fem|Number=Sing	3	amod	_	_
 3	generació	generació	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -54768,7 +54759,7 @@
 32	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1597
-# orig_file_sentence 016#97
+# orig_file_sentence 016#95
 1	Valeo	Valeo	PROPN	PROPN	_	2	nsubj	_	_
 2	té	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pèrdues	pèrdua	NOUN	NOUN	Gender=Fem|Number=Plur	2	dobj	_	_
@@ -54779,7 +54770,7 @@
 8	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1598
-# orig_file_sentence 016#98
+# orig_file_sentence 016#96
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fabricant	fabricant	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
 3	francès	francès	ADJ	ADJ	Gender=Masc|Number=Sing	2	amod	_	_
@@ -54811,7 +54802,7 @@
 29	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s1599
-# orig_file_sentence 016#99
+# orig_file_sentence 016#97
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Borsa	Borsa	PROPN	PROPN	_	5	nsubj	_	MWE=Borsa_de_Frankfurt|MWEPOS=PROPN
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -54824,7 +54815,7 @@
 10	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1600
-# orig_file_sentence 016#100
+# orig_file_sentence 016#98
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Deutsche	deutsche	PROPN	PROPN	_	5	nsubj	_	MWE=Deutsche_Boerse|MWEPOS=PROPN
 3	Boerse	boerse	PROPN	PROPN	_	2	name	_	_
@@ -62591,12 +62582,8 @@
 24	mai	mai	ADV	ADV	_	23	advmod	_	_
 25	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
-# sent_id ca-s1835
-# orig_file_sentence 019#35
-1	_	_	PRON	PRON	_	0	root	_	_
-
 # sent_id ca-s1836
-# orig_file_sentence 019#36
+# orig_file_sentence 019#35
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	operació	operació	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	costa	costar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -62614,7 +62601,7 @@
 15	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1837
-# orig_file_sentence 019#37
+# orig_file_sentence 019#36
 1	Les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	companyies	companyia	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
 3	invertiran	invertir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -62631,7 +62618,7 @@
 14	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1838
-# orig_file_sentence 019#38
+# orig_file_sentence 019#37
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	empresa	empresa	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	elèctrica	elèctric	ADJ	ADJ	Gender=Fem|Number=Sing	2	amod	_	_
@@ -62683,7 +62670,7 @@
 49	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s1839
-# orig_file_sentence 019#39
+# orig_file_sentence 019#38
 1	Tots	tot	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
 2	dos	dos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	1	nummod	_	_
 3	grups	grup	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
@@ -62716,7 +62703,7 @@
 30	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1840
-# orig_file_sentence 019#40
+# orig_file_sentence 019#39
 1	Iberdrola	Iberdrola	PROPN	PROPN	_	2	nsubj	_	_
 2	assegura	assegurar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	SCONJ	_	9	mark	_	_
@@ -62734,7 +62721,7 @@
 15	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1841
-# orig_file_sentence 019#41
+# orig_file_sentence 019#40
 1	Amb	amb	ADP	ADP	AdpType=Prep	3	case	_	_
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	inversió	inversió	NOUN	NOUN	Gender=Fem|Number=Sing	12	nmod	_	_
@@ -62795,7 +62782,7 @@
 58	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id ca-s1842
-# orig_file_sentence 019#42
+# orig_file_sentence 019#41
 1	Des	des	ADP	ADP	AdpType=Prep	4	case	_	MWE=Des_de|MWEPOS=ADP
 2	de	de	ADP	ADP	AdpType=Prep	1	mwe	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -62851,7 +62838,7 @@
 53	.	.	PUNCT	PUNCT	PunctType=Peri	37	punct	_	_
 
 # sent_id ca-s1843
-# orig_file_sentence 019#43
+# orig_file_sentence 019#42
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	entrada	entrada	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
 3	d'	de	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -62889,7 +62876,7 @@
 35	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1844
-# orig_file_sentence 019#44
+# orig_file_sentence 019#43
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	operació	operació	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 3	es	es	PRON	PRON	_	4	dobj	_	_
@@ -62931,7 +62918,7 @@
 39	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1845
-# orig_file_sentence 019#45
+# orig_file_sentence 019#44
 1	Iberdrola	Iberdrola	PROPN	PROPN	_	2	nsubj	_	_
 2	construirà	construir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	amb	amb	ADP	ADP	AdpType=Prep	4	case	_	_
@@ -62951,7 +62938,7 @@
 17	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1846
-# orig_file_sentence 019#46
+# orig_file_sentence 019#45
 1	Les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	dues	dos	NUM	NUM	Gender=Fem|Number=Plur|NumType=Card	1	nummod	_	_
 3	companyies	companyia	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
@@ -62973,7 +62960,7 @@
 19	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s1847
-# orig_file_sentence 019#47
+# orig_file_sentence 019#46
 1	Iberdrola	Iberdrola	PROPN	PROPN	_	3	nsubj	_	_
 2	s'	ell	PRON	PRON	Person=3	3	dobj	_	_
 3	encarregarà	encarregar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -62995,7 +62982,7 @@
 19	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1848
-# orig_file_sentence 019#48
+# orig_file_sentence 019#47
 1	Amb	amb	ADP	ADP	AdpType=Prep	3	case	_	_
 2	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	operació	operació	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
@@ -63023,7 +63010,7 @@
 25	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1849
-# orig_file_sentence 019#49
+# orig_file_sentence 019#48
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	BBV	BBV	PROPN	PROPN	_	4	nsubj	_	_
 3	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -63056,7 +63043,7 @@
 30	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1850
-# orig_file_sentence 019#50
+# orig_file_sentence 019#49
 1	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	MWE=La_Caixa|MWEPOS=PROPN
 2	Caixa	Caixa	PROPN	PROPN	_	7	nsubj	_	_
 3	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -63094,7 +63081,7 @@
 35	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1851
-# orig_file_sentence 019#51
+# orig_file_sentence 019#50
 1	La	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	societat	societat	NOUN	NOUN	Gender=Fem|Number=Sing	19	nsubj	_	_
 3	Repinves	Repinves	PROPN	PROPN	_	2	appos	_	_
@@ -63119,7 +63106,7 @@
 22	.	.	PUNCT	PUNCT	PunctType=Peri	19	punct	_	_
 
 # sent_id ca-s1852
-# orig_file_sentence 019#52
+# orig_file_sentence 019#51
 1	La	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	dobj	_	_
 2	segueix	seguir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -63146,7 +63133,7 @@
 24	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1853
-# orig_file_sentence 019#53
+# orig_file_sentence 019#52
 1	A	a	ADP	ADP	AdpType=Prep	21	advmod	_	MWE=A_més_a_més|MWEPOS=ADV
 2	més	més	ADV	ADV	_	1	mwe	_	_
 3	a	a	ADP	ADP	AdpType=Prep	1	mwe	_	_
@@ -63199,7 +63186,7 @@
 50	.	.	PUNCT	PUNCT	PunctType=Peri	21	punct	_	_
 
 # sent_id ca-s1854
-# orig_file_sentence 019#54
+# orig_file_sentence 019#53
 1	Iberdrola	Iberdrola	PROPN	PROPN	_	2	nsubj	_	_
 2	té	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	actualment	actualment	ADV	ADV	_	2	advmod	_	_
@@ -63214,7 +63201,7 @@
 12	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1855
-# orig_file_sentence 019#55
+# orig_file_sentence 019#54
 1	Des	des	ADP	ADP	AdpType=Prep	7	case	_	MWE=Des_de|MWEPOS=ADP
 2	de	de	ADP	ADP	AdpType=Prep	1	mwe	_	_
 3	fa	fer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -63239,7 +63226,7 @@
 22	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
 # sent_id ca-s1856
-# orig_file_sentence 019#56
+# orig_file_sentence 019#55
 1	És	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
 3	costum	costum	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -63265,7 +63252,7 @@
 23	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1857
-# orig_file_sentence 019#57
+# orig_file_sentence 019#56
 1	Passa	passar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	mateix	mateix	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	1	nsubj	_	_
@@ -63288,7 +63275,7 @@
 20	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s1858
-# orig_file_sentence 019#58
+# orig_file_sentence 019#57
 1	Davant	davant	ADV	ADV	_	28	advmod	_	_
 2	d'	de	ADP	ADP	AdpType=Prep	4	case	_	_
 3	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
@@ -63339,7 +63326,7 @@
 48	.	.	PUNCT	PUNCT	PunctType=Peri	28	punct	_	_
 
 # sent_id ca-s1859
-# orig_file_sentence 019#59
+# orig_file_sentence 019#58
 1	Les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	pujades	pujada	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
 3	per	per	ADP	ADP	AdpType=Prep	5	case	_	_
@@ -63354,7 +63341,7 @@
 12	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s1860
-# orig_file_sentence 019#60
+# orig_file_sentence 019#59
 1	Per	per	ADP	ADP	AdpType=Prep	2	case	_	_
 2	operativitat	operativitat	NOUN	NOUN	Gender=Fem|Number=Sing	18	cc	_	_
 3	i	i	CONJ	CONJ	_	2	cc	_	_
@@ -63401,7 +63388,7 @@
 44	.	.	PUNCT	PUNCT	PunctType=Peri	18	punct	_	_
 
 # sent_id ca-s1861
-# orig_file_sentence 019#61
+# orig_file_sentence 019#60
 1	En	en	ADP	ADP	AdpType=Prep	3	case	_	_
 2	aquests	aquest	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
 3	exemples	exemple	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
@@ -63418,7 +63405,7 @@
 14	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1862
-# orig_file_sentence 019#62
+# orig_file_sentence 019#61
 1	Això	això	PRON	PRON	Number=Sing|PronType=Dem	2	nsubj	_	_
 2	succeirà	succeir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	especialment	especialment	ADV	ADV	_	2	advmod	_	_
