@@ -482,14 +482,14 @@
 11	arribarà	arribar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 12	a	a	ADP	ADP	AdpType=Prep	14	case	_	_
 13	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
-14	8	8	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	11	nmod	_	MWE=8_del_matí|MWEPOS=NOUN
+14	8	8	NUM	NUM	NumForm=Digit|NumType=Card	11	nmod	_	MWE=8_del_matí|MWEPOS=NOUN
 15	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	16	case	_	_
 16	matí	matí	NOUN	NOUN	_	14	compound	_	_
 17	i	i	CONJ	CONJ	_	11	cc	_	_
 18	salparà	salpar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	conj	_	_
 19	a	a	ADP	ADP	AdpType=Prep	21	case	_	_
 20	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
-21	22	22	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	18	nmod	_	MWE=22_hores|MWEPOS=NOUN
+21	22	22	NUM	NUM	NumForm=Digit|NumType=Card	18	nmod	_	MWE=22_hores|MWEPOS=NOUN
 22	hores	hores	NOUN	NOUN	_	21	compound	_	_
 23	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 24	té	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
@@ -524,9 +524,9 @@
 11	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 12	propers	proper	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
 13	dies	dies	NOUN	NOUN	_	6	cc	_	MWE=dies_11|MWEPOS=NOUN
-14	11	11	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	13	compound	_	_
+14	11	11	NUM	NUM	NumForm=Digit|NumType=Card	13	compound	_	_
 15	i	i	CONJ	CONJ	_	13	cc	_	_
-16	18	18	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	13	conj	_	MWE=18_de_juny|MWEPOS=NOUN
+16	18	18	NUM	NUM	NumForm=Digit|NumType=Card	13	conj	_	MWE=18_de_juny|MWEPOS=NOUN
 17	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 18	juny	juny	NOUN	NOUN	_	16	compound	_	_
 19	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
@@ -565,7 +565,7 @@
 # orig_file_sentence 001#20
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	dia	dia	NOUN	NOUN	_	4	nmod	_	MWE=dia_18|MWEPOS=NOUN
-3	18	18	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	2	compound	_	_
+3	18	18	NUM	NUM	NumForm=Digit|NumType=Card	2	compound	_	_
 4	atracarà	atracar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	vaixell	vaixell	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -1579,7 +1579,7 @@
 14	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
 15	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	dimarts	dimarts	NOUN	NOUN	_	12	nmod	_	MWE=dimarts_,_a_les_19'30_hores|MWEPOS=NOUN
-17	,	,	PUNCT	PUNCT	AdvType=Tim	16	compound	_	_
+17	,	,	PUNCT	PUNCT	_	16	compound	_	_
 18	a	a	ADP	ADP	AdpType=Prep	20	case	_	_
 19	les	les	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
 20	19'30	19'30	NOUN	NOUN	_	16	compound	_	_
@@ -2090,7 +2090,7 @@
 5	que	que	SCONJ	SCONJ	_	20	mark	_	_
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	passat	passat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	_
-8	26	26	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	20	nmod	_	MWE=26_de_maig|MWEPOS=NOUN
+8	26	26	NUM	NUM	NumForm=Digit|NumType=Card	20	nmod	_	MWE=26_de_maig|MWEPOS=NOUN
 9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 10	maig	maig	NOUN	NOUN	_	8	compound	_	_
 11	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -2125,9 +2125,9 @@
 9	tindrà_lloc	tenir_lloc	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 10	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	dies	dies	NOUN	NOUN	_	9	cc	_	MWE=dies_12|MWEPOS=NOUN
-12	12	12	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	11	compound	_	_
+12	12	12	NUM	NUM	NumForm=Digit|NumType=Card	11	compound	_	_
 13	i	i	CONJ	CONJ	_	11	cc	_	_
-14	13	13	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	11	conj	_	MWE=13_de_juny|MWEPOS=NOUN
+14	13	13	NUM	NUM	NumForm=Digit|NumType=Card	11	conj	_	MWE=13_de_juny|MWEPOS=NOUN
 15	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
 16	juny	juny	NOUN	NOUN	_	14	compound	_	_
 17	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
@@ -3085,11 +3085,11 @@
 7	ofertes	oferta	NOUN	NOUN	Gender=Fem|Number=Plur	5	dobj	_	_
 8	fins	fins	ADP	ADP	AdpType=Prep	10	case	_	_
 9	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	8	8	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	5	nmod	_	MWE=8_de_juliol_de_2003|MWEPOS=NOUN
+10	8	8	NUM	NUM	NumForm=Digit|NumType=Card	5	nmod	_	MWE=8_de_juliol_de_2003|MWEPOS=NOUN
 11	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 12	juliol	juliol	NOUN	NOUN	_	10	compound	_	_
 13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
-14	2003	2003	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	10	compound	_	_
+14	2003	2003	NUM	NUM	NumForm=Digit|NumType=Card	10	compound	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 16	i	i	CONJ	CONJ	_	5	cc	_	_
 17	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -3213,7 +3213,7 @@
 13	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	passat	passat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	16	amod	_	_
-16	7	7	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	22	nmod	_	MWE=7_d'_abril|MWEPOS=NOUN
+16	7	7	NUM	NUM	NumForm=Digit|NumType=Card	22	nmod	_	MWE=7_d'_abril|MWEPOS=NOUN
 17	d'	d'	ADP	ADP	AdpType=Prep	18	case	_	_
 18	abril	abril	NOUN	NOUN	_	16	compound	_	_
 19	Renfe	Renfe	PROPN	PROPN	_	22	nsubj	_	_
@@ -4049,7 +4049,7 @@
 14	de	de	ADP	ADP	AdpType=Prep	13	mwe	_	_
 15	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
 16	any	any	NOUN	NOUN	_	12	nmod	_	MWE=any_1325|MWEPOS=NOUN
-17	1325	1325	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	16	compound	_	_
+17	1325	1325	NUM	NUM	NumForm=Digit|NumType=Card	16	compound	_	_
 18	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id ca-s122
@@ -4318,15 +4318,15 @@
 5	entre	entre	ADP	ADP	AdpType=Prep	7	cc	_	_
 6	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	dies	dies	NOUN	NOUN	_	4	cc	_	MWE=dies_16_de_novembre|MWEPOS=NOUN
-8	16	16	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	7	compound	_	_
+8	16	16	NUM	NUM	NumForm=Digit|NumType=Card	7	compound	_	_
 9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 10	novembre	novembre	NOUN	NOUN	_	7	compound	_	_
 11	i	i	CONJ	CONJ	_	7	cc	_	_
-12	27	27	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	7	conj	_	MWE=27_de_desembre_de_1996|MWEPOS=NOUN
+12	27	27	NUM	NUM	NumForm=Digit|NumType=Card	7	conj	_	MWE=27_de_desembre_de_1996|MWEPOS=NOUN
 13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
 14	desembre	desembre	NOUN	NOUN	_	12	compound	_	_
 15	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
-16	1996	1996	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	12	compound	_	_
+16	1996	1996	NUM	NUM	NumForm=Digit|NumType=Card	12	compound	_	_
 17	quan	quan	PRON	PRON	PronType=Rel	21	nmod	_	_
 18	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	processat	processat	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
@@ -4601,11 +4601,11 @@
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	matí	matí	NOUN	NOUN	Gender=Masc|Number=Sing	13	nmod	_	_
 27	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	28	case	_	_
-28	13	13	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	26	nmod	_	MWE=13_d'_octubre_de_1996|MWEPOS=NOUN
+28	13	13	NUM	NUM	NumForm=Digit|NumType=Card	26	nmod	_	MWE=13_d'_octubre_de_1996|MWEPOS=NOUN
 29	d'	d'	ADP	ADP	AdpType=Prep	30	case	_	_
 30	octubre	octubre	NOUN	NOUN	_	28	compound	_	_
 31	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
-32	1996	1996	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	28	compound	_	_
+32	1996	1996	NUM	NUM	NumForm=Digit|NumType=Card	28	compound	_	_
 33	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
 34	consumint	consumir	VERB	VERB	VerbForm=Ger	13	advcl	_	_
 35	begudes	beguda	NOUN	NOUN	Gender=Fem|Number=Plur	34	dobj	_	_
@@ -5036,14 +5036,14 @@
 4	passar	passar	VERB	VERB	VerbForm=Inf	0	root	_	_
 5	a	a	ADP	ADP	AdpType=Prep	7	case	_	_
 6	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
-7	5	5	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	4	nmod	_	MWE=5_del_matí|MWEPOS=NOUN
+7	5	5	NUM	NUM	NumForm=Digit|NumType=Card	4	nmod	_	MWE=5_del_matí|MWEPOS=NOUN
 8	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	9	case	_	_
 9	matí	matí	NOUN	NOUN	_	7	compound	_	_
 10	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	11	case	_	_
-11	23	23	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	7	compound	_	MWE=23_d'agost_de_1997|MWEPOS=NOUN
+11	23	23	NUM	NUM	NumForm=Digit|NumType=Card	7	compound	_	MWE=23_d'agost_de_1997|MWEPOS=NOUN
 12	d'agost	d'agost	NOUN	NOUN	_	11	compound	_	_
 13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
-14	1997	1997	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	11	compound	_	_
+14	1997	1997	NUM	NUM	NumForm=Digit|NumType=Card	11	compound	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 16	quan	quan	SCONJ	SCONJ	_	19	mark	_	_
 17	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
@@ -5337,12 +5337,12 @@
 10	desenvoluparà	desenvolupar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	acl	_	_
 11	entre	entre	ADP	ADP	AdpType=Prep	13	cc	_	_
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	7	7	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	10	cc	_	MWE=7_de_juny|MWEPOS=NOUN
+13	7	7	NUM	NUM	NumForm=Digit|NumType=Card	10	cc	_	MWE=7_de_juny|MWEPOS=NOUN
 14	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 15	juny	juny	NOUN	NOUN	_	13	compound	_	_
 16	i	i	CONJ	CONJ	_	13	cc	_	_
 17	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	2	2	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	13	conj	_	MWE=2_de_juliol|MWEPOS=NOUN
+18	2	2	NUM	NUM	NumForm=Digit|NumType=Card	13	conj	_	MWE=2_de_juliol|MWEPOS=NOUN
 19	de	de	ADP	ADP	AdpType=Prep	20	case	_	_
 20	juliol	juliol	NOUN	NOUN	_	18	compound	_	_
 21	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
@@ -5440,7 +5440,7 @@
 40	10	10	NOUN	NOUN	AdvType=Tim	32	cc	_	_
 41	i	i	CONJ	CONJ	_	40	cc	_	_
 42	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-43	20	20	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	40	conj	_	MWE=20_de_maig|MWEPOS=NOUN
+43	20	20	NUM	NUM	NumForm=Digit|NumType=Card	40	conj	_	MWE=20_de_maig|MWEPOS=NOUN
 44	de	de	ADP	ADP	AdpType=Prep	45	case	_	_
 45	maig	maig	NOUN	NOUN	_	43	compound	_	_
 46	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
@@ -5797,7 +5797,7 @@
 17	que	que	PRON	PRON	PronType=Rel	22	nsubj	_	_
 18	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
 19	any	any	NOUN	NOUN	_	22	nmod	_	MWE=any_1990|MWEPOS=NOUN
-20	1990	1990	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	19	compound	_	_
+20	1990	1990	NUM	NUM	NumForm=Digit|NumType=Card	19	compound	_	_
 21	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 22	pintar	pintar	VERB	VERB	VerbForm=Inf	12	acl	_	_
 23	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
@@ -5870,11 +5870,11 @@
 6	mur	mur	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 8	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	9	9	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	4	appos	_	MWE=9_de_novembre_de_1989|MWEPOS=NOUN
+9	9	9	NUM	NUM	NumForm=Digit|NumType=Card	4	appos	_	MWE=9_de_novembre_de_1989|MWEPOS=NOUN
 10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 11	novembre	novembre	NOUN	NOUN	_	9	compound	_	_
 12	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
-13	1989	1989	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	9	compound	_	_
+13	1989	1989	NUM	NUM	NumForm=Digit|NumType=Card	9	compound	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 15	més	més	ADV	ADV	_	18	advmod	_	_
 16	d'	de	ADP	ADP	AdpType=Prep	18	case	_	_
@@ -6493,7 +6493,7 @@
 62	,	,	PUNCT	PUNCT	PunctType=Comm	63	punct	_	_
 63	abans	abans	ADV	ADV	_	61	advmod	_	_
 64	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	65	case	_	_
-65	15	15	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	63	nmod	_	MWE=15_de_juny|MWEPOS=NOUN
+65	15	15	NUM	NUM	NumForm=Digit|NumType=Card	63	nmod	_	MWE=15_de_juny|MWEPOS=NOUN
 66	de	de	ADP	ADP	AdpType=Prep	67	case	_	_
 67	juny	juny	NOUN	NOUN	_	65	compound	_	_
 68	,	,	PUNCT	PUNCT	PunctType=Comm	63	punct	_	_
@@ -6735,7 +6735,7 @@
 5	posar_en_marxa	posar_en_marxa	VERB	VERB	VerbForm=Inf	0	root	_	_
 6	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	any	any	NOUN	NOUN	_	5	nmod	_	MWE=any_1980|MWEPOS=NOUN
-8	1980	1980	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	7	compound	_	_
+8	1980	1980	NUM	NUM	NumForm=Digit|NumType=Card	7	compound	_	_
 9	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 10	coincidint	coincidir	VERB	VERB	VerbForm=Ger	5	advcl	_	_
 11	amb	amb	ADP	ADP	AdpType=Prep	13	case	_	_
@@ -6817,7 +6817,7 @@
 10	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
 11	octubre	octubre	NOUN	NOUN	_	7	nmod	_	MWE=octubre_del_1991|MWEPOS=NOUN
 12	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	13	case	_	_
-13	1991	1991	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	11	compound	_	_
+13	1991	1991	NUM	NUM	NumForm=Digit|NumType=Card	11	compound	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	concessió	concessió	NOUN	NOUN	Gender=Fem|Number=Sing	7	dobj	_	_
@@ -6921,7 +6921,7 @@
 12	de	de	ADP	ADP	AdpType=Prep	11	mwe	_	_
 13	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
 14	any	any	NOUN	NOUN	_	7	nmod	_	MWE=any_1998|MWEPOS=NOUN
-15	1998	1998	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	14	compound	_	_
+15	1998	1998	NUM	NUM	NumForm=Digit|NumType=Card	14	compound	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 17	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 18	estat	estar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -8202,14 +8202,14 @@
 26	'	'	SYM	SYM	_	27	nmod	_	_
 27	Els	Els	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	MWE=Els_mosaics_._Estudi_de_la_fulla_de_la_Devesa|MWEPOS=PROPN
 28	mosaics	mosaics	PROPN	PROPN	_	2	nsubj	_	_
-29	.	.	PUNCT	PUNCT	_	28	name	_	_
-30	Estudi	Estudi	PROPN	PROPN	_	28	name	_	_
+29	.	.	PUNCT	PUNCT	_	27	punct	_	_
+30	Estudi	Estudi	PROPN	PROPN	_	27	name	_	_
 31	de	de	ADP	ADP	AdpType=Prep	33	case	_	_
 32	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	fulla	fulla	PROPN	PROPN	_	28	name	_	_
+33	fulla	fulla	PROPN	PROPN	_	27	name	_	_
 34	de	de	ADP	ADP	AdpType=Prep	36	case	_	_
 35	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	Devesa	Devesa	PROPN	PROPN	_	28	name	_	_
+36	Devesa	Devesa	PROPN	PROPN	_	27	name	_	_
 37	'	'	SYM	SYM	_	27	nmod	_	_
 38	de	de	ADP	ADP	AdpType=Prep	39	case	_	_
 39	Joan	Joan	PROPN	PROPN	_	27	nmod	_	MWE=Joan_Borrell|MWEPOS=PROPN
@@ -8561,7 +8561,7 @@
 7	avui	avui	ADV	ADV	_	6	advmod	_	_
 8	a	a	ADP	ADP	AdpType=Prep	10	case	_	_
 9	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-10	7	7	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	6	nmod	_	MWE=7_de_la_tarda|MWEPOS=NOUN
+10	7	7	NUM	NUM	NumForm=Digit|NumType=Card	6	nmod	_	MWE=7_de_la_tarda|MWEPOS=NOUN
 11	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
 12	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	tarda	tarda	NOUN	NOUN	_	10	compound	_	_
@@ -8771,11 +8771,11 @@
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	matí	matí	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
 7	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	8	case	_	_
-8	3	3	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	6	nmod	_	MWE=3_de_desembre_de_1996|MWEPOS=NOUN
+8	3	3	NUM	NUM	NumForm=Digit|NumType=Card	6	nmod	_	MWE=3_de_desembre_de_1996|MWEPOS=NOUN
 9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 10	desembre	desembre	NOUN	NOUN	_	8	compound	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
-12	1996	1996	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	8	compound	_	_
+12	1996	1996	NUM	NUM	NumForm=Digit|NumType=Card	8	compound	_	_
 13	quan	quan	PRON	PRON	PronType=Rel	16	nmod	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	processat	processat	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -9454,7 +9454,7 @@
 7	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 8	a	a	ADP	ADP	AdpType=Prep	10	case	_	_
 9	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
-10	12	12	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	5	nmod	_	MWE=12_del_migdia|MWEPOS=NOUN
+10	12	12	NUM	NUM	NumForm=Digit|NumType=Card	5	nmod	_	MWE=12_del_migdia|MWEPOS=NOUN
 11	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	12	case	_	_
 12	migdia	migdia	NOUN	NOUN	_	10	compound	_	_
 13	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
@@ -9520,7 +9520,7 @@
 2	endemà	endemà	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
 3	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 4	diumenge	diumenge	NOUN	NOUN	_	2	appos	_	MWE=diumenge_,_a_dos_quarts_d'_una|MWEPOS=NOUN
-5	,	,	PUNCT	PUNCT	AdvType=Tim	4	compound	_	_
+5	,	,	PUNCT	PUNCT	_	4	compound	_	_
 6	a	a	ADP	ADP	AdpType=Prep	7	case	_	_
 7	dos	dos	NUM	NUM	Gender=Masc|NumType=Card	4	compound	_	_
 8	quarts	quarts	NOUN	NOUN	_	4	compound	_	_
@@ -11734,11 +11734,11 @@
 6	es	es	PRON	PRON	_	7	dobj	_	_
 7	publicà	publicar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	7	7	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	7	nmod	_	MWE=7_de_juliol_de_1986|MWEPOS=NOUN
+9	7	7	NUM	NUM	NumForm=Digit|NumType=Card	7	nmod	_	MWE=7_de_juliol_de_1986|MWEPOS=NOUN
 10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 11	juliol	juliol	NOUN	NOUN	_	9	compound	_	_
 12	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
-13	1986	1986	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	9	compound	_	_
+13	1986	1986	NUM	NUM	NumForm=Digit|NumType=Card	9	compound	_	_
 14	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s327
@@ -11891,11 +11891,11 @@
 19	"	"	PUNCT	PUNCT	PunctType=Quot	20	punct	_	_
 20	Nil	Nil	PROPN	PROPN	_	17	nmod	_	MWE=Nil_Fabra_.|MWEPOS=PROPN
 21	Fabra	Fabra	PROPN	PROPN	_	20	name	_	_
-22	.	.	PUNCT	PUNCT	_	20	name	_	_
+22	.	.	PUNCT	PUNCT	_	20	punct	_	_
 23	Periodista	periodista	NOUN	NOUN	Number=Sing	20	cc	_	_
 24	i	i	CONJ	CONJ	_	23	cc	_	_
 25	escriptor	escriptor	NOUN	NOUN	_	23	conj	_	MWE=escriptor_.|MWEPOS=NOUN
-26	.	.	PUNCT	PUNCT	Gender=Masc|Number=Sing	25	compound	_	_
+26	.	.	PUNCT	PUNCT	_	25	compound	_	_
 27	Blanes	Blanes	PROPN	PROPN	_	20	nmod	_	_
 28	1843	1843	NOUN	NOUN	AdvType=Tim	27	appos	_	_
 29	-	-	PUNCT	PUNCT	PunctType=Dash	27	punct	_	_
@@ -11928,9 +11928,9 @@
 9	Fabra	Fabra	PROPN	PROPN	_	6	appos	_	MWE=Fabra_i_Deàs_,_Nil_Maria|MWEPOS=PROPN
 10	i	i	CONJ	CONJ	_	9	name	_	_
 11	Deàs	Deàs	PROPN	PROPN	_	9	name	_	_
-12	,	,	PUNCT	PUNCT	_	11	name	_	_
-13	Nil	Nil	PROPN	PROPN	_	11	name	_	_
-14	Maria	Maria	PROPN	PROPN	_	11	name	_	_
+12	,	,	PUNCT	PUNCT	_	9	punct	_	_
+13	Nil	Nil	PROPN	PROPN	_	9	name	_	_
+14	Maria	Maria	PROPN	PROPN	_	13	name	_	_
 15	...	...	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
 
 # sent_id ca-s335
@@ -12054,9 +12054,9 @@
 36	efa	efa	NOUN	NOUN	Gender=Fem|Number=Sing	22	conj	_	_
 37	de	de	ADP	ADP	AdpType=Prep	38	case	_	_
 38	Fabra	Fabra	PROPN	PROPN	_	36	nmod	_	MWE=Fabra_,_Nil_Maria|MWEPOS=PROPN
-39	,	,	PUNCT	PUNCT	_	38	name	_	_
+39	,	,	PUNCT	PUNCT	_	38	punct	_	_
 40	Nil	Nil	PROPN	PROPN	_	38	name	_	_
-41	Maria	Maria	PROPN	PROPN	_	38	name	_	_
+41	Maria	Maria	PROPN	PROPN	_	40	name	_	_
 42	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s340
@@ -14291,7 +14291,7 @@
 8	ara	ara	ADV	ADV	_	14	advmod	_	_
 9	-	-	PUNCT	PUNCT	PunctType=Dash	10	punct	_	_
 10	juny	juny	NOUN	NOUN	_	8	nmod	_	MWE=juny_1986|MWEPOS=NOUN
-11	1986	1986	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	10	compound	_	_
+11	1986	1986	NUM	NUM	NumForm=Digit|NumType=Card	10	compound	_	_
 12	-	-	PUNCT	PUNCT	PunctType=Dash	10	punct	_	_
 13	es	es	PRON	PRON	_	14	dobj	_	_
 14	diu	dir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14345,7 +14345,7 @@
 7	pel	pel	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	8	case	_	_
 8	desembre	desembre	NOUN	NOUN	_	13	nmod	_	MWE=desembre_de_1985|MWEPOS=NOUN
 9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
-10	1985	1985	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	8	compound	_	_
+10	1985	1985	NUM	NUM	NumForm=Digit|NumType=Card	8	compound	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 12	es	es	PRON	PRON	_	13	dobj	_	_
 13	produeix	produir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15354,11 +15354,11 @@
 3	El	El	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	MWE=El_Temps|MWEPOS=PROPN
 4	Temps	Temps	PROPN	PROPN	_	1	name	_	_
 5	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
-6	7	7	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	1	appos	_	MWE=7_de_juliol_de_1986|MWEPOS=NOUN
+6	7	7	NUM	NUM	NumForm=Digit|NumType=Card	1	appos	_	MWE=7_de_juliol_de_1986|MWEPOS=NOUN
 7	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 8	juliol	juliol	NOUN	NOUN	_	6	compound	_	_
 9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
-10	1986	1986	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	6	compound	_	_
+10	1986	1986	NUM	NUM	NumForm=Digit|NumType=Card	6	compound	_	_
 11	.	.	PUNCT	PUNCT	PunctType=Peri	1	punct	_	_
 
 # sent_id ca-s427
@@ -15936,11 +15936,11 @@
 28	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	nit	nit	NOUN	NOUN	Gender=Fem|Number=Sing	52	nmod	_	_
 30	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	31	case	_	_
-31	19	19	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	29	nmod	_	MWE=19_de_juliol_de_1998|MWEPOS=NOUN
+31	19	19	NUM	NUM	NumForm=Digit|NumType=Card	29	nmod	_	MWE=19_de_juliol_de_1998|MWEPOS=NOUN
 32	de	de	ADP	ADP	AdpType=Prep	33	case	_	_
 33	juliol	juliol	NOUN	NOUN	_	31	compound	_	_
 34	de	de	ADP	ADP	AdpType=Prep	35	case	_	_
-35	1998	1998	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	31	compound	_	_
+35	1998	1998	NUM	NUM	NumForm=Digit|NumType=Card	31	compound	_	_
 36	,	,	PUNCT	PUNCT	PunctType=Comm	38	punct	_	_
 37	quan	quan	SCONJ	SCONJ	_	38	mark	_	_
 38	passejava	passejar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	52	advcl	_	_
@@ -16290,7 +16290,7 @@
 37	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	juliol	juliol	NOUN	NOUN	_	48	nmod	_	MWE=juliol_de_1997|MWEPOS=NOUN
 39	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
-40	1997	1997	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	38	compound	_	_
+40	1997	1997	NUM	NUM	NumForm=Digit|NumType=Card	38	compound	_	_
 41	,	,	PUNCT	PUNCT	PunctType=Comm	38	punct	_	_
 42	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	43	det	_	_
 43	nen	nen	NOUN	NOUN	Gender=Masc|Number=Sing	48	nsubj	_	_
@@ -16458,7 +16458,7 @@
 20	mort	mort	NOUN	NOUN	Gender=Fem|Number=Sing	7	cc	_	_
 21	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
 22	any	any	NOUN	NOUN	_	20	appos	_	MWE=any_1995|MWEPOS=NOUN
-23	1995	1995	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	22	compound	_	_
+23	1995	1995	NUM	NUM	NumForm=Digit|NumType=Card	22	compound	_	_
 24	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	25	case	_	_
 25	noi	noi	NOUN	NOUN	Gender=Masc|Number=Sing	20	nmod	_	_
 26	manresà	manresà	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
@@ -16508,7 +16508,7 @@
 70	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	71	det	_	_
 71	abril	abril	NOUN	NOUN	_	60	appos	_	MWE=abril_de_2000|MWEPOS=NOUN
 72	de	de	ADP	ADP	AdpType=Prep	73	case	_	_
-73	2000	2000	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	71	compound	_	_
+73	2000	2000	NUM	NUM	NumForm=Digit|NumType=Card	71	compound	_	_
 74	quan	quan	PRON	PRON	PronType=Rel	77	nmod	_	_
 75	li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	77	dobj	_	_
 76	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	77	aux	_	_
@@ -17036,7 +17036,7 @@
 22	2/2000	2/2000	PROPN	PROPN	_	21	name	_	_
 23	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 24	de	de	ADP	ADP	AdpType=Prep	25	case	_	_
-25	4	4	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	21	nmod	_	MWE=4_de_maig|MWEPOS=NOUN
+25	4	4	NUM	NUM	NumForm=Digit|NumType=Card	21	nmod	_	MWE=4_de_maig|MWEPOS=NOUN
 26	de	de	ADP	ADP	AdpType=Prep	27	case	_	_
 27	maig	maig	NOUN	NOUN	_	25	compound	_	_
 28	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
@@ -17130,7 +17130,7 @@
 12	presentada	presentat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	11	amod	_	_
 13	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	passat	passat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	15	amod	_	_
-15	24	24	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	12	nmod	_	MWE=24_de_maig|MWEPOS=NOUN
+15	24	24	NUM	NUM	NumForm=Digit|NumType=Card	12	nmod	_	MWE=24_de_maig|MWEPOS=NOUN
 16	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
 17	maig	maig	NOUN	NOUN	_	15	compound	_	_
 18	per	per	ADP	ADP	AdpType=Prep	19	case	_	_
@@ -17985,7 +17985,7 @@
 28	sofert	sofrir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
 29	en	en	ADP	ADP	AdpType=Prep	31	case	_	_
 30	aquests	aquest	PRON	PRON	Gender=Masc|Number=Plur|PronType=Dem	31	nmod	_	_
-31	30	30	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	28	nmod	_	MWE=30_anys|MWEPOS=NOUN
+31	30	30	NUM	NUM	NumForm=Digit|NumType=Card	28	nmod	_	MWE=30_anys|MWEPOS=NOUN
 32	anys	anys	NOUN	NOUN	_	31	compound	_	_
 33	en	en	ADP	ADP	AdpType=Prep	36	case	_	MWE=en_matèria_de|MWEPOS=ADP
 34	matèria	matèria	NOUN	NOUN	_	33	mwe	_	_
@@ -18051,7 +18051,7 @@
 21	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
 22	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
 23	any	any	NOUN	NOUN	_	13	appos	_	MWE=any_1968|MWEPOS=NOUN
-24	1968	1968	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	23	compound	_	_
+24	1968	1968	NUM	NUM	NumForm=Digit|NumType=Card	23	compound	_	_
 25	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s491
@@ -18196,9 +18196,9 @@
 26	Etxebarria	Etxebarria	PROPN	PROPN	_	25	name	_	_
 27	'	'	SYM	SYM	_	28	nmod	_	_
 28	Amor	Amor	PROPN	PROPN	_	23	appos	_	MWE=Amor_,_curiosidad_,_Prozac_y_dudas|MWEPOS=PROPN
-29	,	,	PUNCT	PUNCT	_	28	name	_	_
+29	,	,	PUNCT	PUNCT	_	28	punct	_	_
 30	curiosidad	curiosidad	PROPN	PROPN	_	28	name	_	_
-31	,	,	PUNCT	PUNCT	_	28	name	_	_
+31	,	,	PUNCT	PUNCT	_	28	punct	_	_
 32	Prozac	Prozac	PROPN	PROPN	_	28	name	_	_
 33	y	y	CONJ	CONJ	_	28	name	_	_
 34	dudas	dudas	PROPN	PROPN	_	28	name	_	_
@@ -18238,9 +18238,9 @@
 4	estrena	estrenar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
 6	dimecres	dimecres	NOUN	NOUN	_	4	nmod	_	MWE=dimecres_,_dia_23|MWEPOS=NOUN
-7	,	,	PUNCT	PUNCT	AdvType=Tim	6	compound	_	_
+7	,	,	PUNCT	PUNCT	_	6	compound	_	_
 8	dia	dia	NOUN	NOUN	_	6	compound	_	_
-9	23	23	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	6	compound	_	_
+9	23	23	NUM	NUM	NumForm=Digit|NumType=Card	6	compound	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
 11	amb	amb	ADP	ADP	AdpType=Prep	13	case	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -18280,7 +18280,7 @@
 # orig_file_sentence 005#99
 1	'	'	SYM	SYM	_	2	nmod	_	_
 2	Amor	Amor	PROPN	PROPN	_	10	nsubj	_	MWE=Amor_,_Prozac_i_dubtes|MWEPOS=PROPN
-3	,	,	PUNCT	PUNCT	_	2	name	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	Prozac	Prozac	PROPN	PROPN	_	2	name	_	_
 5	i	i	CONJ	CONJ	_	2	name	_	_
 6	dubtes	dubtes	PROPN	PROPN	_	2	name	_	_
@@ -18303,9 +18303,9 @@
 23	Etxebarria	Etxebarria	PROPN	PROPN	_	22	name	_	_
 24	'	'	SYM	SYM	_	25	nmod	_	_
 25	Amor	Amor	PROPN	PROPN	_	20	appos	_	MWE=Amor_,_curiosidad_,_Prozac_y_dudas|MWEPOS=PROPN
-26	,	,	PUNCT	PUNCT	_	25	name	_	_
+26	,	,	PUNCT	PUNCT	_	25	punct	_	_
 27	curiosidad	curiosidad	PROPN	PROPN	_	25	name	_	_
-28	,	,	PUNCT	PUNCT	_	25	name	_	_
+28	,	,	PUNCT	PUNCT	_	25	punct	_	_
 29	Prozac	Prozac	PROPN	PROPN	_	25	name	_	_
 30	y	y	CONJ	CONJ	_	25	name	_	_
 31	dudas	dudas	PROPN	PROPN	_	25	name	_	_
@@ -18717,7 +18717,7 @@
 13	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	15	case	_	_
 14	proper	proper	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
 15	dia	dia	NOUN	NOUN	_	4	nmod	_	MWE=dia_23|MWEPOS=NOUN
-16	23	23	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	15	compound	_	_
+16	23	23	NUM	NUM	NumForm=Digit|NumType=Card	15	compound	_	_
 17	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s511
@@ -18941,7 +18941,7 @@
 3	-se	ell	PRON	PRON	Person=3|PronType=Prs	2	dobj	_	_
 4	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 5	any	any	NOUN	NOUN	_	2	nmod	_	MWE=any_1996|MWEPOS=NOUN
-6	1996	1996	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	5	compound	_	_
+6	1996	1996	NUM	NUM	NumForm=Digit|NumType=Card	5	compound	_	_
 7	amb	amb	ADP	ADP	AdpType=Prep	9	case	_	_
 8	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	text	text	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
@@ -19004,7 +19004,7 @@
 # orig_file_sentence 006#20
 1	'	'	SYM	SYM	_	2	nmod	_	_
 2	Amor	Amor	PROPN	PROPN	_	8	nsubj	_	MWE=Amor_,_Prozac_i_dubtes|MWEPOS=PROPN
-3	,	,	PUNCT	PUNCT	_	2	name	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	Prozac	Prozac	PROPN	PROPN	_	2	name	_	_
 5	i	i	CONJ	CONJ	_	2	name	_	_
 6	dubtes	dubtes	PROPN	PROPN	_	2	name	_	_
@@ -19108,7 +19108,7 @@
 56	per	per	ADP	ADP	AdpType=Prep	58	case	_	_
 57	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	58	det	_	_
 58	any	any	NOUN	NOUN	_	43	nmod	_	MWE=any_2002|MWEPOS=NOUN
-59	2002	2002	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	58	compound	_	_
+59	2002	2002	NUM	NUM	NumForm=Digit|NumType=Card	58	compound	_	_
 60	.	.	PUNCT	PUNCT	PunctType=Peri	37	punct	_	_
 
 # sent_id ca-s523
@@ -19222,7 +19222,7 @@
 20	'	'	SYM	SYM	_	21	nmod	_	_
 21	Costa	Costa	PROPN	PROPN	_	19	appos	_	MWE=Costa_Brava_:_Paisatge_i_turisme|MWEPOS=PROPN
 22	Brava	Brava	PROPN	PROPN	_	21	name	_	_
-23	:	:	PUNCT	PUNCT	_	21	name	_	_
+23	:	:	PUNCT	PUNCT	_	21	punct	_	_
 24	Paisatge	Paisatge	PROPN	PROPN	_	21	name	_	_
 25	i	i	CONJ	CONJ	_	21	name	_	_
 26	turisme	turisme	PROPN	PROPN	_	21	name	_	_
@@ -19341,7 +19341,7 @@
 6	primer	primer	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
 7	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	8	case	_	_
 8	CILMA	CILMA	PROPN	PROPN	_	5	nmod	_	MWE=CILMA_.|MWEPOS=PROPN
-9	.	.	PUNCT	PUNCT	_	8	name	_	_
+9	.	.	PUNCT	PUNCT	_	8	punct	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 11	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
 12	programa	programa	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -19465,7 +19465,7 @@
 5	crear	crear	VERB	VERB	VerbForm=Inf	0	root	_	_
 6	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	any	any	NOUN	NOUN	_	5	nmod	_	MWE=any_1999|MWEPOS=NOUN
-8	1999	1999	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	7	compound	_	_
+8	1999	1999	NUM	NUM	NumForm=Digit|NumType=Card	7	compound	_	_
 9	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 10	i	i	CONJ	CONJ	_	5	cc	_	_
 11	actualment	actualment	ADV	ADV	_	13	advmod	_	_
@@ -20139,11 +20139,11 @@
 23	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	matinada	matinada	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
 25	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	26	case	_	_
-26	21	21	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	24	nmod	_	MWE=21_d'_agost_de_1996|MWEPOS=NOUN
+26	21	21	NUM	NUM	NumForm=Digit|NumType=Card	24	nmod	_	MWE=21_d'_agost_de_1996|MWEPOS=NOUN
 27	d'	d'	ADP	ADP	AdpType=Prep	28	case	_	_
 28	agost	agost	NOUN	NOUN	_	26	compound	_	_
 29	de	de	ADP	ADP	AdpType=Prep	30	case	_	_
-30	1996	1996	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	26	compound	_	_
+30	1996	1996	NUM	NUM	NumForm=Digit|NumType=Card	26	compound	_	_
 31	,	,	PUNCT	PUNCT	PunctType=Comm	36	punct	_	_
 32	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	qual	qual	PRON	PRON	Number=Sing|PronType=Rel	36	nsubj	_	_
@@ -21405,11 +21405,11 @@
 # sent_id ca-s580
 # orig_file_sentence 006#80
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	16	16	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	12	nmod	_	MWE=16_de_gener_del_1998|MWEPOS=NOUN
+2	16	16	NUM	NUM	NumForm=Digit|NumType=Card	12	nmod	_	MWE=16_de_gener_del_1998|MWEPOS=NOUN
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
 4	gener	gener	NOUN	NOUN	_	2	compound	_	_
 5	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	6	case	_	_
-6	1998	1998	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	2	compound	_	_
+6	1998	1998	NUM	NUM	NumForm=Digit|NumType=Card	2	compound	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 8	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Guàrdia	Guàrdia	PROPN	PROPN	_	12	nsubj	_	MWE=Guàrdia_Civil|MWEPOS=PROPN
@@ -22017,7 +22017,7 @@
 33	a	a	ADP	ADP	AdpType=Prep	34	case	_	_
 34	Dinamarca	Dinamarca	PROPN	PROPN	_	29	nmod	_	_
 35	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	28	28	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	29	appos	_	MWE=28_de_setembre|MWEPOS=NOUN
+36	28	28	NUM	NUM	NumForm=Digit|NumType=Card	29	appos	_	MWE=28_de_setembre|MWEPOS=NOUN
 37	de	de	ADP	ADP	AdpType=Prep	38	case	_	_
 38	setembre	setembre	NOUN	NOUN	_	36	compound	_	_
 39	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
@@ -22073,7 +22073,7 @@
 13	tancar	tancar	VERB	VERB	VerbForm=Inf	10	acl	_	_
 14	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
 15	any	any	NOUN	NOUN	_	13	nmod	_	MWE=any_1991|MWEPOS=NOUN
-16	1991	1991	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	15	compound	_	_
+16	1991	1991	NUM	NUM	NumForm=Digit|NumType=Card	15	compound	_	_
 17	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 18	reclamen	reclamar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	que	que	SCONJ	SCONJ	_	23	mark	_	_
@@ -22157,7 +22157,7 @@
 14	tancar	tancar	VERB	VERB	VerbForm=Inf	7	acl	_	_
 15	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
 16	any	any	NOUN	NOUN	_	14	nmod	_	MWE=any_1991|MWEPOS=NOUN
-17	1991	1991	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	16	compound	_	_
+17	1991	1991	NUM	NUM	NumForm=Digit|NumType=Card	16	compound	_	_
 18	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 19	volen	voler	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 20	que	que	SCONJ	SCONJ	_	24	mark	_	_
@@ -22230,7 +22230,7 @@
 24	explotació	explotació	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
 25	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
 26	any	any	NOUN	NOUN	_	21	appos	_	MWE=any_1991|MWEPOS=NOUN
-27	1991	1991	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	26	compound	_	_
+27	1991	1991	NUM	NUM	NumForm=Digit|NumType=Card	26	compound	_	_
 28	no	no	ADV	ADV	Negative=Neg	29	neg	_	_
 29	tinguin	tenir	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	csubj	_	_
 30	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
@@ -22283,7 +22283,7 @@
 26	de	de	ADP	ADP	AdpType=Prep	25	mwe	_	_
 27	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
 28	any	any	NOUN	NOUN	_	24	nmod	_	MWE=any_1991|MWEPOS=NOUN
-29	1991	1991	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	28	compound	_	_
+29	1991	1991	NUM	NUM	NumForm=Digit|NumType=Card	28	compound	_	_
 30	i	i	CONJ	CONJ	_	19	cc	_	_
 31	a	a	ADP	ADP	AdpType=Prep	33	case	_	_
 32	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
@@ -22434,7 +22434,7 @@
 2	de	de	ADP	ADP	AdpType=Prep	1	mwe	_	_
 3	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
 4	any	any	NOUN	NOUN	_	20	nmod	_	MWE=any_1991|MWEPOS=NOUN
-5	1991	1991	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	4	compound	_	_
+5	1991	1991	NUM	NUM	NumForm=Digit|NumType=Card	4	compound	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 7	quan	quan	PRON	PRON	PronType=Rel	9	nmod	_	_
 8	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
@@ -22508,7 +22508,7 @@
 29	fins	fi	NOUN	NOUN	Gender=Masc|Number=Sing	17	nmod	_	_
 30	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
 31	any	any	NOUN	NOUN	_	17	dobj	_	MWE=any_1997|MWEPOS=NOUN
-32	1997	1997	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	31	compound	_	_
+32	1997	1997	NUM	NUM	NumForm=Digit|NumType=Card	31	compound	_	_
 33	i	i	CONJ	CONJ	_	17	cc	_	_
 34	que	que	SCONJ	SCONJ	_	37	mark	_	_
 35	no	no	ADV	ADV	Negative=Neg	37	neg	_	_
@@ -23735,7 +23735,7 @@
 # orig_file_sentence 007#53
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	any	any	NOUN	NOUN	_	5	nsubj	_	MWE=any_2000|MWEPOS=NOUN
-3	2000	2000	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	2	compound	_	_
+3	2000	2000	NUM	NUM	NumForm=Digit|NumType=Card	2	compound	_	_
 4	s'	ell	PRON	PRON	_	5	dobj	_	_
 5	inicia	iniciar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	7	case	_	_
@@ -24726,7 +24726,7 @@
 32	es	ell	PRON	PRON	Person=3	33	dobj	_	_
 33	remunta	remuntar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
 34	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	35	case	_	_
-35	2	2	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	33	dobj	_	MWE=2_d'_octubre|MWEPOS=NOUN
+35	2	2	NUM	NUM	NumForm=Digit|NumType=Card	33	dobj	_	MWE=2_d'_octubre|MWEPOS=NOUN
 36	d'	d'	ADP	ADP	AdpType=Prep	37	case	_	_
 37	octubre	octubre	NOUN	NOUN	_	35	compound	_	_
 38	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
@@ -25120,7 +25120,7 @@
 26	anunciar	anunciar	VERB	VERB	VerbForm=Inf	13	acl	_	_
 27	abans	abans	ADV	ADV	_	26	advmod	_	_
 28	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	29	case	_	_
-29	30	30	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	27	nmod	_	MWE=30_d'_agost|MWEPOS=NOUN
+29	30	30	NUM	NUM	NumForm=Digit|NumType=Card	27	nmod	_	MWE=30_d'_agost|MWEPOS=NOUN
 30	d'	d'	ADP	ADP	AdpType=Prep	31	case	_	_
 31	agost	agost	NOUN	NOUN	_	29	compound	_	_
 32	-	-	PUNCT	PUNCT	PunctType=Dash	26	punct	_	_
@@ -26216,7 +26216,7 @@
 54	34-22	34-22	NUM	NUM	NumForm=Digit	49	dep	_	_
 55	,	,	PUNCT	PUNCT	PunctType=Comm	56	punct	_	_
 56	minut	minut	NOUN	NOUN	_	54	appos	_	MWE=minut_14|MWEPOS=NOUN
-57	14	14	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	56	compound	_	_
+57	14	14	NUM	NUM	NumForm=Digit|NumType=Card	56	compound	_	_
 58	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	54	punct	_	_
 59	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
@@ -26310,7 +26310,7 @@
 15	fins	fins	ADP	ADP	AdpType=Prep	17	case	_	_
 16	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	17	case	_	_
 17	minut	minut	NOUN	NOUN	_	14	nmod	_	MWE=minut_14|MWEPOS=NOUN
-18	14	14	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	17	compound	_	_
+18	14	14	NUM	NUM	NumForm=Digit|NumType=Card	17	compound	_	_
 19	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
 20	quan	quan	SCONJ	SCONJ	_	26	mark	_	_
 21	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -26980,10 +26980,10 @@
 4	o	o	CONJ	CONJ	_	12	cc	_	_
 5	Les	Les	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	MWE=Les_'_tragaderas_'_del_caiman|MWEPOS=PROPN
 6	'	'	PUNCT	PUNCT	_	4	nsubj	_	_
-7	tragaderas	tragaderas	PROPN	PROPN	_	6	name	_	_
-8	'	'	PUNCT	PUNCT	_	6	name	_	_
+7	tragaderas	tragaderas	PROPN	PROPN	_	5	name	_	_
+8	'	'	PUNCT	PUNCT	_	5	punct	_	_
 9	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	10	case	_	_
-10	caiman	caiman	PROPN	PROPN	_	6	name	_	_
+10	caiman	caiman	PROPN	PROPN	_	5	name	_	_
 11	eren	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
 12	dos	dos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	0	root	_	_
 13	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	14	case	_	_
@@ -28464,7 +28464,7 @@
 17	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
 18	agost	agost	NOUN	NOUN	_	16	nmod	_	MWE=agost_del_1998|MWEPOS=NOUN
 19	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	20	case	_	_
-20	1998	1998	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	18	compound	_	_
+20	1998	1998	NUM	NUM	NumForm=Digit|NumType=Card	18	compound	_	_
 21	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s818
@@ -28838,11 +28838,11 @@
 6	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	matinada	matinada	NOUN	NOUN	_	4	dobj	_	MWE=matinada_del_8_de_novembre_de_1997|MWEPOS=NOUN
 8	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	9	case	_	_
-9	8	8	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	7	compound	_	_
+9	8	8	NUM	NUM	NumForm=Digit|NumType=Card	7	compound	_	_
 10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 11	novembre	novembre	NOUN	NOUN	_	7	compound	_	_
 12	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
-13	1997	1997	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	7	compound	_	_
+13	1997	1997	NUM	NUM	NumForm=Digit|NumType=Card	7	compound	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 15	quan	quan	SCONJ	SCONJ	_	19	mark	_	_
 16	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -29563,7 +29563,7 @@
 41	,	,	PUNCT	PUNCT	PunctType=Comm	43	punct	_	_
 42	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
 43	dia	dia	NOUN	NOUN	_	31	nmod	_	MWE=dia_14|MWEPOS=NOUN
-44	14	14	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	43	compound	_	_
+44	14	14	NUM	NUM	NumForm=Digit|NumType=Card	43	compound	_	_
 45	vinent	vinent	ADJ	ADJ	Number=Sing	43	amod	_	_
 46	.	.	PUNCT	PUNCT	PunctType=Peri	31	punct	_	_
 
@@ -30151,7 +30151,7 @@
 1	Mentre	mentre	SCONJ	SCONJ	_	7	mark	_	_
 2	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	any	any	NOUN	NOUN	_	7	nmod	_	MWE=any_1999|MWEPOS=NOUN
-4	1999	1999	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	3	compound	_	_
+4	1999	1999	NUM	NUM	NumForm=Digit|NumType=Card	3	compound	_	_
 5	es	es	PRON	PRON	Person=3	7	dobj	_	_
 6	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	tractar	tractar	VERB	VERB	VerbForm=Inf	16	advcl	_	_
@@ -30271,7 +30271,7 @@
 22	finalitzar	finalitzar	VERB	VERB	VerbForm=Inf	14	conj	_	_
 23	-los	ell	PRON	PRON	Number=Plur|Person=3|PronType=Prs	22	dobj	_	_
 24	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	15	15	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	22	nmod	_	MWE=15_d'_octubre|MWEPOS=NOUN
+25	15	15	NUM	NUM	NumForm=Digit|NumType=Card	22	nmod	_	MWE=15_d'_octubre|MWEPOS=NOUN
 26	d'	d'	ADP	ADP	AdpType=Prep	27	case	_	_
 27	octubre	octubre	NOUN	NOUN	_	25	compound	_	_
 28	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
@@ -30403,7 +30403,7 @@
 41	40	40	NUM	NUM	NumForm=Digit	38	advcl	_	_
 42	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	43	det	_	_
 43	any	any	NOUN	NOUN	_	41	nmod	_	MWE=any_2003|MWEPOS=NOUN
-44	2003	2003	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	43	compound	_	_
+44	2003	2003	NUM	NUM	NumForm=Digit|NumType=Card	43	compound	_	_
 45	'	'	SYM	SYM	_	37	nmod	_	_
 46	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
@@ -31015,9 +31015,9 @@
 46	Quico	Quico	PROPN	PROPN	_	40	nmod	_	MWE=Quico_el_Cèlio_,_el_Noi_i_el_Mut_de_Ferreries|MWEPOS=PROPN
 47	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
 48	Cèlio	Cèlio	PROPN	PROPN	_	46	name	_	_
-49	,	,	PUNCT	PUNCT	_	48	name	_	_
+49	,	,	PUNCT	PUNCT	_	46	punct	_	_
 50	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	Noi	Noi	PROPN	PROPN	_	48	name	_	_
+51	Noi	Noi	PROPN	PROPN	_	46	name	_	_
 52	i	i	CONJ	CONJ	_	46	name	_	_
 53	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
 54	Mut	Mut	PROPN	PROPN	_	46	name	_	_
@@ -31629,7 +31629,7 @@
 5	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
 6	octubre	octubre	NOUN	NOUN	_	4	nmod	_	MWE=octubre_de_1996|MWEPOS=NOUN
 7	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
-8	1996	1996	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	6	compound	_	_
+8	1996	1996	NUM	NUM	NumForm=Digit|NumType=Card	6	compound	_	_
 9	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 10	quan	quan	SCONJ	SCONJ	_	14	mark	_	_
 11	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
@@ -31857,7 +31857,7 @@
 10	Quiere	Quiere	PROPN	PROPN	_	9	appos	_	MWE=Quiere_ser_millonario_?|MWEPOS=PROPN
 11	ser	ser	PROPN	PROPN	_	10	name	_	_
 12	millonario	millonario	PROPN	PROPN	_	10	name	_	_
-13	?	?	PUNCT	PUNCT	_	10	name	_	_
+13	?	?	PUNCT	PUNCT	_	10	punct	_	_
 14	:	:	PUNCT	PUNCT	PunctType=Colo	18	punct	_	_
 15	totes	tot	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
 16	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
@@ -31947,7 +31947,7 @@
 21	a	a	ADP	ADP	AdpType=Prep	23	case	_	_
 22	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
 23	any	any	NOUN	NOUN	_	17	nmod	_	MWE=any_2001|MWEPOS=NOUN
-24	2001	2001	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	23	compound	_	_
+24	2001	2001	NUM	NUM	NumForm=Digit|NumType=Card	23	compound	_	_
 25	es	ell	PRON	PRON	Person=3	26	dobj	_	_
 26	refereix	referir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
 27	a	a	ADP	ADP	AdpType=Prep	29	case	_	_
@@ -32013,7 +32013,7 @@
 20	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	identificació	identificació	NOUN	NOUN	Gender=Fem|Number=Sing	18	dobj	_	_
 22	Pujol	Pujol	PROPN	PROPN	_	21	appos	_	MWE=Pujol_._Catalanisme|MWEPOS=PROPN
-23	.	.	PUNCT	PUNCT	_	22	name	_	_
+23	.	.	PUNCT	PUNCT	_	22	punct	_	_
 24	Catalanisme	Catalanisme	PROPN	PROPN	_	22	name	_	_
 25	'	'	SYM	SYM	_	21	nmod	_	_
 26	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
@@ -33435,7 +33435,7 @@
 10	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 11	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
 12	any	any	NOUN	NOUN	_	9	appos	_	MWE=any_2000|MWEPOS=NOUN
-13	2000	2000	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	12	compound	_	_
+13	2000	2000	NUM	NUM	NumForm=Digit|NumType=Card	12	compound	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	companyia	companyia	NOUN	NOUN	Gender=Fem|Number=Sing	18	nsubj	_	_
@@ -34993,7 +34993,7 @@
 7	'	'	SYM	SYM	_	8	nmod	_	_
 8	Joan	Joan	PROPN	PROPN	_	6	appos	_	MWE=Joan_Guinjoan_,_el_testimoni_d'_un_músic|MWEPOS=PROPN
 9	Guinjoan	Guinjoan	PROPN	PROPN	_	8	name	_	_
-10	,	,	PUNCT	PUNCT	_	8	name	_	_
+10	,	,	PUNCT	PUNCT	_	8	punct	_	_
 11	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	testimoni	testimoni	PROPN	PROPN	_	8	name	_	_
 13	d'	d'	ADP	ADP	AdpType=Prep	15	case	_	_
@@ -36067,11 +36067,11 @@
 3	es	ell	PRON	PRON	Person=3	4	dobj	_	_
 4	remunten	remuntar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	6	case	_	_
-6	28	28	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	4	dobj	_	MWE=28_de_setembre_de_1997|MWEPOS=NOUN
+6	28	28	NUM	NUM	NumForm=Digit|NumType=Card	4	dobj	_	MWE=28_de_setembre_de_1997|MWEPOS=NOUN
 7	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 8	setembre	setembre	NOUN	NOUN	_	6	compound	_	_
 9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
-10	1997	1997	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	6	compound	_	_
+10	1997	1997	NUM	NUM	NumForm=Digit|NumType=Card	6	compound	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
 12	quan	quan	SCONJ	SCONJ	_	16	mark	_	_
 13	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -36216,7 +36216,7 @@
 # sent_id ca-s1054
 # orig_file_sentence 011#54
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
-2	1	1	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	11	nmod	_	MWE=1_d'_octubre|MWEPOS=NOUN
+2	1	1	NUM	NUM	NumForm=Digit|NumType=Card	11	nmod	_	MWE=1_d'_octubre|MWEPOS=NOUN
 3	d'	d'	ADP	ADP	AdpType=Prep	4	case	_	_
 4	octubre	octubre	NOUN	NOUN	_	2	compound	_	_
 5	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	7	case	_	_
@@ -36410,11 +36410,11 @@
 6	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	produir	produir	VERB	VERB	VerbForm=Inf	0	root	_	_
 8	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	8	8	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	7	nmod	_	MWE=8_d'_octubre_de_1997|MWEPOS=NOUN
+9	8	8	NUM	NUM	NumForm=Digit|NumType=Card	7	nmod	_	MWE=8_d'_octubre_de_1997|MWEPOS=NOUN
 10	d'	d'	ADP	ADP	AdpType=Prep	11	case	_	_
 11	octubre	octubre	NOUN	NOUN	_	9	compound	_	_
 12	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
-13	1997	1997	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	9	compound	_	_
+13	1997	1997	NUM	NUM	NumForm=Digit|NumType=Card	9	compound	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 15	quan	quan	SCONJ	SCONJ	_	21	mark	_	_
 16	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
@@ -36540,7 +36540,7 @@
 43	fira	fira	NOUN	NOUN	Gender=Fem|Number=Sing	36	dobj	_	_
 44	'	'	SYM	SYM	_	45	nmod	_	_
 45	Moianès	Moianès	PROPN	PROPN	_	43	appos	_	MWE=Moianès_,_turisme_i_lleure|MWEPOS=PROPN
-46	,	,	PUNCT	PUNCT	_	45	name	_	_
+46	,	,	PUNCT	PUNCT	_	45	punct	_	_
 47	turisme	turisme	PROPN	PROPN	_	45	name	_	_
 48	i	i	CONJ	CONJ	_	45	name	_	_
 49	lleure	lleure	PROPN	PROPN	_	45	name	_	_
@@ -36575,11 +36575,11 @@
 24	Estany	Estany	PROPN	PROPN	_	21	nmod	_	_
 25	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 26	dies	dies	NOUN	NOUN	_	21	cc	_	MWE=dies_1|MWEPOS=NOUN
-27	1	1	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	26	compound	_	_
+27	1	1	NUM	NUM	NumForm=Digit|NumType=Card	26	compound	_	_
 28	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
 29	2	2	NOUN	NOUN	AdvType=Tim	26	conj	_	_
 30	i	i	CONJ	CONJ	_	26	cc	_	_
-31	3	3	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	26	conj	_	MWE=3_de_juny|MWEPOS=NOUN
+31	3	3	NUM	NUM	NumForm=Digit|NumType=Card	26	conj	_	MWE=3_de_juny|MWEPOS=NOUN
 32	de	de	ADP	ADP	AdpType=Prep	33	case	_	_
 33	juny	juny	NOUN	NOUN	_	31	compound	_	_
 34	i	i	CONJ	CONJ	_	21	cc	_	_
@@ -36601,7 +36601,7 @@
 # orig_file_sentence 011#63
 1	'	'	SYM	SYM	_	2	nmod	_	_
 2	Moianès	Moianès	PROPN	PROPN	_	8	nsubj	_	MWE=Moianès_,_turisme_i_lleure|MWEPOS=PROPN
-3	,	,	PUNCT	PUNCT	_	2	name	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	turisme	turisme	PROPN	PROPN	_	2	name	_	_
 5	i	i	CONJ	CONJ	_	2	name	_	_
 6	lleure	lleure	PROPN	PROPN	_	2	name	_	_
@@ -36854,7 +36854,7 @@
 7	començarà	començar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 8	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	dia	dia	NOUN	NOUN	_	7	nmod	_	MWE=dia_2_de_juny|MWEPOS=NOUN
-10	2	2	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	9	compound	_	_
+10	2	2	NUM	NUM	NumForm=Digit|NumType=Card	9	compound	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 12	juny	juny	NOUN	NOUN	_	9	compound	_	_
 13	i	i	CONJ	CONJ	_	7	cc	_	_
@@ -36956,7 +36956,7 @@
 # orig_file_sentence 011#72
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	dia	dia	NOUN	NOUN	_	9	nmod	_	MWE=dia_3_de_juny|MWEPOS=NOUN
-3	3	3	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	2	compound	_	_
+3	3	3	NUM	NUM	NumForm=Digit|NumType=Card	2	compound	_	_
 4	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
 5	juny	juny	NOUN	NOUN	_	2	compound	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
@@ -37105,7 +37105,7 @@
 29	Estany	Estany	PROPN	PROPN	_	26	nmod	_	_
 30	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
 31	any	any	NOUN	NOUN	_	26	nmod	_	MWE=any_1988|MWEPOS=NOUN
-32	1988	1988	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	31	compound	_	_
+32	1988	1988	NUM	NUM	NumForm=Digit|NumType=Card	31	compound	_	_
 33	i	i	CONJ	CONJ	_	26	cc	_	_
 34	acabant	acabar	VERB	VERB	VerbForm=Ger	26	conj	_	_
 35	a	a	ADP	ADP	AdpType=Prep	36	case	_	_
@@ -39252,7 +39252,7 @@
 5	seu	seu	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
 6	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	7	case	_	_
 7	PSE	PSE	PROPN	PROPN	_	5	nmod	_	MWE=PSE_-_EE|MWEPOS=PROPN
-8	-	-	PUNCT	PUNCT	_	7	name	_	_
+8	-	-	PUNCT	PUNCT	_	7	punct	_	_
 9	EE	EE	PROPN	PROPN	_	7	name	_	_
 10	es	es	PRON	PRON	_	12	dobj	_	_
 11	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
@@ -39471,7 +39471,7 @@
 28	executiva	executiva	NOUN	NOUN	Gender=Fem|Number=Sing	25	nmod	_	_
 29	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	30	case	_	_
 30	PSE	PSE	PROPN	PROPN	_	28	nmod	_	MWE=PSE_-_EE|MWEPOS=PROPN
-31	-	-	PUNCT	PUNCT	_	30	name	_	_
+31	-	-	PUNCT	PUNCT	_	30	punct	_	_
 32	EE	EE	PROPN	PROPN	_	30	name	_	_
 33	davant	davant	ADP	ADP	AdpType=Prep	35	case	_	_
 34	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
@@ -40004,7 +40004,7 @@
 3	s'	es	PRON	PRON	_	4	dobj	_	_
 4	obrirà	obrir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	diumenge	diumenge	NOUN	NOUN	_	4	nmod	_	MWE=diumenge_21_d'_octubre|MWEPOS=NOUN
-6	21	21	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	5	compound	_	_
+6	21	21	NUM	NUM	NumForm=Digit|NumType=Card	5	compound	_	_
 7	d'	d'	ADP	ADP	AdpType=Prep	8	case	_	_
 8	octubre	octubre	NOUN	NOUN	_	5	compound	_	_
 9	amb	amb	ADP	ADP	AdpType=Prep	11	case	_	_
@@ -40034,7 +40034,7 @@
 6	Calafell	Calafell	PROPN	PROPN	_	4	nmod	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 8	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	18	18	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	4	nmod	_	MWE=18_de_novembre|MWEPOS=NOUN
+9	18	18	NUM	NUM	NumForm=Digit|NumType=Card	4	nmod	_	MWE=18_de_novembre|MWEPOS=NOUN
 10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 11	novembre	novembre	NOUN	NOUN	_	9	compound	_	_
 12	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
@@ -42062,11 +42062,11 @@
 5	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	tarda	tarda	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
 7	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	8	case	_	_
-8	19	19	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	6	nmod	_	MWE=19_de_desembre_de_1996|MWEPOS=NOUN
+8	19	19	NUM	NUM	NumForm=Digit|NumType=Card	6	nmod	_	MWE=19_de_desembre_de_1996|MWEPOS=NOUN
 9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 10	desembre	desembre	NOUN	NOUN	_	8	compound	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
-12	1996	1996	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	8	compound	_	_
+12	1996	1996	NUM	NUM	NumForm=Digit|NumType=Card	8	compound	_	_
 13	quan	quan	PRON	PRON	PronType=Rel	16	nmod	_	_
 14	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	víctima	víctima	NOUN	NOUN	Gender=Fem|Number=Sing	16	nsubj	_	_
@@ -42324,17 +42324,17 @@
 15	a	a	ADP	ADP	AdpType=Prep	17	case	_	_
 16	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Garona	Garona	PROPN	PROPN	_	12	name	_	_
-18	:	:	PUNCT	PUNCT	_	17	name	_	_
-19	convergència	convergència	PROPN	PROPN	_	17	name	_	_
+18	:	:	PUNCT	PUNCT	_	12	punct	_	_
+19	convergència	convergència	PROPN	PROPN	_	12	name	_	_
 20	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
-21	tecnologies	tecnologies	PROPN	PROPN	_	17	name	_	_
+21	tecnologies	tecnologies	PROPN	PROPN	_	12	name	_	_
 22	de	de	ADP	ADP	AdpType=Prep	24	case	_	_
 23	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	informació	informació	PROPN	PROPN	_	17	name	_	_
-25	,	,	PUNCT	PUNCT	_	17	name	_	_
+24	informació	informació	PROPN	PROPN	_	12	name	_	_
+25	,	,	PUNCT	PUNCT	_	12	punct	_	_
 26	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
 27	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	comunicació	comunicació	PROPN	PROPN	_	17	name	_	_
+28	comunicació	comunicació	PROPN	PROPN	_	12	name	_	_
 29	i	i	CONJ	CONJ	_	12	name	_	_
 30	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
 31	l'	l'	DET	DET	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
@@ -44430,7 +44430,7 @@
 8	Videoart	Videoart	PROPN	PROPN	_	4	name	_	_
 9	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	10	case	_	_
 10	anys	anys	NOUN	NOUN	_	8	nmod	_	MWE=anys_90|MWEPOS=NOUN
-11	90	90	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	10	compound	_	_
+11	90	90	NUM	NUM	NumForm=Digit|NumType=Card	10	compound	_	_
 12	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	8	punct	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
 14	que	que	PRON	PRON	PronType=Rel	16	nsubj	_	_
@@ -44443,10 +44443,10 @@
 21	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
 22	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Fundació	Fundació	PROPN	PROPN	_	19	nmod	_	MWE=Fundació_'_la_Caixa_'|MWEPOS=PROPN
-24	'	'	PUNCT	PUNCT	_	23	name	_	_
+24	'	'	PUNCT	PUNCT	_	23	punct	_	_
 25	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Caixa	Caixa	PROPN	PROPN	_	23	name	_	_
-27	'	'	PUNCT	PUNCT	_	23	name	_	_
+27	'	'	PUNCT	PUNCT	_	23	punct	_	_
 28	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
 29	Lleida	Lleida	PROPN	PROPN	_	19	nmod	_	_
 30	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	31	punct	_	_
@@ -44491,7 +44491,7 @@
 9	Lleida	Lleida	PROPN	PROPN	_	7	nmod	_	_
 10	fins	fins	ADP	ADP	AdpType=Prep	12	case	_	_
 11	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	12	case	_	_
-12	10	10	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	7	nmod	_	MWE=10_de_març|MWEPOS=NOUN
+12	10	10	NUM	NUM	NumForm=Digit|NumType=Card	7	nmod	_	MWE=10_de_març|MWEPOS=NOUN
 13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
 14	març	març	NOUN	NOUN	_	12	compound	_	_
 15	per	per	ADP	ADP	AdpType=Prep	7	advmod	_	_
@@ -46953,7 +46953,7 @@
 7	durant	durant	ADP	ADP	AdpType=Prep	9	case	_	_
 8	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
 9	any	any	NOUN	NOUN	_	6	nmod	_	MWE=any_2001|MWEPOS=NOUN
-10	2001	2001	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	9	compound	_	_
+10	2001	2001	NUM	NUM	NumForm=Digit|NumType=Card	9	compound	_	_
 11	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
 12	total	total	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	_
 13	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
@@ -47675,7 +47675,7 @@
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	octubre	octubre	NOUN	NOUN	_	14	nmod	_	MWE=octubre_del_1996|MWEPOS=NOUN
 3	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	4	case	_	_
-4	1996	1996	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	2	compound	_	_
+4	1996	1996	NUM	NUM	NumForm=Digit|NumType=Card	2	compound	_	_
 5	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	diputat	diputat	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -48237,7 +48237,7 @@
 15	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	17	case	_	_
 16	pròxim	pròxim	ADJ	ADJ	Gender=Masc|Number=Sing	17	amod	_	_
 17	dia	dia	NOUN	NOUN	_	13	nmod	_	MWE=dia_30|MWEPOS=NOUN
-18	30	30	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	17	compound	_	_
+18	30	30	NUM	NUM	NumForm=Digit|NumType=Card	17	compound	_	_
 19	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	20	det	_	_
 20	exposició	exposició	NOUN	NOUN	Gender=Fem|Number=Sing	13	dobj	_	_
 21	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
@@ -48485,7 +48485,7 @@
 28	partir	partir	NOUN	NOUN	_	27	mwe	_	_
 29	de	de	ADP	ADP	AdpType=Prep	27	mwe	_	_
 30	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
-31	1	1	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	18	nmod	_	MWE=1_de_gener|MWEPOS=NOUN
+31	1	1	NUM	NUM	NumForm=Digit|NumType=Card	18	nmod	_	MWE=1_de_gener|MWEPOS=NOUN
 32	de	de	ADP	ADP	AdpType=Prep	33	case	_	_
 33	gener	gener	NOUN	NOUN	_	31	compound	_	_
 34	vinent	vinent	ADJ	ADJ	Number=Sing	31	amod	_	_
@@ -49452,7 +49452,7 @@
 8	i	i	CONJ	CONJ	_	6	cc	_	_
 9	Actuacions	Actuacions	PROPN	PROPN	_	6	conj	_	MWE=Actuacions_Exteriors_,_Cooperació_i_Solidaritat|MWEPOS=PROPN
 10	Exteriors	Exteriors	PROPN	PROPN	_	9	name	_	_
-11	,	,	PUNCT	PUNCT	_	9	name	_	_
+11	,	,	PUNCT	PUNCT	_	9	punct	_	_
 12	Cooperació	Cooperació	PROPN	PROPN	_	9	name	_	_
 13	i	i	CONJ	CONJ	_	9	name	_	_
 14	Solidaritat	Solidaritat	PROPN	PROPN	_	9	name	_	_
@@ -49976,7 +49976,7 @@
 15	de	de	ADP	ADP	AdpType=Prep	14	mwe	_	_
 16	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
 17	any	any	NOUN	NOUN	_	6	nmod	_	MWE=any_1970|MWEPOS=NOUN
-18	1970	1970	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	17	compound	_	_
+18	1970	1970	NUM	NUM	NumForm=Digit|NumType=Card	17	compound	_	_
 19	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 20	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
 21	arribat	arribar	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	aux	_	_
@@ -50015,7 +50015,7 @@
 10	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 11	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
 12	any	any	NOUN	NOUN	_	9	nmod	_	MWE=any_2001|MWEPOS=NOUN
-13	2001	2001	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	12	compound	_	_
+13	2001	2001	NUM	NUM	NumForm=Digit|NumType=Card	12	compound	_	_
 14	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
 15	empresa	empresa	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj	_	_
 16	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
@@ -50120,11 +50120,11 @@
 1	Així	així	ADV	ADV	_	13	advmod	_	_
 2	,	,	PUNCT	PUNCT	PunctType=Comm	1	punct	_	_
 3	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	17	17	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	13	nmod	_	MWE=17_de_setembre_de_2001|MWEPOS=NOUN
+4	17	17	NUM	NUM	NumForm=Digit|NumType=Card	13	nmod	_	MWE=17_de_setembre_de_2001|MWEPOS=NOUN
 5	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
 6	setembre	setembre	NOUN	NOUN	_	4	compound	_	_
 7	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
-8	2001	2001	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	4	compound	_	_
+8	2001	2001	NUM	NUM	NumForm=Digit|NumType=Card	4	compound	_	_
 9	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 10	empresa	empresa	NOUN	NOUN	Gender=Fem|Number=Sing	13	nsubj	_	_
 11	li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
@@ -50475,11 +50475,11 @@
 3	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	passar	passar	VERB	VERB	VerbForm=Inf	0	root	_	_
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	7	7	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	4	nmod	_	MWE=7_de_març_de_1998|MWEPOS=NOUN
+6	7	7	NUM	NUM	NumForm=Digit|NumType=Card	4	nmod	_	MWE=7_de_març_de_1998|MWEPOS=NOUN
 7	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 8	març	març	NOUN	NOUN	_	6	compound	_	_
 9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
-10	1998	1998	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	6	compound	_	_
+10	1998	1998	NUM	NUM	NumForm=Digit|NumType=Card	6	compound	_	_
 11	a	a	ADP	ADP	AdpType=Prep	13	case	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	tarda	tarda	NOUN	NOUN	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -50695,7 +50695,7 @@
 11	Catalunya	Catalunya	PROPN	PROPN	_	9	nmod	_	_
 12	fins	fins	ADP	ADP	AdpType=Prep	14	case	_	_
 13	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	14	case	_	_
-14	15	15	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	9	nmod	_	MWE=15_de_juny|MWEPOS=NOUN
+14	15	15	NUM	NUM	NumForm=Digit|NumType=Card	9	nmod	_	MWE=15_de_juny|MWEPOS=NOUN
 15	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
 16	juny	juny	NOUN	NOUN	_	14	compound	_	_
 17	d'	de	ADP	ADP	AdpType=Prep	19	case	_	_
@@ -51089,7 +51089,7 @@
 14	les_seves	el_seu	DET	DET	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	det	_	MWE=les_seves|MWEPOS=DET
 15	conclusions	conclusió	NOUN	NOUN	Gender=Fem|Number=Plur	13	dobj	_	_
 16	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	17	17	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	13	nmod	_	MWE=17_d'_agost|MWEPOS=NOUN
+17	17	17	NUM	NUM	NumForm=Digit|NumType=Card	13	nmod	_	MWE=17_d'_agost|MWEPOS=NOUN
 18	d'	d'	ADP	ADP	AdpType=Prep	19	case	_	_
 19	agost	agost	NOUN	NOUN	_	17	compound	_	_
 20	-	-	PUNCT	PUNCT	PunctType=Dash	13	punct	_	_
@@ -51949,7 +51949,7 @@
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	desembre	desembre	NOUN	NOUN	_	8	nmod	_	MWE=desembre_del_2001|MWEPOS=NOUN
 3	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	4	case	_	_
-4	2001	2001	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	2	compound	_	_
+4	2001	2001	NUM	NUM	NumForm=Digit|NumType=Card	2	compound	_	_
 5	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	grup	grup	NOUN	NOUN	Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -52218,7 +52218,7 @@
 4	finalitzar	finalitzar	VERB	VERB	VerbForm=Inf	3	xcomp	_	_
 5	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
 6	any	any	NOUN	NOUN	_	4	nmod	_	MWE=any_2004|MWEPOS=NOUN
-7	2004	2004	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	6	compound	_	_
+7	2004	2004	NUM	NUM	NumForm=Digit|NumType=Card	6	compound	_	_
 8	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 9	procés	procés	NOUN	NOUN	Gender=Masc|Number=Sing	4	dobj	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
@@ -52440,7 +52440,7 @@
 4	avui	avui	ADV	ADV	_	5	advmod	_	_
 5	fins	fins	NOUN	NOUN	_	26	cc	_	MWE=fins_al|MWEPOS=ADP
 6	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	5	mwe	_	_
-7	14	14	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	5	nmod	_	MWE=14_de_juny|MWEPOS=NOUN
+7	14	14	NUM	NUM	NumForm=Digit|NumType=Card	5	nmod	_	MWE=14_de_juny|MWEPOS=NOUN
 8	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 9	juny	juny	NOUN	NOUN	_	7	compound	_	_
 10	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
@@ -52674,7 +52674,7 @@
 # orig_file_sentence 015#73
 1	Del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	2	cc	_	_
 2	dia	dia	NOUN	NOUN	_	8	cc	_	MWE=dia_5|MWEPOS=NOUN
-3	5	5	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	2	compound	_	_
+3	5	5	NUM	NUM	NumForm=Digit|NumType=Card	2	compound	_	_
 4	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	2	cc	_	_
 5	12	12	NOUN	NOUN	AdvType=Tim	2	conj	_	_
 6	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
@@ -52782,7 +52782,7 @@
 28	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	Virreina	Virreina	PROPN	PROPN	_	26	name	_	_
 30	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
-31	19.30	19.30	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	26	conj	_	MWE=19.30_hores|MWEPOS=NOUN
+31	19.30	19.30	NUM	NUM	NumForm=Digit|NumType=Card	26	conj	_	MWE=19.30_hores|MWEPOS=NOUN
 32	hores	hores	NOUN	NOUN	_	31	compound	_	_
 33	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	26	punct	_	_
 34	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
@@ -52805,16 +52805,16 @@
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	títol	títol	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	_
 16	Humor	Humor	PROPN	PROPN	_	15	appos	_	MWE=Humor_,_pascua_y_justicia_,_¿_un_triángulo_imposible_?|MWEPOS=PROPN
-17	,	,	PUNCT	PUNCT	_	16	name	_	_
+17	,	,	PUNCT	PUNCT	_	16	punct	_	_
 18	pascua	pascua	PROPN	PROPN	_	16	name	_	_
 19	y	y	CONJ	CONJ	_	16	name	_	_
 20	justicia	justicia	PROPN	PROPN	_	16	name	_	_
-21	,	,	PUNCT	PUNCT	_	20	name	_	_
-22	¿	¿	PUNCT	PUNCT	_	20	name	_	_
+21	,	,	PUNCT	PUNCT	_	16	punct	_	_
+22	¿	¿	PUNCT	PUNCT	_	16	punct	_	_
 23	un	un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	triángulo	triángulo	PROPN	PROPN	_	20	name	_	_
-25	imposible	imposible	PROPN	PROPN	_	20	name	_	_
-26	?	?	PUNCT	PUNCT	_	20	name	_	_
+24	triángulo	triángulo	PROPN	PROPN	_	16	name	_	_
+25	imposible	imposible	PROPN	PROPN	_	24	name	_	_
+26	?	?	PUNCT	PUNCT	_	16	punct	_	_
 27	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	28	punct	_	_
 28	CCCB	CCCB	PROPN	PROPN	_	10	dep	_	_
 29	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	28	punct	_	_
@@ -52918,10 +52918,10 @@
 33	Tragedias	Tragedias	PROPN	PROPN	_	19	nmod	_	MWE=Tragedias_para_reír_:_el_sainete_americano_y_el_grotesco|MWEPOS=PROPN
 34	para	para	ADP	ADP	AdpType=Prep	35	case	_	_
 35	reír	reír	PROPN	PROPN	_	33	name	_	_
-36	:	:	PUNCT	PUNCT	_	35	name	_	_
+36	:	:	PUNCT	PUNCT	_	33	punct	_	_
 37	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	sainete	sainete	PROPN	PROPN	_	35	name	_	_
-39	americano	americano	PROPN	PROPN	_	35	name	_	_
+38	sainete	sainete	PROPN	PROPN	_	33	name	_	_
+39	americano	americano	PROPN	PROPN	_	38	name	_	_
 40	y	y	CONJ	CONJ	_	33	name	_	_
 41	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	grotesco	grotesco	PROPN	PROPN	_	33	name	_	_
@@ -52945,10 +52945,10 @@
 60	Humor	Humor	PROPN	PROPN	_	58	nmod	_	MWE=Humor_por_centímetros_:_risas_en_TV|MWEPOS=PROPN
 61	por	por	ADP	ADP	AdpType=Prep	62	case	_	_
 62	centímetros	centímetros	PROPN	PROPN	_	60	name	_	_
-63	:	:	PUNCT	PUNCT	_	62	name	_	_
-64	risas	risas	PROPN	PROPN	_	62	name	_	_
+63	:	:	PUNCT	PUNCT	_	60	punct	_	_
+64	risas	risas	PROPN	PROPN	_	60	name	_	_
 65	en	en	ADP	ADP	AdpType=Prep	66	case	_	_
-66	TV	TV	PROPN	PROPN	_	62	name	_	_
+66	TV	TV	PROPN	PROPN	_	60	name	_	_
 67	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	68	det	_	_
 68	càlculs	càlcul	NOUN	NOUN	Gender=Masc|Number=Plur	58	dobj	_	_
 69	racionals	racional	ADJ	ADJ	Number=Plur	68	amod	_	_
@@ -54904,7 +54904,7 @@
 18	fins	fins	ADP	ADP	AdpType=Prep	20	case	_	_
 19	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
 20	any	any	NOUN	NOUN	_	17	nmod	_	MWE=any_2007|MWEPOS=NOUN
-21	2007	2007	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	20	compound	_	_
+21	2007	2007	NUM	NUM	NumForm=Digit|NumType=Card	20	compound	_	_
 22	.	.	PUNCT	PUNCT	PunctType=Peri	17	punct	_	_
 
 # sent_id ca-s1541
@@ -54914,7 +54914,7 @@
 3	parlamentària	parlamentària	PROPN	PROPN	_	2	name	_	_
 4	d'	de	ADP	ADP	AdpType=Prep	5	case	_	_
 5	Indústria	Indústria	PROPN	PROPN	_	2	nmod	_	MWE=Indústria_,_Comerç_i_Turisme|MWEPOS=PROPN
-6	,	,	PUNCT	PUNCT	_	5	name	_	_
+6	,	,	PUNCT	PUNCT	_	5	punct	_	_
 7	Comerç	Comerç	PROPN	PROPN	_	5	name	_	_
 8	i	i	CONJ	CONJ	_	5	name	_	_
 9	Turisme	Turisme	PROPN	PROPN	_	5	name	_	_
@@ -54969,7 +54969,7 @@
 58	fins	fins	ADP	ADP	AdpType=Prep	60	case	_	_
 59	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	60	det	_	_
 60	any	any	NOUN	NOUN	_	48	nmod	_	MWE=any_2007|MWEPOS=NOUN
-61	2007	2007	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	60	compound	_	_
+61	2007	2007	NUM	NUM	NumForm=Digit|NumType=Card	60	compound	_	_
 62	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id ca-s1542
@@ -55071,7 +55071,7 @@
 67	de	de	ADP	ADP	AdpType=Prep	69	case	_	_
 68	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	69	det	_	_
 69	any	any	NOUN	NOUN	_	66	nmod	_	MWE=any_2005|MWEPOS=NOUN
-70	2005	2005	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	69	compound	_	_
+70	2005	2005	NUM	NUM	NumForm=Digit|NumType=Card	69	compound	_	_
 71	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s1544
@@ -55109,7 +55109,7 @@
 31	fins	fins	ADP	ADP	AdpType=Prep	33	case	_	_
 32	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	33	det	_	_
 33	any	any	NOUN	NOUN	_	30	nmod	_	MWE=any_2010|MWEPOS=NOUN
-34	2010	2010	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	33	compound	_	_
+34	2010	2010	NUM	NUM	NumForm=Digit|NumType=Card	33	compound	_	_
 35	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id ca-s1545
@@ -55248,7 +55248,7 @@
 16	fins	fins	ADP	ADP	AdpType=Prep	18	case	_	_
 17	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
 18	any	any	NOUN	NOUN	_	15	nmod	_	MWE=any_2010|MWEPOS=NOUN
-19	2010	2010	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	18	compound	_	_
+19	2010	2010	NUM	NUM	NumForm=Digit|NumType=Card	18	compound	_	_
 20	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 21	ajuts	ajut	NOUN	NOUN	Gender=Masc|Number=Plur	15	dobj	_	_
 22	europeus	europeu	ADJ	ADJ	Gender=Masc|Number=Plur	21	amod	_	_
@@ -55762,7 +55762,7 @@
 23	i	i	CONJ	CONJ	_	4	cc	_	_
 24	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
 25	any	any	NOUN	NOUN	_	36	nmod	_	MWE=any_1998|MWEPOS=NOUN
-26	1998	1998	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	25	compound	_	_
+26	1998	1998	NUM	NUM	NumForm=Digit|NumType=Card	25	compound	_	_
 27	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 28	durant	durant	ADP	ADP	AdpType=Prep	30	case	_	_
 29	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
@@ -56323,7 +56323,7 @@
 3	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	rotatius	rotatiu	NOUN	NOUN	Gender=Masc|Number=Plur	2	nsubj	_	_
 5	Tele	Tele	PROPN	PROPN	_	4	cc	_	MWE=Tele_/_Exprés|MWEPOS=PROPN
-6	/	/	PUNCT	PUNCT	_	5	name	_	_
+6	/	/	PUNCT	PUNCT	_	5	punct	_	_
 7	Exprés	Exprés	PROPN	PROPN	_	5	name	_	_
 8	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 9	Catalunya	Catalunya	PROPN	PROPN	_	5	name	_	MWE=Catalunya_Exprés|MWEPOS=PROPN
@@ -56436,7 +56436,7 @@
 7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	setembre	setembre	NOUN	NOUN	_	4	nmod	_	MWE=setembre_del_1982|MWEPOS=NOUN
 9	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	10	case	_	_
-10	1982	1982	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	8	compound	_	_
+10	1982	1982	NUM	NUM	NumForm=Digit|NumType=Card	8	compound	_	_
 11	amb	amb	ADP	ADP	AdpType=Prep	13	case	_	_
 12	40.000	40000	NUM	NUM	NumForm=Digit	13	nummod	_	_
 13	pessetes	pesseta	NOUN	NOUN	NumForm=Digit	4	cc	_	_
@@ -56514,7 +56514,7 @@
 3	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	març	març	NOUN	NOUN	_	2	nmod	_	MWE=març_del_1986|MWEPOS=NOUN
 5	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	6	case	_	_
-6	1986	1986	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	4	compound	_	_
+6	1986	1986	NUM	NUM	NumForm=Digit|NumType=Card	4	compound	_	_
 7	i	i	CONJ	CONJ	_	2	cc	_	_
 8	es	ell	PRON	PRON	Person=3	10	dobj	_	_
 9	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
@@ -56679,7 +56679,7 @@
 3	Diario	Diario	PROPN	PROPN	_	2	name	_	_
 4	com	com	SCONJ	SCONJ	_	2	case	_	_
 5	Tele	Tele	PROPN	PROPN	_	2	conj	_	MWE=Tele_/_Exprés|MWEPOS=PROPN
-6	/	/	PUNCT	PUNCT	_	5	name	_	_
+6	/	/	PUNCT	PUNCT	_	5	punct	_	_
 7	Exprés	Exprés	PROPN	PROPN	_	5	name	_	_
 8	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	donar	donar	VERB	VERB	VerbForm=Inf	0	root	_	_
@@ -57394,7 +57394,7 @@
 14	es	es	PRON	PRON	_	15	dobj	_	_
 15	produirà	produir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 16	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	14	14	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	15	nmod	_	MWE=14_de_març|MWEPOS=NOUN
+17	14	14	NUM	NUM	NumForm=Digit|NumType=Card	15	nmod	_	MWE=14_de_març|MWEPOS=NOUN
 18	de	de	ADP	ADP	AdpType=Prep	19	case	_	_
 19	març	març	NOUN	NOUN	_	17	compound	_	_
 20	.	.	PUNCT	PUNCT	PunctType=Peri	15	punct	_	_
@@ -57757,7 +57757,7 @@
 24	de	de	ADP	ADP	AdpType=Prep	22	mwe	_	_
 25	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
 26	any	any	NOUN	NOUN	_	11	nmod	_	MWE=any_2004|MWEPOS=NOUN
-27	2004	2004	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	26	compound	_	_
+27	2004	2004	NUM	NUM	NumForm=Digit|NumType=Card	26	compound	_	_
 28	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 29	vindrà	venir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 30	acompanyada	acompanyat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	29	dobj	_	_
@@ -58596,7 +58596,7 @@
 16	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	atemptats	atemptat	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod	_	_
 18	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	19	case	_	_
-19	7	7	NUM	NUM	AdvType=Tim|NumForm=Digit|NumType=Card	17	nmod	_	MWE=7_d'_agost|MWEPOS=NOUN
+19	7	7	NUM	NUM	NumForm=Digit|NumType=Card	17	nmod	_	MWE=7_d'_agost|MWEPOS=NOUN
 20	d'	d'	ADP	ADP	AdpType=Prep	21	case	_	_
 21	agost	agost	NOUN	NOUN	_	19	compound	_	_
 22	amb	amb	ADP	ADP	AdpType=Prep	26	case	_	MWE=amb_motiu_de|MWEPOS=ADP

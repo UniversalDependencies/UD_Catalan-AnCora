@@ -32,23 +32,23 @@
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="54">
-    <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV,PUNCT">73142</feat><!-- de, a, d', en, per, amb, entre, sobre, segons, des -->
+    <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV">73138</feat><!-- de, a, d', en, per, amb, entre, sobre, segons, des -->
     <feat name="AdpType" value="Preppron" upos="ADP,ADV">14714</feat><!-- del, al, dels, als, pel, pels, més, enfront, entorn, do -->
-    <feat name="AdvType" value="Tim" upos="ADV,NOUN,NUM,PUNCT,SYM">3100</feat><!-- 1999, 1998, 2000, 2001, divendres, 1997, dilluns, diumenge, dimecres, 1996 -->
+    <feat name="AdvType" value="Tim" upos="ADV,NOUN,SYM">1693</feat><!-- 1999, divendres, 1998, dilluns, diumenge, dimecres, dissabte, 2001, dijous, 2000 -->
     <feat name="Case" value="Acc" upos="PRON">877</feat><!-- el, l', la, -lo, -la, les, -les, 'l, els, li -->
     <feat name="Case" value="Dat" upos="PRON">551</feat><!-- li, -li, -lo -->
     <feat name="Case" value="Nom" upos="PRON">78</feat><!-- jo, A_mi -->
     <feat name="Definite" value="Def" upos="ADP,DET">52766</feat><!-- la, el, l', les, els, del, al, dels, als, los -->
     <feat name="Definite" value="Ind" upos="DET">188</feat><!-- un, una, en, l', al, col·laboració, la, sa, ses, suficient -->
-    <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PUNCT,VERB">84024</feat><!-- la, les, una, aquesta, la_seva, persones, les_seves, dues, aquestes, primera -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,PUNCT,SYM,VERB">106421</feat><!-- el, del, un, els, al, dels, aquest, als, anys, estat -->
+    <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,VERB">84023</feat><!-- la, les, una, aquesta, la_seva, persones, les_seves, dues, aquestes, primera -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">106407</feat><!-- el, del, un, els, al, dels, aquest, als, anys, estat -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">690</feat><!-- hauria, podria, seria, podrien, haurien, caldria, faria, agradaria, estaria, permetria -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">75</feat><!-- deixi, sigui, seguim, siguin, superi, aclareixi, estigui, estrena, gestioni, miri -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">34872</feat><!-- va, ha, és, van, han, són, està, té, havia, fa -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2624</feat><!-- hagi, sigui, pugui, puguin, hagués, hagin, siguin, tingui, fos, estigui -->
     <feat name="Negative" value="Neg" upos="ADV,PART">2985</feat><!-- no, pas, ni, només -->
     <feat name="Number" value="Plur" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,VERB">68408</feat><!-- les, els, dels, van, han, als, anys, milions, dos, són -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,PUNCT,VERB">188519</feat><!-- la, el, l', del, un, va, ha, una, al, és -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">188504</feat><!-- la, el, l', del, un, va, ha, una, al, és -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">180</feat><!-- la_nostra, el_nostre, nostre, les_nostres, nostres, els_nostres, els_seus, nostra, els_meus -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">91</feat><!-- la_meva, el_meu, els_meus, les_meves, meu, els_teus, la_teva, meus, teu, els_seus -->
     <feat name="NumForm" value="Digit" upos="NOUN,NUM,SYM">7692</feat><!-- pessetes, %, euros, 10, 15, 30, 20, 5, 12, 4 -->
@@ -93,13 +93,13 @@
     <dep name="advcl">8492</dep>
     <dep name="advmod">13876</dep>
     <dep name="amod">24181</dep>
-    <dep name="appos">7102</dep>
+    <dep name="appos">7110</dep>
     <dep name="aux">18649</dep>
     <dep name="auxpass:reflex">512</dep>
     <dep name="case">76559</dep>
     <dep name="cc">24953</dep>
     <dep name="ccomp">2939</dep>
-    <dep name="compound">2469</dep>
+    <dep name="compound">2472</dep>
     <dep name="conj">15181</dep>
     <dep name="cop">5001</dep>
     <dep name="csubj">1003</dep>
@@ -109,13 +109,13 @@
     <dep name="iobj">987</dep>
     <dep name="mark">10527</dep>
     <dep name="mwe">9894</dep>
-    <dep name="name">19569</dep>
+    <dep name="name">19246</dep>
     <dep name="neg">2756</dep>
     <dep name="nmod">65247</dep>
     <dep name="nsubj">26517</dep>
-    <dep name="nummod">5506</dep>
+    <dep name="nummod">5516</dep>
     <dep name="parataxis">566</dep>
-    <dep name="punct">53265</dep>
+    <dep name="punct">53567</dep>
     <dep name="root">16695</dep>
     <dep name="xcomp">1500</dep>
   </deps>
