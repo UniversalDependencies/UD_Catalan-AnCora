@@ -18294,7 +18294,7 @@
 26	Lucia	Lucia	PROPN	PROPN	_	24	nmod	_	MWE=Lucia_Etxebarria|MWEPOS=PROPN
 27	Etxebarria	Etxebarria	PROPN	PROPN	_	26	name	_	_
 28	'	'	SYM	SYM	_	29	nmod	_	_
-29	Amor	Amor	PROPN	PROPN	_	24	name	_	MWE=Amor_,_curiosidad_,_Prozac_y_dudas|MWEPOS=PROPN
+29	Amor	Amor	PROPN	PROPN	_	24	appos	_	MWE=Amor_,_curiosidad_,_Prozac_y_dudas|MWEPOS=PROPN
 30	,	,	PUNCT	PUNCT	_	29	punct	_	_
 31	curiosidad	curiosidad	PROPN	PROPN	_	29	conj	_	_
 32	,	,	PUNCT	PUNCT	_	29	punct	_	_
@@ -18379,7 +18379,7 @@
 # sent_id ca-s499
 # orig_file_sentence 005#98
 1	'	'	SYM	SYM	_	2	nmod	_	_
-2	Amor	Amor	PROPN	PROPN	_	0	root	_	MWE=Amor_,_Prozac_i_dubtes|MWEPOS=PROPN
+2	Amor	Amor	PROPN	PROPN	_	10	nsubj	_	MWE=Amor_,_Prozac_i_dubtes|MWEPOS=PROPN
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	Prozac	Prozac	PROPN	PROPN	_	2	conj	_	_
 5	i	i	CONJ	CONJ	_	2	cc	_	_
@@ -18387,7 +18387,7 @@
 7	'	'	SYM	SYM	_	2	nmod	_	_
 8	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
-10	adaptació	adaptació	NOUN	NOUN	Gender=Fem|Number=Sing	2	name	_	_
+10	adaptació	adaptació	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 11	lliure	lliure	ADJ	ADJ	Number=Sing	10	amod	_	_
 12	però	però	CONJ	CONJ	_	11	cc	_	_
 13	'	'	SYM	SYM	_	15	nmod	_	_
@@ -18402,7 +18402,7 @@
 22	Lucía	Lucía	PROPN	PROPN	_	20	nmod	_	MWE=Lucía_Etxebarria|MWEPOS=PROPN
 23	Etxebarria	Etxebarria	PROPN	PROPN	_	22	name	_	_
 24	'	'	SYM	SYM	_	25	nmod	_	_
-25	Amor	Amor	PROPN	PROPN	_	20	name	_	MWE=Amor_,_curiosidad_,_Prozac_y_dudas|MWEPOS=PROPN
+25	Amor	Amor	PROPN	PROPN	_	20	appos	_	MWE=Amor_,_curiosidad_,_Prozac_y_dudas|MWEPOS=PROPN
 26	,	,	PUNCT	PUNCT	_	25	punct	_	_
 27	curiosidad	curiosidad	PROPN	PROPN	_	25	conj	_	_
 28	,	,	PUNCT	PUNCT	_	25	punct	_	_
@@ -18444,7 +18444,7 @@
 64	volen	voler	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	60	conj	_	_
 65	canviar	canviar	VERB	VERB	VerbForm=Inf	64	xcomp	_	_
 66	definitivament	definitivament	ADV	ADV	_	64	advmod	_	_
-67	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
+67	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
 # sent_id ca-s500
 # orig_file_sentence 005#99
@@ -19107,7 +19107,7 @@
 # sent_id ca-s520
 # orig_file_sentence 006#20
 1	'	'	SYM	SYM	_	2	nmod	_	_
-2	Amor	Amor	PROPN	PROPN	_	0	root	_	MWE=Amor_,_Prozac_i_dubtes|MWEPOS=PROPN
+2	Amor	Amor	PROPN	PROPN	_	11	nsubj	_	MWE=Amor_,_Prozac_i_dubtes|MWEPOS=PROPN
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	Prozac	Prozac	PROPN	PROPN	_	2	conj	_	_
 5	i	i	CONJ	CONJ	_	2	cc	_	_
@@ -19116,7 +19116,7 @@
 8	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 9	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 10	tercera	tercer	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
-11	obra	obra	NOUN	NOUN	Gender=Fem|Number=Sing	2	name	_	_
+11	obra	obra	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 12	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
 13	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	companyia	companyia	NOUN	NOUN	Gender=Fem|Number=Sing	11	nmod	_	_
@@ -19129,7 +19129,7 @@
 21	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	22	det	_	_
 22	text	text	NOUN	NOUN	Gender=Masc|Number=Sing	20	dobj	_	_
 23	literari	literari	ADJ	ADJ	Gender=Masc|Number=Sing	22	amod	_	_
-24	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
+24	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id ca-s521
 # orig_file_sentence 006#21
@@ -36769,7 +36769,7 @@
 42	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 43	fira	fira	NOUN	NOUN	Gender=Fem|Number=Sing	36	dobj	_	_
 44	'	'	SYM	SYM	_	45	nmod	_	_
-45	Moianès	Moianès	PROPN	PROPN	_	43	name	_	MWE=Moianès_,_turisme_i_lleure|MWEPOS=PROPN
+45	Moianès	Moianès	PROPN	PROPN	_	43	appos	_	MWE=Moianès_,_turisme_i_lleure|MWEPOS=PROPN
 46	,	,	PUNCT	PUNCT	_	45	punct	_	_
 47	turisme	turisme	PROPN	PROPN	_	45	conj	_	_
 48	i	i	CONJ	CONJ	_	45	cc	_	_
@@ -36830,16 +36830,16 @@
 # sent_id ca-s1063
 # orig_file_sentence 011#63
 1	'	'	SYM	SYM	_	2	nmod	_	_
-2	Moianès	Moianès	PROPN	PROPN	_	0	root	_	MWE=Moianès_,_turisme_i_lleure|MWEPOS=PROPN
+2	Moianès	Moianès	PROPN	PROPN	_	8	nsubj	_	MWE=Moianès_,_turisme_i_lleure|MWEPOS=PROPN
 3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	turisme	turisme	PROPN	PROPN	_	2	conj	_	_
 5	i	i	CONJ	CONJ	_	2	cc	_	_
 6	lleure	lleure	PROPN	PROPN	_	2	conj	_	_
 7	'	'	SYM	SYM	_	2	nmod	_	_
-8	vol	voler	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	name	_	_
+8	vol	voler	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	ser	ser	AUX	AUX	VerbForm=Inf	11	cop	_	_
 10	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
-11	Fira	Fira	PROPN	PROPN	_	2	xcomp	_	_
+11	Fira	Fira	PROPN	PROPN	_	8	xcomp	_	_
 12	especialitzada	especialitzat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	11	amod	_	_
 13	en	en	ADP	ADP	AdpType=Prep	15	case	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -36873,7 +36873,7 @@
 42	interior	interior	NOUN	NOUN	Gender=Masc|Number=Sing	38	nmod	_	_
 43	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	44	case	_	_
 44	país	país	NOUN	NOUN	Gender=Masc|Number=Sing	42	nmod	_	_
-45	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
+45	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s1064
 # orig_file_sentence 011#64
@@ -53143,7 +53143,7 @@
 13	sota	sota	ADP	ADP	AdpType=Prep	15	case	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	títol	títol	NOUN	NOUN	Gender=Masc|Number=Sing	12	nmod	_	_
-16	Humor	Humor	PROPN	PROPN	_	15	name	_	MWE=Humor_,_pascua_y_justicia_,_¿_un_triángulo_imposible_?|MWEPOS=PROPN
+16	Humor	Humor	PROPN	PROPN	_	15	appos	_	MWE=Humor_,_pascua_y_justicia_,_¿_un_triángulo_imposible_?|MWEPOS=PROPN
 17	,	,	PUNCT	PUNCT	_	16	punct	_	_
 18	pascua	pascua	PROPN	PROPN	_	16	conj	_	_
 19	y	y	CONJ	CONJ	_	16	cc	_	_
@@ -55267,7 +55267,7 @@
 2	Comissió	Comissió	PROPN	PROPN	_	11	nsubj	_	MWE=Comissió_parlamentària|MWEPOS=PROPN
 3	parlamentària	parlamentària	PROPN	PROPN	_	2	name	_	_
 4	d'	de	ADP	ADP	AdpType=Prep	5	case	_	_
-5	Indústria	Indústria	PROPN	PROPN	_	2	name	_	MWE=Indústria_,_Comerç_i_Turisme|MWEPOS=PROPN
+5	Indústria	Indústria	PROPN	PROPN	_	2	nmod	_	MWE=Indústria_,_Comerç_i_Turisme|MWEPOS=PROPN
 6	,	,	PUNCT	PUNCT	_	5	punct	_	_
 7	Comerç	Comerç	PROPN	PROPN	_	5	conj	_	_
 8	i	i	CONJ	CONJ	_	5	cc	_	_

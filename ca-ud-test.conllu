@@ -10778,7 +10778,7 @@
 28	comunicació	comunicació	PROPN	PROPN	_	26	name	_	_
 29	empresarial	empresarial	PROPN	PROPN	_	28	name	_	_
 30	de	de	ADP	ADP	AdpType=Prep	31	case	_	_
-31	Publicitat	Publicitat	PROPN	PROPN	_	26	name	_	MWE=Publicitat_,_relacions_públiques_i_màrqueting|MWEPOS=PROPN
+31	Publicitat	Publicitat	PROPN	PROPN	_	26	nmod	_	MWE=Publicitat_,_relacions_públiques_i_màrqueting|MWEPOS=PROPN
 32	,	,	PUNCT	PUNCT	_	31	punct	_	_
 33	relacions	relacions	PROPN	PROPN	_	31	conj	_	_
 34	públiques	públiques	PROPN	PROPN	_	33	name	_	_
@@ -11189,7 +11189,7 @@
 8	per	per	ADP	ADP	AdpType=Prep	11	case	_	_
 9	a	a	ADP	ADP	AdpType=Prep	11	case	_	_
 10	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-11	Actuacions	Actuacions	PROPN	PROPN	_	7	name	_	MWE=Actuacions_Concertades_,_l'_Urbanisme_i_l'_Habitatge|MWEPOS=PROPN
+11	Actuacions	Actuacions	PROPN	PROPN	_	7	nmod	_	MWE=Actuacions_Concertades_,_l'_Urbanisme_i_l'_Habitatge|MWEPOS=PROPN
 12	Concertades	Concertades	PROPN	PROPN	_	11	name	_	_
 13	,	,	PUNCT	PUNCT	_	11	punct	_	_
 14	l'	l'	DET	DET	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
@@ -11222,7 +11222,7 @@
 41	direcció	direcció	NOUN	NOUN	Gender=Fem|Number=Sing	36	nmod	_	_
 42	general	general	ADJ	ADJ	Number=Sing	41	amod	_	_
 43	d'	de	ADP	ADP	AdpType=Prep	44	case	_	_
-44	Actuacions	Actuacions	PROPN	PROPN	_	41	name	_	MWE=Actuacions_Concertades_,_Arquitectura_i_Habitatge|MWEPOS=PROPN
+44	Actuacions	Actuacions	PROPN	PROPN	_	41	nmod	_	MWE=Actuacions_Concertades_,_Arquitectura_i_Habitatge|MWEPOS=PROPN
 45	Concertades	Concertades	PROPN	PROPN	_	44	name	_	_
 46	,	,	PUNCT	PUNCT	_	44	punct	_	_
 47	Arquitectura	Arquitectura	PROPN	PROPN	_	44	conj	_	_
