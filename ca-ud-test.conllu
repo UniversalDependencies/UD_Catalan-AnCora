@@ -1656,8 +1656,8 @@
 15	Pell	Pell	PROPN	PROPN	_	12	name	_	_
 16	d'	d'	ADP	ADP	AdpType=Prep	17	case	_	_
 17	Igualada	Igualada	PROPN	PROPN	_	12	name	_	_
-18	i	i	CONJ	CONJ	_	12	name	_	_
-19	Comarcal	Comarcal	PROPN	PROPN	_	12	name	_	_
+18	i	i	CONJ	CONJ	_	17	cc	_	_
+19	Comarcal	Comarcal	PROPN	PROPN	_	17	conj	_	_
 20	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 21	l'	l'	DET	DET	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
 22	Anoia	Anoia	PROPN	PROPN	_	12	name	_	_
@@ -1773,8 +1773,8 @@
 68	Col·legi	Col·legi	PROPN	PROPN	_	66	nmod	_	MWE=Col·legi_d'_Aparelladors_i_Arquitectes_Tècnics_de_Barcelona|MWEPOS=PROPN
 69	d'	d'	ADP	ADP	AdpType=Prep	70	case	_	_
 70	Aparelladors	Aparelladors	PROPN	PROPN	_	68	name	_	_
-71	i	i	CONJ	CONJ	_	68	name	_	_
-72	Arquitectes	Arquitectes	PROPN	PROPN	_	68	name	_	_
+71	i	i	CONJ	CONJ	_	70	cc	_	_
+72	Arquitectes	Arquitectes	PROPN	PROPN	_	70	conj	_	_
 73	Tècnics	Tècnics	PROPN	PROPN	_	72	name	_	_
 74	de	de	ADP	ADP	AdpType=Prep	75	case	_	_
 75	Barcelona	Barcelona	PROPN	PROPN	_	72	name	_	_
@@ -2252,8 +2252,8 @@
 16	cultura	cultura	NOUN	NOUN	Gender=Fem|Number=Sing	14	nmod	_	_
 17	Joan	Joan	PROPN	PROPN	_	14	appos	_	MWE=Joan_Tarrés_i_Vives|MWEPOS=PROPN
 18	Tarrés	Tarrés	PROPN	PROPN	_	17	name	_	_
-19	i	i	CONJ	CONJ	_	17	name	_	_
-20	Vives	Vives	PROPN	PROPN	_	17	name	_	_
+19	i	i	CONJ	CONJ	_	17	cc	_	_
+20	Vives	Vives	PROPN	PROPN	_	17	conj	_	_
 21	i	i	CONJ	CONJ	_	14	cc	_	_
 22	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
 23	comptar	comptar	VERB	VERB	VerbForm=Inf	14	conj	_	_
@@ -3298,8 +3298,8 @@
 69	Unió	Unió	PROPN	PROPN	_	66	nmod	_	MWE=Unió_de_Botiguers_i_Comerciants_de_Manresa|MWEPOS=PROPN
 70	de	de	ADP	ADP	AdpType=Prep	71	case	_	_
 71	Botiguers	Botiguers	PROPN	PROPN	_	69	name	_	_
-72	i	i	CONJ	CONJ	_	69	name	_	_
-73	Comerciants	Comerciants	PROPN	PROPN	_	69	name	_	_
+72	i	i	CONJ	CONJ	_	71	cc	_	_
+73	Comerciants	Comerciants	PROPN	PROPN	_	71	conj	_	_
 74	de	de	ADP	ADP	AdpType=Prep	75	case	_	_
 75	Manresa	Manresa	PROPN	PROPN	_	69	name	_	_
 76	,	,	PUNCT	PUNCT	PunctType=Comm	77	punct	_	_
@@ -3313,8 +3313,8 @@
 84	Cambra	Cambra	PROPN	PROPN	_	81	nmod	_	MWE=Cambra_de_Comerç_i_Indústria_de_Manresa|MWEPOS=PROPN
 85	de	de	ADP	ADP	AdpType=Prep	86	case	_	_
 86	Comerç	Comerç	PROPN	PROPN	_	84	name	_	_
-87	i	i	CONJ	CONJ	_	84	name	_	_
-88	Indústria	Indústria	PROPN	PROPN	_	84	name	_	_
+87	i	i	CONJ	CONJ	_	86	cc	_	_
+88	Indústria	Indústria	PROPN	PROPN	_	86	conj	_	_
 89	de	de	ADP	ADP	AdpType=Prep	90	case	_	_
 90	Manresa	Manresa	PROPN	PROPN	_	84	name	_	_
 91	,	,	PUNCT	PUNCT	PunctType=Comm	92	punct	_	_
@@ -3376,9 +3376,9 @@
 17	sanitat	sanitat	PROPN	PROPN	_	13	nmod	_	_
 18	més	més	ADV	ADV	_	17	name	_	_
 19	humanitzada	humanitzada	PROPN	PROPN	_	17	name	_	_
-20	i	i	CONJ	CONJ	_	16	name	_	_
+20	i	i	CONJ	CONJ	_	17	cc	_	_
 21	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
-22	qualitat	qualitat	PROPN	PROPN	_	16	name	_	_
+22	qualitat	qualitat	PROPN	PROPN	_	17	conj	_	_
 23	'	'	SYM	SYM	_	16	nmod	_	_
 24	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
 25	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	26	det	_	_
@@ -4095,8 +4095,8 @@
 21	Departament	Departament	PROPN	PROPN	_	18	dobj	_	MWE=Departament_de_Sanitat_i_Seguretat_Social|MWEPOS=PROPN
 22	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
 23	Sanitat	Sanitat	PROPN	PROPN	_	21	name	_	_
-24	i	i	CONJ	CONJ	_	21	name	_	_
-25	Seguretat	Seguretat	PROPN	PROPN	_	21	name	_	_
+24	i	i	CONJ	CONJ	_	23	cc	_	_
+25	Seguretat	Seguretat	PROPN	PROPN	_	23	conj	_	_
 26	Social	Social	PROPN	PROPN	_	25	name	_	_
 27	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
@@ -4377,8 +4377,8 @@
 14	sobre	sobre	ADP	ADP	AdpType=Prep	15	case	_	_
 15	mobilitat	mobilitat	PROPN	PROPN	_	11	name	_	_
 16	estudiantil	estudiantil	PROPN	PROPN	_	11	name	_	_
-17	i	i	CONJ	CONJ	_	11	name	_	_
-18	llengua	llengua	PROPN	PROPN	_	11	name	_	_
+17	i	i	CONJ	CONJ	_	11	cc	_	_
+18	llengua	llengua	PROPN	PROPN	_	11	conj	_	_
 19	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s115
@@ -4661,10 +4661,10 @@
 4	Departament	Departament	PROPN	PROPN	_	2	nmod	_	MWE=Departament_d'_Universitat_,_Recerca_i_Societat_de_la_Informació|MWEPOS=PROPN
 5	d'	d'	ADP	ADP	AdpType=Prep	6	case	_	_
 6	Universitat	Universitat	PROPN	PROPN	_	4	name	_	_
-7	,	,	PUNCT	PUNCT	_	4	punct	_	_
-8	Recerca	Recerca	PROPN	PROPN	_	4	name	_	_
-9	i	i	CONJ	CONJ	_	4	name	_	_
-10	Societat	Societat	PROPN	PROPN	_	4	name	_	_
+7	,	,	PUNCT	PUNCT	_	6	punct	_	_
+8	Recerca	Recerca	PROPN	PROPN	_	6	conj	_	_
+9	i	i	CONJ	CONJ	_	6	cc	_	_
+10	Societat	Societat	PROPN	PROPN	_	6	conj	_	_
 11	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
 12	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Informació	Informació	PROPN	PROPN	_	4	name	_	_
@@ -4738,7 +4738,7 @@
 30	Catalunya	Catalunya	PROPN	PROPN	_	28	nmod	_	_
 31	i	i	CONJ	CONJ	_	30	cc	_	_
 32	Els	Els	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	MWE=Els_Estats_Units|MWEPOS=PROPN
-33	Estats	Estats	PROPN	PROPN	_	30	nmod	_	_
+33	Estats	Estats	PROPN	PROPN	_	30	conj	_	_
 34	Units	Units	PROPN	PROPN	_	33	name	_	_
 35	i	i	CONJ	CONJ	_	25	cc	_	_
 36	per	per	ADP	ADP	AdpType=Prep	25	conj	_	_
@@ -6268,8 +6268,8 @@
 11	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 12	Jordi-Joan	Jordi-Joan	PROPN	PROPN	_	10	nmod	_	MWE=Jordi-Joan_Rosell_i_Selvas|MWEPOS=PROPN
 13	Rosell	Rosell	PROPN	PROPN	_	12	name	_	_
-14	i	i	CONJ	CONJ	_	12	name	_	_
-15	Selvas	Selvas	PROPN	PROPN	_	12	name	_	_
+14	i	i	CONJ	CONJ	_	12	cc	_	_
+15	Selvas	Selvas	PROPN	PROPN	_	12	conj	_	_
 16	com	com	SCONJ	SCONJ	_	18	case	_	MWE=com_a|MWEPOS=ADP
 17	a	a	ADP	ADP	AdpType=Prep	16	mwe	_	_
 18	director	director	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
@@ -6293,8 +6293,8 @@
 36	de	de	ADP	ADP	AdpType=Prep	37	case	_	_
 37	Política	Política	PROPN	PROPN	_	35	name	_	_
 38	Territorial	Territorial	PROPN	PROPN	_	37	name	_	_
-39	i	i	CONJ	CONJ	_	35	name	_	_
-40	Obres	Obres	PROPN	PROPN	_	35	name	_	_
+39	i	i	CONJ	CONJ	_	37	cc	_	_
+40	Obres	Obres	PROPN	PROPN	_	37	conj	_	_
 41	Públiques	Públiques	PROPN	PROPN	_	40	name	_	_
 42	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
@@ -6433,8 +6433,8 @@
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
 4	Política	Política	PROPN	PROPN	_	2	nmod	_	MWE=Política_territorial_i_Obres_Públiques|MWEPOS=PROPN
 5	territorial	territorial	PROPN	PROPN	_	4	name	_	_
-6	i	i	CONJ	CONJ	_	4	name	_	_
-7	Obres	Obres	PROPN	PROPN	_	4	name	_	_
+6	i	i	CONJ	CONJ	_	4	cc	_	_
+7	Obres	Obres	PROPN	PROPN	_	4	conj	_	_
 8	Públiques	Públiques	PROPN	PROPN	_	7	name	_	_
 9	i	i	CONJ	CONJ	_	4	cc	_	_
 10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
@@ -7942,9 +7942,9 @@
 31	Carrer	al	PROPN	PROPN	_	16	name	_	_
 32	Madrazo	Carrer	PROPN	PROPN	_	31	name	_	_
 33	,	Madrazo	PUNCT	PUNCT	_	16	punct	_	_
-34	i	,	CONJ	CONJ	_	16	name	_	_
+34	i	,	CONJ	CONJ	_	33	cc	_	_
 35	la	i	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	nova	la	PROPN	PROPN	_	16	name	_	_
+36	nova	la	PROPN	PROPN	_	33	conj	_	_
 37	Facultat	nova	PROPN	PROPN	_	36	name	_	_
 38	de	Facultat	ADP	ADP	AdpType=Prep	39	case	_	_
 39	Ciències	de	PROPN	PROPN	_	36	name	_	_
@@ -8845,8 +8845,8 @@
 10	Centre	Centre	PROPN	PROPN	_	8	dobj	_	MWE=Centre_d'_Informació_i_Desenvolupament_Empresarial|MWEPOS=PROPN
 11	d'	d'	ADP	ADP	AdpType=Prep	12	case	_	_
 12	Informació	Informació	PROPN	PROPN	_	10	name	_	_
-13	i	i	CONJ	CONJ	_	10	name	_	_
-14	Desenvolupament	Desenvolupament	PROPN	PROPN	_	10	name	_	_
+13	i	i	CONJ	CONJ	_	12	cc	_	_
+14	Desenvolupament	Desenvolupament	PROPN	PROPN	_	12	conj	_	_
 15	Empresarial	Empresarial	PROPN	PROPN	_	14	name	_	_
 16	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	17	punct	_	_
 17	CIDEM	CIDEM	PROPN	PROPN	_	10	name	_	_
@@ -8856,8 +8856,8 @@
 21	d'	d'	ADP	ADP	AdpType=Prep	22	case	_	_
 22	Indústria	Indústria	PROPN	PROPN	_	20	name	_	_
 23	,	,	PUNCT	PUNCT	_	20	punct	_	_
-24	i	i	CONJ	CONJ	_	20	name	_	_
-25	Turisme	Turisme	PROPN	PROPN	_	20	name	_	_
+24	i	i	CONJ	CONJ	_	23	cc	_	_
+25	Turisme	Turisme	PROPN	PROPN	_	23	conj	_	_
 26	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
 27	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	Generalitat	Generalitat	PROPN	PROPN	_	20	nmod	_	_
@@ -9266,10 +9266,10 @@
 29	Departament	Departament	PROPN	PROPN	_	24	nmod	_	MWE=Departament_d'_Indústria_,_Comerç_i_Turisme|MWEPOS=PROPN
 30	d'	d'	ADP	ADP	AdpType=Prep	31	case	_	_
 31	Indústria	Indústria	PROPN	PROPN	_	29	name	_	_
-32	,	,	PUNCT	PUNCT	_	29	punct	_	_
-33	Comerç	Comerç	PROPN	PROPN	_	29	name	_	_
-34	i	i	CONJ	CONJ	_	29	name	_	_
-35	Turisme	Turisme	PROPN	PROPN	_	29	name	_	_
+32	,	,	PUNCT	PUNCT	_	31	punct	_	_
+33	Comerç	Comerç	PROPN	PROPN	_	31	conj	_	_
+34	i	i	CONJ	CONJ	_	31	cc	_	_
+35	Turisme	Turisme	PROPN	PROPN	_	31	conj	_	_
 36	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
 37	acompanyat	acompanyat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	21	amod	_	_
 38	pel	pel	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	39	case	_	_
@@ -9542,10 +9542,10 @@
 20	Departament	Departament	PROPN	PROPN	_	18	nmod	_	MWE=Departament_d'_Indústria_,_Comerç_i_Turisme|MWEPOS=PROPN
 21	d'	d'	ADP	ADP	AdpType=Prep	22	case	_	_
 22	Indústria	Indústria	PROPN	PROPN	_	20	name	_	_
-23	,	,	PUNCT	PUNCT	_	20	punct	_	_
-24	Comerç	Comerç	PROPN	PROPN	_	20	name	_	_
-25	i	i	CONJ	CONJ	_	20	name	_	_
-26	Turisme	Turisme	PROPN	PROPN	_	20	name	_	_
+23	,	,	PUNCT	PUNCT	_	22	punct	_	_
+24	Comerç	Comerç	PROPN	PROPN	_	22	conj	_	_
+25	i	i	CONJ	CONJ	_	22	cc	_	_
+26	Turisme	Turisme	PROPN	PROPN	_	22	conj	_	_
 27	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
 28	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	Generalitat	Generalitat	PROPN	PROPN	_	20	nmod	_	_
@@ -9619,8 +9619,8 @@
 2	Federació	Federació	PROPN	PROPN	_	15	nsubj	_	MWE=Federació_d'_Organismes_i_Entitats_de_Ràdios_Locals_de_Catalunya|MWEPOS=PROPN
 3	d'	d'	ADP	ADP	AdpType=Prep	4	case	_	_
 4	Organismes	Organismes	PROPN	PROPN	_	2	name	_	_
-5	i	i	CONJ	CONJ	_	2	name	_	_
-6	Entitats	Entitats	PROPN	PROPN	_	2	name	_	_
+5	i	i	CONJ	CONJ	_	4	cc	_	_
+6	Entitats	Entitats	PROPN	PROPN	_	4	conj	_	_
 7	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 8	Ràdios	Ràdios	PROPN	PROPN	_	2	name	_	_
 9	Locals	Locals	PROPN	PROPN	_	8	name	_	_
@@ -9663,8 +9663,8 @@
 2	Federació	Federació	PROPN	PROPN	_	12	nsubj	_	MWE=Federació_d'_Organismes_i_Entitats_de_Ràdio_Local_de_Catalunya|MWEPOS=PROPN
 3	d'	d'	ADP	ADP	AdpType=Prep	4	case	_	_
 4	Organismes	Organismes	PROPN	PROPN	_	2	name	_	_
-5	i	i	CONJ	CONJ	_	2	name	_	_
-6	Entitats	Entitats	PROPN	PROPN	_	2	name	_	_
+5	i	i	CONJ	CONJ	_	4	cc	_	_
+6	Entitats	Entitats	PROPN	PROPN	_	4	conj	_	_
 7	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 8	Ràdio	Ràdio	PROPN	PROPN	_	2	name	_	_
 9	Local	Local	PROPN	PROPN	_	8	name	_	_
@@ -10769,8 +10769,8 @@
 19	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Diccionari	Diccionari	PROPN	PROPN	_	0	root	_	MWE=Diccionari_d'economia_i_empresa|MWEPOS=PROPN
 21	d'economia	d'economia	PROPN	PROPN	_	20	name	_	_
-22	i	i	CONJ	CONJ	_	20	name	_	_
-23	empresa	empresa	PROPN	PROPN	_	20	name	_	_
+22	i	i	CONJ	CONJ	_	20	cc	_	_
+23	empresa	empresa	PROPN	PROPN	_	20	conj	_	_
 24	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Diccionari	Diccionari	PROPN	PROPN	_	20	name	_	MWE=Diccionari_de_comunicació_empresarial|MWEPOS=PROPN
@@ -10778,19 +10778,19 @@
 28	comunicació	comunicació	PROPN	PROPN	_	26	name	_	_
 29	empresarial	empresarial	PROPN	PROPN	_	28	name	_	_
 30	de	de	ADP	ADP	AdpType=Prep	31	case	_	_
-31	Publicitat	Publicitat	PROPN	PROPN	_	26	nmod	_	MWE=Publicitat_,_relacions_públiques_i_màrqueting|MWEPOS=PROPN
+31	Publicitat	Publicitat	PROPN	PROPN	_	26	name	_	MWE=Publicitat_,_relacions_públiques_i_màrqueting|MWEPOS=PROPN
 32	,	,	PUNCT	PUNCT	_	31	punct	_	_
-33	relacions	relacions	PROPN	PROPN	_	31	name	_	_
+33	relacions	relacions	PROPN	PROPN	_	31	conj	_	_
 34	públiques	públiques	PROPN	PROPN	_	33	name	_	_
-35	i	i	CONJ	CONJ	_	31	name	_	_
-36	màrqueting	màrqueting	PROPN	PROPN	_	31	name	_	_
+35	i	i	CONJ	CONJ	_	31	cc	_	_
+36	màrqueting	màrqueting	PROPN	PROPN	_	31	conj	_	_
 37	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 38	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	Diccionari	Diccionari	PROPN	PROPN	_	20	name	_	MWE=Diccionari_d'_auditoria_i_comptabilitat|MWEPOS=PROPN
 40	d'	d'	ADP	ADP	AdpType=Prep	41	case	_	_
 41	auditoria	auditoria	PROPN	PROPN	_	39	name	_	_
-42	i	i	CONJ	CONJ	_	39	name	_	_
-43	comptabilitat	comptabilitat	PROPN	PROPN	_	39	name	_	_
+42	i	i	CONJ	CONJ	_	41	cc	_	_
+43	comptabilitat	comptabilitat	PROPN	PROPN	_	41	conj	_	_
 44	i	i	CONJ	CONJ	_	20	cc	_	_
 45	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
 46	Diccionari	Diccionari	PROPN	PROPN	_	20	conj	_	MWE=Diccionari_d'_assegurances_:_terminologia_i_fraseologia|MWEPOS=PROPN
@@ -10798,8 +10798,8 @@
 48	assegurances	assegurances	PROPN	PROPN	_	46	name	_	_
 49	:	:	PUNCT	PUNCT	_	46	punct	_	_
 50	terminologia	terminologia	PROPN	PROPN	_	46	name	_	_
-51	i	i	CONJ	CONJ	_	46	name	_	_
-52	fraseologia	fraseologia	PROPN	PROPN	_	46	name	_	_
+51	i	i	CONJ	CONJ	_	50	cc	_	_
+52	fraseologia	fraseologia	PROPN	PROPN	_	50	conj	_	_
 53	,	,	PUNCT	PUNCT	PunctType=Comm	57	punct	_	_
 54	aquests	aquest	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	57	det	_	_
 55	dos	dos	NUM	NUM	Gender=Masc|Number=Plur|NumType=Card	54	nummod	_	_
@@ -10852,8 +10852,8 @@
 38	de	de	ADP	ADP	AdpType=Prep	39	case	_	_
 39	Política	Política	PROPN	PROPN	_	37	name	_	_
 40	Territorial	Territorial	PROPN	PROPN	_	39	name	_	_
-41	i	i	CONJ	CONJ	_	37	name	_	_
-42	Obres	Obres	PROPN	PROPN	_	37	name	_	_
+41	i	i	CONJ	CONJ	_	39	cc	_	_
+42	Obres	Obres	PROPN	PROPN	_	39	conj	_	_
 43	Públiques	Públiques	PROPN	PROPN	_	42	name	_	_
 44	de	de	ADP	ADP	AdpType=Prep	46	case	_	_
 45	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
@@ -10974,8 +10974,8 @@
 67	de	de	ADP	ADP	AdpType=Prep	68	case	_	_
 68	Política	Política	PROPN	PROPN	_	66	nmod	_	MWE=Política_Territorial_i_Obres_Públiques|MWEPOS=PROPN
 69	Territorial	Territorial	PROPN	PROPN	_	68	name	_	_
-70	i	i	CONJ	CONJ	_	68	name	_	_
-71	Obres	Obres	PROPN	PROPN	_	68	name	_	_
+70	i	i	CONJ	CONJ	_	68	cc	_	_
+71	Obres	Obres	PROPN	PROPN	_	68	conj	_	_
 72	Públiques	Públiques	PROPN	PROPN	_	71	name	_	_
 73	,	,	PUNCT	PUNCT	PunctType=Comm	74	punct	_	_
 74	Pere	Pere	PROPN	PROPN	_	66	appos	_	MWE=Pere_Macias|MWEPOS=PROPN
@@ -11010,15 +11010,15 @@
 24	Ebre	Ebre	PROPN	PROPN	_	23	name	_	_
 25	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
 26	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	MWE=La_Ribera_d'_Ebre|MWEPOS=PROPN
-27	Ribera	Ribera	PROPN	PROPN	_	23	nmod	_	_
+27	Ribera	Ribera	PROPN	PROPN	_	23	conj	_	_
 28	d'	d'	ADP	ADP	AdpType=Prep	29	case	_	_
 29	Ebre	Ebre	PROPN	PROPN	_	26	name	_	_
 30	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
 31	El	El	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	MWE=El_Montsià|MWEPOS=PROPN
-32	Montsià	Montsià	PROPN	PROPN	_	23	nmod	_	_
+32	Montsià	Montsià	PROPN	PROPN	_	23	conj	_	_
 33	i	i	CONJ	CONJ	_	23	cc	_	_
 34	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	MWE=La_Terra_Alta|MWEPOS=PROPN
-35	Terra	Terra	PROPN	PROPN	_	23	nmod	_	_
+35	Terra	Terra	PROPN	PROPN	_	23	conj	_	_
 36	Alta	Alta	PROPN	PROPN	_	35	name	_	_
 37	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 38	i	i	CONJ	CONJ	_	3	cc	_	_
@@ -11189,14 +11189,14 @@
 8	per	per	ADP	ADP	AdpType=Prep	11	case	_	_
 9	a	a	ADP	ADP	AdpType=Prep	11	case	_	_
 10	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
-11	Actuacions	Actuacions	PROPN	PROPN	_	7	nmod	_	MWE=Actuacions_Concertades_,_l'_Urbanisme_i_l'_Habitatge|MWEPOS=PROPN
+11	Actuacions	Actuacions	PROPN	PROPN	_	7	name	_	MWE=Actuacions_Concertades_,_l'_Urbanisme_i_l'_Habitatge|MWEPOS=PROPN
 12	Concertades	Concertades	PROPN	PROPN	_	11	name	_	_
 13	,	,	PUNCT	PUNCT	_	11	punct	_	_
 14	l'	l'	DET	DET	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
-15	Urbanisme	Urbanisme	PROPN	PROPN	_	11	name	_	_
-16	i	i	CONJ	CONJ	_	11	name	_	_
+15	Urbanisme	Urbanisme	PROPN	PROPN	_	11	conj	_	_
+16	i	i	CONJ	CONJ	_	11	cc	_	_
 17	l'	l'	DET	DET	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
-18	Habitatge	Habitatge	PROPN	PROPN	_	11	name	_	_
+18	Habitatge	Habitatge	PROPN	PROPN	_	11	conj	_	_
 19	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 20	Ramon	Ramon	PROPN	PROPN	_	7	appos	_	MWE=Ramon_Roger|MWEPOS=PROPN
 21	Roger	Roger	PROPN	PROPN	_	20	name	_	_
@@ -11207,8 +11207,8 @@
 26	Servei	Servei	PROPN	PROPN	_	24	nmod	_	MWE=Servei_de_Programació_i_Avaluació|MWEPOS=PROPN
 27	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
 28	Programació	Programació	PROPN	PROPN	_	26	name	_	_
-29	i	i	CONJ	CONJ	_	26	name	_	_
-30	Avaluació	Avaluació	PROPN	PROPN	_	26	name	_	_
+29	i	i	CONJ	CONJ	_	28	cc	_	_
+30	Avaluació	Avaluació	PROPN	PROPN	_	28	conj	_	_
 31	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
 32	Joan	Joan	PROPN	PROPN	_	24	appos	_	MWE=Joan_Torredeflot|MWEPOS=PROPN
 33	Torredeflot	Torredeflot	PROPN	PROPN	_	32	name	_	_
@@ -11222,12 +11222,12 @@
 41	direcció	direcció	NOUN	NOUN	Gender=Fem|Number=Sing	36	nmod	_	_
 42	general	general	ADJ	ADJ	Number=Sing	41	amod	_	_
 43	d'	de	ADP	ADP	AdpType=Prep	44	case	_	_
-44	Actuacions	Actuacions	PROPN	PROPN	_	41	nmod	_	MWE=Actuacions_Concertades_,_Arquitectura_i_Habitatge|MWEPOS=PROPN
+44	Actuacions	Actuacions	PROPN	PROPN	_	41	name	_	MWE=Actuacions_Concertades_,_Arquitectura_i_Habitatge|MWEPOS=PROPN
 45	Concertades	Concertades	PROPN	PROPN	_	44	name	_	_
 46	,	,	PUNCT	PUNCT	_	44	punct	_	_
-47	Arquitectura	Arquitectura	PROPN	PROPN	_	44	name	_	_
-48	i	i	CONJ	CONJ	_	44	name	_	_
-49	Habitatge	Habitatge	PROPN	PROPN	_	44	name	_	_
+47	Arquitectura	Arquitectura	PROPN	PROPN	_	44	conj	_	_
+48	i	i	CONJ	CONJ	_	44	cc	_	_
+49	Habitatge	Habitatge	PROPN	PROPN	_	44	conj	_	_
 50	,	,	PUNCT	PUNCT	PunctType=Comm	51	punct	_	_
 51	Jordi	Jordi	PROPN	PROPN	_	36	appos	_	MWE=Jordi_Segura|MWEPOS=PROPN
 52	Segura	Segura	PROPN	PROPN	_	51	name	_	_
@@ -11239,8 +11239,8 @@
 58	Ordenació	Ordenació	PROPN	PROPN	_	55	nmod	_	MWE=Ordenació_del_Territori_i_Urbanisme|MWEPOS=PROPN
 59	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	60	case	_	_
 60	Territori	Territori	PROPN	PROPN	_	58	name	_	_
-61	i	i	CONJ	CONJ	_	58	name	_	_
-62	Urbanisme	Urbanisme	PROPN	PROPN	_	58	name	_	_
+61	i	i	CONJ	CONJ	_	60	cc	_	_
+62	Urbanisme	Urbanisme	PROPN	PROPN	_	60	conj	_	_
 63	,	,	PUNCT	PUNCT	PunctType=Comm	64	punct	_	_
 64	Joan	Joan	PROPN	PROPN	_	55	appos	_	MWE=Joan_Llort|MWEPOS=PROPN
 65	Llort	Llort	PROPN	PROPN	_	64	name	_	_
@@ -11250,8 +11250,8 @@
 69	general	general	ADJ	ADJ	Number=Sing	68	amod	_	_
 70	de	de	ADP	ADP	AdpType=Prep	71	case	_	_
 71	Ports	Ports	PROPN	PROPN	_	68	nmod	_	MWE=Ports_i_Transports|MWEPOS=PROPN
-72	i	i	CONJ	CONJ	_	71	name	_	_
-73	Transports	Transports	PROPN	PROPN	_	71	name	_	_
+72	i	i	CONJ	CONJ	_	71	cc	_	_
+73	Transports	Transports	PROPN	PROPN	_	71	conj	_	_
 74	,	,	PUNCT	PUNCT	PunctType=Comm	75	punct	_	_
 75	Enric	Enric	PROPN	PROPN	_	68	appos	_	MWE=Enric_Ticó|MWEPOS=PROPN
 76	Ticó	Ticó	PROPN	PROPN	_	75	name	_	_
@@ -11298,8 +11298,8 @@
 15	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
 16	Política	Política	PROPN	PROPN	_	14	nmod	_	MWE=Política_Territorial_i_Obres_Públiques|MWEPOS=PROPN
 17	Territorial	Territorial	PROPN	PROPN	_	16	name	_	_
-18	i	i	CONJ	CONJ	_	16	name	_	_
-19	Obres	Obres	PROPN	PROPN	_	16	name	_	_
+18	i	i	CONJ	CONJ	_	16	cc	_	_
+19	Obres	Obres	PROPN	PROPN	_	16	conj	_	_
 20	Públiques	Públiques	PROPN	PROPN	_	19	name	_	_
 21	,	,	PUNCT	PUNCT	PunctType=Comm	22	punct	_	_
 22	Pere	Pere	PROPN	PROPN	_	14	appos	_	MWE=Pere_Macias|MWEPOS=PROPN
@@ -11892,8 +11892,8 @@
 10	hospital	hospital	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
 11	Germans	Germans	PROPN	PROPN	_	10	appos	_	MWE=Germans_Trias_i_Pujol|MWEPOS=PROPN
 12	Trias	Trias	PROPN	PROPN	_	11	name	_	_
-13	i	i	CONJ	CONJ	_	11	name	_	_
-14	Pujol	Pujol	PROPN	PROPN	_	11	name	_	_
+13	i	i	CONJ	CONJ	_	11	cc	_	_
+14	Pujol	Pujol	PROPN	PROPN	_	11	conj	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 16	on	on	PRON	PRON	PronType=Rel	18	nmod	_	_
 17	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
@@ -11925,8 +11925,8 @@
 11	Mossèn	Mossèn	PROPN	PROPN	_	7	dobj	_	MWE=Mossèn_Antoni_Pladevall_i_Font|MWEPOS=PROPN
 12	Antoni	Antoni	PROPN	PROPN	_	11	name	_	_
 13	Pladevall	Pladevall	PROPN	PROPN	_	11	name	_	_
-14	i	i	CONJ	CONJ	_	11	name	_	_
-15	Font	Font	PROPN	PROPN	_	11	name	_	_
+14	i	i	CONJ	CONJ	_	11	cc	_	_
+15	Font	Font	PROPN	PROPN	_	11	conj	_	_
 16	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s298
@@ -11994,7 +11994,7 @@
 13	Osonencs	Osonencs	PROPN	PROPN	_	12	name	_	_
 14	i	i	CONJ	CONJ	_	2	cc	_	_
 15	L'	L'	DET	DET	Definite=Def|Number=Sing|PronType=Art	16	det	_	MWE=L'_Albergueria_de_Vic|MWEPOS=PROPN
-16	Albergueria	Albergueria	PROPN	PROPN	_	2	nsubj	_	_
+16	Albergueria	Albergueria	PROPN	PROPN	_	2	conj	_	_
 17	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 18	Vic	Vic	PROPN	PROPN	_	15	name	_	_
 19	retran	retre	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -12008,8 +12008,8 @@
 27	Mossèn	Mossèn	PROPN	PROPN	_	19	dobj	_	MWE=Mossèn_Antoni_Pladevall_i_Font|MWEPOS=PROPN
 28	Antoni	Antoni	PROPN	PROPN	_	27	name	_	_
 29	Pladevall	Pladevall	PROPN	PROPN	_	27	name	_	_
-30	i	i	CONJ	CONJ	_	27	name	_	_
-31	Font	Font	PROPN	PROPN	_	27	name	_	_
+30	i	i	CONJ	CONJ	_	27	cc	_	_
+31	Font	Font	PROPN	PROPN	_	27	conj	_	_
 32	.	.	PUNCT	PUNCT	PunctType=Peri	19	punct	_	_
 
 # sent_id ca-s300
@@ -12131,8 +12131,8 @@
 29	a	a	ADP	ADP	AdpType=Prep	30	case	_	_
 30	Antoni	Antoni	PROPN	PROPN	_	22	name	_	_
 31	Pladevall	Pladevall	PROPN	PROPN	_	30	name	_	_
-32	i	i	CONJ	CONJ	_	22	name	_	_
-33	Font	Font	PROPN	PROPN	_	22	name	_	_
+32	i	i	CONJ	CONJ	_	30	cc	_	_
+33	Font	Font	PROPN	PROPN	_	30	conj	_	_
 34	'	'	SYM	SYM	_	22	nmod	_	_
 35	.	.	PUNCT	PUNCT	PunctType=Peri	20	punct	_	_
 
@@ -15149,8 +15149,8 @@
 77	Catalunya	Catalunya	PROPN	PROPN	_	74	name	_	_
 78	.	.	PUNCT	PUNCT	_	73	punct	_	_
 79	Models	Models	PROPN	PROPN	_	73	name	_	_
-80	i	i	CONJ	CONJ	_	73	name	_	_
-81	perspectives	perspectives	PROPN	PROPN	_	73	name	_	_
+80	i	i	CONJ	CONJ	_	79	cc	_	_
+81	perspectives	perspectives	PROPN	PROPN	_	79	conj	_	_
 82	"	"	PUNCT	PUNCT	PunctType=Quot	73	punct	_	_
 83	que	que	PRON	PRON	PronType=Rel	85	dobj	_	_
 84	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	85	aux	_	_
@@ -15250,8 +15250,8 @@
 19	Catalana	Catalana	PROPN	PROPN	_	18	name	_	_
 20	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
 21	Ràdio	Ràdio	PROPN	PROPN	_	18	name	_	_
-22	i	i	CONJ	CONJ	_	18	name	_	_
-23	Televisió	Televisió	PROPN	PROPN	_	18	name	_	_
+22	i	i	CONJ	CONJ	_	18	cc	_	_
+23	Televisió	Televisió	PROPN	PROPN	_	18	conj	_	_
 24	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	25	punct	_	_
 25	CCRTV	CCRTV	PROPN	PROPN	_	18	name	_	_
 26	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	25	punct	_	_
@@ -16432,9 +16432,9 @@
 16	irradiador	irradiador	PROPN	PROPN	_	13	nmod	_	_
 17	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	18	case	_	_
 18	port	port	PROPN	PROPN	_	15	name	_	_
-19	i	i	CONJ	CONJ	_	15	name	_	_
+19	i	i	CONJ	CONJ	_	18	cc	_	_
 20	les	les	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
-21	gavines	gavines	PROPN	PROPN	_	15	name	_	_
+21	gavines	gavines	PROPN	PROPN	_	18	conj	_	_
 22	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 23	que	que	PRON	PRON	PronType=Rel	25	nsubj	_	_
 24	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
@@ -16705,7 +16705,7 @@
 54	espagnol	espagnol	PROPN	PROPN	_	52	name	_	_
 55	i	i	CONJ	CONJ	_	49	cc	_	_
 56	Les	Les	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	57	det	_	MWE=Les_anarchistes|MWEPOS=PROPN
-57	anarchistes	anarchistes	PROPN	PROPN	_	49	nmod	_	_
+57	anarchistes	anarchistes	PROPN	PROPN	_	49	conj	_	_
 58	-	-	PUNCT	PUNCT	PunctType=Dash	60	punct	_	_
 59	tres	tres	NUM	NUM	Number=Plur|NumType=Card	60	nummod	_	_
 60	cançons	cançó	NOUN	NOUN	Gender=Fem|Number=Plur	49	appos	_	_
@@ -17512,8 +17512,8 @@
 # sent_id ca-s447
 # orig_file_sentence 005#47
 1	Benet	Benet	PROPN	PROPN	_	7	nsubj	_	MWE=Benet_i_Jornet|MWEPOS=PROPN
-2	i	i	CONJ	CONJ	_	1	name	_	_
-3	Jornet	Jornet	PROPN	PROPN	_	1	name	_	_
+2	i	i	CONJ	CONJ	_	1	cc	_	_
+3	Jornet	Jornet	PROPN	PROPN	_	1	conj	_	_
 4	i	i	CONJ	CONJ	_	1	cc	_	_
 5	Sergi	Sergi	PROPN	PROPN	_	1	conj	_	MWE=Sergi_Belbel|MWEPOS=PROPN
 6	Belbel	Belbel	PROPN	PROPN	_	5	name	_	_
@@ -17525,16 +17525,16 @@
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 13	mateix	mateix	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
 14	escenari	escenari	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
-15	'	'	SYM	SYM	_	21	nmod	_	_
+15	'	'	SYM	SYM	_	17	nmod	_	_
 16	El	El	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	MWE=El_gos_del_tinent|MWEPOS=PROPN
-17	gos	gos	PROPN	PROPN	_	21	dobj	_	_
+17	gos	gos	PROPN	PROPN	_	7	dobj	_	_
 18	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	19	case	_	_
 19	tinent	tinent	PROPN	PROPN	_	16	name	_	_
-20	'	'	SYM	SYM	_	21	nmod	_	_
-21	i	i	CONJ	CONJ	_	7	cc	_	_
+20	'	'	SYM	SYM	_	17	nmod	_	_
+21	i	i	CONJ	CONJ	_	17	cc	_	_
 22	'	'	SYM	SYM	_	23	nmod	_	_
 23	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	MWE=La_sang|MWEPOS=PROPN
-24	sang	sang	PROPN	PROPN	_	21	dobj	_	_
+24	sang	sang	PROPN	PROPN	_	17	conj	_	_
 25	'	'	SYM	SYM	_	23	nmod	_	_
 26	i	i	CONJ	CONJ	_	7	cc	_	_
 27	compten	comptar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
@@ -17568,7 +17568,7 @@
 # sent_id ca-s449
 # orig_file_sentence 005#49
 1	El	El	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	MWE=El_gos_del_tinent|MWEPOS=PROPN
-2	gos	gos	PROPN	PROPN	_	13	nsubj	_	_
+2	gos	gos	PROPN	PROPN	_	22	nsubj	_	_
 3	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	4	case	_	_
 4	tinent	tinent	PROPN	PROPN	_	1	name	_	_
 5	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
@@ -17576,12 +17576,12 @@
 7	Josep	Josep	PROPN	PROPN	_	1	nmod	_	MWE=Josep_Maria_Benet_i_Jornet|MWEPOS=PROPN
 8	Maria	Maria	PROPN	PROPN	_	7	name	_	_
 9	Benet	Benet	PROPN	PROPN	_	7	name	_	_
-10	i	i	CONJ	CONJ	_	7	name	_	_
-11	Jornet	Jornet	PROPN	PROPN	_	7	name	_	_
+10	i	i	CONJ	CONJ	_	7	cc	_	_
+11	Jornet	Jornet	PROPN	PROPN	_	7	conj	_	_
 12	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
-13	i	i	CONJ	CONJ	_	22	cc	_	_
+13	i	i	CONJ	CONJ	_	2	cc	_	_
 14	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	MWE=La_sang|MWEPOS=PROPN
-15	sang	sang	PROPN	PROPN	_	13	nsubj	_	_
+15	sang	sang	PROPN	PROPN	_	2	conj	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 17	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 18	Sergi	Sergi	PROPN	PROPN	_	14	nmod	_	MWE=Sergi_Belbel|MWEPOS=PROPN
@@ -17706,8 +17706,8 @@
 22	-	-	PUNCT	PUNCT	PunctType=Dash	23	punct	_	_
 23	explica	explicar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	parataxis	_	_
 24	Benet	Benet	PROPN	PROPN	_	23	nsubj	_	MWE=Benet_i_Jornet|MWEPOS=PROPN
-25	i	i	CONJ	CONJ	_	24	name	_	_
-26	Jornet	Jornet	PROPN	PROPN	_	24	name	_	_
+25	i	i	CONJ	CONJ	_	24	cc	_	_
+26	Jornet	Jornet	PROPN	PROPN	_	24	conj	_	_
 27	-	-	PUNCT	PUNCT	PunctType=Dash	23	punct	_	_
 28	ens	jo	PRON	PRON	Number=Plur|Person=1|PronType=Prs	30	dobj	_	_
 29	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
@@ -17827,8 +17827,8 @@
 # sent_id ca-s457
 # orig_file_sentence 005#57
 1	Benet	Benet	PROPN	PROPN	_	4	nsubj	_	MWE=Benet_i_Jornet|MWEPOS=PROPN
-2	i	i	CONJ	CONJ	_	1	name	_	_
-3	Jornet	Jornet	PROPN	PROPN	_	1	name	_	_
+2	i	i	CONJ	CONJ	_	1	cc	_	_
+3	Jornet	Jornet	PROPN	PROPN	_	1	conj	_	_
 4	vol	voler	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	deixar	deixar	AUX	AUX	VerbForm=Inf	12	aux	_	_
 6	clar	clar	ADJ	ADJ	Gender=Masc|Number=Sing	12	iobj	_	_
@@ -18029,8 +18029,8 @@
 6	obres	obra	NOUN	NOUN	Gender=Fem|Number=Plur	3	nmod	_	_
 7	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 8	Benet	Benet	PROPN	PROPN	_	6	nmod	_	MWE=Benet_i_Jornet|MWEPOS=PROPN
-9	i	i	CONJ	CONJ	_	8	name	_	_
-10	Jornet	Jornet	PROPN	PROPN	_	8	name	_	_
+9	i	i	CONJ	CONJ	_	8	cc	_	_
+10	Jornet	Jornet	PROPN	PROPN	_	8	conj	_	_
 11	i	i	CONJ	CONJ	_	8	cc	_	_
 12	Belbel	Belbel	PROPN	PROPN	_	8	conj	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
@@ -18121,12 +18121,12 @@
 2	qui	qui	PRON	PRON	PronType=Rel	3	nsubj	_	_
 3	coneixen	conèixer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	csubj	_	_
 4	El	El	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	MWE=El_tinent_del_gos|MWEPOS=PROPN
-5	tinent	tinent	PROPN	PROPN	_	8	dobj	_	_
+5	tinent	tinent	PROPN	PROPN	_	3	dobj	_	_
 6	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	7	case	_	_
 7	gos	gos	PROPN	PROPN	_	4	name	_	_
-8	i	i	CONJ	CONJ	_	3	cc	_	_
+8	i	i	CONJ	CONJ	_	5	cc	_	_
 9	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	MWE=La_sang|MWEPOS=PROPN
-10	sang	sang	PROPN	PROPN	_	8	dobj	_	_
+10	sang	sang	PROPN	PROPN	_	5	conj	_	_
 11	comenten	comentar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	duresa	duresa	NOUN	NOUN	Gender=Fem|Number=Sing	11	dobj	_	_
@@ -18187,8 +18187,8 @@
 9	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 10	concreta	concretar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	Benet	Benet	PROPN	PROPN	_	10	nsubj	_	MWE=Benet_i_Jornet|MWEPOS=PROPN
-12	i	i	CONJ	CONJ	_	11	name	_	_
-13	Jornet	Jornet	PROPN	PROPN	_	11	name	_	_
+12	i	i	CONJ	CONJ	_	11	cc	_	_
+13	Jornet	Jornet	PROPN	PROPN	_	11	conj	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
 15	que	que	PRON	PRON	PronType=Rel	16	nsubj	_	_
 16	creu	creure	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_
@@ -18233,8 +18233,8 @@
 5	obra	obra	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
 6	de	de	ADP	ADP	AdpType=Prep	7	case	_	_
 7	Benet	Benet	PROPN	PROPN	_	5	nmod	_	MWE=Benet_i_Jornet|MWEPOS=PROPN
-8	i	i	CONJ	CONJ	_	7	name	_	_
-9	Jornet	Jornet	PROPN	PROPN	_	7	name	_	_
+8	i	i	CONJ	CONJ	_	7	cc	_	_
+9	Jornet	Jornet	PROPN	PROPN	_	7	conj	_	_
 10	produeix	produir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 11	desassossec	desassossec	NOUN	NOUN	Gender=Masc|Number=Sing	10	dobj	_	_
 12	i	i	CONJ	CONJ	_	11	cc	_	_
@@ -18278,8 +18278,8 @@
 # sent_id ca-s475
 # orig_file_sentence 005#75
 1	Benet	Benet	PROPN	PROPN	_	4	nsubj	_	MWE=Benet_i_Jornet|MWEPOS=PROPN
-2	i	i	CONJ	CONJ	_	1	name	_	_
-3	Jornet	Jornet	PROPN	PROPN	_	1	name	_	_
+2	i	i	CONJ	CONJ	_	1	cc	_	_
+3	Jornet	Jornet	PROPN	PROPN	_	1	conj	_	_
 4	recorda	recordar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	teatre	teatre	NOUN	NOUN	Gender=Masc|Number=Sing	4	dobj	_	_
@@ -18455,8 +18455,8 @@
 # sent_id ca-s483
 # orig_file_sentence 005#83
 1	Benet	Benet	PROPN	PROPN	_	7	nsubj	_	MWE=Benet_i_Jornet|MWEPOS=PROPN
-2	i	i	CONJ	CONJ	_	1	name	_	_
-3	Jornet	Jornet	PROPN	PROPN	_	1	name	_	_
+2	i	i	CONJ	CONJ	_	1	cc	_	_
+3	Jornet	Jornet	PROPN	PROPN	_	1	conj	_	_
 4	no	no	ADV	ADV	Negative=Neg	7	neg	_	_
 5	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 6	menys	menys	ADV	ADV	_	7	nmod	_	_
@@ -18497,12 +18497,12 @@
 # sent_id ca-s485
 # orig_file_sentence 005#85
 1	El	El	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	MWE=El_gos_del_tinent|MWEPOS=PROPN
-2	gos	gos	PROPN	PROPN	_	5	nsubj	_	_
+2	gos	gos	PROPN	PROPN	_	8	nsubj	_	_
 3	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	4	case	_	_
 4	tinent	tinent	PROPN	PROPN	_	1	name	_	_
-5	i	i	CONJ	CONJ	_	8	cc	_	_
+5	i	i	CONJ	CONJ	_	2	cc	_	_
 6	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	MWE=La_sang|MWEPOS=PROPN
-7	sang	sang	PROPN	PROPN	_	5	nsubj	_	_
+7	sang	sang	PROPN	PROPN	_	2	conj	_	_
 8	utilitzen	utilitzar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
 10	mateixa	mateix	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
@@ -21386,8 +21386,8 @@
 7	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 8	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Generalitat	Generalitat	PROPN	PROPN	_	2	name	_	_
-10	i	i	CONJ	CONJ	_	2	name	_	_
-11	Govern	Govern	PROPN	PROPN	_	2	name	_	_
+10	i	i	CONJ	CONJ	_	9	cc	_	_
+11	Govern	Govern	PROPN	PROPN	_	9	conj	_	_
 12	Local	Local	PROPN	PROPN	_	11	name	_	_
 13	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	14	case	_	_
 14	Parlament	Parlament	PROPN	PROPN	_	11	name	_	_
@@ -27933,8 +27933,8 @@
 23	Nacional	Nacional	PROPN	PROPN	_	22	name	_	_
 24	d'	d'	ADP	ADP	AdpType=Prep	25	case	_	_
 25	Aigüestortes	Aigüestortes	PROPN	PROPN	_	22	name	_	_
-26	i	i	CONJ	CONJ	_	22	name	_	_
-27	Estany	Estany	PROPN	PROPN	_	22	name	_	_
+26	i	i	CONJ	CONJ	_	22	cc	_	_
+27	Estany	Estany	PROPN	PROPN	_	22	conj	_	_
 28	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
 29	Sant	Sant	PROPN	PROPN	_	22	name	_	_
 30	Maurici	Maurici	PROPN	PROPN	_	29	name	_	_
@@ -28496,9 +28496,9 @@
 8	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 9	a	a	ADP	ADP	AdpType=Prep	10	case	_	_
 10	Vilanova	Vilanova	PROPN	PROPN	_	7	nmod	_	MWE=Vilanova_i_la_Geltrú|MWEPOS=PROPN
-11	i	i	CONJ	CONJ	_	10	name	_	_
+11	i	i	CONJ	CONJ	_	10	cc	_	_
 12	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Geltrú	Geltrú	PROPN	PROPN	_	10	name	_	_
+13	Geltrú	Geltrú	PROPN	PROPN	_	10	conj	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 15	i	i	CONJ	CONJ	_	7	cc	_	_
 16	23	23	NUM	NUM	NumForm=Digit	17	nummod	_	_
@@ -28865,9 +28865,9 @@
 44	instrucció	instrucció	NOUN	NOUN	Gender=Fem|Number=Sing	42	conj	_	_
 45	de	de	ADP	ADP	AdpType=Prep	46	case	_	_
 46	Vilanova	Vilanova	PROPN	PROPN	_	39	nmod	_	MWE=Vilanova_i_la_Geltrú|MWEPOS=PROPN
-47	i	i	CONJ	CONJ	_	46	name	_	_
+47	i	i	CONJ	CONJ	_	46	cc	_	_
 48	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
-49	Geltrú	Geltrú	PROPN	PROPN	_	46	name	_	_
+49	Geltrú	Geltrú	PROPN	PROPN	_	46	conj	_	_
 50	.	.	PUNCT	PUNCT	PunctType=Peri	15	punct	_	_
 
 # sent_id ca-s774
@@ -29031,9 +29031,9 @@
 7	General	General	PROPN	PROPN	_	6	name	_	_
 8	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 9	Dret	Dret	PROPN	PROPN	_	6	name	_	_
-10	i	i	CONJ	CONJ	_	6	name	_	_
+10	i	i	CONJ	CONJ	_	6	cc	_	_
 11	d'	d'	ADP	ADP	AdpType=Prep	12	case	_	_
-12	Entitats	Entitats	PROPN	PROPN	_	6	name	_	_
+12	Entitats	Entitats	PROPN	PROPN	_	6	conj	_	_
 13	Jurídiques	Jurídiques	PROPN	PROPN	_	12	name	_	_
 14	a	a	ADP	ADP	AdpType=Prep	15	case	_	_
 15	INTRA-ACN	INTRA-ACN	PROPN	PROPN	_	3	dobj	_	_
@@ -29506,8 +29506,8 @@
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	exposició	exposició	NOUN	NOUN	Gender=Fem|Number=Sing	23	nsubj	_	_
 3	Vells	Vells	PROPN	PROPN	_	2	appos	_	MWE=Vells_i_nous_mites|MWEPOS=PROPN
-4	i	i	CONJ	CONJ	_	3	name	_	_
-5	nous	nous	PROPN	PROPN	_	3	name	_	_
+4	i	i	CONJ	CONJ	_	3	cc	_	_
+5	nous	nous	PROPN	PROPN	_	3	conj	_	_
 6	mites	mites	PROPN	PROPN	_	5	name	_	_
 7	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 8	que	que	PRON	PRON	PronType=Rel	12	nsubj	_	_
@@ -29569,8 +29569,8 @@
 8	equip	equip	NOUN	NOUN	Gender=Masc|Number=Sing	5	dobj	_	_
 9	Gao	Gao	PROPN	PROPN	_	8	appos	_	MWE=Gao_Idees_i_Projectes|MWEPOS=PROPN
 10	Idees	Idees	PROPN	PROPN	_	9	name	_	_
-11	i	i	CONJ	CONJ	_	9	name	_	_
-12	Projectes	Projectes	PROPN	PROPN	_	9	name	_	_
+11	i	i	CONJ	CONJ	_	9	cc	_	_
+12	Projectes	Projectes	PROPN	PROPN	_	9	conj	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	15	punct	_	_
 14	que	que	PRON	PRON	PronType=Rel	15	dobj	_	_
 15	dirigeix	dirigir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
@@ -30139,8 +30139,8 @@
 10	exministra	exministra	NOUN	NOUN	Gender=Fem|Number=Sing	7	nmod	_	_
 11	d'	de	ADP	ADP	AdpType=Prep	12	case	_	_
 12	Ocupació	Ocupació	PROPN	PROPN	_	10	nmod	_	MWE=Ocupació_i_Afers_Socials|MWEPOS=PROPN
-13	i	i	CONJ	CONJ	_	12	name	_	_
-14	Afers	Afers	PROPN	PROPN	_	12	name	_	_
+13	i	i	CONJ	CONJ	_	12	cc	_	_
+14	Afers	Afers	PROPN	PROPN	_	12	conj	_	_
 15	Socials	Socials	PROPN	PROPN	_	14	name	_	_
 16	Martine	Martine	PROPN	PROPN	_	10	appos	_	MWE=Martine_Aubry|MWEPOS=PROPN
 17	Aubry	Aubry	PROPN	PROPN	_	16	name	_	_
@@ -30802,8 +30802,8 @@
 12	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 13	"	"	PUNCT	PUNCT	PunctType=Quot	14	punct	_	_
 14	Tecnologia	Tecnologia	PROPN	PROPN	_	11	appos	_	MWE=Tecnologia_i_cultura_a_la_societat_de_la_informació_:_l'_impacte_social_d'_Internet|MWEPOS=PROPN
-15	i	i	CONJ	CONJ	_	14	name	_	_
-16	cultura	cultura	PROPN	PROPN	_	14	name	_	_
+15	i	i	CONJ	CONJ	_	14	cc	_	_
+16	cultura	cultura	PROPN	PROPN	_	14	conj	_	_
 17	a	a	ADP	ADP	AdpType=Prep	19	case	_	_
 18	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	societat	societat	PROPN	PROPN	_	14	name	_	_
@@ -30825,9 +30825,9 @@
 35	món	món	PROPN	PROPN	_	33	name	_	_
 36	dels	dels	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur	37	case	_	_
 37	vins	vins	PROPN	PROPN	_	33	name	_	_
-38	i	i	CONJ	CONJ	_	33	name	_	_
+38	i	i	CONJ	CONJ	_	37	cc	_	_
 39	als	als	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Plur	40	case	_	_
-40	vins	vins	PROPN	PROPN	_	33	name	_	_
+40	vins	vins	PROPN	PROPN	_	37	conj	_	_
 41	de	de	ADP	ADP	AdpType=Prep	43	case	_	_
 42	les	les	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
 43	Terres	Terres	PROPN	PROPN	_	33	name	_	_
@@ -30937,8 +30937,8 @@
 33	1	1	NUM	NUM	NumForm=Digit	12	advmod	_	_
 34	d'	de	ADP	ADP	AdpType=Prep	35	case	_	_
 35	Arquitectura	Arquitectura	PROPN	PROPN	_	33	nmod	_	MWE=Arquitectura_i_Urbanisme|MWEPOS=PROPN
-36	i	i	CONJ	CONJ	_	35	name	_	_
-37	Urbanisme	Urbanisme	PROPN	PROPN	_	35	name	_	_
+36	i	i	CONJ	CONJ	_	35	cc	_	_
+37	Urbanisme	Urbanisme	PROPN	PROPN	_	35	conj	_	_
 38	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
 39	1	1	NUM	NUM	NumForm=Digit	12	advmod	_	_
 40	de	de	ADP	ADP	AdpType=Prep	41	case	_	_
@@ -34100,7 +34100,7 @@
 44	,	,	PUNCT	PUNCT	PunctType=Comm	39	punct	_	_
 45	i	i	CONJ	CONJ	_	32	cc	_	_
 46	Las	Las	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	47	det	_	MWE=Las_Vegas_,_500_millones|MWEPOS=PROPN
-47	Vegas	Vegas	PROPN	PROPN	_	32	appos	_	_
+47	Vegas	Vegas	PROPN	PROPN	_	32	conj	_	_
 48	,	,	PUNCT	PUNCT	_	46	punct	_	_
 49	500	500	NUM	NUM	NumForm=Digit|NumType=Card	46	nummod	_	_
 50	millones	millones	PROPN	PROPN	_	46	name	_	_
@@ -35552,8 +35552,8 @@
 18	i	i	CONJ	CONJ	_	14	cc	_	_
 19	a	a	ADP	ADP	AdpType=Prep	20	case	_	_
 20	Bòsnia	Bòsnia	PROPN	PROPN	_	14	conj	_	MWE=Bòsnia_i_Hercegovina|MWEPOS=PROPN
-21	i	i	CONJ	CONJ	_	20	name	_	_
-22	Hercegovina	Hercegovina	PROPN	PROPN	_	20	name	_	_
+21	i	i	CONJ	CONJ	_	20	cc	_	_
+22	Hercegovina	Hercegovina	PROPN	PROPN	_	20	conj	_	_
 23	són	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 24	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
 25	protagonistes	protagonista	NOUN	NOUN	Number=Plur	0	root	_	_
@@ -37442,8 +37442,8 @@
 29	Cambra	Cambra	PROPN	PROPN	_	26	nmod	_	MWE=Cambra_de_Comerç_i_Indústria_de_Lleida|MWEPOS=PROPN
 30	de	de	ADP	ADP	AdpType=Prep	31	case	_	_
 31	Comerç	Comerç	PROPN	PROPN	_	29	name	_	_
-32	i	i	CONJ	CONJ	_	29	name	_	_
-33	Indústria	Indústria	PROPN	PROPN	_	29	name	_	_
+32	i	i	CONJ	CONJ	_	31	cc	_	_
+33	Indústria	Indústria	PROPN	PROPN	_	31	conj	_	_
 34	de	de	ADP	ADP	AdpType=Prep	35	case	_	_
 35	Lleida	Lleida	PROPN	PROPN	_	29	name	_	_
 36	,	,	PUNCT	PUNCT	PunctType=Comm	37	punct	_	_
@@ -38109,8 +38109,8 @@
 13	Carles	Carles	PROPN	PROPN	_	2	nsubj	_	MWE=Carles_Enric_Barriach_i_Anguera|MWEPOS=PROPN
 14	Enric	Enric	PROPN	PROPN	_	13	name	_	_
 15	Barriach	Barriach	PROPN	PROPN	_	13	name	_	_
-16	i	i	CONJ	CONJ	_	13	name	_	_
-17	Anguera	Anguera	PROPN	PROPN	_	13	name	_	_
+16	i	i	CONJ	CONJ	_	13	cc	_	_
+17	Anguera	Anguera	PROPN	PROPN	_	13	conj	_	_
 18	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
 19	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
 20	31	31	NUM	NUM	NumForm=Digit	21	nummod	_	_
@@ -38612,8 +38612,8 @@
 52	dissenyat	dissenyat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	51	amod	_	_
 53	per	per	ADP	ADP	AdpType=Prep	54	case	_	_
 54	Domènech	Domènech	PROPN	PROPN	_	52	dobj	_	MWE=Domènech_i_Muntaner|MWEPOS=PROPN
-55	i	i	CONJ	CONJ	_	54	name	_	_
-56	Muntaner	Muntaner	PROPN	PROPN	_	54	name	_	_
+55	i	i	CONJ	CONJ	_	54	cc	_	_
+56	Muntaner	Muntaner	PROPN	PROPN	_	54	conj	_	_
 57	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id ca-s1108
@@ -38650,8 +38650,8 @@
 30	estatal	estatal	ADJ	ADJ	Number=Sing	29	amod	_	_
 31	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
 32	Loteries	Loteries	PROPN	PROPN	_	29	nmod	_	MWE=Loteries_i_Apostes|MWEPOS=PROPN
-33	i	i	CONJ	CONJ	_	32	name	_	_
-34	Apostes	Apostes	PROPN	PROPN	_	32	name	_	_
+33	i	i	CONJ	CONJ	_	32	cc	_	_
+34	Apostes	Apostes	PROPN	PROPN	_	32	conj	_	_
 35	,	,	PUNCT	PUNCT	PunctType=Comm	36	punct	_	_
 36	Alfonso	Alfonso	PROPN	PROPN	_	23	appos	_	MWE=Alfonso_Constante|MWEPOS=PROPN
 37	Constante	Constante	PROPN	PROPN	_	36	name	_	_
@@ -45415,26 +45415,26 @@
 2	mobilització	mobilització	NOUN	NOUN	Gender=Fem|Number=Sing	29	nsubj	_	_
 3	per	per	ADP	ADP	AdpType=Prep	2	nmod	_	_
 4	dir	dir	VERB	VERB	VerbForm=Inf	3	advcl	_	_
-5	"	"	PUNCT	PUNCT	PunctType=Quot	19	punct	_	_
+5	"	"	PUNCT	PUNCT	PunctType=Quot	9	punct	_	_
 6	no	no	PART	PART	Negative=Neg	9	neg	_	MWE=no_a_l'_extrema_dreta|MWEPOS=PROPN
 7	a	a	ADP	ADP	AdpType=Prep	9	case	_	_
 8	l'	l'	DET	DET	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
-9	extrema	extrema	PROPN	PROPN	_	19	dobj	_	_
+9	extrema	extrema	PROPN	PROPN	_	4	dobj	_	_
 10	dreta	dreta	PROPN	PROPN	_	9	name	_	_
-11	"	"	PUNCT	PUNCT	PunctType=Quot	19	punct	_	_
-12	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
+11	"	"	PUNCT	PUNCT	PunctType=Quot	9	punct	_	_
+12	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 13	"	"	PUNCT	PUNCT	PunctType=Quot	14	punct	_	_
 14	no	no	PART	PART	Negative=Neg	16	neg	_	MWE=no_a_Le_Pen|MWEPOS=PROPN
 15	a	a	ADP	ADP	AdpType=Prep	16	case	_	_
-16	Le	Le	PROPN	PROPN	_	19	dobj	_	_
+16	Le	Le	PROPN	PROPN	_	9	conj	_	_
 17	Pen	Pen	PROPN	PROPN	_	16	name	_	_
 18	"	"	PUNCT	PUNCT	PunctType=Quot	14	punct	_	_
-19	i	i	CONJ	CONJ	_	4	cc	_	_
+19	i	i	CONJ	CONJ	_	9	cc	_	_
 20	"	"	PUNCT	PUNCT	PunctType=Quot	21	punct	_	_
 21	no	no	PART	PART	Negative=Neg	24	neg	_	MWE=no_a_l'_FN|MWEPOS=PROPN
 22	a	a	ADP	ADP	AdpType=Prep	24	case	_	_
 23	l'	l'	DET	DET	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
-24	FN	FN	PROPN	PROPN	_	19	dobj	_	_
+24	FN	FN	PROPN	PROPN	_	9	conj	_	_
 25	"	"	PUNCT	PUNCT	PunctType=Quot	21	punct	_	_
 26	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
 27	ser	ser	AUX	AUX	VerbForm=Inf	29	cop	_	_
@@ -48707,8 +48707,8 @@
 8	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Universitat	Universitat	PROPN	PROPN	_	6	nmod	_	MWE=Universitat_Rovira_i_Virgili|MWEPOS=PROPN
 10	Rovira	Rovira	PROPN	PROPN	_	9	name	_	_
-11	i	i	CONJ	CONJ	_	9	name	_	_
-12	Virgili	Virgili	PROPN	PROPN	_	9	name	_	_
+11	i	i	CONJ	CONJ	_	9	cc	_	_
+12	Virgili	Virgili	PROPN	PROPN	_	9	conj	_	_
 13	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	14	punct	_	_
 14	URV	URV	PROPN	PROPN	_	9	name	_	_
 15	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	14	punct	_	_
@@ -49496,8 +49496,8 @@
 4	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	Universitat	Universitat	PROPN	PROPN	_	2	nmod	_	MWE=Universitat_Rovira_i_Virgili|MWEPOS=PROPN
 6	Rovira	Rovira	PROPN	PROPN	_	5	name	_	_
-7	i	i	CONJ	CONJ	_	5	name	_	_
-8	Virgili	Virgili	PROPN	PROPN	_	5	name	_	_
+7	i	i	CONJ	CONJ	_	5	cc	_	_
+8	Virgili	Virgili	PROPN	PROPN	_	5	conj	_	_
 9	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	10	punct	_	_
 10	URV	URV	PROPN	PROPN	_	5	name	_	_
 11	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	10	punct	_	_
@@ -50346,9 +50346,9 @@
 88	octubre	octubre	NOUN	NOUN	AdvType=Tim	66	nmod	_	_
 89	;	;	PUNCT	PUNCT	PunctType=Semi	9	punct	_	_
 90	Verdaguer	Verdaguer	PROPN	PROPN	_	9	appos	_	MWE=Verdaguer_i_les_llengües_europees|MWEPOS=PROPN
-91	i	i	CONJ	CONJ	_	90	name	_	_
+91	i	i	CONJ	CONJ	_	90	cc	_	_
 92	les	les	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	93	det	_	_
-93	llengües	llengües	PROPN	PROPN	_	90	name	_	_
+93	llengües	llengües	PROPN	PROPN	_	90	conj	_	_
 94	europees	europees	PROPN	PROPN	_	93	name	_	_
 95	,	,	PUNCT	PUNCT	PunctType=Comm	97	punct	_	_
 96	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	97	det	_	_
@@ -50667,8 +50667,8 @@
 2	regidor	regidor	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
 4	Manteniment	Manteniment	PROPN	PROPN	_	2	nmod	_	MWE=Manteniment_i_Obres|MWEPOS=PROPN
-5	i	i	CONJ	CONJ	_	4	name	_	_
-6	Obres	Obres	PROPN	PROPN	_	4	name	_	_
+5	i	i	CONJ	CONJ	_	4	cc	_	_
+6	Obres	Obres	PROPN	PROPN	_	4	conj	_	_
 7	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 8	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
 9	Ajuntament	Ajuntament	PROPN	PROPN	_	2	nmod	_	MWE=Ajuntament_de_Lleida|MWEPOS=PROPN
@@ -52750,8 +52750,8 @@
 10	arquitecte	arquitecte	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
 11	Antoni	Antoni	PROPN	PROPN	_	10	appos	_	MWE=Antoni_Gaudí_i_Cornet|MWEPOS=PROPN
 12	Gaudí	Gaudí	PROPN	PROPN	_	11	name	_	_
-13	i	i	CONJ	CONJ	_	11	name	_	_
-14	Cornet	Cornet	PROPN	PROPN	_	11	name	_	_
+13	i	i	CONJ	CONJ	_	11	cc	_	_
+14	Cornet	Cornet	PROPN	PROPN	_	11	conj	_	_
 15	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id ca-s1531
@@ -53196,9 +53196,9 @@
 25	;	;	PUNCT	PUNCT	PunctType=Semi	18	punct	_	_
 26	L'	L'	DET	DET	Definite=Def|Number=Sing|PronType=Art	27	det	_	MWE=L'_arlequí_i_els_dragons|MWEPOS=PROPN
 27	arlequí	arlequí	PROPN	PROPN	_	18	appos	_	_
-28	i	i	CONJ	CONJ	_	26	name	_	_
+28	i	i	CONJ	CONJ	_	27	cc	_	_
 29	els	els	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
-30	dragons	dragons	PROPN	PROPN	_	26	name	_	_
+30	dragons	dragons	PROPN	PROPN	_	27	conj	_	_
 31	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	32	punct	_	_
 32	carrer	carrer	NOUN	NOUN	Gender=Masc|Number=Sing	26	appos	_	_
 33	Major	Major	PROPN	PROPN	_	32	appos	_	_
@@ -53254,27 +53254,27 @@
 83	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	81	punct	_	_
 84	;	;	PUNCT	PUNCT	PunctType=Semi	18	punct	_	_
 85	El	El	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	86	det	_	MWE=El_toro_de_foc|MWEPOS=PROPN
-86	toro	toro	PROPN	PROPN	_	95	appos	_	_
+86	toro	toro	PROPN	PROPN	_	18	appos	_	_
 87	de	de	ADP	ADP	AdpType=Prep	88	case	_	_
 88	foc	foc	PROPN	PROPN	_	85	name	_	_
-89	,	,	PUNCT	PUNCT	PunctType=Comm	95	punct	_	_
+89	,	,	PUNCT	PUNCT	PunctType=Comm	86	punct	_	_
 90	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	91	det	_	MWE=La_festa_del_bateig|MWEPOS=PROPN
-91	festa	festa	PROPN	PROPN	_	95	appos	_	_
+91	festa	festa	PROPN	PROPN	_	86	conj	_	_
 92	del	del	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	93	case	_	_
 93	bateig	bateig	PROPN	PROPN	_	90	name	_	_
-94	i	i	CONJ	CONJ	_	95	cc	_	_
-95	Castell	Castell	PROPN	PROPN	_	18	appos	_	MWE=Castell_blanc_de_la_raó_i_vermell_de_la_follia|MWEPOS=PROPN
+94	i	i	CONJ	CONJ	_	86	cc	_	_
+95	Castell	Castell	PROPN	PROPN	_	86	conj	_	MWE=Castell_blanc_de_la_raó_i_vermell_de_la_follia|MWEPOS=PROPN
 96	blanc	blanc	PROPN	PROPN	_	95	name	_	_
 97	de	de	ADP	ADP	AdpType=Prep	99	case	_	_
 98	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	99	det	_	_
 99	raó	raó	PROPN	PROPN	_	95	name	_	_
-100	i	i	CONJ	CONJ	_	95	name	_	_
-101	vermell	vermell	PROPN	PROPN	_	95	name	_	_
+100	i	i	CONJ	CONJ	_	95	cc	_	_
+101	vermell	vermell	PROPN	PROPN	_	95	conj	_	_
 102	de	de	ADP	ADP	AdpType=Prep	104	case	_	_
 103	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	104	det	_	_
 104	follia	follia	PROPN	PROPN	_	95	name	_	_
 105	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	106	punct	_	_
-106	plaça	plaça	NOUN	NOUN	Gender=Fem|Number=Sing	95	appos	_	_
+106	plaça	plaça	NOUN	NOUN	Gender=Fem|Number=Sing	86	appos	_	_
 107	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	108	case	_	_
 108	Mercadal	Mercadal	PROPN	PROPN	_	106	nmod	_	_
 109	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	106	punct	_	_
@@ -56032,8 +56032,8 @@
 22	Nit	Nit	PROPN	PROPN	_	14	dobj	_	MWE=Nit_de_llum_i_foc|MWEPOS=PROPN
 23	de	de	ADP	ADP	AdpType=Prep	24	case	_	_
 24	llum	llum	PROPN	PROPN	_	22	name	_	_
-25	i	i	CONJ	CONJ	_	22	name	_	_
-26	foc	foc	PROPN	PROPN	_	22	name	_	_
+25	i	i	CONJ	CONJ	_	24	cc	_	_
+26	foc	foc	PROPN	PROPN	_	24	conj	_	_
 27	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id ca-s1636
@@ -57067,8 +57067,8 @@
 15	obertes	obert	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	14	amod	_	_
 16	amb	amb	ADP	ADP	AdpType=Prep	17	case	_	_
 17	Convergència	Convergència	PROPN	PROPN	_	15	nmod	_	MWE=Convergència_i_Unió|MWEPOS=PROPN
-18	i	i	CONJ	CONJ	_	17	name	_	_
-19	Unió	Unió	PROPN	PROPN	_	17	name	_	_
+18	i	i	CONJ	CONJ	_	17	cc	_	_
+19	Unió	Unió	PROPN	PROPN	_	17	conj	_	_
 20	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	21	punct	_	_
 21	CiU	CiU	PROPN	PROPN	_	17	name	_	_
 22	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	21	punct	_	_
@@ -57739,8 +57739,8 @@
 2	regidories	regidoria	NOUN	NOUN	Gender=Fem|Number=Plur	17	nsubj	_	_
 3	d'	de	ADP	ADP	AdpType=Prep	4	case	_	_
 4	Emergències	Emergències	PROPN	PROPN	_	2	nmod	_	MWE=Emergències_i_Seguretat_Civil|MWEPOS=PROPN
-5	i	i	CONJ	CONJ	_	4	name	_	_
-6	Seguretat	Seguretat	PROPN	PROPN	_	4	name	_	_
+5	i	i	CONJ	CONJ	_	4	cc	_	_
+6	Seguretat	Seguretat	PROPN	PROPN	_	4	conj	_	_
 7	Civil	Civil	PROPN	PROPN	_	6	name	_	_
 8	i	i	CONJ	CONJ	_	4	cc	_	_
 9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
@@ -58290,20 +58290,20 @@
 20	escenaris	escenari	NOUN	NOUN	Gender=Masc|Number=Plur	18	nmod	_	_
 21	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
 22	obres	obra	NOUN	NOUN	Gender=Fem|Number=Plur	18	dobj	_	_
-23	'	'	SYM	SYM	_	36	nmod	_	_
+23	'	'	SYM	SYM	_	25	nmod	_	_
 24	Un	Un	DET	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	MWE=Un_passeig_pel_bosc|MWEPOS=PROPN
-25	passeig	passeig	PROPN	PROPN	_	36	appos	_	_
+25	passeig	passeig	PROPN	PROPN	_	22	appos	_	_
 26	pel	pel	ADP	ADP	AdpType=Prep	27	case	_	_
 27	bosc	bosc	PROPN	PROPN	_	24	name	_	_
-28	'	'	SYM	SYM	_	36	nmod	_	_
-29	,	,	PUNCT	PUNCT	PunctType=Comm	36	punct	_	_
+28	'	'	SYM	SYM	_	25	nmod	_	_
+29	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 30	'	'	SYM	SYM	_	31	nmod	_	_
 31	El	El	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	MWE=El_mètode|MWEPOS=PROPN
-32	mètode	mètode	PROPN	PROPN	_	36	appos	_	_
+32	mètode	mètode	PROPN	PROPN	_	25	conj	_	_
 33	'	'	SYM	SYM	_	31	nmod	_	_
-34	i	i	CONJ	CONJ	_	36	cc	_	_
+34	i	i	CONJ	CONJ	_	25	cc	_	_
 35	'	'	SYM	SYM	_	36	nmod	_	_
-36	Elles	Elles	PROPN	PROPN	_	22	appos	_	MWE=Elles_maten|MWEPOS=PROPN
+36	Elles	Elles	PROPN	PROPN	_	25	conj	_	MWE=Elles_maten|MWEPOS=PROPN
 37	maten	matar	PROPN	PROPN	_	36	name	_	_
 38	'	'	SYM	SYM	_	36	nmod	_	_
 39	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
@@ -58930,8 +58930,8 @@
 16	-	-	PUNCT	PUNCT	_	12	punct	_	_
 17	Esquerra	Esquerra	PROPN	PROPN	_	12	name	_	_
 18	Unida	Unida	PROPN	PROPN	_	17	name	_	_
-19	i	i	CONJ	CONJ	_	12	name	_	_
-20	Alternativa	Alternativa	PROPN	PROPN	_	12	name	_	_
+19	i	i	CONJ	CONJ	_	17	cc	_	_
+20	Alternativa	Alternativa	PROPN	PROPN	_	17	conj	_	_
 21	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 22	Reus	Reus	PROPN	PROPN	_	12	nmod	_	_
 23	ja	ja	ADV	ADV	_	26	mark	_	MWE=ja_que|MWEPOS=SCONJ
@@ -62955,8 +62955,8 @@
 14	des	des	ADP	ADP	AdpType=Prep	16	case	_	MWE=des_de|MWEPOS=ADP
 15	de	de	ADP	ADP	AdpType=Prep	14	mwe	_	_
 16	Trinitat	Trinitat	PROPN	PROPN	_	10	nmod	_	MWE=Trinitat_i_Tobago|MWEPOS=PROPN
-17	i	i	CONJ	CONJ	_	16	name	_	_
-18	Tobago	Tobago	PROPN	PROPN	_	16	name	_	_
+17	i	i	CONJ	CONJ	_	16	cc	_	_
+18	Tobago	Tobago	PROPN	PROPN	_	16	conj	_	_
 19	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id ca-s1847
@@ -63091,12 +63091,12 @@
 7	hi	hi	PRON	PRON	Person=3|PronType=Prs	8	dobj	_	_
 8	ha	haver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
 9	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	MWE=La_Caixa|MWEPOS=PROPN
-10	Caixa	Caixa	PROPN	PROPN	_	15	dobj	_	_
-11	,	,	PUNCT	PUNCT	PunctType=Comm	15	punct	_	_
+10	Caixa	Caixa	PROPN	PROPN	_	8	dobj	_	_
+11	,	,	PUNCT	PUNCT	PunctType=Comm	10	punct	_	_
 12	La	La	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	MWE=La_Kutxa|MWEPOS=PROPN
-13	Kutxa	Kutxa	PROPN	PROPN	_	15	dobj	_	_
-14	i	i	CONJ	CONJ	_	15	cc	_	_
-15	Caixa	Caixa	PROPN	PROPN	_	8	dobj	_	MWE=Caixa_Catalunya|MWEPOS=PROPN
+13	Kutxa	Kutxa	PROPN	PROPN	_	10	conj	_	_
+14	i	i	CONJ	CONJ	_	10	cc	_	_
+15	Caixa	Caixa	PROPN	PROPN	_	10	conj	_	MWE=Caixa_Catalunya|MWEPOS=PROPN
 16	Catalunya	Catalunya	PROPN	PROPN	_	15	name	_	_
 17	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 18	en	en	PRON	PRON	Person=3|PronType=Prs	19	dobj	_	_
