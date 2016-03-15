@@ -959,7 +959,7 @@
 11	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 12	de	de	ADP	ADP	AdpType=Prep	13	mark	_	_
 13	prendre	prendre	VERB	VERB	VerbForm=Inf	3	acl	_	MWE=prendre_part|MWEPOS=VERB
-14	part	part	VERB	VERB	VerbForm=Inf	13	compound	_	_
+14	part	part	NOUN	NOUN	Number=Sing	13	compound	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	comissió	comissió	NOUN	NOUN	Gender=Fem|Number=Sing	13	nsubj	_	_
 17	d'	de	ADP	ADP	AdpType=Prep	18	case	_	_
@@ -1355,8 +1355,8 @@
 7	propostes	proposta	NOUN	NOUN	Gender=Fem|Number=Plur	9	nsubj	_	_
 8	rebudes	rebut	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	7	amod	_	_
 9	posen	posar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	MWE=posen_de_manifest|MWEPOS=VERB
-10	de	de	ADP	ADP	AdpType=Prep	9	compound	_	_
-11	manifest	manifest	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	compound	_	_
+10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
+11	manifest	manifest	NOUN	NOUN	Number=Sing	9	compound	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	bona	bo	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	_
 14	acollida	acollida	NOUN	NOUN	Gender=Fem|Number=Sing	9	dobj	_	_
@@ -1513,7 +1513,7 @@
 7	pel	pel	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	8	case	_	_
 8	jurat	jurat	NOUN	NOUN	Gender=Masc|Number=Sing	6	dobj	_	_
 9	formaran	formar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=formaran_part|MWEPOS=VERB
-10	part	part	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	compound	_	_
+10	part	part	NOUN	NOUN	Number=Sing	9	compound	_	_
 11	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	13	case	_	_
 12	1.300	1300	NUM	NUM	NumForm=Digit	13	nummod	_	_
 13	exemplars	exemplar	NOUN	NOUN	Gender=Masc|Number=Plur	9	dobj	_	_
@@ -2223,7 +2223,7 @@
 18	anys	any	NOUN	NOUN	Gender=Masc|Number=Plur	9	nmod	_	_
 19	i	i	CONJ	CONJ	_	9	cc	_	_
 20	forma	formar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	MWE=forma_part|MWEPOS=VERB
-21	part	part	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	compound	_	_
+21	part	part	NOUN	NOUN	Number=Sing	20	compound	_	_
 22	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	23	case	_	_
 23	patrimoni	patrimoni	NOUN	NOUN	Gender=Masc|Number=Sing	20	dobj	_	_
 24	artístic	artístic	ADJ	ADJ	Gender=Masc|Number=Sing	23	amod	_	_
@@ -2567,7 +2567,7 @@
 44	investigar	investigar	VERB	VERB	VerbForm=Inf	41	acl	_	_
 45	i	i	CONJ	CONJ	_	44	cc	_	_
 46	tirar	tirar	VERB	VERB	VerbForm=Inf	44	conj	_	MWE=tirar_endavant|MWEPOS=VERB
-47	endavant	endavant	VERB	VERB	VerbForm=Inf	46	compound	_	_
+47	endavant	endavant	NOUN	NOUN	Number=Sing	46	compound	_	_
 48	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
 49	procés	procés	NOUN	NOUN	Gender=Masc|Number=Sing	44	dobj	_	_
 50	de	de	ADP	ADP	AdpType=Prep	51	case	_	_
@@ -3004,8 +3004,8 @@
 31	i	i	CONJ	CONJ	_	5	cc	_	_
 32	es	es	PRON	PRON	_	33	dobj	_	_
 33	duu	dur	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	MWE=duu_a_terme|MWEPOS=VERB
-34	a	a	ADP	ADP	AdpType=Prep	33	compound	_	_
-35	terme	terme	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	compound	_	_
+34	a	a	ADP	ADP	AdpType=Prep	35	case	_	_
+35	terme	terme	NOUN	NOUN	Number=Sing	33	compound	_	_
 36	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	37	det	_	_
 37	servei	servei	NOUN	NOUN	Gender=Masc|Number=Sing	33	nsubj	_	_
 38	d'	de	ADP	ADP	AdpType=Prep	39	case	_	_
@@ -3131,8 +3131,8 @@
 2	rehabilitació	rehabilitació	NOUN	NOUN	Gender=Fem|Number=Sing	4	iobj	_	_
 3	la	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	dobj	_	_
 4	duen	dur	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	MWE=duen_a_terme|MWEPOS=VERB
-5	a	a	ADP	ADP	AdpType=Prep	4	compound	_	_
-6	terme	terme	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	compound	_	_
+5	a	a	ADP	ADP	AdpType=Prep	6	case	_	_
+6	terme	terme	NOUN	NOUN	Number=Sing	4	compound	_	_
 7	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	alumnes	alumne	NOUN	NOUN	Gender=Masc|Number=Plur	4	nsubj	_	_
 9	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
@@ -3606,7 +3606,7 @@
 6	hi	hi	PRON	PRON	Person=3|PronType=Prs	8	dobj	_	_
 7	hem	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	sortit	sortir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	MWE=sortit_perdent|MWEPOS=VERB
-9	perdent	perdent	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	compound	_	_
+9	perdent	perdent	NOUN	NOUN	Number=Sing	8	compound	_	_
 10	'	'	SYM	SYM	_	8	nmod	_	_
 11	i	i	CONJ	CONJ	_	3	cc	_	_
 12	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
@@ -4442,8 +4442,8 @@
 13	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 14	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	posat	posar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	MWE=posat_en_marxa|MWEPOS=VERB
-16	en	en	ADP	ADP	AdpType=Prep	15	compound	_	_
-17	marxa	marxa	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	compound	_	_
+16	en	en	ADP	ADP	AdpType=Prep	17	case	_	_
+17	marxa	marxa	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound	_	_
 18	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
 19	sèrie	sèrie	NOUN	NOUN	Gender=Fem|Number=Sing	15	dobj	_	_
 20	d'	de	ADP	ADP	AdpType=Prep	21	case	_	_
@@ -4486,7 +4486,7 @@
 16	català	català	NOUN	NOUN	Gender=Masc|Number=Sing	15	dobj	_	_
 17	i	i	CONJ	CONJ	_	15	cc	_	_
 18	donar	donar	VERB	VERB	VerbForm=Inf	15	conj	_	MWE=donar_a_conèixer|MWEPOS=VERB
-19	a	a	ADP	ADP	AdpType=Prep	18	compound	_	_
+19	a	a	ADP	ADP	AdpType=Prep	20	mark	_	_
 20	conèixer	conèixer	VERB	VERB	VerbForm=Inf	18	compound	_	_
 21	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	realitat	realitat	NOUN	NOUN	Gender=Fem|Number=Sing	18	dobj	_	_
@@ -4606,7 +4606,7 @@
 1	També	també	ADV	ADV	_	3	advmod	_	_
 2	hi	hi	PRON	PRON	Person=3|PronType=Prs	3	dobj	_	_
 3	prendran	prendre	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=prendran_part|MWEPOS=VERB
-4	part	part	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	compound	_	_
+4	part	part	NOUN	NOUN	Number=Sing	3	compound	_	_
 5	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
 6	professora	professora	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
 7	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
@@ -5310,8 +5310,8 @@
 11	'	'	SYM	SYM	_	9	nmod	_	_
 12	es	es	PRON	PRON	_	13	dobj	_	_
 13	portarà	portar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=portarà_a_terme|MWEPOS=VERB
-14	a	a	ADP	ADP	AdpType=Prep	13	compound	_	_
-15	terme	terme	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	compound	_	_
+14	a	a	ADP	ADP	AdpType=Prep	15	case	_	_
+15	terme	terme	NOUN	NOUN	Number=Sing	13	compound	_	_
 16	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 17	proper	proper	ADJ	ADJ	Gender=Masc|Number=Sing	18	amod	_	_
 18	dimecres	dimecres	NOUN	NOUN	AdvType=Tim	13	nmod	_	_
@@ -6048,8 +6048,8 @@
 5	s'	es	PRON	PRON	_	7	dobj	_	_
 6	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	dut	dur	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	MWE=dut_a_terme|MWEPOS=VERB
-8	a	a	ADP	ADP	AdpType=Prep	7	compound	_	_
-9	terme	terme	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	compound	_	_
+8	a	a	ADP	ADP	AdpType=Prep	9	case	_	_
+9	terme	terme	NOUN	NOUN	Number=Sing	7	compound	_	_
 10	aprofitant	aprofitar	VERB	VERB	VerbForm=Ger	7	advcl	_	_
 11	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	reforma	reforma	NOUN	NOUN	Gender=Fem|Number=Sing	10	dobj	_	_
@@ -6867,7 +6867,7 @@
 27	allò	allò	PRON	PRON	Number=Sing|PronType=Dem	12	nmod	_	_
 28	que	que	PRON	PRON	PronType=Rel	29	nsubj	_	_
 29	fa	fer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl	_	MWE=fa_referència|MWEPOS=VERB
-30	referència	referència	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	compound	_	_
+30	referència	referència	NOUN	NOUN	Gender=Fem|Number=Sing	29	compound	_	_
 31	a	a	ADP	ADP	AdpType=Prep	33	case	_	_
 32	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	seguretat	seguretat	NOUN	NOUN	Gender=Fem|Number=Sing	29	dobj	_	_
@@ -8909,8 +8909,8 @@
 11	que	que	PRON	PRON	PronType=Rel	13	nsubj	_	_
 12	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13	dut	dur	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	MWE=dut_a_terme|MWEPOS=VERB
-14	a	a	ADP	ADP	AdpType=Prep	13	compound	_	_
-15	terme	terme	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	compound	_	_
+14	a	a	ADP	ADP	AdpType=Prep	15	case	_	_
+15	terme	terme	NOUN	NOUN	Number=Sing	13	compound	_	_
 16	millores	millora	NOUN	NOUN	Gender=Fem|Number=Plur	13	dobj	_	_
 17	en	en	ADP	ADP	AdpType=Prep	19	case	_	_
 18	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -9476,7 +9476,7 @@
 3	serveix	servir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	per	per	ADP	ADP	AdpType=Prep	5	mark	_	_
 5	donar	donar	VERB	VERB	VerbForm=Inf	3	advcl	_	MWE=donar_suport|MWEPOS=VERB
-6	suport	suport	VERB	VERB	VerbForm=Inf	5	compound	_	_
+6	suport	suport	NOUN	NOUN	Number=Sing	5	compound	_	_
 7	a	a	ADP	ADP	AdpType=Prep	10	case	_	_
 8	unes	un	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
 9	altres	altre	DET	DET	Number=Plur|PronType=Ind	8	det	_	_
@@ -9699,7 +9699,7 @@
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	assemblea	assemblea	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	tindrà	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=tindrà_lloc|MWEPOS=VERB
-4	lloc	lloc	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	compound	_	_
+4	lloc	lloc	NOUN	NOUN	Number=Sing	3	compound	_	_
 5	a	a	ADP	ADP	AdpType=Prep	7	case	_	_
 6	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	sala	sala	NOUN	NOUN	Gender=Fem|Number=Sing	3	nmod	_	_
@@ -9837,8 +9837,8 @@
 31	s'	es	PRON	PRON	_	33	dobj	_	_
 32	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 33	portat	portar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	29	acl	_	MWE=portat_a_terme|MWEPOS=VERB
-34	a	a	ADP	ADP	AdpType=Prep	33	compound	_	_
-35	terme	terme	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	compound	_	_
+34	a	a	ADP	ADP	AdpType=Prep	35	case	_	_
+35	terme	terme	NOUN	NOUN	Number=Sing	33	compound	_	_
 36	fins	fins	ADP	ADP	AdpType=Prep	37	case	_	_
 37	ara	ara	ADV	ADV	_	33	advmod	_	_
 38	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
@@ -9895,8 +9895,8 @@
 2	projecte	projecte	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	es	es	PRON	PRON	_	4	dobj	_	_
 4	durà	dur	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=durà_a_terme|MWEPOS=VERB
-5	a	a	ADP	ADP	AdpType=Prep	4	compound	_	_
-6	terme	terme	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	compound	_	_
+5	a	a	ADP	ADP	AdpType=Prep	6	case	_	_
+6	terme	terme	NOUN	NOUN	Number=Sing	4	compound	_	_
 7	en	en	ADP	ADP	AdpType=Prep	9	case	_	_
 8	diverses	divers	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
 9	fases	fase	NOUN	NOUN	Gender=Fem|Number=Plur	4	nmod	_	_
@@ -10004,7 +10004,7 @@
 31	opta	optar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
 32	per	per	ADP	ADP	AdpType=Prep	33	mark	_	_
 33	tirar	tirar	VERB	VERB	VerbForm=Inf	31	xcomp	_	MWE=tirar_endavant|MWEPOS=VERB
-34	endavant	endavant	VERB	VERB	VerbForm=Inf	33	compound	_	_
+34	endavant	endavant	NOUN	NOUN	Number=Sing	33	compound	_	_
 35	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	projecte	projecte	NOUN	NOUN	Gender=Masc|Number=Sing	33	dobj	_	_
 37	que	que	PRON	PRON	PronType=Rel	38	nsubj	_	_
@@ -10948,7 +10948,7 @@
 41	que	que	PRON	PRON	PronType=Rel	43	nsubj	_	_
 42	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
 43	tingut	tenir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	acl	_	MWE=tingut_lloc|MWEPOS=VERB
-44	lloc	lloc	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	compound	_	_
+44	lloc	lloc	NOUN	NOUN	Number=Sing	43	compound	_	_
 45	a	a	ADP	ADP	AdpType=Prep	47	case	_	_
 46	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	seu	seu	NOUN	NOUN	Gender=Fem|Number=Sing	43	nmod	_	_
@@ -11574,8 +11574,8 @@
 16	alumnes	alumne	NOUN	NOUN	Gender=Masc|Number=Plur	18	nsubj	_	_
 17	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 18	dut	dur	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	MWE=dut_a_terme|MWEPOS=VERB
-19	a	a	ADP	ADP	AdpType=Prep	18	compound	_	_
-20	terme	terme	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	compound	_	_
+19	a	a	ADP	ADP	AdpType=Prep	20	case	_	_
+20	terme	terme	NOUN	NOUN	Number=Sing	18	compound	_	_
 21	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 22	forma	forma	NOUN	NOUN	Gender=Fem|Number=Sing	18	nmod	_	_
 23	tutelada	tutelat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	22	amod	_	_
@@ -12463,8 +12463,8 @@
 2	homenatge	homenatge	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	es	es	PRON	PRON	_	4	dobj	_	_
 4	durà	dur	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=durà_a_terme|MWEPOS=VERB
-5	a	a	ADP	ADP	AdpType=Prep	4	compound	_	_
-6	terme	terme	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	compound	_	_
+5	a	a	ADP	ADP	AdpType=Prep	6	case	_	_
+6	terme	terme	NOUN	NOUN	Number=Sing	4	compound	_	_
 7	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	8	case	_	_
 8	Monestir	Monestir	PROPN	PROPN	_	4	nmod	_	MWE=Monestir_de_Sant_Pere_de_Casserres|MWEPOS=PROPN
 9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
@@ -15191,7 +15191,7 @@
 17	institucional	institucional	ADJ	ADJ	Number=Sing	16	amod	_	_
 18	per	per	ADP	ADP	AdpType=Prep	19	mark	_	_
 19	tirar	tirar	VERB	VERB	VerbForm=Inf	13	advcl	_	MWE=tirar_endavant|MWEPOS=VERB
-20	endavant	endavant	VERB	VERB	VerbForm=Inf	19	compound	_	_
+20	endavant	endavant	NOUN	NOUN	Number=Sing	19	compound	_	_
 21	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
 # sent_id ca-s385
@@ -15595,7 +15595,7 @@
 7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	jutge	jutge	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
 9	fa	fer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	MWE=fa_cas|MWEPOS=VERB
-10	cas	cas	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	compound	_	_
+10	cas	cas	NOUN	NOUN	Gender=Fem|Number=Plur	9	compound	_	_
 11	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	petició	petició	NOUN	NOUN	Gender=Fem|Number=Sing	9	dobj	_	_
@@ -15673,7 +15673,7 @@
 4	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	fiscalia	fiscalia	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
 6	dóna	donar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	MWE=dóna_resposta|MWEPOS=VERB
-7	resposta	resposta	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	compound	_	_
+7	resposta	resposta	NOUN	NOUN	Gender=Fem|Number=Sing	6	compound	_	_
 8	a	a	ADP	ADP	AdpType=Prep	10	case	_	_
 9	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
 10	denúncia	denúncia	NOUN	NOUN	Gender=Fem|Number=Sing	6	dobj	_	_
@@ -16280,7 +16280,7 @@
 10	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
 11	altre	altre	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	8	conj	_	_
 12	formarien	formar	VERB	VERB	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	1	ccomp	_	MWE=formarien_part|MWEPOS=VERB
-13	part	part	VERB	VERB	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	12	compound	_	_
+13	part	part	NOUN	NOUN	Number=Sing	12	compound	_	_
 14	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	15	case	_	_
 15	moviments	moviment	NOUN	NOUN	Gender=Masc|Number=Plur	12	dobj	_	_
 16	antiglobalització	antiglobalització	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
@@ -17313,7 +17313,7 @@
 33	èxit	èxit	NOUN	NOUN	Gender=Masc|Number=Sing	31	nmod	_	_
 34	,	,	PUNCT	PUNCT	PunctType=Comm	31	punct	_	_
 35	donarà	donar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=donarà_lloc|MWEPOS=VERB
-36	lloc	lloc	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	35	compound	_	_
+36	lloc	lloc	NOUN	NOUN	Number=Sing	35	compound	_	_
 37	a	a	ADP	ADP	AdpType=Prep	39	case	_	_
 38	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	39	det	_	_
 39	societat	societat	NOUN	NOUN	Gender=Fem|Number=Sing	35	dobj	_	_
@@ -17913,7 +17913,7 @@
 12	segrest	segrest	NOUN	NOUN	Gender=Masc|Number=Sing	9	dobj	_	_
 13	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 14	pren	prendre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	MWE=pren_partit|MWEPOS=VERB
-15	partit	partit	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	compound	_	_
+15	partit	partit	NOUN	NOUN	Number=Sing	14	compound	_	_
 16	en	en	ADP	ADP	AdpType=Prep	18	case	_	_
 17	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	reflexió	reflexió	NOUN	NOUN	Gender=Fem|Number=Sing	14	dobj	_	_
@@ -19291,7 +19291,7 @@
 16	ja	ja	ADV	ADV	_	18	mark	_	MWE=ja_que|MWEPOS=SCONJ
 17	que	que	SCONJ	SCONJ	_	16	mwe	_	_
 18	formen	formar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	MWE=formen_part|MWEPOS=VERB
-19	part	part	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	compound	_	_
+19	part	part	NOUN	NOUN	Number=Sing	18	compound	_	_
 20	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 21	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	història	història	NOUN	NOUN	Gender=Fem|Number=Sing	18	dobj	_	_
@@ -19801,8 +19801,8 @@
 3	motiu	motiu	NOUN	NOUN	Gender=Masc|Number=Sing	5	nmod	_	_
 4	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 5	val	valer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	MWE=val_la_pena|MWEPOS=VERB
-6	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	compound	_	_
-7	pena	pena	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	compound	_	_
+6	la	la	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	case	_	_
+7	pena	pena	NOUN	NOUN	Gender=Fem|Number=Sing	5	compound	_	_
 8	recordar	recordar	VERB	VERB	VerbForm=Inf	5	csubj	_	_
 9	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
 10	fragment	fragment	NOUN	NOUN	Gender=Masc|Number=Sing	8	dobj	_	_
@@ -19991,7 +19991,7 @@
 17	ja	ja	ADV	ADV	_	19	advmod	_	_
 18	avui	avui	ADV	ADV	_	19	advmod	_	_
 19	formen	formar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	MWE=formen_part|MWEPOS=VERB
-20	part	part	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	compound	_	_
+20	part	part	NOUN	NOUN	Number=Sing	19	compound	_	_
 21	activa	actiu	ADJ	ADJ	Gender=Fem|Number=Sing	19	advmod	_	_
 22	de	de	ADP	ADP	AdpType=Prep	25	case	_	_
 23	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	MWE=la_nostra|MWEPOS=DET
@@ -20634,8 +20634,8 @@
 7	de	de	ADP	ADP	AdpType=Prep	5	mwe	_	_
 8	'	'	SYM	SYM	_	9	nmod	_	_
 9	deixar	deixar	VERB	VERB	VerbForm=Inf	4	xcomp	_	MWE=deixar_de_costat|MWEPOS=VERB
-10	de	de	ADP	ADP	AdpType=Prep	9	compound	_	_
-11	costat	costat	VERB	VERB	VerbForm=Inf	9	compound	_	_
+10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
+11	costat	costat	NOUN	NOUN	Number=Sing	9	compound	_	_
 12	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 13	personalismes	personalisme	NOUN	NOUN	Gender=Masc|Number=Plur	9	dobj	_	_
 14	'	'	SYM	SYM	_	9	nmod	_	_
@@ -21558,7 +21558,7 @@
 25	es	es	PRON	PRON	_	27	dobj	_	_
 26	podia	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
 27	donar	donar	VERB	VERB	VerbForm=Inf	22	conj	_	MWE=donar_suport|MWEPOS=VERB
-28	suport	suport	VERB	VERB	VerbForm=Inf	27	compound	_	_
+28	suport	suport	NOUN	NOUN	Number=Sing	27	compound	_	_
 29	a	a	ADP	ADP	AdpType=Prep	31	case	_	_
 30	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	proposició	proposició	NOUN	NOUN	Gender=Fem|Number=Sing	27	dobj	_	_
@@ -22242,8 +22242,8 @@
 18	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 19	de	de	ADP	ADP	AdpType=Prep	20	mark	_	_
 20	dur	dur	VERB	VERB	VerbForm=Inf	14	conj	_	MWE=dur_a_terme|MWEPOS=VERB
-21	a	a	ADP	ADP	AdpType=Prep	20	compound	_	_
-22	terme	terme	VERB	VERB	VerbForm=Inf	20	compound	_	_
+21	a	a	ADP	ADP	AdpType=Prep	22	case	_	_
+22	terme	terme	NOUN	NOUN	Number=Sing	20	compound	_	_
 23	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s594
@@ -24018,8 +24018,8 @@
 63	realment	realment	ADV	ADV	_	65	advmod	_	_
 64	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	65	aux	_	_
 65	dur	dur	VERB	VERB	VerbForm=Inf	48	advcl	_	MWE=dur_a_terme|MWEPOS=VERB
-66	a	a	ADP	ADP	AdpType=Prep	65	compound	_	_
-67	terme	terme	VERB	VERB	VerbForm=Inf	65	compound	_	_
+66	a	a	ADP	ADP	AdpType=Prep	67	case	_	_
+67	terme	terme	NOUN	NOUN	Number=Sing	65	compound	_	_
 68	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
 69	construcció	construcció	NOUN	NOUN	Gender=Fem|Number=Sing	65	dobj	_	_
 70	de	de	ADP	ADP	AdpType=Prep	72	case	_	_
@@ -24662,7 +24662,7 @@
 10	on	on	PRON	PRON	PronType=Rel	12	nmod	_	_
 11	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	tenir	tenir	VERB	VERB	VerbForm=Inf	9	acl	_	MWE=tenir_lloc|MWEPOS=VERB
-13	lloc	lloc	VERB	VERB	VerbForm=Inf	12	compound	_	_
+13	lloc	lloc	NOUN	NOUN	Number=Sing	12	compound	_	_
 14	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
 15	incident	incident	NOUN	NOUN	Gender=Masc|Number=Sing	12	nsubj	_	_
 16	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
@@ -25108,7 +25108,7 @@
 60	deixar	deixar	AUX	AUX	VerbForm=Inf	62	aux	_	_
 61	de	de	ADP	ADP	AdpType=Prep	62	mark	_	_
 62	donar	donar	VERB	VERB	VerbForm=Inf	55	acl	_	MWE=donar_suport|MWEPOS=VERB
-63	suport	suport	VERB	VERB	VerbForm=Inf	62	compound	_	_
+63	suport	suport	NOUN	NOUN	Number=Sing	62	compound	_	_
 64	als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	65	case	_	_
 65	convergents	convergent	NOUN	NOUN	Number=Plur	62	dobj	_	_
 66	i	i	CONJ	CONJ	_	62	cc	_	_
@@ -25910,8 +25910,8 @@
 5	"	"	PUNCT	PUNCT	PunctType=Quot	7	punct	_	_
 6	IU	IU	PROPN	PROPN	_	7	nsubj	_	_
 7	durà	dur	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=durà_a_terme|MWEPOS=VERB
-8	a	a	ADP	ADP	AdpType=Prep	7	compound	_	_
-9	terme	terme	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	compound	_	_
+8	a	a	ADP	ADP	AdpType=Prep	9	case	_	_
+9	terme	terme	NOUN	NOUN	Number=Sing	7	compound	_	_
 10	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
 11	oposició	oposició	NOUN	NOUN	Gender=Fem|Number=Sing	7	dobj	_	_
 12	seriosa	seriós	ADJ	ADJ	Gender=Fem|Number=Sing	11	amod	_	_
@@ -26384,7 +26384,7 @@
 36	bancària	bancari	ADJ	ADJ	Gender=Fem|Number=Sing	35	amod	_	_
 37	no	no	ADV	ADV	Negative=Neg	38	neg	_	_
 38	fa	fer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	MWE=fa_referència|MWEPOS=VERB
-39	referència	referència	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	compound	_	_
+39	referència	referència	NOUN	NOUN	Gender=Fem|Number=Sing	38	compound	_	_
 40	estricta	estricte	ADJ	ADJ	Gender=Fem|Number=Sing	38	advmod	_	_
 41	a	a	ADP	ADP	AdpType=Prep	43	case	_	_
 42	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	43	det	_	_
@@ -27051,7 +27051,7 @@
 6	que	que	PRON	PRON	PronType=Rel	8	nsubj	_	_
 7	es	ell	PRON	PRON	Person=3	8	dobj	_	_
 8	deixen	deixar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	MWE=deixen_veure|MWEPOS=VERB
-9	veure	veure	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	compound	_	_
+9	veure	veure	NOUN	NOUN	Number=Sing	8	compound	_	_
 10	en	en	ADP	ADP	AdpType=Prep	12	case	_	_
 11	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	tarannà	tarannà	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
@@ -27151,7 +27151,7 @@
 48	,	,	PUNCT	PUNCT	PunctType=Comm	50	punct	_	_
 49	que	que	PRON	PRON	PronType=Rel	50	nsubj	_	_
 50	fa	fer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	acl	_	MWE=fa_referència|MWEPOS=VERB
-51	referència	referència	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	compound	_	_
+51	referència	referència	NOUN	NOUN	Gender=Fem|Number=Sing	50	compound	_	_
 52	a	a	ADP	ADP	AdpType=Prep	54	case	_	_
 53	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	54	det	_	_
 54	règim	règim	NOUN	NOUN	Gender=Masc|Number=Sing	50	dobj	_	_
@@ -27593,8 +27593,8 @@
 6	que	que	PRON	PRON	PronType=Rel	7	iobj	_	_
 7	pretén	pretendre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
 8	posar	posar	VERB	VERB	VerbForm=Inf	7	xcomp	_	MWE=posar_en_marxa|MWEPOS=VERB
-9	en	en	ADP	ADP	AdpType=Prep	8	compound	_	_
-10	marxa	marxa	VERB	VERB	VerbForm=Inf	8	compound	_	_
+9	en	en	ADP	ADP	AdpType=Prep	10	case	_	_
+10	marxa	marxa	NOUN	NOUN	Gender=Fem|Number=Sing	8	compound	_	_
 11	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 12	destaca	destacar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
@@ -27947,7 +27947,7 @@
 37	o	o	CONJ	CONJ	_	32	cc	_	_
 38	prefereixen	preferir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	_
 39	formar	formar	VERB	VERB	VerbForm=Inf	38	xcomp	_	MWE=formar_part|MWEPOS=VERB
-40	part	part	VERB	VERB	VerbForm=Inf	39	compound	_	_
+40	part	part	NOUN	NOUN	Number=Sing	39	compound	_	_
 41	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	42	case	_	_
 42	territori	territori	NOUN	NOUN	Gender=Masc|Number=Sing	39	dobj	_	_
 43	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	44	case	_	_
@@ -28586,7 +28586,7 @@
 47	que	que	SCONJ	SCONJ	_	49	mark	_	_
 48	es	ell	PRON	PRON	Person=3	49	dobj	_	_
 49	fessin	fer-se	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	46	ccomp	_	MWE=fessin_càrrec|MWEPOS=VERB
-50	càrrec	càrrec	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	49	compound	_	_
+50	càrrec	càrrec	NOUN	NOUN	Number=Sing	49	compound	_	_
 51	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	52	case	_	_
 52	fills	fill	NOUN	NOUN	Gender=Masc|Number=Plur	49	dobj	_	_
 53	menors	menor	ADJ	ADJ	Number=Plur	52	amod	_	_
@@ -29150,7 +29150,7 @@
 14	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 15	de	de	ADP	ADP	AdpType=Prep	16	mark	_	_
 16	tenir	tenir	VERB	VERB	VerbForm=Inf	0	root	_	MWE=tenir_cura|MWEPOS=VERB
-17	cura	cura	VERB	VERB	VerbForm=Inf	16	compound	_	_
+17	cura	cura	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound	_	_
 18	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	19	case	_	_
 19	tutelat	tutelat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	16	dobj	_	_
 20	o	o	CONJ	CONJ	_	19	cc	_	_
@@ -29634,7 +29634,7 @@
 2	es	es	PRON	PRON	_	4	dobj	_	_
 3	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	donar	donar	VERB	VERB	VerbForm=Inf	0	root	_	MWE=donar_a_conèixer|MWEPOS=VERB
-5	a	a	ADP	ADP	AdpType=Prep	4	compound	_	_
+5	a	a	ADP	ADP	AdpType=Prep	6	mark	_	_
 6	conèixer	conèixer	VERB	VERB	VerbForm=Inf	4	compound	_	_
 7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	programa	programa	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -29996,8 +29996,8 @@
 4	premi	premi	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
 5	es	es	PRON	PRON	_	6	dobj	_	_
 6	donarà	donar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=donarà_a_conèixer|MWEPOS=VERB
-7	a	a	ADP	ADP	AdpType=Prep	6	compound	_	_
-8	conèixer	conèixer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	compound	_	_
+7	a	a	ADP	ADP	AdpType=Prep	8	mark	_	_
+8	conèixer	conèixer	VERB	VERB	VerbForm=Inf	6	compound	_	_
 9	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	mes	mes	NOUN	NOUN	_	6	nmod	_	MWE=mes_de_gener|MWEPOS=NOUN
 11	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
@@ -30429,7 +30429,7 @@
 2	acte	acte	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	inaugural	inaugural	ADJ	ADJ	Number=Sing	2	amod	_	_
 4	tindrà	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=tindrà_lloc|MWEPOS=VERB
-5	lloc	lloc	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	compound	_	_
+5	lloc	lloc	NOUN	NOUN	Number=Sing	4	compound	_	_
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	dia	dia	NOUN	NOUN	_	4	nmod	_	MWE=dia_12_de_juliol|MWEPOS=NOUN
 8	12	12	NUM	NUM	NumForm=Digit|NumType=Card	7	compound	_	_
@@ -30599,7 +30599,7 @@
 11	UETE	UETE	PROPN	PROPN	_	7	nmod	_	MWE=UETE_2000|MWEPOS=PROPN
 12	2000	2000	NUM	NUM	NumForm=Digit|NumType=Card	11	nummod	_	_
 13	tindrà	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	ccomp	_	MWE=tindrà_lloc|MWEPOS=VERB
-14	lloc	lloc	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	compound	_	_
+14	lloc	lloc	NOUN	NOUN	Number=Sing	13	compound	_	_
 15	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	dia	dia	NOUN	NOUN	_	13	nmod	_	MWE=dia_10_de_juliol|MWEPOS=NOUN
 17	10	10	NUM	NUM	NumForm=Digit|NumType=Card	16	compound	_	_
@@ -30630,7 +30630,7 @@
 2	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	acte	acte	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
 4	tindrà	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=tindrà_lloc|MWEPOS=VERB
-5	lloc	lloc	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	compound	_	_
+5	lloc	lloc	NOUN	NOUN	Number=Sing	4	compound	_	_
 6	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	lliçó	lliçó	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 8	magistral	magistral	ADJ	ADJ	Number=Sing	7	amod	_	_
@@ -30673,7 +30673,7 @@
 10	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 11	cloenda	cloenda	NOUN	NOUN	Gender=Fem|Number=Sing	8	nmod	_	_
 12	tindrà	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	ccomp	_	MWE=tindrà_lloc|MWEPOS=VERB
-13	lloc	lloc	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	compound	_	_
+13	lloc	lloc	NOUN	NOUN	Number=Sing	12	compound	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	14	14	NUM	NUM	NumForm=Digit|NumType=Card	12	nmod	_	MWE=14_de_juliol|MWEPOS=NOUN
 16	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
@@ -31047,7 +31047,7 @@
 72	,	,	PUNCT	PUNCT	PunctType=Comm	74	punct	_	_
 73	que	que	PRON	PRON	PronType=Rel	74	nsubj	_	_
 74	tindrà	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	71	acl	_	MWE=tindrà_lloc|MWEPOS=VERB
-75	lloc	lloc	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	74	compound	_	_
+75	lloc	lloc	NOUN	NOUN	Number=Sing	74	compound	_	_
 76	entre	entre	ADP	ADP	AdpType=Prep	78	cc	_	_
 77	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	78	det	_	_
 78	9	9	NOUN	NOUN	AdvType=Tim	74	nmod	_	_
@@ -35656,8 +35656,8 @@
 9	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 10	AECI	AECI	PROPN	PROPN	_	11	nsubj	_	_
 11	porta	portar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	MWE=porta_a_terme|MWEPOS=VERB
-12	a	a	ADP	ADP	AdpType=Prep	11	compound	_	_
-13	terme	terme	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	compound	_	_
+12	a	a	ADP	ADP	AdpType=Prep	13	case	_	_
+13	terme	terme	NOUN	NOUN	Number=Sing	11	compound	_	_
 14	entre	entre	ADP	ADP	AdpType=Prep	16	case	_	_
 15	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	nens	nen	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod	_	_
@@ -36978,7 +36978,7 @@
 2	conflicte	conflicte	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
 3	es	es	PRON	PRON	_	4	dobj	_	_
 4	veia	veure	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	MWE=veia_venir|MWEPOS=VERB
-5	venir	venir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	compound	_	_
+5	venir	venir	NOUN	NOUN	Number=Sing	4	compound	_	_
 6	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id ca-s1056
@@ -38357,7 +38357,7 @@
 24	27	27	NUM	NUM	NumForm=Digit	23	dobj	_	_
 25	per	per	ADP	ADP	AdpType=Prep	26	mark	_	_
 26	formar	formar	VERB	VERB	VerbForm=Inf	23	advcl	_	MWE=formar_part|MWEPOS=VERB
-27	part	part	VERB	VERB	VerbForm=Inf	26	compound	_	_
+27	part	part	NOUN	NOUN	Number=Sing	26	compound	_	_
 28	de	de	ADP	ADP	AdpType=Prep	30	case	_	_
 29	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
 30	exposició	exposició	NOUN	NOUN	Gender=Fem|Number=Sing	26	dobj	_	_
@@ -38400,7 +38400,7 @@
 2	obres	obra	NOUN	NOUN	Gender=Fem|Number=Plur	4	nsubj	_	_
 3	seleccionades	seleccionat	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	2	amod	_	_
 4	formaran	formar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=formaran_part|MWEPOS=VERB
-5	part	part	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	4	compound	_	_
+5	part	part	NOUN	NOUN	Number=Sing	4	compound	_	_
 6	d'	de	ADP	ADP	AdpType=Prep	8	case	_	_
 7	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
 8	exposició	exposició	NOUN	NOUN	Gender=Fem|Number=Sing	4	dobj	_	_
@@ -38453,7 +38453,7 @@
 30	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
 31	per	per	ADP	ADP	AdpType=Prep	32	mark	_	_
 32	fer	fer	VERB	VERB	VerbForm=Inf	17	advcl	_	MWE=fer_front|MWEPOS=VERB
-33	front	front	VERB	VERB	VerbForm=Inf	32	compound	_	_
+33	front	front	NOUN	NOUN	Number=Sing	32	compound	_	_
 34	als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	36	case	_	_
 35	2.500	2500	NUM	NUM	NumForm=Digit	36	nummod	_	_
 36	milions	milió	NOUN	NOUN	Gender=Masc|Number=Plur	32	dobj	_	_
@@ -39092,7 +39092,7 @@
 13	parlamentaris	parlamentari	ADJ	ADJ	Gender=Masc|Number=Plur	12	amod	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 15	fa	fer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	MWE=fa_referència|MWEPOS=VERB
-16	referència	referència	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	compound	_	_
+16	referència	referència	NOUN	NOUN	Gender=Fem|Number=Sing	15	compound	_	_
 17	als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	18	case	_	_
 18	drets	dret	NOUN	NOUN	Gender=Masc|Number=Plur	15	dobj	_	_
 19	a	a	ADP	ADP	AdpType=Prep	21	case	_	_
@@ -39241,8 +39241,8 @@
 16	instruccions	instrucció	NOUN	NOUN	Gender=Fem|Number=Plur	11	dobj	_	_
 17	a	a	ADP	ADP	AdpType=Prep	23	mark	_	_
 18	tenir	tenir	AUX	AUX	VerbForm=Inf	23	aux	_	MWE=tenir_en_compte|MWEPOS=AUX
-19	en	en	ADP	ADP	AdpType=Prep	18	compound	_	_
-20	compte	compte	AUX	AUX	VerbForm=Inf	18	compound	_	_
+19	en	en	ADP	ADP	AdpType=Prep	20	case	_	_
+20	compte	compte	NOUN	NOUN	Number=Sing	18	compound	_	_
 21	quan	quan	SCONJ	SCONJ	_	23	mark	_	_
 22	es	ell	PRON	PRON	Person=3	23	dobj	_	_
 23	trobi	trobar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	_
@@ -39353,7 +39353,7 @@
 9	aspectes	aspecte	NOUN	NOUN	Gender=Masc|Number=Plur	7	dobj	_	_
 10	que	que	PRON	PRON	PronType=Rel	11	nsubj	_	_
 11	fan	fer	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	MWE=fan_referència|MWEPOS=VERB
-12	referència	referència	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	compound	_	_
+12	referència	referència	NOUN	NOUN	Gender=Fem|Number=Sing	11	compound	_	_
 13	als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	14	case	_	_
 14	drets	dret	NOUN	NOUN	Gender=Masc|Number=Plur	11	dobj	_	_
 15	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	16	case	_	_
@@ -40410,7 +40410,7 @@
 14	banda	banda	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
 15	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 16	fa	fer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	MWE=fa_referència|MWEPOS=VERB
-17	referència	referència	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	compound	_	_
+17	referència	referència	NOUN	NOUN	Gender=Fem|Number=Sing	16	compound	_	_
 18	a	a	ADP	ADP	AdpType=Prep	20	case	_	_
 19	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
 20	artista	artista	NOUN	NOUN	Number=Sing	16	dobj	_	_
@@ -43142,7 +43142,7 @@
 3	semblava	semblar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
 4	que	que	SCONJ	SCONJ	_	5	mark	_	_
 5	tingués	tenir	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	MWE=tingués_lloc|MWEPOS=VERB
-6	lloc	lloc	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	compound	_	_
+6	lloc	lloc	NOUN	NOUN	Number=Sing	5	compound	_	_
 7	a	a	ADP	ADP	AdpType=Prep	10	case	_	_
 8	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 9	explosiva	explosiu	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
@@ -43354,7 +43354,7 @@
 10	es	es	PRON	PRON	_	12	auxpass:reflex	_	_
 11	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	posar	posar	VERB	VERB	VerbForm=Inf	0	root	_	MWE=posar_èmfasi|MWEPOS=VERB
-13	èmfasi	èmfasi	VERB	VERB	VerbForm=Inf	12	compound	_	_
+13	èmfasi	èmfasi	NOUN	NOUN	Number=Sing	12	compound	_	_
 14	en	en	ADP	ADP	AdpType=Prep	16	case	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	condonació	condonació	NOUN	NOUN	Gender=Fem|Number=Sing	12	dobj	_	_
@@ -43907,7 +43907,7 @@
 4	haurien	haver	AUX	AUX	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	6	aux	_	_
 5	de	de	ADP	ADP	AdpType=Prep	6	mark	_	_
 6	fer	fer	VERB	VERB	VerbForm=Inf	0	root	_	MWE=fer_càrrec|MWEPOS=VERB
-7	càrrec	càrrec	VERB	VERB	VerbForm=Inf	6	compound	_	_
+7	càrrec	càrrec	NOUN	NOUN	Number=Sing	6	compound	_	_
 8	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 9	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 10	educació	educació	NOUN	NOUN	Gender=Fem|Number=Sing	6	dobj	_	_
@@ -44389,7 +44389,7 @@
 18	es	es	PRON	PRON	_	20	dobj	_	_
 19	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	donar	donar	VERB	VERB	VerbForm=Inf	15	acl	_	MWE=donar_a_conèixer|MWEPOS=VERB
-21	a	a	ADP	ADP	AdpType=Prep	20	compound	_	_
+21	a	a	ADP	ADP	AdpType=Prep	22	mark	_	_
 22	conèixer	conèixer	VERB	VERB	VerbForm=Inf	20	compound	_	_
 23	ahir	ahir	ADV	ADV	_	20	advmod	_	_
 24	a	a	ADP	ADP	AdpType=Prep	25	case	_	_
@@ -46306,8 +46306,8 @@
 26	cada	cada	DET	DET	Number=Sing|PronType=Ind	27	det	_	_
 27	categoria	categoria	NOUN	NOUN	Gender=Fem|Number=Sing	21	nmod	_	_
 28	tenint	tenir	VERB	VERB	VerbForm=Ger	12	advcl	_	MWE=tenint_en_compte|MWEPOS=VERB
-29	en	en	ADP	ADP	AdpType=Prep	28	compound	_	_
-30	compte	compte	VERB	VERB	VerbForm=Ger	28	compound	_	_
+29	en	en	ADP	ADP	AdpType=Prep	30	case	_	_
+30	compte	compte	NOUN	NOUN	Number=Sing	28	compound	_	_
 31	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	relació	relació	NOUN	NOUN	Gender=Fem|Number=Sing	28	dobj	_	_
 33	rendibilitat	rendibilitat	NOUN	NOUN	Gender=Fem|Number=Sing	32	appos	_	_
@@ -46669,8 +46669,8 @@
 39	s'	es	PRON	PRON	_	41	dobj	_	_
 40	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
 41	portat	portar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	conj	_	MWE=portat_a_terme|MWEPOS=VERB
-42	a	a	ADP	ADP	AdpType=Prep	41	compound	_	_
-43	terme	terme	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	compound	_	_
+42	a	a	ADP	ADP	AdpType=Prep	43	case	_	_
+43	terme	terme	NOUN	NOUN	Number=Sing	41	compound	_	_
 44	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id ca-s1354
@@ -47659,7 +47659,7 @@
 30	se	ell	PRON	PRON	Person=3	32	dobj	_	_
 31	'n	en	PRON	PRON	Person=3|PronType=Prs	32	dobj	_	_
 32	fes	fer	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	MWE=fes_càrrec|MWEPOS=VERB
-33	càrrec	càrrec	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	compound	_	_
+33	càrrec	càrrec	NOUN	NOUN	Number=Sing	32	compound	_	_
 34	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id ca-s1382
@@ -48685,7 +48685,7 @@
 8	seu	seu	DET	DET	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	compound	_	_
 9	grup	grup	NOUN	NOUN	Gender=Masc|Number=Sing	10	nsubj	_	_
 10	doni	donar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	MWE=doni_suport|MWEPOS=VERB
-11	suport	suport	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	compound	_	_
+11	suport	suport	NOUN	NOUN	Number=Sing	10	compound	_	_
 12	a	a	ADP	ADP	AdpType=Prep	14	case	_	_
 13	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	censura	censura	NOUN	NOUN	Gender=Fem|Number=Sing	10	dobj	_	_
@@ -48924,8 +48924,8 @@
 7	no	no	ADV	ADV	Negative=Neg	9	neg	_	_
 8	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	tenir	tenir	VERB	VERB	VerbForm=Inf	3	xcomp	_	MWE=tenir_en_compte|MWEPOS=VERB
-10	en	en	ADP	ADP	AdpType=Prep	9	compound	_	_
-11	compte	compte	VERB	VERB	VerbForm=Inf	9	compound	_	_
+10	en	en	ADP	ADP	AdpType=Prep	11	case	_	_
+11	compte	compte	NOUN	NOUN	Number=Sing	9	compound	_	_
 12	cap	cap	PRON	PRON	Number=Sing|PronType=Ind	9	dobj	_	_
 13	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 14	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
@@ -50369,7 +50369,7 @@
 111	Verdaguer	Verdaguer	PROPN	PROPN	_	109	nmod	_	_
 112	que	que	PRON	PRON	PronType=Rel	113	nsubj	_	_
 113	tindrà	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	97	acl	_	MWE=tindrà_lloc|MWEPOS=VERB
-114	lloc	lloc	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	113	compound	_	_
+114	lloc	lloc	NOUN	NOUN	Number=Sing	113	compound	_	_
 115	a	a	ADP	ADP	AdpType=Prep	116	case	_	_
 116	Berga	Berga	PROPN	PROPN	_	113	nmod	_	_
 117	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	118	det	_	_
@@ -50391,7 +50391,7 @@
 133	biblioteques	biblioteca	NOUN	NOUN	Gender=Fem|Number=Plur	135	nmod	_	_
 134	,	,	PUNCT	PUNCT	PunctType=Comm	135	punct	_	_
 135	fent	fer	VERB	VERB	VerbForm=Ger	125	acl	_	MWE=fent_ús|MWEPOS=VERB
-136	ús	ús	VERB	VERB	VerbForm=Ger	135	compound	_	_
+136	ús	ús	NOUN	NOUN	Number=Plur	135	compound	_	_
 137	de	de	ADP	ADP	AdpType=Prep	139	case	_	_
 138	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	139	det	_	_
 139	Atlàntida	Atlàntida	PROPN	PROPN	_	135	dobj	_	_
@@ -52932,7 +52932,7 @@
 26	té	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
 27	molt	molt	ADV	ADV	_	26	advmod	_	_
 28	a	a	ADP	ADP	AdpType=Prep	26	aux	_	MWE=a_veure|MWEPOS=AUX
-29	veure	veure	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	compound	_	_
+29	veure	veure	NOUN	NOUN	Number=Sing	28	compound	_	_
 30	amb	amb	ADP	ADP	AdpType=Prep	32	case	_	_
 31	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
 32	origen	origen	NOUN	NOUN	Gender=Masc|Number=Sing	26	dobj	_	_
@@ -52985,8 +52985,8 @@
 33	què	què	PRON	PRON	Number=Sing|PronType=Int	31	acl	_	_
 34	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
 35	venir	venir	VERB	VERB	VerbForm=Inf	33	csubj	_	MWE=venir_al_món|MWEPOS=VERB
-36	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	35	compound	_	_
-37	món	món	VERB	VERB	VerbForm=Inf	35	compound	_	_
+36	al	al	ADP	ADP	AdpType=Preppron|Definite=Def|Gender=Masc|Number=Sing	37	case	_	_
+37	món	món	NOUN	NOUN	Number=Sing	35	compound	_	_
 38	en	en	ADP	ADP	AdpType=Prep	40	case	_	_
 39	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	40	det	_	_
 40	casa	casa	NOUN	NOUN	Gender=Fem|Number=Sing	35	nmod	_	_
@@ -53100,8 +53100,8 @@
 24	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	25	case	_	_
 25	bateig	bateig	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	_
 26	tenint	tenir	AUX	AUX	VerbForm=Ger	36	aux	_	MWE=tenint_en_compte|MWEPOS=AUX
-27	en	en	ADP	ADP	AdpType=Prep	26	compound	_	_
-28	compte	compte	AUX	AUX	VerbForm=Ger	26	compound	_	_
+27	en	en	ADP	ADP	AdpType=Prep	28	case	_	_
+28	compte	compte	NOUN	NOUN	Number=Sing	26	compound	_	_
 29	que	que	SCONJ	SCONJ	_	36	mark	_	_
 30	ancestralment	ancestralment	ADV	ADV	_	36	advmod	_	_
 31	'	'	SYM	SYM	_	33	nmod	_	_
@@ -53558,8 +53558,8 @@
 31	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	companyia	companyia	NOUN	NOUN	Gender=Fem|Number=Sing	33	nsubj	_	_
 33	porta	portar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl	_	MWE=porta_a_terme|MWEPOS=VERB
-34	a	a	ADP	ADP	AdpType=Prep	33	compound	_	_
-35	terme	terme	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	compound	_	_
+34	a	a	ADP	ADP	AdpType=Prep	35	case	_	_
+35	terme	terme	NOUN	NOUN	Number=Sing	33	compound	_	_
 36	després	després	ADV	ADV	_	33	advmod	_	_
 37	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	38	case	_	_
 38	atemptats	atemptat	NOUN	NOUN	Gender=Masc|Number=Plur	36	nmod	_	_
@@ -53938,7 +53938,7 @@
 21	finalitat	finalitat	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
 22	de	de	ADP	ADP	AdpType=Prep	23	mark	_	_
 23	fer	fer	VERB	VERB	VerbForm=Inf	21	acl	_	MWE=fer_front|MWEPOS=VERB
-24	front	front	VERB	VERB	VerbForm=Inf	23	compound	_	_
+24	front	front	NOUN	NOUN	Number=Sing	23	compound	_	_
 25	a	a	ADP	ADP	AdpType=Prep	27	case	_	_
 26	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	caiguda	caiguda	NOUN	NOUN	Gender=Fem|Number=Sing	23	dobj	_	_
@@ -53999,7 +53999,7 @@
 # orig_file_sentence 016#67
 1	Per	per	ADP	ADP	AdpType=Prep	2	mark	_	_
 2	donar	donar	VERB	VERB	VerbForm=Inf	10	advcl	_	MWE=donar_sortida|MWEPOS=VERB
-3	sortida	sortida	VERB	VERB	VerbForm=Inf	2	compound	_	_
+3	sortida	sortida	NOUN	NOUN	Gender=Fem|Number=Sing	2	compound	_	_
 4	als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	5	case	_	_
 5	vehicles	vehicle	NOUN	NOUN	Gender=Masc|Number=Plur	2	dobj	_	_
 6	emmagatzemats	emmagatzemat	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	5	amod	_	_
@@ -55497,7 +55497,7 @@
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	llançament	llançament	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 3	tindrà	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=tindrà_lloc|MWEPOS=VERB
-4	lloc	lloc	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	compound	_	_
+4	lloc	lloc	NOUN	NOUN	Number=Sing	3	compound	_	_
 5	a	a	ADP	ADP	AdpType=Prep	7	case	_	_
 6	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	15.21	15.21	NUM	NUM	NumForm=Digit|NumType=Card	3	nmod	_	MWE=15.21_hores|MWEPOS=NOUN
@@ -55610,8 +55610,8 @@
 5	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 6	es	es	PRON	PRON	_	7	dobj	_	_
 7	posarà	posar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=posarà_en_marxa|MWEPOS=VERB
-8	en	en	ADP	ADP	AdpType=Prep	7	compound	_	_
-9	marxa	marxa	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	compound	_	_
+8	en	en	ADP	ADP	AdpType=Prep	9	case	_	_
+9	marxa	marxa	NOUN	NOUN	Gender=Fem|Number=Sing	7	compound	_	_
 10	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
 11	petit	petit	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
 12	aparell	aparell	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -55817,7 +55817,7 @@
 20	,	,	PUNCT	PUNCT	PunctType=Comm	22	punct	_	_
 21	que	que	PRON	PRON	PronType=Rel	22	nsubj	_	_
 22	donarà	donar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	acl	_	MWE=donarà_pas|MWEPOS=VERB
-23	pas	pas	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	22	compound	_	_
+23	pas	pas	NOUN	NOUN	Gender=Fem|Number=Plur	22	compound	_	_
 24	a	a	ADP	ADP	AdpType=Prep	26	case	_	_
 25	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	retransmissió	retransmissió	NOUN	NOUN	Gender=Fem|Number=Sing	22	dobj	_	_
@@ -57145,7 +57145,7 @@
 3	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	tràmit	tràmit	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 5	té	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	MWE=té_lloc|MWEPOS=VERB
-6	lloc	lloc	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	compound	_	_
+6	lloc	lloc	NOUN	NOUN	Number=Sing	5	compound	_	_
 7	a	a	ADP	ADP	AdpType=Prep	9	case	_	_
 8	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Cambra	Cambra	PROPN	PROPN	_	5	nmod	_	MWE=Cambra_Alta|MWEPOS=PROPN
@@ -57779,7 +57779,7 @@
 42	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
 43	es	ell	PRON	PRON	Person=3	44	dobj	_	_
 44	farà	fer-se	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	25	parataxis	_	MWE=farà_càrrec|MWEPOS=VERB
-45	càrrec	càrrec	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	44	compound	_	_
+45	càrrec	càrrec	NOUN	NOUN	Number=Sing	44	compound	_	_
 46	de	de	ADP	ADP	AdpType=Prep	48	case	_	_
 47	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	48	det	_	_
 48	estada	estada	NOUN	NOUN	Gender=Fem|Number=Sing	44	dobj	_	_
@@ -58380,7 +58380,7 @@
 22	hi	hi	PRON	PRON	Person=3|PronType=Prs	24	dobj	_	_
 23	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 24	donat	donar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	MWE=donat_suport|MWEPOS=VERB
-25	suport	suport	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	compound	_	_
+25	suport	suport	NOUN	NOUN	Number=Sing	24	compound	_	_
 26	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s1705
@@ -61597,8 +61597,8 @@
 6	Premis	Premis	PROPN	PROPN	_	4	nmod	_	_
 7	es	es	PRON	PRON	_	8	dobj	_	_
 8	portarà	portar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	MWE=portarà_a_terme|MWEPOS=VERB
-9	a	a	ADP	ADP	AdpType=Prep	8	compound	_	_
-10	terme	terme	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	compound	_	_
+9	a	a	ADP	ADP	AdpType=Prep	10	case	_	_
+10	terme	terme	NOUN	NOUN	Number=Sing	8	compound	_	_
 11	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	conferència	conferència	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
 13	'	'	SYM	SYM	_	14	nmod	_	_
@@ -62889,8 +62889,8 @@
 10	Repsol	Repsol	PROPN	PROPN	_	12	nsubj	_	_
 11	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	posat	posar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	MWE=posat_en_marxa|MWEPOS=VERB
-13	en	en	ADP	ADP	AdpType=Prep	12	compound	_	_
-14	marxa	marxa	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	compound	_	_
+13	en	en	ADP	ADP	AdpType=Prep	14	case	_	_
+14	marxa	marxa	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound	_	_
 15	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	16	det	_	_
 16	sèrie	sèrie	NOUN	NOUN	Gender=Fem|Number=Sing	12	dobj	_	_
 17	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
@@ -62973,8 +62973,8 @@
 10	Repsol	Repsol	PROPN	PROPN	_	3	conj	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	mark	_	_
 12	posar	posar	VERB	VERB	VerbForm=Inf	10	acl	_	MWE=posar_en_marxa|MWEPOS=VERB
-13	en	en	ADP	ADP	AdpType=Prep	12	compound	_	_
-14	marxa	marxa	VERB	VERB	VerbForm=Inf	12	compound	_	_
+13	en	en	ADP	ADP	AdpType=Prep	14	case	_	_
+14	marxa	marxa	NOUN	NOUN	Gender=Fem|Number=Sing	12	compound	_	_
 15	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	16	det	_	_
 16	planta	planta	NOUN	NOUN	Gender=Fem|Number=Sing	12	dobj	_	_
 17	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
