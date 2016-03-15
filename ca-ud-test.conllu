@@ -3658,8 +3658,8 @@
 14	amb	amb	ADP	ADP	AdpType=Prep	16	case	_	_
 15	deu	deu	NUM	NUM	Number=Plur|NumType=Card	16	nummod	_	_
 16	minuts	minut	NOUN	NOUN	Gender=Masc|Number=Plur	5	dobj	_	_
-17	de	de	ADP	ADP	AdpType=Prep	16	nmod	_	_
-18	mitjana	mitjà	ADJ	ADJ	Gender=Fem|Number=Sing	17	amod	_	_
+17	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
+18	mitjana	mitjà	ADJ	ADJ	Gender=Fem|Number=Sing	16	amod	_	_
 19	de	de	ADP	ADP	AdpType=Prep	20	case	_	_
 20	visita	visita	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
 21	per	per	ADP	ADP	AdpType=Prep	22	case	_	_
@@ -8606,13 +8606,13 @@
 4	tots	tot	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
 5	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
 6	músics	músic	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
-7	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
-8	en	en	ADP	ADP	AdpType=Prep	6	nmod	_	_
-9	solitari	solitari	ADJ	ADJ	Gender=Masc|Number=Sing	8	amod	_	_
-10	o	o	CONJ	CONJ	_	8	cc	_	_
+7	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
+8	en	en	ADP	ADP	AdpType=Prep	9	case	_	_
+9	solitari	solitari	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
+10	o	o	CONJ	CONJ	_	9	cc	_	_
 11	en	en	ADP	ADP	AdpType=Prep	12	case	_	_
-12	formació	formació	NOUN	NOUN	Gender=Fem|Number=Sing	8	conj	_	_
-13	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
+12	formació	formació	NOUN	NOUN	Gender=Fem|Number=Sing	9	conj	_	_
+13	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 14	que	que	PRON	PRON	PronType=Rel	16	nsubj	_	_
 15	no	no	ADV	ADV	Negative=Neg	16	neg	_	_
 16	disposin	disposar	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_
@@ -9159,8 +9159,8 @@
 22	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
 23	rosques	rosca	NOUN	NOUN	Gender=Fem|Number=Plur	21	nmod	_	_
 24	helicoïdals	helicoïdal	ADJ	ADJ	Number=Plur	23	amod	_	_
-25	en	en	ADP	ADP	AdpType=Prep	21	nmod	_	_
-26	continu	continu	ADJ	ADJ	Gender=Masc|Number=Sing	25	amod	_	_
+25	en	en	ADP	ADP	AdpType=Prep	26	case	_	_
+26	continu	continu	ADJ	ADJ	Gender=Masc|Number=Sing	21	amod	_	_
 27	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
 28	per	per	ADP	ADP	AdpType=Prep	29	mark	_	_
 29	millorar	millorar	VERB	VERB	VerbForm=Inf	1	acl	_	_
@@ -9846,9 +9846,9 @@
 # sent_id ca-s252
 # orig_file_sentence 003#52
 1	Un	un	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
-2	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	1	nmod	_	_
+2	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	4	case	_	_
 3	més	més	ADV	ADV	_	4	nmod	_	_
-4	importants	important	ADJ	ADJ	Number=Plur	2	amod	_	_
+4	importants	important	ADJ	ADJ	Number=Plur	1	amod	_	_
 5	a	a	ADP	ADP	AdpType=Prep	6	mark	_	_
 6	tractar	tractar	VERB	VERB	VerbForm=Inf	1	acl	_	_
 7	és	ser	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
@@ -15548,9 +15548,9 @@
 36	encara	encara	ADV	ADV	_	38	advmod	_	_
 37	es	ell	PRON	PRON	Person=3	38	dobj	_	_
 38	converteixen	convertir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
-39	en	en	ADP	ADP	AdpType=Prep	38	dobj	_	_
+39	en	en	ADP	ADP	AdpType=Prep	41	case	_	_
 40	més	més	ADV	ADV	_	41	nmod	_	_
-41	minoritàries	minoritari	ADJ	ADJ	Gender=Fem|Number=Plur	39	amod	_	_
+41	minoritàries	minoritari	ADJ	ADJ	Gender=Fem|Number=Plur	38	dobj	_	_
 42	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id ca-s394
@@ -16119,8 +16119,8 @@
 5	farà	fer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 6	possible	possible	ADJ	ADJ	Number=Sing	5	iobj	_	_
 7	convertir	convertir	VERB	VERB	VerbForm=Inf	5	xcomp	_	_
-8	en	en	ADP	ADP	AdpType=Prep	7	dobj	_	_
-9	fixos	fix	ADJ	ADJ	Gender=Masc|Number=Plur	8	amod	_	_
+8	en	en	ADP	ADP	AdpType=Prep	9	case	_	_
+9	fixos	fix	ADJ	ADJ	Gender=Masc|Number=Plur	7	dobj	_	_
 10	209	209	NUM	NUM	NumForm=Digit	11	nummod	_	_
 11	treballadors	treballador	NOUN	NOUN	Gender=Masc|Number=Plur	7	dobj	_	_
 12	temporals	temporal	ADJ	ADJ	Number=Plur	11	amod	_	_
@@ -19187,8 +19187,8 @@
 36	societat	societat	NOUN	NOUN	Gender=Fem|Number=Sing	34	dobj	_	_
 37	amb	amb	ADP	ADP	AdpType=Prep	38	case	_	_
 38	ciutadans	ciutadà	NOUN	NOUN	Gender=Masc|Number=Plur	36	nmod	_	_
-39	de	de	ADP	ADP	AdpType=Prep	38	nmod	_	_
-40	primera	primer	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	39	amod	_	_
+39	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
+40	primera	primer	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	38	amod	_	_
 41	i	i	CONJ	CONJ	_	38	cc	_	_
 42	ciutadans	ciutadà	NOUN	NOUN	Gender=Masc|Number=Plur	38	conj	_	_
 43	de	de	ADP	ADP	AdpType=Prep	45	case	_	_
@@ -27302,10 +27302,10 @@
 7	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 8	totes	tot	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
 9	elles	ell	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	nmod	_	_
-10	com	com	SCONJ	SCONJ	_	6	nmod	_	MWE=com_a|MWEPOS=ADP
+10	com	com	SCONJ	SCONJ	_	13	case	_	MWE=com_a|MWEPOS=ADP
 11	a	a	ADP	ADP	AdpType=Prep	10	mwe	_	_
 12	més	més	ADV	ADV	_	13	nmod	_	_
-13	important	important	ADJ	ADJ	Number=Sing	10	amod	_	_
+13	important	important	ADJ	ADJ	Number=Sing	6	amod	_	_
 14	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 15	aquesta	aquest	PRON	PRON	Gender=Fem|Number=Sing|PronType=Dem	24	nsubj	_	_
 16	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
@@ -39006,14 +39006,14 @@
 8	i	i	CONJ	CONJ	_	4	cc	_	_
 9	proclamar	proclamar	VERB	VERB	VerbForm=Inf	21	csubj	_	_
 10	-les	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	9	dobj	_	_
-11	-	-	PUNCT	PUNCT	PunctType=Dash	12	punct	_	_
-12	per	per	ADP	ADP	AdpType=Prep	21	advmod	_	_
-13	bones	bo	ADJ	ADJ	Gender=Fem|Number=Plur	12	amod	_	_
+11	-	-	PUNCT	PUNCT	PunctType=Dash	13	punct	_	_
+12	per	per	ADP	ADP	AdpType=Prep	13	case	_	_
+13	bones	bo	ADJ	ADJ	Gender=Fem|Number=Plur	21	advmod	_	_
 14	que	que	PRON	PRON	PronType=Rel	13	advcl	_	_
 15	siguin	ser	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 16	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	intencions	intenció	NOUN	NOUN	Gender=Fem|Number=Plur	14	nsubj	_	_
-18	-	-	PUNCT	PUNCT	PunctType=Dash	12	punct	_	_
+18	-	-	PUNCT	PUNCT	PunctType=Dash	13	punct	_	_
 19	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 20	gairebé	gairebé	ADV	ADV	_	21	advmod	_	_
 21	negar	negar	VERB	VERB	VerbForm=Inf	4	conj	_	_
@@ -47270,8 +47270,8 @@
 24	a	a	ADP	ADP	AdpType=Prep	25	mark	_	_
 25	convertir	convertir	VERB	VERB	VerbForm=Inf	23	xcomp	_	_
 26	-se	ell	PRON	PRON	Person=3	25	dobj	_	_
-27	en	en	ADP	ADP	AdpType=Prep	25	dobj	_	_
-28	residual	residual	ADJ	ADJ	Number=Sing	27	amod	_	_
+27	en	en	ADP	ADP	AdpType=Prep	28	case	_	_
+28	residual	residual	ADJ	ADJ	Number=Sing	25	dobj	_	_
 29	a	a	ADP	ADP	AdpType=Prep	31	case	_	_
 30	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
 31	escola	escola	NOUN	NOUN	Gender=Fem|Number=Sing	25	nmod	_	_
@@ -48324,10 +48324,10 @@
 8	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	qualificar	qualificar	VERB	VERB	VerbForm=Inf	0	root	_	_
 10	ahir	ahir	ADV	ADV	_	9	advmod	_	_
-11	"	"	PUNCT	PUNCT	PunctType=Quot	12	punct	_	_
-12	d'	de	ADP	ADP	AdpType=Prep	9	iobj	_	_
-13	esperpèntic	esperpèntic	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
-14	"	"	PUNCT	PUNCT	PunctType=Quot	12	punct	_	_
+11	"	"	PUNCT	PUNCT	PunctType=Quot	13	punct	_	_
+12	d'	de	ADP	ADP	AdpType=Prep	13	case	_	_
+13	esperpèntic	esperpèntic	ADJ	ADJ	Gender=Masc|Number=Sing	9	iobj	_	_
+14	"	"	PUNCT	PUNCT	PunctType=Quot	13	punct	_	_
 15	que	que	SCONJ	SCONJ	_	26	mark	_	_
 16	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	MWE=la_seva|MWEPOS=DET
 17	seva	seu	DET	DET	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	compound	_	_
@@ -48796,9 +48796,9 @@
 29	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	sentència	sentència	NOUN	NOUN	Gender=Fem|Number=Sing	28	dobj	_	_
 31	absolutòria	absolutori	ADJ	ADJ	Gender=Fem|Number=Sing	30	amod	_	_
-32	de	de	ADP	ADP	AdpType=Prep	28	dobj	_	_
+32	de	de	ADP	ADP	AdpType=Prep	34	case	_	_
 33	'	'	SYM	SYM	_	34	nmod	_	_
-34	contradictòria	contradictori	ADJ	ADJ	Gender=Fem|Number=Sing	32	amod	_	_
+34	contradictòria	contradictori	ADJ	ADJ	Gender=Fem|Number=Sing	28	dobj	_	_
 35	i	i	CONJ	CONJ	_	34	cc	_	_
 36	poc	poc	ADV	ADV	_	37	advmod	_	_
 37	fonamentada	fonamentat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	34	conj	_	_
@@ -49681,9 +49681,9 @@
 3	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	document	document	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 5	qualifica	qualificar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	de	de	ADP	ADP	AdpType=Prep	5	dobj	_	_
+6	de	de	ADP	ADP	AdpType=Prep	8	case	_	_
 7	"	"	PUNCT	PUNCT	PunctType=Quot	8	punct	_	_
-8	diligent	diligent	ADJ	ADJ	Number=Sing	6	amod	_	_
+8	diligent	diligent	ADJ	ADJ	Number=Sing	5	dobj	_	_
 9	"	"	PUNCT	PUNCT	PunctType=Quot	8	punct	_	_
 10	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
 11	actuació	actuació	NOUN	NOUN	Gender=Fem|Number=Sing	5	dobj	_	_
@@ -51218,11 +51218,11 @@
 17	pràcticament	pràcticament	ADV	ADV	_	19	advmod	_	_
 18	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	mateix	mateix	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	9	appos	_	_
-20	que	que	PRON	PRON	PronType=Rel	19	nmod	_	_
-21	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-22	campanya	campanya	NOUN	NOUN	Gender=Fem|Number=Sing	20	case	_	_
+20	que	que	PRON	PRON	PronType=Rel	22	nmod	_	_
+21	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	campanya	campanya	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	_
 23	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	24	case	_	_
-24	1999	1999	NOUN	NOUN	AdvType=Tim	20	nmod	_	_
+24	1999	1999	NOUN	NOUN	AdvType=Tim	22	nmod	_	_
 25	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id ca-s1485
@@ -51352,8 +51352,8 @@
 26	s'	ell	PRON	PRON	Person=3	28	dobj	_	_
 27	hagin	haver	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
 28	convertit	convertir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	ccomp	_	_
-29	en	en	ADP	ADP	AdpType=Prep	28	dobj	_	_
-30	simbòliques	simbòlic	ADJ	ADJ	Gender=Fem|Number=Plur	29	amod	_	_
+29	en	en	ADP	ADP	AdpType=Prep	30	case	_	_
+30	simbòliques	simbòlic	ADJ	ADJ	Gender=Fem|Number=Plur	28	dobj	_	_
 31	,	,	PUNCT	PUNCT	PunctType=Comm	38	punct	_	_
 32	ja	ja	ADV	ADV	_	38	mark	_	MWE=ja_que|MWEPOS=SCONJ
 33	que	que	SCONJ	SCONJ	_	32	mwe	_	_
