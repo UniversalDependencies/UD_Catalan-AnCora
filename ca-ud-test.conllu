@@ -6760,6 +6760,7 @@
 52	a	a	ADP	ADP	AdpType=Prep	26	cc	_	MWE=a_més_d'|MWEPOS=ADP
 53	més	més	ADV	ADV	AdpType=Prep	52	mwe	_	_
 54	d'	de	ADP	ADP	AdpType=Prep	52	mwe	_	_
+55-56	haver-se	_	_	_	_	_	_	_	_
 55	haver	haver	AUX	AUX	VerbForm=Inf	57	aux	_	_
 56	-se	ell	PRON	PRON	Person=3	57	dobj	_	_
 57	compromès	comprometre	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	ccomp	_	_
@@ -16383,6 +16384,7 @@
 17	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	publicacions	publicació	NOUN	NOUN	Gender=Fem|Number=Plur	12	dobj	_	_
 19	per	per	ADP	ADP	AdpType=Prep	22	mark	_	_
+20-21	poder-se	_	_	_	_	_	_	_	_
 20	poder	poder	AUX	AUX	VerbForm=Inf	22	aux	_	_
 21	-se	ell	PRON	PRON	Person=3	22	dobj	_	_
 22	gestionar	gestionar	VERB	VERB	VerbForm=Inf	12	advcl	_	_
@@ -19020,6 +19022,7 @@
 21	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	consciència	consciència	NOUN	NOUN	Gender=Fem|Number=Sing	20	dobj	_	_
 23	de	de	ADP	ADP	AdpType=Prep	25	mark	_	_
+24-25	ser-ho	_	_	_	_	_	_	_	_
 24	ser	ser	AUX	AUX	VerbForm=Inf	25	cop	_	_
 25	-ho	ho	PRON	PRON	Person=3|PronType=Prs	22	acl	_	_
 26	"	"	PUNCT	PUNCT	PunctType=Quot	8	punct	_	_
@@ -21300,6 +21303,7 @@
 7	conseller	conseller	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
 8	Josep	Josep	PROPN	PROPN	_	7	appos	_	MWE=Josep_Grau|MWEPOS=PROPN
 9	Grau	Grau	PROPN	PROPN	_	8	name	_	_
+10-11	demanant-los	_	_	_	_	_	_	_	_
 10	demanant	demanar	AUX	AUX	VerbForm=Ger	25	aux	_	_
 11	-los	ell	PRON	PRON	Number=Plur|Person=3|PronType=Prs	25	dobj	_	_
 12	calma	calma	NOUN	NOUN	Gender=Fem|Number=Sing	25	dobj	_	_
@@ -22012,6 +22016,7 @@
 11	nosaltres	jo	PRON	PRON	Number=Plur|Person=1|PronType=Prs	8	dobj	_	_
 12	i	i	CONJ	CONJ	_	8	cc	_	_
 13	a	a	ADP	ADP	AdpType=Prep	24	mark	_	_
+14-15	informar-nos	_	_	_	_	_	_	_	_
 14	informar	informar	AUX	AUX	VerbForm=Inf	24	aux	_	_
 15	-nos	-nos	PRON	PRON	Number=Plur|Person=1|PronType=Prs	24	dobj	_	_
 16	de	de	ADP	ADP	AdpType=Prep	19	case	_	_
@@ -29189,6 +29194,7 @@
 17	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 18	desestacionalització	desestacionalització	NOUN	NOUN	_	16	nmod	_	_
 19	i	i	CONJ	CONJ	_	8	cc	_	_
+20-21	matenir-se	_	_	_	_	_	_	_	_
 20	matenir	matenir	AUX	AUX	VerbForm=Inf	22	aux	_	_
 21	-se	ell	PRON	PRON	Person=3	22	dobj	_	_
 22	obert	obert	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	8	conj	_	_
@@ -29423,6 +29429,7 @@
 31	Maurici	Maurici	PROPN	PROPN	_	30	name	_	_
 32	si	si	SCONJ	SCONJ	_	33	mark	_	_
 33	volen	voler	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+34-35	continuar-ne	_	_	_	_	_	_	_	_
 34	continuar	continuar	AUX	AUX	VerbForm=Inf	36	aux	_	_
 35	-ne	en	PRON	PRON	Person=3|PronType=Prs	36	dobj	_	_
 36	adscrits	adscrit	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	33	dobj	_	_
@@ -36645,6 +36652,7 @@
 8	menys	menys	ADV	ADV	_	6	mwe	_	_
 9	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 10	d'	de	ADP	ADP	AdpType=Prep	6	case	_	_
+11-12	arreglar-los	_	_	_	_	_	_	_	_
 11	arreglar	arreglar	AUX	AUX	VerbForm=Inf	19	aux	_	_
 12	-los	ell	PRON	PRON	Number=Plur|Person=3|PronType=Prs	19	dobj	_	_
 13	amb	amb	ADP	ADP	AdpType=Prep	15	case	_	_
@@ -42061,6 +42069,7 @@
 2	en	en	ADP	ADP	AdpType=Prep	9	advmod	_	MWE=en_comptes_d'|MWEPOS=CONJ
 3	comptes	comptes	NOUN	NOUN	_	2	mwe	_	_
 4	d'	de	ADP	ADP	AdpType=Prep	2	mwe	_	_
+5-6	etzibar-li	_	_	_	_	_	_	_	_
 5	etzibar	etzibar	AUX	AUX	VerbForm=Inf	9	aux	_	_
 6	-li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	dobj	_	_
 7	on	on	SCONJ	SCONJ	_	9	mark	_	_
@@ -45794,6 +45803,7 @@
 24-25	calmar-la	_	_	_	_	_	_	_	_
 24	calmar	calmar	VERB	VERB	VerbForm=Inf	3	conj	_	_
 25	-la	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	dobj	_	_
+26-27	recordant-li	_	_	_	_	_	_	_	_
 26	recordant	recordar	AUX	AUX	VerbForm=Ger	29	aux	_	_
 27	-li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	29	dobj	_	_
 28	que	que	SCONJ	SCONJ	_	29	mark	_	_
@@ -52168,6 +52178,7 @@
 19	seva	seu	DET	DET	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
 20	actuació	actuació	NOUN	NOUN	Gender=Fem|Number=Sing	15	nmod	_	_
 21	en	en	ADP	ADP	AdpType=Prep	24	mark	_	_
+22-23	haver-se	_	_	_	_	_	_	_	_
 22	haver	haver	AUX	AUX	VerbForm=Inf	24	aux	_	_
 23	-se	ell	PRON	PRON	Person=3	24	dobj	_	_
 24	queixat	queixar-se	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
@@ -52633,6 +52644,7 @@
 16	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	MWE=la_seva|MWEPOS=DET
 17	seva	seu	DET	DET	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	det	_	_
 18	figura	figura	NOUN	NOUN	Gender=Fem|Number=Sing	21	iobj	_	_
+19-20	fent-la	_	_	_	_	_	_	_	_
 19	fent	fer	AUX	AUX	VerbForm=Ger	21	aux	_	_
 20	-la	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	dobj	_	_
 21	arribar	arribar	VERB	VERB	VerbForm=Inf	11	csubj	_	_
@@ -56543,6 +56555,7 @@
 18	amb	amb	ADP	ADP	AdpType=Prep	20	case	_	_
 19	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 20	socialistes	socialista	NOUN	NOUN	Number=Plur	29	nmod	_	_
+21-22	oblidant-se	_	_	_	_	_	_	_	_
 21	oblidant	oblidar	AUX	AUX	VerbForm=Ger	29	aux	_	_
 22	-se	ell	PRON	PRON	Person=3	29	dobj	_	_
 23	que	que	SCONJ	SCONJ	_	29	mark	_	_
@@ -58141,6 +58154,7 @@
 16	,	,	PUNCT	PUNCT	PunctType=Comm	18	punct	_	_
 17	"	"	PUNCT	PUNCT	PunctType=Quot	18	punct	_	_
 18	malgrat	malgrat	ADP	ADP	AdpType=Prep	15	advmod	_	_
+19-20	tenir-ho	_	_	_	_	_	_	_	_
 19	tenir	tenir	AUX	AUX	VerbForm=Inf	21	aux	_	_
 20	-ho	ho	PRON	PRON	Person=3|PronType=Prs	21	dobj	_	_
 21	prohibit	prohibit	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	18	advmod	_	_
@@ -58169,6 +58183,7 @@
 3	tranquil·litzava	tranquil·litzar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	empresaris	empresari	NOUN	NOUN	Gender=Masc|Number=Plur	3	dobj	_	_
+6-7	dient-los	_	_	_	_	_	_	_	_
 6	dient	dir	AUX	AUX	VerbForm=Ger	12	aux	_	_
 7	-los	ell	PRON	PRON	Number=Plur|Person=3|PronType=Prs	12	dobj	_	_
 8	que	que	SCONJ	SCONJ	_	12	mark	_	_
@@ -58275,6 +58290,7 @@
 26	alguns	algun	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	27	det	_	_
 27	casos	cas	NOUN	NOUN	Gender=Masc|Number=Plur	20	nmod	_	_
 28	sense	sense	ADP	ADP	AdpType=Prep	31	mark	_	_
+29-30	deixar-los	_	_	_	_	_	_	_	_
 29	deixar	deixar	AUX	AUX	VerbForm=Inf	31	aux	_	_
 30	-los	ell	PRON	PRON	Number=Plur|Person=3|PronType=Prs	31	dobj	_	_
 31	retirar	retirar	VERB	VERB	VerbForm=Inf	27	acl	_	_
