@@ -5,19 +5,19 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>16678</sentences><tokens>531971</tokens><words>531971</words><fused>0</fused></total>
+    <total><sentences>16678</sentences><tokens>530766</tokens><words>546680</words><fused>15888</fused></total>
   </size>
-  <lemmas unique="23363" /><!-- el, de, ,, ., que, i, a, un, del, haver, en, anar, per, ser, ell -->
-  <forms unique="32527" /><!-- de, ,, la, ., que, el, i, a, l', d', en, del, per, les, un -->
-  <fusions unique="0" /><!--  -->
+  <lemmas unique="23363" /><!-- el, de, ,, a, ., que, i, un, haver, per, en, anar, ser, ell, " -->
+  <forms unique="32527" /><!-- de, ,, el, la, a, ., que, i, l', els, d', per, en, les, un -->
+  <fusions unique="789" /><!-- del, al, dels, als, pel, pels, fer-ho, haver-se, convertir-se, fer-se, dirigir-se, desplaçar-se, donar-li, fer-li, posar-se -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="17">
     <tag name="ADJ">30045</tag><!-- nou, primer, gran, català, passat, polític, general, espanyol, últim, públic -->
-    <tag name="ADP">87975</tag><!-- de, a, del, en, per, al, amb, pel, d', entre -->
+    <tag name="ADP">87975</tag><!-- de, a, per, en, amb, d', entre, sobre, segons, des -->
     <tag name="ADV">15457</tag><!-- no, més, també, ja, després, ahir, molt, avui, només, ara -->
     <tag name="AUX">22489</tag><!-- haver, anar, ser, poder, fer, estar, tornar, començar, deixar, continuar -->
     <tag name="CONJ">15049</tag><!-- i, o, però, ni, sinó, mentre, y, que, ,, bé -->
-    <tag name="DET">72596</tag><!-- el, un, aquest, seu, la, tot, altre, l', mateix, algun -->
+    <tag name="DET">87305</tag><!-- el, un, aquest, seu, la, tot, altre, l', mateix, algun -->
     <tag name="INTJ">15</tag><!-- vaja, he, 'm, compte, déu, ep, hola, home, marbella, mira -->
     <tag name="NOUN">98751</tag><!-- any, milió, pesseta, dia, obra, persona, president, mes, grup, empresa -->
     <tag name="NUM">9261</tag><!-- dos, tres, un, quatre, cent, 10, cinc, sis, 15, 20 -->
@@ -32,23 +32,23 @@
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
   <feats unique="55">
-    <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV">73579</feat><!-- de, a, d', en, per, amb, entre, sobre, segons, des -->
-    <feat name="AdpType" value="Preppron" upos="ADP,ADV">14733</feat><!-- del, al, dels, als, pel, pels, més, fins, enfront, entorn -->
+    <feat name="AdpType" value="Prep" upos="ADJ,ADP,ADV">88131</feat><!-- de, a, d', per, en, amb, entre, sobre, segons, des -->
+    <feat name="AdpType" value="Preppron" upos="ADP,ADV">181</feat><!-- dels, més, als, fins, enfront, Del, entorn, al, do, da -->
     <feat name="AdvType" value="Tim" upos="ADV,NOUN,SYM">1693</feat><!-- 1999, divendres, 1998, dilluns, diumenge, dimecres, dissabte, 2001, dijous, 2000 -->
     <feat name="Case" value="Acc" upos="PRON">877</feat><!-- el, l', la, -lo, -la, les, -les, 'l, els, li -->
     <feat name="Case" value="Dat" upos="PRON">551</feat><!-- li, -li, -lo -->
     <feat name="Case" value="Nom" upos="PRON">78</feat><!-- jo, mi -->
-    <feat name="Definite" value="Def" upos="ADP,DET">55350</feat><!-- la, el, l', les, els, del, al, dels, als, los -->
+    <feat name="Definite" value="Def" upos="ADP,DET">68378</feat><!-- el, la, l', els, les, dels, los, als, las, Del -->
     <feat name="Definite" value="Ind" upos="DET">204</feat><!-- un, una, en, l', al, col·laboració, la, sa, ses, suficient -->
     <feat name="Gender" value="Fem" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,VERB">85738</feat><!-- la, les, una, aquesta, seva, persones, seves, dues, aquestes, primera -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">107797</feat><!-- el, del, un, els, al, dels, aquest, als, seu, anys -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">107954</feat><!-- el, els, un, aquest, seu, anys, tot, estat, milions, dos -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">690</feat><!-- hauria, podria, seria, podrien, haurien, faria, caldria, agradaria, estaria, permetria -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">75</feat><!-- deixi, sigui, seguim, siguin, superi, aclareixi, estigui, estrena, gestioni, miri -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">34895</feat><!-- va, ha, és, van, han, són, està, té, fa, havia -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2625</feat><!-- hagi, sigui, pugui, puguin, hagués, hagin, tingui, siguin, fos, estigui -->
     <feat name="Negative" value="Neg" upos="ADV,PART">2985</feat><!-- no, pas, ni, només -->
-    <feat name="Number" value="Plur" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,VERB">69058</feat><!-- les, els, dels, van, han, als, anys, milions, dos, són -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">191599</feat><!-- la, el, l', del, un, va, ha, una, al, és -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,VERB">69058</feat><!-- els, les, van, han, anys, milions, dos, són, altres, seus -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">191756</feat><!-- el, la, l', un, va, ha, una, és, aquest, aquesta -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">183</feat><!-- nostra, nostre, nostres -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">43</feat><!-- meu, meus, meva, teu, teus, teva -->
     <feat name="NumForm" value="Digit" upos="NOUN,NUM,SYM">7720</feat><!-- pessetes, %, euros, 10, 15, 30, 20, 5, 4, 12 -->
@@ -61,7 +61,7 @@
     <feat name="Polite" value="Pol" upos="PRON">29</feat><!-- vostè, vostès -->
     <feat name="Poss" value="Yes" upos="DET,PRON">3177</feat><!-- seva, seu, seus, seves, nostra, nostre, nostres, meu, meus, su -->
     <feat name="PrepCase" value="Pre" upos="PRON">14</feat><!-- mi, si -->
-    <feat name="PronType" value="Art" upos="DET">53800</feat><!-- la, el, l', les, els, un, una, meva, los, las -->
+    <feat name="PronType" value="Art" upos="DET">68509</feat><!-- el, la, l', els, les, un, una, meva, los, las -->
     <feat name="PronType" value="Dem" upos="DET,PRON">3995</feat><!-- aquest, aquesta, aquests, això, aquestes, aquell, aquells, tal, allò, aquella -->
     <feat name="PronType" value="Ind" upos="DET,PRON">14077</feat><!-- un, una, altres, tots, uns, tot, mateix, cap, altra, cada -->
     <feat name="PronType" value="Int" upos="DET,PRON">347</feat><!-- què, com, quina, qui, quin, quines, on, quins, quan, quant -->
@@ -105,11 +105,11 @@
     <dep name="cop">5310</dep>
     <dep name="csubj">1095</dep>
     <dep name="dep">92</dep>
-    <dep name="det">72204</dep>
+    <dep name="det">85822</dep>
     <dep name="dobj">36987</dep>
     <dep name="iobj">1528</dep>
     <dep name="mark">15382</dep>
-    <dep name="mwe">9899</dep>
+    <dep name="mwe">10990</dep>
     <dep name="name">18046</dep>
     <dep name="neg">2757</dep>
     <dep name="nmod">65691</dep>
