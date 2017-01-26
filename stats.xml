@@ -15,7 +15,7 @@
     <tag name="ADJ">30045</tag><!-- nou, primer, gran, català, passat, polític, general, espanyol, últim, públic -->
     <tag name="ADP">87975</tag><!-- de, a, del, en, per, al, amb, pel, d', entre -->
     <tag name="ADV">15456</tag><!-- no, més, també, ja, després, ahir, molt, avui, només, ara -->
-    <tag name="AUX">23789</tag><!-- haver, anar, ser, poder, estar, fer, tornar, començar, deixar, continuar -->
+    <tag name="AUX">24026</tag><!-- haver, anar, ser, poder, estar, fer, tornar, començar, deixar, continuar -->
     <tag name="CCONJ">15049</tag><!-- i, o, però, ni, sinó, mentre, y, que, ,, bé -->
     <tag name="DET">72596</tag><!-- el, un, aquest, seu, la, tot, altre, l', mateix, algun -->
     <tag name="INTJ">15</tag><!-- vaja, he, 'm, compte, déu, ep, hola, home, marbella, mira -->
@@ -27,7 +27,7 @@
     <tag name="PUNCT">53446</tag><!-- ,, ., ", (, ), -, :, ;, ?, ¿ -->
     <tag name="SCONJ">10545</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, Como -->
     <tag name="SYM">4633</tag><!-- ', %, 50/100, 10/100, 30/100, 5/100, 1/100, 2/100, 25/100, 20/100 -->
-    <tag name="VERB">40151</tag><!-- fer, tenir, haver, dir, presentar, donar, explicar, passar, demanar, arribar -->
+    <tag name="VERB">39914</tag><!-- fer, tenir, haver, dir, presentar, donar, explicar, passar, demanar, arribar -->
     <tag name="X">11</tag><!-- 8'5, 1'2, 17'5, 32'5, 38'10, 38'3, 5'1, 77'7, 8'4 -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->

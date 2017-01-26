@@ -830,7 +830,7 @@
 # orig_file_sentence 001#24
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cas	cas	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	_
-3	és	ser	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+3	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
 4	que	que	SCONJ	SCONJ	_	13	mark	_	_
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	professor	professor	NOUN	NOUN	Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
@@ -2451,7 +2451,7 @@
 5	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	6	case	_	_
 6	pla	pla	NOUN	NOUN	Gender=Masc|Number=Sing	4	nmod	_	_
 7	urbanístic	urbanístic	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
-8	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	és	ser	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	rebaixar	rebaixar	VERB	VERB	VerbForm=Inf	8	ccomp	_	_
 10	-lo	ell	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
@@ -3179,7 +3179,7 @@
 3	base	base	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
 4	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	5	case	_	_
 5	concurs	concurs	NOUN	NOUN	Gender=Masc|Number=Sing	2	nmod	_	_
-6	és	ser	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 7	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 8	1.173.978,53	1173978.53	NUM	NUM	NumForm=Digit	9	nummod	_	_
 9	euros	euro	NOUN	NOUN	NumForm=Digit	0	root	_	SpaceAfter=No
@@ -3209,7 +3209,7 @@
 19	termini	termini	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
 20	d'	de	ADP	ADP	AdpType=Prep	21	case	_	SpaceAfter=No
 21	execució	execució	NOUN	NOUN	Gender=Fem|Number=Sing	19	nmod	_	_
-22	és	ser	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+22	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
 23	de	de	ADP	ADP	AdpType=Prep	25	case	_	_
 24	8	8	NUM	NUM	NumForm=Digit	25	nummod	_	_
 25	mesos	mes	NOUN	NOUN	Gender=Masc|Number=Plur	5	conj	_	_
@@ -3431,7 +3431,7 @@
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
 4	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	actuació	actuació	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
-6	és	ser	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 7	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 8	2,842	2.842	NUM	NUM	NumForm=Digit	9	nummod	_	_
 9	milions	milió	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	_
@@ -4371,7 +4371,7 @@
 15	que	que	SCONJ	SCONJ	_	14	fixed	_	_
 16	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	condemna	condemna	NOUN	NOUN	Gender=Fem|Number=Sing	21	nsubj	_	_
-18	és	ser	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+18	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
 19	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
 20	18	18	NUM	NUM	NumForm=Digit	21	nummod	_	_
 21	penes	pena	NOUN	NOUN	Gender=Fem|Number=Plur	6	advcl	_	_
@@ -4449,7 +4449,7 @@
 42	inicial	inicial	ADJ	ADJ	Number=Sing	41	amod	_	SpaceAfter=No
 43	,	,	PUNCT	PUNCT	PunctType=Comm	48	punct	_	_
 44	que	que	PRON	PRON	PronType=Rel	48	nsubj	_	_
-45	era	ser	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	48	cop	_	_
+45	era	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	48	cop	_	_
 46	de	de	ADP	ADP	AdpType=Prep	48	case	_	_
 47	64	64	NUM	NUM	NumForm=Digit	48	nummod	_	_
 48	anys	any	NOUN	NOUN	Gender=Masc|Number=Plur	41	acl	_	_
@@ -6987,7 +6987,7 @@
 # text = Va ser la primera emissora municipal del Baix Llobregat i la tercera de Catalunya.
 # orig_file_sentence 002#90
 1	Va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-2	ser	ser	VERB	VERB	VerbForm=Inf	5	cop	_	_
+2	ser	ser	AUX	AUX	VerbForm=Inf	5	cop	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	primera	primer	ADJ	ADJ	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
 5	emissora	emissora	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
@@ -8461,7 +8461,7 @@
 11	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 12	estat	ser	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux	_	_
 13	premiats	premiar	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
-14	són	ser	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	són	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
 15	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
 16	temàtica	temàtica	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 17	més	més	ADV	ADV	_	18	advmod	_	_
@@ -9062,7 +9062,7 @@
 36	víctima	víctima	NOUN	NOUN	Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
 37	,	,	PUNCT	PUNCT	PunctType=Comm	42	punct	_	_
 38	que	que	PRON	PRON	PronType=Rel	42	nsubj	_	_
-39	és	ser	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
+39	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
 40	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	42	case	_	_
 41	mateix	mateix	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	42	det	_	_
 42	veïnat	veïnat	NOUN	NOUN	Gender=Masc|Number=Sing	36	acl	_	SpaceAfter=No
@@ -10820,7 +10820,7 @@
 5	aprovat	aprovar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	inicialment	inicialment	ADV	ADV	_	5	advmod	_	_
 7	i	i	CCONJ	CCONJ	_	10	cc	_	_
-8	està	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	està	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	en	en	ADP	ADP	AdpType=Prep	10	case	_	_
 10	període	període	NOUN	NOUN	Gender=Masc|Number=Sing	5	conj	_	_
 11	d'	de	ADP	ADP	AdpType=Prep	12	case	_	SpaceAfter=No
@@ -13371,7 +13371,7 @@
 95	que	que	SCONJ	SCONJ	_	102	mark	_	_
 96	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	97	det	_	_
 97	agències	agència	NOUN	NOUN	Gender=Fem|Number=Plur	102	nsubj	_	_
-98	fossin	ser	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	102	cop	_	_
+98	fossin	ser	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	102	cop	_	_
 99	cada	cada	DET	DET	Number=Sing|PronType=Ind	100	det	_	_
 100	vegada	vegada	NOUN	NOUN	Gender=Fem|Number=Sing	102	obl	_	_
 101	més	més	ADV	ADV	_	102	advmod	_	_
@@ -16603,7 +16603,7 @@
 # orig_file_sentence 005#46
 1	Actualment	actualment	ADV	ADV	_	5	advmod	_	_
 2	encara	encara	ADV	ADV	_	5	advmod	_	_
-3	està	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	està	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	en	en	ADP	ADP	AdpType=Prep	5	case	_	_
 5	rehabilitació	rehabilitació	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 6	amb	amb	ADP	ADP	AdpType=Prep	8	case	_	_
@@ -18429,7 +18429,7 @@
 1	Els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	pulmons	pulmó	NOUN	NOUN	Gender=Masc|Number=Plur	7	nsubj	_	_
 3	no	no	ADV	ADV	Polarity=Neg	7	advmod	_	_
-4	estaven	estar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+4	estaven	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
 5	en	en	ADP	ADP	AdpType=Prep	7	case	_	_
 6	bon	bo	ADJ	ADJ	Gender=Masc|Number=Sing	7	amod	_	_
 7	estat	estat	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -19269,7 +19269,7 @@
 2	més	més	ADV	ADV	_	3	advmod	_	_
 3	importants	important	ADJ	ADJ	Number=Plur	7	nsubj	_	_
 4	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-5	estat	estar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+5	estat	estar	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
 6	de	de	ADP	ADP	AdpType=Prep	7	case	_	_
 7	dramatúrgia	dramatúrgia	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 8	i	i	CCONJ	CCONJ	_	10	cc	_	_
@@ -20844,7 +20844,7 @@
 71	amb	amb	ADP	ADP	AdpType=Prep	72	case	_	_
 72	ell	ell	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	70	obl	_	_
 73	si	si	SCONJ	SCONJ	_	76	mark	_	_
-74	estava	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	76	cop	_	_
+74	estava	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	76	cop	_	_
 75	de	de	ADP	ADP	AdpType=Prep	76	case	_	_
 76	guàrdia	guàrdia	NOUN	NOUN	Number=Sing	69	advcl	_	SpaceAfter=No
 77	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
@@ -21766,7 +21766,7 @@
 7	turístic	turístic	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
 9	que	que	PRON	PRON	PronType=Rel	14	nsubj	_	_
-10	està	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+10	està	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 11	en	en	ADP	ADP	AdpType=Prep	14	case	_	_
 12	'	'	SYM	SYM	_	14	nmod	_	SpaceAfter=No
 13	constant	constant	ADJ	ADJ	Number=Sing	14	amod	_	_
@@ -25649,7 +25649,7 @@
 # orig_file_sentence 007#96
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Comitè	Comitè	PROPN	PROPN	_	6	nsubj	_	_
-3	està	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	està	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 4	a	a	ADP	ADP	AdpType=Prep	6	case	_	_
 5	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	espera	espera	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
@@ -35625,7 +35625,7 @@
 18	primer	primer	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
 19	ministre	ministre	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	_
 20	no	no	ADV	ADV	Polarity=Neg	24	advmod	_	_
-21	sembla	semblar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+21	sembla	semblar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
 22	que	que	SCONJ	SCONJ	_	24	mark	_	_
 23	hagi	haver	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 24	decidit	decidir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	_	_
@@ -37249,7 +37249,7 @@
 27	processat	processat	NOUN	NOUN	Gender=Masc|Number=Sing	37	nsubj	_	SpaceAfter=No
 28	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
 29	que	que	PRON	PRON	PronType=Rel	32	nsubj	_	_
-30	està	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+30	està	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
 31	en	en	ADP	ADP	AdpType=Prep	32	case	_	_
 32	cerca	cerca	NOUN	NOUN	Gender=Fem|Number=Sing	27	acl	_	_
 33	i	i	CCONJ	CCONJ	_	34	cc	_	_
@@ -43620,7 +43620,7 @@
 1	Quan	quan	SCONJ	SCONJ	_	6	mark	_	_
 2	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	comercial	comercial	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
-4	estava	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	estava	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
 5	d'	de	ADP	ADP	AdpType=Prep	6	case	_	SpaceAfter=No
 6	esquenes	esquena	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
 7	i	i	CCONJ	CCONJ	_	11	cc	_	_
@@ -48246,7 +48246,7 @@
 6	demostrat	demostrar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	que	que	SCONJ	SCONJ	_	12	mark	_	_
 8	no	no	ADV	ADV	Polarity=Neg	12	advmod	_	_
-9	està	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+9	està	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 10	per	per	ADP	ADP	AdpType=Prep	12	case	_	_
 11	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	feina	feina	NOUN	NOUN	Gender=Fem|Number=Sing	6	ccomp	_	SpaceAfter=No
@@ -49358,7 +49358,7 @@
 49	que	que	SCONJ	SCONJ	_	54	mark	_	_
 50	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
 51	informació	informació	NOUN	NOUN	Gender=Fem|Number=Sing	54	nsubj	_	_
-52	estigui	estar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	cop	_	_
+52	estigui	estar	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	cop	_	_
 53	en	en	ADP	ADP	AdpType=Prep	54	case	_	_
 54	castellà	castellà	NOUN	NOUN	Gender=Masc|Number=Sing	47	ccomp	_	SpaceAfter=No
 55	"	"	PUNCT	PUNCT	PunctType=Quot	31	punct	_	SpaceAfter=No
@@ -49774,7 +49774,7 @@
 11	destruïen	destruir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 12	o	o	CCONJ	CCONJ	_	14	cc	_	_
 13	s'	es	PRON	PRON	_	14	obj	_	SpaceAfter=No
-14	aprofitaven	aprofitar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	conj	_	_
+14	aprofitaven	aprofitar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	conj	_	_
 15	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Art	18	mark	_	MWE=un_cop|MWEPOS=SCONJ
 16	cop	cop	NOUN	NOUN	_	15	fixed	_	_
 17	es	es	PRON	PRON	_	18	obj	_	_
@@ -51268,7 +51268,7 @@
 38	indirectes	indirecte	ADJ	ADJ	Number=Plur	34	amod	_	SpaceAfter=No
 39	,	,	PUNCT	PUNCT	PunctType=Comm	38	punct	_	_
 40	que	que	PRON	PRON	PronType=Rel	44	nsubj	_	_
-41	estiguin	estar	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	cop	_	_
+41	estiguin	estar	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	cop	_	_
 42	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	44	case	_	_
 43	seu	seu	DET	DET	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	det	_	_
 44	abast	abast	NOUN	NOUN	Gender=Masc|Number=Sing	34	acl	_	SpaceAfter=No
@@ -51461,7 +51461,7 @@
 12	no	no	ADV	ADV	Polarity=Neg	20	advmod	_	_
 13	perquè	perquè	SCONJ	SCONJ	_	20	mark	_	_
 14	no	no	ADV	ADV	Polarity=Neg	20	advmod	_	_
-15	estiguin	estar	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+15	estiguin	estar	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 16	d'	d'	ADP	ADP	AdpType=Prep	20	case	_	SpaceAfter=No|MWE=d'_acord_amb|MWEPOS=ADP
 17	acord	acord	NOUN	NOUN	_	16	fixed	_	_
 18	amb	amb	ADP	ADP	AdpType=Prep	16	fixed	_	_
@@ -51505,7 +51505,7 @@
 11	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
 12	tot	tot	DET	DET	Gender=Masc|Number=Sing|PronType=Tot	19	mark	_	MWE=tot_i|MWEPOS=ADP
 13	i	i	CCONJ	CCONJ	_	12	fixed	_	_
-14	estar	estar	VERB	VERB	VerbForm=Inf	19	cop	_	_
+14	estar	estar	AUX	AUX	VerbForm=Inf	19	cop	_	_
 15	d'	d'	ADP	ADP	AdpType=Prep	19	case	_	SpaceAfter=No|MWE=d'_acord_amb|MWEPOS=ADP
 16	acord	acord	NOUN	NOUN	_	15	fixed	_	_
 17	amb	amb	ADP	ADP	AdpType=Prep	15	fixed	_	_
@@ -53164,7 +53164,7 @@
 13	anys	any	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 15	"	"	PUNCT	PUNCT	PunctType=Quot	18	punct	_	SpaceAfter=No
-16	estaven	estar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+16	estaven	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
 17	en	en	ADP	ADP	AdpType=Prep	18	case	_	_
 18	estat	estat	NOUN	NOUN	Gender=Masc|Number=Sing	39	ccomp	_	_
 19	greu	greu	ADJ	ADJ	Number=Sing	18	amod	_	_
@@ -53835,7 +53835,7 @@
 6	de	de	ADP	ADP	AdpType=Prep	7	case	_	_
 7	plantilla	plantilla	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
 8	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
-9	estat	estar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	cop	_	_
+9	estat	estar	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	cop	_	_
 10	en	en	ADP	ADP	AdpType=Prep	13	case	_	_
 11	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 12	últim	últim	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
@@ -55414,7 +55414,7 @@
 30	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
 31	torna	tornar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
 32	a	a	ADP	ADP	AdpType=Prep	35	case	_	_
-33	estar	estar	VERB	VERB	VerbForm=Inf	35	cop	_	_
+33	estar	estar	AUX	AUX	VerbForm=Inf	35	cop	_	_
 34	en	en	ADP	ADP	AdpType=Prep	35	case	_	_
 35	situació	situació	NOUN	NOUN	Gender=Fem|Number=Sing	20	parataxis	_	_
 36	de	de	ADP	ADP	AdpType=Prep	37	case	_	_
@@ -56398,7 +56398,7 @@
 41	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s1527/ca
-# text = Per facilitar la comunicació a peu, la vorera del costat oest tindrà 3 '5 metres, mentre que la del costat riu medirà 2' 5.
+# text = Per facilitar la comunicació a peu, la vorera del costat oest tindrà 3 '5 metres, mentre que la del costat riu medirà 2 '5.
 # orig_file_sentence 016#27
 1	Per	per	ADP	ADP	AdpType=Prep	2	mark	_	_
 2	facilitar	facilitar	VERB	VERB	VerbForm=Inf	13	advcl	_	_
@@ -56425,8 +56425,8 @@
 23	costat	costat	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
 24	riu	riu	NOUN	NOUN	Gender=Masc|Number=Sing	23	nmod	_	_
 25	medirà	medir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	parataxis	_	_
-26	2	2	NUM	NUM	NumForm=Digit|NumType=Card	25	obj	_	SpaceAfter=No|MWE=2_'_5|MWEPOS=NUM
-27	'	'	PUNCT	PUNCT	_	26	compound	_	_
+26	2	2	NUM	NUM	NumForm=Digit|NumType=Card	25	obj	_	MWE=2_'_5|MWEPOS=NUM
+27	'	'	PUNCT	PUNCT	_	26	compound	_	SpaceAfter=No
 28	5	5	NUM	NUM	NumForm=Digit|NumType=Card	26	compound	_	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	PunctType=Peri	19	punct	_	_
 
@@ -57411,7 +57411,7 @@
 4	,	,	PUNCT	PUNCT	PunctType=Comm	3	punct	_	_
 5	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	edificacions	edificació	NOUN	NOUN	Gender=Fem|Number=Plur	10	nsubj	_	_
-7	estan	estar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	estan	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 8	en	en	ADP	ADP	AdpType=Prep	10	case	_	_
 9	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	10	det	_	_
 10	estat	estat	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -60400,7 +60400,7 @@
 5	anunciar	anunciar	VERB	VERB	VerbForm=Inf	0	root	_	_
 6	ahir	ahir	ADV	ADV	_	5	advmod	_	_
 7	que	que	SCONJ	SCONJ	_	11	mark	_	_
-8	estan	estar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	estan	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 9	a	a	ADP	ADP	AdpType=Prep	11	case	_	_
 10	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	espera	espera	NOUN	NOUN	Gender=Fem|Number=Sing	5	ccomp	_	_
@@ -62611,7 +62611,7 @@
 26	funció	funció	NOUN	NOUN	Gender=Fem|Number=Sing	21	appos	_	_
 27	que	que	PRON	PRON	PronType=Rel	31	nsubj	_	_
 28	ara	ara	ADV	ADV	_	31	advmod	_	_
-29	està	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+29	està	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
 30	en	en	ADP	ADP	AdpType=Prep	31	case	_	_
 31	mans	mà	NOUN	NOUN	Gender=Fem|Number=Plur	26	acl	_	_
 32	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	33	case	_	_
