@@ -5,6 +5,8 @@ Catalan data from the AnCora corpus.
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Catalan to UD_Catalan-AnCora.
 * 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
 * 2016-05-01 v1.3
