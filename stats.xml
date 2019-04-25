@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>16678</sentences><tokens>530766</tokens><words>531971</words><fused>1179</fused></total>
+    <train><sentences>13123</sentences><tokens>416659</tokens><words>417587</words><fused>907</fused></train>
+    <dev><sentences>1709</sentences><tokens>56321</tokens><words>56482</words><fused>157</fused></dev>
+    <test><sentences>1846</sentences><tokens>57786</tokens><words>57902</words><fused>115</fused></test>
   </size>
   <lemmas unique="23363" /><!-- el, de, ,, ., que, i, a, un, del, haver, en, anar, per, ser, ell -->
   <forms unique="32517" /><!-- de, ,, la, ., que, el, i, a, l', d', en, del, per, les, un -->
@@ -51,7 +54,7 @@
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">183</feat><!-- nostra, nostre, nostres -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">43</feat><!-- meu, meus, meva, teu, teus, teva -->
     <feat name="NumForm" value="Digit" upos="NOUN,NUM,SYM">7720</feat><!-- pessetes, %, euros, 10, 15, 30, 20, 5, 4, 12 -->
-    <feat name="NumType" value="Card" upos="NUM">5194</feat><!-- dos, tres, dues, quatre, cent, un, cinc, una, sis, vuit -->
+    <feat name="NumType" value="Card" upos="NUM">9247</feat><!-- dos, tres, dues, quatre, cent, un, 10, cinc, una, sis -->
     <feat name="NumType" value="Frac" upos="NUM,SYM">807</feat><!-- %, 50%, 10%, 30%, 5%, 25%, 1%, 20%, 40%, 2% -->
     <feat name="NumType" value="Ord" upos="ADJ">1582</feat><!-- primer, primera, últims, segona, últim, segon, primers, última, tercer, darrers -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">2118</feat><!-- ens, hem, nosaltres, em, jo, he, nostra, tenim, nostre, estem -->
@@ -90,38 +93,38 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="33">
-    <dep name="acl">9590</dep>
-    <dep name="advcl">6705</dep>
-    <dep name="advmod">15964</dep>
+    <dep name="acl">9548</dep>
+    <dep name="advcl">6675</dep>
+    <dep name="advmod">15465</dep>
     <dep name="advmod:emph">1</dep>
-    <dep name="amod">24983</dep>
-    <dep name="appos">7739</dep>
-    <dep name="aux">18650</dep>
-    <dep name="case">77533</dep>
+    <dep name="amod">24975</dep>
+    <dep name="appos">7677</dep>
+    <dep name="aux">18649</dep>
+    <dep name="case">77537</dep>
     <dep name="cc">14745</dep>
-    <dep name="ccomp">4129</dep>
+    <dep name="ccomp">4088</dep>
     <dep name="compound">3403</dep>
-    <dep name="conj">15965</dep>
-    <dep name="cop">4779</dep>
-    <dep name="csubj">1093</dep>
+    <dep name="conj">16530</dep>
+    <dep name="cop">4772</dep>
+    <dep name="csubj">1086</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">92</dep>
-    <dep name="det">72204</dep>
+    <dep name="det">72196</dep>
     <dep name="expl:pass">512</dep>
-    <dep name="fixed">9905</dep>
-    <dep name="flat">18060</dep>
+    <dep name="fixed">9899</dep>
+    <dep name="flat">18068</dep>
     <dep name="iobj">1537</dep>
-    <dep name="mark">15384</dep>
-    <dep name="nmod">44191</dep>
-    <dep name="nsubj">27500</dep>
+    <dep name="mark">15490</dep>
+    <dep name="nmod">44111</dep>
+    <dep name="nsubj">27432</dep>
     <dep name="nsubj:pass">25</dep>
-    <dep name="nummod">5691</dep>
-    <dep name="obj">36978</dep>
-    <dep name="obl">21503</dep>
+    <dep name="nummod">5702</dep>
+    <dep name="obj">36864</dep>
+    <dep name="obl">21801</dep>
     <dep name="orphan">14</dep>
-    <dep name="parataxis">580</dep>
-    <dep name="punct">53383</dep>
+    <dep name="parataxis">579</dep>
+    <dep name="punct">53389</dep>
     <dep name="root">16678</dep>
-    <dep name="xcomp">2453</dep>
+    <dep name="xcomp">2429</dep>
   </deps>
 </treebank>
