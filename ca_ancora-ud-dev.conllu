@@ -535,23 +535,23 @@
 # orig_file_sentence 001#18
 1	Aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	mateix	mateix	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	1	det	_	_
-3	vaixell	vaixell	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
-4	tornarà	tornar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	aux	_	_
+3	vaixell	vaixell	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	tornarà	tornar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	a	a	ADP	ADP	AdpType=Prep	6	mark	_	_
-6	atracar	atracar	VERB	VERB	VerbForm=Inf	0	root	_	_
+6	atracar	atracar	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
 7	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	8	case	_	_
-8	port	port	NOUN	NOUN	Gender=Masc|Number=Sing	6	obl	_	_
+8	port	port	NOUN	NOUN	Gender=Masc|Number=Sing	4	obl	_	_
 9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 10	Tarragona	Tarragona	PROPN	PROPN	_	8	nmod	_	_
 11	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 12	propers	proper	ADJ	ADJ	Gender=Masc|Number=Plur	13	amod	_	_
-13	dies	dies	NOUN	NOUN	_	6	obl	_	MWE=dies_11|MWEPOS=NOUN
+13	dies	dies	NOUN	NOUN	_	4	obl	_	MWE=dies_11|MWEPOS=NOUN
 14	11	11	NUM	NUM	NumForm=Digit|NumType=Card	13	compound	_	_
 15	i	i	CCONJ	CCONJ	_	16	cc	_	_
 16	18	18	NUM	NUM	NumForm=Digit|NumType=Card	13	conj	_	MWE=18_de_juny|MWEPOS=NOUN
 17	de	de	ADP	ADP	AdpType=Prep	18	case	_	_
 18	juny	juny	NOUN	NOUN	_	16	compound	_	SpaceAfter=No
-19	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
+19	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s19
 # text = També està prevista l'arribada del creuer 'Silver Shadow, de la companyia Silversea Cruises, amb una eslora de 182 metres i 388 passatgers.
@@ -663,15 +663,15 @@
 43	de	de	ADP	ADP	AdpType=Prep	44	case	_	_
 44	presó	presó	NOUN	NOUN	Gender=Fem|Number=Sing	41	nmod	_	_
 45	preventiva	preventiu	ADJ	ADJ	Gender=Fem|Number=Sing	44	amod	_	_
-46	per	per	ADP	ADP	AdpType=Prep	53	mark	_	_
-47	considerar	considerar	AUX	AUX	VerbForm=Inf	53	aux	_	_
-48	que	que	SCONJ	SCONJ	_	53	mark	_	_
+46	per	per	ADP	ADP	AdpType=Prep	47	mark	_	_
+47	considerar	considerar	VERB	AUX	VerbForm=Inf	39	advcl	_	_
+48	que	que	SCONJ	SCONJ	_	47	mark	_	_
 49	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	50	det	_	SpaceAfter=No
-50	alarma	alarma	NOUN	NOUN	Gender=Fem|Number=Sing	53	nsubj	_	_
+50	alarma	alarma	NOUN	NOUN	Gender=Fem|Number=Sing	47	nsubj	_	_
 51	social	social	ADJ	ADJ	Number=Sing	50	amod	_	_
-52	pot	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	aux	_	_
-53	perjudicar	perjudicar	VERB	VERB	VerbForm=Inf	39	advcl	_	_
-54	més	més	ADV	ADV	_	53	advmod	_	_
+52	pot	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
+53	perjudicar	perjudicar	VERB	VERB	VerbForm=Inf	47	xcomp	_	_
+54	més	més	ADV	ADV	_	47	advmod	_	_
 55	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
 56	mestre	mestre	NOUN	NOUN	Gender=Masc|Number=Sing	53	obj	_	_
 57	si	si	SCONJ	SCONJ	_	58	mark	_	_
@@ -813,12 +813,12 @@
 51	explori	explorar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	ccomp	_	_
 52	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	53	det	_	_
 53	professor	professor	NOUN	NOUN	Gender=Masc|Number=Sing	51	obj	_	_
-54	per	per	ADP	ADP	AdpType=Prep	59	mark	_	_
-55	mirar	mirar	AUX	AUX	VerbForm=Inf	59	aux	_	_
+54	per	per	ADP	ADP	AdpType=Prep	57	mark	_	_
+55	mirar	mirar	AUX	AUX	VerbForm=Inf	57	aux	_	_
 56	de	de	ADP	ADP	AdpType=Prep	57	mark	_	_
-57	descobrir	descobrir	AUX	AUX	VerbForm=Inf	59	aux	_	_
+57	descobrir	descobrir	VERB	AUX	VerbForm=Inf	47	advcl	_	_
 58	si	si	SCONJ	SCONJ	_	59	mark	_	_
-59	pateix	patir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	advcl	_	_
+59	pateix	patir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	ccomp	_	_
 60	algun	algun	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	61	det	_	_
 61	tipus	tipus	NOUN	NOUN	Gender=Masc	59	obj	_	_
 62	de	de	ADP	ADP	AdpType=Prep	63	case	_	_
@@ -950,9 +950,9 @@
 19	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	veure	veure	VERB	VERB	VerbForm=Inf	12	advcl	_	_
 21	indicis	indici	NOUN	NOUN	Gender=Masc|Number=Plur	20	obj	_	_
-22	que	que	PRON	PRON	PronType=Rel	24	nsubj	_	_
-23	feien	fer	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	aux	_	_
-24	pensar	pensar	VERB	VERB	VerbForm=Inf	21	acl	_	_
+22	que	que	PRON	PRON	PronType=Rel	23	nsubj	_	_
+23	feien	fer	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	acl	_	_
+24	pensar	pensar	VERB	VERB	VerbForm=Inf	23	xcomp	_	_
 25	que	que	SCONJ	SCONJ	_	31	mark	_	_
 26	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	nena	nena	NOUN	NOUN	Gender=Fem|Number=Sing	31	nsubj	_	_
@@ -2123,12 +2123,12 @@
 24	Franz	Franz	PROPN	PROPN	_	16	flat	_	MWE=Franz_Fischler|MWEPOS=PROPN
 25	Fischler	Fischler	PROPN	PROPN	_	24	flat	_	SpaceAfter=No
 26	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
-27	per	per	ADP	ADP	AdpType=Prep	30	mark	_	_
+27	per	per	ADP	ADP	AdpType=Prep	28	mark	_	_
 28-29	fer-li	_	_	_	_	_	_	_	_
-28	fer	fer	AUX	AUX	VerbForm=Inf	30	aux	_	_
-29	li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
-30	arribar	arribar	VERB	VERB	VerbForm=Inf	13	advcl	_	_
-31	directament	directament	ADV	ADV	_	30	advmod	_	_
+28	fer	fer	VERB	AUX	VerbForm=Inf	13	advcl	_	_
+29	li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	arribar	arribar	VERB	VERB	VerbForm=Inf	28	xcomp	_	_
+31	directament	directament	ADV	ADV	_	28	advmod	_	_
 32	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
 33	propostes	proposta	NOUN	NOUN	Gender=Fem|Number=Plur	30	obj	_	_
 34	de	de	ADP	ADP	AdpType=Prep	35	case	_	_
@@ -2163,22 +2163,22 @@
 2	reunió	reunió	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
 3	arriba	arribar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	després	després	ADV	ADV	_	3	advmod	_	_
-5	que	que	SCONJ	SCONJ	_	20	mark	_	_
+5	que	que	SCONJ	SCONJ	_	18	mark	_	_
 6	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	passat	passat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	_
-8	26	26	NUM	NUM	NumForm=Digit|NumType=Card	20	obl	_	MWE=26_de_maig|MWEPOS=NOUN
+8	26	26	NUM	NUM	NumForm=Digit|NumType=Card	18	obl	_	MWE=26_de_maig|MWEPOS=NOUN
 9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 10	maig	maig	NOUN	NOUN	_	8	compound	_	_
 11	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Consell	Consell	PROPN	PROPN	_	20	nsubj	_	MWE=Consell_de_Ministres_d'_Agricultura|MWEPOS=PROPN
+12	Consell	Consell	PROPN	PROPN	_	18	nsubj	_	MWE=Consell_de_Ministres_d'_Agricultura|MWEPOS=PROPN
 13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
 14	Ministres	Ministres	PROPN	PROPN	_	12	flat	_	_
 15	d'	d'	ADP	ADP	AdpType=Prep	16	case	_	SpaceAfter=No
 16	Agricultura	Agricultura	PROPN	PROPN	_	12	flat	_	_
 17	europeu	europeu	ADJ	ADJ	Gender=Masc|Number=Sing	12	amod	_	_
-18	tornés	tornar	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+18	tornés	tornar	VERB	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	_
 19	a	a	ADP	ADP	AdpType=Prep	20	mark	_	_
-20	passar	passar	VERB	VERB	VerbForm=Inf	4	advcl	_	MWE=passar_per_alt|MWEPOS=VERB
+20	passar	passar	VERB	VERB	VerbForm=Inf	18	xcomp	_	MWE=passar_per_alt|MWEPOS=VERB
 21	per	per	ADP	ADP	AdpType=Prep	22	case	_	_
 22	alt	alt	NOUN	NOUN	Number=Sing	20	compound	_	_
 23	tractar	tractar	VERB	VERB	VerbForm=Inf	20	xcomp	_	_
@@ -2800,11 +2800,11 @@
 2	Badia	Badia	PROPN	PROPN	_	1	flat	_	_
 3	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	subratllat	subratllar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	que	que	SCONJ	SCONJ	_	27	mark	_	_
+5	que	que	SCONJ	SCONJ	_	26	mark	_	_
 6	"	"	PUNCT	PUNCT	PunctType=Quot	9	punct	_	SpaceAfter=No
 7	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 8	important	important	ADJ	ADJ	Number=Sing	9	amod	_	_
-9	increment	increment	NOUN	NOUN	Gender=Masc|Number=Sing	27	nsubj	_	_
+9	increment	increment	NOUN	NOUN	Gender=Masc|Number=Sing	26	nsubj	_	_
 10	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	11	case	_	_
 11	nombre	nombre	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
 12	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
@@ -2820,9 +2820,9 @@
 22	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
 23	1999	1999	NOUN	NOUN	AdvType=Tim	21	nmod	_	SpaceAfter=No
 24	"	"	PUNCT	PUNCT	PunctType=Quot	9	punct	_	_
-25	els	ell	PRON	PRON	Number=Plur|Person=3|PronType=Prs	27	obj	_	_
-26	fa	fer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
-27	ser	ser	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
+25	els	ell	PRON	PRON	Number=Plur|Person=3|PronType=Prs	26	obj	_	_
+26	fa	fer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	xcomp	_	_
+27	ser	ser	VERB	VERB	VerbForm=Inf	26	xcomp	_	_
 28	optimistes	optimista	ADJ	ADJ	Number=Plur	27	obj	_	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
@@ -2856,15 +2856,15 @@
 25	Moll	Moll	PROPN	PROPN	_	12	conj	_	MWE=Moll_d'_Aragó|MWEPOS=PROPN
 26	d'	d'	ADP	ADP	AdpType=Prep	27	case	_	SpaceAfter=No
 27	Aragó	Aragó	PROPN	PROPN	_	25	flat	_	_
-28	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	35	punct	_	SpaceAfter=No
-29	que	que	PRON	PRON	PronType=Rel	35	nsubj	_	_
-30	s'	es	PRON	PRON	_	35	obj	_	SpaceAfter=No
-31	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
-32	d'	de	ADP	ADP	AdpType=Prep	35	mark	_	SpaceAfter=No
-33	acabar	acabar	AUX	AUX	VerbForm=Inf	35	aux	_	_
+28	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	33	punct	_	SpaceAfter=No
+29	que	que	PRON	PRON	PronType=Rel	33	nsubj	_	_
+30	s'	es	PRON	PRON	_	33	obj	_	SpaceAfter=No
+31	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+32	d'	de	ADP	ADP	AdpType=Prep	33	mark	_	SpaceAfter=No
+33	acabar	acabar	VERB	AUX	VerbForm=Inf	25	acl	_	_
 34	de	de	ADP	ADP	AdpType=Prep	35	mark	_	_
-35	reomplir	reomplir	VERB	VERB	VerbForm=Inf	25	acl	_	SpaceAfter=No
-36	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	35	punct	_	_
+35	reomplir	reomplir	VERB	VERB	VerbForm=Inf	33	xcomp	_	SpaceAfter=No
+36	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	33	punct	_	_
 37	i	i	CCONJ	CCONJ	_	40	cc	_	_
 38	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
 39	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
@@ -3262,27 +3262,27 @@
 27	Ministeri	Ministeri	PROPN	PROPN	_	25	obj	_	MWE=Ministeri_de_Foment|MWEPOS=PROPN
 28	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
 29	Foment	Foment	PROPN	PROPN	_	27	flat	_	_
-30	amb	amb	ADP	ADP	AdpType=Prep	46	mark	_	MWE=amb_l'_objectiu_de|MWEPOS=ADP
+30	amb	amb	ADP	ADP	AdpType=Prep	34	mark	_	MWE=amb_l'_objectiu_de|MWEPOS=ADP
 31	l'	l'	DET	DET	Number=Sing|PronType=Art	30	fixed	_	SpaceAfter=No
 32	objectiu	objectiu	NOUN	NOUN	_	30	fixed	_	_
 33	de	de	ADP	ADP	AdpType=Prep	30	fixed	_	_
-34	millorar	millorar	AUX	AUX	VerbForm=Inf	46	aux	_	_
+34	millorar	millorar	VERB	AUX	VerbForm=Inf	25	advcl	_	_
 35	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	36	det	_	_
-36	condicions	condició	NOUN	NOUN	Gender=Fem|Number=Plur	46	obj	_	_
+36	condicions	condició	NOUN	NOUN	Gender=Fem|Number=Plur	34	obj	_	_
 37	d'	de	ADP	ADP	AdpType=Prep	38	case	_	SpaceAfter=No
 38	explotació	explotació	NOUN	NOUN	Gender=Fem|Number=Sing	36	nmod	_	_
 39	de	de	ADP	ADP	AdpType=Prep	41	case	_	_
 40	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	línia	línia	NOUN	NOUN	Gender=Fem|Number=Sing	36	nmod	_	_
 42	Madrid-Barcelona-França	Madrid-Barcelona-França	PROPN	PROPN	_	41	appos	_	SpaceAfter=No
-43	,	,	PUNCT	PUNCT	PunctType=Comm	46	punct	_	_
-44	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Art	46	advmod	_	MWE=un_cop|MWEPOS=ADV
+43	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
+44	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Art	34	advmod	_	MWE=un_cop|MWEPOS=ADV
 45	cop	cop	NOUN	NOUN	_	44	fixed	_	_
-46	posat	posar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	advcl	_	MWE=posat_en_marxa|MWEPOS=VERB
+46	posat	posar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	xcomp	_	MWE=posat_en_marxa|MWEPOS=VERB
 47	en	en	ADP	ADP	AdpType=Prep	48	case	_	_
 48	marxa	marxa	NOUN	NOUN	Gender=Fem|Number=Sing	46	compound	_	_
 49	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
-50	tram	tram	NOUN	NOUN	Gender=Masc|Number=Sing	46	nsubj	_	_
+50	tram	tram	NOUN	NOUN	Gender=Masc|Number=Sing	34	nsubj	_	_
 51	d'	de	ADP	ADP	AdpType=Prep	53	case	_	SpaceAfter=No
 52	alta	alt	ADJ	ADJ	Gender=Fem|Number=Sing	53	amod	_	_
 53	velocitat	velocitat	NOUN	NOUN	Gender=Fem|Number=Sing	50	nmod	_	_
@@ -3855,20 +3855,20 @@
 28	congressos	congrés	NOUN	NOUN	Gender=Masc|Number=Plur	25	obj	_	_
 29	i	i	CCONJ	CCONJ	_	30	cc	_	_
 30	ajudar	ajudar	VERB	VERB	VerbForm=Inf	22	conj	_	_
-31	a	a	ADP	ADP	AdpType=Prep	39	mark	_	_
-32	veure	veure	AUX	AUX	VerbForm=Inf	39	aux	_	_
-33	que	que	SCONJ	SCONJ	_	39	mark	_	_
+31	a	a	ADP	ADP	AdpType=Prep	32	mark	_	_
+32	veure	veure	VERB	AUX	VerbForm=Inf	30	xcomp	_	_
+33	que	que	SCONJ	SCONJ	_	32	mark	_	_
 34	no	no	ADV	ADV	Polarity=Neg	35	advmod	_	_
-35	sempre	sempre	ADV	ADV	_	39	advmod	_	_
-36	s'	es	PRON	PRON	_	39	obj	_	SpaceAfter=No
-37	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	aux	_	_
+35	sempre	sempre	ADV	ADV	_	32	advmod	_	_
+36	s'	es	PRON	PRON	_	32	obj	_	SpaceAfter=No
+37	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
 38	de	de	ADP	ADP	AdpType=Prep	39	mark	_	_
-39	fer	fer	VERB	VERB	VerbForm=Inf	30	xcomp	_	_
+39	fer	fer	VERB	VERB	VerbForm=Inf	32	xcomp	_	_
 40	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
-41	reunions	reunió	NOUN	NOUN	Gender=Fem|Number=Plur	39	nsubj	_	_
+41	reunions	reunió	NOUN	NOUN	Gender=Fem|Number=Plur	32	nsubj	_	_
 42	als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	44	case	_	_
 43	mateixos	mateix	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	44	det	_	_
-44	llocs	lloc	NOUN	NOUN	Gender=Masc|Number=Plur	39	obl	_	SpaceAfter=No
+44	llocs	lloc	NOUN	NOUN	Gender=Masc|Number=Plur	32	obl	_	SpaceAfter=No
 45	"	"	PUNCT	PUNCT	PunctType=Quot	21	punct	_	SpaceAfter=No
 46	.	.	PUNCT	PUNCT	PunctType=Peri	21	punct	_	_
 
@@ -4715,12 +4715,12 @@
 31	altres	altre	PRON	PRON	Number=Plur|PronType=Ind	32	nmod	_	_
 32	4	4	NUM	NUM	NumForm=Digit|NumType=Card	33	nummod	_	_
 33	processats	processat	NOUN	NOUN	Gender=Masc|Number=Plur	29	obj	_	_
-34	per	per	ADP	ADP	AdpType=Prep	39	mark	_	_
-35	entendre	entendre	AUX	AUX	VerbForm=Inf	39	aux	_	_
+34	per	per	ADP	ADP	AdpType=Prep	35	mark	_	_
+35	entendre	entendre	VERB	AUX	VerbForm=Inf	29	advcl	_	_
 36	que	que	SCONJ	SCONJ	_	39	mark	_	_
 37	no	no	ADV	ADV	Polarity=Neg	39	advmod	_	_
 38	hi	hi	PRON	PRON	Person=3|PronType=Prs	39	obj	_	_
-39	ha	haver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+39	ha	haver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	ccomp	_	_
 40	proves	prova	NOUN	NOUN	Gender=Fem|Number=Plur	39	obj	_	_
 41	contra	contra	ADP	ADP	AdpType=Prep	42	case	_	_
 42	ells	ell	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	39	obl	_	SpaceAfter=No
@@ -4797,17 +4797,17 @@
 6	se	ell	PRON	PRON	Person=3	5	obj	_	_
 7	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	8	case	_	_
 8	taxista	taxista	NOUN	NOUN	Number=Sing	5	obj	_	SpaceAfter=No
-9	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
-10	que	que	PRON	PRON	PronType=Rel	13	nsubj	_	_
-11	acabava	acabar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+9	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
+10	que	que	PRON	PRON	PronType=Rel	11	nsubj	_	_
+11	acabava	acabar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	acl	_	_
 12	d'	de	ADP	ADP	AdpType=Prep	13	mark	_	SpaceAfter=No
-13	estacionar	estacionar	VERB	VERB	VerbForm=Inf	8	acl	_	_
+13	estacionar	estacionar	VERB	VERB	VerbForm=Inf	11	xcomp	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	cotxe	cotxe	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	_
 16	a	a	ADP	ADP	AdpType=Prep	18	case	_	_
 17	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	zona	zona	NOUN	NOUN	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
-19	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
+18	zona	zona	NOUN	NOUN	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+19	,	,	PUNCT	PUNCT	PunctType=Comm	11	punct	_	_
 20	i	i	CCONJ	CCONJ	_	22	cc	_	_
 21	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 22-23	demanar-li	_	_	_	_	_	_	_	_
@@ -4840,12 +4840,12 @@
 16	li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
 17	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
 18	ulleres	ulleres	NOUN	NOUN	Gender=Fem|Number=Plur	15	obj	_	_
-19	i	i	CCONJ	CCONJ	_	23	cc	_	_
-20	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
-21	començar	començar	AUX	AUX	VerbForm=Inf	23	aux	_	_
+19	i	i	CCONJ	CCONJ	_	21	cc	_	_
+20	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	començar	començar	VERB	AUX	VerbForm=Inf	15	conj	_	_
 22	a	a	ADP	ADP	AdpType=Prep	23	mark	_	_
 23-24	colpejar-lo	_	_	_	_	_	_	_	SpaceAfter=No
-23	colpejar	colpejar	VERB	VERB	VerbForm=Inf	15	conj	_	_
+23	colpejar	colpejar	VERB	VERB	VerbForm=Inf	21	xcomp	_	_
 24	lo	ell	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
 25	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
@@ -4882,20 +4882,20 @@
 27	César	César	PROPN	PROPN	_	24	nsubj	_	MWE=César_Román|MWEPOS=PROPN
 28	Román	Román	PROPN	PROPN	_	27	flat	_	SpaceAfter=No
 29	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
-30	i	i	CCONJ	CCONJ	_	42	cc	_	_
-31	després	després	ADV	ADV	_	42	advmod	_	_
-32	de	de	ADP	ADP	AdpType=Prep	34	mark	_	_
-33	fer	fer	AUX	AUX	VerbForm=Inf	34	aux	_	_
-34	caure	caure	VERB	VERB	VerbForm=Inf	31	advcl	_	_
+30	i	i	CCONJ	CCONJ	_	40	cc	_	_
+31	després	després	ADV	ADV	_	40	advmod	_	_
+32	de	de	ADP	ADP	AdpType=Prep	33	mark	_	_
+33	fer	fer	VERB	AUX	VerbForm=Inf	31	advcl	_	_
+34	caure	caure	VERB	VERB	VerbForm=Inf	33	xcomp	_	_
 35	a	a	ADP	ADP	AdpType=Prep	36	case	_	_
-36	terra	terra	NOUN	NOUN	Gender=Masc|Number=Sing	34	obl	_	_
+36	terra	terra	NOUN	NOUN	Gender=Masc|Number=Sing	33	obl	_	_
 37	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	taxista	taxista	NOUN	NOUN	Number=Sing	34	obj	_	_
-39	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
-40	començar	començar	AUX	AUX	VerbForm=Inf	42	aux	_	_
+39	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	començar	començar	VERB	AUX	VerbForm=Inf	8	conj	_	_
 41	a	a	ADP	ADP	AdpType=Prep	42	mark	_	_
 42-43	clavar-li	_	_	_	_	_	_	_	_
-42	clavar	clavar	VERB	VERB	VerbForm=Inf	8	conj	_	_
+42	clavar	clavar	VERB	VERB	VerbForm=Inf	40	xcomp	_	_
 43	li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	42	obj	_	_
 44	puntades	puntada	NOUN	NOUN	Gender=Fem|Number=Plur	42	obj	_	_
 45	de	de	ADP	ADP	AdpType=Prep	46	case	_	_
@@ -4904,12 +4904,12 @@
 48	cops	cop	NOUN	NOUN	Gender=Masc|Number=Plur	44	conj	_	_
 49	a	a	ADP	ADP	AdpType=Prep	51	case	_	_
 50	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
-51	cara	cara	NOUN	NOUN	Gender=Fem|Number=Sing	42	obl	_	_
+51	cara	cara	NOUN	NOUN	Gender=Fem|Number=Sing	40	obl	_	_
 52	i	i	CCONJ	CCONJ	_	54	cc	_	_
 53	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	54	case	_	_
 54	cap	cap	NOUN	NOUN	Gender=Masc|Number=Sing	51	conj	_	SpaceAfter=No
 55	,	,	PUNCT	PUNCT	PunctType=Comm	56	punct	_	_
-56	acció	acció	NOUN	NOUN	Gender=Fem|Number=Sing	42	obl	_	_
+56	acció	acció	NOUN	NOUN	Gender=Fem|Number=Sing	40	obl	_	_
 57	que	que	PRON	PRON	PronType=Rel	60	obj	_	_
 58	no	no	ADV	ADV	Polarity=Neg	60	advmod	_	_
 59	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	60	aux	_	_
@@ -4947,17 +4947,17 @@
 16	taxista	taxista	NOUN	NOUN	Number=Sing	18	nsubj	_	_
 17	s'	ell	PRON	PRON	Person=3	18	obj	_	SpaceAfter=No
 18	aixecava	aixecar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	ccomp	_	_
-19	i	i	CCONJ	CCONJ	_	28	cc	_	_
+19	i	i	CCONJ	CCONJ	_	26	cc	_	_
 20	amb	amb	ADP	ADP	AdpType=Prep	22	case	_	_
 21	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	22	det	_	_
-22	càmera	càmera	NOUN	NOUN	Gender=Fem|Number=Sing	28	obl	_	_
+22	càmera	càmera	NOUN	NOUN	Gender=Fem|Number=Sing	26	obl	_	_
 23	de	de	ADP	ADP	AdpType=Prep	24	mark	_	_
 24	fer	fer	VERB	VERB	VerbForm=Inf	22	acl	_	_
 25	fotos	foto	NOUN	NOUN	Gender=Fem|Number=Plur	24	obj	_	_
-26	mirava	mirar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	_	_
+26	mirava	mirar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	_
 27	de	de	ADP	ADP	AdpType=Prep	28	mark	_	_
 28-29	fotografiar-los	_	_	_	_	_	_	_	_
-28	fotografiar	fotografiar	VERB	VERB	VerbForm=Inf	18	conj	_	_
+28	fotografiar	fotografiar	VERB	VERB	VerbForm=Inf	26	xcomp	_	_
 29	los	ell	PRON	PRON	Number=Plur|Person=3|PronType=Prs	28	obj	_	_
 30	a	a	ADP	ADP	AdpType=Prep	31	case	_	_
 31	ells	ell	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	obj	_	_
@@ -5279,12 +5279,12 @@
 6	a	a	ADP	ADP	AdpType=Prep	8	case	_	_
 7	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	jove	jove	NOUN	NOUN	Number=Sing	4	obj	_	_
-9	i	i	CCONJ	CCONJ	_	13	cc	_	_
-10	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-11	mirar	mirar	AUX	AUX	VerbForm=Inf	13	aux	_	_
+9	i	i	CCONJ	CCONJ	_	11	cc	_	_
+10	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	mirar	mirar	VERB	AUX	VerbForm=Inf	4	conj	_	_
 12	de	de	ADP	ADP	AdpType=Prep	13	mark	_	_
 13-14	convèncer-la	_	_	_	_	_	_	_	_
-13	convèncer	convèncer	VERB	VERB	VerbForm=Inf	4	conj	_	_
+13	convèncer	convèncer	VERB	VERB	VerbForm=Inf	11	xcomp	_	_
 14	la	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 15	per	per	ADP	ADP	AdpType=Prep	18	mark	_	MWE=per_tal_que|MWEPOS=SCONJ
 16	tal	tal	NOUN	NOUN	_	15	fixed	_	_
@@ -5387,9 +5387,9 @@
 3	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	aconseguir	aconseguir	VERB	VERB	VerbForm=Inf	0	root	_	_
 5-6	fer-lo	_	_	_	_	_	_	_	_
-5	fer	fer	AUX	AUX	VerbForm=Inf	7	aux	_	_
-6	lo	ell	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
-7	desistir	desistir	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
+5	fer	fer	VERB	AUX	VerbForm=Inf	4	xcomp	_	_
+6	lo	ell	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	desistir	desistir	VERB	VERB	VerbForm=Inf	5	xcomp	_	_
 8	en	en	ADP	ADP	AdpType=Prep	9	mark	_	_
 9	oposar	oposar	VERB	VERB	VerbForm=Inf	4	advcl	_	_
 10	resistència	resistència	NOUN	NOUN	Gender=Fem|Number=Sing	9	obj	_	_
@@ -5875,18 +5875,18 @@
 2	considera	considerar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	SCONJ	_	22	mark	_	_
 4	'	'	SYM	SYM	_	22	nmod	_	SpaceAfter=No
-5	desqualificar	desqualificar	AUX	AUX	VerbForm=Inf	16	aux	_	_
+5	desqualificar	desqualificar	VERB	AUX	VerbForm=Inf	22	csubj	_	_
 6	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	catalanitat	catalanitat	NOUN	NOUN	Gender=Fem|Number=Sing	16	obj	_	_
+7	catalanitat	catalanitat	NOUN	NOUN	Gender=Fem|Number=Sing	5	obj	_	_
 8	d'	de	ADP	ADP	AdpType=Prep	9	case	_	SpaceAfter=No
 9	UDC	UDC	PROPN	PROPN	_	7	nmod	_	_
-10	quan	quan	SCONJ	SCONJ	_	16	mark	_	_
-11	ni	ni	CCONJ	CCONJ	_	16	advmod	_	MWE=ni_tan_sols|MWEPOS=ADV
+10	quan	quan	SCONJ	SCONJ	_	5	mark	_	_
+11	ni	ni	CCONJ	CCONJ	_	5	advmod	_	MWE=ni_tan_sols|MWEPOS=ADV
 12	tan	tan	NOUN	NOUN	_	11	fixed	_	_
 13	sols	sols	NOUN	NOUN	_	11	fixed	_	_
-14	s'	ell	PRON	PRON	Person=3	16	obj	_	SpaceAfter=No
-15	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
-16	llegit	llegir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	csubj	_	_
+14	s'	ell	PRON	PRON	Person=3	5	obj	_	SpaceAfter=No
+15	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+16	llegit	llegir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	_	_
 17	les	el	DET	DET	Gender=Fem|Number=Plur|PronType=Art	19	det	_	MWE=les_nostres|MWEPOS=DET
 18	nostres	nostre	DET	DET	Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	19	det	_	_
 19	ponències	ponència	NOUN	NOUN	Gender=Fem|Number=Plur	16	obj	_	_
@@ -6053,9 +6053,9 @@
 39	amb	amb	ADP	ADP	AdpType=Prep	41	case	_	_
 40	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
 41	objectiu	objectiu	NOUN	NOUN	Gender=Masc|Number=Sing	35	conj	_	_
-42	de	de	ADP	ADP	AdpType=Prep	44	mark	_	_
-43	fer	fer	AUX	AUX	VerbForm=Inf	44	aux	_	_
-44	perdurar	perdurar	VERB	VERB	VerbForm=Inf	41	acl	_	_
+42	de	de	ADP	ADP	AdpType=Prep	43	mark	_	_
+43	fer	fer	VERB	AUX	VerbForm=Inf	41	acl	_	_
+44	perdurar	perdurar	VERB	VERB	VerbForm=Inf	43	xcomp	_	_
 45	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	46	det	_	_
 46	fragment	fragment	NOUN	NOUN	Gender=Masc|Number=Sing	44	obj	_	_
 47	de	de	ADP	ADP	AdpType=Prep	48	case	_	_
@@ -6201,12 +6201,12 @@
 9	artistes	artista	NOUN	NOUN	Number=Plur	11	nsubj	_	_
 10	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	decidit	decidir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-12	restaurar	restaurar	AUX	AUX	VerbForm=Inf	32	aux	_	_
+12	restaurar	restaurar	VERB	AUX	VerbForm=Inf	11	ccomp	_	_
 13	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	mur	mur	NOUN	NOUN	Gender=Masc|Number=Sing	32	obj	_	_
+14	mur	mur	NOUN	NOUN	Gender=Masc|Number=Sing	12	obj	_	_
 15	amb	amb	ADP	ADP	AdpType=Prep	17	case	_	_
 16	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
-17	pintures	pintura	NOUN	NOUN	Gender=Fem|Number=Plur	32	obl	_	_
+17	pintures	pintura	NOUN	NOUN	Gender=Fem|Number=Plur	12	obl	_	_
 18	originals	original	ADJ	ADJ	Number=Plur	17	amod	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	PunctType=Comm	22	punct	_	_
 20	però	però	CCONJ	CCONJ	_	22	cc	_	_
@@ -6214,14 +6214,14 @@
 22	materials	material	NOUN	NOUN	Gender=Masc|Number=Plur	17	conj	_	_
 23	més	més	ADV	ADV	_	24	advmod	_	_
 24	perdurables	perdurable	ADJ	ADJ	Number=Plur	22	amod	_	SpaceAfter=No
-25	,	,	PUNCT	PUNCT	PunctType=Comm	32	punct	_	_
-26	ja	ja	ADV	ADV	_	32	mark	_	MWE=ja_que|MWEPOS=SCONJ
+25	,	,	PUNCT	PUNCT	PunctType=Comm	12	punct	_	_
+26	ja	ja	ADV	ADV	_	12	mark	_	MWE=ja_que|MWEPOS=SCONJ
 27	que	que	SCONJ	SCONJ	_	26	fixed	_	_
 28	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
-29	actuals	actual	ADJ	ADJ	Number=Plur	32	nsubj	_	_
+29	actuals	actual	ADJ	ADJ	Number=Plur	12	nsubj	_	_
 30	estan	estar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
-31	força	força	ADV	ADV	_	32	advmod	_	_
-32	deteriorades	deteriorat	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	11	ccomp	_	SpaceAfter=No
+31	força	força	ADV	ADV	_	12	advmod	_	_
+32	deteriorades	deteriorat	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	12	xcomp	_	SpaceAfter=No
 33	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id = dev-s169
@@ -7944,18 +7944,18 @@
 # text = Segons Curley la tan anunciada 'revolució digital' s'ha acabat consolidant, produïnt uns enormes canvis en la distribució dels productes i augmentant la competència empresarial, fets que l'han portat a donar un nou gir en l'edició del USA Today i apostar per la seva versió digital.
 # orig_file_sentence 003#18
 1	Segons	segons	ADP	ADP	AdpType=Prep	2	case	_	_
-2	Curley	Curley	PROPN	PROPN	_	13	obl	_	_
+2	Curley	Curley	PROPN	PROPN	_	12	obl	_	_
 3	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 4	tan	tan	ADV	ADV	_	5	advmod	_	_
 5	anunciada	anunciat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	7	amod	_	_
 6	'	'	SYM	SYM	_	7	nmod	_	SpaceAfter=No
-7	revolució	revolució	NOUN	NOUN	Gender=Fem|Number=Sing	13	nsubj	_	_
+7	revolució	revolució	NOUN	NOUN	Gender=Fem|Number=Sing	12	nsubj	_	_
 8	digital	digital	ADJ	ADJ	Number=Sing	7	amod	_	SpaceAfter=No
 9	'	'	SYM	SYM	_	7	nmod	_	_
-10	s'	ell	PRON	PRON	Person=3	13	obj	_	SpaceAfter=No
-11	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-12	acabat	acabar	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux	_	_
-13	consolidant	consolidar	VERB	VERB	VerbForm=Ger	0	root	_	SpaceAfter=No
+10	s'	ell	PRON	PRON	Person=3	12	obj	_	SpaceAfter=No
+11	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	acabat	acabar	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	consolidant	consolidar	VERB	VERB	VerbForm=Ger	12	xcomp	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	PunctType=Comm	15	punct	_	_
 15	produïnt	produir	VERB	VERB	VerbForm=Ger	13	advcl	_	_
 16	uns	un	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
@@ -7995,7 +7995,7 @@
 50	seva	seu	DET	DET	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	51	det	_	_
 51	versió	versió	NOUN	NOUN	Gender=Fem|Number=Sing	47	obj	_	_
 52	digital	digital	ADJ	ADJ	Number=Sing	51	amod	_	SpaceAfter=No
-53	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
+53	.	.	PUNCT	PUNCT	PunctType=Peri	12	punct	_	_
 
 # sent_id = dev-s219
 # text = L'empresari ha reconegut la formació com a prioritat de la seva empresa, "pel repte que suposa dotar de continguts aquesta revolució tecnològica, que tot i la llibertat i el benestar corre el risc de ser buida si es basa únicament en els diners".
@@ -8037,16 +8037,16 @@
 35	corre	córrer	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl	_	_
 36	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	risc	risc	NOUN	NOUN	Gender=Masc|Number=Sing	35	obj	_	_
-38	de	de	ADP	ADP	AdpType=Prep	40	mark	_	_
-39	ser	ser	AUX	AUX	VerbForm=Inf	40	aux	_	_
-40	buida	buit	ADJ	ADJ	Gender=Fem|Number=Sing	37	acl	_	_
-41	si	si	SCONJ	SCONJ	_	40	mark	_	_
-42	es	ell	PRON	PRON	Person=3	40	obj	_	_
-43	basa	basar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
-44	únicament	únicament	ADV	ADV	_	40	advmod	_	_
+38	de	de	ADP	ADP	AdpType=Prep	43	mark	_	_
+39	ser	ser	AUX	AUX	VerbForm=Inf	43	aux	_	_
+40	buida	buit	ADJ	ADJ	Gender=Fem|Number=Sing	43	xcomp	_	_
+41	si	si	SCONJ	SCONJ	_	43	mark	_	_
+42	es	ell	PRON	PRON	Person=3	43	obj	_	_
+43	basa	basar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl	_	_
+44	únicament	únicament	ADV	ADV	_	43	advmod	_	_
 45	en	en	ADP	ADP	AdpType=Prep	47	case	_	_
 46	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
-47	diners	diner	NOUN	NOUN	Gender=Masc|Number=Plur	40	obj	_	SpaceAfter=No
+47	diners	diner	NOUN	NOUN	Gender=Masc|Number=Plur	43	obj	_	SpaceAfter=No
 48	"	"	PUNCT	PUNCT	PunctType=Quot	17	punct	_	SpaceAfter=No
 49	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
@@ -9043,12 +9043,12 @@
 23	tenia	tenir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	ccomp	_	_
 24	fortes	fort	ADJ	ADJ	Gender=Fem|Number=Plur	25	amod	_	_
 25	contradiccions	contradicció	NOUN	NOUN	Gender=Fem|Number=Plur	23	obj	_	_
-26	i	i	CCONJ	CCONJ	_	31	cc	_	_
-27	no	no	ADV	ADV	Polarity=Neg	31	advmod	_	_
-28	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
-29	acabar	acabar	AUX	AUX	VerbForm=Inf	31	aux	_	_
+26	i	i	CCONJ	CCONJ	_	29	cc	_	_
+27	no	no	ADV	ADV	Polarity=Neg	29	advmod	_	_
+28	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	acabar	acabar	VERB	AUX	VerbForm=Inf	23	conj	_	_
 30	d'	de	ADP	ADP	AdpType=Prep	31	mark	_	SpaceAfter=No
-31	esclarir	esclarir	VERB	VERB	VerbForm=Inf	23	conj	_	_
+31	esclarir	esclarir	VERB	VERB	VerbForm=Inf	29	xcomp	_	_
 32	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
 33	existència	existència	NOUN	NOUN	Gender=Fem|Number=Sing	31	obj	_	_
 34	d'	de	ADP	ADP	AdpType=Prep	36	case	_	SpaceAfter=No
@@ -11345,15 +11345,15 @@
 14	en	en	ADP	ADP	AdpType=Prep	16	case	_	_
 15	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	territori	territori	NOUN	NOUN	Gender=Masc|Number=Sing	13	obl	_	_
-17	i	i	CCONJ	CCONJ	_	25	cc	_	_
-18	per	per	ADP	ADP	AdpType=Prep	25	case	_	_
-19	a	a	ADP	ADP	AdpType=Prep	25	mark	_	_
-20	garantir	garantir	AUX	AUX	VerbForm=Inf	25	aux	_	_
+17	i	i	CCONJ	CCONJ	_	20	cc	_	_
+18	per	per	ADP	ADP	AdpType=Prep	20	case	_	_
+19	a	a	ADP	ADP	AdpType=Prep	20	mark	_	_
+20	garantir	garantir	VERB	AUX	VerbForm=Inf	13	conj	_	_
 21	que	que	SCONJ	SCONJ	_	25	mark	_	_
 22	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	volumetria	volumetria	NOUN	NOUN	Gender=Fem|Number=Sing	25	nsubj	_	_
 24	sigui	ser	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
-25	coherent	coherent	ADJ	ADJ	Number=Sing	13	conj	_	_
+25	coherent	coherent	ADJ	ADJ	Number=Sing	20	ccomp	_	_
 26	i	i	CCONJ	CCONJ	_	27	cc	_	_
 27	doni	donar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	_
 28	qualitat	qualitat	NOUN	NOUN	Gender=Fem|Number=Sing	27	obj	_	_
@@ -11633,12 +11633,12 @@
 30	i	i	CCONJ	CCONJ	_	32	cc	_	_
 31	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	Ajuntament	Ajuntament	PROPN	PROPN	_	24	conj	_	_
-33	per	per	ADP	ADP	AdpType=Prep	48	mark	_	_
-34	dur	dur	AUX	AUX	VerbForm=Inf	48	aux	_	MWE=dur_a_terme|MWEPOS=AUX
+33	per	per	ADP	ADP	AdpType=Prep	34	mark	_	_
+34	dur	dur	VERB	AUX	VerbForm=Inf	16	advcl	_	MWE=dur_a_terme|MWEPOS=AUX
 35	a	a	ADP	ADP	AdpType=Prep	36	case	_	_
 36	terme	terme	NOUN	NOUN	Number=Sing	34	compound	_	_
 37	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
-38	ordenació	ordenació	NOUN	NOUN	Gender=Fem|Number=Sing	48	nsubj	_	_
+38	ordenació	ordenació	NOUN	NOUN	Gender=Fem|Number=Sing	34	nsubj	_	_
 39	urbanística	urbanístic	ADJ	ADJ	Gender=Fem|Number=Sing	38	amod	_	_
 40	de	de	ADP	ADP	AdpType=Prep	42	case	_	_
 41	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
@@ -11646,16 +11646,16 @@
 43	que	que	PRON	PRON	PronType=Rel	44	nsubj	_	_
 44	quedi	quedar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	acl	_	_
 45	lliure	lliure	ADJ	ADJ	Number=Sing	44	obj	_	_
-46	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Art	48	advmod	_	MWE=un_cop|MWEPOS=ADV
+46	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Art	34	advmod	_	MWE=un_cop|MWEPOS=ADV
 47	cop	cop	NOUN	NOUN	_	46	fixed	_	_
-48	eliminat	eliminar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	advcl	_	_
+48	eliminat	eliminar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	xcomp	_	_
 49	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
-50	viaducte	viaducte	NOUN	NOUN	Gender=Masc|Number=Sing	48	nsubj	_	SpaceAfter=No
-51	,	,	PUNCT	PUNCT	PunctType=Comm	48	punct	_	_
+50	viaducte	viaducte	NOUN	NOUN	Gender=Masc|Number=Sing	34	nsubj	_	SpaceAfter=No
+51	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
 52	bé	bé	CCONJ	CCONJ	_	55	cc	_	_
 53	per	per	ADP	ADP	AdpType=Prep	55	case	_	_
 54	a	a	ADP	ADP	AdpType=Prep	55	case	_	_
-55	aprofitament	aprofitament	NOUN	NOUN	Gender=Masc|Number=Sing	48	obl	_	_
+55	aprofitament	aprofitament	NOUN	NOUN	Gender=Masc|Number=Sing	34	obl	_	_
 56	urbanístic	urbanístic	ADJ	ADJ	Gender=Masc|Number=Sing	55	amod	_	_
 57	o	o	CCONJ	CCONJ	_	63	cc	_	MWE=o_bé|MWEPOS=CCONJ
 58	bé	bé	NOUN	NOUN	_	57	fixed	_	_
@@ -11719,9 +11719,9 @@
 2	Això	això	PRON	PRON	Number=Sing|PronType=Dem	4	nsubj	_	_
 3	no	no	ADV	ADV	Polarity=Neg	4	advmod	_	_
 4	suposa	suposar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
-5	dir	dir	AUX	AUX	VerbForm=Inf	7	aux	_	_
+5	dir	dir	VERB	AUX	VerbForm=Inf	4	ccomp	_	_
 6	que	que	SCONJ	SCONJ	_	7	mark	_	_
-7	demanem	demanar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	demanem	demanar	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
 8	a	a	ADP	ADP	AdpType=Prep	10	case	_	_
 9	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Generalitat	Generalitat	PROPN	PROPN	_	7	iobj	_	SpaceAfter=No
@@ -11929,9 +11929,9 @@
 5	plusvàlues	plusvàlua	NOUN	NOUN	Gender=Fem|Number=Plur	4	obj	_	_
 6	seria	ser	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	cop	_	_
 7	lògic	lògic	ADJ	ADJ	Gender=Masc|Number=Sing	35	ccomp	_	_
-8	demanar	demanar	AUX	AUX	VerbForm=Inf	10	aux	_	_
+8	demanar	demanar	VERB	AUX	VerbForm=Inf	7	csubj	_	_
 9	que	que	SCONJ	SCONJ	_	10	mark	_	_
-10	contribuïssin	contribuir	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	csubj	_	_
+10	contribuïssin	contribuir	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
 11	a	a	ADP	ADP	AdpType=Prep	12	mark	_	_
 12	finançar	finançar	VERB	VERB	VerbForm=Inf	10	xcomp	_	_
 13	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
@@ -12236,12 +12236,12 @@
 # sent_id = dev-s329
 # text = Si algun mitjà vol reproduir-lo només cal que citi la revista on es va publicar.
 # orig_file_sentence 004#28
-1	Si	si	SCONJ	SCONJ	_	5	mark	_	_
+1	Si	si	SCONJ	SCONJ	_	4	mark	_	_
 2	algun	algun	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
-3	mitjà	mitjà	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
-4	vol	voler	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	mitjà	mitjà	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	vol	voler	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
 5-6	reproduir-lo	_	_	_	_	_	_	_	_
-5	reproduir	reproduir	VERB	VERB	VerbForm=Inf	8	advcl	_	_
+5	reproduir	reproduir	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
 6	lo	ell	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 7	només	només	ADV	ADV	_	8	advmod	_	_
 8	cal	caldre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12310,11 +12310,11 @@
 11	insinuen	insinuar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	possibilitats	possibilitat	NOUN	NOUN	Gender=Fem|Number=Plur	11	nsubj	_	_
 13	concretes	concret	ADJ	ADJ	Gender=Fem|Number=Plur	12	amod	_	_
-14	que	que	PRON	PRON	PronType=Rel	18	nsubj	_	_
-15	podrien	poder	AUX	AUX	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	18	aux	_	_
-16	començar	començar	AUX	AUX	VerbForm=Inf	18	aux	_	_
+14	que	que	PRON	PRON	PronType=Rel	16	nsubj	_	_
+15	podrien	poder	AUX	AUX	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	16	aux	_	_
+16	començar	començar	VERB	AUX	VerbForm=Inf	12	acl	_	_
 17	a	a	ADP	ADP	AdpType=Prep	18	mark	_	_
-18	cobrir	cobrir	VERB	VERB	VerbForm=Inf	12	acl	_	_
+18	cobrir	cobrir	VERB	VERB	VerbForm=Inf	16	xcomp	_	_
 19	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	buit	buit	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
 21	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
@@ -13171,25 +13171,25 @@
 22	democràtic	democràtic	ADJ	ADJ	Gender=Masc|Number=Sing	15	amod	_	_
 23	i	i	CCONJ	CCONJ	_	24	cc	_	_
 24	progressista	progressista	ADJ	ADJ	Number=Sing	22	conj	_	SpaceAfter=No
-25	:	:	PUNCT	PUNCT	PunctType=Colo	43	punct	_	_
-26	fer	fer	AUX	AUX	VerbForm=Inf	43	aux	_	_
-27	negoci	negoci	NOUN	NOUN	Gender=Masc|Number=Sing	43	obj	_	_
-28	venent	vendre	AUX	AUX	VerbForm=Ger	43	aux	_	_
+25	:	:	PUNCT	PUNCT	PunctType=Colo	26	punct	_	_
+26	fer	fer	VERB	AUX	VerbForm=Inf	15	acl	_	_
+27	negoci	negoci	NOUN	NOUN	Gender=Masc|Number=Sing	26	obj	_	_
+28	venent	vendre	AUX	AUX	VerbForm=Ger	26	aux	_	_
 29	moltes	molt	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	30	det	_	_
-30	notícies	notícia	NOUN	NOUN	Gender=Fem|Number=Plur	43	obj	_	_
+30	notícies	notícia	NOUN	NOUN	Gender=Fem|Number=Plur	26	obj	_	_
 31	de	de	ADP	ADP	AdpType=Prep	33	case	_	_
 32	molts	molt	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	33	det	_	_
 33	llocs	lloc	NOUN	NOUN	Gender=Masc|Number=Plur	30	nmod	_	_
 34	a	a	ADP	ADP	AdpType=Prep	36	case	_	_
 35	molts	molt	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	36	det	_	_
-36	diaris	diari	NOUN	NOUN	Gender=Masc|Number=Plur	43	obj	_	_
+36	diaris	diari	NOUN	NOUN	Gender=Masc|Number=Plur	26	obj	_	_
 37	diversos	divers	ADJ	ADJ	Gender=Masc|Number=Plur	36	amod	_	SpaceAfter=No
-38	,	,	PUNCT	PUNCT	PunctType=Comm	43	punct	_	_
-39	perquè	perquè	SCONJ	SCONJ	_	43	mark	_	_
+38	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
+39	perquè	perquè	SCONJ	SCONJ	_	26	mark	_	_
 40	aquests	aquest	DET	DET	Gender=Masc|Number=Plur|PronType=Dem	41	det	_	_
-41	diaris	diari	NOUN	NOUN	Gender=Masc|Number=Plur	43	nsubj	_	_
-42	poguessin	poder	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	43	aux	_	_
-43	competir	competir	VERB	VERB	VerbForm=Inf	15	acl	_	_
+41	diaris	diari	NOUN	NOUN	Gender=Masc|Number=Plur	26	nsubj	_	_
+42	poguessin	poder	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+43	competir	competir	VERB	VERB	VerbForm=Inf	26	xcomp	_	_
 44	amb	amb	ADP	ADP	AdpType=Prep	47	case	_	_
 45	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
 46	pocs	poc	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	45	det	_	_
@@ -13207,9 +13207,9 @@
 # sent_id = dev-s355
 # text = Però el llop - el repartiment del món, l'interès creixent dels estats - començava a ensenyar l'orella.
 # orig_file_sentence 004#54
-1	Però	però	CCONJ	CCONJ	_	18	advmod	_	_
+1	Però	però	CCONJ	CCONJ	_	16	advmod	_	_
 2	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	llop	llop	NOUN	NOUN	Gender=Masc|Number=Sing	18	nsubj	_	_
+3	llop	llop	NOUN	NOUN	Gender=Masc|Number=Sing	16	nsubj	_	_
 4	-	-	PUNCT	PUNCT	PunctType=Dash	6	punct	_	_
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	repartiment	repartiment	NOUN	NOUN	Gender=Masc|Number=Sing	3	appos	_	_
@@ -13222,12 +13222,12 @@
 13	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	14	case	_	_
 14	estats	estat	NOUN	NOUN	Gender=Masc|Number=Plur	11	nmod	_	_
 15	-	-	PUNCT	PUNCT	PunctType=Dash	6	punct	_	_
-16	començava	començar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux	_	_
+16	començava	començar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 17	a	a	ADP	ADP	AdpType=Prep	18	mark	_	_
-18	ensenyar	ensenyar	VERB	VERB	VerbForm=Inf	0	root	_	_
+18	ensenyar	ensenyar	VERB	VERB	VerbForm=Inf	16	xcomp	_	_
 19	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	orella	orella	NOUN	NOUN	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
-21	.	.	PUNCT	PUNCT	PunctType=Peri	18	punct	_	_
+21	.	.	PUNCT	PUNCT	PunctType=Peri	16	punct	_	_
 
 # sent_id = dev-s356
 # text = Ve l'Estat i ho veu claríssim controlar una agència de notícies era controlar la informació que rebien i per tant donaven els diaris, i cada vegada més, com més s'anaven escurçant les distàncies més s'interrelacionaven els interessos tant dels poders com dels ciutadans.
@@ -13336,18 +13336,18 @@
 14	es	es	PRON	PRON	_	16	obj	_	_
 15	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	produir	produir	VERB	VERB	VerbForm=Inf	0	root	_	_
-17	quan	quan	SCONJ	SCONJ	_	27	mark	_	_
+17	quan	quan	SCONJ	SCONJ	_	22	mark	_	_
 18	aquestes	aquest	DET	DET	Gender=Fem|Number=Plur|PronType=Dem	19	det	_	_
-19	organitzacions	organització	NOUN	NOUN	Gender=Fem|Number=Plur	27	nsubj	_	_
+19	organitzacions	organització	NOUN	NOUN	Gender=Fem|Number=Plur	22	nsubj	_	_
 20	comercials	comercial	ADJ	ADJ	Number=Plur	19	amod	_	_
-21	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
-22	començar	començar	AUX	AUX	VerbForm=Inf	27	aux	_	_
+21	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	començar	començar	VERB	AUX	VerbForm=Inf	16	advcl	_	_
 23	a	a	ADP	ADP	AdpType=Prep	27	case	_	_
-24	no	no	ADV	ADV	Polarity=Neg	27	advmod	_	_
+24	no	no	ADV	ADV	Polarity=Neg	22	advmod	_	_
 25	ser	ser	AUX	AUX	VerbForm=Inf	27	cop	_	_
-26	tan	tan	ADV	ADV	_	27	advmod	_	_
-27	rendibles	rendible	ADJ	ADJ	Number=Plur	16	advcl	_	_
-28	econòmicament	econòmicament	ADV	ADV	_	27	advmod	_	SpaceAfter=No
+26	tan	tan	ADV	ADV	_	22	advmod	_	_
+27	rendibles	rendible	ADJ	ADJ	Number=Plur	22	xcomp	_	_
+28	econòmicament	econòmicament	ADV	ADV	_	22	advmod	_	SpaceAfter=No
 29	:	:	PUNCT	PUNCT	PunctType=Colo	94	punct	_	_
 30	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	31	det	_	SpaceAfter=No
 31	augment	augment	NOUN	NOUN	Gender=Masc|Number=Sing	94	nsubj	_	_
@@ -14278,13 +14278,13 @@
 45	faria	fer	VERB	VERB	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	ccomp	_	_
 46	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	47	det	_	_
 47	pacte	pacte	NOUN	NOUN	Gender=Masc|Number=Sing	45	nsubj	_	SpaceAfter=No
-48	:	:	PUNCT	PUNCT	PunctType=Colo	54	punct	_	_
+48	:	:	PUNCT	PUNCT	PunctType=Colo	53	punct	_	_
 49	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
-50	secció	secció	NOUN	NOUN	Gender=Fem|Number=Sing	54	nsubj	_	_
+50	secció	secció	NOUN	NOUN	Gender=Fem|Number=Sing	53	nsubj	_	_
 51	en	en	ADP	ADP	AdpType=Prep	52	case	_	_
 52	espanyol	espanyol	NOUN	NOUN	Gender=Masc|Number=Sing	50	nmod	_	_
-53	continuaria	continuar	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	54	aux	_	_
-54	depenent	dependre	VERB	VERB	VerbForm=Ger	47	acl	_	_
+53	continuaria	continuar	VERB	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	47	acl	_	_
+54	depenent	dependre	VERB	VERB	VerbForm=Ger	53	xcomp	_	_
 55	de	de	ADP	ADP	AdpType=Prep	56	case	_	_
 56	Madrid	Madrid	PROPN	PROPN	_	54	obj	_	SpaceAfter=No
 57	,	,	PUNCT	PUNCT	PunctType=Comm	61	punct	_	_
@@ -14406,21 +14406,21 @@
 50	òrbita	òrbita	NOUN	NOUN	Gender=Fem|Number=Sing	47	nmod	_	_
 51	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	52	case	_	_
 52	PSOE	PSOE	PROPN	PROPN	_	50	nmod	_	SpaceAfter=No
-53	:	:	PUNCT	PUNCT	PunctType=Colo	66	punct	_	_
+53	:	:	PUNCT	PUNCT	PunctType=Colo	64	punct	_	_
 54	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	55	det	_	SpaceAfter=No
-55	imperi	imperi	NOUN	NOUN	Gender=Masc|Number=Sing	66	nsubj	_	_
+55	imperi	imperi	NOUN	NOUN	Gender=Masc|Number=Sing	64	nsubj	_	_
 56	americà	americà	ADJ	ADJ	Gender=Masc|Number=Sing	55	amod	_	_
 57	d'	de	ADP	ADP	AdpType=Prep	58	case	_	SpaceAfter=No
 58	Efe	Efe	PROPN	PROPN	_	55	nmod	_	_
-59	de	de	ADP	ADP	AdpType=Prep	66	advmod	_	MWE=de_cop_i_volta|MWEPOS=ADV
+59	de	de	ADP	ADP	AdpType=Prep	64	advmod	_	MWE=de_cop_i_volta|MWEPOS=ADV
 60	cop	cop	NOUN	NOUN	_	59	fixed	_	_
 61	i	i	CCONJ	CCONJ	_	59	fixed	_	_
 62	volta	volta	NOUN	NOUN	_	59	fixed	_	_
-63	es	ell	PRON	PRON	Person=3	66	obj	_	_
-64	comença	començar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	66	aux	_	_
+63	es	ell	PRON	PRON	Person=3	64	obj	_	_
+64	comença	començar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
 65	a	a	ADP	ADP	AdpType=Prep	66	mark	_	_
-66	esquerdar	esquerdar	VERB	VERB	VerbForm=Inf	23	advcl	_	_
-67	-	-	PUNCT	PUNCT	PunctType=Dash	66	punct	_	_
+66	esquerdar	esquerdar	VERB	VERB	VerbForm=Inf	64	xcomp	_	_
+67	-	-	PUNCT	PUNCT	PunctType=Dash	74	punct	_	_
 68	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
 69	visió	visió	NOUN	NOUN	Gender=Fem|Number=Sing	74	nsubj	_	_
 70	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	71	case	_	_
@@ -14636,12 +14636,12 @@
 5	projecte	projecte	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
 6	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 7	realitat	realitat	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-8	:	:	PUNCT	PUNCT	PunctType=Colo	13	punct	_	_
+8	:	:	PUNCT	PUNCT	PunctType=Colo	11	punct	_	_
 9	vuit	vuit	NUM	NUM	Number=Plur|NumType=Card	10	nummod	_	_
-10	periodistes	periodista	NOUN	NOUN	Number=Plur	13	nsubj	_	_
-11	comencen	començar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+10	periodistes	periodista	NOUN	NOUN	Number=Plur	11	nsubj	_	_
+11	comencen	començar	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 12	a	a	ADP	ADP	AdpType=Prep	13	mark	_	_
-13	passar	passar	VERB	VERB	VerbForm=Inf	7	advcl	_	_
+13	passar	passar	VERB	VERB	VerbForm=Inf	11	xcomp	_	_
 14	informació	informació	NOUN	NOUN	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
 16	pròpia	propi	ADJ	ADJ	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
@@ -14728,14 +14728,14 @@
 15	interromp	interrompre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
 16	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	servei	servei	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
-18	,	,	PUNCT	PUNCT	PunctType=Comm	25	punct	_	_
-19	raonant	raonar	AUX	AUX	VerbForm=Ger	25	aux	_	_
+18	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
+19	raonant	raonar	VERB	AUX	VerbForm=Ger	15	advcl	_	_
 20	que	que	SCONJ	SCONJ	_	25	mark	_	_
 21	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Generalitat	Generalitat	PROPN	PROPN	_	25	nsubj	_	_
 23	"	"	PUNCT	PUNCT	PunctType=Quot	25	punct	_	SpaceAfter=No
 24	no	no	ADV	ADV	Polarity=Neg	25	advmod	_	_
-25	col·labora	col·laborar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+25	col·labora	col·laborar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	SpaceAfter=No
 26	"	"	PUNCT	PUNCT	PunctType=Quot	25	punct	_	SpaceAfter=No
 27	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
@@ -14752,13 +14752,13 @@
 8	més	més	ADV	ADV	_	9	advmod	_	_
 9	raonable	raonable	ADJ	ADJ	Number=Sing	0	root	_	_
 10	encara	encara	ADV	ADV	_	9	advmod	_	_
-11	pensar	pensar	AUX	AUX	VerbForm=Inf	17	aux	_	_
+11	pensar	pensar	VERB	AUX	VerbForm=Inf	9	csubj	_	_
 12	que	que	SCONJ	SCONJ	_	17	mark	_	_
 13	a	a	ADP	ADP	AdpType=Prep	15	case	_	_
 14	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Generalitat	Generalitat	PROPN	PROPN	_	17	obj	_	_
 16	no	no	ADV	ADV	Polarity=Neg	17	advmod	_	_
-17	interessava	interessar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	csubj	_	_
+17	interessava	interessar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	ccomp	_	_
 18	pagar	pagar	VERB	VERB	VerbForm=Inf	17	csubj	_	_
 19	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
 20	altra	altre	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
@@ -15519,24 +15519,24 @@
 # sent_id = dev-s419
 # text = Si d'un punt de vista estrictament estratègic, frenar una agència de notícies sembla tan poc intel·ligent com haver frenat TV3 amb l'excusa que era il·legal, del punt de vista estretament tàctic, és a dir del punt de vista de la catalanització d'Espanya, era ben explicable: si un català volia arribar a manar a Madrid, Catalunya havia de fer bondat, no cridar, i no espantar Madrid amb una agència de notícies; perquè a Madrid, on els Luís Maria Anson sobren tant com a nosaltres ens falten, sabien molt bé que si TV3 els fa tant mal com a nosaltres bé, una agència de notícies és pitjor: és molt més barata, és molt més legal, i és molt més influent.
 # orig_file_sentence 005#19
-1	Si	si	SCONJ	SCONJ	_	18	mark	_	_
+1	Si	si	SCONJ	SCONJ	_	15	mark	_	_
 2	d'	de	ADP	ADP	AdpType=Prep	4	case	_	SpaceAfter=No
 3	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
-4	punt	punt	NOUN	NOUN	Gender=Masc|Number=Sing	18	obl	_	_
+4	punt	punt	NOUN	NOUN	Gender=Masc|Number=Sing	15	obl	_	_
 5	de	de	ADP	ADP	AdpType=Prep	6	case	_	_
 6	vista	vista	NOUN	NOUN	Number=Sing	4	nmod	_	_
 7	estrictament	estrictament	ADV	ADV	_	8	advmod	_	_
 8	estratègic	estratègic	ADJ	ADJ	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
-10	frenar	frenar	VERB	VERB	VerbForm=Inf	18	csubj	_	_
+10	frenar	frenar	VERB	VERB	VerbForm=Inf	15	csubj	_	_
 11	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
 12	agència	agència	NOUN	NOUN	Gender=Fem|Number=Sing	10	obj	_	_
 13	de	de	ADP	ADP	AdpType=Prep	14	case	_	_
 14	notícies	notícia	NOUN	NOUN	Gender=Fem|Number=Plur	12	nmod	_	_
-15	sembla	semblar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
-16	tan	tan	ADV	ADV	_	18	advmod	_	_
+15	sembla	semblar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	advcl	_	_
+16	tan	tan	ADV	ADV	_	15	advmod	_	_
 17	poc	poc	ADV	ADV	_	16	advmod	_	_
-18	intel·ligent	intel·ligent	ADJ	ADJ	Number=Sing	52	advcl	_	_
+18	intel·ligent	intel·ligent	ADJ	ADJ	Number=Sing	15	xcomp	_	_
 19	com	com	SCONJ	SCONJ	_	21	mark	_	_
 20	haver	haver	AUX	AUX	VerbForm=Inf	21	aux	_	_
 21	frenat	frenar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
@@ -15576,11 +15576,11 @@
 55	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	56	det	_	_
 56	català	català	NOUN	NOUN	Gender=Masc|Number=Sing	57	nsubj	_	_
 57	volia	voler	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	52	advcl	_	_
-58	arribar	arribar	AUX	AUX	VerbForm=Inf	60	aux	_	_
+58	arribar	arribar	VERB	AUX	VerbForm=Inf	57	xcomp	_	_
 59	a	a	ADP	ADP	AdpType=Prep	60	mark	_	_
-60	manar	manar	VERB	VERB	VerbForm=Inf	57	xcomp	_	_
+60	manar	manar	VERB	VERB	VerbForm=Inf	58	xcomp	_	_
 61	a	a	ADP	ADP	AdpType=Prep	62	case	_	_
-62	Madrid	Madrid	PROPN	PROPN	_	60	obl	_	SpaceAfter=No
+62	Madrid	Madrid	PROPN	PROPN	_	58	obl	_	SpaceAfter=No
 63	,	,	PUNCT	PUNCT	PunctType=Comm	57	punct	_	_
 64	Catalunya	Catalunya	PROPN	PROPN	_	67	nsubj	_	_
 65	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	67	aux	_	_
@@ -15687,10 +15687,10 @@
 6	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 7	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
 8	català	català	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
-9	dir	dir	AUX	AUX	VerbForm=Inf	12	aux	_	_
-10	que	que	SCONJ	SCONJ	_	12	mark	_	_
-11	volia	voler	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
-12	catalanitzar	catalanitzar	VERB	VERB	VerbForm=Inf	3	xcomp	_	_
+9	dir	dir	VERB	AUX	VerbForm=Inf	3	xcomp	_	_
+10	que	que	SCONJ	SCONJ	_	9	mark	_	_
+11	volia	voler	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+12	catalanitzar	catalanitzar	VERB	VERB	VerbForm=Inf	9	xcomp	_	_
 13	Espanya	Espanya	PROPN	PROPN	_	12	obj	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 15	si	si	SCONJ	SCONJ	_	20	mark	_	_
@@ -16128,9 +16128,9 @@
 # sent_id = dev-s434
 # text = Catalunya segueix sent el territori amb la taxa més baixa d'atur registrat a l'Estat espanyol amb un 6,6% de la població activa.
 # orig_file_sentence 005#34
-1	Catalunya	Catalunya	PROPN	PROPN	_	3	nsubj	_	_
-2	segueix	seguir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	sent	ser	AUX	AUX	VerbForm=Ger	0	root	_	_
+1	Catalunya	Catalunya	PROPN	PROPN	_	2	nsubj	_	_
+2	segueix	seguir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sent	ser	AUX	AUX	VerbForm=Ger	2	xcomp	_	_
 4	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	territori	territori	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
 6	amb	amb	ADP	ADP	AdpType=Prep	8	case	_	_
@@ -16152,7 +16152,7 @@
 22	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	població	població	NOUN	NOUN	Gender=Fem|Number=Sing	20	nmod	_	_
 24	activa	actiu	ADJ	ADJ	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
-25	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
+25	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id = dev-s435
 # text = No obstant això, al gener el nombre de desocupats va incrementar-se en 3.482 persones, de manera que la xifra total va arribar a les 177.656 persones.
@@ -16742,13 +16742,13 @@
 31	Baix	Baix	ADJ	ADJ	_	29	flat	_	MWE=Baix_Llobregat|MWEPOS=PROPN
 32	Llobregat	Llobregat	PROPN	PROPN	_	31	flat	_	SpaceAfter=No
 33	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	31	punct	_	_
-34	per	per	ADP	ADP	AdpType=Prep	40	mark	_	_
-35	entendre	entendre	AUX	AUX	VerbForm=Inf	40	aux	_	_
+34	per	per	ADP	ADP	AdpType=Prep	35	mark	_	_
+35	entendre	entendre	VERB	AUX	VerbForm=Inf	13	advcl	_	_
 36	que	que	SCONJ	SCONJ	_	40	mark	_	_
 37	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
 38	fets	fet	NOUN	NOUN	Gender=Masc|Number=Plur	40	nsubj	_	_
 39	eren	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	40	cop	_	_
-40	constitutius	constitutiu	ADJ	ADJ	Gender=Masc|Number=Plur	13	advcl	_	_
+40	constitutius	constitutiu	ADJ	ADJ	Gender=Masc|Number=Plur	35	ccomp	_	_
 41	d'	de	ADP	ADP	AdpType=Prep	43	case	_	SpaceAfter=No
 42	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	43	det	_	_
 43	delicte	delicte	NOUN	NOUN	Gender=Masc|Number=Sing	40	nmod	_	_
@@ -16762,14 +16762,14 @@
 51	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	aux	_	_
 52	informar	informar	VERB	VERB	VerbForm=Inf	10	conj	_	_
 53	desfavorablement	desfavorablement	ADV	ADV	_	52	advmod	_	SpaceAfter=No
-54	,	,	PUNCT	PUNCT	PunctType=Comm	61	punct	_	_
-55	per	per	ADP	ADP	AdpType=Prep	61	mark	_	_
-56	considerar	considerar	AUX	AUX	VerbForm=Inf	61	aux	_	_
-57	que	que	SCONJ	SCONJ	_	61	mark	_	_
+54	,	,	PUNCT	PUNCT	PunctType=Comm	56	punct	_	_
+55	per	per	ADP	ADP	AdpType=Prep	56	mark	_	_
+56	considerar	considerar	VERB	AUX	VerbForm=Inf	52	advcl	_	_
+57	que	que	SCONJ	SCONJ	_	56	mark	_	_
 58	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
-59	denunciant	denunciant	NOUN	NOUN	Number=Sing	61	nsubj	_	_
-60	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	61	aux	_	_
-61	fet	fer	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	52	advcl	_	_
+59	denunciant	denunciant	NOUN	NOUN	Number=Sing	56	nsubj	_	_
+60	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	56	aux	_	_
+61	fet	fer	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	56	xcomp	_	_
 62	'	'	SYM	SYM	_	64	nmod	_	SpaceAfter=No
 63	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	64	det	_	_
 64	ús	ús	NOUN	NOUN	Gender=Masc|Number=Sing	61	obj	_	_
@@ -17010,17 +17010,17 @@
 16	es	es	PRON	PRON	_	17	obj	_	_
 17	prenguin	prendre	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
 18	mesures	mesura	NOUN	NOUN	Gender=Fem|Number=Plur	17	nsubj	_	SpaceAfter=No
-19	,	,	PUNCT	PUNCT	PunctType=Comm	29	punct	_	_
-20	tot	tot	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	29	mark	_	MWE=tot_i|MWEPOS=ADP
+19	,	,	PUNCT	PUNCT	PunctType=Comm	22	punct	_	_
+20	tot	tot	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	22	mark	_	MWE=tot_i|MWEPOS=ADP
 21	i	i	CCONJ	CCONJ	_	20	fixed	_	_
-22	recordant	recordar	AUX	AUX	VerbForm=Ger	29	aux	_	_
+22	recordant	recordar	VERB	AUX	VerbForm=Ger	17	advcl	_	_
 23	que	que	SCONJ	SCONJ	_	29	mark	_	_
 24	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
 25	tipus	tipus	NOUN	NOUN	Gender=Masc	29	nsubj	_	_
 26	d'	de	ADP	ADP	AdpType=Prep	27	case	_	SpaceAfter=No
 27	accident	accident	NOUN	NOUN	Gender=Masc|Number=Sing	25	nmod	_	_
 28	es	ell	PRON	PRON	Person=3	29	obj	_	_
-29	repeteix	repetir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+29	repeteix	repetir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	ccomp	_	_
 30	cada	cada	DET	DET	Number=Sing|PronType=Ind	31	det	_	_
 31	any	any	NOUN	NOUN	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
 32	,	,	PUNCT	PUNCT	PunctType=Comm	29	punct	_	_
@@ -17238,20 +17238,20 @@
 28	Mas	Mas	PROPN	PROPN	_	30	nsubj	_	_
 29	es	ell	PRON	PRON	Person=3	30	iobj	_	_
 30	mostri	mostrar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	csubj	_	_
-31	confiat	confiat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	30	ccomp	_	_
-32	que	que	SCONJ	SCONJ	_	31	mark	_	_
+31	confiat	confiat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	40	xcomp	_	_
+32	que	que	SCONJ	SCONJ	_	40	mark	_	_
 33	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
-34	acció	acció	NOUN	NOUN	Gender=Fem|Number=Sing	31	nsubj	_	_
+34	acció	acció	NOUN	NOUN	Gender=Fem|Number=Sing	40	nsubj	_	_
 35	de	de	ADP	ADP	AdpType=Prep	36	case	_	_
 36	govern	govern	NOUN	NOUN	Gender=Masc|Number=Sing	34	nmod	_	_
 37	de	de	ADP	ADP	AdpType=Prep	38	case	_	_
 38	CiU	CiU	PROPN	PROPN	_	34	nmod	_	_
-39	li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
-40	permetrà	permetre	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	31	cop	_	_
-41	sortir	sortir	AUX	AUX	VerbForm=Inf	42	aux	_	_
-42	reforçada	reforçat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	31	obj	_	_
+39	li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	40	obj	_	_
+40	permetrà	permetre	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	30	ccomp	_	_
+41	sortir	sortir	VERB	AUX	VerbForm=Inf	40	ccomp	_	_
+42	reforçada	reforçat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	41	xcomp	_	_
 43	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	44	case	_	_
-44	debats	debat	NOUN	NOUN	Gender=Masc|Number=Plur	42	obl	_	_
+44	debats	debat	NOUN	NOUN	Gender=Masc|Number=Plur	41	obl	_	_
 45	de	de	ADP	ADP	AdpType=Prep	47	case	_	_
 46	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	tardor	tardor	NOUN	NOUN	Gender=Fem|Number=Sing	44	nmod	_	SpaceAfter=No
@@ -17558,16 +17558,16 @@
 37	'	'	SYM	SYM	_	39	nmod	_	SpaceAfter=No
 38	encara	encara	ADV	ADV	_	39	advmod	_	_
 39	està	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	ccomp	_	_
-40	per	per	ADP	ADP	AdpType=Prep	45	mark	_	_
-41	concretar	concretar	AUX	AUX	VerbForm=Inf	45	aux	_	_
+40	per	per	ADP	ADP	AdpType=Prep	41	mark	_	_
+41	concretar	concretar	VERB	AUX	VerbForm=Inf	39	advcl	_	_
 42	fins	fins	ADP	ADP	AdpType=Prep	43	case	_	_
-43	on	on	PRON	PRON	PronType=Rel	45	obl	_	_
+43	on	on	PRON	PRON	PronType=Rel	41	obl	_	_
 44	està	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
-45	disposat	disposat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	39	advcl	_	_
+45	disposat	disposat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	41	xcomp	_	_
 46	a	a	ADP	ADP	AdpType=Prep	47	mark	_	_
 47	arribar	arribar	VERB	VERB	VerbForm=Inf	45	xcomp	_	_
 48	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
-49	PSC	PSC	PROPN	PROPN	_	45	nsubj	_	SpaceAfter=No
+49	PSC	PSC	PROPN	PROPN	_	41	nsubj	_	SpaceAfter=No
 50	'	'	SYM	SYM	_	39	nmod	_	SpaceAfter=No
 51	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
@@ -18295,15 +18295,15 @@
 25	mitjans	mitjà	NOUN	NOUN	Gender=Masc|Number=Plur	19	obl	_	_
 26	de	de	ADP	ADP	AdpType=Prep	27	case	_	_
 27	comunicació	comunicació	NOUN	NOUN	Gender=Fem|Number=Sing	25	nmod	_	_
-28	o	o	CCONJ	CCONJ	_	36	cc	_	MWE=o_bé|MWEPOS=CCONJ
+28	o	o	CCONJ	CCONJ	_	30	cc	_	MWE=o_bé|MWEPOS=CCONJ
 29	bé	bé	NOUN	NOUN	_	28	fixed	_	_
-30	incentivar	incentivar	AUX	AUX	VerbForm=Inf	36	aux	_	_
-31	que	que	SCONJ	SCONJ	_	36	mark	_	_
+30	incentivar	incentivar	VERB	AUX	VerbForm=Inf	19	conj	_	_
+31	que	que	SCONJ	SCONJ	_	30	mark	_	_
 32	aquesta	aquest	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
-33	agència	agència	NOUN	NOUN	Gender=Fem|Number=Sing	36	nsubj	_	_
-34	pugui	poder	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+33	agència	agència	NOUN	NOUN	Gender=Fem|Number=Sing	30	nsubj	_	_
+34	pugui	poder	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
 35	ser	ser	AUX	AUX	VerbForm=Inf	36	cop	_	_
-36	privada	privat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	19	conj	_	SpaceAfter=No
+36	privada	privat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	30	xcomp	_	SpaceAfter=No
 37	'	'	SYM	SYM	_	18	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
 
@@ -18615,12 +18615,12 @@
 15	sobre	sobre	ADP	ADP	AdpType=Prep	17	case	_	_
 16	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	fet	fet	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
-18	que	que	SCONJ	SCONJ	_	23	mark	_	_
+18	que	que	SCONJ	SCONJ	_	21	mark	_	_
 19	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	Japó	Japó	PROPN	PROPN	_	23	nsubj	_	_
-21	comenci	començar	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+20	Japó	Japó	PROPN	PROPN	_	21	nsubj	_	_
+21	comenci	començar	VERB	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	_
 22	a	a	ADP	ADP	AdpType=Prep	23	mark	_	_
-23	recuperar	recuperar	VERB	VERB	VerbForm=Inf	17	acl	_	_
+23	recuperar	recuperar	VERB	VERB	VerbForm=Inf	21	xcomp	_	_
 24	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	retard	retard	NOUN	NOUN	Gender=Masc|Number=Sing	23	obj	_	_
 26	que	que	PRON	PRON	PronType=Rel	28	obj	_	_
@@ -19599,9 +19599,9 @@
 17	'	'	SYM	SYM	_	14	nmod	_	SpaceAfter=No
 18	som	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	cop	_	_
 19	dones	dona	NOUN	NOUN	Gender=Fem|Number=Plur	14	conj	_	_
-20	i	i	CCONJ	CCONJ	_	22	cc	_	_
-21	volem	voler	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
-22	parlar	parlar	VERB	VERB	VerbForm=Inf	14	conj	_	_
+20	i	i	CCONJ	CCONJ	_	21	cc	_	_
+21	volem	voler	VERB	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	conj	_	_
+22	parlar	parlar	VERB	VERB	VerbForm=Inf	21	xcomp	_	_
 23	de	de	ADP	ADP	AdpType=Prep	24	case	_	_
 24	dones	dona	NOUN	NOUN	Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
 25	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
@@ -19718,12 +19718,12 @@
 3	justificat	justificar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	fet	fet	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
-6	assegurant	assegurar	AUX	AUX	VerbForm=Ger	11	aux	_	_
+6	assegurant	assegurar	VERB	AUX	VerbForm=Ger	3	advcl	_	_
 7	que	que	SCONJ	SCONJ	_	11	mark	_	_
 8	'	'	SYM	SYM	_	11	nmod	_	SpaceAfter=No
 9	no	no	ADV	ADV	Polarity=Neg	11	advmod	_	_
 10	hi	hi	PRON	PRON	Person=3|PronType=Prs	11	obj	_	_
-11	ha	haver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+11	ha	haver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
 12	textos	text	NOUN	NOUN	Gender=Masc|Number=Plur	11	obj	_	_
 13	teatrals	teatral	ADJ	ADJ	Number=Plur	12	amod	_	_
 14	per	per	ADP	ADP	AdpType=Prep	16	case	_	_
@@ -20270,12 +20270,12 @@
 31	gironines	gironí	ADJ	ADJ	Gender=Fem|Number=Plur	30	amod	_	SpaceAfter=No
 32	;	;	PUNCT	PUNCT	PunctType=Semi	23	punct	_	_
 33	per	per	ADP	ADP	AdpType=Prep	23	mark	_	_
-34	ajudar	ajudar	AUX	AUX	VerbForm=Inf	39	aux	_	_
+34	ajudar	ajudar	VERB	AUX	VerbForm=Inf	33	conj	_	_
 35	que	que	SCONJ	SCONJ	_	39	mark	_	_
 36	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
 37	ajuntaments	ajuntament	NOUN	NOUN	Gender=Masc|Number=Plur	39	nsubj	_	_
 38	no	no	ADV	ADV	Polarity=Neg	39	advmod	_	_
-39	actuin	actuar	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	conj	_	_
+39	actuin	actuar	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	ccomp	_	_
 40	sols	sols	ADV	ADV	_	39	advmod	_	SpaceAfter=No
 41	,	,	PUNCT	PUNCT	PunctType=Comm	40	punct	_	_
 42	sinó	sinó	CCONJ	CCONJ	_	44	cc	_	MWE=sinó_que|MWEPOS=CCONJ
@@ -20819,10 +20819,10 @@
 2	fiscal	fiscal	NOUN	NOUN	Number=Sing	4	nsubj	_	_
 3	l'	ell	PRON	PRON	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	SpaceAfter=No
 4	acusa	acusar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	d'	de	ADP	ADP	AdpType=Prep	8	mark	_	SpaceAfter=No
-6	haver	haver	AUX	AUX	VerbForm=Inf	8	aux	_	_
-7	volgut	voler	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux	_	_
-8	protegir	protegir	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
+5	d'	de	ADP	ADP	AdpType=Prep	7	mark	_	SpaceAfter=No
+6	haver	haver	AUX	AUX	VerbForm=Inf	7	aux	_	_
+7	volgut	voler	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+8	protegir	protegir	VERB	VERB	VerbForm=Inf	7	xcomp	_	_
 9	el	el	DET	DET	Gender=Masc|Number=Sing|PronType=Art	11	det	_	MWE=el_seu|MWEPOS=DET
 10	seu	seu	DET	DET	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
 11	company	company	NOUN	NOUN	Gender=Masc|Number=Sing	8	obj	_	_
@@ -20883,10 +20883,10 @@
 48	vist	veure	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	advcl	_	_
 49	unes	un	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	50	det	_	_
 50	fotos	foto	NOUN	NOUN	Gender=Fem|Number=Plur	48	obj	_	_
-51	que	que	PRON	PRON	PronType=Rel	54	nsubj	_	_
-52	li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	54	iobj	_	_
-53	feien	fer	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	54	aux	_	_
-54	pensar	pensar	VERB	VERB	VerbForm=Inf	50	acl	_	_
+51	que	que	PRON	PRON	PronType=Rel	53	nsubj	_	_
+52	li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	53	iobj	_	_
+53	feien	fer	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	50	acl	_	_
+54	pensar	pensar	VERB	VERB	VerbForm=Inf	53	xcomp	_	_
 55	que	que	SCONJ	SCONJ	_	57	mark	_	_
 56	s'	ell	PRON	PRON	Person=3	57	obj	_	SpaceAfter=No
 57	entenia	entendre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	54	ccomp	_	_
@@ -21046,16 +21046,16 @@
 2	agent	agent	NOUN	NOUN	Number=Sing	4	nsubj	_	_
 3	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	negat	negar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	haver	haver	AUX	AUX	VerbForm=Inf	14	aux	_	_
-6	entès	entendre	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux	_	_
-7	que	que	SCONJ	SCONJ	_	14	mark	_	_
+5	haver	haver	AUX	AUX	VerbForm=Inf	6	aux	_	_
+6	entès	entendre	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
+7	que	que	SCONJ	SCONJ	_	6	mark	_	_
 8	el	el	DET	DET	Gender=Masc|Number=Sing|PronType=Art	10	det	_	MWE=el_seu|MWEPOS=DET
 9	seu	seu	DET	DET	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
-10	company	company	NOUN	NOUN	Gender=Masc|Number=Sing	14	nsubj	_	_
+10	company	company	NOUN	NOUN	Gender=Masc|Number=Sing	6	nsubj	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 12	feina	feina	NOUN	NOUN	Gender=Fem|Number=Sing	10	nmod	_	_
-13	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
-14	apallissat	apallissar	VERB	VERB	Tense=Past|VerbForm=Part	4	ccomp	_	_
+13	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+14	apallissat	apallissar	VERB	VERB	Tense=Past|VerbForm=Part	6	xcomp	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	noia	noia	NOUN	NOUN	Gender=Fem|Number=Sing	14	obj	_	_
 17	i	i	CCONJ	CCONJ	_	20	cc	_	_
@@ -21480,11 +21480,11 @@
 2	fiscal	fiscal	NOUN	NOUN	Number=Sing	4	nsubj	_	_
 3	l'	ell	PRON	PRON	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	SpaceAfter=No
 4	acusa	acusar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	d'	de	ADP	ADP	AdpType=Prep	8	mark	_	SpaceAfter=No
+5	d'	de	ADP	ADP	AdpType=Prep	6	mark	_	SpaceAfter=No
 6-7	haver-se	_	_	_	_	_	_	_	_
-6	haver	haver	AUX	AUX	VerbForm=Inf	8	cop	_	_
-7	se	ell	PRON	PRON	Person=3	8	obj	_	_
-8	limitat	limitat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	4	xcomp	_	_
+6	haver	haver	VERB	AUX	VerbForm=Inf	4	xcomp	_	_
+7	se	ell	PRON	PRON	Person=3	6	obj	_	_
+8	limitat	limitat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	6	xcomp	_	_
 9	a	a	ADP	ADP	AdpType=Prep	10	mark	_	_
 10	calmar	calmar	VERB	VERB	VerbForm=Inf	8	xcomp	_	_
 11	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
@@ -22397,13 +22397,13 @@
 17	tenen	tenir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
 18	proves	prova	NOUN	NOUN	Gender=Fem|Number=Plur	17	obj	_	_
 19	suficients	suficient	ADJ	ADJ	Number=Plur	18	amod	_	_
-20	per	per	ADP	ADP	AdpType=Prep	26	mark	_	_
-21	concloure	concloure	AUX	AUX	VerbForm=Inf	26	aux	_	_
-22	que	que	SCONJ	SCONJ	_	26	mark	_	_
-23	també	també	ADV	ADV	_	26	advmod	_	_
-24	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
-25	ser	ser	AUX	AUX	VerbForm=Inf	26	aux	_	_
-26	assassinats	assassinar	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+20	per	per	ADP	ADP	AdpType=Prep	21	mark	_	_
+21	concloure	concloure	VERB	AUX	VerbForm=Inf	18	acl	_	_
+22	que	que	SCONJ	SCONJ	_	21	mark	_	_
+23	també	també	ADV	ADV	_	21	advmod	_	_
+24	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+25	ser	ser	AUX	AUX	VerbForm=Inf	21	aux	_	_
+26	assassinats	assassinar	VERB	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	xcomp	_	_
 27	pel	pel	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	28	case	_	_
 28	doctor	doctor	NOUN	NOUN	Gender=Masc|Number=Sing	26	obj	_	_
 29	Shipman	Shipman	PROPN	PROPN	_	28	appos	_	SpaceAfter=No
@@ -22597,15 +22597,15 @@
 26	analistes	analista	NOUN	NOUN	Number=Plur	28	nsubj	_	_
 27	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
 28	dir	dir	VERB	VERB	VerbForm=Inf	6	conj	_	_
-29	que	que	SCONJ	SCONJ	_	37	mark	_	_
+29	que	que	SCONJ	SCONJ	_	35	mark	_	_
 30	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	pols	pols	NOUN	NOUN	Gender=Masc|Number=Sing	37	nsubj	_	_
+31	pols	pols	NOUN	NOUN	Gender=Masc|Number=Sing	35	nsubj	_	_
 32	de	de	ADP	ADP	AdpType=Prep	34	case	_	_
 33	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
 34	euro	euro	NOUN	NOUN	Gender=Masc|Number=Sing	31	nmod	_	_
-35	continua	continuar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+35	continua	continuar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	_	_
 36	sent	ser	AUX	AUX	VerbForm=Ger	37	cop	_	_
-37	feble	feble	ADJ	ADJ	Number=Sing	28	ccomp	_	SpaceAfter=No
+37	feble	feble	ADJ	ADJ	Number=Sing	35	xcomp	_	SpaceAfter=No
 38	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id = dev-s601
@@ -22696,10 +22696,10 @@
 # orig_file_sentence 007#3
 1	Totes	tot	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	aquestes	aquest	DET	DET	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
-3	dades	dada	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
-4	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-5	fer	fer	AUX	AUX	VerbForm=Inf	6	aux	_	_
-6	pensar	pensar	VERB	VERB	VerbForm=Inf	0	root	_	_
+3	dades	dada	NOUN	NOUN	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fer	fer	VERB	AUX	VerbForm=Inf	0	root	_	_
+6	pensar	pensar	VERB	VERB	VerbForm=Inf	5	xcomp	_	_
 7	als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	8	case	_	_
 8	analistes	analista	NOUN	NOUN	Number=Plur	6	iobj	_	_
 9	que	que	SCONJ	SCONJ	_	14	mark	_	_
@@ -22726,19 +22726,19 @@
 30	tipus	tipus	NOUN	NOUN	Gender=Masc	26	obj	_	_
 31	d'	de	ADP	ADP	AdpType=Prep	32	case	_	SpaceAfter=No
 32	interès	interès	NOUN	NOUN	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
-33	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
+33	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s604
 # text = Tot plegat va fer retrocedir en els mercats de divises el dòlar, que va perdre un 0,90% amb el ien i va patir el declivi més gran enfront de l'euro en tres mesos.
 # orig_file_sentence 007#4
 1	Tot	tot	DET	DET	Gender=Masc|Number=Sing|PronType=Tot	2	det	_	MWE=Tot_plegat|MWEPOS=NOUN
-2	plegat	plegat	NOUN	NOUN	_	5	nsubj	_	_
-3	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-4	fer	fer	AUX	AUX	VerbForm=Inf	5	aux	_	_
-5	retrocedir	retrocedir	VERB	VERB	VerbForm=Inf	0	root	_	_
+2	plegat	plegat	NOUN	NOUN	_	4	nsubj	_	_
+3	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fer	fer	VERB	AUX	VerbForm=Inf	0	root	_	_
+5	retrocedir	retrocedir	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
 6	en	en	ADP	ADP	AdpType=Prep	8	case	_	_
 7	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
-8	mercats	mercat	NOUN	NOUN	Gender=Masc|Number=Plur	5	obl	_	_
+8	mercats	mercat	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
 9	de	de	ADP	ADP	AdpType=Prep	10	case	_	_
 10	divises	divisa	NOUN	NOUN	Gender=Fem|Number=Plur	8	nmod	_	_
 11	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -22766,7 +22766,7 @@
 33	en	en	ADP	ADP	AdpType=Prep	35	case	_	_
 34	tres	tres	NUM	NUM	Number=Plur|NumType=Card	35	nummod	_	_
 35	mesos	mes	NOUN	NOUN	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
-36	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
+36	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s605
 # text = La moneda única també es va veure beneficiada pels guanys de les borses europees i per una enquesta que revela un retrocés dels partidaris del no en el referèndum sobre l'euro a Dinamarca el 28 de setembre.
@@ -22912,11 +22912,11 @@
 11	Indústria	Indústria	PROPN	PROPN	_	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 13	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
-14	associació	associació	NOUN	NOUN	Gender=Fem|Number=Sing	18	nsubj	_	_
+14	associació	associació	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj	_	_
 15	d'	de	ADP	ADP	AdpType=Prep	16	case	_	SpaceAfter=No
 16	afectats	afectat	NOUN	NOUN	Gender=Masc|Number=Plur	14	nmod	_	_
-17	farà	fer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	aux	_	_
-18	arribar	arribar	VERB	VERB	VerbForm=Inf	0	root	_	_
+17	farà	fer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+18	arribar	arribar	VERB	VERB	VerbForm=Inf	17	xcomp	_	_
 19	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	20	det	_	_
 20	escrit	escrit	NOUN	NOUN	Gender=Masc|Number=Sing	18	obj	_	_
 21	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	22	case	_	_
@@ -22931,7 +22931,7 @@
 30	demanant	demanar	VERB	VERB	VerbForm=Ger	25	conj	_	_
 31	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	32	det	_	_
 32	entrevista	entrevista	NOUN	NOUN	Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No
-33	.	.	PUNCT	PUNCT	PunctType=Peri	18	punct	_	_
+33	.	.	PUNCT	PUNCT	PunctType=Peri	17	punct	_	_
 
 # sent_id = dev-s609
 # text = Els 2.300 pensionistes i vídues de Carbons de Berga SA, que va tancar l'any 1991, volen que el ministeri els reconegui el dret a percebre aquesta quota, que se 'ls va retirar en tancar la mina, però que està reconeguda en el cas d'altres explotacions mineres que han tancat posteriorment a aquesta data.
@@ -23071,15 +23071,15 @@
 17	a	a	ADP	ADP	AdpType=Prep	19	case	_	_
 18	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	quota	quota	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
-20	que	que	PRON	PRON	PronType=Rel	24	obj	_	_
-21	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
-22	deixar	deixar	AUX	AUX	VerbForm=Inf	24	aux	_	_
+20	que	que	PRON	PRON	PronType=Rel	22	obj	_	_
+21	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	deixar	deixar	VERB	AUX	VerbForm=Inf	19	acl	_	_
 23	de	de	ADP	ADP	AdpType=Prep	24	mark	_	_
-24	percebre	percebre	VERB	VERB	VerbForm=Inf	19	acl	_	_
+24	percebre	percebre	VERB	VERB	VerbForm=Inf	22	xcomp	_	_
 25	des	des	ADP	ADP	AdpType=Prep	28	case	_	MWE=des_de|MWEPOS=ADP
 26	de	de	ADP	ADP	AdpType=Prep	25	fixed	_	_
 27	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
-28	any	any	NOUN	NOUN	_	24	obl	_	MWE=any_1991|MWEPOS=NOUN
+28	any	any	NOUN	NOUN	_	22	obl	_	MWE=any_1991|MWEPOS=NOUN
 29	1991	1991	NUM	NUM	NumForm=Digit|NumType=Card	28	compound	_	_
 30	i	i	CCONJ	CCONJ	_	33	cc	_	_
 31	a	a	ADP	ADP	AdpType=Prep	33	case	_	_
@@ -23164,10 +23164,10 @@
 20	ara	ara	ADV	ADV	_	21	advmod	_	_
 21	caldrà	caldre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	conj	_	_
 22-23	tornar-lo	_	_	_	_	_	_	_	_
-22	tornar	tornar	AUX	AUX	VerbForm=Inf	25	aux	_	_
-23	lo	ell	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+22	tornar	tornar	VERB	AUX	VerbForm=Inf	21	csubj	_	_
+23	lo	ell	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
 24	a	a	ADP	ADP	AdpType=Prep	25	mark	_	_
-25	reactivar	reactivar	VERB	VERB	VerbForm=Inf	21	csubj	_	SpaceAfter=No
+25	reactivar	reactivar	VERB	VERB	VerbForm=Inf	22	xcomp	_	SpaceAfter=No
 26	.	.	PUNCT	PUNCT	PunctType=Peri	14	punct	_	_
 
 # sent_id = dev-s615
@@ -23238,7 +23238,7 @@
 1	Des	des	ADP	ADP	AdpType=Prep	4	case	_	MWE=Des_de|MWEPOS=ADP
 2	de	de	ADP	ADP	AdpType=Prep	1	fixed	_	_
 3	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
-4	any	any	NOUN	NOUN	_	20	obl	_	MWE=any_1991|MWEPOS=NOUN
+4	any	any	NOUN	NOUN	_	18	obl	_	MWE=any_1991|MWEPOS=NOUN
 5	1991	1991	NUM	NUM	NumForm=Digit|NumType=Card	4	compound	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 7	quan	quan	PRON	PRON	PronType=Rel	9	obl	_	_
@@ -23250,14 +23250,14 @@
 13	SA	SA	PROPN	PROPN	_	12	flat	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	PunctType=Comm	9	punct	_	_
 15	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	miners	miner	NOUN	NOUN	Gender=Masc|Number=Plur	20	nsubj	_	_
-17	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
-18	deixar	deixar	AUX	AUX	VerbForm=Inf	20	aux	_	_
+16	miners	miner	NOUN	NOUN	Gender=Masc|Number=Plur	18	nsubj	_	_
+17	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	deixar	deixar	VERB	AUX	VerbForm=Inf	0	root	_	_
 19	de	de	ADP	ADP	AdpType=Prep	20	mark	_	_
-20	percebre	percebre	VERB	VERB	VerbForm=Inf	0	root	_	_
+20	percebre	percebre	VERB	VERB	VerbForm=Inf	18	xcomp	_	_
 21	aquesta	aquest	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
 22	quota	quota	NOUN	NOUN	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
-23	.	.	PUNCT	PUNCT	PunctType=Peri	20	punct	_	_
+23	.	.	PUNCT	PUNCT	PunctType=Peri	18	punct	_	_
 
 # sent_id = dev-s618
 # text = Va ser aquell mateix any quan els antics miners van constituir l'associació per fer aquesta reclamació.
@@ -23438,11 +23438,11 @@
 15	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	14	punct	_	_
 16	a	a	ADP	ADP	AdpType=Prep	17	case	_	_
 17	CiU	CiU	PROPN	PROPN	_	11	nmod	_	_
-18	dient	dir	AUX	AUX	VerbForm=Ger	22	aux	_	_
+18	dient	dir	VERB	AUX	VerbForm=Ger	9	acl	_	_
 19	que	que	SCONJ	SCONJ	_	22	mark	_	_
 20	'	'	SYM	SYM	_	22	nmod	_	SpaceAfter=No
 21	CiU	CiU	PROPN	PROPN	_	22	nsubj	_	_
-22	defensa	defensar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	_
+22	defensa	defensar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
 23	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	puresa	puresa	NOUN	NOUN	Gender=Fem|Number=Sing	22	obj	_	_
 25	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
@@ -23578,9 +23578,9 @@
 9	PSC	PSC	PROPN	PROPN	_	7	iobj	_	_
 10	i	i	CCONJ	CCONJ	_	11	cc	_	_
 11	CiU	CiU	PROPN	PROPN	_	9	conj	_	_
-12	d'	de	ADP	ADP	AdpType=Prep	14	mark	_	SpaceAfter=No
-13	intentar	intentar	AUX	AUX	VerbForm=Inf	14	aux	_	_
-14	separar	separar	VERB	VERB	VerbForm=Inf	7	xcomp	_	_
+12	d'	de	ADP	ADP	AdpType=Prep	13	mark	_	SpaceAfter=No
+13	intentar	intentar	VERB	AUX	VerbForm=Inf	7	xcomp	_	_
+14	separar	separar	VERB	VERB	VerbForm=Inf	13	xcomp	_	_
 15	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 16	catalans	català	ADJ	ADJ	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
 17	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
@@ -23607,11 +23607,11 @@
 17	Convergència	Convergència	PROPN	PROPN	_	9	nmod	_	MWE=Convergència_i_Unió|MWEPOS=PROPN
 18	i	i	CCONJ	CCONJ	_	19	cc	_	_
 19	Unió	Unió	PROPN	PROPN	_	17	conj	_	_
-20	dient	dir	AUX	AUX	VerbForm=Ger	24	aux	_	_
+20	dient	dir	VERB	AUX	VerbForm=Ger	9	acl	_	_
 21	que	que	SCONJ	SCONJ	_	24	mark	_	_
 22	'	'	SYM	SYM	_	24	nmod	_	SpaceAfter=No
 23	CiU	CiU	PROPN	PROPN	_	24	nsubj	_	_
-24	defensa	defensar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	_
+24	defensa	defensar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
 25	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	puresa	puresa	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
 27	de	de	ADP	ADP	AdpType=Prep	28	case	_	_
@@ -23989,7 +23989,7 @@
 2	través	través	NOUN	NOUN	_	1	fixed	_	_
 3	d'	de	ADP	ADP	AdpType=Prep	1	fixed	_	SpaceAfter=No
 4	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
-5	programa	programa	NOUN	NOUN	Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
+5	programa	programa	NOUN	NOUN	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 7	que	que	PRON	PRON	PronType=Rel	8	nsubj	_	_
 8	pretén	pretendre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
@@ -24008,11 +24008,11 @@
 21	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 22	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
 23	dues	dos	NUM	NUM	Gender=Fem|Number=Plur|NumType=Card	22	nummod	_	_
-24	cambres	cambra	NOUN	NOUN	Gender=Fem|Number=Plur	28	nsubj	_	_
+24	cambres	cambra	NOUN	NOUN	Gender=Fem|Number=Plur	27	nsubj	_	_
 25	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 26	comerç	comerç	NOUN	NOUN	Gender=Masc|Number=Sing	24	nmod	_	_
-27	volen	voler	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
-28	fomentar	fomentar	VERB	VERB	VerbForm=Inf	0	root	_	_
+27	volen	voler	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	fomentar	fomentar	VERB	VERB	VerbForm=Inf	27	xcomp	_	_
 29	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
 30	intercanvi	intercanvi	NOUN	NOUN	Gender=Masc|Number=Sing	28	obj	_	_
 31	entre	entre	ADP	ADP	AdpType=Prep	32	case	_	_
@@ -24020,7 +24020,7 @@
 33	catalanes	català	ADJ	ADJ	Gender=Fem|Number=Plur	32	amod	_	_
 34	i	i	CCONJ	CCONJ	_	35	cc	_	_
 35	franceses	francès	ADJ	ADJ	Gender=Fem|Number=Plur	33	conj	_	SpaceAfter=No
-36	.	.	PUNCT	PUNCT	PunctType=Peri	28	punct	_	_
+36	.	.	PUNCT	PUNCT	PunctType=Peri	27	punct	_	_
 
 # sent_id = dev-s636
 # text = L'acord al qual han arribat les dues institucions camerals també contempla la realització de trobades entre institucions, centres d'innovació i accions de formació, entre d'altres iniciatives.
@@ -24197,12 +24197,12 @@
 3	també	també	ADV	ADV	_	5	advmod	_	_
 4	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	decidit	decidir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	traslladar	traslladar	AUX	AUX	VerbForm=Inf	11	aux	_	_
+6	traslladar	traslladar	VERB	AUX	VerbForm=Inf	5	xcomp	_	_
 7	als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	8	case	_	_
-8	responsables	responsable	NOUN	NOUN	Number=Plur	11	obj	_	_
+8	responsables	responsable	NOUN	NOUN	Number=Plur	6	obj	_	_
 9	d'	de	ADP	ADP	AdpType=Prep	10	case	_	SpaceAfter=No
 10	autopistes	autopista	NOUN	NOUN	Gender=Fem|Number=Plur	8	nmod	_	_
-11	reclamar	reclamar	VERB	VERB	VerbForm=Inf	5	xcomp	_	_
+11	reclamar	reclamar	VERB	VERB	VerbForm=Inf	6	xcomp	_	_
 12	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	desdoblament	desdoblament	NOUN	NOUN	Gender=Masc|Number=Sing	11	obj	_	_
 14	de	de	ADP	ADP	AdpType=Prep	16	case	_	_
@@ -24898,7 +24898,7 @@
 # text = El portaveu de la junta, Josep Maria Antràs, es va arribar a referir a la possibilitat que el club pot multar el jugador per indisciplina si es nega a acatar les ordres del tècnic.
 # orig_file_sentence 007#65
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	portaveu	portaveu	NOUN	NOUN	Number=Sing	15	nsubj	_	_
+2	portaveu	portaveu	NOUN	NOUN	Number=Sing	13	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	5	case	_	_
 4	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	junta	junta	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
@@ -24907,11 +24907,11 @@
 8	Maria	Maria	PROPN	PROPN	_	7	flat	_	_
 9	Antràs	Antràs	PROPN	PROPN	_	7	flat	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
-11	es	ell	PRON	PRON	Person=3	15	obj	_	_
-12	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
-13	arribar	arribar	AUX	AUX	VerbForm=Inf	15	aux	_	_
+11	es	ell	PRON	PRON	Person=3	13	obj	_	_
+12	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	arribar	arribar	VERB	AUX	VerbForm=Inf	0	root	_	_
 14	a	a	ADP	ADP	AdpType=Prep	15	mark	_	_
-15	referir	referir	VERB	VERB	VerbForm=Inf	0	root	_	_
+15	referir	referir	VERB	VERB	VerbForm=Inf	13	xcomp	_	_
 16	a	a	ADP	ADP	AdpType=Prep	18	case	_	_
 17	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	possibilitat	possibilitat	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	_
@@ -24933,7 +24933,7 @@
 34	ordres	ordre	NOUN	NOUN	Gender=Fem|Number=Plur	32	obj	_	_
 35	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	36	case	_	_
 36	tècnic	tècnic	NOUN	NOUN	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	PUNCT	PunctType=Peri	15	punct	_	_
+37	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
 # sent_id = dev-s666
 # text = Però Van Gaal no és partidari d'agreujar el conflicte.
@@ -26333,16 +26333,16 @@
 25	arquitecte	arquitecte	NOUN	NOUN	Gender=Masc|Number=Sing	22	nsubj	_	_
 26	Enric	Enric	PROPN	PROPN	_	25	appos	_	MWE=Enric_Miralles|MWEPOS=PROPN
 27	Miralles	Miralles	PROPN	PROPN	_	26	flat	_	SpaceAfter=No
-28	:	:	PUNCT	PUNCT	PunctType=Colo	37	punct	_	_
-29	rehabilitar	rehabilitar	AUX	AUX	VerbForm=Inf	37	aux	_	_
+28	:	:	PUNCT	PUNCT	PunctType=Colo	29	punct	_	_
+29	rehabilitar	rehabilitar	VERB	AUX	VerbForm=Inf	15	acl	_	_
 30	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	32	det	_	_
 31	dens	dens	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
-32	casc	casc	NOUN	NOUN	Gender=Masc|Number=Sing	37	obj	_	_
+32	casc	casc	NOUN	NOUN	Gender=Masc|Number=Sing	29	obj	_	_
 33	antic	antic	ADJ	ADJ	Gender=Masc|Number=Sing	32	amod	_	_
 34	de	de	ADP	ADP	AdpType=Prep	36	case	_	_
 35	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 36	ciutat	ciutat	NOUN	NOUN	Gender=Fem|Number=Sing	32	nmod	_	_
-37	combinant	combinar	VERB	VERB	VerbForm=Ger	15	acl	_	_
+37	combinant	combinar	VERB	VERB	VerbForm=Ger	29	xcomp	_	_
 38	edificis	edifici	NOUN	NOUN	Gender=Masc|Number=Plur	37	obj	_	_
 39	centenaris	centenari	ADJ	ADJ	Gender=Masc|Number=Plur	38	amod	_	_
 40	amb	amb	ADP	ADP	AdpType=Prep	41	case	_	_
@@ -26350,7 +26350,7 @@
 42	de	de	ADP	ADP	AdpType=Prep	44	case	_	_
 43	nova	nou	ADJ	ADJ	Gender=Fem|Number=Sing	44	amod	_	_
 44	planta	planta	NOUN	NOUN	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
-45	,	,	PUNCT	PUNCT	PunctType=Comm	37	punct	_	_
+45	,	,	PUNCT	PUNCT	PunctType=Comm	29	punct	_	_
 46	i	i	CCONJ	CCONJ	_	49	cc	_	_
 47	tot	tot	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	48	det	_	_
 48	això	això	PRON	PRON	Number=Sing|PronType=Dem	49	obj	_	_
@@ -26443,14 +26443,14 @@
 5	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	proposta	proposta	NOUN	NOUN	Gender=Fem|Number=Sing	19	nsubj	_	_
 7	municipal	municipal	ADJ	ADJ	Number=Sing	6	amod	_	_
-8	que	que	PRON	PRON	PronType=Rel	15	nsubj	_	_
+8	que	que	PRON	PRON	PronType=Rel	13	nsubj	_	_
 9	a	a	ADP	ADP	AdpType=Prep	12	case	_	MWE=a_partir_d'|MWEPOS=ADP
 10	partir	partir	NOUN	NOUN	_	9	fixed	_	_
 11	d'	de	ADP	ADP	AdpType=Prep	9	fixed	_	SpaceAfter=No
-12	ara	ara	ADV	ADV	_	15	advmod	_	_
-13	començarà	començar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux	_	_
+12	ara	ara	ADV	ADV	_	13	advmod	_	_
+13	començarà	començar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	acl	_	_
 14	a	a	ADP	ADP	AdpType=Prep	15	mark	_	_
-15	prendre	prendre	VERB	VERB	VerbForm=Inf	6	acl	_	_
+15	prendre	prendre	VERB	VERB	VerbForm=Inf	13	xcomp	_	_
 16	forma	forma	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	_
 17	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
 18	radicalment	radicalment	ADV	ADV	_	19	advmod	_	_
@@ -26756,10 +26756,10 @@
 34	Carreras-Moysi	Carreras-Moysi	PROPN	PROPN	_	33	flat	_	_
 35	-	-	PUNCT	PUNCT	PunctType=Dash	26	punct	_	_
 36	permetrà	permetre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	advcl	_	_
-37	començar	començar	AUX	AUX	VerbForm=Inf	39	aux	_	_
+37	començar	començar	VERB	AUX	VerbForm=Inf	36	xcomp	_	_
 38	a	a	ADP	ADP	AdpType=Prep	39	mark	_	_
-39	deixar	deixar	VERB	VERB	VerbForm=Inf	36	xcomp	_	_
-40	enrere	enrere	ADV	ADV	_	39	advmod	_	_
+39	deixar	deixar	VERB	VERB	VerbForm=Inf	37	xcomp	_	_
+40	enrere	enrere	ADV	ADV	_	37	advmod	_	_
 41	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	42	det	_	_
 42	etapa	etapa	NOUN	NOUN	Gender=Fem|Number=Sing	39	obj	_	_
 43	polèmica	polèmic	ADJ	ADJ	Gender=Fem|Number=Sing	42	amod	_	_
@@ -27056,13 +27056,13 @@
 # orig_file_sentence 008#35
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	terrible	terrible	ADJ	ADJ	Number=Sing	3	amod	_	_
-3	potencial	potencial	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+3	potencial	potencial	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
 4	dels	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	5	case	_	_
 5	blaugranes	blaugrana	NOUN	NOUN	Gender=Masc|Number=Plur	3	nmod	_	_
-6	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-7	tornar	tornar	AUX	AUX	VerbForm=Inf	9	aux	_	_
+6	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	tornar	tornar	VERB	AUX	VerbForm=Inf	0	root	_	_
 8	a	a	ADP	ADP	AdpType=Prep	9	mark	_	_
-9	marcar	marcar	VERB	VERB	VerbForm=Inf	0	root	_	_
+9	marcar	marcar	VERB	VERB	VerbForm=Inf	7	xcomp	_	_
 10	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
 11	diferències	diferència	NOUN	NOUN	Gender=Fem|Number=Plur	9	obj	_	_
 12	i	i	CCONJ	CCONJ	_	15	cc	_	_
@@ -27084,7 +27084,7 @@
 27	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	play-off	play-off	NOUN	NOUN	Gender=Masc|Number=Sing	25	obj	_	_
 29	semifinal	semifinal	ADJ	ADJ	Number=Sing	28	amod	_	SpaceAfter=No
-30	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
+30	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s737
 # text = El partit va prendre cos seguint el camí dels dos primers.
@@ -27170,21 +27170,21 @@
 # text = L'equip de Trifón Poch va tornar a fer evident el seu estat de gràcia.
 # orig_file_sentence 008#38
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	equip	equip	NOUN	NOUN	Gender=Masc|Number=Sing	9	nsubj	_	_
+2	equip	equip	NOUN	NOUN	Gender=Masc|Number=Sing	7	nsubj	_	_
 3	de	de	ADP	ADP	AdpType=Prep	4	case	_	_
 4	Trifón	Trifón	PROPN	PROPN	_	2	nmod	_	MWE=Trifón_Poch|MWEPOS=PROPN
 5	Poch	Poch	PROPN	PROPN	_	4	flat	_	_
-6	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-7	tornar	tornar	AUX	AUX	VerbForm=Inf	9	aux	_	_
+6	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	tornar	tornar	VERB	AUX	VerbForm=Inf	0	root	_	_
 8	a	a	ADP	ADP	AdpType=Prep	9	mark	_	_
-9	fer	fer	VERB	VERB	VerbForm=Inf	0	root	_	_
+9	fer	fer	VERB	VERB	VerbForm=Inf	7	xcomp	_	_
 10	evident	evident	ADJ	ADJ	Number=Sing	9	obj	_	_
 11	el	el	DET	DET	Gender=Masc|Number=Sing|PronType=Art	13	det	_	MWE=el_seu|MWEPOS=DET
 12	seu	seu	DET	DET	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
 13	estat	estat	NOUN	NOUN	Gender=Masc|Number=Sing	9	obj	_	_
 14	de	de	ADP	ADP	AdpType=Prep	15	case	_	_
 15	gràcia	gràcia	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
-16	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
+16	.	.	PUNCT	PUNCT	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s740
 # text = La seva presència en els play-off ha coincidit amb el millor moment de la temporada.
@@ -27415,19 +27415,19 @@
 28	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	27	punct	_	SpaceAfter=No
 29	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
 30	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-31	Barça	Barça	PROPN	PROPN	_	37	nsubj	_	_
-32	ja	ja	ADV	ADV	_	37	advmod	_	_
-33	li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	37	obj	_	_
-34	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	aux	_	_
-35	tornat	tornar	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	aux	_	_
+31	Barça	Barça	PROPN	PROPN	_	35	nsubj	_	_
+32	ja	ja	ADV	ADV	_	35	advmod	_	_
+33	li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+34	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	aux	_	_
+35	tornat	tornar	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
 36	a	a	ADP	ADP	AdpType=Prep	37	mark	_	_
-37	prendre	prendre	VERB	VERB	VerbForm=Inf	8	advcl	_	_
+37	prendre	prendre	VERB	VERB	VerbForm=Inf	35	xcomp	_	_
 38	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
 39	pols	pols	NOUN	NOUN	Gender=Masc|Number=Sing	37	obj	_	_
 40	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	41	case	_	_
 41	partit	partit	NOUN	NOUN	Gender=Masc|Number=Sing	37	obj	_	SpaceAfter=No
 42	,	,	PUNCT	PUNCT	PunctType=Comm	43	punct	_	_
-43	sobretot	sobretot	ADV	ADV	_	37	advmod	_	_
+43	sobretot	sobretot	ADV	ADV	_	35	advmod	_	_
 44	en	en	ADP	ADP	AdpType=Prep	43	case	_	_
 45	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 46	faceta	faceta	NOUN	NOUN	Gender=Fem|Number=Sing	43	nmod	_	_
@@ -27706,11 +27706,11 @@
 23	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	porter	porter	NOUN	NOUN	Gender=Masc|Number=Sing	21	obj	_	_
 25	francès	francès	ADJ	ADJ	Gender=Masc|Number=Sing	24	amod	_	_
-26	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	30	mark	_	_
-27	considerar	considerar	AUX	AUX	VerbForm=Inf	30	aux	_	_
-28	que	que	SCONJ	SCONJ	_	30	mark	_	_
-29	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
-30	trair	trair	VERB	VERB	VerbForm=Inf	21	advcl	_	_
+26	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	27	mark	_	_
+27	considerar	considerar	VERB	AUX	VerbForm=Inf	21	advcl	_	_
+28	que	que	SCONJ	SCONJ	_	27	mark	_	_
+29	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+30	trair	trair	VERB	VERB	VerbForm=Inf	27	xcomp	_	_
 31	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	celtisme	celtisme	NOUN	NOUN	Gender=Masc|Number=Sing	30	obj	_	_
 33	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	34	mark	_	_
@@ -28430,10 +28430,10 @@
 # sent_id = dev-s782
 # text = Sense entrar a valorar la conveniència del seu gir estilístic - això és cosa seva -, la veritat és que la forma de portar-lo a terme i els resultats els donen la raó.
 # orig_file_sentence 008#80
-1	Sense	sense	ADP	ADP	AdpType=Prep	4	mark	_	_
-2	entrar	entrar	AUX	AUX	VerbForm=Inf	4	aux	_	_
+1	Sense	sense	ADP	ADP	AdpType=Prep	2	mark	_	_
+2	entrar	entrar	VERB	AUX	VerbForm=Inf	20	advcl	_	_
 3	a	a	ADP	ADP	AdpType=Prep	4	mark	_	_
-4	valorar	valorar	VERB	VERB	VerbForm=Inf	20	advcl	_	_
+4	valorar	valorar	VERB	VERB	VerbForm=Inf	2	xcomp	_	_
 5	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	conveniència	conveniència	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
 7	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	9	case	_	_
@@ -28446,7 +28446,7 @@
 14	cosa	cosa	NOUN	NOUN	Gender=Fem|Number=Sing	4	advcl	_	_
 15	seva	seu	DET	DET	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
 16	-	-	PUNCT	PUNCT	PunctType=Dash	14	punct	_	SpaceAfter=No
-17	,	,	PUNCT	PUNCT	PunctType=Comm	4	punct	_	_
+17	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 18	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	veritat	veritat	NOUN	NOUN	Gender=Fem|Number=Sing	20	nsubj	_	_
 20	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -28856,13 +28856,13 @@
 # orig_file_sentence 008#94
 1	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	dia	dia	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
-3	que	que	PRON	PRON	PronType=Rel	9	obl	_	_
+3	que	que	PRON	PRON	PronType=Rel	7	obl	_	_
 4	els	el	DET	DET	Gender=Masc|Number=Plur|PronType=Art	6	det	_	MWE=els_seus|MWEPOS=DET
 5	seus	seu	DET	DET	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	det	_	_
-6	fans	fan	NOUN	NOUN	Number=Plur	9	nsubj	_	_
-7	deixin	deixar	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	fans	fan	NOUN	NOUN	Number=Plur	7	nsubj	_	_
+7	deixin	deixar	VERB	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
 8	d'	de	ADP	ADP	AdpType=Prep	9	mark	_	SpaceAfter=No
-9	udolar	udolar	VERB	VERB	VerbForm=Inf	2	acl	_	_
+9	udolar	udolar	VERB	VERB	VerbForm=Inf	7	xcomp	_	_
 10	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Simpathy	Simpathy	PROPN	PROPN	_	9	obj	_	MWE=Simpathy_for_the_devil|MWEPOS=PROPN
 12	for	for	PROPN	PROPN	_	11	flat	_	_
@@ -28874,7 +28874,7 @@
 18	en	en	ADP	ADP	AdpType=Prep	21	case	_	_
 19	les	el	DET	DET	Gender=Fem|Number=Plur|PronType=Art	21	det	_	MWE=les_seves|MWEPOS=DET
 20	seves	seu	DET	DET	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	det	_	_
-21	cançons	cançó	NOUN	NOUN	Gender=Fem|Number=Plur	9	obl	_	_
+21	cançons	cançó	NOUN	NOUN	Gender=Fem|Number=Plur	7	obl	_	_
 22	hauran	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	23	aux	_	_
 23	culminat	culminar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 24	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
@@ -28918,15 +28918,15 @@
 9	primer	primer	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
 10	text	text	NOUN	NOUN	Gender=Masc|Number=Sing	7	nmod	_	_
 11	teatral	teatral	ADJ	ADJ	Number=Sing	10	amod	_	_
-12	escrit	escrit	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	_
+12	escrit	escrit	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	18	xcomp	_	_
 13	per	per	ADP	ADP	AdpType=Prep	14	case	_	_
-14	Leopoldo	Leopoldo	PROPN	PROPN	_	12	obj	_	MWE=Leopoldo_Alas|MWEPOS=PROPN
+14	Leopoldo	Leopoldo	PROPN	PROPN	_	18	obj	_	MWE=Leopoldo_Alas|MWEPOS=PROPN
 15	Alas	Alas	PROPN	PROPN	_	14	flat	_	_
-16	quan	quan	SCONJ	SCONJ	_	12	mark	_	_
-17	només	només	ADV	ADV	_	12	advmod	_	_
-18	tenia	tenir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	cop	_	_
+16	quan	quan	SCONJ	SCONJ	_	18	mark	_	_
+17	només	només	ADV	ADV	_	18	advmod	_	_
+18	tenia	tenir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl	_	_
 19	13	13	NUM	NUM	NumForm=Digit|NumType=Card	20	nummod	_	_
-20	anys	any	NOUN	NOUN	Gender=Masc|Number=Plur	12	obj	_	SpaceAfter=No
+20	anys	any	NOUN	NOUN	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
 22	segons	segons	SCONJ	SCONJ	_	23	mark	_	_
 23	informava	informar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	advcl	_	_
@@ -29325,14 +29325,14 @@
 29	d'	de	ADP	ADP	AdpType=Prep	31	case	_	SpaceAfter=No
 30	altres	altre	DET	DET	Number=Plur|PronType=Ind	31	det	_	_
 31	temps	temps	NOUN	NOUN	Gender=Masc	28	nmod	_	SpaceAfter=No
-32	,	,	PUNCT	PUNCT	PunctType=Comm	36	punct	_	_
-33	i	i	CCONJ	CCONJ	_	36	cc	_	_
-34	només	només	ADV	ADV	_	36	advmod	_	_
-35	mereix	merèixer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
-36	atenció	atenció	NOUN	NOUN	Gender=Fem|Number=Sing	28	conj	_	_
+32	,	,	PUNCT	PUNCT	PunctType=Comm	35	punct	_	_
+33	i	i	CCONJ	CCONJ	_	35	cc	_	_
+34	només	només	ADV	ADV	_	35	advmod	_	_
+35	mereix	merèixer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
+36	atenció	atenció	NOUN	NOUN	Gender=Fem|Number=Sing	35	xcomp	_	_
 37	la	el	DET	DET	Gender=Fem|Number=Sing|PronType=Art	39	det	_	MWE=la_seva|MWEPOS=DET
 38	seva	seu	DET	DET	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	det	_	_
-39	qualitat	qualitat	NOUN	NOUN	Gender=Fem|Number=Sing	36	nsubj	_	_
+39	qualitat	qualitat	NOUN	NOUN	Gender=Fem|Number=Sing	35	nsubj	_	_
 40	i	i	CCONJ	CCONJ	_	41	cc	_	_
 41	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	conj	_	_
 42	de	de	ADP	ADP	AdpType=Prep	41	case	_	_
@@ -29835,9 +29835,9 @@
 18	a	a	ADP	ADP	AdpType=Prep	19	case	_	_
 19	qui	qui	PRON	PRON	PronType=Rel	20	iobj	_	_
 20	acusa	acusar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	_
-21	d'	de	ADP	ADP	AdpType=Prep	23	mark	_	SpaceAfter=No
-22	intentar	intentar	AUX	AUX	VerbForm=Inf	23	aux	_	_
-23	robar	robar	VERB	VERB	VerbForm=Inf	20	xcomp	_	_
+21	d'	de	ADP	ADP	AdpType=Prep	22	mark	_	SpaceAfter=No
+22	intentar	intentar	VERB	AUX	VerbForm=Inf	20	xcomp	_	_
+23	robar	robar	VERB	VERB	VerbForm=Inf	22	xcomp	_	_
 24	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	ciclomotor	ciclomotor	NOUN	NOUN	Gender=Masc|Number=Sing	23	obj	_	_
 26	a	a	ADP	ADP	AdpType=Prep	28	case	_	_
@@ -30444,13 +30444,13 @@
 7	col·lecció	col·lecció	NOUN	NOUN	_	4	obl	_	_
 8	d'	de	ADP	ADP	AdpType=Prep	9	case	_	SpaceAfter=No
 9	arcs	arc	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
-10	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	13	punct	_	SpaceAfter=No
-11	per	per	ADP	ADP	AdpType=Prep	13	mark	_	_
-12	fer	fer	AUX	AUX	VerbForm=Inf	13	aux	_	_
-13	sonar	sonar	VERB	VERB	VerbForm=Inf	9	acl	_	_
+10	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	12	punct	_	SpaceAfter=No
+11	per	per	ADP	ADP	AdpType=Prep	12	mark	_	_
+12	fer	fer	VERB	AUX	VerbForm=Inf	9	acl	_	_
+13	sonar	sonar	VERB	VERB	VerbForm=Inf	12	xcomp	_	_
 14	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	cordes	corda	NOUN	NOUN	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
-16	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	13	punct	_	_
+16	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	12	punct	_	_
 17	i	i	CCONJ	CCONJ	_	19	cc	_	_
 18	41	41	NUM	NUM	NumForm=Digit|NumType=Card	19	nummod	_	_
 19	pochettes	pochettes	NOUN	NOUN	_	7	conj	_	SpaceAfter=No
@@ -30677,11 +30677,11 @@
 # sent_id = dev-s854
 # text = No ens sembla just.
 # orig_file_sentence 009#52
-1	No	no	ADV	ADV	Polarity=Neg	4	advmod	_	_
-2	ens	jo	PRON	PRON	Number=Plur|Person=1|PronType=Prs	4	obj	_	_
-3	sembla	semblar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
-4	just	just	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
+1	No	no	ADV	ADV	Polarity=Neg	3	advmod	_	_
+2	ens	jo	PRON	PRON	Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+3	sembla	semblar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	just	just	ADJ	ADJ	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s855
 # text = Aznar i Blair sol·liciten als seus socis de la Unió Europea reformes laborals basades en una flexibilitat més gran del mercat, per, diuen, aconseguir més ocupació i millor.
@@ -30953,11 +30953,11 @@
 # orig_file_sentence 009#63
 1	'	'	SYM	SYM	_	5	nmod	_	SpaceAfter=No
 2	El	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	mosquit	mosquit	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
-4	seguirà	seguir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux	_	_
-5	existint	existir	VERB	VERB	VerbForm=Ger	0	root	_	_
+3	mosquit	mosquit	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	seguirà	seguir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	existint	existir	VERB	VERB	VerbForm=Ger	4	xcomp	_	_
 6	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	7	case	_	_
-7	Delta	Delta	PROPN	PROPN	_	5	obl	_	SpaceAfter=No
+7	Delta	Delta	PROPN	PROPN	_	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
 9	però	però	CCONJ	CCONJ	_	17	cc	_	_
 10	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
@@ -30993,7 +30993,7 @@
 40	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	41	punct	_	SpaceAfter=No
 41	CODE	CODE	PROPN	PROPN	_	31	flat	_	SpaceAfter=No
 42	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	41	punct	_	SpaceAfter=No
-43	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
+43	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s866
 # text = Daniel Rius ha explicat que enguany 'per primer cop', s'han tractat les zones naturals incloses dins el Parc Natural del Delta de l'Ebre 'amb un gran resultat'.
@@ -31217,11 +31217,11 @@
 19	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	20	det	_	_
 20	estabilitat	estabilitat	NOUN	NOUN	Gender=Fem|Number=Sing	18	obj	_	_
 21	financera	financer	ADJ	ADJ	Gender=Fem|Number=Sing	20	amod	_	_
-22	per	per	ADP	ADP	AdpType=Prep	24	mark	_	_
-23	continuar	continuar	AUX	AUX	VerbForm=Inf	24	aux	_	_
-24	treballant	treballar	VERB	VERB	VerbForm=Ger	18	advcl	_	_
+22	per	per	ADP	ADP	AdpType=Prep	23	mark	_	_
+23	continuar	continuar	VERB	AUX	VerbForm=Inf	18	advcl	_	_
+24	treballant	treballar	VERB	VERB	VerbForm=Ger	23	xcomp	_	_
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
-26	dia	dia	NOUN	NOUN	_	24	obl	_	MWE=dia_a_dia|MWEPOS=NOUN
+26	dia	dia	NOUN	NOUN	_	23	obl	_	MWE=dia_a_dia|MWEPOS=NOUN
 27	a	a	ADP	ADP	AdpType=Prep	28	case	_	_
 28	dia	dia	NOUN	NOUN	_	26	compound	_	_
 29	perquè	perquè	SCONJ	SCONJ	_	34	mark	_	_
@@ -31737,11 +31737,11 @@
 1	Només	només	ADV	ADV	_	4	advmod	_	_
 2	fa	fer	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	uns	un	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
-4	anys	any	NOUN	NOUN	Gender=Masc|Number=Plur	8	obl	_	_
-5	hem	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
-6	començat	començar	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux	_	_
+4	anys	any	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
+5	hem	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	començat	començar	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	a	a	ADP	ADP	AdpType=Prep	8	mark	_	_
-8	veure	veure	VERB	VERB	VerbForm=Inf	0	root	_	_
+8	veure	veure	VERB	VERB	VerbForm=Inf	6	xcomp	_	_
 9	bacallans	bacallà	NOUN	NOUN	Gender=Masc|Number=Plur	8	obj	_	_
 10	amb	amb	ADP	ADP	AdpType=Prep	11	case	_	_
 11	forma	forma	NOUN	NOUN	Gender=Fem|Number=Sing	9	nmod	_	_
@@ -31758,7 +31758,7 @@
 22	crucificada	crucificat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	20	conj	_	_
 23	als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	24	case	_	_
 24	assecadors	assecador	NOUN	NOUN	Gender=Masc|Number=Plur	22	obl	_	SpaceAfter=No
-25	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
+25	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id = dev-s892
 # text = A la castanya li passa una cosa semblant.
@@ -31948,10 +31948,10 @@
 11	perquè	perquè	SCONJ	SCONJ	_	9	mark	_	_
 12	ni	ni	CCONJ	CCONJ	_	13	cc	_	_
 13	agraden	agradar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
-14	ni	ni	CCONJ	CCONJ	_	17	cc	_	_
-15	deixen	deixar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+14	ni	ni	CCONJ	CCONJ	_	15	cc	_	_
+15	deixen	deixar	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
 16	d'	de	ADP	ADP	AdpType=Prep	17	mark	_	SpaceAfter=No
-17	agradar	agradar	VERB	VERB	VerbForm=Inf	11	conj	_	SpaceAfter=No
+17	agradar	agradar	VERB	VERB	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id = dev-s902
@@ -32682,8 +32682,8 @@
 6	l'	ell	PRON	PRON	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
 7	han	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	desaconsellat	desaconsellar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	per	per	ADP	ADP	AdpType=Prep	34	mark	_	_
-10	considerar	considerar	AUX	AUX	VerbForm=Inf	34	aux	_	_
+9	per	per	ADP	ADP	AdpType=Prep	10	mark	_	_
+10	considerar	considerar	VERB	AUX	VerbForm=Inf	8	advcl	_	_
 11	que	que	SCONJ	SCONJ	_	34	mark	_	_
 12	el	el	DET	DET	Gender=Masc|Number=Sing|PronType=Art	14	det	_	MWE=el_seu|MWEPOS=DET
 13	seu	seu	DET	DET	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	_	_
@@ -32707,7 +32707,7 @@
 31	seria	ser	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	34	cop	_	_
 32	'	'	SYM	SYM	_	34	nmod	_	SpaceAfter=No
 33	potencialment	potencialment	ADV	ADV	_	34	advmod	_	_
-34	perillós	perillós	ADJ	ADJ	Gender=Masc|Number=Sing	8	advcl	_	SpaceAfter=No
+34	perillós	perillós	ADJ	ADJ	Gender=Masc|Number=Sing	10	ccomp	_	SpaceAfter=No
 35	'	'	SYM	SYM	_	34	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
@@ -32860,8 +32860,8 @@
 15	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	timbre	timbre	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
 17	,	,	PUNCT	PUNCT	PunctType=Comm	14	punct	_	_
-18	i	i	CCONJ	CCONJ	_	34	cc	_	_
-19	després	després	ADV	ADV	_	34	advmod	_	_
+18	i	i	CCONJ	CCONJ	_	32	cc	_	_
+19	després	després	ADV	ADV	_	32	advmod	_	_
 20	de	de	ADP	ADP	AdpType=Prep	21	mark	_	_
 21-22	reclamar-li	_	_	_	_	_	_	_	_
 21	reclamar	reclamar	VERB	VERB	VerbForm=Inf	19	advcl	_	_
@@ -32873,14 +32873,14 @@
 27	haver	haver	AUX	AUX	VerbForm=Inf	28	aux	_	_
 28	perdut	perdre	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	ccomp	_	SpaceAfter=No
 29	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
-30	el	ell	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
-31	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
-32	començar	començar	AUX	AUX	VerbForm=Inf	34	aux	_	_
+30	el	ell	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+31	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	començar	començar	VERB	AUX	VerbForm=Inf	4	conj	_	_
 33	a	a	ADP	ADP	AdpType=Prep	34	mark	_	_
-34	colpejar	colpejar	VERB	VERB	VerbForm=Inf	4	conj	_	SpaceAfter=No
+34	colpejar	colpejar	VERB	VERB	VerbForm=Inf	32	xcomp	_	SpaceAfter=No
 35	,	,	PUNCT	PUNCT	PunctType=Comm	37	punct	_	_
 36	amb	amb	ADP	ADP	AdpType=Prep	37	case	_	_
-37	cops	cop	NOUN	NOUN	Gender=Masc|Number=Plur	34	obl	_	_
+37	cops	cop	NOUN	NOUN	Gender=Masc|Number=Plur	32	obl	_	_
 38	de	de	ADP	ADP	AdpType=Prep	39	case	_	_
 39	puny	puny	NOUN	NOUN	Gender=Masc|Number=Sing	37	nmod	_	_
 40	i	i	CCONJ	CCONJ	_	41	cc	_	_
@@ -33088,11 +33088,11 @@
 17	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	2001	2001	NOUN	NOUN	AdvType=Tim	15	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	PunctType=Comm	15	punct	_	_
-20	tornar	tornar	AUX	AUX	VerbForm=Inf	22	aux	_	_
+20	tornar	tornar	VERB	AUX	VerbForm=Inf	10	xcomp	_	_
 21	a	a	ADP	ADP	AdpType=Prep	22	mark	_	_
-22	governar	governar	VERB	VERB	VerbForm=Inf	10	xcomp	_	_
+22	governar	governar	VERB	VERB	VerbForm=Inf	20	xcomp	_	_
 23	a	a	ADP	ADP	AdpType=Prep	24	case	_	_
-24	Blanes	Blanes	PROPN	PROPN	_	22	obl	_	SpaceAfter=No
+24	Blanes	Blanes	PROPN	PROPN	_	20	obl	_	SpaceAfter=No
 25	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
 26	Banyoles	Banyoles	PROPN	PROPN	_	24	conj	_	SpaceAfter=No
 27	,	,	PUNCT	PUNCT	PunctType=Comm	28	punct	_	_
@@ -33161,12 +33161,12 @@
 36	ciutats	ciutat	NOUN	NOUN	Gender=Fem|Number=Plur	34	obj	_	_
 37	que	que	PRON	PRON	PronType=Rel	38	obj	_	_
 38	tenim	tenir	VERB	VERB	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	36	acl	_	_
-39	i	i	CCONJ	CCONJ	_	42	cc	_	_
-40	tornar	tornar	AUX	AUX	VerbForm=Inf	42	aux	_	_
+39	i	i	CCONJ	CCONJ	_	40	cc	_	_
+40	tornar	tornar	VERB	AUX	VerbForm=Inf	34	conj	_	_
 41	a	a	ADP	ADP	AdpType=Prep	42	mark	_	_
-42	governar	governar	VERB	VERB	VerbForm=Inf	34	conj	_	_
+42	governar	governar	VERB	VERB	VerbForm=Inf	40	xcomp	_	_
 43	a	a	ADP	ADP	AdpType=Prep	44	case	_	_
-44	Blanes	Blanes	PROPN	PROPN	_	42	obl	_	SpaceAfter=No
+44	Blanes	Blanes	PROPN	PROPN	_	40	obl	_	SpaceAfter=No
 45	,	,	PUNCT	PUNCT	PunctType=Comm	46	punct	_	_
 46	Banyoles	Banyoles	PROPN	PROPN	_	44	conj	_	SpaceAfter=No
 47	,	,	PUNCT	PUNCT	PunctType=Comm	48	punct	_	_
@@ -34483,10 +34483,10 @@
 18	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	12	punct	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 20	tensió	tensió	NOUN	NOUN	Gender=Fem|Number=Sing	6	appos	_	_
-21	que	que	PRON	PRON	PronType=Rel	40	obj	_	_
+21	que	que	PRON	PRON	PronType=Rel	38	obj	_	_
 22	tan	tan	ADV	ADV	_	24	cc	_	_
 23	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	falta	falta	NOUN	NOUN	Gender=Fem|Number=Sing	40	nsubj	_	_
+24	falta	falta	NOUN	NOUN	Gender=Fem|Number=Sing	38	nsubj	_	_
 25	de	de	ADP	ADP	AdpType=Prep	26	case	_	_
 26	voluntat	voluntat	NOUN	NOUN	Gender=Masc|Number=Sing	24	nmod	_	_
 27	com	com	SCONJ	SCONJ	_	29	cc	_	_
@@ -34500,9 +34500,9 @@
 35	o	o	CCONJ	CCONJ	_	37	cc	_	_
 36	de	de	ADP	ADP	AdpType=Prep	37	case	_	_
 37	solució	solució	NOUN	NOUN	Gender=Fem|Number=Sing	31	conj	_	_
-38	arriben	arribar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+38	arriben	arribar	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl	_	_
 39	a	a	ADP	ADP	AdpType=Prep	40	mark	_	_
-40	augmentar	augmentar	VERB	VERB	VerbForm=Inf	20	acl	_	SpaceAfter=No
+40	augmentar	augmentar	VERB	VERB	VerbForm=Inf	38	xcomp	_	SpaceAfter=No
 41	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
 # sent_id = dev-s969
@@ -35171,9 +35171,9 @@
 31	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	33	case	_	_
 32	nou	nou	ADJ	ADJ	Gender=Masc|Number=Sing	33	amod	_	_
 33	sistema	sistema	NOUN	NOUN	Gender=Masc|Number=Sing	22	obl	_	_
-34	i	i	CCONJ	CCONJ	_	36	cc	_	_
-35	deixar	deixar	AUX	AUX	VerbForm=Inf	36	aux	_	_
-36	obertes	obert	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	22	conj	_	_
+34	i	i	CCONJ	CCONJ	_	35	cc	_	_
+35	deixar	deixar	VERB	AUX	VerbForm=Inf	22	conj	_	_
+36	obertes	obert	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	35	xcomp	_	_
 37	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
 38	possibilitats	possibilitat	NOUN	NOUN	Gender=Fem|Number=Plur	36	obj	_	_
 39	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
@@ -35708,21 +35708,21 @@
 13	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	dir	dir	VERB	VERB	VerbForm=Inf	0	root	_	_
 15	ahir	ahir	ADV	ADV	_	14	advmod	_	_
-16	que	que	SCONJ	SCONJ	_	24	mark	_	_
+16	que	que	SCONJ	SCONJ	_	21	mark	_	_
 17	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 18	primer	primer	ADJ	ADJ	Gender=Masc|Number=Sing|NumType=Ord	19	amod	_	_
-19	ministre	ministre	NOUN	NOUN	Gender=Masc|Number=Sing	24	nsubj	_	_
-20	no	no	ADV	ADV	Polarity=Neg	24	advmod	_	_
-21	sembla	semblar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
-22	que	que	SCONJ	SCONJ	_	24	mark	_	_
-23	hagi	haver	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
-24	decidit	decidir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	_	_
+19	ministre	ministre	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
+20	no	no	ADV	ADV	Polarity=Neg	21	advmod	_	_
+21	sembla	semblar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+22	que	que	SCONJ	SCONJ	_	21	mark	_	_
+23	hagi	haver	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+24	decidit	decidir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	xcomp	_	_
 25	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	26	det	_	_
-26	canvi	canvi	NOUN	NOUN	Gender=Masc|Number=Sing	24	obj	_	_
+26	canvi	canvi	NOUN	NOUN	Gender=Masc|Number=Sing	21	obj	_	_
 27	polític	polític	ADJ	ADJ	Gender=Masc|Number=Sing	26	amod	_	_
 28	durant	durant	ADP	ADP	AdpType=Prep	30	case	_	_
 29	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	reunió	reunió	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	_
+30	reunió	reunió	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	_
 31	de	de	ADP	ADP	AdpType=Prep	32	case	_	_
 32	dissabte	dissabte	NOUN	NOUN	AdvType=Tim	30	nmod	_	_
 33	per	per	ADP	ADP	AdpType=Prep	34	mark	_	_
@@ -37709,18 +37709,18 @@
 28	sexuals	sexual	ADJ	ADJ	Number=Plur	27	amod	_	_
 29	amb	amb	ADP	ADP	AdpType=Prep	30	case	_	_
 30	ella	ell	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obl	_	_
-31	perquè	perquè	SCONJ	SCONJ	_	38	mark	_	_
+31	perquè	perquè	SCONJ	SCONJ	_	35	mark	_	_
 32	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	dona	dona	NOUN	NOUN	Gender=Fem|Number=Sing	38	nsubj	_	_
-34	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+33	dona	dona	NOUN	NOUN	Gender=Fem|Number=Sing	35	nsubj	_	_
+34	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
 35-36	posar-se	_	_	_	_	_	_	_	_
-35	posar	posar	AUX	AUX	VerbForm=Inf	38	aux	_	_
-36	se	ell	PRON	PRON	Person=3	38	obj	_	_
+35	posar	posar	VERB	AUX	VerbForm=Inf	21	advcl	_	_
+36	se	ell	PRON	PRON	Person=3	35	obj	_	_
 37	a	a	ADP	ADP	AdpType=Prep	38	mark	_	_
-38	vomitar	vomitar	VERB	VERB	VerbForm=Inf	21	advcl	_	_
+38	vomitar	vomitar	VERB	VERB	VerbForm=Inf	35	xcomp	_	_
 39	de	de	ADP	ADP	AdpType=Prep	41	case	_	_
 40	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
-41	por	por	NOUN	NOUN	Gender=Fem|Number=Sing	38	obl	_	_
+41	por	por	NOUN	NOUN	Gender=Fem|Number=Sing	35	obl	_	_
 42	que	que	PRON	PRON	PronType=Rel	43	obj	_	_
 43	sentia	sentir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	41	acl	_	SpaceAfter=No
 44	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
@@ -37741,15 +37741,15 @@
 10	novament	novament	ADV	ADV	_	8	advmod	_	_
 11	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	12	case	_	_
 12	carrer	carrer	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
-13	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
-14	la	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
-15	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
-16	fer	fer	AUX	AUX	VerbForm=Inf	17	aux	_	_
-17	entrar	entrar	VERB	VERB	VerbForm=Inf	8	advcl	_	_
+13	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
+14	la	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+15	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	fer	fer	VERB	AUX	VerbForm=Inf	8	advcl	_	_
+17	entrar	entrar	VERB	VERB	VerbForm=Inf	16	xcomp	_	_
 18	en	en	ADP	ADP	AdpType=Prep	20	case	_	_
 19	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	cotxe	cotxe	NOUN	NOUN	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
-21	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
+20	cotxe	cotxe	NOUN	NOUN	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
 22	i	i	CCONJ	CCONJ	_	24	cc	_	_
 23	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 24-25	fer-li	_	_	_	_	_	_	_	_
@@ -37791,14 +37791,14 @@
 11	octubre	octubre	NOUN	NOUN	_	9	compound	_	_
 12	de	de	ADP	ADP	AdpType=Prep	13	case	_	_
 13	1997	1997	NUM	NUM	NumForm=Digit|NumType=Card	9	compound	_	SpaceAfter=No
-14	,	,	PUNCT	PUNCT	PunctType=Comm	21	punct	_	_
-15	quan	quan	SCONJ	SCONJ	_	21	mark	_	_
+14	,	,	PUNCT	PUNCT	PunctType=Comm	19	punct	_	_
+15	quan	quan	SCONJ	SCONJ	_	19	mark	_	_
 16	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
-17	acusat	acusat	NOUN	NOUN	Gender=Masc|Number=Sing	21	nsubj	_	_
-18	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
-19	començar	començar	AUX	AUX	VerbForm=Inf	21	aux	_	_
+17	acusat	acusat	NOUN	NOUN	Gender=Masc|Number=Sing	19	nsubj	_	_
+18	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	començar	començar	VERB	AUX	VerbForm=Inf	7	advcl	_	_
 20	a	a	ADP	ADP	AdpType=Prep	21	mark	_	_
-21	colpejar	colpejar	VERB	VERB	VerbForm=Inf	7	advcl	_	_
+21	colpejar	colpejar	VERB	VERB	VerbForm=Inf	19	xcomp	_	_
 22	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	porta	porta	NOUN	NOUN	Gender=Fem|Number=Sing	21	obj	_	_
 24	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	25	case	_	_
@@ -39068,12 +39068,12 @@
 9	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 10	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	dir	dir	VERB	VERB	VerbForm=Inf	0	root	_	_
-12	que	que	SCONJ	SCONJ	_	17	mark	_	_
+12	que	que	SCONJ	SCONJ	_	16	mark	_	_
 13	la	el	DET	DET	Gender=Fem|Number=Sing|PronType=Art	15	det	_	MWE=la_seva|MWEPOS=DET
 14	seva	seu	DET	DET	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
-15	organització	organització	NOUN	NOUN	Gender=Fem|Number=Sing	17	nsubj	_	_
-16	continuarà	continuar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	aux	_	_
-17	respectant	respectar	VERB	VERB	VerbForm=Ger	11	ccomp	_	_
+15	organització	organització	NOUN	NOUN	Gender=Fem|Number=Sing	16	nsubj	_	_
+16	continuarà	continuar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	ccomp	_	_
+17	respectant	respectar	VERB	VERB	VerbForm=Ger	16	xcomp	_	_
 18	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
 19	acords	acord	NOUN	NOUN	Gender=Masc|Number=Plur	17	obj	_	_
 20	presos	pres	ADJ	ADJ	Gender=Masc|Number=Plur|VerbForm=Part	19	amod	_	_
@@ -39399,28 +39399,28 @@
 16	vot	vot	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	_
 17	en	en	ADP	ADP	AdpType=Prep	18	case	_	_
 18	contra	contra	NOUN	NOUN	Gender=Fem|Number=Sing	16	nmod	_	_
-19	i	i	CCONJ	CCONJ	_	35	advmod	_	_
-20	més	més	ADV	ADV	_	35	advmod	_	_
-21	tenint	tenir	AUX	AUX	VerbForm=Ger	35	aux	_	MWE=tenint_en_compte|MWEPOS=AUX
+19	i	i	CCONJ	CCONJ	_	21	advmod	_	_
+20	més	més	ADV	ADV	_	21	advmod	_	_
+21	tenint	tenir	VERB	AUX	VerbForm=Ger	8	advcl	_	MWE=tenint_en_compte|MWEPOS=AUX
 22	en	en	ADP	ADP	AdpType=Prep	23	case	_	_
 23	compte	compte	NOUN	NOUN	Number=Sing	21	compound	_	_
-24	que	que	SCONJ	SCONJ	_	35	mark	_	_
+24	que	que	SCONJ	SCONJ	_	21	mark	_	_
 25	els	el	DET	DET	Gender=Masc|Number=Plur|PronType=Art	27	det	_	MWE=els_seus|MWEPOS=DET
 26	seus	seu	DET	DET	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
-27	regidors	regidor	NOUN	NOUN	Gender=Masc|Number=Plur	35	nsubj	_	_
+27	regidors	regidor	NOUN	NOUN	Gender=Masc|Number=Plur	21	nsubj	_	_
 28	a	a	ADP	ADP	AdpType=Prep	29	case	_	_
-29	Sant	Sant	PROPN	PROPN	_	35	obl	_	MWE=Sant_Cugat|MWEPOS=PROPN
+29	Sant	Sant	PROPN	PROPN	_	21	obl	_	MWE=Sant_Cugat|MWEPOS=PROPN
 30	Cugat	Cugat	PROPN	PROPN	_	29	flat	_	_
 31	i	i	CCONJ	CCONJ	_	32	cc	_	_
 32	Rubí	Rubí	PROPN	PROPN	_	29	conj	_	_
-33	hi	hi	PRON	PRON	Person=3|PronType=Prs	35	obl	_	_
-34	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
-35	votar	votar	VERB	VERB	VerbForm=Inf	8	advcl	_	_
+33	hi	hi	PRON	PRON	Person=3|PronType=Prs	21	obl	_	_
+34	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+35	votar	votar	VERB	VERB	VerbForm=Inf	21	xcomp	_	_
 36	a	a	ADP	ADP	AdpType=Prep	37	case	_	_
-37	favor	favor	NOUN	NOUN	Gender=Masc|Number=Sing	35	obl	_	_
+37	favor	favor	NOUN	NOUN	Gender=Masc|Number=Sing	21	obl	_	_
 38	als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	40	case	_	_
 39	respectius	respectiu	ADJ	ADJ	Gender=Masc|Number=Plur	40	amod	_	_
-40	ajuntaments	ajuntament	NOUN	NOUN	Gender=Masc|Number=Plur	35	obl	_	SpaceAfter=No
+40	ajuntaments	ajuntament	NOUN	NOUN	Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
 41	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s1100
@@ -39661,12 +39661,12 @@
 27	no	no	ADV	ADV	Polarity=Neg	28	advmod	_	_
 28	descarten	descartar	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 29-30	tornar-la	_	_	_	_	_	_	_	_
-29	tornar	tornar	AUX	AUX	VerbForm=Inf	32	aux	_	_
-30	la	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+29	tornar	tornar	VERB	AUX	VerbForm=Inf	28	xcomp	_	_
+30	la	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
 31	a	a	ADP	ADP	AdpType=Prep	32	mark	_	_
-32	presentar	presentar	VERB	VERB	VerbForm=Inf	28	xcomp	_	_
+32	presentar	presentar	VERB	VERB	VerbForm=Inf	29	xcomp	_	_
 33	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	34	case	_	_
-34	Consell	Consell	PROPN	PROPN	_	32	obl	_	MWE=Consell_Comarcal|MWEPOS=PROPN
+34	Consell	Consell	PROPN	PROPN	_	29	obl	_	MWE=Consell_Comarcal|MWEPOS=PROPN
 35	Comarcal	Comarcal	PROPN	PROPN	_	34	flat	_	SpaceAfter=No
 36	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
@@ -39939,11 +39939,11 @@
 18	,	,	PUNCT	PUNCT	PunctType=Comm	20	punct	_	_
 19	que	que	PRON	PRON	PronType=Rel	20	nsubj	_	_
 20	volen	voler	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_
-21	desenvolupar	desenvolupar	AUX	AUX	VerbForm=Inf	24	aux	_	_
-22	actuacions	actuació	NOUN	NOUN	Gender=Fem|Number=Plur	24	obj	_	_
+21	desenvolupar	desenvolupar	VERB	AUX	VerbForm=Inf	20	ccomp	_	_
+22	actuacions	actuació	NOUN	NOUN	Gender=Fem|Number=Plur	21	obj	_	_
 23	urbanístiques	urbanístic	ADJ	ADJ	Gender=Fem|Number=Plur	22	amod	_	_
 24-25	emparant-se	_	_	_	_	_	_	_	_
-24	emparant	emparar	VERB	VERB	VerbForm=Ger	20	ccomp	_	_
+24	emparant	emparar	VERB	VERB	VerbForm=Ger	21	xcomp	_	_
 25	se	ell	PRON	PRON	Person=3	24	obj	_	_
 26	en	en	ADP	ADP	AdpType=Prep	27	case	_	_
 27	figures	figura	NOUN	NOUN	Gender=Fem|Number=Plur	24	obj	_	_
@@ -39994,8 +39994,8 @@
 31	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
 32	que	que	PRON	PRON	PronType=Rel	33	nsubj	_	_
 33	volen	voler	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	csubj	_	_
-34	continuar	continuar	AUX	AUX	VerbForm=Inf	35	aux	_	_
-35	urbanitzant	urbanitzar	VERB	VERB	VerbForm=Ger	33	ccomp	_	_
+34	continuar	continuar	VERB	AUX	VerbForm=Inf	33	ccomp	_	_
+35	urbanitzant	urbanitzar	VERB	VERB	VerbForm=Ger	34	xcomp	_	_
 36	parts	part	NOUN	NOUN	Gender=Fem|Number=Plur	35	obj	_	_
 37	de	de	ADP	ADP	AdpType=Prep	39	case	_	_
 38	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
@@ -40659,13 +40659,13 @@
 11	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	13	det	_	_
 12	magnífica	magnífic	ADJ	ADJ	Gender=Fem|Number=Sing	13	amod	_	_
 13	oportunitat	oportunitat	NOUN	NOUN	Gender=Fem|Number=Sing	10	obj	_	_
-14	per	per	ADP	ADP	AdpType=Prep	20	mark	_	_
-15	demostrar	demostrar	AUX	AUX	VerbForm=Inf	20	aux	_	_
+14	per	per	ADP	ADP	AdpType=Prep	15	mark	_	_
+15	demostrar	demostrar	VERB	AUX	VerbForm=Inf	13	acl	_	_
 16	que	que	SCONJ	SCONJ	_	20	mark	_	_
 17	no	no	ADV	ADV	Polarity=Neg	20	advmod	_	_
 18	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
 19	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
-20	hereva	hereva	NOUN	NOUN	Gender=Fem|Number=Sing	13	acl	_	_
+20	hereva	hereva	NOUN	NOUN	Gender=Fem|Number=Sing	15	ccomp	_	_
 21	de	de	ADP	ADP	AdpType=Prep	22	case	_	_
 22	HB	HB	PROPN	PROPN	_	20	nmod	_	_
 23	i	i	CCONJ	CCONJ	_	28	cc	_	_
@@ -40810,8 +40810,8 @@
 19	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
 20	gran	gran	ADJ	ADJ	Number=Sing	21	amod	_	_
 21	oportunitat	oportunitat	NOUN	NOUN	Gender=Fem|Number=Sing	18	obj	_	_
-22	per	per	ADP	ADP	AdpType=Prep	48	mark	_	_
-23	demostrar	demostrar	AUX	AUX	VerbForm=Inf	48	aux	_	_
+22	per	per	ADP	ADP	AdpType=Prep	23	mark	_	_
+23	demostrar	demostrar	VERB	AUX	VerbForm=Inf	21	acl	_	_
 24	que	que	SCONJ	SCONJ	_	48	mark	_	_
 25	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 26	que	que	PRON	PRON	PronType=Rel	27	obj	_	_
@@ -40836,7 +40836,7 @@
 45	democràcia	democràcia	NOUN	NOUN	Gender=Fem|Number=Sing	37	conj	_	SpaceAfter=No
 46	,	,	PUNCT	PUNCT	PunctType=Comm	35	punct	_	_
 47	eren	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	48	cop	_	_
-48	certes	cert	ADJ	ADJ	Gender=Fem|Number=Plur	21	acl	_	SpaceAfter=No
+48	certes	cert	ADJ	ADJ	Gender=Fem|Number=Plur	23	ccomp	_	SpaceAfter=No
 49	"	"	PUNCT	PUNCT	PunctType=Quot	48	punct	_	SpaceAfter=No
 50	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
 
@@ -42307,11 +42307,11 @@
 # text = Més tard, amb el creixement de la vila de Banyoles i sobretot amb la industrialització del segle XIX, els recs varen fer moure molins i altra maquinària.
 # orig_file_sentence 012#71
 1	Més	més	ADV	ADV	_	2	advmod	_	_
-2	tard	tard	ADV	ADV	_	25	advmod	_	SpaceAfter=No
+2	tard	tard	ADV	ADV	_	24	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	PunctType=Comm	2	punct	_	_
 4	amb	amb	ADP	ADP	AdpType=Prep	6	case	_	_
 5	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	creixement	creixement	NOUN	NOUN	Gender=Masc|Number=Sing	25	obl	_	_
+6	creixement	creixement	NOUN	NOUN	Gender=Masc|Number=Sing	24	obl	_	_
 7	de	de	ADP	ADP	AdpType=Prep	9	case	_	_
 8	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	vila	vila	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
@@ -42327,15 +42327,15 @@
 19	XIX	XIX	NOUN	NOUN	_	18	compound	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
 21	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
-22	recs	rec	NOUN	NOUN	Gender=Masc|Number=Plur	25	nsubj	_	_
-23	varen	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
-24	fer	fer	AUX	AUX	VerbForm=Inf	25	aux	_	_
-25	moure	moure	VERB	VERB	VerbForm=Inf	0	root	_	_
+22	recs	rec	NOUN	NOUN	Gender=Masc|Number=Plur	24	nsubj	_	_
+23	varen	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	fer	fer	VERB	AUX	VerbForm=Inf	0	root	_	_
+25	moure	moure	VERB	VERB	VerbForm=Inf	24	xcomp	_	_
 26	molins	molí	NOUN	NOUN	Gender=Masc|Number=Plur	25	obj	_	_
 27	i	i	CCONJ	CCONJ	_	29	cc	_	_
 28	altra	altre	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	29	det	_	_
 29	maquinària	maquinària	NOUN	NOUN	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
-30	.	.	PUNCT	PUNCT	PunctType=Peri	25	punct	_	_
+30	.	.	PUNCT	PUNCT	PunctType=Peri	24	punct	_	_
 
 # sent_id = dev-s1172
 # text = Però també varen esdevenir el sistema de desfer-se dels residus urbans i industrials, i foren coberts en gran part del seu recorregut.
@@ -42686,9 +42686,9 @@
 8	recs	rec	NOUN	NOUN	Gender=Masc|Number=Plur	5	nmod	_	_
 9	es	es	PRON	PRON	_	10	obj	_	_
 10	proposa	proposar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	naturalitzar	naturalitzar	AUX	AUX	VerbForm=Inf	42	aux	_	_
+11	naturalitzar	naturalitzar	VERB	AUX	VerbForm=Inf	10	csubj	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	via	via	NOUN	NOUN	Gender=Fem|Number=Sing	42	obj	_	SpaceAfter=No
+13	via	via	NOUN	NOUN	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
 14	:	:	PUNCT	PUNCT	PunctType=Colo	15	punct	_	_
 15	rec	rec	NOUN	NOUN	Gender=Masc|Number=Sing	13	appos	_	_
 16	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
@@ -42717,8 +42717,8 @@
 38	ecològic	ecològic	ADJ	ADJ	Gender=Masc|Number=Sing	37	amod	_	_
 39	de	de	ADP	ADP	AdpType=Prep	40	case	_	_
 40	riu	riu	NOUN	NOUN	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
-41	,	,	PUNCT	PUNCT	PunctType=Comm	42	punct	_	_
-42	salvaguardant	salvaguardar	VERB	VERB	VerbForm=Ger	10	csubj	_	_
+41	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
+42	salvaguardant	salvaguardar	VERB	VERB	VerbForm=Ger	11	xcomp	_	_
 43	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
 44	vegetació	vegetació	NOUN	NOUN	Gender=Fem|Number=Sing	42	obj	_	_
 45	de	de	ADP	ADP	AdpType=Prep	46	case	_	_
@@ -43009,13 +43009,13 @@
 # orig_file_sentence 012#86
 1	En	en	ADP	ADP	AdpType=Prep	3	case	_	_
 2	altres	altre	DET	DET	Number=Plur|PronType=Ind	3	det	_	_
-3	casos	cas	NOUN	NOUN	Gender=Masc|Number=Plur	6	obl	_	_
-4	sembla	semblar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
-5	més	més	ADV	ADV	_	6	advmod	_	_
-6	adequada	adequat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	_
+3	casos	cas	NOUN	NOUN	Gender=Masc|Number=Plur	4	obl	_	_
+4	sembla	semblar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	més	més	ADV	ADV	_	4	advmod	_	_
+6	adequada	adequat	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	4	xcomp	_	_
 7	la	el	DET	DET	Gender=Fem|Number=Sing|PronType=Art	9	det	_	MWE=la_seva|MWEPOS=DET
 8	seva	seu	DET	DET	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
-9	integració	integració	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
+9	integració	integració	NOUN	NOUN	Gender=Fem|Number=Sing	4	nsubj	_	_
 10	en	en	ADP	ADP	AdpType=Prep	12	case	_	_
 11	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	perfil	perfil	NOUN	NOUN	Gender=Masc|Number=Sing	9	nmod	_	_
@@ -43038,7 +43038,7 @@
 29	de	de	ADP	ADP	AdpType=Prep	30	case	_	_
 30	construcció	construcció	NOUN	NOUN	Gender=Fem|Number=Sing	28	nmod	_	_
 31	original	original	ADJ	ADJ	Number=Sing	30	amod	_	SpaceAfter=No
-32	.	.	PUNCT	PUNCT	PunctType=Peri	6	punct	_	_
+32	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s1187
 # text = El líder d'IC-V va afirmar ahir que el nou finançament autonòmic reportarà a Catalunya, en el període 2002-2006, uns ingressos addicionals de 665.000 milions de pessetes i no pas de 770.000 milions, com assegura el Govern català.
@@ -43361,13 +43361,13 @@
 8	presó	presó	NOUN	NOUN	Gender=Fem|Number=Sing	6	nmod	_	_
 9	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	processat	processat	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
-11	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
-12	en	en	ADP	ADP	AdpType=Prep	17	mark	_	_
-13	considerar	considerar	AUX	AUX	VerbForm=Inf	17	aux	_	_
-14	que	que	SCONJ	SCONJ	_	17	mark	_	_
-15	hi	hi	PRON	PRON	Person=3|PronType=Prs	17	obj	_	_
-16	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
-17	haver	haver	VERB	VERB	VerbForm=Inf	3	advcl	_	_
+11	,	,	PUNCT	PUNCT	PunctType=Comm	13	punct	_	_
+12	en	en	ADP	ADP	AdpType=Prep	13	mark	_	_
+13	considerar	considerar	VERB	AUX	VerbForm=Inf	3	advcl	_	_
+14	que	que	SCONJ	SCONJ	_	13	mark	_	_
+15	hi	hi	PRON	PRON	Person=3|PronType=Prs	13	obj	_	_
+16	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+17	haver	haver	VERB	VERB	VerbForm=Inf	13	xcomp	_	_
 18	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
 19	agressió	agressió	NOUN	NOUN	Gender=Fem|Number=Sing	17	obj	_	_
 20	sexual	sexual	ADJ	ADJ	Number=Sing	19	amod	_	_
@@ -43441,9 +43441,9 @@
 40	Audiència	Audiència	PROPN	PROPN	_	36	nmod	_	MWE=Audiència_de_Barcelona|MWEPOS=PROPN
 41	de	de	ADP	ADP	AdpType=Prep	42	case	_	_
 42	Barcelona	Barcelona	PROPN	PROPN	_	40	flat	_	_
-43	en	en	ADP	ADP	AdpType=Prep	57	mark	_	_
-44	considerar	considerar	AUX	AUX	VerbForm=Inf	57	aux	_	_
-45	que	que	SCONJ	SCONJ	_	57	mark	_	SpaceAfter=No
+43	en	en	ADP	ADP	AdpType=Prep	44	mark	_	_
+44	considerar	considerar	VERB	AUX	VerbForm=Inf	28	advcl	_	_
+45	que	que	SCONJ	SCONJ	_	44	mark	_	SpaceAfter=No
 46	,	,	PUNCT	PUNCT	PunctType=Comm	51	punct	_	_
 47	en	en	ADP	ADP	AdpType=Prep	51	mark	_	MWE=en_contra_del|MWEPOS=ADP
 48	contra	contra	NOUN	NOUN	_	47	fixed	_	_
@@ -43453,9 +43453,9 @@
 52	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	53	det	_	SpaceAfter=No
 53	Audiència	Audiència	PROPN	PROPN	_	51	nsubj	_	SpaceAfter=No
 54	,	,	PUNCT	PUNCT	PunctType=Comm	51	punct	_	_
-55	hi	hi	PRON	PRON	Person=3|PronType=Prs	57	obj	_	_
-56	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	57	aux	_	_
-57	hagut	haver	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	advcl	_	_
+55	hi	hi	PRON	PRON	Person=3|PronType=Prs	44	obj	_	_
+56	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	44	aux	_	_
+57	hagut	haver	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	44	xcomp	_	_
 58	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	60	det	_	_
 59	'	'	SYM	SYM	_	60	nmod	_	SpaceAfter=No
 60	violència	violència	NOUN	NOUN	Gender=Fem|Number=Sing	57	obj	_	_
@@ -43463,7 +43463,7 @@
 62	'	'	SYM	SYM	_	60	nmod	_	_
 63	en	en	ADP	ADP	AdpType=Prep	65	case	_	_
 64	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	65	det	_	SpaceAfter=No
-65	acció	acció	NOUN	NOUN	Gender=Fem|Number=Sing	57	obl	_	_
+65	acció	acció	NOUN	NOUN	Gender=Fem|Number=Sing	44	obl	_	_
 66	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	67	case	_	_
 67	processat	processat	NOUN	NOUN	Gender=Masc|Number=Sing	65	nmod	_	SpaceAfter=No
 68	.	.	PUNCT	PUNCT	PunctType=Peri	20	punct	_	_
@@ -43751,12 +43751,12 @@
 19	se	ell	PRON	PRON	Person=3	18	obj	_	_
 20	sobre	sobre	ADP	ADP	AdpType=Prep	21	case	_	_
 21	ella	ell	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
-22	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
-23	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
-24	començar	començar	AUX	AUX	VerbForm=Inf	26	aux	_	_
+22	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
+23	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	començar	començar	VERB	AUX	VerbForm=Inf	18	advcl	_	_
 25	a	a	ADP	ADP	AdpType=Prep	26	mark	_	_
 26-27	besar-la	_	_	_	_	_	_	_	_
-26	besar	besar	VERB	VERB	VerbForm=Inf	18	advcl	_	_
+26	besar	besar	VERB	VERB	VerbForm=Inf	24	xcomp	_	_
 27	la	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
 28	i	i	CCONJ	CCONJ	_	29	cc	_	_
 29-30	acaronar-la	_	_	_	_	_	_	_	SpaceAfter=No
@@ -44112,17 +44112,17 @@
 22	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
 23	i	i	CCONJ	CCONJ	_	24	cc	_	_
 24	està	estar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
-25	pensat	pensat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	24	ccomp	_	_
-26	perquè	perquè	SCONJ	SCONJ	_	25	mark	_	_
+25	pensat	pensat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	29	xcomp	_	_
+26	perquè	perquè	SCONJ	SCONJ	_	29	mark	_	_
 27	es	es	PRON	PRON	_	25	expl:pass	_	_
-28	pugui	poder	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
-29	emetre	emetre	AUX	AUX	VerbForm=Inf	25	cop	_	_
+28	pugui	poder	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	emetre	emetre	VERB	AUX	VerbForm=Inf	24	ccomp	_	_
 30	a	a	ADP	ADP	AdpType=Prep	35	case	_	MWE=a_través_de|MWEPOS=ADP
 31	través	través	NOUN	NOUN	_	30	fixed	_	_
 32	de	de	ADP	ADP	AdpType=Prep	30	fixed	_	_
 33	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
 34	diverses	divers	DET	DET	Gender=Fem|Number=Plur|PronType=Ind	33	det	_	_
-35	plataformes	plataforma	NOUN	NOUN	Gender=Fem|Number=Plur	25	obl	_	_
+35	plataformes	plataforma	NOUN	NOUN	Gender=Fem|Number=Plur	29	obl	_	_
 36	de	de	ADP	ADP	AdpType=Prep	37	case	_	_
 37	satèl·lit	satèl·lit	NOUN	NOUN	Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
 38	,	,	PUNCT	PUNCT	PunctType=Comm	39	punct	_	_
@@ -44231,8 +44231,8 @@
 23	,	,	PUNCT	PUNCT	PunctType=Comm	22	punct	_	_
 24	crear	crear	VERB	VERB	VerbForm=Inf	9	advcl	_	_
 25	comunitat	comunitat	NOUN	NOUN	Gender=Fem|Number=Sing	24	obj	_	_
-26	i	i	CCONJ	CCONJ	_	36	cc	_	_
-27	fer	fer	AUX	AUX	VerbForm=Inf	36	aux	_	_
+26	i	i	CCONJ	CCONJ	_	27	cc	_	_
+27	fer	fer	VERB	AUX	VerbForm=Inf	24	conj	_	_
 28	que	que	SCONJ	SCONJ	_	36	mark	_	_
 29	tota	tot	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	30	det	_	_
 30	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
@@ -44241,7 +44241,7 @@
 33	territori	territori	NOUN	NOUN	Gender=Masc|Number=Sing	31	nmod	_	_
 34	Pirineus	Pirineus	PROPN	PROPN	_	33	appos	_	_
 35	se	ell	PRON	PRON	Person=3	36	obj	_	_
-36	senti	sentir	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	_
+36	senti	sentir	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
 37	orgullosa	orgullós	ADJ	ADJ	Gender=Fem|Number=Sing	36	obj	_	_
 38	de	de	ADP	ADP	AdpType=Prep	39	mark	_	_
 39	pertànyer	pertànyer	VERB	VERB	VerbForm=Inf	37	acl	_	_
@@ -44528,11 +44528,11 @@
 17	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 18	tard	tard	ADV	ADV	_	17	advmod	_	SpaceAfter=No
 19	"	"	PUNCT	PUNCT	PunctType=Quot	17	punct	_	_
-20	per	per	ADP	ADP	AdpType=Prep	24	mark	_	_
-21	exigir	exigir	AUX	AUX	VerbForm=Inf	24	aux	_	_
+20	per	per	ADP	ADP	AdpType=Prep	21	mark	_	_
+21	exigir	exigir	VERB	AUX	VerbForm=Inf	17	advcl	_	_
 22	que	que	SCONJ	SCONJ	_	24	mark	_	_
 23	es	es	PRON	PRON	_	24	obj	_	_
-24	compleixi	complir	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+24	compleixi	complir	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
 25	i	i	CCONJ	CCONJ	_	28	cc	_	_
 26	ara	ara	ADV	ADV	_	28	advmod	_	_
 27	només	només	ADV	ADV	_	28	advmod	_	_
@@ -45371,16 +45371,16 @@
 15	assumit	assumir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
 16	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	compromís	compromís	NOUN	NOUN	Gender=Masc|Number=Sing	15	obj	_	_
-18	que	que	SCONJ	SCONJ	_	23	mark	_	_
+18	que	que	SCONJ	SCONJ	_	20	mark	_	_
 19	'	'	SYM	SYM	_	23	nmod	_	SpaceAfter=No
-20	mirarem	mirar	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	23	aux	_	_
+20	mirarem	mirar	VERB	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	17	acl	_	_
 21	de	de	ADP	ADP	AdpType=Prep	23	case	_	_
 22	ser	ser	AUX	AUX	VerbForm=Inf	23	cop	_	_
-23	propers	proper	ADJ	ADJ	Gender=Masc|Number=Plur	17	acl	_	_
-24	sempre	sempre	ADV	ADV	_	23	advmod	_	SpaceAfter=No
+23	propers	proper	ADJ	ADJ	Gender=Masc|Number=Plur	20	xcomp	_	_
+24	sempre	sempre	ADV	ADV	_	20	advmod	_	SpaceAfter=No
 25	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
 26	cada	cada	DET	DET	Number=Sing|PronType=Ind	27	det	_	_
-27	dia	dia	NOUN	NOUN	Gender=Masc|Number=Sing	23	obl	_	_
+27	dia	dia	NOUN	NOUN	Gender=Masc|Number=Sing	20	obl	_	_
 28	més	més	ADV	ADV	_	27	advmod	_	SpaceAfter=No
 29	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
 30	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	37	case	_	_
@@ -45566,10 +45566,10 @@
 # sent_id = dev-s1243
 # text = Maragall ha volgut llimar les diferències que existien entre el FOC i el model socialdemòcrata que propugnava Pallach assenyalant que aquell moviment va anar perdent el to d'esquerra radical i acostant-se a les posicions que posteriorment centrarien el PSC en la seva fundació.
 # orig_file_sentence 013#43
-1	Maragall	Maragall	PROPN	PROPN	_	4	nsubj	_	_
-2	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-3	volgut	voler	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux	_	_
-4	llimar	llimar	VERB	VERB	VerbForm=Inf	0	root	_	_
+1	Maragall	Maragall	PROPN	PROPN	_	3	nsubj	_	_
+2	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	volgut	voler	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	llimar	llimar	VERB	VERB	VerbForm=Inf	3	xcomp	_	_
 5	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	diferències	diferència	NOUN	NOUN	Gender=Fem|Number=Plur	4	obj	_	_
 7	que	que	PRON	PRON	PronType=Rel	8	nsubj	_	_
@@ -45584,13 +45584,13 @@
 16	que	que	PRON	PRON	PronType=Rel	17	obj	_	_
 17	propugnava	propugnar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl	_	_
 18	Pallach	Pallach	PROPN	PROPN	_	17	nsubj	_	_
-19	assenyalant	assenyalar	AUX	AUX	VerbForm=Ger	25	aux	_	_
-20	que	que	SCONJ	SCONJ	_	25	mark	_	_
+19	assenyalant	assenyalar	VERB	AUX	VerbForm=Ger	4	advcl	_	_
+20	que	que	SCONJ	SCONJ	_	19	mark	_	_
 21	aquell	aquell	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
-22	moviment	moviment	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
-23	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
-24	anar	anar	AUX	AUX	VerbForm=Inf	25	aux	_	_
-25	perdent	perdre	VERB	VERB	VerbForm=Ger	4	advcl	_	_
+22	moviment	moviment	NOUN	NOUN	Gender=Masc|Number=Sing	19	nsubj	_	_
+23	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+24	anar	anar	AUX	AUX	VerbForm=Inf	19	aux	_	_
+25	perdent	perdre	VERB	VERB	VerbForm=Ger	19	xcomp	_	_
 26	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	to	to	NOUN	NOUN	Gender=Masc|Number=Sing	25	obj	_	_
 28	d'	de	ADP	ADP	AdpType=Prep	29	case	_	SpaceAfter=No
@@ -45612,7 +45612,7 @@
 43	la	el	DET	DET	Gender=Fem|Number=Sing|PronType=Art	45	det	_	MWE=la_seva|MWEPOS=DET
 44	seva	seu	DET	DET	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	det	_	_
 45	fundació	fundació	NOUN	NOUN	Gender=Fem|Number=Sing	39	obl	_	SpaceAfter=No
-46	.	.	PUNCT	PUNCT	PunctType=Peri	4	punct	_	_
+46	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s1244
 # text = Tot i amb això, Maragall ha assenyalat que hauran de ser els historiadors els que facin l'anàlisi del paper que hauria jugat Pallach.
@@ -45760,16 +45760,16 @@
 # sent_id = dev-s1248
 # text = Tot i que Tapia no ha volgut avançar quina hauria estat la situació política del país amb la seva presència, sí ha assenyalat que l'homenatjat 'hauria estat satisfet de la situació estructural actual' de Catalunya i del seu context en l'Estat.
 # orig_file_sentence 013#48
-1	Tot	tot	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	8	mark	_	MWE=Tot_i_que|MWEPOS=SCONJ
+1	Tot	tot	PRON	PRON	Gender=Masc|Number=Sing|PronType=Tot	7	mark	_	MWE=Tot_i_que|MWEPOS=SCONJ
 2	i	i	CCONJ	CCONJ	_	1	fixed	_	_
 3	que	que	SCONJ	SCONJ	_	1	fixed	_	_
-4	Tapia	Tapia	PROPN	PROPN	_	8	nsubj	_	_
-5	no	no	ADV	ADV	Polarity=Neg	8	advmod	_	_
-6	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-7	volgut	voler	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	aux	_	_
-8	avançar	avançar	VERB	VERB	VerbForm=Inf	24	advcl	_	_
+4	Tapia	Tapia	PROPN	PROPN	_	7	nsubj	_	_
+5	no	no	ADV	ADV	Polarity=Neg	7	advmod	_	_
+6	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	volgut	voler	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	_
+8	avançar	avançar	VERB	VERB	VerbForm=Inf	7	xcomp	_	_
 9	quina	quin	PRON	PRON	Gender=Fem|Number=Sing|PronType=Int	11	nsubj	_	_
-10	hauria	haver	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	8	aux	_	_
+10	hauria	haver	AUX	AUX	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	aux	_	_
 11	estat	ser	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	_
 12	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	situació	situació	NOUN	NOUN	Gender=Fem|Number=Sing	11	obj	_	_
@@ -45780,7 +45780,7 @@
 18	la	el	DET	DET	Gender=Fem|Number=Sing|PronType=Art	20	det	_	MWE=la_seva|MWEPOS=DET
 19	seva	seu	DET	DET	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	det	_	_
 20	presència	presència	NOUN	NOUN	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	PUNCT	PunctType=Comm	8	punct	_	_
+21	,	,	PUNCT	PUNCT	PunctType=Comm	7	punct	_	_
 22	sí	sí	ADV	ADV	_	24	advmod	_	_
 23	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 24	assenyalat	assenyalar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -48210,17 +48210,17 @@
 14	en	en	ADP	ADP	AdpType=Prep	16	case	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	convicció	convicció	NOUN	NOUN	Gender=Fem|Number=Sing	13	obj	_	_
-17	que	que	SCONJ	SCONJ	_	25	mark	_	_
+17	que	que	SCONJ	SCONJ	_	23	mark	_	_
 18	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	president	president	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
+19	president	president	NOUN	NOUN	Gender=Masc|Number=Sing	23	nsubj	_	_
 20	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	21	case	_	_
 21	Govern	Govern	PROPN	PROPN	_	19	nmod	_	_
-22	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
-23	donat	donar	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	cop	_	_
+22	ha	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	donat	donar	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
 24	per	per	ADP	ADP	AdpType=Prep	25	case	_	_
-25	tancat	tancat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	16	acl	_	_
+25	tancat	tancat	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	23	xcomp	_	_
 26	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	procés	procés	NOUN	NOUN	Gender=Masc|Number=Sing	25	obj	_	_
+27	procés	procés	NOUN	NOUN	Gender=Masc|Number=Sing	23	obj	_	_
 28	autonòmic	autonòmic	ADJ	ADJ	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	PunctType=Peri	13	punct	_	_
 
@@ -48416,29 +48416,29 @@
 7	CiU	CiU	PROPN	PROPN	_	9	nsubj	_	_
 8	es	ell	PRON	PRON	Person=3	9	iobj	_	_
 9	proposa	proposar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	deixar	deixar	AUX	AUX	VerbForm=Inf	12	aux	_	_
+10	deixar	deixar	VERB	AUX	VerbForm=Inf	9	xcomp	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	mark	_	_
-12	col·laborar	col·laborar	VERB	VERB	VerbForm=Inf	9	xcomp	_	_
+12	col·laborar	col·laborar	VERB	VERB	VerbForm=Inf	10	xcomp	_	_
 13	amb	amb	ADP	ADP	AdpType=Prep	15	case	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	Govern	Govern	PROPN	PROPN	_	12	obj	_	_
 16	a	a	ADP	ADP	AdpType=Prep	17	case	_	_
-17	Madrid	Madrid	PROPN	PROPN	_	12	obl	_	_
+17	Madrid	Madrid	PROPN	PROPN	_	10	obl	_	_
 18	i	i	CCONJ	CCONJ	_	19	cc	_	_
 19	assumir	assumir	VERB	VERB	VerbForm=Inf	12	conj	_	_
 20	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	conseqüència	conseqüència	NOUN	NOUN	Gender=Fem|Number=Sing	19	obj	_	_
-22	que	que	SCONJ	SCONJ	_	28	mark	_	_
+22	que	que	SCONJ	SCONJ	_	26	mark	_	_
 23	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-24	populars	popular	NOUN	NOUN	Gender=Masc|Number=Plur	28	nsubj	_	_
+24	populars	popular	NOUN	NOUN	Gender=Masc|Number=Plur	26	nsubj	_	_
 25	catalans	català	ADJ	ADJ	Gender=Masc|Number=Plur	24	amod	_	_
-26	deixin	deixar	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+26	deixin	deixar	VERB	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl	_	_
 27	de	de	ADP	ADP	AdpType=Prep	28	mark	_	_
-28	recolzar	recolzar	VERB	VERB	VerbForm=Inf	21	acl	_	_
+28	recolzar	recolzar	VERB	VERB	VerbForm=Inf	26	xcomp	_	_
 29	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	Govern	Govern	PROPN	PROPN	_	28	obj	_	_
 31	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	32	case	_	_
-32	Parlament	Parlament	PROPN	PROPN	_	28	obl	_	SpaceAfter=No
+32	Parlament	Parlament	PROPN	PROPN	_	26	obl	_	SpaceAfter=No
 33	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id = dev-s1308
@@ -48566,10 +48566,10 @@
 32	acabat	acabar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
 33	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
 34	equilibris	equilibri	NOUN	NOUN	Gender=Masc|Number=Plur	32	nsubj	_	_
-35	per	per	ADP	ADP	AdpType=Prep	37	mark	_	_
-36	intentar	intentar	AUX	AUX	VerbForm=Inf	37	aux	_	_
+35	per	per	ADP	ADP	AdpType=Prep	36	mark	_	_
+36	intentar	intentar	VERB	AUX	VerbForm=Inf	34	acl	_	_
 37-38	reconduir-la	_	_	_	_	_	_	_	SpaceAfter=No
-37	reconduir	reconduir	VERB	VERB	VerbForm=Inf	34	acl	_	_
+37	reconduir	reconduir	VERB	VERB	VerbForm=Inf	36	xcomp	_	_
 38	la	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	obj	_	_
 39	"	"	PUNCT	PUNCT	PunctType=Quot	32	punct	_	SpaceAfter=No
 40	.	.	PUNCT	PUNCT	PunctType=Peri	15	punct	_	_
@@ -48889,8 +48889,8 @@
 14	acceptar	acceptar	VERB	VERB	VerbForm=Inf	8	xcomp	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	recomanació	recomanació	NOUN	NOUN	Gender=Fem|Number=Sing	14	obj	_	_
-17	per	per	ADP	ADP	AdpType=Prep	29	mark	_	_
-18	entendre	entendre	AUX	AUX	VerbForm=Inf	29	aux	_	_
+17	per	per	ADP	ADP	AdpType=Prep	18	mark	_	_
+18	entendre	entendre	VERB	AUX	VerbForm=Inf	14	advcl	_	_
 19	que	que	SCONJ	SCONJ	_	29	mark	_	_
 20	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	llicència	llicència	NOUN	NOUN	Gender=Fem|Number=Sing	29	nsubj	_	_
@@ -48901,7 +48901,7 @@
 26	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	conj	_	_
 27	d'	de	ADP	ADP	AdpType=Prep	26	case	_	SpaceAfter=No
 28	habitabilitat	habitabilitat	NOUN	NOUN	Gender=Fem|Number=Sing	26	nsubj	_	_
-29	tenen	tenir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+29	tenen	tenir	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
 30	un	un	DET	DET	Gender=Masc|Number=Sing|PronType=Ind	31	det	_	_
 31	valor	valor	NOUN	NOUN	Gender=Masc|Number=Sing	29	obj	_	_
 32	administratiu	administratiu	ADJ	ADJ	Gender=Masc|Number=Sing	31	amod	_	_
@@ -49329,18 +49329,18 @@
 3	que	que	SCONJ	SCONJ	_	5	mark	_	_
 4	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	imperdonable	imperdonable	ADJ	ADJ	Number=Sing	2	ccomp	_	_
-6	que	que	SCONJ	SCONJ	_	13	mark	_	_
+6	que	que	SCONJ	SCONJ	_	12	mark	_	_
 7	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Govern	Govern	PROPN	PROPN	_	13	nsubj	_	MWE=Govern_de_la_Generalitat|MWEPOS=PROPN
+8	Govern	Govern	PROPN	PROPN	_	12	nsubj	_	MWE=Govern_de_la_Generalitat|MWEPOS=PROPN
 9	de	de	ADP	ADP	AdpType=Prep	11	case	_	_
 10	la	la	DET	DET	Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Generalitat	Generalitat	PROPN	PROPN	_	8	flat	_	_
-12	deixés	deixar	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
-13	perdre	perdre	VERB	VERB	VerbForm=Inf	5	csubj	_	_
+12	deixés	deixar	VERB	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	csubj	_	_
+13	perdre	perdre	VERB	VERB	VerbForm=Inf	12	xcomp	_	_
 14	aquesta	aquest	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
 15	oportunitat	oportunitat	NOUN	NOUN	Gender=Fem|Number=Sing	13	obj	_	_
 16	per	per	ADP	ADP	AdpType=Prep	17	case	_	_
-17	motius	motiu	NOUN	NOUN	Gender=Masc|Number=Plur	13	obl	_	_
+17	motius	motiu	NOUN	NOUN	Gender=Masc|Number=Plur	12	obl	_	_
 18	lingüístics	lingüístic	ADJ	ADJ	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
@@ -49417,9 +49417,9 @@
 20	sectors	sector	NOUN	NOUN	Gender=Masc|Number=Plur	17	nmod	_	_
 21	radicals	radical	ADJ	ADJ	Number=Plur	20	amod	_	SpaceAfter=No
 22	"	"	PUNCT	PUNCT	PunctType=Quot	17	punct	_	_
-23	i	i	CCONJ	CCONJ	_	25	cc	_	_
-24	preferir	preferir	AUX	AUX	VerbForm=Inf	25	aux	_	_
-25	perdre	perdre	VERB	VERB	VerbForm=Inf	13	conj	_	_
+23	i	i	CCONJ	CCONJ	_	24	cc	_	_
+24	preferir	preferir	VERB	AUX	VerbForm=Inf	13	conj	_	_
+25	perdre	perdre	VERB	VERB	VerbForm=Inf	24	xcomp	_	_
 26	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	27	det	_	_
 27	posició	posició	NOUN	NOUN	Gender=Fem|Number=Sing	25	obj	_	_
 28	de	de	ADP	ADP	AdpType=Prep	29	case	_	_
@@ -49427,8 +49427,8 @@
 30	en	en	ADP	ADP	AdpType=Prep	33	case	_	_
 31	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	33	det	_	_
 32	nova	nou	ADJ	ADJ	Gender=Fem|Number=Sing	33	amod	_	_
-33	tecnologia	tecnologia	NOUN	NOUN	Gender=Fem|Number=Sing	25	obl	_	_
-34	abans	abans	ADV	ADV	_	25	advmod	_	_
+33	tecnologia	tecnologia	NOUN	NOUN	Gender=Fem|Number=Sing	24	obl	_	_
+34	abans	abans	ADV	ADV	_	24	advmod	_	_
 35	que	que	SCONJ	SCONJ	_	36	mark	_	_
 36	utilitzar	utilitzar	VERB	VERB	VerbForm=Inf	34	advcl	_	_
 37	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
@@ -49525,13 +49525,13 @@
 25	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	lingüística	lingüístic	ADJ	ADJ	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
 27	,	,	PUNCT	PUNCT	PunctType=Comm	26	punct	_	_
-28	per	per	ADP	ADP	AdpType=Prep	34	mark	_	_
-29	deixar	deixar	AUX	AUX	VerbForm=Inf	34	aux	_	_
+28	per	per	ADP	ADP	AdpType=Prep	29	mark	_	_
+29	deixar	deixar	VERB	AUX	VerbForm=Inf	15	advcl	_	_
 30	que	que	SCONJ	SCONJ	_	34	mark	_	_
 31	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	33	det	_	_
 32	suculent	suculent	ADJ	ADJ	Gender=Masc|Number=Sing	33	amod	_	_
 33	pastís	pastís	NOUN	NOUN	Gender=Masc|Number=Sing	34	nsubj	_	_
-34	anés	anar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	advcl	_	MWE=anés_a_parar|MWEPOS=VERB
+34	anés	anar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	ccomp	_	MWE=anés_a_parar|MWEPOS=VERB
 35	a	a	ADP	ADP	AdpType=Prep	36	case	_	_
 36	parar	parar	NOUN	NOUN	Number=Sing	34	compound	_	_
 37	a	a	ADP	ADP	AdpType=Prep	38	case	_	_
@@ -50555,12 +50555,12 @@
 15	perdigons	perdigó	NOUN	NOUN	Gender=Masc|Number=Plur	14	obj	_	_
 16	de	de	ADP	ADP	AdpType=Prep	17	case	_	_
 17	plom	plom	NOUN	NOUN	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
-18	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
-19	i	i	CCONJ	CCONJ	_	23	cc	_	_
+18	,	,	PUNCT	PUNCT	PunctType=Comm	22	punct	_	_
+19	i	i	CCONJ	CCONJ	_	22	cc	_	_
 20	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	meitat	meitat	NOUN	NOUN	Gender=Fem|Number=Sing	23	nsubj	_	_
-22	acaba	acabar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
-23	morint	morir	VERB	VERB	VerbForm=Ger	8	conj	_	SpaceAfter=No
+21	meitat	meitat	NOUN	NOUN	Gender=Fem|Number=Sing	22	nsubj	_	_
+22	acaba	acabar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+23	morint	morir	VERB	VERB	VerbForm=Ger	22	xcomp	_	SpaceAfter=No
 24	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s1366
@@ -50639,10 +50639,10 @@
 13	digereix	digerir	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	perdigó	perdigó	NOUN	NOUN	Gender=Masc|Number=Sing	13	obj	_	_
-16	i	i	CCONJ	CCONJ	_	19	cc	_	_
-17	l'	ell	PRON	PRON	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
-18	acaba	acabar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
-19	expulsant	expulsar	VERB	VERB	VerbForm=Ger	13	conj	_	SpaceAfter=No
+16	i	i	CCONJ	CCONJ	_	18	cc	_	_
+17	l'	ell	PRON	PRON	Case=Acc|Number=Sing|Person=3|PronType=Prs	18	obj	_	SpaceAfter=No
+18	acaba	acabar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+19	expulsant	expulsar	VERB	VERB	VerbForm=Ger	18	xcomp	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	PunctType=Comm	5	punct	_	_
 21	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
 22	estómac	estómac	NOUN	NOUN	Gender=Masc|Number=Sing	25	nsubj	_	_
@@ -50752,12 +50752,12 @@
 27	són	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	acl	_	_
 28	a	a	ADP	ADP	AdpType=Prep	29	case	_	_
 29	terra	terra	NOUN	NOUN	Gender=Fem|Number=Sing	27	obj	_	_
-30	i	i	CCONJ	CCONJ	_	35	cc	_	_
-31	que	que	PRON	PRON	PronType=Rel	35	obj	_	_
+30	i	i	CCONJ	CCONJ	_	34	cc	_	_
+31	que	que	PRON	PRON	PronType=Rel	34	obj	_	_
 32	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
-33	aus	au	NOUN	NOUN	Gender=Fem|Number=Plur	35	nsubj	_	_
-34	continuaran	continuar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	35	aux	_	_
-35	ingerint	ingerir	VERB	VERB	VerbForm=Ger	27	conj	_	SpaceAfter=No
+33	aus	au	NOUN	NOUN	Gender=Fem|Number=Plur	34	nsubj	_	_
+34	continuaran	continuar	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	27	conj	_	_
+35	ingerint	ingerir	VERB	VERB	VerbForm=Ger	34	xcomp	_	SpaceAfter=No
 36	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id = dev-s1372
@@ -51254,12 +51254,12 @@
 27	havien	haver	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	aux	_	_
 28	d'	de	ADP	ADP	AdpType=Prep	29	mark	_	SpaceAfter=No
 29	adoptar	adoptar	VERB	VERB	VerbForm=Inf	25	acl	_	_
-30	per	per	ADP	ADP	AdpType=Prep	32	mark	_	_
-31	evitar	evitar	AUX	AUX	VerbForm=Inf	32	aux	_	_
-32	regar	regar	VERB	VERB	VerbForm=Inf	29	advcl	_	_
+30	per	per	ADP	ADP	AdpType=Prep	31	mark	_	_
+31	evitar	evitar	VERB	AUX	VerbForm=Inf	29	advcl	_	_
+32	regar	regar	VERB	VERB	VerbForm=Inf	31	xcomp	_	_
 33	amb	amb	ADP	ADP	AdpType=Prep	35	case	_	_
 34	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
-35	aigües	aigua	NOUN	NOUN	Gender=Fem|Number=Plur	32	obl	_	_
+35	aigües	aigua	NOUN	NOUN	Gender=Fem|Number=Plur	31	obl	_	_
 36	contaminades	contaminat	ADJ	ADJ	Gender=Fem|Number=Plur|VerbForm=Part	35	amod	_	SpaceAfter=No
 37	.	.	PUNCT	PUNCT	PunctType=Peri	17	punct	_	_
 
@@ -51405,18 +51405,18 @@
 43	seu	seu	DET	DET	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	det	_	_
 44	abast	abast	NOUN	NOUN	Gender=Masc|Number=Sing	34	acl	_	SpaceAfter=No
 45	"	"	PUNCT	PUNCT	PunctType=Quot	32	punct	_	_
-46	per	per	ADP	ADP	AdpType=Prep	57	mark	_	_
-47	"	"	PUNCT	PUNCT	PunctType=Quot	57	punct	_	SpaceAfter=No
-48	vetllar	vetllar	AUX	AUX	VerbForm=Inf	57	aux	_	_
-49	perquè	perquè	SCONJ	SCONJ	_	57	mark	_	_
+46	per	per	ADP	ADP	AdpType=Prep	48	mark	_	_
+47	"	"	PUNCT	PUNCT	PunctType=Quot	48	punct	_	SpaceAfter=No
+48	vetllar	vetllar	VERB	AUX	VerbForm=Inf	32	advcl	_	_
+49	perquè	perquè	SCONJ	SCONJ	_	48	mark	_	_
 50	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
-51	actuacions	actuació	NOUN	NOUN	Gender=Fem|Number=Plur	57	nsubj	_	_
+51	actuacions	actuació	NOUN	NOUN	Gender=Fem|Number=Plur	48	nsubj	_	_
 52	de	de	ADP	ADP	AdpType=Prep	54	case	_	_
 53	les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
 54	institucions	institució	NOUN	NOUN	Gender=Fem|Number=Plur	51	nmod	_	_
 55	espanyoles	espanyol	ADJ	ADJ	Gender=Fem|Number=Plur	54	amod	_	_
 56	siguin	ser	AUX	AUX	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	57	cop	_	_
-57	respectuoses	respectuós	ADJ	ADJ	Gender=Fem|Number=Plur	32	advcl	_	_
+57	respectuoses	respectuós	ADJ	ADJ	Gender=Fem|Number=Plur	48	xcomp	_	_
 58	amb	amb	ADP	ADP	AdpType=Prep	60	case	_	_
 59	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
 60	caràcter	caràcter	NOUN	NOUN	Gender=Masc|Number=Sing	57	nmod	_	_
@@ -51432,7 +51432,7 @@
 70	Estatuts	Estatuts	PROPN	PROPN	_	68	nmod	_	MWE=Estatuts_d'_Autonomia|MWEPOS=PROPN
 71	d'	d'	ADP	ADP	AdpType=Prep	72	case	_	SpaceAfter=No
 72	Autonomia	Autonomia	PROPN	PROPN	_	70	flat	_	SpaceAfter=No
-73	"	"	PUNCT	PUNCT	PunctType=Quot	57	punct	_	SpaceAfter=No
+73	"	"	PUNCT	PUNCT	PunctType=Quot	48	punct	_	SpaceAfter=No
 74	.	.	PUNCT	PUNCT	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s1389
@@ -51797,7 +51797,7 @@
 # sent_id = dev-s1395
 # text = Roger Lluís Sarrate, que treballa per la Caixa d'Estalvis de Catalunya des de l'any 1970, havia arribat a assolir la categoria professional de director de l'oficina d'aquesta entitat a Artesa de Segre a Lleida.
 # orig_file_sentence 014#93
-1	Roger	Roger	PROPN	PROPN	_	23	nsubj	_	MWE=Roger_Lluís_Sarrate|MWEPOS=PROPN
+1	Roger	Roger	PROPN	PROPN	_	21	nsubj	_	MWE=Roger_Lluís_Sarrate|MWEPOS=PROPN
 2	Lluís	Lluís	PROPN	PROPN	_	1	flat	_	_
 3	Sarrate	Sarrate	PROPN	PROPN	_	1	flat	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
@@ -51816,10 +51816,10 @@
 17	any	any	NOUN	NOUN	_	6	obl	_	MWE=any_1970|MWEPOS=NOUN
 18	1970	1970	NUM	NUM	NumForm=Digit|NumType=Card	17	compound	_	SpaceAfter=No
 19	,	,	PUNCT	PUNCT	PunctType=Comm	6	punct	_	_
-20	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
-21	arribat	arribar	AUX	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	aux	_	_
+20	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	arribat	arribar	VERB	AUX	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 22	a	a	ADP	ADP	AdpType=Prep	23	mark	_	_
-23	assolir	assolir	VERB	VERB	VerbForm=Inf	0	root	_	_
+23	assolir	assolir	VERB	VERB	VerbForm=Inf	21	xcomp	_	_
 24	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	categoria	categoria	NOUN	NOUN	Gender=Fem|Number=Sing	23	obj	_	_
 26	professional	professional	ADJ	ADJ	Number=Sing	25	amod	_	_
@@ -51837,7 +51837,7 @@
 38	Segre	Segre	PROPN	PROPN	_	36	flat	_	_
 39	a	a	ADP	ADP	AdpType=Prep	40	case	_	_
 40	Lleida	Lleida	PROPN	PROPN	_	36	nmod	_	SpaceAfter=No
-41	.	.	PUNCT	PUNCT	PunctType=Peri	23	punct	_	_
+41	.	.	PUNCT	PUNCT	PunctType=Peri	21	punct	_	_
 
 # sent_id = dev-s1396
 # text = Segons els advocats del Col·lectiu Ronda, a principis de l'any 2001 l'empresa va cessar en el càrrec a 40 directors als quals se 'ls va oferir la jubilació o prejubilació, dels quals 14 ho van acceptar i la resta es van veure rellevats dels seus càrrecs de directors.
@@ -52724,15 +52724,15 @@
 # text = Les conclusions d'una comissió parlamentària d'investigació solen tenir l'abast que la majoria dels seus diputats li vulguin donar.
 # orig_file_sentence 015#17
 1	Les	el	DET	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
-2	conclusions	conclusió	NOUN	NOUN	Gender=Fem|Number=Plur	10	nsubj	_	_
+2	conclusions	conclusió	NOUN	NOUN	Gender=Fem|Number=Plur	9	nsubj	_	_
 3	d'	de	ADP	ADP	AdpType=Prep	5	case	_	SpaceAfter=No
 4	una	un	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
 5	comissió	comissió	NOUN	NOUN	Gender=Fem|Number=Sing	2	nmod	_	_
 6	parlamentària	parlamentari	ADJ	ADJ	Gender=Fem|Number=Sing	5	amod	_	_
 7	d'	de	ADP	ADP	AdpType=Prep	8	case	_	SpaceAfter=No
 8	investigació	investigació	NOUN	NOUN	Gender=Fem|Number=Sing	5	nmod	_	_
-9	solen	soler	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
-10	tenir	tenir	VERB	VERB	VerbForm=Inf	0	root	_	_
+9	solen	soler	VERB	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	tenir	tenir	VERB	VERB	VerbForm=Inf	9	xcomp	_	_
 11	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	abast	abast	NOUN	NOUN	Gender=Masc|Number=Sing	10	obj	_	_
 13	que	que	PRON	PRON	PronType=Rel	20	iobj	_	_
@@ -52744,7 +52744,7 @@
 19	li	ell	PRON	PRON	Case=Dat|Number=Sing|Person=3|PronType=Prs	20	iobj	_	_
 20	vulguin	voler	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_
 21	donar	donar	VERB	VERB	VerbForm=Inf	20	xcomp	_	SpaceAfter=No
-22	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
+22	.	.	PUNCT	PUNCT	PunctType=Peri	9	punct	_	_
 
 # sent_id = dev-s1418
 # text = En el cas del lli s'ha complert la norma una vegada més, encara que la dosi de cinisme dels que van decidir enllestir l'afer ratlla l'escàndol.
@@ -53800,13 +53800,13 @@
 18	productivitat	productivitat	NOUN	NOUN	Gender=Fem|Number=Sing	16	obj	_	_
 19	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	20	case	_	_
 20	grup	grup	NOUN	NOUN	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
-21	,	,	PUNCT	PUNCT	PunctType=Comm	27	punct	_	_
-22	i	i	CCONJ	CCONJ	_	27	cc	_	_
-23	aconseguir	aconseguir	AUX	AUX	VerbForm=Inf	27	aux	_	_
+21	,	,	PUNCT	PUNCT	PunctType=Comm	23	punct	_	_
+22	i	i	CCONJ	CCONJ	_	23	cc	_	_
+23	aconseguir	aconseguir	VERB	AUX	VerbForm=Inf	16	conj	_	_
 24	que	que	SCONJ	SCONJ	_	27	mark	_	_
 25	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 26	resultats	resultat	NOUN	NOUN	Gender=Masc|Number=Plur	27	nsubj	_	_
-27	avancin	avançar	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+27	avancin	avançar	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
 28	un	un	PRON	PRON	Gender=Masc|Number=Sing|PronType=Ind	29	nmod	_	_
 29	10%	10/100	SYM	SYM	NumForm=Digit|NumType=Frac	27	obj	_	_
 30	aquest	aquest	DET	DET	Gender=Masc|Number=Sing|PronType=Dem	31	det	_	_
@@ -54784,9 +54784,9 @@
 55	de	de	ADP	ADP	AdpType=Prep	56	case	_	_
 56	pasqua	Pasqua	NOUN	NOUN	Gender=Fem|Number=Sing	54	nmod	_	SpaceAfter=No
 57	,	,	PUNCT	PUNCT	PunctType=Comm	56	punct	_	_
-58	de	de	ADP	ADP	AdpType=Prep	60	mark	_	_
-59	fer	fer	AUX	AUX	VerbForm=Inf	60	aux	_	_
-60	riure	riure	VERB	VERB	VerbForm=Inf	47	xcomp	_	_
+58	de	de	ADP	ADP	AdpType=Prep	59	mark	_	_
+59	fer	fer	VERB	AUX	VerbForm=Inf	47	xcomp	_	_
+60	riure	riure	VERB	VERB	VerbForm=Inf	59	xcomp	_	_
 61	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	62	det	_	_
 62	feligresos	feligrès	NOUN	NOUN	Gender=Masc|Number=Plur	60	obj	_	_
 63	"	"	PUNCT	PUNCT	PunctType=Quot	64	punct	_	SpaceAfter=No
@@ -55017,12 +55017,12 @@
 39	Audiència	Audiència	PROPN	PROPN	_	36	nmod	_	MWE=Audiència_de_Màlaga|MWEPOS=PROPN
 40	de	de	ADP	ADP	AdpType=Prep	41	case	_	_
 41	Màlaga	Màlaga	PROPN	PROPN	_	39	flat	_	_
-42	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	47	mark	_	_
-43	considerar	considerar	AUX	AUX	VerbForm=Inf	47	aux	_	_
+42	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	43	mark	_	_
+43	considerar	considerar	VERB	AUX	VerbForm=Inf	33	advcl	_	_
 44	que	que	SCONJ	SCONJ	_	47	mark	_	_
 45	no	no	ADV	ADV	Polarity=Neg	47	advmod	_	_
 46	hi	hi	PRON	PRON	Person=3|PronType=Prs	47	obj	_	_
-47	havia	haver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	advcl	_	_
+47	havia	haver	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	ccomp	_	_
 48	proves	prova	NOUN	NOUN	Gender=Fem|Number=Plur	47	obj	_	_
 49	directes	directe	ADJ	ADJ	Number=Plur	48	amod	_	_
 50	contra	contra	ADP	ADP	AdpType=Prep	53	case	_	_
@@ -55759,10 +55759,10 @@
 1	Hornos	Hornos	PROPN	PROPN	_	3	nsubj	_	_
 2	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	recalcar	recalcar	VERB	VERB	VerbForm=Inf	0	root	_	_
-4	que	que	SCONJ	SCONJ	_	7	mark	_	_
-5	segueix	seguir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	que	que	SCONJ	SCONJ	_	5	mark	_	_
+5	segueix	seguir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 6	estant	estar	AUX	AUX	VerbForm=Ger	7	cop	_	_
-7	segura	segur	ADJ	ADJ	Gender=Fem|Number=Sing	3	ccomp	_	_
+7	segura	segur	ADJ	ADJ	Gender=Fem|Number=Sing	5	xcomp	_	_
 8	que	que	SCONJ	SCONJ	_	13	mark	_	_
 9	Vázquez	Vázquez	PROPN	PROPN	_	13	nsubj	_	_
 10	"	"	PUNCT	PUNCT	PunctType=Quot	13	punct	_	SpaceAfter=No
@@ -56037,21 +56037,21 @@
 5	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 6	nous	nou	ADJ	ADJ	Gender=Masc|Number=Plur	7	amod	_	_
 7	sortejos	sorteig	NOUN	NOUN	Gender=Masc|Number=Plur	4	obj	_	_
-8	per	per	ADP	ADP	AdpType=Prep	19	mark	_	_
-9	millorar	millorar	AUX	AUX	VerbForm=Inf	19	aux	_	_
+8	per	per	ADP	ADP	AdpType=Prep	9	mark	_	_
+9	millorar	millorar	VERB	AUX	VerbForm=Inf	7	acl	_	_
 10	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	venda	venda	NOUN	NOUN	Gender=Fem|Number=Sing	19	obj	_	_
+11	venda	venda	NOUN	NOUN	Gender=Fem|Number=Sing	9	obj	_	_
 12	actual	actual	ADJ	ADJ	Number=Sing	11	amod	_	_
 13	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	14	case	_	_
 14	cupó	cupó	NOUN	NOUN	Gender=Masc|Number=Sing	11	nmod	_	_
-15	-	-	PUNCT	PUNCT	PunctType=Dash	19	punct	_	_
-16	que	que	PRON	PRON	PronType=Rel	19	obj	_	_
-17	haurà	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	19	aux	_	_
+15	-	-	PUNCT	PUNCT	PunctType=Dash	9	punct	_	_
+16	que	que	PRON	PRON	PronType=Rel	9	obj	_	_
+17	haurà	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
 18	d'	de	ADP	ADP	AdpType=Prep	19	mark	_	SpaceAfter=No
-19	autoritzar	autoritzar	VERB	VERB	VerbForm=Inf	7	acl	_	_
+19	autoritzar	autoritzar	VERB	VERB	VerbForm=Inf	9	xcomp	_	_
 20	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	Govern	Govern	PROPN	PROPN	_	19	nsubj	_	_
-22	-	-	PUNCT	PUNCT	PunctType=Dash	19	punct	_	_
+21	Govern	Govern	PROPN	PROPN	_	9	nsubj	_	_
+22	-	-	PUNCT	PUNCT	PunctType=Dash	9	punct	_	_
 23	amb	amb	ADP	ADP	AdpType=Prep	25	case	_	_
 24	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	venda	venda	NOUN	NOUN	Gender=Fem|Number=Sing	4	obj	_	_
@@ -56108,31 +56108,31 @@
 2	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	eludir	eludir	VERB	VERB	VerbForm=Inf	0	root	_	_
 4-5	referir-se	_	_	_	_	_	_	_	_
-4	referir	referir	AUX	AUX	VerbForm=Inf	21	aux	_	_
-5	se	ell	PRON	PRON	Person=3	21	iobj	_	_
+4	referir	referir	VERB	AUX	VerbForm=Inf	3	xcomp	_	_
+5	se	ell	PRON	PRON	Person=3	4	iobj	_	_
 6	als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	7	case	_	_
-7	ingressos	ingrés	NOUN	NOUN	Gender=Masc|Number=Plur	21	iobj	_	_
+7	ingressos	ingrés	NOUN	NOUN	Gender=Masc|Number=Plur	4	iobj	_	_
 8	per	per	ADP	ADP	AdpType=Prep	10	case	_	_
 9	aquesta	aquest	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
-10	venda	venda	NOUN	NOUN	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
-11	:	:	PUNCT	PUNCT	PunctType=Colo	21	punct	_	_
-12	"	"	PUNCT	PUNCT	PunctType=Quot	21	punct	_	SpaceAfter=No
+10	venda	venda	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+11	:	:	PUNCT	PUNCT	PunctType=Colo	4	punct	_	_
+12	"	"	PUNCT	PUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
 13	Sobre	sobre	ADP	ADP	AdpType=Prep	18	case	_	_
 14	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 15	que	que	PRON	PRON	PronType=Rel	18	nsubj	_	_
 16	no	no	ADV	ADV	Polarity=Neg	18	advmod	_	_
 17	està	estar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
 18	fet	fet	ADJ	ADJ	Gender=Masc|Number=Sing|VerbForm=Part	21	ccomp	_	_
-19	no	no	ADV	ADV	Polarity=Neg	21	advmod	_	_
-20	podem	poder	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
-21	parlar	parlar	VERB	VERB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+19	no	no	ADV	ADV	Polarity=Neg	4	advmod	_	_
+20	podem	poder	AUX	AUX	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+21	parlar	parlar	VERB	VERB	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
 23	i	i	CCONJ	CCONJ	_	24	cc	_	_
 24	cal	caldre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
 25	ser	ser	AUX	AUX	VerbForm=Inf	27	cop	_	_
 26	enormement	enormement	ADV	ADV	_	27	advmod	_	_
 27	discrets	discret	ADJ	ADJ	Gender=Masc|Number=Plur	24	csubj	_	SpaceAfter=No
-28	"	"	PUNCT	PUNCT	PunctType=Quot	21	punct	_	SpaceAfter=No
+28	"	"	PUNCT	PUNCT	PunctType=Quot	4	punct	_	SpaceAfter=No
 29	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s1517
@@ -57010,13 +57010,13 @@
 11	minera	miner	ADJ	ADJ	Gender=Fem|Number=Sing	10	amod	_	_
 12	i	i	CCONJ	CCONJ	_	13	cc	_	_
 13	permetrà	permetre	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	conj	_	_
-14	que	que	SCONJ	SCONJ	_	20	mark	_	_
+14	que	que	SCONJ	SCONJ	_	19	mark	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	comarca	comarca	NOUN	NOUN	Gender=Fem|Number=Sing	20	nsubj	_	_
+16	comarca	comarca	NOUN	NOUN	Gender=Fem|Number=Sing	19	nsubj	_	_
 17	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	18	case	_	_
 18	Berguedà	Berguedà	PROPN	PROPN	_	16	nmod	_	_
-19	continuï	continuar	AUX	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
-20	rebent	rebre	VERB	VERB	VerbForm=Ger	13	ccomp	_	_
+19	continuï	continuar	VERB	AUX	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+20	rebent	rebre	VERB	VERB	VerbForm=Ger	19	xcomp	_	_
 21	ajuts	ajut	NOUN	NOUN	Gender=Masc|Number=Plur	20	obj	_	_
 22	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	23	case	_	_
 23	Fons	Fons	PROPN	PROPN	_	21	nmod	_	MWE=Fons_Miner|MWEPOS=PROPN
@@ -57109,12 +57109,12 @@
 6	acord	acord	NOUN	NOUN	Gender=Masc|Number=Sing	3	nmod	_	_
 7	parlamentari	parlamentari	ADJ	ADJ	Gender=Masc|Number=Sing	6	amod	_	_
 8	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	que	que	SCONJ	SCONJ	_	14	mark	_	_
+9	que	que	SCONJ	SCONJ	_	13	mark	_	_
 10	el	el	DET	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Berguedà	Berguedà	PROPN	PROPN	_	14	nsubj	_	_
-12	podrà	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	aux	_	_
-13	continuar	continuar	AUX	AUX	VerbForm=Inf	14	aux	_	_
-14	tenint	tenir	VERB	VERB	VerbForm=Ger	8	ccomp	_	_
+11	Berguedà	Berguedà	PROPN	PROPN	_	13	nsubj	_	_
+12	podrà	poder	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	aux	_	_
+13	continuar	continuar	VERB	AUX	VerbForm=Inf	8	ccomp	_	_
+14	tenint	tenir	VERB	VERB	VerbForm=Ger	13	xcomp	_	_
 15	accés	accés	NOUN	NOUN	Gender=Masc|Number=Sing	14	obj	_	_
 16	als	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Plur	17	case	_	_
 17	ajuts	ajut	NOUN	NOUN	Gender=Masc|Number=Plur	15	nmod	_	_
@@ -57158,9 +57158,9 @@
 16	per	per	ADP	ADP	AdpType=Prep	18	case	_	_
 17	al	al	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	18	case	_	_
 18	Berguedà	Berguedà	PROPN	PROPN	_	15	obl	_	_
-19	de	de	ADP	ADP	AdpType=Prep	21	mark	_	_
-20	continuar	continuar	AUX	AUX	VerbForm=Inf	21	aux	_	_
-21	treballant	treballar	VERB	VERB	VerbForm=Ger	15	ccomp	_	_
+19	de	de	ADP	ADP	AdpType=Prep	20	mark	_	_
+20	continuar	continuar	VERB	AUX	VerbForm=Inf	15	ccomp	_	_
+21	treballant	treballar	VERB	VERB	VerbForm=Ger	20	xcomp	_	_
 22	en	en	ADP	ADP	AdpType=Prep	24	case	_	_
 23	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	consolidació	consolidació	NOUN	NOUN	Gender=Fem|Number=Sing	21	obj	_	_
@@ -58021,14 +58021,14 @@
 15	expressat	expressar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 16	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	voluntat	voluntat	NOUN	NOUN	Gender=Fem|Number=Sing	15	obj	_	_
-18	de	de	ADP	ADP	AdpType=Prep	25	mark	_	_
-19	resoldre	resoldre	AUX	AUX	VerbForm=Inf	25	aux	_	_
+18	de	de	ADP	ADP	AdpType=Prep	19	mark	_	_
+19	resoldre	resoldre	VERB	AUX	VerbForm=Inf	17	acl	_	_
 20	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	situació	situació	NOUN	NOUN	Gender=Fem|Number=Sing	25	obj	_	_
+21	situació	situació	NOUN	NOUN	Gender=Fem|Number=Sing	19	obj	_	_
 22	de	de	ADP	ADP	AdpType=Prep	24	case	_	_
 23	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	Botjosa	Botjosa	PROPN	PROPN	_	21	nmod	_	_
-25	completant	completar	VERB	VERB	VerbForm=Ger	17	acl	_	_
+25	completant	completar	VERB	VERB	VerbForm=Ger	19	xcomp	_	_
 26	l'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	obra	obra	NOUN	NOUN	Gender=Fem|Number=Sing	25	obj	_	_
 28	urbanitzadora	urbanitzador	ADJ	ADJ	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
@@ -59789,9 +59789,9 @@
 17	disciplines	disciplina	NOUN	NOUN	Gender=Fem|Number=Plur	14	nmod	_	_
 18	havia	haver	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
 19	contribuït	contribuir	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
-20	a	a	ADP	ADP	AdpType=Prep	22	mark	_	_
-21	fer	fer	AUX	AUX	VerbForm=Inf	22	aux	_	_
-22	prendre	prendre	VERB	VERB	VerbForm=Inf	19	xcomp	_	_
+20	a	a	ADP	ADP	AdpType=Prep	21	mark	_	_
+21	fer	fer	VERB	AUX	VerbForm=Inf	19	xcomp	_	_
+22	prendre	prendre	VERB	VERB	VerbForm=Inf	21	xcomp	_	_
 23	aquesta	aquest	DET	DET	Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
 24	decisió	decisió	NOUN	NOUN	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
@@ -60068,14 +60068,14 @@
 # sent_id = dev-s1632
 # text = Bargués segueix escalant llocs a la Mini-Transat.
 # orig_file_sentence 017#32
-1	Bargués	Bargués	PROPN	PROPN	_	3	nsubj	_	_
-2	segueix	seguir	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-3	escalant	escalar	VERB	VERB	VerbForm=Ger	0	root	_	_
+1	Bargués	Bargués	PROPN	PROPN	_	2	nsubj	_	_
+2	segueix	seguir	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	escalant	escalar	VERB	VERB	VerbForm=Ger	2	xcomp	_	_
 4	llocs	lloc	NOUN	NOUN	Gender=Masc|Number=Plur	3	obj	_	_
 5	a	a	ADP	ADP	AdpType=Prep	7	case	_	_
 6	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Mini-Transat	Mini-Transat	PROPN	PROPN	_	3	obl	_	SpaceAfter=No
-8	.	.	PUNCT	PUNCT	PunctType=Peri	3	punct	_	_
+7	Mini-Transat	Mini-Transat	PROPN	PROPN	_	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	PunctType=Peri	2	punct	_	_
 
 # sent_id = dev-s1633
 # text = L'Escuela Náutica de Catalunya està protagonitzant la més espectacular de les recuperacions.
@@ -60888,11 +60888,11 @@
 1	I	i	CCONJ	CCONJ	_	2	advmod	_	_
 2	és	ser	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	SCONJ	_	29	mark	_	_
-4	intentar	intentar	AUX	AUX	VerbForm=Inf	5	aux	_	_
-5	avançar	avançar	VERB	VERB	VerbForm=Inf	29	csubj	_	_
+4	intentar	intentar	VERB	AUX	VerbForm=Inf	29	csubj	_	_
+5	avançar	avançar	VERB	VERB	VerbForm=Inf	4	xcomp	_	_
 6	en	en	ADP	ADP	AdpType=Prep	8	case	_	_
 7	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-8	solució	solució	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+8	solució	solució	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
 9	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	10	case	_	_
 10	problema	problema	NOUN	NOUN	Gender=Masc|Number=Sing	8	nmod	_	_
 11	del	del	ADP	ADP	AdpType=Preppron|Gender=Masc|Number=Sing	12	case	_	_
@@ -60900,7 +60900,7 @@
 13	etarra	etarra	ADJ	ADJ	Number=Sing	12	amod	_	_
 14	mitjançant	mitjançant	ADP	ADP	AdpType=Prep	16	case	_	_
 15	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	supressió	supressió	NOUN	NOUN	Gender=Fem|Number=Sing	5	obl	_	_
+16	supressió	supressió	NOUN	NOUN	Gender=Fem|Number=Sing	4	obl	_	_
 17	legal	legal	ADJ	ADJ	Number=Sing	16	amod	_	_
 18	de	de	ADP	ADP	AdpType=Prep	20	case	_	_
 19	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
@@ -61590,10 +61590,10 @@
 11	comprendre	comprendre	VERB	VERB	VerbForm=Inf	1	advcl	_	_
 12	ella	ell	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
 13	mateixa	mateix	DET	DET	Gender=Fem|Number=Sing|PronType=Ind	12	det	_	SpaceAfter=No
-14	,	,	PUNCT	PUNCT	PunctType=Comm	17	punct	_	_
-15	i	i	CCONJ	CCONJ	_	17	cc	_	_
-16	fer	fer	AUX	AUX	VerbForm=Inf	17	aux	_	_
-17	comprendre	comprendre	VERB	VERB	VerbForm=Inf	11	conj	_	_
+14	,	,	PUNCT	PUNCT	PunctType=Comm	16	punct	_	_
+15	i	i	CCONJ	CCONJ	_	16	cc	_	_
+16	fer	fer	VERB	AUX	VerbForm=Inf	11	conj	_	_
+17	comprendre	comprendre	VERB	VERB	VerbForm=Inf	16	xcomp	_	_
 18	a	a	ADP	ADP	AdpType=Prep	19	case	_	_
 19	ETA	ETA	PROPN	PROPN	_	17	obj	_	SpaceAfter=No
 20	,	,	PUNCT	PUNCT	PunctType=Comm	24	punct	_	_
@@ -62163,11 +62163,11 @@
 15	més	més	ADV	ADV	_	14	fixed	_	_
 16	que	que	SCONJ	SCONJ	_	14	fixed	_	_
 17	mirin	mirar	VERB	VERB	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
-18	de	de	ADP	ADP	AdpType=Prep	21	mark	_	_
+18	de	de	ADP	ADP	AdpType=Prep	19	mark	_	_
 19-20	fer-la	_	_	_	_	_	_	_	_
-19	fer	fer	AUX	AUX	VerbForm=Inf	21	aux	_	_
-20	la	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
-21	servir	servir	VERB	VERB	VerbForm=Inf	17	advcl	_	_
+19	fer	fer	VERB	AUX	VerbForm=Inf	17	advcl	_	_
+20	la	ell	PRON	PRON	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
+21	servir	servir	VERB	VERB	VerbForm=Inf	19	xcomp	_	_
 22	per	per	ADP	ADP	AdpType=Prep	23	mark	_	_
 23	victimitzar	victimitzar	VERB	VERB	VerbForm=Inf	21	advcl	_	_
 24	i	i	CCONJ	CCONJ	_	25	cc	_	_
@@ -62396,15 +62396,15 @@
 # text = L'estratègia d'Ajuria Enea es va arribar a fer compartida per tots els partits perquè va sorgir d'un diagnòstic que també havia estat elaborat en comú.
 # orig_file_sentence 017#95
 1	L'	el	DET	DET	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
-2	estratègia	estratègia	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
+2	estratègia	estratègia	NOUN	NOUN	Gender=Fem|Number=Sing	8	nsubj	_	_
 3	d'	de	ADP	ADP	AdpType=Prep	4	case	_	SpaceAfter=No
 4	Ajuria	Ajuria	PROPN	PROPN	_	2	nmod	_	MWE=Ajuria_Enea|MWEPOS=PROPN
 5	Enea	Enea	PROPN	PROPN	_	4	flat	_	_
-6	es	es	PRON	PRON	_	10	obj	_	_
-7	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
-8	arribar	arribar	AUX	AUX	VerbForm=Inf	10	aux	_	_
+6	es	es	PRON	PRON	_	8	obj	_	_
+7	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	arribar	arribar	VERB	AUX	VerbForm=Inf	0	root	_	_
 9	a	a	ADP	ADP	AdpType=Prep	10	mark	_	_
-10	fer	fer	VERB	VERB	VerbForm=Inf	0	root	_	_
+10	fer	fer	VERB	VERB	VerbForm=Inf	8	xcomp	_	_
 11	compartida	compartit	ADJ	ADJ	Gender=Fem|Number=Sing|VerbForm=Part	10	obj	_	_
 12	per	per	ADP	ADP	AdpType=Prep	15	case	_	_
 13	tots	tot	DET	DET	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
@@ -62423,7 +62423,7 @@
 26	elaborat	elaborar	VERB	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	_
 27	en	en	ADP	ADP	AdpType=Prep	28	case	_	_
 28	comú	comú	ADJ	ADJ	Gender=Masc|Number=Sing	26	advmod	_	SpaceAfter=No
-29	.	.	PUNCT	PUNCT	PunctType=Peri	10	punct	_	_
+29	.	.	PUNCT	PUNCT	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s1696
 # text = Ara, en canvi, la confrontació democràtica que s'ha produït o intensificat pel que fa a la nova estratègia obeeix a una altra que és més de fons i que resideix precisament en el fet que el fenomen terrorista etarra ja no rep el mateix diagnòstic per part de tots els partits.
@@ -63023,12 +63023,12 @@
 14	quota	quota	NOUN	NOUN	Gender=Fem|Number=Sing	8	obj	_	_
 15	d'	de	ADP	ADP	AdpType=Prep	16	case	_	SpaceAfter=No
 16	abonament	abonament	NOUN	NOUN	Gender=Masc|Number=Sing	14	nmod	_	_
-17	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	21	punct	_	SpaceAfter=No
-18	que	que	PRON	PRON	PronType=Rel	21	nsubj	_	_
-19	tornarà	tornar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	aux	_	_
+17	(	(	PUNCT	PUNCT	PunctSide=Ini|PunctType=Brck	19	punct	_	SpaceAfter=No
+18	que	que	PRON	PRON	PronType=Rel	19	nsubj	_	_
+19	tornarà	tornar	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	acl	_	_
 20	a	a	ADP	ADP	AdpType=Prep	21	mark	_	_
-21	pujar	pujar	VERB	VERB	VerbForm=Inf	14	acl	_	SpaceAfter=No
-22	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	21	punct	_	SpaceAfter=No
+21	pujar	pujar	VERB	VERB	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	)	)	PUNCT	PUNCT	PunctSide=Fin|PunctType=Brck	19	punct	_	SpaceAfter=No
 23	,	,	PUNCT	PUNCT	PunctType=Comm	31	punct	_	_
 24	de	de	ADP	ADP	AdpType=Prep	31	mark	_	MWE=de_manera_que|MWEPOS=SCONJ
 25	manera	manera	NOUN	NOUN	_	24	fixed	_	_
@@ -63208,9 +63208,9 @@
 21	situació	situació	NOUN	NOUN	Gender=Fem|Number=Sing	23	nsubj	_	_
 22	actual	actual	ADJ	ADJ	Number=Sing	21	amod	_	_
 23	acabi	acabar	VERB	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	_
-24	per	per	ADP	ADP	AdpType=Prep	26	mark	_	_
-25	fer	fer	AUX	AUX	VerbForm=Inf	26	aux	_	_
-26	desaparèixer	desaparèixer	VERB	VERB	VerbForm=Inf	23	advcl	_	_
+24	per	per	ADP	ADP	AdpType=Prep	25	mark	_	_
+25	fer	fer	VERB	AUX	VerbForm=Inf	23	advcl	_	_
+26	desaparèixer	desaparèixer	VERB	VERB	VerbForm=Inf	25	xcomp	_	_
 27	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
 28	competidors	competidor	NOUN	NOUN	Gender=Masc|Number=Plur	26	obj	_	_
 29	de	de	ADP	ADP	AdpType=Prep	30	case	_	_
@@ -63218,7 +63218,7 @@
 31	,	,	PUNCT	PUNCT	PunctType=Comm	34	punct	_	_
 32	amb	amb	ADP	ADP	AdpType=Prep	34	case	_	_
 33	més	més	ADV	ADV	_	34	advmod	_	_
-34	efectes	efecte	NOUN	NOUN	Gender=Masc|Number=Plur	26	obl	_	_
+34	efectes	efecte	NOUN	NOUN	Gender=Masc|Number=Plur	25	obl	_	_
 35	negatius	negatiu	ADJ	ADJ	Gender=Masc|Number=Plur	34	amod	_	_
 36	per	per	ADP	ADP	AdpType=Prep	39	case	_	_
 37	a	a	ADP	ADP	AdpType=Prep	39	case	_	_
