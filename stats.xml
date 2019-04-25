@@ -18,7 +18,7 @@
     <tag name="ADJ">30045</tag><!-- nou, primer, gran, català, passat, polític, general, espanyol, últim, públic -->
     <tag name="ADP">87975</tag><!-- de, a, del, en, per, al, amb, pel, d', entre -->
     <tag name="ADV">15456</tag><!-- no, més, també, ja, després, ahir, molt, avui, només, ara -->
-    <tag name="AUX">22588</tag><!-- haver, anar, ser, poder, estar, fer, saber, deixar, dir, veure -->
+    <tag name="AUX">22361</tag><!-- haver, anar, ser, poder, estar, saber, fer, deixar, dir, veure -->
     <tag name="CCONJ">15049</tag><!-- i, o, però, ni, sinó, mentre, y, que, ,, bé -->
     <tag name="DET">72596</tag><!-- el, un, aquest, seu, la, tot, altre, l', mateix, algun -->
     <tag name="INTJ">15</tag><!-- vaja, he, 'm, compte, déu, ep, hola, home, marbella, mira -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">53446</tag><!-- ,, ., ", (, ), -, :, ;, ?, ¿ -->
     <tag name="SCONJ">10545</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, Como -->
     <tag name="SYM">4633</tag><!-- ', %, 50/100, 10/100, 30/100, 5/100, 1/100, 2/100, 25/100, 20/100 -->
-    <tag name="VERB">41352</tag><!-- fer, tenir, haver, dir, donar, presentar, arribar, voler, passar, explicar -->
+    <tag name="VERB">41579</tag><!-- fer, tenir, haver, dir, donar, presentar, arribar, voler, passar, explicar -->
     <tag name="X">11</tag><!-- 8'5, 1'2, 17'5, 32'5, 38'10, 38'3, 5'1, 77'7, 8'4 -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -94,12 +94,12 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="33">
     <dep name="acl">9549</dep>
-    <dep name="advcl">6689</dep>
-    <dep name="advmod">15458</dep>
+    <dep name="advcl">6908</dep>
+    <dep name="advmod">15451</dep>
     <dep name="advmod:emph">1</dep>
     <dep name="amod">24974</dep>
-    <dep name="appos">7677</dep>
-    <dep name="aux">17313</dep>
+    <dep name="appos">7672</dep>
+    <dep name="aux">17090</dep>
     <dep name="case">77537</dep>
     <dep name="cc">14745</dep>
     <dep name="ccomp">4315</dep>
@@ -115,12 +115,12 @@
     <dep name="flat">18068</dep>
     <dep name="iobj">1537</dep>
     <dep name="mark">15490</dep>
-    <dep name="nmod">44111</dep>
+    <dep name="nmod">44096</dep>
     <dep name="nsubj">27430</dep>
     <dep name="nsubj:pass">25</dep>
-    <dep name="nummod">5702</dep>
-    <dep name="obj">36857</dep>
-    <dep name="obl">21794</dep>
+    <dep name="nummod">5699</dep>
+    <dep name="obj">37082</dep>
+    <dep name="obl">21603</dep>
     <dep name="orphan">14</dep>
     <dep name="parataxis">579</dep>
     <dep name="punct">53389</dep>
