@@ -23668,17 +23668,17 @@
 20	de	de	ADP	ADP	AdpType=Prep	21	case	_	_
 21	dintre	dintre	ADV	ADV	_	18	conj	_	_
 22	quan	quan	SCONJ	SCONJ	_	35	mark	_	_
-23	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+23	els	el	DET	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	nsubj	_	_
 24	que	que	PRON	PRON	PronType=Rel	26	nsubj	_	_
 25	van	anar	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
-26	arribar	arribar	VERB	VERB	VerbForm=Inf	35	csubj	_	_
-27	fa	fer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
-28	30	30	NUM	NUM	NumForm=Digit|NumType=Card	26	obl	_	SpaceAfter=No
+26	arribar	arribar	VERB	VERB	VerbForm=Inf	23	acl	_	_
+27	fa	fer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+28	30	30	NUM	NUM	NumForm=Digit|NumType=Card	27	obj	_	SpaceAfter=No
 29	,	,	PUNCT	PUNCT	PunctType=Comm	30	punct	_	_
 30	40	40	NUM	NUM	NumForm=Digit|NumType=Card	28	conj	_	_
 31	o	o	CCONJ	CCONJ	_	33	cc	_	_
 32	50	50	NUM	NUM	NumForm=Digit|NumType=Card	33	nummod	_	_
-33	anys	any	NOUN	NOUN	Gender=Masc|Number=Plur	27	obj	_	_
+33	anys	any	NOUN	NOUN	Gender=Masc|Number=Plur	28	conj	_	_
 34	són	ser	AUX	AUX	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
 35	igual	igual	ADJ	ADJ	Number=Sing	14	advcl	_	_
 36	de	de	ADP	ADP	AdpType=Prep	37	case	_	_
@@ -50796,14 +50796,14 @@
 31	a	a	ADP	ADP	AdpType=Prep	33	case	_	_
 32	la	el	DET	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	caça	caça	NOUN	NOUN	Gender=Fem|Number=Sing	30	obj	_	_
-34	"	"	PUNCT	PUNCT	PunctType=Quot	37	punct	_	SpaceAfter=No
-35	de	de	ADP	ADP	AdpType=Prep	37	case	_	_
-36	fa	fer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	conj	_	_
-37	tres	tres	NUM	NUM	Number=Plur|NumType=Card	33	nummod	_	_
+34	"	"	PUNCT	PUNCT	PunctType=Quot	36	punct	_	SpaceAfter=No
+35	de	de	ADP	ADP	AdpType=Prep	36	mark	_	_
+36	fa	fer	VERB	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl	_	_
+37	tres	tres	NUM	NUM	Number=Plur|NumType=Card	36	obj	_	_
 38	o	o	CCONJ	CCONJ	_	40	cc	_	_
 39	quatre	quatre	NUM	NUM	Number=Plur|NumType=Card	40	nummod	_	_
-40	dècades	dècada	NOUN	NOUN	Gender=Fem|Number=Plur	36	obj	_	SpaceAfter=No
-41	"	"	PUNCT	PUNCT	PunctType=Quot	37	punct	_	SpaceAfter=No
+40	dècades	dècada	NOUN	NOUN	Gender=Fem|Number=Plur	37	conj	_	SpaceAfter=No
+41	"	"	PUNCT	PUNCT	PunctType=Quot	36	punct	_	SpaceAfter=No
 42	.	.	PUNCT	PUNCT	PunctType=Peri	11	punct	_	_
 
 # sent_id = dev-s1373
