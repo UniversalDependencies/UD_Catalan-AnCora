@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Catalan-AnCora:
-commit 7598c23453d3ad191aa75e555409c58c1b1b762b
+commit d7420d2bed54bfcc07116cd32185215edcc6495a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 16:45:26 2019 +0100
+Date:   Sun May 10 17:40:30 2020 +0200
 Size: counted 531971 of 531971 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.5531779531553.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -94,8 +94,8 @@ validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-train.conllu
 [Line 13545 Sent train-s332 Node 36]: [L3 Syntax leaf-punct] 'punct' not expected to have children (36:(:punct --> 40:26:conj)
 ...suppressing further errors regarding Syntax
 Morpho errors: 245
-Syntax errors: 277
-*** FAILED *** with 522 errors
+Syntax errors: 278
+*** FAILED *** with 523 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
