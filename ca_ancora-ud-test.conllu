@@ -16782,7 +16782,7 @@
 20	va	anar	AUX	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	portar	portar	VERB	VERB	VerbForm=Inf	15	acl	_	_
 22	a	a	ADP	ADP	AdpType=Prep	23	mark	_	_
-23	col·laborar	laborar	VERB	VERB	VerbForm=Inf	21	xcomp	_	_
+23	col·laborar	col·laborar	VERB	VERB	VerbForm=Inf	21	xcomp	_	_
 24	en	en	ADP	ADP	AdpType=Prep	25	case	_	_
 25	publicacions	publicació	NOUN	NOUN	Gender=Fem|Number=Plur	23	obl	_	_
 26	com	com	SCONJ	SCONJ	_	28	mark	_	_
