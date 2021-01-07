@@ -46282,18 +46282,18 @@
 23	obert	obert	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	21	obj	_	_
 24	"	"	PUNCT	_	PunctType=Quot	21	punct	_	SpaceAfter=No
 25	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
-26	apunta	apuntar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	parataxis	_	_
+26	apunta	apuntar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 27	Moya	Moya	PROPN	_	_	26	nsubj	_	SpaceAfter=No
 28	,	,	PUNCT	_	PunctType=Comm	30	punct	_	_
 29	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	baixista	baixista	NOUN	_	Number=Sing	27	appos	_	SpaceAfter=No
 31	,	,	PUNCT	_	PunctType=Comm	30	punct	_	_
 32-33	al	_	_	_	_	_	_	_	MWE=al_temps_que|MWEPOS=CCONJ
-32	a	a	ADP	_	_	0	case	_	MWE=al_temps_que|MWEPOS=CCONJ
-33	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	det	_	_
-34	temps	temps	NOUN	_	_	32	fixed	_	_
-35	que	que	SCONJ	_	_	32	fixed	_	_
-36	remarca	remarcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	parataxis	_	_
+32	a	a	ADP	_	_	34	case	_	MWE=al_temps_que|MWEPOS=CCONJ
+33	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	temps	temps	NOUN	_	_	26	obl	_	_
+35	que	que	SCONJ	_	_	36	mark	_	_
+36	remarca	remarcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	acl	_	_
 37	que	que	SCONJ	_	_	47	mark	_	SpaceAfter=No
 38	"	"	PUNCT	_	PunctType=Quot	47	punct	_	_
 39	tots	tot	DET	_	Gender=Masc|Number=Plur|PronType=Ind	40	det	_	_
@@ -46308,9 +46308,9 @@
 48	per	per	ADP	_	_	49	mark	_	_
 49	anar	anar	VERB	_	VerbForm=Inf	47	ccomp	_	_
 50	a	a	ADP	_	_	51	case	_	_
-51	millor	millor	ADV	_	_	49	obj	_	_
+51	millor	millor	ADV	_	_	49	obl	_	_
 52	"	"	PUNCT	_	PunctType=Quot	47	punct	_	SpaceAfter=No
-53	.	.	PUNCT	_	PunctType=Peri	32	punct	_	_
+53	.	.	PUNCT	_	PunctType=Peri	26	punct	_	_
 
 # sent_id = test-s1236
 # text = Així, han anat suavitzant la seva música, amb tocs de blues, folk i rythm & blues, per desenvolupar tot un procés que els ha portat a un recopilatori on es pot seguir tota aquesta evolució.
