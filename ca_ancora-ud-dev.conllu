@@ -46516,8 +46516,8 @@
 37	,	,	PUNCT	_	PunctType=Comm	38	punct	_	_
 38	programes	programa	NOUN	_	Gender=Masc|Number=Plur	34	conj	_	_
 39	específics	específic	ADJ	_	Gender=Masc|Number=Plur	38	amod	_	SpaceAfter=No
-40	,	,	PUNCT	_	PunctType=Comm	34	punct	_	_
-41	etc	etcètera	PUNCT	_	PunctType=Comm	34	punct	_	SpaceAfter=No
+40	,	,	PUNCT	_	PunctType=Comm	41	punct	_	_
+41	etc	etcètera	ADV	_	_	34	conj	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s1216

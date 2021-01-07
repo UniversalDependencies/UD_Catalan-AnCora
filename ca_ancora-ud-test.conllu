@@ -34960,8 +34960,8 @@
 16	transports	transport	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
 17	,	,	PUNCT	_	PunctType=Comm	18	punct	_	_
 18	equipaments	equipament	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	SpaceAfter=No
-19	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
-20	etc	etcètera	PUNCT	_	PunctType=Comm	12	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
+20	etc	etcètera	ADV	_	_	12	conj	_	SpaceAfter=No
 21	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # sent_id = test-s886
@@ -47426,8 +47426,8 @@
 7	mitjans	mitjà	NOUN	_	Gender=Masc|Number=Plur	1	conj	_	_
 8	de	de	ADP	_	_	9	case	_	_
 9	comunicació	comunicació	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
-10	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
-11	etcètera	etcètera	PUNCT	_	PunctType=Comm	1	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
+11	etcètera	etcètera	ADV	_	_	1	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 13	són	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 14	diferents	diferent	DET	_	Number=Plur|PronType=Ind	15	det	_	_
@@ -47815,8 +47815,8 @@
 16	roba	roba	NOUN	_	Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No
 17	,	,	PUNCT	_	PunctType=Comm	18	punct	_	_
 18	maletes	maleta	NOUN	_	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
-19	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
-20	etc.	etcètera	PUNCT	_	PunctType=Comm	16	punct	_	SpaceAfter=No
+19	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
+20	etc.	etcètera	ADV	_	_	16	conj	_	SpaceAfter=No
 21	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	16	punct	_	_
 22	van	anar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 23	ser	ser	AUX	_	VerbForm=Inf	2	cop	_	_
@@ -53033,7 +53033,7 @@
 28	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	29	obj	_	SpaceAfter=No
 29	examina	examinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl	_	SpaceAfter=No
 30	,	,	PUNCT	_	PunctType=Comm	31	punct	_	_
-31	etcètera	etcètera	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+31	etcètera	etcètera	ADV	_	_	16	conj	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
 # sent_id = test-s1425
