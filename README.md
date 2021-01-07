@@ -9,6 +9,7 @@ Catalan data from the AnCora corpus.
   * Manually fixed offset errors in lemmas inside MWEs (#2).
   * Removed XPOS (which was uninformative).
   * Cleaned up lemmas and features of personal pronouns.
+  * Split fused preposition-articles al(s), del(s), pel(s).
 * 2019-05-15 v2.4
   * Automatically fixed some validation errors.
 * 2018-04-15 v2.2
