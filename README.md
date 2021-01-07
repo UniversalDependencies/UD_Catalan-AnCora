@@ -8,6 +8,7 @@ Catalan data from the AnCora corpus.
 * 2021-05-15 v2.8
   * Manually fixed offset errors in lemmas inside MWEs (#2).
   * Removed XPOS (which was uninformative).
+  * Cleaned up lemmas and features of personal pronouns.
 * 2019-05-15 v2.4
   * Automatically fixed some validation errors.
 * 2018-04-15 v2.2

@@ -726,7 +726,7 @@
 60	una	un	NUM	_	Gender=Fem|Number=Sing|NumType=Card	61	nummod	_	_
 61	querella	querella	NOUN	_	Gender=Fem|Number=Sing	59	obj	_	_
 62	contra	contra	ADP	_	AdpType=Prep	63	case	_	_
-63	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	59	obl	_	_
+63	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	59	obl	_	_
 64	i	i	CCONJ	_	_	67	cc	_	_
 65	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	67	det	_	MWE=el_seu|MWEPOS=DET
 66	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	67	det	_	_
@@ -1014,7 +1014,7 @@
 3	de	de	ADP	_	AdpType=Prep	4	mark	_	_
 4-5	presentar-la	_	_	_	_	_	_	_	_
 4	presentar	presentar	VERB	_	VerbForm=Inf	2	acl	_	_
-5	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+5	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 6	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	obj	_	_
 7	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	prendre	prendre	VERB	_	VerbForm=Inf	0	root	_	_
@@ -1109,7 +1109,7 @@
 27	funció	funció	NOUN	_	Gender=Fem|Number=Sing	31	iobj	_	_
 28	normalitzadora	normalitzador	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
 29	ja	ja	ADV	_	_	31	advmod	_	_
-30	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
+30	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	obj	_	_
 31	fa	fer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
 32	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
 33	Institut	Institut	PROPN	_	_	31	nsubj	_	MWE=Institut_d'_Estudis_Catalans|MWEPOS=PROPN
@@ -3196,7 +3196,7 @@
 27	per	per	ADP	_	AdpType=Prep	28	mark	_	_
 28-29	transformar-la	_	_	_	_	_	_	_	_
 28	transformar	transformar	VERB	_	VerbForm=Inf	26	advcl	_	_
-29	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+29	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
 30	en	en	ADP	_	AdpType=Prep	32	case	_	_
 31	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	seu	seu	NOUN	_	Gender=Fem|Number=Sing	28	iobj	_	_
@@ -3214,7 +3214,7 @@
 # orig_file_sentence 001#83
 1	Aquesta	aquest	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	rehabilitació	rehabilitació	NOUN	_	Gender=Fem|Number=Sing	4	iobj	_	_
-3	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	duen	dur	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	MWE=duen_a_terme|MWEPOS=VERB
 5	a	a	ADP	_	AdpType=Prep	6	case	_	_
 6	terme	terme	NOUN	_	Number=Sing	4	compound	_	_
@@ -3232,7 +3232,7 @@
 1	Aquesta	aquest	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	escola	escola	NOUN	_	Gender=Fem|Number=Sing	5	iobj	_	_
 3	taller	taller	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-4	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 5	finança	finançar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Departament	Departament	PROPN	_	_	5	nsubj	_	MWE=Departament_de_Treball|MWEPOS=PROPN
@@ -3424,7 +3424,7 @@
 8	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	tarda	tarda	NOUN	_	_	3	obl	_	_
 10	i	i	CCONJ	_	_	12	cc	_	_
-11	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+11	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
 12	guiaran	guiar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
 13	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
 14	alcalde	alcalde	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -4937,7 +4937,7 @@
 26	publicava	publicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	acl	_	_
 27	i	i	CCONJ	_	_	31	cc	_	_
 28	que	que	PRON	_	PronType=Rel	31	obj	_	_
-29	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+29	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
 30	mateix	mateix	DET	_	Gender=Masc|Number=Sing|PronType=Ind	29	det	_	_
 31	llegia	llegir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	conj	_	_
 32	en	en	ADP	_	AdpType=Prep	34	case	_	_
@@ -5886,7 +5886,7 @@
 31	a	a	ADP	_	AdpType=Prep	32	mark	_	_
 32-33	dedicar-se	_	_	_	_	_	_	_	_
 32	dedicar	dedicar	VERB	_	VerbForm=Inf	30	xcomp	_	_
-33	se	ell	PRON	_	Person=3	32	obj	_	_
+33	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	32	obj	_	_
 34	plenament	plenament	ADV	_	_	30	advmod	_	_
 35	a	a	ADP	_	AdpType=Prep	37	case	_	_
 36	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
@@ -6585,7 +6585,7 @@
 52	d'	de	ADP	_	AdpType=Prep	50	fixed	_	SpaceAfter=No
 53-54	haver-se	_	_	_	_	_	_	_	_
 53	haver	haver	AUX	_	VerbForm=Inf	55	aux	_	_
-54	se	ell	PRON	_	Person=3	55	obj	_	_
+54	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	55	obj	_	_
 55	compromès	comprometre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	conj	_	_
 56	amb	amb	ADP	_	AdpType=Prep	58	case	_	_
 57	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
@@ -6807,7 +6807,7 @@
 27	"	"	PUNCT	_	PunctType=Quot	28	punct	_	SpaceAfter=No
 28-29	estenent-la	_	_	_	_	_	_	_	_
 28	estenent	estendre	VERB	_	VerbForm=Ger	19	advcl	_	_
-29	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+29	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
 30	a	a	ADP	_	AdpType=Prep	32	case	_	_
 31	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	ús	ús	NOUN	_	Gender=Masc|Number=Sing	28	obl	_	_
@@ -6872,7 +6872,7 @@
 34	a	a	ADP	_	AdpType=Prep	35	mark	_	_
 35-36	expressar-se	_	_	_	_	_	_	_	_
 35	expressar	expressar	VERB	_	VerbForm=Inf	33	acl	_	_
-36	se	ell	PRON	_	Person=3	35	obj	_	_
+36	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	35	obj	_	_
 37	en	en	ADP	_	AdpType=Prep	38	case	_	_
 38	català	català	NOUN	_	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
 39	"	"	PUNCT	_	PunctType=Quot	27	punct	_	SpaceAfter=No
@@ -7718,7 +7718,7 @@
 8	aquesta	aquest	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	situació	situació	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
 10	no	no	ADV	_	Polarity=Neg	13	advmod	_	_
-11	se	se	PRON	_	Person=3	13	obj	_	_
+11	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	obj	_	_
 12	'n	en	PRON	_	Person=3|PronType=Prs	13	obl	_	_
 13	derivi	derivar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
 14	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
@@ -9500,7 +9500,7 @@
 15	Tortosa	Tortosa	PROPN	_	_	12	flat	_	SpaceAfter=No
 16	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
 17	i	i	CCONJ	_	_	20	cc	_	_
-18	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+18	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
 19	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	presidit	presidir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
 21	Jaume	Jaume	PROPN	_	_	20	nsubj	_	MWE=Jaume_Femenia|MWEPOS=PROPN
@@ -11964,7 +11964,7 @@
 # orig_file_sentence 003#91
 1	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	judici	judici	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-3	se	se	PRON	_	_	4	obj	_	_
+3	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	obj	_	_
 4	celebrarà	celebrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	dimarts	dimarts	NOUN	_	AdvType=Tim	4	obl	_	_
 6	a	a	ADP	_	AdpType=Prep	8	case	_	_
@@ -12593,7 +12593,7 @@
 50	ningú	ningú	PRON	_	Number=Sing|PronType=Ind	55	nsubj	_	_
 51	més	més	ADV	_	Degree=Cmp	53	mark	_	MWE=més_que|MWEPOS=SCONJ
 52	que	que	SCONJ	_	_	51	fixed	_	_
-53	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	nmod	_	_
+53	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	50	nmod	_	_
 54	podia	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	55	aux	_	_
 55	portar	portar	VERB	_	VerbForm=Inf	46	xcomp	_	MWE=portar_a_bon_fi|MWEPOS=VERB
 56	a	a	ADP	_	AdpType=Prep	55	compound	_	_
@@ -12824,7 +12824,7 @@
 9	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10-11	especialitzar-se	_	_	_	_	_	_	_	_
 10	especialitzar	especialitzar	VERB	_	VerbForm=Inf	6	advcl	_	_
-11	se	ell	PRON	_	Person=3|PronType=Prs	10	obj	_	_
+11	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	10	obj	_	_
 12	en	en	ADP	_	AdpType=Prep	15	case	_	_
 13	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	MWE=el_seu|MWEPOS=DET
 14	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
@@ -13827,7 +13827,7 @@
 1	Un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
 2	sorteig	sorteig	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 3	que	que	PRON	_	PronType=Rel	5	nsubj	_	_
-4	se	se	PRON	_	_	5	obj	_	_
+4	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	obj	_	_
 5	celebrarà	celebrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	acl	_	_
 6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	dia	dia	NOUN	_	_	5	obl	_	MWE=dia_17_de_febrer|MWEPOS=NOUN
@@ -14118,7 +14118,7 @@
 26	a	a	ADP	_	AdpType=Prep	27	mark	_	_
 27-28	expressar-se	_	_	_	_	_	_	_	_
 27	expressar	expressar	VERB	_	VerbForm=Inf	21	acl	_	_
-28	se	ell	PRON	_	Person=3	27	obj	_	_
+28	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	27	obj	_	_
 29	en	en	ADP	_	AdpType=Prep	31	case	_	_
 30	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 31	espais	espai	NOUN	_	Gender=Masc|Number=Plur	27	obl	_	_
@@ -14127,7 +14127,7 @@
 34	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
 35	reclamar	reclamar	VERB	_	VerbForm=Inf	16	conj	_	_
 36	que	que	SCONJ	_	_	39	mark	_	_
-37	se	ell	PRON	_	Person=3	39	obj	_	_
+37	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	39	obj	_	_
 38	'ls	ell	PRON	_	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	39	obj	_	_
 39	tornin	tornar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	ccomp	_	_
 40	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
@@ -14350,7 +14350,7 @@
 13	i	i	CCONJ	_	_	17	cc	_	_
 14	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	interanual	interanual	ADJ	_	Number=Sing	17	nsubj	_	_
-16	se	ell	PRON	_	Person=3	17	obj	_	_
+16	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	17	obj	_	_
 17	situa	situar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 18	en	en	ADP	_	AdpType=Prep	20	case	_	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -14417,7 +14417,7 @@
 5	van	anar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6-7	incrementar-se	_	_	_	_	_	_	_	_
 6	incrementar	incrementar	VERB	_	VerbForm=Inf	0	root	_	_
-7	se	ell	PRON	_	Person=3	6	obj	_	_
+7	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	obj	_	_
 8	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	9	nmod	_	_
 9	0,1%	0.1/100	SYM	_	NumForm=Digit|NumType=Frac	6	obj	_	_
 10	i	i	CCONJ	_	_	15	cc	_	_
@@ -14443,7 +14443,7 @@
 9	portem	portar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 10	d'	de	ADP	_	AdpType=Prep	11	case	_	SpaceAfter=No
 11	any	any	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
-12	se	ell	PRON	_	Person=3	13	obj	_	_
+12	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	obj	_	_
 13	situa	situar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	en	en	ADP	_	AdpType=Prep	16	case	_	_
 15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -14825,7 +14825,7 @@
 16	més	més	ADV	_	Degree=Cmp	17	advmod	_	_
 17	urbanes	urbà	ADJ	_	Gender=Fem|Number=Plur	15	amod	_	SpaceAfter=No
 18	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
-19	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+19	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
 20	ampliaran	ampliar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	11	advcl	_	_
 21	a	a	ADP	_	AdpType=Prep	23	case	_	_
 22	set	set	NUM	_	Number=Plur|NumType=Card	23	nummod	_	_
@@ -14954,7 +14954,7 @@
 22	en	en	ADP	_	AdpType=Prep	23	mark	_	_
 23-24	produir-se	_	_	_	_	_	_	_	_
 23	produir	produir	VERB	_	VerbForm=Inf	6	advcl	_	_
-24	se	es	PRON	_	_	23	obj	_	_
+24	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	23	obj	_	_
 25	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	26	det	_	_
 26	empat	empat	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
 27	entre	entre	ADP	_	AdpType=Prep	29	case	_	_
@@ -14979,7 +14979,7 @@
 46	i	i	CCONJ	_	_	47	cc	_	_
 47-48	aplicar-se	_	_	_	_	_	_	_	_
 47	aplicar	aplicar	VERB	_	VerbForm=Inf	23	conj	_	_
-48	se	es	PRON	_	_	47	expl:pass	_	_
+48	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	47	expl:pass	_	_
 49	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 50	'	'	SYM	_	_	51	nmod	_	SpaceAfter=No
 51	vot	vot	NOUN	_	Gender=Masc|Number=Sing	47	nsubj:pass	_	_
@@ -15234,7 +15234,7 @@
 31	a	a	ADP	_	AdpType=Prep	32	mark	_	_
 32-33	reincorporar-se	_	_	_	_	_	_	_	_
 32	reincorporar	reincorporar	VERB	_	VerbForm=Inf	28	xcomp	_	_
-33	se	ell	PRON	_	Person=3	32	obj	_	_
+33	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	32	obj	_	_
 34	a	a	ADP	_	AdpType=Prep	36	case	_	_
 35	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
 36	activitat	activitat	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	_
@@ -15903,7 +15903,7 @@
 18	per	per	ADP	_	AdpType=Prep	21	mark	_	_
 19-20	poder-se	_	_	_	_	_	_	_	_
 19	poder	poder	AUX	_	VerbForm=Inf	21	aux	_	_
-20	se	ell	PRON	_	Person=3	21	obj	_	_
+20	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	obj	_	_
 21	gestionar	gestionar	VERB	_	VerbForm=Inf	11	advcl	_	_
 22	com	com	ADP	_	AdpType=Prep	23	case	_	_
 23	empreses	empresa	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	_
@@ -16388,7 +16388,7 @@
 5	decidit	decidir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6-7	presentar-se	_	_	_	_	_	_	_	_
 6	presentar	presentar	VERB	_	VerbForm=Inf	5	xcomp	_	_
-7	se	ell	PRON	_	Person=3	6	obj	_	_
+7	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	obj	_	_
 8	com	com	SCONJ	_	_	10	case	_	MWE=com_a|MWEPOS=ADP
 9	a	a	ADP	_	AdpType=Prep	8	fixed	_	_
 10	acusació	acusació	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
@@ -16463,7 +16463,7 @@
 21	decidir	decidir	VERB	_	VerbForm=Inf	13	acl	_	_
 22-23	personar-se	_	_	_	_	_	_	_	_
 22	personar	personar-se	VERB	_	VerbForm=Inf	21	xcomp	_	_
-23	se	ell	PRON	_	Person=3	22	obj	_	_
+23	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	22	obj	_	_
 24	en	en	ADP	_	AdpType=Prep	26	case	_	_
 25	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	causa	causa	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
@@ -16475,7 +16475,7 @@
 32	d'	de	ADP	_	AdpType=Prep	33	mark	_	SpaceAfter=No
 33-34	implicar-se	_	_	_	_	_	_	_	_
 33	implicar	implicar	VERB	_	VerbForm=Inf	31	acl	_	_
-34	se	ell	PRON	_	Person=3	33	obj	_	_
+34	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	33	obj	_	_
 35	també	també	ADV	_	_	33	advmod	_	_
 36	en	en	ADP	_	AdpType=Prep	38	case	_	_
 37	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
@@ -17562,7 +17562,7 @@
 16	sis	sis	NUM	_	Number=Plur|NumType=Card	17	nummod	_	_
 17	quilòmetres	quilòmetre	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
 18	que	que	PRON	_	PronType=Rel	20	nsubj	_	_
-19	se	se	PRON	_	_	20	obj	_	_
+19	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	obj	_	_
 20	celebrarà	celebrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	acl	_	_
 21	a	a	ADP	_	AdpType=Prep	22	case	_	_
 22	Múrcia	Múrcia	PROPN	_	_	20	obl	_	SpaceAfter=No
@@ -17770,7 +17770,7 @@
 27	Royal	Royal	PROPN	_	_	25	nmod	_	MWE=Royal_Bank|MWEPOS=PROPN
 28	Bank	Bank	PROPN	_	_	27	flat	_	_
 29	-	-	PUNCT	_	PunctType=Dash	21	punct	_	_
-30	se	se	PRON	_	_	31	obj	_	_
+30	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	31	obj	_	_
 31	salda	saldar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	advcl	_	_
 32	amb	amb	ADP	_	AdpType=Prep	33	case	_	_
 33	èxit	èxit	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No
@@ -17952,7 +17952,7 @@
 31	dia	dia	NOUN	_	_	28	obl	_	MWE=dia_8|MWEPOS=NOUN
 32	8	8	NUM	_	NumForm=Digit|NumType=Card	31	compound	_	SpaceAfter=No
 33	,	,	PUNCT	_	PunctType=Comm	28	punct	_	_
-34	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	36	obj	_	SpaceAfter=No
+34	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	36	obj	_	SpaceAfter=No
 35	han	haver	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
 36	deixat	deixar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
 37	exhaust	exhaust	ADJ	_	Gender=Masc|Number=Sing	36	iobj	_	_
@@ -18831,7 +18831,7 @@
 6	morir	morir	VERB	_	VerbForm=Inf	10	advcl	_	_
 7	Franco	Franco	PROPN	_	_	6	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
-9	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 10	tenia	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
 11	13	13	NUM	_	NumForm=Digit|NumType=Card	12	nummod	_	_
 12	anys	any	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
@@ -18905,7 +18905,7 @@
 12	important	important	ADJ	_	Number=Sing	5	ccomp	_	_
 13	per	per	ADP	_	AdpType=Prep	15	case	_	_
 14	a	a	ADP	_	AdpType=Prep	15	case	_	_
-15	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+15	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
 16	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = test-s481
@@ -19190,7 +19190,7 @@
 4	no	no	ADV	_	Polarity=Neg	5	advmod	_	_
 5-6	practicar-la	_	_	_	_	_	_	_	_
 5	practicar	practicar	VERB	_	VerbForm=Inf	2	csubj	_	_
-6	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+6	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 7	mai	mai	ADV	_	_	5	advmod	_	_
 8	fora	fora	ADV	_	_	5	advmod	_	_
 9	del	del	ADP	_	AdpType=Preppron	10	case	_	_
@@ -19264,7 +19264,7 @@
 13	que	que	SCONJ	_	_	18	mark	_	_
 14	als	al	ADP	_	AdpType=Preppron	15	case	_	_
 15	puritans	purità	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
-16	se	ell	PRON	_	Person=3	18	obj	_	_
+16	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	18	obj	_	_
 17	'ls	ell	PRON	_	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	18	obj	_	_
 18	ericés	eriçar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	csubj	_	_
 19	fins	fins	ADV	_	_	23	advmod	_	MWE=fins_i_tot|MWEPOS=ADV
@@ -19306,7 +19306,7 @@
 # sent_id = test-s498
 # text = L'inquieta, en canvi, la proliferació de relacions sexuals insegures i ingènues entre els adolescents; tan absurdes moltes vegades com l'abús de l'alcohol o l'increment del tabaquisme, per treure-li així qualsevol connotació moral al tema.
 # orig_file_sentence 005#98
-1	L'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+1	L'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
 2	inquieta	inquietar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
 4	en	en	ADP	_	AdpType=Prep	2	advmod	_	MWE=en_canvi|MWEPOS=ADV
@@ -19797,7 +19797,7 @@
 19	i	i	CCONJ	_	_	20	cc	_	_
 20-21	centrar-se	_	_	_	_	_	_	_	_
 20	centrar	centrar	VERB	_	VerbForm=Inf	4	conj	_	_
-21	se	ell	PRON	_	Person=3	20	obj	_	_
+21	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	obj	_	_
 22	en	en	ADP	_	AdpType=Prep	24	case	_	_
 23	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
 24	abast	abast	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
@@ -20482,7 +20482,7 @@
 41	d'	de	ADP	_	AdpType=Prep	42	mark	_	SpaceAfter=No
 42-43	integrar-se	_	_	_	_	_	_	_	SpaceAfter=No
 42	integrar	integrar	VERB	_	VerbForm=Inf	39	conj	_	_
-43	se	ell	PRON	_	Person=3	42	obj	_	_
+43	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	42	obj	_	_
 44	,	,	PUNCT	_	PunctType=Comm	46	punct	_	_
 45	de	de	ADP	_	AdpType=Prep	46	mark	_	_
 46	participar	participar	VERB	_	VerbForm=Inf	39	conj	_	SpaceAfter=No
@@ -20995,7 +20995,7 @@
 21	i	i	CCONJ	_	_	22	cc	_	_
 22	Sunyer	Sunyer	PROPN	_	_	18	conj	_	_
 23	que	que	PRON	_	PronType=Rel	25	nsubj	_	_
-24	se	ell	PRON	_	Person=3	25	obj	_	_
+24	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	25	obj	_	_
 25	sobreposen	sobreposar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_
 26	a	a	ADP	_	AdpType=Prep	28	case	_	_
 27	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -21450,7 +21450,7 @@
 7	a	a	ADP	_	AdpType=Prep	8	mark	_	_
 8-9	reunir-se	_	_	_	_	_	_	_	_
 8	reunir	reunir	VERB	_	VerbForm=Inf	6	xcomp	_	_
-9	se	ell	PRON	_	Person=3	8	obj	_	_
+9	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	amb	amb	ADP	_	AdpType=Prep	11	case	_	_
 11	nosaltres	jo	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	obj	_	_
 12	i	i	CCONJ	_	_	24	cc	_	_
@@ -21930,7 +21930,7 @@
 16	però	però	CCONJ	_	_	17	cc	_	_
 17	volem	voler	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	_
 18	que	que	SCONJ	_	_	21	mark	_	_
-19	se	se	PRON	_	_	21	expl:pass	_	_
+19	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	expl:pass	_	_
 20	'ns	jo	PRON	_	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	21	obj	_	_
 21	informi	informar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
 22	per	per	ADP	_	AdpType=Prep	24	mark	_	_
@@ -23137,7 +23137,7 @@
 # sent_id = test-s599
 # text = Ell és una de les moltes baixes que el Festival tindrà després de l'atemptat als Estats Units.
 # orig_file_sentence 006#98
-1	Ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	una	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	0	root	_	_
 4	de	de	ADP	_	AdpType=Prep	7	case	_	_
@@ -23336,7 +23336,7 @@
 47	mina	mina	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	_
 48	marciana	marcià	ADJ	_	Gender=Fem|Number=Sing	47	amod	_	_
 49	on	on	PRON	_	PronType=Rel	51	obj	_	_
-50	se	ell	PRON	_	Person=3	51	obj	_	_
+50	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	51	obj	_	_
 51	situa	situar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	acl	_	_
 52	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	53	det	_	SpaceAfter=No
 53	acció	acció	NOUN	_	Gender=Fem|Number=Sing	51	nsubj	_	SpaceAfter=No
@@ -23483,7 +23483,7 @@
 18	fantàstic	fantàstic	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 19	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
 20	sempre	sempre	ADV	_	_	23	advmod	_	_
-21	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	23	obj	_	SpaceAfter=No
+21	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	SpaceAfter=No
 22	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
 23	distingit	distingir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	SpaceAfter=No
 24	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
@@ -23858,7 +23858,7 @@
 # sent_id = test-s616
 # text = L'acompanyen en aquest cd, Víctor de Diego al saxofon; Benet Palet, a la trompeta; Dani Perez, a la guitarra, Joan Díaz, al piano; David Xirgu a la bateria i David Mengual al contrabaix.
 # orig_file_sentence 007#16
-1	L'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+1	L'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
 2	acompanyen	acompanyar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	en	en	ADP	_	AdpType=Prep	5	case	_	_
 4	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
@@ -24164,7 +24164,7 @@
 28	per	per	ADP	_	AdpType=Prep	29	mark	_	_
 29-30	quedar-se	_	_	_	_	_	_	_	_
 29	quedar	quedar	VERB	_	VerbForm=Inf	23	advcl	_	_
-30	se	ell	PRON	_	Person=3	29	obj	_	_
+30	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	29	obj	_	_
 31	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
 32	dipòsits	dipòsit	NOUN	_	Gender=Masc|Number=Plur	29	obj	_	_
 33	dels	del	ADP	_	AdpType=Preppron	34	case	_	_
@@ -24458,7 +24458,7 @@
 36	locals	local	NOUN	_	Gender=Masc|Number=Plur	33	nmod	_	SpaceAfter=No
 37	,	,	PUNCT	_	PunctType=Comm	30	punct	_	_
 38	que	que	PRON	_	PronType=Rel	42	obj	_	_
-39	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	_
+39	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	nsubj	_	_
 40	mateix	mateix	DET	_	Gender=Masc|Number=Sing|PronType=Ind	39	det	_	_
 41	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
 42	lliurar	lliurar	VERB	_	VerbForm=Inf	9	advcl	_	_
@@ -24586,7 +24586,7 @@
 14	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
 15-16	derivant-la	_	_	_	_	_	_	_	_
 15	derivant	derivar	VERB	_	VerbForm=Ger	7	advcl	_	_
-16	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+16	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
 17	cap	cap	NOUN	_	_	20	case	_	MWE=cap_a|MWEPOS=ADP
 18	a	a	ADP	_	AdpType=Prep	17	fixed	_	_
 19	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
@@ -24706,7 +24706,7 @@
 79	de	de	ADP	_	AdpType=Prep	80	mark	_	_
 80-81	paralitzar-la	_	_	_	_	_	_	_	_
 80	paralitzar	paralitzar	VERB	_	VerbForm=Inf	65	advcl	_	_
-81	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	80	obj	_	_
+81	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	80	obj	_	_
 82	per	per	ADP	_	AdpType=Prep	84	case	_	_
 83	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	84	det	_	_
 84	situació	situació	NOUN	_	Gender=Fem|Number=Sing	80	obl	_	_
@@ -24919,7 +24919,7 @@
 7	van	anar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8-9	formalitzar-se	_	_	_	_	_	_	_	_
 8	formalitzar	formalitzar	VERB	_	VerbForm=Inf	0	root	_	_
-9	se	es	PRON	_	_	8	obj	_	_
+9	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	en	en	ADP	_	AdpType=Prep	13	case	_	_
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 12	mateix	mateix	DET	_	Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
@@ -25221,7 +25221,7 @@
 22	i	i	CCONJ	_	_	23	cc	_	_
 23-24	portar-la	_	_	_	_	_	_	_	_
 23	portar	portar	VERB	_	VerbForm=Inf	19	conj	_	_
-24	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+24	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
 25	a	a	ADP	_	AdpType=Prep	27	case	_	_
 26	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
 27	escola	escola	NOUN	_	Gender=Fem|Number=Sing	23	iobj	_	_
@@ -25405,7 +25405,7 @@
 15	pretendre	pretendre	VERB	_	VerbForm=Inf	4	ccomp	_	_
 16-17	venjar-se	_	_	_	_	_	_	_	_
 16	venjar	venjar	VERB	_	VerbForm=Inf	15	xcomp	_	_
-17	se	ell	PRON	_	Person=3	16	obj	_	_
+17	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	_	_
 18	amb	amb	ADP	_	AdpType=Prep	20	case	_	_
 19	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
 20	arma	arma	NOUN	_	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
@@ -25415,7 +25415,7 @@
 # text = Com la va obtenir o qui li va facilitar és el que intentava ahir dilucidar l'FBI i, per descomptat, es converteix en el punt clau d'aquesta esborronadora història.
 # orig_file_sentence 007#57
 1	Com	com	PRON	_	PronType=Int	4	obl	_	_
-2	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+2	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 3	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	obtenir	obtenir	VERB	_	VerbForm=Inf	10	ccomp	_	_
 5	o	o	CCONJ	_	_	9	cc	_	_
@@ -25733,7 +25733,7 @@
 5	pogut	poder	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
 6-7	disparar-la	_	_	_	_	_	_	_	SpaceAfter=No
 6	disparar	disparar	VERB	_	VerbForm=Inf	0	root	_	_
-7	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+7	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
 8	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	6	punct	_	_
 
 # sent_id = test-s671
@@ -25977,7 +25977,7 @@
 18	-	-	PUNCT	_	PunctType=Dash	19	punct	_	_
 19-20	referint-se	_	_	_	_	_	_	_	_
 19	referint	referir	VERB	_	VerbForm=Ger	16	parataxis	_	_
-20	se	ell	PRON	_	Person=3	19	obj	_	_
+20	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	obj	_	_
 21	al	al	ADP	_	AdpType=Preppron	22	case	_	_
 22	conseller	conseller	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
 23	en	en	ADP	_	AdpType=Prep	24	case	_	_
@@ -26161,7 +26161,7 @@
 16	i	i	CCONJ	_	_	21	cc	_	_
 17	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
 18	altres	altre	PRON	_	Number=Plur|PronType=Ind	21	nsubj	_	_
-19	se	ell	PRON	_	Person=3	21	obj	_	_
+19	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	obj	_	_
 20	'n	en	PRON	_	Person=3|PronType=Prs	21	obj	_	_
 21	van	anar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
 22	sense	sense	ADP	_	AdpType=Prep	23	mark	_	_
@@ -26362,7 +26362,7 @@
 10	tractaments	tractament	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 12	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
-13	se	ell	PRON	_	Person=3	14	obj	_	_
+13	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	14	obj	_	_
 14	situa	situar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_
 15	al	al	ADP	_	AdpType=Preppron	18	case	_	MWE=al_voltant_del|MWEPOS=ADP
 16	voltant	voltant	NOUN	_	_	15	fixed	_	_
@@ -26460,7 +26460,7 @@
 11	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	medicació	medicació	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 13	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
-14	se	se	PRON	_	_	17	obj	_	_
+14	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	17	obj	_	_
 15	'ls	ell	PRON	_	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
 16	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	prescrit	prescriure	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
@@ -26478,8 +26478,8 @@
 29	més	més	ADV	_	Degree=Cmp	28	advmod	_	_
 30	que	que	SCONJ	_	_	34	mark	_	_
 31	si	si	SCONJ	_	_	34	mark	_	_
-32	se	ell	PRON	_	Person=3|PronType=Prs	34	iobj	_	_
-33	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
+32	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	34	iobj	_	_
+33	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	34	obj	_	_
 34	dosifica	dosificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	advcl	_	_
 35	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 36	mateix	mateix	DET	_	Gender=Masc|Number=Sing|PronType=Ind	35	det	_	_
@@ -26993,7 +26993,7 @@
 16	pugui	poder	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 17-18	establir-se	_	_	_	_	_	_	_	_
 17	establir	establir	VERB	_	VerbForm=Inf	8	xcomp	_	_
-18	se	ell	PRON	_	Person=3	17	obj	_	_
+18	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	17	obj	_	_
 19	al	al	ADP	_	AdpType=Preppron	20	case	_	_
 20	país	país	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 21	pirinenc	pirinenc	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
@@ -28120,7 +28120,7 @@
 14	recursos	recurs	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
 15	del	del	ADP	_	AdpType=Preppron	16	case	_	_
 16	territori	territori	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
-17	se	se	PRON	_	_	19	expl:pass	_	_
+17	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	expl:pass	_	_
 18	'ls	ell	PRON	_	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
 19	treu	treure	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
 20	molt	molt	ADV	_	_	22	advmod	_	_
@@ -28475,7 +28475,7 @@
 26	i	i	CCONJ	_	_	27	cc	_	_
 27-28	reforçar-la	_	_	_	_	_	_	_	_
 27	reforçar	reforçar	VERB	_	VerbForm=Inf	20	conj	_	_
-28	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+28	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
 29	a	a	ADP	_	AdpType=Prep	33	case	_	MWE=a_través_de|MWEPOS=ADP
 30	través	través	NOUN	_	_	29	fixed	_	_
 31	de	de	ADP	_	AdpType=Prep	29	fixed	_	_
@@ -28513,7 +28513,7 @@
 18	i	i	CCONJ	_	_	19	cc	_	_
 19-20	matenir-se	_	_	_	_	_	_	_	_
 19	matenir	matenir	VERB	_	VerbForm=Inf	8	conj	_	_
-20	se	ell	PRON	_	Person=3	19	obj	_	_
+20	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	obj	_	_
 21	obert	obert	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	19	xcomp	_	_
 22	tot	tot	DET	_	Gender=Masc|Number=Sing|PronType=Ind	23	det	_	_
 23	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
@@ -29504,7 +29504,7 @@
 44	preveuen	preveure	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	acl	_	_
 45-47	anar-se'n	_	_	_	_	_	_	_	_
 45	anar	anar	VERB	_	VerbForm=Inf	44	xcomp	_	_
-46	se	ell	PRON	_	Person=3	45	iobj	_	_
+46	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	45	iobj	_	_
 47	ne	en	PRON	_	Person=3|PronType=Prs	45	iobj	_	_
 48	a	a	ADP	_	AdpType=Prep	49	mark	_	_
 49	viure	viure	VERB	_	VerbForm=Inf	45	xcomp	_	_
@@ -29639,7 +29639,7 @@
 15	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	_	_
 16	contingut	contingut	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
 17	i	i	CCONJ	_	_	19	cc	_	_
-18	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+18	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
 19	aplica	aplicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
 20	escrupolosament	escrupolosament	ADV	_	_	19	advmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
@@ -29806,7 +29806,7 @@
 11	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 12	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	any	any	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
-14	se	se	PRON	_	_	15	obj	_	_
+14	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	obj	_	_
 15	superarà	superar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
 16	en	en	ADP	_	AdpType=Prep	17	case	_	_
 17	escreix	escreix	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	_
@@ -30431,7 +30431,7 @@
 # text = Amb ell hi treballen Eulàlia Bosch, l'arquitecte Fernando Marzá i hi col·laboren John Berger, Xavier Rubert de Ventós i Jean Louis Fromen.
 # orig_file_sentence 008#94
 1	Amb	amb	ADP	_	AdpType=Prep	2	case	_	_
-2	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+2	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
 3	hi	hi	PRON	_	Person=3|PronType=Prs	4	obl	_	_
 4	treballen	treballar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	Eulàlia	Eulàlia	PROPN	_	_	4	nsubj	_	MWE=Eulàlia_Bosch|MWEPOS=PROPN
@@ -31139,7 +31139,7 @@
 22	i	i	CCONJ	_	_	23	cc	_	_
 23-24	sotmetre's	_	_	_	_	_	_	_	_
 23	sotmetre	sotmetre	VERB	_	VerbForm=Inf	18	conj	_	_
-24	se	ell	PRON	_	Person=3	23	obj	_	_
+24	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	23	obj	_	_
 25	a	a	ADP	_	AdpType=Prep	27	case	_	_
 26	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	27	det	_	_
 27	entrevista	entrevista	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
@@ -31981,7 +31981,7 @@
 26	per	per	ADP	_	AdpType=Prep	27	mark	_	_
 27-28	millorar-la	_	_	_	_	_	_	_	_
 27	millorar	millorar	VERB	_	VerbForm=Inf	25	advcl	_	_
-28	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
+28	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	obj	_	_
 29	per	per	ADP	_	AdpType=Prep	30	case	_	_
 30	dins	dins	ADV	_	_	27	advmod	_	SpaceAfter=No
 31	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
@@ -32931,7 +32931,7 @@
 24	de	de	ADP	_	AdpType=Prep	25	mark	_	_
 25-26	produir-se	_	_	_	_	_	_	_	_
 25	produir	produir	VERB	_	VerbForm=Inf	23	xcomp	_	_
-26	se	es	PRON	_	_	25	obj	_	_
+26	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	25	obj	_	_
 27	sigui	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
 28	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
 29	últim	últim	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	18	acl	_	_
@@ -33267,7 +33267,7 @@
 3	línia	línia	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
 4	de	de	ADP	_	AdpType=Prep	5	case	_	_
 5	treball	treball	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
-6	se	ell	PRON	_	Person=3	7	obj	_	_
+6	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	obj	_	_
 7	centra	centrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	en	en	ADP	_	AdpType=Prep	9	case	_	_
 9	aspectes	aspecte	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
@@ -33849,8 +33849,8 @@
 18	curt	curt	NOUN	_	_	17	fixed	_	_
 19	Zidane	Zidane	PROPN	_	_	16	obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	PunctType=Comm	24	punct	_	_
-21	se	ell	PRON	_	Person=3	24	iobj	_	_
-22	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
+21	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	24	iobj	_	_
+22	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	obj	_	_
 23	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 24	preparar	preparar	VERB	_	VerbForm=Inf	8	advcl	_	_
 25	sense	sense	ADP	_	AdpType=Prep	26	case	_	_
@@ -34079,7 +34079,7 @@
 5	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
 6	altra	altre	DET	_	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
 7	oportunitat	oportunitat	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
-8	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+8	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 9	mateix	mateix	DET	_	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
 10	poc	poc	ADV	_	_	11	advmod	_	_
 11	després	després	ADV	_	_	2	advmod	_	_
@@ -34110,7 +34110,7 @@
 36	pilota	pilota	NOUN	_	Gender=Fem|Number=Sing	34	obj	_	_
 37-38	jugant-la	_	_	_	_	_	_	_	SpaceAfter=No
 37	jugant	jugar	VERB	_	VerbForm=Ger	34	advcl	_	_
-38	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	obj	_	_
+38	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	37	obj	_	_
 39	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # sent_id = test-s912
@@ -34126,7 +34126,7 @@
 8	per	per	ADP	_	AdpType=Prep	9	mark	_	_
 9-10	plantar-se	_	_	_	_	_	_	_	_
 9	plantar	plantar	VERB	_	VerbForm=Inf	3	advcl	_	_
-10	se	ell	PRON	_	Person=3	9	obj	_	_
+10	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	obj	_	_
 11	davant	davant	ADP	_	AdpType=Prep	12	case	_	_
 12	Bonano	Bonano	PROPN	_	_	9	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
@@ -35327,7 +35327,7 @@
 25	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	30	punct	_	SpaceAfter=No
 26	per	per	ADP	_	AdpType=Prep	28	case	_	_
 27	a	a	ADP	_	AdpType=Prep	28	case	_	_
-28	ella	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obl	_	_
+28	ella	ell	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	obl	_	_
 29	no	no	ADV	_	Polarity=Neg	30	advmod	_	_
 30	passa	passar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	_
 31	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -35361,7 +35361,7 @@
 21	,	,	PUNCT	_	PunctType=Comm	18	punct	_	_
 22	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	mite	mite	NOUN	_	Gender=Masc|Number=Sing	26	nsubj	_	_
-24	se	ell	PRON	_	Person=3	26	obj	_	_
+24	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	26	obj	_	_
 25	li	ell	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
 26	escapa	escapar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
 27	i	i	CCONJ	_	_	28	cc	_	_
@@ -36204,7 +36204,7 @@
 # sent_id = test-s989
 # text = Ell sol va tornar el València al partit, va fabricar la jugada de l'1-1 i hauria pogut marcar el 2-1.
 # orig_file_sentence 010#89
-1	Ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+1	Ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	sol	sol	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	_
 3	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	tornar	tornar	VERB	_	VerbForm=Inf	0	root	_	_
@@ -37481,7 +37481,7 @@
 # orig_file_sentence 011#34
 1	Código	Código	PROPN	_	_	4	nsubj	_	MWE=Código_natural|MWEPOS=PROPN
 2	natural	natural	PROPN	_	_	1	flat	_	_
-3	se	ell	PRON	_	Person=3	4	obj	_	_
+3	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	obj	_	_
 4	centra	centrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	en	en	ADP	_	AdpType=Prep	7	case	_	_
 6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -37615,7 +37615,7 @@
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	cine	cine	NOUN	_	Gender=Masc|Number=Sing	24	nsubj	_	_
 22	sempre	sempre	ADV	_	_	24	advmod	_	_
-23	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
+23	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
 24	encasella	encasellar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
 25	"	"	PUNCT	_	PunctType=Quot	27	punct	_	SpaceAfter=No
 26	en	en	ADP	_	AdpType=Prep	27	case	_	_
@@ -38208,7 +38208,7 @@
 14	"	"	PUNCT	_	PunctType=Quot	21	punct	_	SpaceAfter=No
 15	Als	al	ADP	_	AdpType=Preppron	16	case	_	_
 16	jugadors	jugador	NOUN	_	Gender=Masc|Number=Plur	21	obj	_	_
-17	se	se	PRON	_	_	21	expl:pass	_	_
+17	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	expl:pass	_	_
 18	'ls	ell	PRON	_	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	21	obj	_	_
 19	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 20	de	de	ADP	_	AdpType=Prep	21	mark	_	_
@@ -38232,11 +38232,11 @@
 10	ningú	ningú	PRON	_	Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
 11	,	,	PUNCT	_	PunctType=Comm	5	punct	_	_
 12	no	no	ADV	_	Polarity=Neg	14	advmod	_	_
-13	m'	em	PRON	_	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	14	obj	_	SpaceAfter=No
+13	m'	jo	PRON	_	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	14	obj	_	SpaceAfter=No
 14	estranya	estranyar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	que	que	SCONJ	_	_	19	mark	_	_
 16	tampoc	tampoc	ADV	_	_	19	advmod	_	_
-17	se	se	PRON	_	_	19	expl:pass	_	_
+17	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	expl:pass	_	_
 18	'ls	ell	PRON	_	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	19	obj	_	_
 19	pagui	pagar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	csubj	_	_
 20	a	a	ADP	_	AdpType=Prep	21	case	_	_
@@ -39040,7 +39040,7 @@
 2	concurs	concurs	NOUN	_	Gender=Masc|Number=Sing	6	iobj	_	_
 3	de	de	ADP	_	AdpType=Prep	4	case	_	_
 4	pintura	pintura	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
-5	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+5	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
 6	organitza	organitzar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	conjuntament	conjuntament	ADV	_	_	6	advmod	_	_
 8	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -39078,7 +39078,7 @@
 # orig_file_sentence 011#88
 1	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	jurat	jurat	NOUN	_	Gender=Masc|Number=Sing	5	iobj	_	_
-3	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+3	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
 4	han	haver	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	format	formar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	Jesús	Jesús	PROPN	_	_	5	nsubj	_	MWE=Jesús_Àngel_Prieto|MWEPOS=PROPN
@@ -39671,7 +39671,7 @@
 # orig_file_sentence 012#5
 1	L'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	acte	acte	NOUN	_	Gender=Masc|Number=Sing	5	iobj	_	_
-3	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+3	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
 4	han	haver	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	presentat	presentar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
@@ -39747,7 +39747,7 @@
 19	demà	demà	ADV	_	_	23	advmod	_	_
 20	al	al	ADP	_	AdpType=Preppron	21	case	_	_
 21	matí	matí	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
-22	se	se	PRON	_	_	23	obj	_	_
+22	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	23	obj	_	_
 23	celebrarà	celebrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	acl	_	_
 24	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	sorteig	sorteig	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
@@ -40935,7 +40935,7 @@
 5	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
 6	però	però	CCONJ	_	_	10	cc	_	_
 7	mai	mai	ADV	_	_	10	advmod	_	_
-8	m'	em	PRON	_	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	10	obj	_	SpaceAfter=No
+8	m'	jo	PRON	_	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	10	obj	_	SpaceAfter=No
 9	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
 10	impactat	impactar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 11	tant	tant	ADV	_	_	10	advmod	_	_
@@ -41178,7 +41178,7 @@
 22	de	de	ADP	_	AdpType=Prep	20	fixed	_	_
 23-24	beneficiar-se	_	_	_	_	_	_	_	_
 23	beneficiar	beneficiar	VERB	_	VerbForm=Inf	11	advcl	_	_
-24	se	ell	PRON	_	Person=3	23	obj	_	_
+24	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	23	obj	_	_
 25	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
 26	esveltes	esvelt	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
 27	senyores	senyora	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	_
@@ -41199,7 +41199,7 @@
 7	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	obj	_	_
 8	rebel·la	rebel·lar-se	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	contra	contra	ADP	_	AdpType=Prep	10	case	_	_
-10	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
 # sent_id = test-s1152
@@ -41220,7 +41220,7 @@
 12	tots	tot	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	11	nsubj	_	_
 13-14	cruspint-se	_	_	_	_	_	_	_	_
 13	cruspint	cruspir	VERB	_	VerbForm=Ger	11	advcl	_	_
-14	se	ell	PRON	_	Person=3	13	obj	_	_
+14	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	obj	_	_
 15	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	reserva	reserva	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
 17	d'	de	ADP	_	AdpType=Prep	18	case	_	SpaceAfter=No
@@ -41748,7 +41748,7 @@
 3	22	22	NUM	_	NumForm=Digit|NumType=Card	4	nummod	_	_
 4	creadors	creador	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
 5	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
-6	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+6	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
 7	protagonitzen	protagonitzar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No
 8	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 9	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	obj	_	SpaceAfter=No
@@ -41769,7 +41769,7 @@
 24	a	a	ADP	_	AdpType=Prep	26	case	_	_
 25	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	que	que	PRON	_	PronType=Rel	30	obj	_	_
-27	se	se	PRON	_	_	30	obj	_	_
+27	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	30	obj	_	_
 28	li	ell	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
 29	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
 30	volgut	voler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
@@ -42259,7 +42259,7 @@
 14	a	a	ADP	_	AdpType=Prep	16	case	_	_
 15	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
 16	altre	altre	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	19	obj	_	_
-17	se	ell	PRON	_	Person=3	19	obj	_	_
+17	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	obj	_	_
 18	li	ell	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
 19	presenten	presentar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 20	igualment	igualment	ADV	_	_	19	advmod	_	_
@@ -42653,7 +42653,7 @@
 1	Pujol	Pujol	PROPN	_	_	5	nsubj	_	_
 2	i	i	CCONJ	_	_	3	cc	_	_
 3	Maragall	Maragall	PROPN	_	_	1	conj	_	_
-4	se	ell	PRON	_	Person=3	5	obj	_	_
+4	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	obj	_	_
 5	saben	saber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	8	det	_	MWE=les_seves|MWEPOS=DET
 7	seves	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
@@ -43656,7 +43656,7 @@
 58	càmeres	càmera	NOUN	_	Number=Plur	62	nsubj	_	_
 59	de	de	ADP	_	AdpType=Prep	60	case	_	_
 60	televisió	televisió	NOUN	_	Gender=Fem|Number=Sing	58	nmod	_	_
-61	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	62	obj	_	SpaceAfter=No
+61	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	62	obj	_	SpaceAfter=No
 62	assetgin	assetjar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	53	advcl	_	SpaceAfter=No
 63	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
@@ -43714,7 +43714,7 @@
 4	per	per	ADP	_	AdpType=Prep	8	advmod	_	MWE=per_exemple|MWEPOS=ADV
 5	exemple	exemple	NOUN	_	_	4	fixed	_	SpaceAfter=No
 6	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
-7	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+7	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
 8	interroguen	interrogar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	amb	amb	ADP	_	AdpType=Prep	10	case	_	_
 10	molt	molt	ADV	_	_	8	advmod	_	_
@@ -43738,7 +43738,7 @@
 # sent_id = test-s1226
 # text = Se sap que el secretari general del PSOE i el president del Govern parlen força sovint per telèfon, sobretot de qüestions relacionades amb el terrorisme.
 # orig_file_sentence 013#26
-1	Se	se	PRON	_	_	2	obj	_	_
+1	Se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	2	obj	_	_
 2	sap	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	14	mark	_	_
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -44617,7 +44617,7 @@
 22	no	no	ADV	_	Polarity=Neg	23	advmod	_	_
 23-24	referir-se	_	_	_	_	_	_	_	_
 23	referir	referir	VERB	_	VerbForm=Inf	20	xcomp	_	_
-24	se	ell	PRON	_	Person=3	23	obj	_	_
+24	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	23	obj	_	_
 25	al	al	ADP	_	AdpType=Preppron	26	case	_	_
 26	tema	tema	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
 27	per	per	ADP	_	AdpType=Prep	29	mark	_	_
@@ -44804,7 +44804,7 @@
 9	multimilionari	multimilionari	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 10	George	George	PROPN	_	_	9	appos	_	MWE=George_Soros|MWEPOS=PROPN
 11	Soros	Soros	PROPN	_	_	10	flat	_	_
-12	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+12	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
 13	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	passar	passar	VERB	_	VerbForm=Inf	0	root	_	_
 15	magra	magre	ADJ	_	Gender=Fem|Number=Sing	14	iobj	_	_
@@ -44868,7 +44868,7 @@
 22	de	de	ADP	_	AdpType=Prep	23	mark	_	_
 23-24	calmar-la	_	_	_	_	_	_	_	_
 23	calmar	calmar	VERB	_	VerbForm=Inf	21	xcomp	_	_
-24	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+24	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
 25-26	recordant-li	_	_	_	_	_	_	_	_
 25	recordant	recordar	AUX	_	VerbForm=Ger	28	aux	_	_
 26	li	ell	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
@@ -45026,7 +45026,7 @@
 2	cal	caldre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3-4	posar-se	_	_	_	_	_	_	_	_
 3	posar	posar	VERB	_	VerbForm=Inf	2	csubj	_	_
-4	se	ell	PRON	_	Person=3	3	obj	_	_
+4	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	3	obj	_	_
 5	a	a	ADP	_	AdpType=Prep	7	case	_	_
 6	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
 7	portes	porta	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
@@ -45267,7 +45267,7 @@
 4	en	en	ADP	_	AdpType=Prep	5	mark	_	_
 5-6	empassar-se	_	_	_	_	_	_	_	_
 5	empassar	empassar-se	VERB	_	VerbForm=Inf	3	advcl	_	_
-6	se	ell	PRON	_	Person=3	5	obj	_	_
+6	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	obj	_	_
 7	droga	droga	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
 8	per	per	ADP	_	AdpType=Prep	9	mark	_	_
 9	traficar	traficar	VERB	_	VerbForm=Inf	5	advcl	_	SpaceAfter=No
@@ -45348,7 +45348,7 @@
 3	jove	jove	NOUN	_	Number=Sing	9	nsubj	_	_
 4	espanyol	espanyol	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
 5	que	que	PRON	_	PronType=Rel	7	nsubj	_	_
-6	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+6	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
 7	acompanyava	acompanyar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl	_	_
 8	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	obj	_	_
 9	trobava	trobar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -45502,7 +45502,7 @@
 # orig_file_sentence 013#79
 1	La	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	droga	droga	NOUN	_	Number=Sing	4	iobj	_	_
-3	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+3	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	portaven	portar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	introduïda	introduït	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	4	iobj	_	_
 6	en	en	ADP	_	AdpType=Prep	8	case	_	_
@@ -45689,7 +45689,7 @@
 # orig_file_sentence 013#87
 1	D'	de	ADP	_	AdpType=Prep	2	case	_	SpaceAfter=No
 2	altres	altre	PRON	_	Number=Plur|PronType=Ind	5	nsubj	_	_
-3	se	ell	PRON	_	Person=3|PronType=Prs	5	iobj	_	_
+3	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	iobj	_	_
 4	les	ell	PRON	_	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
 5	introdueixen	introduir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	a	a	ADP	_	AdpType=Prep	8	case	_	_
@@ -46287,7 +46287,7 @@
 10	en	en	ADP	_	AdpType=Prep	11	mark	_	_
 11-12	enfonsar-se	_	_	_	_	_	_	_	_
 11	enfonsar	enfonsar	VERB	_	VerbForm=Inf	4	advcl	_	_
-12	se	ell	PRON	_	Person=3	11	obj	_	_
+12	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	obj	_	_
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	terra	terra	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
 15	d'	de	ADP	_	AdpType=Prep	17	case	_	SpaceAfter=No
@@ -47041,7 +47041,7 @@
 12	cotxe	cotxe	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
 13	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
 14	no	no	ADV	_	Polarity=Neg	16	advmod	_	_
-15	se	se	PRON	_	_	16	obj	_	_
+15	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	_	_
 16	sap	saber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_
 17	ni	ni	ADV	_	_	16	csubj	_	_
 18	de	de	ADP	_	AdpType=Prep	17	case	_	_
@@ -48405,7 +48405,7 @@
 19	dades	dada	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
 20	presentades	presentat	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	19	amod	_	_
 21	per	per	ADP	_	AdpType=Prep	22	case	_	_
-22	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+22	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
 23	mateix	mateix	DET	_	Gender=Masc|Number=Sing|PronType=Ind	22	det	_	_
 24	fa	fer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
 25	uns	un	DET	_	Gender=Masc|Number=Plur|PronType=Ind	26	det	_	_
@@ -48716,7 +48716,7 @@
 24	a	a	ADP	_	AdpType=Prep	25	mark	_	_
 25-26	convertir-se	_	_	_	_	_	_	_	_
 25	convertir	convertir	VERB	_	VerbForm=Inf	23	xcomp	_	_
-26	se	ell	PRON	_	Person=3	25	obj	_	_
+26	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	25	obj	_	_
 27	en	en	ADP	_	AdpType=Prep	28	case	_	_
 28	residual	residual	ADJ	_	Number=Sing	25	obj	_	_
 29	a	a	ADP	_	AdpType=Prep	31	case	_	_
@@ -48822,7 +48822,7 @@
 # text = Segons ell, 'no retalla l'autonomia universitària, i el que pogués tallar per una banda ho compensa per una altra'.
 # orig_file_sentence 014#72
 1	Segons	segons	ADP	_	AdpType=Prep	2	case	_	_
-2	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
+2	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
 4	'	'	SYM	_	_	6	nmod	_	SpaceAfter=No
 5	no	no	ADV	_	Polarity=Neg	6	advmod	_	_
@@ -48945,7 +48945,7 @@
 # text = Segons ell 'ha triomfat el model funcionarial' i la nova llei el que farà és obrir qüestions 'com la de contractació de professors versus els professors funcionaris'.
 # orig_file_sentence 014#76
 1	Segons	segons	SCONJ	_	_	2	mark	_	_
-2	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
+2	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obl	_	_
 3	'	'	SYM	_	_	5	nmod	_	SpaceAfter=No
 4	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	triomfat	triomfar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -49116,7 +49116,7 @@
 27	que	que	SCONJ	_	_	32	mark	_	_
 28	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	companyia	companyia	NOUN	_	Gender=Fem|Number=Sing	32	nsubj	_	_
-30	se	ell	PRON	_	Person=3	32	obj	_	_
+30	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	32	obj	_	_
 31	'n	en	PRON	_	Person=3|PronType=Prs	32	obj	_	_
 32	fes	fer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	advcl	_	MWE=fes_càrrec|MWEPOS=VERB
 33	càrrec	càrrec	NOUN	_	Number=Sing	32	compound	_	SpaceAfter=No
@@ -49943,7 +49943,7 @@
 8	demà	demà	ADV	_	_	3	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
 10	quan	quan	SCONJ	_	_	12	mark	_	_
-11	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+11	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
 12	registraran	registrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	advcl	_	_
 13	al	al	ADP	_	AdpType=Preppron	14	case	_	_
 14	Parlament	Parlament	PROPN	_	_	12	obl	_	_
@@ -50923,7 +50923,7 @@
 12	jurídics	jurídic	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
 13	en	en	ADP	_	AdpType=Prep	14	case	_	_
 14	què	què	PRON	_	PronType=Rel	16	obj	_	_
-15	se	ell	PRON	_	Person=3	16	obj	_	_
+15	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	_	_
 16	sustenta	sustentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_
 17	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	sentència	sentència	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
@@ -51138,7 +51138,7 @@
 21	en	en	ADP	_	AdpType=Prep	24	mark	_	_
 22-23	haver-se	_	_	_	_	_	_	_	_
 22	haver	haver	AUX	_	VerbForm=Inf	24	aux	_	_
-23	se	ell	PRON	_	Person=3	24	obj	_	_
+23	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	24	obj	_	_
 24	queixat	queixar-se	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
 25	davant	davant	ADV	_	_	24	advmod	_	_
 26	del	del	ADP	_	AdpType=Preppron	27	case	_	_
@@ -51398,7 +51398,7 @@
 14	gabinet	gabinet	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 16	ni	ni	CCONJ	_	_	17	cc	_	_
-17	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+17	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
 18	ni	ni	CCONJ	_	_	21	cc	_	_
 19	cap	cap	DET	_	Number=Sing|PronType=Ind	21	det	_	_
 20	altre	altre	DET	_	Gender=Masc|Number=Sing|PronType=Ind	19	det	_	_
@@ -51587,7 +51587,7 @@
 17	figura	figura	NOUN	_	Gender=Fem|Number=Sing	11	iobj	_	_
 18-19	fent-la	_	_	_	_	_	_	_	_
 18	fent	fer	AUX	_	VerbForm=Ger	11	aux	_	_
-19	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+19	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
 20	arribar	arribar	VERB	_	VerbForm=Inf	11	xcomp	_	_
 21	a	a	ADP	_	AdpType=Prep	24	case	_	_
 22	tota	tot	DET	_	Gender=Fem|Number=Sing|PronType=Ind	23	det	_	_
@@ -52006,7 +52006,7 @@
 41	permetre	permetre	VERB	_	VerbForm=Inf	37	acl	_	_
 42-43	relacionar-se	_	_	_	_	_	_	_	_
 42	relacionar	relacionar	VERB	_	VerbForm=Inf	41	xcomp	_	_
-43	se	ell	PRON	_	Person=3|PronType=Prs	42	obj	_	_
+43	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	42	obj	_	_
 44	amb	amb	ADP	_	AdpType=Prep	46	case	_	_
 45	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
 46	personalitats	personalitat	NOUN	_	Gender=Fem|Number=Plur	42	obj	_	_
@@ -52120,7 +52120,7 @@
 34	de	de	ADP	_	AdpType=Prep	35	mark	_	_
 35-36	recuperar-se	_	_	_	_	_	_	_	_
 35	recuperar	recuperar	VERB	_	VerbForm=Inf	33	acl	_	_
-36	se	ell	PRON	_	Person=3	35	obj	_	_
+36	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	35	obj	_	_
 37	d'	de	ADP	_	AdpType=Prep	40	case	_	SpaceAfter=No
 38	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	40	det	_	_
 39	greu	greu	ADJ	_	Number=Sing	40	amod	_	_
@@ -55118,7 +55118,7 @@
 7	a	a	ADP	_	AdpType=Prep	8	mark	_	_
 8-9	enlairar-se	_	_	_	_	_	_	_	_
 8	enlairar	enlairar	VERB	_	VerbForm=Inf	6	xcomp	_	_
-9	se	ell	PRON	_	Person=3	8	obj	_	_
+9	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	ahir	ahir	ADV	_	_	6	advmod	_	_
 11	a	a	ADP	_	AdpType=Prep	13	case	_	_
 12	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
@@ -55330,7 +55330,7 @@
 15	a	a	ADP	_	AdpType=Prep	16	mark	_	_
 16-17	llançar-se	_	_	_	_	_	_	_	_
 16	llançar	llançar	VERB	_	VerbForm=Inf	14	xcomp	_	_
-17	se	ell	PRON	_	Person=3	16	obj	_	_
+17	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	_	_
 18	a	a	ADP	_	AdpType=Prep	20	case	_	_
 19	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	conquista	conquista	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
@@ -55348,7 +55348,7 @@
 2	a	a	ADP	_	AdpType=Prep	3	mark	_	_
 3-4	retirar-se	_	_	_	_	_	_	_	_
 3	retirar	retirar	VERB	_	VerbForm=Inf	1	xcomp	_	_
-4	se	ell	PRON	_	Person=3	3	obj	_	_
+4	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	3	obj	_	_
 5	del	del	ADP	_	AdpType=Preppron	6	case	_	_
 6	Govern	Govern	PROPN	_	_	3	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
@@ -55387,7 +55387,7 @@
 20	socialistes	socialista	NOUN	_	Number=Plur	13	obl	_	_
 21-22	oblidant-se	_	_	_	_	_	_	_	_
 21	oblidant	oblidar	AUX	_	VerbForm=Ger	13	aux	_	_
-22	se	ell	PRON	_	Person=3	13	obj	_	_
+22	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	obj	_	_
 23	que	que	SCONJ	_	_	13	mark	_	_
 24	en	en	ADP	_	AdpType=Prep	26	case	_	_
 25	aquella	aquell	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
@@ -55437,7 +55437,7 @@
 12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	vídeo	vídeo	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
 14	i	i	CCONJ	_	_	16	cc	_	_
-15	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
+15	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	SpaceAfter=No
 16	oblida	oblidar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 17	en	en	ADP	_	AdpType=Prep	19	case	_	_
 18	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	19	det	_	_
@@ -55513,7 +55513,7 @@
 4	que	que	SCONJ	_	_	9	mark	_	_
 5	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	còpia	còpia	NOUN	_	Gender=Fem|Number=Sing	9	iobj	_	_
-7	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+7	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 8	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	difondre	difondre	VERB	_	VerbForm=Inf	3	csubj	_	_
 10	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
@@ -55638,7 +55638,7 @@
 # orig_file_sentence 016#66
 1	Aquesta	aquest	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	caiguda	caiguda	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
-3	se	se	PRON	_	_	4	expl:pass	_	_
+3	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:pass	_	_
 4	suma	sumar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	a	a	ADP	_	AdpType=Prep	9	case	_	_
 6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -56735,7 +56735,7 @@
 18	d'	de	ADP	_	AdpType=Prep	19	mark	_	SpaceAfter=No
 19-20	apropiar-se	_	_	_	_	_	_	_	_
 19	apropiar	apropiar	VERB	_	VerbForm=Inf	15	conj	_	_
-20	se	ell	PRON	_	Person=3	19	obj	_	_
+20	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	obj	_	_
 21	quantitats	quantitat	NOUN	_	Gender=Fem|Number=Plur	19	obj	_	_
 22	milionàries	milionari	ADJ	_	Gender=Fem|Number=Plur	21	amod	_	_
 23	sense	sense	ADP	_	AdpType=Prep	24	mark	_	_
@@ -56804,7 +56804,7 @@
 8	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	10	expl:pass	_	SpaceAfter=No
 9	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	actuat	actuar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	_
-11	se	se	PRON	_	_	13	iobj	_	_
+11	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	iobj	_	_
 12	'n	en	PRON	_	Person=3|PronType=Prs	13	iobj	_	_
 13	dedueix	deduir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
@@ -57404,13 +57404,13 @@
 # orig_file_sentence 017#25
 1	Gràcies	gràcies	NOUN	_	_	3	case	_	MWE=Gràcies_a|MWEPOS=ADP
 2	a	a	ADP	_	AdpType=Prep	1	fixed	_	_
-3	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+3	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obl	_	_
 4	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	investigadors	investigador	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
 6	podran	poder	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	_
 7-8	fer-se	_	_	_	_	_	_	_	_
 7	fer	fer	VERB	_	VerbForm=Inf	0	root	_	_
-8	se	ell	PRON	_	Person=3	7	obj	_	_
+8	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	obj	_	_
 9	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
 10	idea	idea	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
 11	de	de	ADP	_	AdpType=Prep	13	case	_	_
@@ -57553,7 +57553,7 @@
 34	dels	del	ADP	_	AdpType=Preppron	35	case	_	_
 35	espectacles	espectacle	NOUN	_	Gender=Masc|Number=Plur	22	obj	_	_
 36	que	que	PRON	_	PronType=Rel	38	nsubj	_	_
-37	se	se	PRON	_	_	38	obj	_	_
+37	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	38	obj	_	_
 38	celebren	celebrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	acl	_	_
 39	a	a	ADP	_	AdpType=Prep	41	case	_	_
 40	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	_	_
@@ -57859,7 +57859,7 @@
 13	està	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 14	previst	previst	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	10	acl	_	_
 15	que	que	SCONJ	_	_	17	mark	_	_
-16	se	se	PRON	_	_	17	obj	_	_
+16	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	17	obj	_	_
 17	celebrin	celebrar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	csubj	_	SpaceAfter=No
 18	,	,	PUNCT	_	PunctType=Comm	22	punct	_	_
 19	des	des	ADP	_	AdpType=Prep	22	case	_	MWE=des_de|MWEPOS=ADP
@@ -60301,7 +60301,7 @@
 22	Déu	Déu	PROPN	_	_	18	flat	_	SpaceAfter=No
 23	,	,	PUNCT	_	PunctType=Comm	18	punct	_	_
 24	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
-25	se	se	PRON	_	_	26	obj	_	_
+25	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	26	obj	_	_
 26	celebrarà	celebrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	acl	_	_
 27	del	del	ADP	_	AdpType=Preppron	28	case	_	_
 28	4	4	NOUN	_	AdvType=Tim	26	obl	_	_
@@ -60754,7 +60754,7 @@
 22	Reus	Reus	PROPN	_	_	12	nmod	_	_
 23	ja	ja	ADV	_	_	26	mark	_	MWE=ja_que|MWEPOS=SCONJ
 24	que	que	SCONJ	_	_	23	fixed	_	_
-25	la	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
+25	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
 26	consideren	considerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
 27	'	'	SYM	_	_	29	nmod	_	SpaceAfter=No
 28	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
@@ -61038,7 +61038,7 @@
 15	a	a	ADP	_	AdpType=Prep	16	case	_	_
 16	qui	qui	PRON	_	PronType=Rel	22	obj	_	_
 17	'	'	SYM	_	_	22	nmod	_	SpaceAfter=No
-18	se	se	PRON	_	_	22	obj	_	_
+18	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	22	obj	_	_
 19	li	ell	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
 20	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 21	de	de	ADP	_	AdpType=Prep	22	mark	_	_
@@ -61636,7 +61636,7 @@
 18	i	i	CCONJ	_	_	19	cc	_	_
 19	telefòniques	telefònic	ADJ	_	Gender=Fem|Number=Plur	17	conj	_	_
 20	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	23	punct	_	SpaceAfter=No
-21	se	se	PRON	_	_	23	obj	_	_
+21	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	23	obj	_	_
 22	'n	en	PRON	_	Person=3|PronType=Prs	23	nsubj	_	_
 23	desconeix	desconèixer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
 24	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
@@ -61818,7 +61818,7 @@
 11	i	i	CCONJ	_	_	15	cc	_	_
 12	per	per	ADP	_	AdpType=Prep	13	case	_	_
 13	això	això	PRON	_	Number=Sing|PronType=Dem	15	obl	_	_
-14	se	se	PRON	_	_	15	nsubj	_	_
+14	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	nsubj	_	_
 15	suposa	suposar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
 16	que	que	SCONJ	_	_	17	mark	_	_
 17	ve	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
@@ -61875,7 +61875,7 @@
 32	de	de	ADP	_	AdpType=Prep	33	mark	_	_
 33-34	convertir-se	_	_	_	_	_	_	_	_
 33	convertir	convertir	VERB	_	VerbForm=Inf	31	acl	_	_
-34	se	ell	PRON	_	Person=3	33	obj	_	_
+34	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	33	obj	_	_
 35	en	en	ADP	_	AdpType=Prep	36	case	_	_
 36	plaga	plaga	NOUN	_	Number=Sing	33	obj	_	_
 37	per	per	ADP	_	AdpType=Prep	39	case	_	_
@@ -61905,7 +61905,7 @@
 61	sense	sense	ADP	_	AdpType=Prep	62	mark	_	_
 62-63	molestar-se	_	_	_	_	_	_	_	SpaceAfter=No
 62	molestar	molestar	VERB	_	VerbForm=Inf	60	advcl	_	_
-63	se	ell	PRON	_	Person=3|PronType=Prs	62	obj	_	_
+63	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	62	obj	_	_
 64	.	.	PUNCT	_	PunctType=Peri	29	punct	_	_
 
 # sent_id = test-s1757
@@ -62181,7 +62181,7 @@
 25	més	més	ADV	_	Degree=Cmp	24	fixed	_	_
 26	a	a	ADP	_	AdpType=Prep	24	fixed	_	_
 27	més	més	ADV	_	Degree=Cmp	24	fixed	_	_
-28	se	se	PRON	_	_	30	obj	_	_
+28	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	30	obj	_	_
 29	li	ell	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
 30	reclamen	reclamar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl	_	_
 31	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
@@ -62457,8 +62457,8 @@
 37	com	com	SCONJ	_	_	36	xcomp	_	_
 38	si	si	SCONJ	_	_	44	mark	_	_
 39	a	a	ADP	_	AdpType=Prep	40	case	_	_
-40	ella	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	iobj	_	_
-41	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	44	obj	_	SpaceAfter=No
+40	ella	ell	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	44	iobj	_	_
+41	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	44	obj	_	SpaceAfter=No
 42	hi	hi	PRON	_	Person=3|PronType=Prs	44	obl	_	_
 43	haguessin	haver	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	44	aux	_	_
 44	pagat	pagar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	advcl	_	_
@@ -62852,7 +62852,7 @@
 2	finançament	finançament	NOUN	_	Gender=Masc|Number=Sing	6	iobj	_	_
 3	del	del	ADP	_	AdpType=Preppron	4	case	_	_
 4	projecte	projecte	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-5	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+5	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
 6	assumirà	assumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Generalitat	Generalitat	PROPN	_	_	6	nsubj	_	MWE=Generalitat_de_Catalunya|MWEPOS=PROPN
@@ -62929,7 +62929,7 @@
 # orig_file_sentence 018#89
 1	Els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	hotels	hotel	NOUN	_	Gender=Masc|Number=Plur	4	nsubj	_	_
-3	se	se	PRON	_	_	4	obj	_	_
+3	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	obj	_	_
 4	situaran	situar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	a	a	ADP	_	AdpType=Prep	6	case	_	_
 6	Mojácar	Mojácar	PROPN	_	_	4	obj	_	_
@@ -63830,7 +63830,7 @@
 27	de	de	ADP	_	AdpType=Prep	28	case	_	_
 28	presó	presó	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 29	que	que	PRON	_	PronType=Rel	33	nsubj	_	_
-30	se	se	PRON	_	_	33	obj	_	_
+30	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	33	obj	_	_
 31	li	ell	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
 32	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 33	imposar	imposar	VERB	_	VerbForm=Inf	20	acl	_	_
@@ -63926,7 +63926,7 @@
 56	que	que	SCONJ	_	_	60	mark	_	_
 57	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
 58	policia	policia	NOUN	_	Number=Sing	60	nsubj	_	_
-59	l'	ell	PRON	_	Number=Sing|Person=3|PronType=Prs	60	obj	_	SpaceAfter=No
+59	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	60	obj	_	SpaceAfter=No
 60	informés	informar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	52	advcl	_	_
 61	de	de	ADP	_	AdpType=Prep	63	case	_	_
 62	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	63	det	_	SpaceAfter=No
@@ -63935,7 +63935,7 @@
 65	hi	hi	PRON	_	Person=3|PronType=Prs	66	obj	_	_
 66	havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	63	acl	_	_
 67	contra	contra	ADP	_	AdpType=Prep	68	case	_	_
-68	ell	ell	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	63	nmod	_	SpaceAfter=No
+68	ell	ell	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	63	nmod	_	SpaceAfter=No
 69	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = test-s1817
@@ -65058,7 +65058,7 @@
 # sent_id = test-s1852
 # text = La segueix la mexicana Pemex, amb el 5%; Endesa, amb el 3,6%; i ara Iberdrola, amb el 3,5%.
 # orig_file_sentence 019#51
-1	La	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+1	La	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	segueix	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	mexicana	mexicà	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
