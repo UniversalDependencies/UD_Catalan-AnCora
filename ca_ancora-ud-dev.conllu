@@ -29230,18 +29230,18 @@
 # sent_id = dev-s765
 # text = El porter inconstant o Les 'tragaderas' del caiman eren dos dels articles que Dutruel va poder llegir a El Faro de Vigo a l'hotel de concentració.
 # orig_file_sentence 008#64
-1	El	El	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	MWE=El_porter_inconstant|MWEPOS=PROPN
-2	porter	porter	PROPN	_	_	13	nsubj	_	_
-3	inconstant	inconstant	PROPN	_	_	2	flat	_	_
-4	o	o	CCONJ	_	_	2	cc	_	_
-5	Les	Les	DET	_	Gender=Fem|Number=Plur|PronType=Art	2	det	_	MWE=Les_'_tragaderas_'_del_caiman|MWEPOS=PROPN
-6	'	'	PUNCT	_	_	7	conj	_	SpaceAfter=No
-7	tragaderas	tragaderas	PROPN	_	_	5	flat	_	SpaceAfter=No
+1	El	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	2	det	_	MWE=El_porter_inconstant|MWEPOS=PROPN
+2	porter	porter	NOUN	_	Gender=Masc|Number=Sing	13	nsubj	_	_
+3	inconstant	inconstant	ADJ	_	_	2	amod	_	_
+4	o	o	CCONJ	_	_	7	cc	_	_
+5	Les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	7	det	_	MWE=Les_'_tragaderas_'_del_caiman|MWEPOS=PROPN
+6	'	'	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	tragaderas	tragadera	NOUN	Gender=Fem|Number=Plur	_	2	conj	_	SpaceAfter=No
 8	'	'	PUNCT	_	_	7	punct	_	_
 9-10	del	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	caiman	caiman	PROPN	_	_	5	flat	_	_
+11	caiman	caiman	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 12	eren	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
 13	dos	dos	NUM	_	Gender=Masc|Number=Plur|NumType=Card	0	root	_	_
 14-15	dels	_	_	_	_	_	_	_	_
