@@ -12961,7 +12961,7 @@
 24	Periodista	periodista	NOUN	_	Number=Sing	21	appos	_	_
 25	i	i	CCONJ	_	_	26	cc	_	_
 26	escriptor	escriptor	NOUN	_	_	24	conj	_	MWE=escriptor_.|MWEPOS=NOUN
-27	.	.	PUNCT	_	_	26	compound	_	_
+27	.	.	PUNCT	_	_	24	punct	_	_
 28	Blanes	Blanes	PROPN	_	_	21	nmod	_	_
 29	1843	1843	NOUN	_	AdvType=Tim	28	appos	_	_
 30	-	-	PUNCT	_	PunctType=Dash	31	punct	_	_
@@ -16098,8 +16098,8 @@
 11	constitucional	constitucional	ADJ	_	Number=Sing	9	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	PunctType=Comm	13	punct	_	_
 13	estatutari	estatutari	ADJ	_	Gender=Masc|Number=Sing	9	conj	_	_
-14	i	i	CCONJ	_	_	13	cc	_	_
-15	etcètera	etcètera	PUNCT	_	PunctType=Comm	13	conj	_	SpaceAfter=No
+14	i	i	CCONJ	_	_	15	cc	_	_
+15	etcètera	etcètera	ADV	_	_	9	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
 17	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	situació	situació	NOUN	_	Gender=Fem|Number=Sing	22	nsubj	_	_
@@ -59298,7 +59298,7 @@
 13	oest	oest	ADJ	_	_	12	amod	_	_
 14	tindrà	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	parataxis	_	_
 15	3	3	NUM	_	NumForm=Digit|NumType=Card	18	nummod	_	MWE=3_'_5|MWEPOS=NUM
-16	'	'	PUNCT	_	_	17	compound	_	SpaceAfter=No
+16	'	'	PUNCT	_	_	17	punct	_	SpaceAfter=No
 17	5	5	NUM	_	NumForm=Digit|NumType=Card	15	compound	_	_
 18	metres	metre	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	PunctType=Comm	18	punct	_	_
@@ -59312,7 +59312,7 @@
 26	riu	riu	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 27	medirà	medir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	parataxis	_	_
 28	2	2	NUM	_	NumForm=Digit|NumType=Card	27	obj	_	MWE=2_'_5|MWEPOS=NUM
-29	'	'	PUNCT	_	_	28	compound	_	SpaceAfter=No
+29	'	'	PUNCT	_	_	28	punct	_	SpaceAfter=No
 30	5	5	NUM	_	NumForm=Digit|NumType=Card	28	compound	_	SpaceAfter=No
 31	.	.	PUNCT	_	PunctType=Peri	20	punct	_	_
 

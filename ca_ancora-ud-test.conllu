@@ -37785,7 +37785,7 @@
 7	Siviero	Siviero	PROPN	_	_	5	nmod	_	_
 8	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	9	punct	_	SpaceAfter=No
 9	m	m	NOUN	_	_	5	appos	_	MWE=m_._26|MWEPOS=NOUN
-10	.	.	PUNCT	_	_	9	compound	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
 11	26	26	NUM	_	NumForm=Digit|NumType=Card	9	compound	_	SpaceAfter=No
 12	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	9	punct	_	_
 13	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
@@ -37903,11 +37903,11 @@
 13	Sánchez	Sánchez	PROPN	_	_	12	flat	_	_
 14	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	15	punct	_	SpaceAfter=No
 15	m	m	NOUN	_	_	7	appos	_	MWE=m_._5|MWEPOS=NOUN
-16	.	.	PUNCT	_	_	15	compound	_	_
+16	.	.	PUNCT	_	_	15	punct	_	_
 17	5	5	NUM	_	NumForm=Digit|NumType=Card	15	compound	_	_
 18	i	i	CCONJ	_	_	19	cc	_	_
 19	m	m	NOUN	_	_	15	conj	_	MWE=m_._14|MWEPOS=NOUN
-20	.	.	PUNCT	_	_	19	compound	_	_
+20	.	.	PUNCT	_	_	19	punct	_	_
 21	14	14	NUM	_	NumForm=Digit|NumType=Card	19	compound	_	SpaceAfter=No
 22	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	15	punct	_	SpaceAfter=No
 23	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
@@ -37929,7 +37929,7 @@
 7	Angulo	Angulo	PROPN	_	_	3	nmod	_	_
 8	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	9	punct	_	SpaceAfter=No
 9	m	m	NOUN	_	_	3	appos	_	MWE=m_._46|MWEPOS=NOUN
-10	.	.	PUNCT	_	_	9	compound	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
 11	46	46	NUM	_	NumForm=Digit|NumType=Card	9	compound	_	SpaceAfter=No
 12	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	9	punct	_	_
 13	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
