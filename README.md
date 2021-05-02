@@ -1,6 +1,6 @@
 # Summary
 
-Catalan data from the AnCora corpus.
+Catalan data from the [AnCora](http://clic.ub.edu/corpus/) corpus.
 
 # Introduction
 
