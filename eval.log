@@ -1,13 +1,13 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Catalan-AnCora:
-commit d7420d2bed54bfcc07116cd32185215edcc6495a
+commit 744dc290ed43475351efe29da7cec1dcba8cfc7d
+Merge: f88e56d 93a3ab9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 10 17:40:30 2020 +0200
-Size: counted 531971 of 531971 words (nodes).
-Size: min(0, log((N/1000)**2)) = 12.5531779531553.
+Size: counted 546638 of 546638 words (nodes).
+Size: min(0, log((N/1000)**2)) = 12.6075735835015.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,97 +15,99 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 437725 out of 531971 total words have one or more features.
+Features: 364552 out of 546638 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 30 out of 37 found in the corpus.
+Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 7513 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 531971 words.
+Udapi:
+               TOTAL       7983
+Udapi: found 7983 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 546638 words.
 Genres: found 1 out of 17 known.
 validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-dev.conllu
-[Line 217 Sent dev-s9 Node 7]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (7:el:cop --> 8:dels:case)
-[Line 216 Sent dev-s9 Node 7]: [L5 Syntax cop-lemma] 'el' is not a copula in language [ca]
-[Line 817 Sent dev-s23 Node 55]: [L5 Morpho aux-lemma] 'mirar' is not an auxiliary verb in language [ca]
-[Line 1639 Sent dev-s43 Node 17]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'compound'
-[Line 2898 Sent dev-s83 Node 19]: [L5 Morpho aux-lemma] 'deixar' is not an auxiliary verb in language [ca]
-[Line 4294 Sent dev-s123 Node 40]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADP'
-[Line 4280 Sent dev-s123 Node 26]: [L5 Morpho aux-lemma] 'obligar' is not an auxiliary verb in language [ca]
-[Line 4351 Sent dev-s124 Node 44]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADP'
-[Line 4337 Sent dev-s124 Node 30]: [L5 Morpho aux-lemma] 'obligar' is not an auxiliary verb in language [ca]
-[Line 7206 Sent dev-s195 Node 19]: [L5 Morpho aux-lemma] 'remodelar' is not an auxiliary verb in language [ca]
-[Line 7833 Sent dev-s214 Node 33]: [L5 Morpho aux-lemma] 'passar' is not an auxiliary verb in language [ca]
-[Line 9894 Sent dev-s265 Node 5]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'compound'
-[Line 11235 Sent dev-s300 Node 8]: [L5 Morpho aux-lemma] 'deixar' is not an auxiliary verb in language [ca]
-[Line 12350 Sent dev-s333 Node 26]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'compound'
-[Line 12582 Sent dev-s340 Node 60]: [L5 Morpho aux-lemma] 'controlar' is not an auxiliary verb in language [ca]
-[Line 12634 Sent dev-s341 Node 44]: [L3 Syntax rel-upos-cc] 'cc' should not be 'PRON'
-[Line 13177 Sent dev-s354 Node 28]: [L5 Morpho aux-lemma] 'vendre' is not an auxiliary verb in language [ca]
-...suppressing further errors regarding Morpho
-[Line 15358 Sent dev-s413 Node 14]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'conj'
+[Line 49 Sent dev-s2 Node 13]: [L3 Syntax leaf-cc] 'cc' not expected to have children (13:a:cc --> 15:de:case)
+[Line 50 Sent dev-s2 Node 13]: [L3 Syntax leaf-cc] 'cc' not expected to have children (13:a:cc --> 16:els:det)
+[Line 174 Sent dev-s6 Node 17]: [L3 Syntax leaf-cc] 'cc' not expected to have children (17:a:cc --> 19:de:case)
+[Line 175 Sent dev-s6 Node 17]: [L3 Syntax leaf-cc] 'cc' not expected to have children (17:a:cc --> 20:els:det)
+[Line 232 Sent dev-s9 Node 7]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (7:el:cop --> 8:de:case)
+[Line 233 Sent dev-s9 Node 7]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (7:el:cop --> 9:els:det)
+[Line 230 Sent dev-s9 Node 7]: [L5 Syntax cop-lemma] 'el' is not a copula in language [ca]
+[Line 869 Sent dev-s23 Node 58]: [L5 Morpho aux-lemma] 'mirar' is not an auxiliary verb in language [ca]
+[Line 1157 Sent dev-s30 Node 18]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (18:a:case --> 20:de:case)
+[Line 1158 Sent dev-s30 Node 18]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (18:a:case --> 21:el:det)
 ...suppressing further errors regarding Syntax
+[Line 3054 Sent dev-s83 Node 19]: [L5 Morpho aux-lemma] 'deixar' is not an auxiliary verb in language [ca]
+[Line 4506 Sent dev-s123 Node 26]: [L5 Morpho aux-lemma] 'obligar' is not an auxiliary verb in language [ca]
+[Line 4563 Sent dev-s124 Node 30]: [L5 Morpho aux-lemma] 'obligar' is not an auxiliary verb in language [ca]
+[Line 7560 Sent dev-s195 Node 19]: [L5 Morpho aux-lemma] 'remodelar' is not an auxiliary verb in language [ca]
+[Line 8219 Sent dev-s214 Node 34]: [L5 Morpho aux-lemma] 'passar' is not an auxiliary verb in language [ca]
+[Line 11807 Sent dev-s300 Node 8]: [L5 Morpho aux-lemma] 'deixar' is not an auxiliary verb in language [ca]
+[Line 13202 Sent dev-s340 Node 61]: [L5 Morpho aux-lemma] 'controlar' is not an auxiliary verb in language [ca]
+[Line 13827 Sent dev-s354 Node 29]: [L5 Morpho aux-lemma] 'vendre' is not an auxiliary verb in language [ca]
+...suppressing further errors regarding Morpho
 Morpho errors: 35
-Syntax errors: 27
-*** FAILED *** with 62 errors
+Syntax errors: 171
+*** FAILED *** with 206 errors
 Exit code: 1
 validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-test.conllu
-[Line 288 Sent test-s9 Node 12]: [L5 Morpho aux-lemma] 'passar' is not an auxiliary verb in language [ca]
-[Line 3749 Sent test-s97 Node 6]: [L5 Morpho aux-lemma] 'introduir' is not an auxiliary verb in language [ca]
-[Line 4009 Sent test-s103 Node 48]: [L5 Morpho aux-lemma] 'escollir' is not an auxiliary verb in language [ca]
-[Line 4027 Sent test-s103 Node 66]: [L5 Morpho aux-lemma] 'optar' is not an auxiliary verb in language [ca]
-[Line 8160 Sent test-s204 Node 33]: [L3 Syntax leaf-punct] 'punct' not expected to have children (33:,:punct --> 36:nova:conj)
-[Line 8799 Sent test-s221 Node 20]: [L5 Morpho aux-lemma] 'obrir' is not an auxiliary verb in language [ca]
-[Line 9100 Sent test-s230 Node 23]: [L3 Syntax leaf-punct] 'punct' not expected to have children (23:,:punct --> 25:Turisme:conj)
-[Line 9681 Sent test-s242 Node 12]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NOUN'
-[Line 9784 Sent test-s244 Node 8]: [L5 Morpho aux-lemma] 'formar' is not an auxiliary verb in language [ca]
-[Line 11009 Sent test-s272 Node 5]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'compound'
-[Line 12128 Sent test-s294 Node 43]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP'
-[Line 13035 Sent test-s317 Node 30]: [L5 Morpho aux-lemma] 'significar' is not an auxiliary verb in language [ca]
-[Line 13533 Sent test-s328 Node 5]: [L5 Morpho aux-lemma] 'augmentar' is not an auxiliary verb in language [ca]
-[Line 15412 Sent test-s381 Node 62]: [L5 Morpho aux-lemma] 'assegurar' is not an auxiliary verb in language [ca]
-...suppressing further errors regarding Morpho
-[Line 17914 Sent test-s444 Node 6]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (6:la:cop --> 7:de:case)
-[Line 17913 Sent test-s444 Node 6]: [L5 Syntax cop-lemma] 'el' is not a copula in language [ca]
-[Line 18772 Sent test-s474 Node 7]: [L3 Syntax leaf-punct] 'punct' not expected to have children (7:":punct --> 9:modern:conj)
-[Line 28358 Sent test-s738 Node 16]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (16:el:cop --> 17:d':case)
+[Line 304 Sent test-s9 Node 12]: [L5 Morpho aux-lemma] 'passar' is not an auxiliary verb in language [ca]
+[Line 486 Sent test-s14 Node 31]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (31:des:case --> 32:de:case)
+[Line 487 Sent test-s14 Node 31]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (31:des:case --> 33:el:det)
+[Line 1737 Sent test-s43 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:A:case --> 3:de:case)
+[Line 1738 Sent test-s43 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:A:case --> 4:el:det)
+[Line 2155 Sent test-s55 Node 8]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (8:de:case --> 12:a:case)
+[Line 2156 Sent test-s55 Node 8]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (8:de:case --> 13:el:det)
+[Line 2261 Sent test-s57 Node 25]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (25:de:case --> 29:a:case)
+[Line 2262 Sent test-s57 Node 25]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (25:de:case --> 30:el:det)
+[Line 2424 Sent test-s60 Node 10]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (10:a:case --> 12:de:case)
 ...suppressing further errors regarding Syntax
+[Line 3935 Sent test-s97 Node 6]: [L5 Morpho aux-lemma] 'introduir' is not an auxiliary verb in language [ca]
+[Line 4207 Sent test-s103 Node 48]: [L5 Morpho aux-lemma] 'escollir' is not an auxiliary verb in language [ca]
+[Line 4225 Sent test-s103 Node 66]: [L5 Morpho aux-lemma] 'optar' is not an auxiliary verb in language [ca]
+[Line 9267 Sent test-s221 Node 20]: [L5 Morpho aux-lemma] 'obrir' is not an auxiliary verb in language [ca]
+[Line 10306 Sent test-s244 Node 8]: [L5 Morpho aux-lemma] 'formar' is not an auxiliary verb in language [ca]
+[Line 13741 Sent test-s317 Node 31]: [L5 Morpho aux-lemma] 'significar' is not an auxiliary verb in language [ca]
+[Line 14261 Sent test-s328 Node 5]: [L5 Morpho aux-lemma] 'augmentar' is not an auxiliary verb in language [ca]
+[Line 16270 Sent test-s381 Node 62]: [L5 Morpho aux-lemma] 'assegurar' is not an auxiliary verb in language [ca]
+...suppressing further errors regarding Morpho
 Morpho errors: 35
-Syntax errors: 38
-*** FAILED *** with 73 errors
+Syntax errors: 153
+*** FAILED *** with 188 errors
 Exit code: 1
 validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-train.conllu
-[Line 1033 Sent train-s27 Node 23]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'compound'
-[Line 1036 Sent train-s27 Node 26]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'compound'
-[Line 1325 Sent train-s35 Node 19]: [L5 Morpho aux-lemma] 'conscienciar' is not an auxiliary verb in language [ca]
-[Line 2847 Sent train-s72 Node 10]: [L5 Morpho aux-lemma] 'dur' is not an auxiliary verb in language [ca]
-[Line 2896 Sent train-s73 Node 25]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (25:tirar:aux --> 26:endavant:compound)
-[Line 2895 Sent train-s73 Node 25]: [L5 Morpho aux-lemma] 'tirar' is not an auxiliary verb in language [ca]
-[Line 3365 Sent train-s85 Node 19]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADP'
-[Line 3827 Sent train-s97 Node 10]: [L5 Morpho aux-lemma] 'conèixer' is not an auxiliary verb in language [ca]
-[Line 4514 Sent train-s114 Node 52]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADV'
-[Line 5789 Sent train-s144 Node 11]: [L5 Morpho aux-lemma] 'abonar' is not an auxiliary verb in language [ca]
-[Line 6188 Sent train-s152 Node 34]: [L5 Morpho aux-lemma] 'fer' is not an auxiliary verb in language [ca]
-[Line 7512 Sent train-s187 Node 4]: [L5 Morpho aux-lemma] 'passar' is not an auxiliary verb in language [ca]
-[Line 8009 Sent train-s196 Node 6]: [L5 Morpho aux-lemma] 'establir' is not an auxiliary verb in language [ca]
-[Line 8765 Sent train-s213 Node 38]: [L5 Morpho aux-lemma] 'tornar' is not an auxiliary verb in language [ca]
-...suppressing further errors regarding Morpho
-[Line 10594 Sent train-s255 Node 14]: [L3 Syntax upos-rel-punct] 'PUNCT' must be 'punct' but it is 'compound'
-[Line 13542 Sent train-s332 Node 36]: [L3 Syntax leaf-punct] 'punct' not expected to have children (36:(:punct --> 37:del:case)
-[Line 13543 Sent train-s332 Node 36]: [L3 Syntax leaf-punct] 'punct' not expected to have children (36:(:punct --> 38:14:conj)
-[Line 13545 Sent train-s332 Node 36]: [L3 Syntax leaf-punct] 'punct' not expected to have children (36:(:punct --> 40:26:conj)
+[Line 272 Sent train-s6 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Pel:case --> 4:a:case)
+[Line 273 Sent train-s6 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Pel:case --> 5:el:det)
+[Line 909 Sent train-s23 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Pel:case --> 4:a:case)
+[Line 910 Sent train-s23 Node 1]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (1:Pel:case --> 5:els:det)
+[Line 1377 Sent train-s35 Node 19]: [L5 Morpho aux-lemma] 'conscienciar' is not an auxiliary verb in language [ca]
+[Line 2991 Sent train-s72 Node 10]: [L5 Morpho aux-lemma] 'dur' is not an auxiliary verb in language [ca]
+[Line 3046 Sent train-s73 Node 27]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (27:tirar:aux --> 28:endavant:compound)
+[Line 3045 Sent train-s73 Node 27]: [L5 Morpho aux-lemma] 'tirar' is not an auxiliary verb in language [ca]
+[Line 3537 Sent train-s85 Node 19]: [L3 Syntax rel-upos-nummod] 'nummod' should be 'NUM' but it is 'ADP'
+[Line 3622 Sent train-s87 Node 6]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (6:per:case --> 8:de:case)
+[Line 3623 Sent train-s87 Node 6]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (6:per:case --> 9:el:det)
+[Line 3826 Sent train-s91 Node 21]: [L3 Syntax leaf-mark-case] 'case' not expected to have children (21:a:case --> 23:de:case)
 ...suppressing further errors regarding Syntax
+[Line 4027 Sent train-s97 Node 10]: [L5 Morpho aux-lemma] 'conèixer' is not an auxiliary verb in language [ca]
+[Line 6091 Sent train-s144 Node 11]: [L5 Morpho aux-lemma] 'abonar' is not an auxiliary verb in language [ca]
+[Line 6512 Sent train-s152 Node 35]: [L5 Morpho aux-lemma] 'fer' is not an auxiliary verb in language [ca]
+[Line 7902 Sent train-s187 Node 4]: [L5 Morpho aux-lemma] 'passar' is not an auxiliary verb in language [ca]
+[Line 8441 Sent train-s196 Node 6]: [L5 Morpho aux-lemma] 'establir' is not an auxiliary verb in language [ca]
+[Line 9223 Sent train-s213 Node 40]: [L5 Morpho aux-lemma] 'tornar' is not an auxiliary verb in language [ca]
+...suppressing further errors regarding Morpho
 Morpho errors: 245
-Syntax errors: 278
-*** FAILED *** with 523 errors
+Syntax errors: 1415
+*** FAILED *** with 1660 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.908629319234152) = 0.232981876726706
+(weight=0.256410256410256) * (score{size}=0.912566606250654) = 0.233991437500168
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.858770496887988) = 0.264237075965535
-(weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.787537325363554) * (availability=1) * (validity=0.01) = 0.00787537325363554
+(weight=0.307692307692308) * (score{udapi}=0.853961854097227) = 0.262757493568378
+(weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
+(TOTAL score=0.788730505403061) * (availability=1) * (validity=0.01) = 0.00788730505403061
 STARS = 0
-UD_Catalan-AnCora	0.00787537325363554	0
+UD_Catalan-AnCora	0.00788730505403061	0
