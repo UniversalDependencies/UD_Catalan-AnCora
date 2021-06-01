@@ -57219,8 +57219,8 @@
 25	que	que	PRON	_	PronType=Rel	26	nsubj	_	_
 26	té	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
 27	molt	molt	ADV	_	_	26	advmod	_	_
-28	a	a	ADP	_	_	26	aux	_	MWE=a_veure|MWEPOS=AUX
-29	veure	veure	NOUN	_	Number=Sing	28	compound	_	_
+28	a	a	ADP	_	_	29	mark	_	MWE=a_veure|MWEPOS=AUX
+29	veure	veure	NOUN	_	Number=Sing	26	ccomp	_	_
 30	amb	amb	ADP	_	_	32	case	_	_
 31	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	origen	origen	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
@@ -65584,11 +65584,11 @@
 20	Sol	Sol	PROPN	_	_	17	flat	_	_
 21	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 22	provocar	provocar	VERB	_	VerbForm=Inf	0	root	_	_
-23	fa	fer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+23	fa	fer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
 24	més	més	ADV	_	Degree=Cmp	26	advmod	_	_
-25	de	de	ADP	_	_	26	case	_	_
-26	tres	tres	NUM	_	Number=Plur|NumType=Card	23	obj	_	_
-27	anys	any	NOUN	_	Gender=Masc|Number=Plur	22	obl	_	_
+25	de	de	ADP	_	_	24	fixed	_	_
+26	tres	tres	NUM	_	Number=Plur|NumType=Card	27	nummod	_	_
+27	anys	any	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
 28	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	29	det	_	_
 29	reacció	reacció	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
 30	indignada	indignat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	29	amod	_	_
@@ -68340,11 +68340,11 @@
 # orig_file_sentence 019#54
 1	Des	des	ADP	_	_	7	case	_	MWE=Des_de|MWEPOS=ADP
 2	de	de	ADP	_	_	1	fixed	_	_
-3	fa	fer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	fa	fer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
 4	més	més	ADV	_	Degree=Cmp	6	advmod	_	_
-5	de	de	ADP	_	_	6	case	_	_
-6	quatre	quatre	NUM	_	Number=Plur|NumType=Card	3	obj	_	_
-7	dècades	dècada	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
+5	de	de	ADP	_	_	4	fixed	_	_
+6	quatre	quatre	NUM	_	Number=Plur|NumType=Card	7	nummod	_	_
+7	dècades	dècada	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 9	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	majoria	majoria	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_

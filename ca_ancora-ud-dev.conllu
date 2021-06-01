@@ -29032,8 +29032,8 @@
 6	van	anar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	tenir	tenir	VERB	_	VerbForm=Inf	25	advcl	_	_
 8	res	res	PRON	_	Number=Sing|PronType=Ind	7	obl	_	_
-9	a	a	ADP	_	_	7	aux	_	MWE=a_veure|MWEPOS=AUX
-10	veure	veure	NOUN	_	Number=Sing	9	compound	_	_
+9	a	a	ADP	_	_	10	mark	_	MWE=a_veure|MWEPOS=AUX
+10	veure	veure	VERB	_	VerbForm=Inf	7	ccomp	_	_
 11	amb	amb	ADP	_	_	14	case	_	_
 12	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	multitudinària	multitudinari	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
@@ -29747,8 +29747,8 @@
 26-27	portar-lo	_	_	_	_	_	_	_	_
 26	portar	portar	VERB	_	VerbForm=Inf	24	acl	_	_
 27	lo	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	obj	_	_
-28	a	a	ADP	_	_	26	aux	_	MWE=a_terme|MWEPOS=AUX
-29	terme	terme	NOUN	_	Number=Sing	28	compound	_	_
+28	a	a	ADP	_	_	29	case	_	MWE=a_terme|MWEPOS=AUX
+29	terme	terme	NOUN	_	Number=Sing	26	obl	_	_
 30	i	i	CCONJ	_	_	32	cc	_	_
 31	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
 32	resultats	resultat	NOUN	_	Gender=Masc|Number=Plur	24	conj	_	_
