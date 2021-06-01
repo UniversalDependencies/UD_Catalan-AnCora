@@ -4518,7 +4518,7 @@
 38	donés	donar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
 39	fins	fins	ADV	_	_	42	case	_	MWE=fins_a|MWEPOS=ADP
 40	a	a	ADP	_	_	39	fixed	_	_
-41	534.000	534000	NUM	_	NumForm=Digit|NumType=Card	40	fixed	_	_
+41	534.000	534000	NUM	_	NumForm=Digit|NumType=Card	42	nummod	_	_
 42	pessetes	pesseta	NOUN	_	NumForm=Digit	38	obj	_	_
 43	en	en	ADP	_	_	45	case	_	_
 44	diferents	diferent	DET	_	Number=Plur|PronType=Ind	45	det	_	_
@@ -4575,7 +4575,7 @@
 42	donés	donar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
 43	fins	fins	ADV	_	_	46	case	_	MWE=fins_a|MWEPOS=ADP
 44	a	a	ADP	_	_	43	fixed	_	_
-45	534.000	534000	NUM	_	NumForm=Digit|NumType=Card	44	fixed	_	_
+45	534.000	534000	NUM	_	NumForm=Digit|NumType=Card	46	nummod	_	_
 46	pessetes	pesseta	NOUN	_	NumForm=Digit	42	obj	_	_
 47	en	en	ADP	_	_	49	case	_	_
 48	diferents	diferent	DET	_	Number=Plur|PronType=Ind	49	det	_	_
@@ -32750,7 +32750,7 @@
 12	amb	amb	ADP	_	_	16	case	_	_
 13	prop	prop	ADV	_	_	16	case	_	MWE=prop_de|MWEPOS=ADP
 14	de	de	ADP	_	_	13	fixed	_	_
-15	50	50	NUM	_	NumForm=Digit|NumType=Card	14	fixed	_	_
+15	50	50	NUM	_	NumForm=Digit|NumType=Card	16	nummod	_	_
 16	hores	hora	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
 17	de	de	ADP	_	_	18	case	_	_
 18	vol	vol	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
