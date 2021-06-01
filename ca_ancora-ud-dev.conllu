@@ -63859,19 +63859,19 @@
 43	solució	solució	NOUN	_	Gender=Fem|Number=Sing	40	obj	_	_
 44	de	de	ADP	_	_	45	case	_	_
 45	continuïtat	continuïtat	NOUN	_	Gender=Fem|Number=Sing	43	nmod	_	_
-46	respecte	respecte	NOUN	_	_	51	mark	_	MWE=respecte_al|MWEPOS=ADP
+46	respecte	respecte	NOUN	_	_	48	case	_	MWE=respecte_al|MWEPOS=ADP
 47-48	al	_	_	_	_	_	_	_	_
-47	a	a	ADP	_	_	46	case	_	_
-48	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
-49	que	que	SCONJ	_	_	51	mark	_	_
+47	a	a	ADP	_	_	46	fixed	_	_
+48	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	nmod	_	_
+49	que	que	PRON	_	PronType=Rel	48	acl:relcl	_	_
 50	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
-51	lluita	lluita	NOUN	_	Gender=Fem|Number=Sing	40	advcl	_	_
+51	lluita	lluita	NOUN	_	Gender=Fem|Number=Sing	49	nsubj	_	_
 52	antiterrorista	antiterrorista	ADJ	_	Number=Sing	51	amod	_	_
-53	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	51	aux	_	_
-54	estat	estar	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	cop	_	_
+53	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	49	aux	_	_
+54	estat	estar	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	49	cop	_	_
 55	en	en	ADP	_	_	57	case	_	_
 56	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	57	det	_	_
-57	passat	passat	NOUN	_	Gender=Masc|Number=Sing	51	obl	_	SpaceAfter=No
+57	passat	passat	NOUN	_	Gender=Masc|Number=Sing	49	obl	_	SpaceAfter=No
 58	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020901-9_b-s21
