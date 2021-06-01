@@ -46230,12 +46230,12 @@
 57	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	58	obj	_	_
 58	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	acl	_	_
 59	prioritària	prioritari	ADJ	_	Gender=Fem|Number=Sing	58	obj	_	_
-60	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	_
-61	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	cop	_	_
+60	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	cop	_	_
+61	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	advcl	_	_
 62-63	del	_	_	_	_	_	_	_	_
 62	de	de	ADP	_	_	61	case	_	_
 63	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
-64	satèl·lit	satèl·lit	NOUN	_	Gender=Masc|Number=Sing	60	det	_	_
+64	satèl·lit	satèl·lit	NOUN	_	Gender=Masc|Number=Sing	61	nmod	_	_
 65	perquè	perquè	SCONJ	_	_	66	mark	_	_
 66	arriba	arribar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	60	advcl	_	_
 67	a	a	ADP	_	_	70	case	_	_
