@@ -12798,12 +12798,12 @@
 40	de	de	ADP	_	_	42	case	_	_
 41	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	llit	llit	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	_
-43	'	'	SYM	_	_	44	nmod	_	SpaceAfter=No
-44	en	en	ADP	_	_	38	advmod	_	_
+43	'	'	SYM	_	_	48	obl	_	SpaceAfter=No
+44	en	en	ADP	_	_	48	mark	_	_
 45	no	no	ADV	_	Polarity=Neg	48	advmod	_	_
 46	estar	estar	AUX	_	VerbForm=Inf	48	aux	_	_
 47	degudament	degudament	ADV	_	_	48	advmod	_	_
-48	acomodada	acomodat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	44	advmod	_	_
+48	acomodada	acomodat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	38	advcl	_	_
 49	amb	amb	ADP	_	_	51	case	_	_
 50	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	51	det	_	_
 51	mesures	mesura	NOUN	_	Gender=Fem|Number=Plur	48	obl	_	_
