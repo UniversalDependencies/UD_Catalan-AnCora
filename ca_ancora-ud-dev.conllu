@@ -13254,9 +13254,9 @@
 41	hi	hi	PRON	_	Case=Loc|Person=3|PronType=Prs	42	obj	_	_
 42	abona	abonar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl	_	SpaceAfter=No
 43	:	:	PUNCT	_	PunctType=Colo	44	punct	_	_
-44	gratis	gratis	ADV	_	_	42	dep	_	_
-45	et	tu	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|Polite=Infm|PrepCase=Npr|PronType=Prs	46	cc	_	_
-46	amore	amore	ADV	_	_	44	conj	_	SpaceAfter=No
+44	gratis	gratis	NOUN	_	Foreign=Yes	42	parataxis	_	Lang=la
+45	et	et	CCONJ	_	Foreign=Yes	46	cc	_	Lang=la
+46	amore	amore	NOUN	_	Foreign=Yes	44	conj	_	Lang=la|SpaceAfter=No
 47	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
 # sent_id = CESS-CAT-A-20010315-27617-s20

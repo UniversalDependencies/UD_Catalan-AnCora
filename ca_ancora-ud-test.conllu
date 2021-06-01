@@ -10185,19 +10185,19 @@
 # orig_file_sentence 003#42
 1	Segons	segons	ADP	_	_	3	case	_	_
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	CIDEM	CIDEM	PROPN	_	_	10	obl	_	SpaceAfter=No
+3	CIDEM	CIDEM	PROPN	_	_	12	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 5	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	finalitat	finalitat	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+6	finalitat	finalitat	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 7	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 8	aquests	aquest	DET	_	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
 9	premis	premi	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
-10	és	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-12	millora	millora	NOUN	_	Gender=Fem|Number=Sing	15	cc	_	_
+10	és	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	millora	millora	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	competitivitat	competitivitat	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+15	competitivitat	competitivitat	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
 16-17	del	_	_	_	_	_	_	_	_
 16	de	de	ADP	_	_	18	case	_	_
 17	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -62403,28 +62403,28 @@
 # text = La majoria de voluntaris són joves de 20 a 30 anys a més d'altres persones majors expertes en la matèria que pertanyen a Creu Roja, Agrupació de Voluntaris de Reus, GEPEC-Ecologistes de Catalunya, IES d'Horticultura i els Bombers de Reus, entre d'altres.
 # orig_file_sentence 017#88
 1	La	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	majoria	majoria	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	majoria	majoria	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	de	de	ADP	_	_	4	case	_	_
 4	voluntaris	voluntari	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
-5	són	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	joves	jove	NOUN	_	Number=Plur	5	nsubj	_	_
+5	són	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	joves	jove	NOUN	_	Number=Plur	0	root	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	20	20	NUM	_	NumForm=Digit|NumType=Card	11	nummod	_	_
 9	a	a	ADP	_	_	10	cc	_	_
 10	30	30	NUM	_	NumForm=Digit|NumType=Card	8	conj	_	_
-11	anys	any	NOUN	_	Gender=Masc|Number=Plur	6	appos	_	_
-12	a	a	ADP	_	_	6	conj	_	MWE=a_més_d'|MWEPOS=ADP
+11	anys	any	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+12	a	a	ADP	_	_	16	case	_	MWE=a_més_d'|MWEPOS=ADP
 13	més	més	ADV	_	Degree=Cmp	12	fixed	_	_
 14	d'	de	ADP	_	_	12	fixed	_	SpaceAfter=No
-15	altres	altre	DET	_	Number=Plur|PronType=Ind	6	conj	_	_
-16	persones	persona	NOUN	_	Gender=Fem|Number=Plur	17	cc	_	_
-17	majors	major	ADJ	_	Degree=Cmp|Number=Plur	6	conj	_	_
-18	expertes	expert	ADJ	_	Gender=Fem|Number=Plur	6	conj	_	_
+15	altres	altre	DET	_	Number=Plur|PronType=Ind	16	det	_	_
+16	persones	persona	NOUN	_	Gender=Fem|Number=Plur	6	conj	_	_
+17	majors	major	ADJ	_	Degree=Cmp|Number=Plur	16	amod	_	_
+18	expertes	expert	ADJ	_	Gender=Fem|Number=Plur	16	amod	_	_
 19	en	en	ADP	_	_	21	case	_	_
 20	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	matèria	matèria	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	_
+21	matèria	matèria	NOUN	_	Gender=Fem|Number=Sing	18	obl	_	_
 22	que	que	PRON	_	PronType=Rel	23	nsubj	_	_
-23	pertanyen	pertànyer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+23	pertanyen	pertànyer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
 24	a	a	ADP	_	_	25	case	_	_
 25	Creu	Creu	PROPN	_	_	23	obj	_	MWE=Creu_Roja|MWEPOS=PROPN
 26	Roja	Roja	PROPN	_	_	25	flat	_	SpaceAfter=No
@@ -62451,7 +62451,7 @@
 47	entre	entre	ADP	_	_	49	case	_	_
 48	d'	de	ADP	_	_	49	case	_	SpaceAfter=No
 49	altres	altre	PRON	_	Number=Plur|PronType=Ind	25	nmod	_	SpaceAfter=No
-50	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
+50	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20030211-75815-s6
 # text = Les regidories d'Emergències i Seguretat Civil i de Medi Ambient de l'Ajuntament de Reus assumiran el cost del desplaçament i dels esmorzars mentre que el consistori de Carnota, situat a la Costa da Morte al cap de Finisterre, es farà càrrec de l'estada dels voluntaris i els facilitarà tot el material.
