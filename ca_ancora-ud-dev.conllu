@@ -32748,8 +32748,8 @@
 10	arrossars	arrossar	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
 12	amb	amb	ADP	_	_	16	case	_	_
-13	prop	prop	ADV	_	_	14	case	_	MWE=prop_de|MWEPOS=ADP
-14	de	de	ADP	_	_	16	nummod	_	_
+13	prop	prop	ADV	_	_	16	case	_	MWE=prop_de|MWEPOS=ADP
+14	de	de	ADP	_	_	13	fixed	_	_
 15	50	50	NUM	_	NumForm=Digit|NumType=Card	14	fixed	_	_
 16	hores	hora	NOUN	_	Gender=Fem|Number=Plur	6	obl	_	_
 17	de	de	ADP	_	_	18	case	_	_
