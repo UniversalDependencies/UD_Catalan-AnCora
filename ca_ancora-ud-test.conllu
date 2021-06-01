@@ -3932,19 +3932,19 @@
 3	socialista	socialista	ADJ	_	Number=Sing	2	amod	_	_
 4	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	proposat	proposar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	introduir	introduir	VERB	_	VerbForm=Inf	17	conj	_	_
-7	millores	millora	NOUN	_	Gender=Fem|Number=Plur	37	obj	_	_
+6	introduir	introduir	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	millores	millora	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
 8-9	als	_	_	_	_	_	_	_	_
 8	a	a	ADP	_	_	10	case	_	_
 9	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-10	centres	centre	NOUN	_	Gender=Masc|Number=Plur	37	obl	_	_
+10	centres	centre	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
 11	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
 12	atenció	atenció	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
 13	primària	primari	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
 15	amb	amb	ADP	_	_	17	case	_	_
 16	deu	deu	NUM	_	Number=Plur|NumType=Card	17	nummod	_	_
-17	minuts	minut	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+17	minuts	minut	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
 18	de	de	ADP	_	_	19	case	_	_
 19	mitjana	mitjà	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 20	de	de	ADP	_	_	21	case	_	_
@@ -9263,10 +9263,10 @@
 16	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	optat	optar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 18	finalment	finalment	ADV	_	_	17	advmod	_	_
-19	per	per	ADP	_	_	26	mark	_	_
-20	obrir	obrir	VERB	_	VerbForm=Inf	26	conj	_	_
+19	per	per	ADP	_	_	20	mark	_	_
+20	obrir	obrir	VERB	_	VerbForm=Inf	17	advcl	_	_
 21	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-22	convocatòria	convocatòria	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
+22	convocatòria	convocatòria	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
 23	a	a	ADP	_	_	26	case	_	_
 24	tots	tot	DET	_	Gender=Masc|Number=Plur|PronType=Ind	25	det	_	_
 25	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
@@ -27176,11 +27176,11 @@
 28	preparat	preparat	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	20	conj	_	_
 29	i	i	CCONJ	_	_	30	cc	_	_
 30	vol	voler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
-31	guanyar	guanyar	VERB	_	VerbForm=Inf	32	conj	_	_
+31	guanyar	guanyar	VERB	_	VerbForm=Inf	30	xcomp	_	_
 32	bé	bé	ADV	_	_	30	obj	_	_
 33	i	i	CCONJ	_	_	34	cc	_	_
-34	sobrat	sobrat	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	31	xcomp	_	SpaceAfter=No
-35	'	'	SYM	_	_	30	nmod	_	SpaceAfter=No
+34	sobrat	sobrat	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	28	conj	_	SpaceAfter=No
+35	'	'	SYM	_	_	28	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
 
 # sent_id = CESS-CAT-A-20020225-49494-s3
@@ -59788,11 +59788,11 @@
 6	dient	dir	VERB	_	VerbForm=Ger	3	advcl	_	_
 7	los	ell	PRON	_	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
 8	que	que	SCONJ	_	_	12	mark	_	_
-9	"	"	PUNCT	_	PunctType=Quot	6	punct	_	SpaceAfter=No
+9	"	"	PUNCT	_	PunctType=Quot	12	punct	_	SpaceAfter=No
 10	no	no	ADV	_	Polarity=Neg	12	advmod	_	_
 11	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	12	obj	_	_
 12	preocupessin	preocupar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	xcomp	_	SpaceAfter=No
-13	"	"	PUNCT	_	PunctType=Quot	6	punct	_	_
+13	"	"	PUNCT	_	PunctType=Quot	12	punct	_	_
 14	perquè	perquè	SCONJ	_	_	18	mark	_	_
 15-16	al	_	_	_	_	_	_	_	_
 15	a	a	ADP	_	_	17	case	_	_
