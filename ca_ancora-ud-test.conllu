@@ -10192,7 +10192,7 @@
 7	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
 8	aquests	aquest	DET	_	Gender=Masc|Number=Plur|PronType=Dem	9	det	_	_
 9	premis	premi	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
-10	és	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
 11	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	millora	millora	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 13	de	de	ADP	_	_	15	case	_	_
@@ -10239,7 +10239,7 @@
 52	de	de	ADP	_	_	54	case	_	_
 53	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
 54	empreses	empresa	NOUN	_	Gender=Fem|Number=Plur	51	obl	_	SpaceAfter=No
-55	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
+55	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
 # sent_id = 3LB-CAT-107-1-s14
 # text = Aquest programa serveix per donar suport a unes altres accions, també impulsades pel CIDEM, que intenten fomentar el reequilibrament territorial, ajudant les zones més desfavorides de Catalunya i, alhora, aconseguir un efecte beneficiós i multiplicador sobre el teixit empresarial català.
