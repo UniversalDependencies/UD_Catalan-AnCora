@@ -41,6 +41,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 * 2021-11-15 v2.9
   * Changed sentence ids to reflect the original AnCora documents.
+  * Manually fixed numerous validation errors.
 * 2021-05-15 v2.8
   * Manually fixed offset errors in lemmas inside MWEs (#2).
   * Removed XPOS (which was uninformative).
