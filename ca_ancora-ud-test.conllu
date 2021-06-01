@@ -33584,7 +33584,7 @@
 3	oficial	oficial	ADJ	_	Number=Sing	2	amod	_	_
 4	de	de	ADP	_	_	7	case	_	_
 5	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	19a	19	ADJ	_	NumForm=Digit|NumType=Ord	7	nummod	_	_
+6	19a	19	ADJ	_	NumForm=Digit|NumType=Ord	7	amod	_	_
 7	edició	edició	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 8	de	de	ADP	_	_	10	case	_	_
 9	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
