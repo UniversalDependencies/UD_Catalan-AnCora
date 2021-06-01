@@ -49330,7 +49330,7 @@
 20	quin	quin	DET	_	Gender=Masc|Number=Sing|PronType=Int	21	det	_	_
 21	color	color	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 22	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	SpaceAfter=No
-23	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
+23	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001001-31-s2
 # text = Des de dins no veu si està ennuvolat o fa sol, però quan arriba a l'autopista s'adona de la poca visibilitat que té i es posa a netejar el parabrisa amb els rajos de l'aigua i els netejaparabrises, i provoca un caldo que es queda sense veure res i deixa el cotxe de davant gairebé tan brut com el seu.
@@ -58024,7 +58024,7 @@
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 20	complot	complot	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
 21	socialista	socialista	ADJ	_	Number=Sing	20	amod	_	SpaceAfter=No
-22	.	.	PUNCT	_	PunctType=Peri	16	punct	_	_
+22	.	.	PUNCT	_	PunctType=Peri	17	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001001-60-s8
 # text = Belot hauria entregat la cinta de vídeo a Strauss-Kahn quan l'exministre es disposava a llançar-se a la conquista de l'alcaldia de París.
