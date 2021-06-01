@@ -18866,15 +18866,15 @@
 # text = Una absència sonada ha estat la de Jean-Paul Gaultier.
 # orig_file_sentence 005#44
 1	Una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
-2	absència	absència	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	absència	absència	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 3	sonada	sonat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	2	amod	_	_
-4	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-5	estat	ser	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	cop	_	_
-7	de	de	ADP	_	_	6	case	_	_
-8	Jean-Paul	Jean-Paul	DET	_	_	5	det	_	MWE=Jean-Paul_Gaultier|MWEPOS=PROPN
+4	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	estat	ser	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	root	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Jean-Paul	Jean-Paul	PROPN	_	_	6	nmod	_	MWE=Jean-Paul_Gaultier|MWEPOS=PROPN
 9	Gaultier	Gaultier	PROPN	_	_	8	flat	_	SpaceAfter=No
-10	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
+10	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = CESS-CAT-A-20010702-123-s5
 # text = Segons sembla, les 300 creacions que va realitzar per a l'última gira de Madonna i la preparació de la seva desfilada d'alta costura, prevista per al dia 8, l'han deixat exhaust i no presentarà noves col·leccions fins a la tardor.
@@ -54554,18 +54554,18 @@
 4	ser	ser	AUX	_	VerbForm=Inf	5	aux	_	_
 5	ordenat	ordenar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	sacerdot	sacerdot	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
-7	i	i	CCONJ	_	_	13	cc	_	_
+7	i	i	CCONJ	_	_	14	cc	_	_
 8	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	11	det	_	MWE=la_seva|MWEPOS=DET
 9	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	_
 10	primera	primer	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
-11	parròquia	parròquia	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
-12	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
-13	ser	ser	AUX	_	VerbForm=Inf	5	conj	_	_
-14	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	cop	_	_
-15	de	de	ADP	_	_	14	case	_	_
-16	Vinyoles	Vinyoles	DET	_	_	13	det	_	MWE=Vinyoles_d'_Orís|MWEPOS=PROPN
+11	parròquia	parròquia	NOUN	_	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	ser	ser	AUX	_	VerbForm=Inf	14	cop	_	_
+14	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	conj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Vinyoles	Vinyoles	PROPN	_	_	14	nmod	_	MWE=Vinyoles_d'_Orís|MWEPOS=PROPN
 17	d'	d'	ADP	_	_	18	case	_	SpaceAfter=No
-18	Orís	Orís	PROPN	_	_	16	flat	_	SpaceAfter=No
+18	Orís	Orís	PROPN	_	_	16	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
 20	a	a	ADP	_	_	21	case	_	_
 21	Osona	Osona	PROPN	_	_	16	nmod	_	SpaceAfter=No

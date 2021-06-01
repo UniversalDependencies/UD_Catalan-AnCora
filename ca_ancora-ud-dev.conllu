@@ -221,17 +221,17 @@
 # sent_id = 3LB-CAT-06010100-17-s9
 # text = Un d'aquests casos ha estat el dels Armats de Manresa, que van utilitzar el Palau Firal durant 11 dies per als assajos.
 # orig_file_sentence 001#9
-1	Un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+1	Un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
 2	d'	de	ADP	_	_	4	case	_	SpaceAfter=No
 3	aquests	aquest	DET	_	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
 4	casos	cas	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	_
-5	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-6	estat	ser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	cop	_	_
+5	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	estat	ser	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	_	_
 8-9	dels	_	_	_	_	_	_	_	_
-8	de	de	ADP	_	_	7	case	_	_
-9	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
-10	Armats	Armats	DET	_	_	6	det	_	MWE=Armats_de_Manresa|MWEPOS=PROPN
+8	de	de	ADP	_	_	10	case	_	_
+9	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Armats	Armats	PROPN	_	_	7	nmod	_	MWE=Armats_de_Manresa|MWEPOS=PROPN
 11	de	de	ADP	_	_	12	case	_	_
 12	Manresa	Manresa	PROPN	_	_	10	flat	_	SpaceAfter=No
 13	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
@@ -249,7 +249,7 @@
 24	a	a	ADP	_	_	26	case	_	_
 25	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
 26	assajos	assaig	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
-27	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
+27	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
 # sent_id = 3LB-CAT-06010100-17-s10
 # text = La Casa d'Andalusia també va utilitzar el recinte durant 17 dies per assajar els passos de la verge de la Macarena per a la processó de Setmana Santa i una empresa de logística va fer servir el Palau Firal per a posar a prova l'escenari que fa servir Alejandro Sanz en la seva gira.
