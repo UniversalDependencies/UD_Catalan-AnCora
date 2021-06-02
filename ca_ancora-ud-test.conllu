@@ -14946,7 +14946,7 @@
 34	cap	cap	NOUN	_	_	37	case	_	MWE=cap_al|MWEPOS=ADP
 35-36	al	_	_	_	_	_	_	_	_
 35	a	a	ADP	_	_	34	fixed	_	_
-36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	nord	nord	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
 38	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	trajectòria	trajectòria	NOUN	_	Gender=Fem|Number=Sing	33	obj	_	_
@@ -23208,7 +23208,7 @@
 12	arran	arran	NOUN	_	_	15	case	_	MWE=arran_del|MWEPOS=ADP
 13-14	del	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	fixed	_	_
-14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	fet	fet	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 16	que	que	SCONJ	_	_	28	mark	_	_
 17	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	18	det	_	_
@@ -30068,7 +30068,7 @@
 1	Respecte	respecte	NOUN	_	_	4	case	_	MWE=Respecte_al|MWEPOS=ADP
 2-3	al	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
-3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	turisme	turisme	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	natura	natura	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -44391,7 +44391,7 @@
 4	respecte	respecte	NOUN	_	_	7	case	_	MWE=respecte_als|MWEPOS=ADP
 5-6	als	_	_	_	_	_	_	_	_
 5	a	a	ADP	_	_	4	fixed	_	_
-6	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+6	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	dubtes	dubte	NOUN	_	Gender=Masc|Number=Plur	1	obl	_	_
 8-9	dels	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	10	case	_	_
@@ -51365,7 +51365,7 @@
 34	enfront	enfront	ADV	_	_	37	case	_	MWE=enfront_dels|MWEPOS=ADP
 35-36	dels	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	34	fixed	_	_
-36	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+36	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
 37	claustres	claustre	NOUN	_	Gender=Masc|Number=Plur	30	obl	_	_
 38	que	que	PRON	_	PronType=Rel	42	nsubj	_	_
 39	sí	sí	NOUN	_	_	42	advmod	_	MWE=sí_que|MWEPOS=ADV
@@ -53457,7 +53457,7 @@
 89	cap	cap	NOUN	_	_	92	case	_	MWE=cap_als|MWEPOS=ADP
 90-91	als	_	_	_	_	_	_	_	_
 90	a	a	ADP	_	_	89	fixed	_	_
-91	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	89	det	_	_
+91	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	92	det	_	_
 92	professors	professor	NOUN	_	Gender=Masc|Number=Plur	87	nmod	_	SpaceAfter=No
 93	'	'	SYM	_	_	86	nmod	_	SpaceAfter=No
 94	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
@@ -58358,7 +58358,7 @@
 26	respecte	respecte	NOUN	_	_	30	case	_	MWE=respecte_al|MWEPOS=ADP
 27-28	al	_	_	_	_	_	_	_	_
 27	a	a	ADP	_	_	26	fixed	_	_
-28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 29	mateix	mateix	DET	_	Gender=Masc|Number=Sing|PronType=Ind	30	det	_	_
 30	mes	mes	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
 31-32	del	_	_	_	_	_	_	_	_
@@ -61222,7 +61222,7 @@
 26	respecte	respecte	NOUN	_	_	29	case	_	MWE=respecte_al|MWEPOS=ADP
 27-28	al	_	_	_	_	_	_	_	_
 27	a	a	ADP	_	_	26	fixed	_	_
-28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	1999	1999	NOUN	_	AdvType=Tim	25	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	_	PunctType=Comm	31	punct	_	_
 31	percentatge	percentatge	NOUN	_	Gender=Masc|Number=Sing	25	appos	_	_
@@ -67459,7 +67459,7 @@
 11	respecte	respecte	NOUN	_	_	14	case	_	MWE=respecte_al|MWEPOS=ADP
 12-13	al	_	_	_	_	_	_	_	_
 12	a	a	ADP	_	_	11	fixed	_	_
-13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	1998	1998	NOUN	_	AdvType=Tim	3	obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 

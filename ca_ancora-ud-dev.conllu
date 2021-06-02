@@ -2104,7 +2104,7 @@
 19	cap	cap	NOUN	_	_	22	case	_	MWE=cap_al|MWEPOS=ADP
 20-21	al	_	_	_	_	_	_	_	_
 20	a	a	ADP	_	_	19	fixed	_	_
-21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Monestir	Monestir	PROPN	_	_	18	nmod	_	MWE=Monestir_de_Montserrat|MWEPOS=PROPN
 23	de	de	ADP	_	_	24	case	_	_
 24	Montserrat	Montserrat	PROPN	_	_	22	flat	_	SpaceAfter=No
@@ -4421,7 +4421,7 @@
 7	entorn	entorn	ADV	_	_	10	case	_	MWE=entorn_del|MWEPOS=ADP
 8-9	del	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	7	fixed	_	_
-9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	Corpus	Corpus	PROPN	_	_	6	obl	_	SpaceAfter=No
 11	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
 12	està	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
@@ -11758,7 +11758,7 @@
 20	cap	cap	NOUN	_	_	23	case	_	MWE=cap_al|MWEPOS=ADP
 21-22	al	_	_	_	_	_	_	_	_
 21	a	a	ADP	_	_	20	fixed	_	_
-22	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+22	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	riu	riu	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
 24	Cardener	Cardener	PROPN	_	_	23	appos	_	SpaceAfter=No
 25	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
@@ -16708,7 +16708,7 @@
 21	respecte	respecte	NOUN	_	_	24	case	_	MWE=respecte_del|MWEPOS=ADP
 22-23	del	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	21	fixed	_	_
-23	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+23	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	mes	mes	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 25	anterior	anterior	ADJ	_	Number=Sing	24	amod	_	SpaceAfter=No
 26	,	,	PUNCT	_	PunctType=Comm	28	punct	_	_
@@ -23594,7 +23594,7 @@
 17	enfront	enfront	ADV	_	_	20	case	_	MWE=enfront_dels|MWEPOS=ADP
 18-19	dels	_	_	_	_	_	_	_	_
 18	de	de	ADP	_	_	17	fixed	_	_
-19	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+19	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 20	0,8834	0.8834	NUM	_	NumForm=Digit|NumType=Card	6	obl	_	_
 21	de	de	ADP	_	_	23	case	_	_
 22	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
@@ -23655,7 +23655,7 @@
 33	enfront	enfront	ADV	_	_	36	case	_	MWE=enfront_del|MWEPOS=ADP
 34-35	del	_	_	_	_	_	_	_	_
 34	de	de	ADP	_	_	33	fixed	_	_
-35	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+35	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	4%	4/100	SYM	_	NumForm=Digit|NumType=Frac	24	obl	_	_
 37-38	al	_	_	_	_	_	_	_	_
 37	a	a	ADP	_	_	39	case	_	_
@@ -23690,7 +23690,7 @@
 21	enfront	enfront	ADV	_	_	24	case	_	MWE=enfront_del|MWEPOS=ADP
 22-23	del	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	21	fixed	_	_
-23	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+23	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	51,8%	51.8/100	SYM	_	NumForm=Digit|NumType=Frac	12	obl	_	_
 25-26	al	_	_	_	_	_	_	_	_
 25	a	a	ADP	_	_	27	case	_	_
@@ -32690,7 +32690,7 @@
 30	respecte	respecte	NOUN	_	_	34	case	_	MWE=respecte_als|MWEPOS=ADP
 31-32	als	_	_	_	_	_	_	_	_
 31	a	a	ADP	_	_	30	fixed	_	_
-32	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+32	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
 33	262	262	NUM	_	NumForm=Digit|NumType=Card	34	nummod	_	_
 34	focus	focus	NOUN	_	Gender=Masc	24	nmod	_	_
 35	tractats	tractat	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	34	amod	_	_
@@ -32783,7 +32783,7 @@
 1	Respecte	respecte	NOUN	_	_	4	case	_	MWE=Respecte_als|MWEPOS=ADP
 2-3	als	_	_	_	_	_	_	_	_
 2	a	a	ADP	_	_	1	fixed	_	_
-3	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	1	det	_	_
+3	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
 4	projectes	projecte	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	futur	futur	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
@@ -33157,7 +33157,7 @@
 6	com	com	SCONJ	_	_	9	case	_	MWE=com_al|MWEPOS=ADP
 7-8	al	_	_	_	_	_	_	_	_
 7	a	a	ADP	_	_	6	fixed	_	_
-8	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+8	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	bacallà	bacallà	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
 11	aquell	aquell	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
@@ -34244,7 +34244,7 @@
 48	arran	arran	NOUN	_	_	51	case	_	MWE=arran_dels|MWEPOS=ADP
 49-50	dels	_	_	_	_	_	_	_	_
 49	de	de	ADP	_	_	48	fixed	_	_
-50	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+50	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
 51	fets	fet	NOUN	_	Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
 52	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
@@ -38142,7 +38142,7 @@
 26	cap	cap	NOUN	_	_	29	case	_	MWE=cap_als|MWEPOS=ADP
 27-28	als	_	_	_	_	_	_	_	_
 27	a	a	ADP	_	_	26	fixed	_	_
-28	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+28	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
 29	setanta	setanta	NOUN	_	AdvType=Tim	31	obl	_	_
 30	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
 31	combinar	combinar	VERB	_	VerbForm=Inf	4	advcl	_	_
@@ -41314,7 +41314,7 @@
 41	cap	cap	NOUN	_	_	44	case	_	MWE=cap_al|MWEPOS=ADP
 42-43	al	_	_	_	_	_	_	_	_
 42	a	a	ADP	_	_	41	fixed	_	_
-43	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+43	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 44	no	no	NOUN	_	Gender=Masc|Number=Sing	38	obl	_	SpaceAfter=No
 45	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
@@ -43396,7 +43396,7 @@
 31	voltant	voltant	NOUN	_	_	38	mark	_	MWE=voltant_al_d'|MWEPOS=ADP
 32-33	al	_	_	_	_	_	_	_	_
 32	a	a	ADP	_	_	31	fixed	_	_
-33	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+33	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 34	d'	de	ADP	_	_	31	fixed	_	SpaceAfter=No
 35	on	on	PRON	_	PronType=Rel	38	obl	_	_
 36	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	38	obj	_	_
@@ -45767,7 +45767,7 @@
 22	fins	fins	ADV	_	_	31	mark	_	MWE=fins_al_punt_que|MWEPOS=SCONJ
 23-24	al	_	_	_	_	_	_	_	_
 23	a	a	ADP	_	_	22	fixed	_	_
-24	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+24	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 25	punt	punt	NOUN	_	_	22	fixed	_	_
 26	que	que	SCONJ	_	_	22	fixed	_	_
 27	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
@@ -46023,7 +46023,7 @@
 14	com	com	SCONJ	_	_	19	mark	_	MWE=com_al|MWEPOS=ADP
 15-16	al	_	_	_	_	_	_	_	_
 15	a	a	ADP	_	_	14	fixed	_	_
-16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 17	que	que	PRON	_	PronType=Rel	19	nsubj	_	_
 18	millor	millor	ADV	_	_	19	advmod	_	_
 19	definia	definir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
@@ -47424,7 +47424,7 @@
 24	respecte	respecte	NOUN	_	_	27	case	_	MWE=respecte_al|MWEPOS=ADP
 25-26	al	_	_	_	_	_	_	_	_
 25	a	a	ADP	_	_	24	fixed	_	_
-26	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+26	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	PSOE	PSOE	PROPN	_	_	31	obl	_	_
 28	tal	tal	NOUN	_	_	31	mark	_	MWE=tal_i_com|MWEPOS=SCONJ
 29	i	i	CCONJ	_	_	28	fixed	_	_
@@ -56523,7 +56523,7 @@
 1	Arran	arran	NOUN	_	_	4	case	_	MWE=Arran_del|MWEPOS=ADP
 2-3	del	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	fixed	_	_
-3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	programa	programa	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
 5	de	de	ADP	_	_	6	case	_	_
 6	reestructuració	reestructuració	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
@@ -56695,7 +56695,7 @@
 48	conseqüència	conseqüència	NOUN	_	_	46	fixed	_	_
 49-50	del	_	_	_	_	_	_	_	_
 49	de	de	ADP	_	_	46	fixed	_	_
-50	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+50	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
 51	tancament	tancament	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
 52	de	de	ADP	_	_	54	case	_	_
 53	367	367	NUM	_	NumForm=Digit|NumType=Card	54	nummod	_	_
@@ -58557,7 +58557,7 @@
 6	fins	fins	ADV	_	_	13	mark	_	MWE=fins_al_punt_que|MWEPOS=SCONJ
 7-8	al	_	_	_	_	_	_	_	_
 7	a	a	ADP	_	_	6	fixed	_	_
-8	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+8	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 9	punt	punt	NOUN	_	_	6	fixed	_	_
 10	que	que	SCONJ	_	_	6	fixed	_	_
 11	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
