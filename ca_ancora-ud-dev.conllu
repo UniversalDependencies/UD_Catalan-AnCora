@@ -50390,14 +50390,14 @@
 37	a	a	ADP	_	_	39	case	_	_
 38	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 39	ruptura	ruptura	NOUN	_	Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
-40	:	:	PUNCT	_	PunctType=Colo	41	punct	_	_
-41	no	no	ADV	_	Polarity=Neg	35	advmod	_	_
-42	més	més	ADV	_	Degree=Cmp	41	case	_	MWE=més_enllà_del|MWEPOS=ADP
+40	:	:	PUNCT	_	PunctType=Colo	46	punct	_	_
+41	no	no	ADV	_	Polarity=Neg	46	advmod	_	_
+42	més	més	ADV	_	Degree=Cmp	46	case	_	MWE=més_enllà_del|MWEPOS=ADP
 43	enllà	enllà	ADV	_	_	42	fixed	_	_
 44-45	del	_	_	_	_	_	_	_	_
 44	de	de	ADP	_	_	42	fixed	_	_
-45	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-46	febrer	febrer	NOUN	_	AdvType=Tim	41	obl	_	SpaceAfter=No
+45	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	febrer	febrer	NOUN	_	AdvType=Tim	35	obl	_	SpaceAfter=No
 47	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20011202-48-s2
