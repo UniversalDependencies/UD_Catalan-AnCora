@@ -46221,11 +46221,11 @@
 48	de	de	ADP	_	_	50	case	_	_
 49	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	50	det	_	_
 50	pirineus	pirineus	NOUN	_	Gender=Masc|Number=Plur	47	nmod	_	SpaceAfter=No
-51	,	,	PUNCT	_	PunctType=Comm	60	punct	_	_
-52	encara	encara	ADV	_	_	60	mark	_	MWE=encara_que|MWEPOS=SCONJ
+51	,	,	PUNCT	_	PunctType=Comm	61	punct	_	_
+52	encara	encara	ADV	_	_	61	mark	_	MWE=encara_que|MWEPOS=SCONJ
 53	que	que	SCONJ	_	_	52	fixed	_	_
 54	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	55	det	_	SpaceAfter=No
-55	opció	opció	NOUN	_	Gender=Fem|Number=Sing	60	nsubj	_	_
+55	opció	opció	NOUN	_	Gender=Fem|Number=Sing	61	nsubj	_	_
 56	que	que	PRON	_	PronType=Rel	58	nsubj	_	_
 57	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	58	obj	_	_
 58	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	55	acl	_	_
@@ -46237,7 +46237,7 @@
 63	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
 64	satèl·lit	satèl·lit	NOUN	_	Gender=Masc|Number=Sing	61	nmod	_	_
 65	perquè	perquè	SCONJ	_	_	66	mark	_	_
-66	arriba	arribar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	60	advcl	_	_
+66	arriba	arribar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	advcl	_	_
 67	a	a	ADP	_	_	70	case	_	_
 68	totes	tot	DET	_	Gender=Fem|Number=Plur|PronType=Ind	69	det	_	_
 69	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	70	det	_	_
@@ -55690,7 +55690,7 @@
 # text = Són, al cap i a la fi, la garantia última que queda als ciutadans.
 # orig_file_sentence 015#26
 1	Són	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
-2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
+2	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
 3-4	al	_	_	_	_	_	_	_	MWE=al_cap_i_a_la_fi|MWEPOS=ADV
 3	a	a	ADP	_	_	12	case	_	MWE=al_cap_i_a_la_fi|MWEPOS=ADV
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_

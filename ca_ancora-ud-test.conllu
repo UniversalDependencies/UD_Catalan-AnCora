@@ -29759,9 +29759,9 @@
 2	això	això	PRON	_	Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
 4	afirma	afirmar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	que	que	SCONJ	_	_	15	mark	_	_
+5	que	que	SCONJ	_	_	16	mark	_	_
 6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	compromís	compromís	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+7	compromís	compromís	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
 8	que	que	PRON	_	PronType=Rel	9	obj	_	_
 9	pren	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_
 10	des	des	ADP	_	_	12	case	_	MWE=des_de|MWEPOS=ADP
@@ -49309,7 +49309,7 @@
 # orig_file_sentence 014#25
 1	Una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_
 2	altra	altre	DET	_	Gender=Fem|Number=Sing|PronType=Ind	1	det	_	_
-3	espècie	espècie	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	espècie	espècie	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
 4	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	0	root	_	_
 6-7	del	_	_	_	_	_	_	_	_
@@ -58003,7 +58003,7 @@
 # text = La hipòtesi que avança l'Elisi i que sacsegen frenèticament els cacics de l'RPR és la del complot socialista.
 # orig_file_sentence 016#54
 1	La	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	hipòtesi	hipòtesi	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	_
+2	hipòtesi	hipòtesi	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
 3	que	que	PRON	_	PronType=Rel	4	obj	_	_
 4	avança	avançar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
 5	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
@@ -66754,7 +66754,7 @@
 28	Ràdio	Ràdio	PROPN	_	_	27	flat	_	SpaceAfter=No
 29	,	,	PUNCT	_	PunctType=Comm	24	punct	_	_
 30	són	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	SpaceAfter=No
-31	:	:	PUNCT	_	PunctType=Colo	30	punct	_	_
+31	:	:	PUNCT	_	PunctType=Colo	32	punct	_	_
 32	Platja	platja	PROPN	_	_	0	root	_	MWE=Platja_de_llum|MWEPOS=PROPN
 33	de	de	ADP	_	_	34	case	_	_
 34	llum	llum	PROPN	_	_	32	flat	_	_
