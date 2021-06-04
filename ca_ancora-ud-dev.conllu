@@ -37943,7 +37943,7 @@
 48	.	.	PUNCT	_	PunctType=Peri	17	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001202-139-s17
-# text = "No és bo per al Celta que jugui Guardiola - va manifestar -.
+# text = "No és bo per al Celta que jugui Guardiola" va manifestar.
 # orig_file_sentence 008#74
 1	"	"	PUNCT	_	PunctType=Quot	4	punct	_	SpaceAfter=No
 2	No	no	ADV	_	Polarity=Neg	4	advmod	_	_
@@ -37956,12 +37956,11 @@
 8	Celta	Celta	PROPN	_	_	4	obl	_	_
 9	que	que	SCONJ	_	_	10	mark	_	_
 10	jugui	jugar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	csubj	_	_
-11	Guardiola	Guardiola	PROPN	_	_	10	nsubj	_	_
-12	-	-	PUNCT	_	PunctType=Dash	4	punct	_	_
+11	Guardiola	Guardiola	PROPN	_	_	10	nsubj	_	SpaceAfter=No
+12	"	"	PUNCT	_	PunctType=Quot	4	punct	_	_
 13	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
-14	manifestar	manifestar	VERB	_	VerbForm=Inf	0	root	_	_
-15	-	-	PUNCT	_	PunctType=Dash	14	punct	_	SpaceAfter=No
-16	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
+14	manifestar	manifestar	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001202-139-s18A
 # text = És un home important per la seva presència i per la jerarquia que transmet a l'equip.
