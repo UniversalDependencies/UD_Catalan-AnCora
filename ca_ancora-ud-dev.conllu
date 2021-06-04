@@ -1,3 +1,4 @@
+# newdoc id = 3LB-CAT-06010100-17
 # sent_id = 3LB-CAT-06010100-17-s1
 # text = Fundació Privada Fira de Manresa ha fet un balanç de l'activitat del Palau Firal durant els primers cinc mesos de l'any.
 # orig_file_sentence 001#1
@@ -415,6 +416,7 @@
 29	Pràctica	Pràctica	PROPN	_	_	28	flat	_	SpaceAfter=No
 30	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = 3LB-CAT-06010100-4
 # sent_id = 3LB-CAT-06010100-4-s1
 # text = El port de Tarragona rebrà, durant tot el mes de juny, fins a cinc creuers de luxe i vora mil passatgers.
 # orig_file_sentence 001#14
@@ -649,6 +651,7 @@
 26	persones	persona	NOUN	_	Gender=Fem|Number=Plur	23	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = 3LB-CAT-06010100-51
 # sent_id = 3LB-CAT-06010100-51-s1
 # text = L'advocat del professor d'una escola de Sant Quirze del Vallès (Vallès Occidental) que ha estat detingut per presumptes abusos sexuals a una alumna del centre, de 8 anys, ha anunciat que no recorrerà l'ordre judicial de presó preventiva per considerar que l'alarma social pot perjudicar més el mestre si està al carrer.
 # orig_file_sentence 001#21
@@ -1066,6 +1069,7 @@
 39	nena	nena	NOUN	_	Gender=Fem|Number=Sing	37	nsubj	_	SpaceAfter=No
 40	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = 3LB-CAT-06010100-8
 # sent_id = 3LB-CAT-06010100-8-s1
 # text = El PP ha presentat avui el seu document base que utilitzarà per negociar la revisió del finançament autonòmic, que s'els haurà de tancar abans d'acabar aquest any, i en el qual es contempla, entre altres, la inclusió de la Sanitat, en la línia proposada per la Generalitat, i l'Imserso.
 # orig_file_sentence 001#29
@@ -1574,6 +1578,7 @@
 14	Díaz	Díaz	PROPN	_	_	12	flat	_	SpaceAfter=No
 15	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
+# newdoc id = 3LB-CAT-06010300-16
 # sent_id = 3LB-CAT-06010300-16-s1
 # text = El cicle Medicina al Segle XXI presenta, a la Sala d'Actes del Pavelló Docent de l'Hospital de la Vall d'Hebron, la conferència 'Efectes adversos del sol', que pronunciarà el Cap del Servei de Dermatologia, Antoni Castells, dimarts a la tarda.
 # orig_file_sentence 001#41
@@ -1978,6 +1983,7 @@
 31	Hebron	Hebron	PROPN	_	_	24	flat	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = 3LB-CAT-06010300-3
 # sent_id = 3LB-CAT-06010300-3-s1
 # text = Els productors de la fruita seca s'han entrevistat avui amb l'abat de Montserrat, Josep Maria Soler, per explicar-li la crisi que viu el sector.
 # orig_file_sentence 001#49
@@ -2332,6 +2338,7 @@
 17	juny	juny	NOUN	_	_	15	compound	_	SpaceAfter=No
 18	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = 3LB-CAT-06010300-6
 # sent_id = 3LB-CAT-06010300-6-s1
 # text = El Comú de Canillo encarregarà dos estudis, un d'arquitectònic i un altre d'econòmic, amb l'objectiu de definir un pla de desenvolupament urbanístic sobre La Vall d'Incles.
 # orig_file_sentence 001#60
@@ -2613,6 +2620,7 @@
 17	estiu	estiu	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = 3LB-CAT-06019900-14
 # sent_id = 3LB-CAT-06019900-14-s1
 # text = El port de Tarragona té previst invertir 3.800 milions de pessetes a l'any fins al 2003.
 # orig_file_sentence 001#70
@@ -3200,6 +3208,7 @@
 52	"	"	PUNCT	_	PunctType=Quot	38	punct	_	SpaceAfter=No
 53	.	.	PUNCT	_	PunctType=Peri	19	punct	_	_
 
+# newdoc id = 3LB-CAT-06020300-34
 # sent_id = 3LB-CAT-06020300-34-s1
 # text = El BOE ha publicat aquest dilluns l'anunci del concurs convocat per Renfe per a la supressió de dos passos a nivell situats al municipi de Vilaverd (Conca de Barberà).
 # orig_file_sentence 001#87
@@ -3695,6 +3704,7 @@
 30	licitació	licitació	NOUN	_	Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
 31	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
 
+# newdoc id = 3LB-CAT-06029900-10
 # sent_id = 3LB-CAT-06029900-10-s1
 # text = Els màxims responsables de l'Agència de Promoció Turística de la Diputació de Barcelona, encapçalats pel director d'aquest organisme, Jordi Serra, van presentar ahir la guia "Barcelona Meeting Total".
 # orig_file_sentence 001#100
@@ -4078,6 +4088,7 @@
 46	"	"	PUNCT	_	PunctType=Quot	21	punct	_	SpaceAfter=No
 47	.	.	PUNCT	_	PunctType=Peri	21	punct	_	_
 
+# newdoc id = 3LB-CAT-06029900-12
 # sent_id = 3LB-CAT-06029900-12-s1
 # text = El conseller de Cultura de la Generalitat, Joan Maria Pujals, inaugura demà al migdia les Enramades de Sallent.
 # orig_file_sentence 002#10
@@ -4475,6 +4486,7 @@
 36	vila	vila	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	_	PunctType=Peri	21	punct	_	_
 
+# newdoc id = 3LB-CAT-06029900-19
 # sent_id = 3LB-CAT-06029900-19-s1
 # text = L'Audiència de Barcelona ha condemnat a un total de 18 anys de presó un jove de Pineda de Mar (Maresme) per haver obligat un altre jove, a qui feia xantatge, que li donés fins a 534.000 pessetes en diferents operacions de caixer automàtic.
 # orig_file_sentence 002#23
@@ -4750,6 +4762,7 @@
 44	automàtic	automàtic	ADJ	_	Gender=Masc|Number=Sing	43	amod	_	SpaceAfter=No
 45	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = 3LB-CAT-06029900-20
 # sent_id = 3LB-CAT-06029900-20-s1
 # text = L'Audiència de Barcelona ha condemnat a 21 mesos de presó dos joves de Santa Coloma de Gramenet (Barcelonès) com a responsables d'una brutal pallissa a un taxista, a qui van abordar sense cap motiu.
 # orig_file_sentence 002#28
@@ -5303,6 +5316,7 @@
 50	indiscriminadament	indiscriminadament	ADV	_	_	47	advmod	_	SpaceAfter=No
 51	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = 3LB-CAT-06029900-8
 # sent_id = 3LB-CAT-06029900-8-s1
 # text = L'Audiència de Barcelona ha condemnat a 1 any de presó un veí d'Igualada (Anoia) que va agredir sexualment una noia al mig del carrer, fent-li tocaments i trencant-li la camisa, i que va haver de fugir perquè la víctima es va defensar a mossegades.
 # orig_file_sentence 002#39
@@ -5673,6 +5687,7 @@
 12	mossegades	mossegada	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = 3LB-CAT-06029900-9
 # sent_id = 3LB-CAT-06029900-9-s1
 # text = L'equip de la Universitat de Vic s'ha situat primer en la tretzena edició del Premi Universitat-Borsa que organitzen els diaris Expansión i Gaceta Universitaria i la Banque Nationale de Paris.
 # orig_file_sentence 002#47
@@ -6112,6 +6127,7 @@
 31	equip	equip	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = 3LB-CAT-06030200-4
 # sent_id = 3LB-CAT-06030200-4-s1
 # text = La nova secretària general d'Unió Democràtica de Catalunya, Marta Llorens, ha demanat, aquest dilluns, al primer secretari del PSC, José Montilla, que respecti les conclusions del 22 Congrés de la formació, celebrat aquest cap de setmana a Sitges (Barcelona).
 # orig_file_sentence 002#59
@@ -6319,6 +6335,7 @@
 33	CiU	CiU	PROPN	_	_	31	conj	_	SpaceAfter=No
 34	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = 3LB-CAT-103-20
 # sent_id = 3LB-CAT-103-20-s1
 # text = L'artista roquetenc Ignasi Blanch, conjuntament amb el centenar d'artistes d'arreu del món que l'any 1990 van pintar el mur de Berlín, el repintaran de nou amb els mateixos dibuixos de llavors i amb l'objectiu de fer perdurar aquest fragment de mur com un monument a la tolerància.
 # orig_file_sentence 002#63
@@ -6951,6 +6968,7 @@
 24	enguany	enguany	ADV	_	_	22	advmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
+# newdoc id = 3LB-CAT-107-12
 # sent_id = 3LB-CAT-107-12-s1
 # text = El Ple municipal de l'Ajuntament de Sant Boi ha aprovat aquesta setmana una moció en la qual expressa la seva 'disconformitat contra la política arbitrària d'assignació de freqüències de ràdio que estan portant a terme el Ministeri de Foment i la Direcció General de Radiodifusió i Televisió de la Generalitat de Catalunya'.
 # orig_file_sentence 002#82
@@ -7467,6 +7485,7 @@
 33	Boi	Boi	PROPN	_	_	32	flat	_	SpaceAfter=No
 34	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = 3LB-CAT-107-7
 # sent_id = 3LB-CAT-107-7-s1
 # text = L'Associació de Diabètics de Catalunya (ADC) ha remodelat el seu espai a Internet per facilitar i millorar la relació amb els socis de l'entitat i amb totes les persones amb diabetis.
 # orig_file_sentence 002#93
@@ -7934,6 +7953,7 @@
 44	malaltia	malaltia	NOUN	_	Gender=Fem|Number=Sing	42	obj	_	SpaceAfter=No
 45	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
+# newdoc id = 3LB-CAT-203-19
 # sent_id = 3LB-CAT-203-19-s1
 # text = El director del diari nord-americà USA Today, Thomas Curley, ha estat investit aquest migdia doctor honoris causa per la Universitat Ramon Llull.
 # orig_file_sentence 003#8
@@ -8618,6 +8638,7 @@
 24	món	món	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 25	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = 3LB-CAT-203-2
 # sent_id = 3LB-CAT-203-2-s1
 # text = Una alumna de secundària del Vallès Oriental ha resultat finalista en la primera edició dels Premis Universitat de Girona a treballs de recerca d'estudiants de Batxillerat, en què han participat seixanta-quatre centres de secundària de les comarques gironines, El Maresme, Osona i El Vallès Oriental.
 # orig_file_sentence 003#25
@@ -9407,6 +9428,7 @@
 31	Antàrtiques	Antàrtiques	PROPN	_	_	30	flat	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = 3LB-CAT-207-17
 # sent_id = 3LB-CAT-207-17-s1
 # text = L'Audiència de Barcelona ha absolt un jove de Canovelles (Vallès Oriental) a qui el fiscal acusava d'atracar un veí a punta de navalla.
 # orig_file_sentence 003#43
@@ -9608,6 +9630,7 @@
 40	portava	portar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	acl	_	SpaceAfter=No
 41	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = 3LB-CAT-207-22
 # sent_id = 3LB-CAT-207-22-s1
 # text = Per tal de garantir la seguretat ciutadana a la zona fins al desplegament global del cos de la policia autonòmica que, segons les previsions de la Generalitat, no es farà fins al 2012, el Consell Comarcal de La Conca de Barberà ha demanat a la Subdelegació del Govern de l'Estat espanyol l'increment d'efectius de la Guàrdia Civil a la comarca.
 # orig_file_sentence 003#48
@@ -10060,6 +10083,7 @@
 37	problemes	problema	NOUN	_	Gender=Masc|Number=Plur	32	obj	_	SpaceAfter=No
 38	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = 3LB-CAT-207-3
 # sent_id = 3LB-CAT-207-3-s1
 # text = El passeig de Pere III de Manresa acollirà demà i diumenge la fira Turipasseig, una fira sectorial dedicada a l'oferta turística.
 # orig_file_sentence 003#55
@@ -10448,6 +10472,7 @@
 16	viatges	viatge	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-A-19990301-45
 # sent_id = CESS-CAT-A-19990301-45-s2
 # text = La pràctica era tabú des que es va acusar un cirurgià d'accelerar una mort.
 # orig_file_sentence 005#80
@@ -10934,6 +10959,7 @@
 22	òrgans	òrgan	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-A-19991201-70
 # sent_id = CESS-CAT-A-19991201-70-s1
 # text = L'Audiència de Barcelona va començar ahir el primer judici a Espanya per un delicte d'engany als consumidors per un presumpte frau en la venda de gasoil.
 # orig_file_sentence 006#75
@@ -11311,6 +11337,7 @@
 12	incorrectes	incorrecte	ADJ	_	Number=Plur	2	ccomp	_	SpaceAfter=No
 13	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAT-A-20000202-115_g
 # sent_id = CESS-CAT-A-20000202-115_g-s1
 # text = Bankinter tindrà una marca per a aliances internacionals.
 # orig_file_sentence 003#75
@@ -11379,6 +11406,7 @@
 50	Alfaro	Alfaro	PROPN	_	_	49	flat	_	SpaceAfter=No
 51	.	.	PUNCT	_	PunctType=Peri	36	punct	_	_
 
+# newdoc id = CESS-CAT-A-20000202-73
 # sent_id = CESS-CAT-A-20000202-73-s1
 # text = La policia de Manchester està investigant en aquest moment 150 casos de possibles víctimes del doctor Harold Shipman.
 # orig_file_sentence 006#85
@@ -11625,6 +11653,7 @@
 19	futur	futur	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
 20	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-A-20000216-2770
 # sent_id = CESS-CAT-A-20000216-2770-s1
 # text = La taxa d'atur s'ha incrementat d'una mica més d'una dècima a la comarca del Garraf respecte del mes anterior, segons dades facilitades pel Departament de Treball de la Generalitat corresponents al gener.
 # orig_file_sentence 005#27
@@ -12030,6 +12059,7 @@
 28	Tarragona	Tarragona	PROPN	_	_	26	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
+# newdoc id = CESS-CAT-A-20000320-5009
 # sent_id = CESS-CAT-A-20000320-5009-s1
 # text = L'agent de la Policia Local de Girona que avui ha estat jutjada a l'Audiència acusada d'haver denegat l'auxili a una noia que li va explicar a través del 092 que s'havia barallat amb el seu company, també agent de la mateixa comissaria, ha afirmat que no va pensar en cap moment que es tractés d'un cas de violència domèstica.
 # orig_file_sentence 006#45
@@ -13041,6 +13071,7 @@
 28	absolució	absolució	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
 29	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-A-20000427-7684
 # sent_id = CESS-CAT-A-20000427-7684-s1
 # text = L'associació d'afectats per la supressió de la quota del carbó de Carbons de Berga SA està pendent del nomenament del ministre d'Indústria per reactivar-ne la reclamació.
 # orig_file_sentence 007#6
@@ -13611,6 +13642,7 @@
 58	sector	sector	NOUN	_	Gender=Masc|Number=Sing	55	nmod	_	SpaceAfter=No
 59	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-A-20000902-73
 # sent_id = CESS-CAT-A-20000902-73-s1
 # text = L'euro es va recuperar ahir davant del dòlar després que es fessin públiques dades que mostren un refredament de l'economia nord-americana.
 # orig_file_sentence 006#99
@@ -13910,6 +13942,7 @@
 41	setembre	setembre	NOUN	_	_	39	compound	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = CESS-CAT-A-20000925-15876
 # sent_id = CESS-CAT-A-20000925-15876-s1
 # text = Ecologistes en Acció de Catalunya ha demanat al Grup Parlamentari del PSC-CpC que sigui coherent amb les seves proposicions.
 # orig_file_sentence 003#80
@@ -14342,6 +14375,7 @@
 72	Conreus	Conreus	PROPN	_	_	67	conj	_	SpaceAfter=No
 73	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAT-A-20010126-24222
 # sent_id = CESS-CAT-A-20010126-24222-s1
 # text = L'Ajuntament de Manresa ha presentat a l'Associació de Veïns de les Escodines la proposta de modificació del Pla general destinada a activar i ampliar la renovació de l'entorn de la Via de Sant Ignasi.
 # orig_file_sentence 003#88
@@ -15087,6 +15121,7 @@
 24	privada	privat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	23	amod	_	SpaceAfter=No
 25	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
+# newdoc id = CESS-CAT-A-20010312-27346
 # sent_id = CESS-CAT-A-20010312-27346-s2
 # text = El PP de Girona proposa la constitució d'un consorci integrat per totes les administracions perquè, si la proposta de traçat tira endavant, gestioni l'espai que hauria de quedar alliberat un cop eliminat el viaducte i soterrats la línia i l'estació central del TGV al seu pas per la ciutat.
 # orig_file_sentence 004#9
@@ -15623,6 +15658,7 @@
 33	afegit	afegir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 34	.	.	PUNCT	_	PunctType=Peri	33	punct	_	_
 
+# newdoc id = CESS-CAT-A-20010315-27617
 # sent_id = CESS-CAT-A-20010315-27617-s1
 # text = Reproduïm, amb l'autorització de l'empresa editora del setmanari El Temps, un article de Ramon Barnils on diu per escrit allò que verbalitzà moltes vegades: la necessitat d'una agència catalana de notícies.
 # orig_file_sentence 004#19
@@ -19669,6 +19705,7 @@
 10	1986	1986	NUM	_	NumForm=Digit|NumType=Card	6	compound	_	SpaceAfter=No
 11	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
+# newdoc id = CESS-CAT-A-20010808-36814
 # sent_id = CESS-CAT-A-20010808-36814-s1
 # text = L'asseguradora del Patronat esportiu de l'Ajuntament de Castelldefels (Baix Llobregat) ha indemnitzat amb 28 milions de pessetes un home que va resultar ferit amb greus lesions i seqüeles quan, gronxant-se en un pal d'una porteria de futbol instal·lada a la platja, aquesta li va caure a sobre.
 # orig_file_sentence 005#40
@@ -20515,6 +20552,7 @@
 94	Ventaiol	Ventaiol	PROPN	_	_	92	appos	_	SpaceAfter=No
 95	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = CESS-CAT-A-20010814-37027
 # sent_id = CESS-CAT-A-20010814-37027-s1
 # text = El portaveu d'ERC, Joan Ridao, ha qualificat d''hilarants' les declaracions fetes pel conseller en cap, Artur Mas, en el sentit que CiU podria sortir reforçat del debat parlamentari sobre la seva acció de govern.
 # orig_file_sentence 005#55
@@ -20978,6 +21016,7 @@
 53	'	'	SYM	_	_	42	nmod	_	SpaceAfter=No
 54	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-A-20011023-41218
 # sent_id = CESS-CAT-A-20011023-41218-s1
 # text = La Comissió de Control de la CCRTV i de les Empreses Filials del Parlament ha aprovat per unanimitat una proposició no de llei conjunta de tots els grups que encarrega al Consell de l'Audiovisual de Catalunya un informe sobre la viabilitat d'una Agència Catalana de Comunicació.
 # orig_file_sentence 005#65
@@ -21782,6 +21821,7 @@
 31	pròpia	propi	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAT-A-20011102-115
 # sent_id = CESS-CAT-A-20011102-115-s2
 # text = La fira d'antiguitats va posar ahir a la venda, entre altres, un oli del pintor lleidatà Xavier Gosé (1876-1915).
 # orig_file_sentence 003#77
@@ -21847,6 +21887,7 @@
 15	XX	XX	NOUN	_	AdvType=Tim	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAT-A-20020121-46870
 # sent_id = CESS-CAT-A-20020121-46870-s1
 # text = La companyia teatral del Bages, Mite -les, presenta al Teatreneu del barri de Gràcia barceloní la seva adaptació de la popular novel·la de Lucia Etxebarria 'Amor , curiosidad , Prozac y dudas', després de l'èxit de públic i els bons auguris de la crítica en la seva presentació a la darrera Fira del Teatre de Tàrrega.
 # orig_file_sentence 005#95
@@ -22790,6 +22831,7 @@
 17	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-A-20020124-47193
 # sent_id = CESS-CAT-A-20020124-47193-s1
 # text = Fer un seguiment dels projectes de més incidència ambiental a les comarques gironines com el TGV, les línies d'alta tensió, el desdoblament de carreteres o coordinar un nou programa de residus ambientals són alguns dels objectius que s'ha marcat el Consell d'Iniciatives Locals per al Medi Ambient (CILMA) per aquest any 2002.
 # orig_file_sentence 006#22
@@ -23445,6 +23487,7 @@
 24	-	-	PUNCT	_	PunctType=Dash	22	punct	_	SpaceAfter=No
 25	.	.	PUNCT	_	PunctType=Peri	22	punct	_	_
 
+# newdoc id = CESS-CAT-A-20020228-49805
 # sent_id = CESS-CAT-A-20020228-49805-s1
 # text = El Fòrum Mundial de Xarxes, que ha adoptat el nom d'Ubuntu, paraula africana que designa humanitat i compartir, celebra aquest cap de setmana a Barcelona la seva segona sessió plenària, que completa el procés constituent iniciat també a Barcelona la primavera de l'any passat.
 # orig_file_sentence 006#36
@@ -23803,6 +23846,7 @@
 12	món	món	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-A-20020412-52755
 # sent_id = CESS-CAT-A-20020412-52755-s1
 # text = El diputat socialista Joan Roma ha anunciat que el PSC proposarà al Consorci de Turisme de l'Alt Berguedà que iniciï un estudi per a promoure el turisme cultural a la zona.
 # orig_file_sentence 006#68
@@ -24070,6 +24114,7 @@
 35	Barcelona	Barcelona	PROPN	_	_	33	flat	_	SpaceAfter=No
 36	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-A-20030522-88507
 # sent_id = CESS-CAT-A-20030522-88507-s1
 # text = El secretari general d'Esquerra Republicana de Catalunya (ERC), Josep-Lluís Carod-Rovira, ha dit que 'fa 25 anys que Catalunya juga a tennis entre CiU i el PSC' i ha afegit 'ja és hora de jugar tots a futbol perquè Catalunya és de tots'.
 # orig_file_sentence 007#20
@@ -24694,6 +24739,7 @@
 26	Pont	Pont	PROPN	_	_	25	flat	_	SpaceAfter=No
 27	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
+# newdoc id = CESS-CAT-A-20030903-98628
 # sent_id = CESS-CAT-A-20030903-98628-s1
 # text = Les cambres de comerç de Manresa i del departament francès de l'Ariège han arribat a un acord per participar en un programa Interreg de la Unió Europea.
 # orig_file_sentence 007#34
@@ -24859,6 +24905,7 @@
 27	Pirineus	Pirineus	PROPN	_	_	24	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAT-A-20030905-98951
 # sent_id = CESS-CAT-A-20030905-98951-s1
 # text = El Comitè Executiu de la Cambra de Comerç de Reus, en la seva darrera reunió, ha acordat fer públic el seu més sincer desig que la candidatura al centre ITER d'investigació sobre fusió nuclear de Vandellòs i l'Hospitalet de l'Infant 'sigui l'escollida pels organismes pertinents de la Unió Europea per a que concorri amb les de Canadà i de Japó en l'adjudicació internacional d'aquest transcendental projecte'.
 # orig_file_sentence 007#39
@@ -25139,6 +25186,7 @@
 51	'	'	SYM	_	_	34	nmod	_	SpaceAfter=No
 52	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
 
+# newdoc id = CESS-CAT-A-20031219-110702
 # sent_id = CESS-CAT-A-20031219-110702-s1
 # text = De les 4.204 persones disminuïdes que hi ha a la comarca del Bages en disposició de treballar, 1.050 estan aturades.
 # orig_file_sentence 003#67
@@ -25480,6 +25528,7 @@
 44	UGT	UGT	PROPN	_	_	42	conj	_	SpaceAfter=No
 45	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19981102-35
 # sent_id = CESS-CAT-AAP-19981102-35-s1
 # text = La treva i el debat nacionalista.
 # orig_file_sentence 012#23
@@ -26028,6 +26077,7 @@
 17	guipuscoans	guipuscoà	ADJ	_	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
 18	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19981201-18_d
 # sent_id = CESS-CAT-AAP-19981201-18_d-s2
 # text = No ens sembla just.
 # orig_file_sentence 009#52
@@ -26109,6 +26159,7 @@
 27	socialdemòcrates	socialdemòcrata	ADJ	_	Number=Plur	26	amod	_	SpaceAfter=No
 28	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19981201-44
 # sent_id = CESS-CAT-AAP-19981201-44-s1
 # text = El líder d'IU reclama un Estat "plurinacional, federal i solidari".
 # orig_file_sentence 013#17
@@ -26466,6 +26517,7 @@
 36	República	República	PROPN	_	_	33	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19981201-67
 # sent_id = CESS-CAT-AAP-19981201-67-s1
 # text = El director general de l'ONCE, Enrique Savando, va anunciar ahir que l'organització estudia treure un nou producte al mercat del joc, ja que la recaptació dels cupons, incloent-hi el Cuponazo, s'ha estancat.
 # orig_file_sentence 016#6
@@ -26814,6 +26866,7 @@
 29	"	"	PUNCT	_	PunctType=Quot	22	punct	_	SpaceAfter=No
 30	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19990301-40
 # sent_id = CESS-CAT-AAP-19990301-40-s1
 # text = El Tribunal Suprem ha rebutjat parcialment el recurs d'un condemnat per un delicte contra la salut pública que pretenia que se li apliqués l'atenuant de drogodependència perquè, encara que consumeix cocaïna i heroïna, fuma aquestes substàncies en lloc d'injectar-se-les.
 # orig_file_sentence 012#55
@@ -27097,6 +27150,7 @@
 41	"	"	PUNCT	_	PunctType=Quot	35	punct	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19990302-33
 # sent_id = CESS-CAT-AAP-19990302-33-s1
 # text = Els israelians de Galilea van abandonar ahir els refugis al remetre els combats.
 # orig_file_sentence 011#81
@@ -27709,6 +27763,7 @@
 12	dir	dir	VERB	_	VerbForm=Inf	0	root	_	_
 13	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19990302-54
 # sent_id = CESS-CAT-AAP-19990302-54-s2
 # text = La caça a les zones humides haurà d'usar materials alternatius el 2000.
 # orig_file_sentence 014#54
@@ -28420,6 +28475,7 @@
 43	perdigons	perdigó	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19990401-62_c
 # sent_id = CESS-CAT-AAP-19990401-62_c-s1
 # text = La legionel·la causa la mort a dos malalts a Saragossa.
 # orig_file_sentence 015#33
@@ -28515,6 +28571,7 @@
 18	legionel·la	legionel·la	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19990401-62_e
 # sent_id = CESS-CAT-AAP-19990401-62_e-s1
 # text = Dos morts al xocar un turisme amb un autocar a Cantàbria.
 # orig_file_sentence 015#36
@@ -28617,6 +28674,7 @@
 31	bombers	bomber	NOUN	_	Gender=Masc|Number=Plur	28	obj	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19990501-127
 # sent_id = CESS-CAT-AAP-19990501-127-s1
 # text = Els quarts de final de la Lliga ACB de bàsquet.
 # orig_file_sentence 008#31
@@ -29352,6 +29410,7 @@
 34	victòria	victòria	NOUN	_	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19990601-122
 # sent_id = CESS-CAT-AAP-19990601-122-s2
 # text = La figura del poeta i dramaturg Joan Brossa va ser recordada ahir en el primer esquetx de la gala, on apareixien elements escènics de l'univers del creador català, mort a Barcelona el passat.
 # orig_file_sentence 008#5
@@ -29447,6 +29506,7 @@
 45	vida	vida	NOUN	_	Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
 46	.	.	PUNCT	_	PunctType=Peri	20	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19990602-18_e
 # sent_id = CESS-CAT-AAP-19990602-18_e-s1
 # text = A Catalunya hi ha 3.307 hectàrees plantades de lli tèxtil.
 # orig_file_sentence 009#55
@@ -29560,6 +29620,7 @@
 9	hectàrea	hectàrea	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 10	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	2	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19990701-48
 # sent_id = CESS-CAT-AAP-19990701-48-s1
 # text = José María Aznar no va dubtar ahir a pronunciar-se des de Quito sobre la presa de possessió de José Luis Barrios com a parlamentari foral.
 # orig_file_sentence 013#80
@@ -29815,6 +29876,7 @@
 24	"	"	PUNCT	_	PunctType=Quot	23	punct	_	SpaceAfter=No
 25	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19990702-58
 # sent_id = CESS-CAT-AAP-19990702-58-s1
 # text = Més de la meitat dels 427 focs forestals declarats a Catalunya fins al 15 de juny d'aquest any s'han originat per culpa de negligències.
 # orig_file_sentence 015#10
@@ -30012,6 +30074,7 @@
 20	piròmans	piròman	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19990802-5
 # sent_id = CESS-CAT-AAP-19990802-5-s1
 # text = Les conclusions d'una comissió parlamentària d'investigació solen tenir l'abast que la majoria dels seus diputats li vulguin donar.
 # orig_file_sentence 015#17
@@ -30473,6 +30536,7 @@
 18	ciutadans	ciutadà	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19991001-142
 # sent_id = CESS-CAT-AAP-19991001-142-s1
 # text = Benvingut sigui una altra vegada Hogwood, que ha dirigit aquesta fantàstica tercera edició del Festival Mozart.
 # orig_file_sentence 009#2
@@ -30857,6 +30921,7 @@
 34	tutte	tutte	PROPN	_	_	32	flat	_	SpaceAfter=No
 35	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19991002-94_f
 # sent_id = CESS-CAT-AAP-19991002-94_f-s1
 # text = Bargués segueix escalant llocs a la Mini-Transat.
 # orig_file_sentence 017#32
@@ -31004,6 +31069,7 @@
 25	etapa	etapa	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19991202-145
 # sent_id = CESS-CAT-AAP-19991202-145-s1
 # text = Tim Robbins encarna un jove i brillant banquer que és acusat de l'assassinat de la seva dona i el seu amant a Cadena perpètua (TV-3, 21.20), drama carcerari basat en una novel·la original de Stephen King.
 # orig_file_sentence 009#12
@@ -31050,6 +31116,7 @@
 41	King	King	PROPN	_	_	40	flat	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19991202-50
 # sent_id = CESS-CAT-AAP-19991202-50-s1
 # text = El cercador a Internet Olé era una iniciativa de la Fundació Catalana per la Recerca (FCR), vinculada a la Conselleria d'Economia.
 # orig_file_sentence 014#24
@@ -31394,6 +31461,7 @@
 40	particulars	particular	ADJ	_	Number=Plur	39	amod	_	SpaceAfter=No
 41	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-19991202-63
 # sent_id = CESS-CAT-AAP-19991202-63-s1
 # text = Ara que s'ha descobert la nostra proximitat genètica amb el pollastre, més d'un dirà que ja no és necessari investigar més.
 # orig_file_sentence 015#44
@@ -31439,6 +31507,7 @@
 11	gallina	gallina	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
 12	!	!	PUNCT	_	PunctSide=Fin|PunctType=Excl	11	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000102-106
 # sent_id = CESS-CAT-AAP-20000102-106-s1
 # text = El Barça retorna avui a la feina sense haver resolt el conflicte amb el brasiler.
 # orig_file_sentence 007#44
@@ -32384,6 +32453,7 @@
 8	banqueta	banqueta	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000102-107
 # sent_id = CESS-CAT-AAP-20000102-107-s2
 # text = L'equip afronta un calendari dur pendent de la sanció a Kluivert.
 # orig_file_sentence 007#79
@@ -32871,6 +32941,7 @@
 30	dimecres	dimecres	NOUN	_	AdvType=Tim	28	obl	_	SpaceAfter=No
 31	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000103-29
 # sent_id = CESS-CAT-AAP-20000103-29-s1
 # text = L'Exèrcit libanès combat al nord contra un grup de radicals wahhabites.
 # orig_file_sentence 011#35
@@ -33175,6 +33246,7 @@
 9	militars	militar	NOUN	_	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
 10	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000103-53
 # sent_id = CESS-CAT-AAP-20000103-53-s1
 # text = El tinglado número 1 del Moll de Costa del port de Tarragona allotja fins al pròxim dia 30 una exposició de 32 maquetes de ponts i aqüeductes que reprodueixen en ferro i fusta construccions dels últims 2.000 anys a la península Ibèrica.
 # orig_file_sentence 014#50
@@ -33374,6 +33446,7 @@
 49	"	"	PUNCT	_	PunctType=Quot	32	punct	_	SpaceAfter=No
 50	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000201-24_b
 # sent_id = CESS-CAT-AAP-20000201-24_b-s1
 # text = És possible que no fos el primer, a Santurtzi o en qualsevol altra població basca.
 # orig_file_sentence 010#62
@@ -33555,6 +33628,7 @@
 14	pau	pau	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000328-5691
 # sent_id = CESS-CAT-AAP-20000328-5691-s1
 # text = Els dos acusats d'haver entrat a robar en una casa de Vilamalla després de forçar la porta d'entrada han estat condemnats a un any de presó, un cop acceptada la pena que el fiscal proposava.
 # orig_file_sentence 015#4
@@ -33845,6 +33919,7 @@
 31	judici	judici	NOUN	_	Gender=Masc|Number=Sing	29	obj	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000402-113
 # sent_id = CESS-CAT-AAP-20000402-113-s1
 # text = La cotització de Superdiplo ha perdut un 14,63% des de començament d'any, malgrat els bons resultats obtinguts per la companyia en l'exercici anterior: va incrementar el seu benefici un 42%.
 # orig_file_sentence 008#1
@@ -33948,6 +34023,7 @@
 22	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	21	punct	_	SpaceAfter=No
 23	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000402-140_a
 # sent_id = CESS-CAT-AAP-20000402-140_a-s2
 # text = Sense entrar a valorar la conveniència del seu gir estilístic - això és cosa seva -, la veritat és que la forma de portar-lo a terme i els resultats els donen la raó.
 # orig_file_sentence 008#80
@@ -34438,6 +34514,7 @@
 32	personal	personal	ADJ	_	Number=Sing	31	amod	_	SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	24	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000402-140_b
 # sent_id = CESS-CAT-AAP-20000402-140_b-s1
 # text = Una besnéta de Clarín descobreix la primera obra teatral de l'autor.
 # orig_file_sentence 008#95
@@ -34512,6 +34589,7 @@
 17	Regenta	Regenta	PROPN	_	_	14	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000402-22_c
 # sent_id = CESS-CAT-AAP-20000402-22_c-s2
 # text = Sóc la soferta mare de quatre fills adults, dels quals tres encara viuen a casa.
 # orig_file_sentence 010#36
@@ -34712,6 +34790,7 @@
 23	ingressos	ingrés	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000501-14_a
 # sent_id = CESS-CAT-AAP-20000501-14_a-s1
 # text = ETA ha llançat una càrrega de profunditat contra el PNB al difondre el que van acordar l'agost del 1998.
 # orig_file_sentence 009#17
@@ -34821,6 +34900,7 @@
 16	ETA	ETA	PROPN	_	_	8	conj	_	SpaceAfter=No
 17	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000602-22
 # sent_id = CESS-CAT-AAP-20000602-22-s1
 # text = El Govern de l'Havana va considerar ahir que hi ha "elements inquietants" en la decisió del Tribunal d'Apel·lacions d'Atlanta i va fer una crida a les organitzacions cubanes perquè estiguin "alerta".
 # orig_file_sentence 010#41
@@ -35067,6 +35147,7 @@
 38	polític	polític	ADJ	_	Gender=Masc|Number=Sing	37	amod	_	SpaceAfter=No
 39	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000701-46
 # sent_id = CESS-CAT-AAP-20000701-46-s1
 # text = En la cita amb el president filipí, Joseph Estrada, José María Aznar es va interessar per les gestions que el seu Govern està portant a terme per alliberar les 22 persones que la banda terrorista Abbu Sayyaf té segrestades a Mindanao des de l'abril, entre les quals hi ha ciutadans alemanys, francesos i finlandesos.
 # orig_file_sentence 013#51
@@ -35245,6 +35326,7 @@
 38	Espanya	Espanya	PROPN	_	_	36	obj	_	SpaceAfter=No
 39	.	.	PUNCT	_	PunctType=Peri	30	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000801-82
 # sent_id = CESS-CAT-AAP-20000801-82-s1
 # text = El Barça ha marcat 24 gols en dos partits.
 # orig_file_sentence 016#67
@@ -35356,6 +35438,7 @@
 19	penal	penal	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
 20	.	.	PUNCT	_	PunctType=Peri	16	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000802-54
 # sent_id = CESS-CAT-AAP-20000802-54-s2
 # text = L'abocament prové d'una central tèrmica a la província de Toledo.
 # orig_file_sentence 014#74
@@ -35751,6 +35834,7 @@
 38	contaminades	contaminat	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	37	amod	_	SpaceAfter=No
 39	.	.	PUNCT	_	PunctType=Peri	18	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20000928-16189
 # sent_id = CESS-CAT-AAP-20000928-16189-s1
 # text = El fiscal ha demanat penes d'entre 18 i 24 mesos de presó per a dos joves a qui acusa d'intentar robar el ciclomotor a un jove que estava aturat, amb el vehicle en marxa, en un semàfor vermell dels carrers de Sant Feliu de Llobregat.
 # orig_file_sentence 009#26
@@ -35984,6 +36068,7 @@
 31	dies	dia	NOUN	_	Gender=Masc|Number=Plur	26	obl	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20001109-19093
 # sent_id = CESS-CAT-AAP-20001109-19093-s1
 # text = Els resultats del control de la població de mosquits al Delta de l'Ebre durant la campanya 2000 fan que aquests insectes deixin de ser un problema per al desenvolupament turístic.
 # orig_file_sentence 009#61
@@ -36724,6 +36809,7 @@
 46	'	'	SYM	_	_	38	nmod	_	SpaceAfter=No
 47	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20001201-2
 # sent_id = CESS-CAT-AAP-20001201-2-s1
 # text = Part dels murals pictòrics de les esglésies romàniques de Boí van ser traslladats a principi de segle a Barcelona per preservar-los de possibles deterioraments.
 # orig_file_sentence 011#44
@@ -36815,6 +36901,7 @@
 39	romànic	romànic	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20001201-93
 # sent_id = CESS-CAT-AAP-20001201-93-s1
 # text = Després d'anys de sequera, la Generalitat s'ha decidit a donar un impuls a l'oferta pública de places universitàries en les titulacions vinculades a les noves tecnologies de la informació i de la comunicació (TIC), especialment les adreçades a formar enginyers informàtics i de telecomunicacions.
 # orig_file_sentence 017#23
@@ -37221,6 +37308,7 @@
 52	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	51	punct	_	SpaceAfter=No
 53	.	.	PUNCT	_	PunctType=Peri	19	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20001202-139
 # sent_id = CESS-CAT-AAP-20001202-139-s1
 # text = Dutruel no ho tindrà fàcil aquest vespre a Balaídos.
 # orig_file_sentence 008#53
@@ -37910,6 +37998,7 @@
 8	"	"	PUNCT	_	PunctType=Quot	3	punct	_	SpaceAfter=No
 9	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20001202-159
 # sent_id = CESS-CAT-AAP-20001202-159-s2
 # text = Els metges que dimarts van intervenir a Granada el cantautor després de patir el trencament de l'aorta, van informar ahir que l'organisme de Cano s'ha adaptat bé a l'operació i el 'bypass' que se li va implantar funciona correctament.
 # orig_file_sentence 009#25
@@ -37961,6 +38050,7 @@
 46	correctament	correctament	ADV	_	_	45	advmod	_	SpaceAfter=No
 47	.	.	PUNCT	_	PunctType=Peri	21	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20001214-21681
 # sent_id = CESS-CAT-AAP-20001214-21681-s1
 # text = Les Emissores Municipals de les Terres de l'Ebre (EMUTE) van recaptar un milió i mig de pessetes durant la 7a edició de la marató solidària celebrada ahir, a favor de Càritas.
 # orig_file_sentence 010#6
@@ -38338,6 +38428,7 @@
 118	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	117	punct	_	SpaceAfter=No
 119	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20001219-21926
 # sent_id = CESS-CAT-AAP-20001219-21926-s1
 # text = El fiscal ha elevat a set anys i sis mesos de presó la petició de presó contra un home que va intentar matar un veí de Santa Margarida de Montbui (Anoia) per la pèrdua d'un clauer.
 # orig_file_sentence 010#12
@@ -38876,6 +38967,7 @@
 22	seqüeles	seqüela	NOUN	_	Gender=Fem|Number=Plur	20	obj	_	SpaceAfter=No
 23	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010102-139
 # sent_id = CESS-CAT-AAP-20010102-139-s1
 # text = Epstein, coguionista de 'Casablanca' juntament amb el seu germà bessó Philip i Howard Koch, va morir dissabte als 91 anys.
 # orig_file_sentence 008#77
@@ -38941,6 +39033,7 @@
 29	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010103-152
 # sent_id = CESS-CAT-AAP-20010103-152-s1
 # text = La model Claudia Schiffer va estrenar any, segle i mil·lenni a la localitat alpina de Saint Moritz (Suïssa) en companyia d'un nòvio també nou: Christian Völkers, executiu, alemany i, per més senyes, milionari.
 # orig_file_sentence 009#21
@@ -39098,6 +39191,7 @@
 24	holandesa	holandesa	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010103-85
 # sent_id = CESS-CAT-AAP-20010103-85-s1
 # text = La Guàrdia Civil va detenir ahir 30 persones acusades d'introduir il·legalment a Espanya dones per obligar-les posteriorment a exercir la prostitució.
 # orig_file_sentence 016#99
@@ -39397,6 +39491,7 @@
 32	Barcelona	Barcelona	PROPN	_	_	30	conj	_	SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010105-22726
 # sent_id = CESS-CAT-AAP-20010105-22726-s1
 # text = La Federació del PSC a les comarques gironines es planteja, com a principal objectiu durant el 2001, tornar a governar a Blanes, Banyoles, Salt i Sant Feliu de Guíxols, segons ha explicat en una trobada amb la premsa la primera secretària, Marina Geli.
 # orig_file_sentence 010#29
@@ -39755,6 +39850,7 @@
 39	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010202-168
 # sent_id = CESS-CAT-AAP-20010202-168-s1
 # text = Els més destacats luthiers (constructors de violins) del món es donen cita des d'ahir a València per retre tribut als instruments de corda.
 # orig_file_sentence 009#36
@@ -40257,6 +40353,7 @@
 47	vinent	vinent	ADJ	_	Number=Sing	45	amod	_	SpaceAfter=No
 48	.	.	PUNCT	_	PunctType=Peri	32	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010202-89
 # sent_id = CESS-CAT-AAP-20010202-89-s1
 # text = Astèrix i Latraviata és el títol del pròxim àlbum dels irreductibles gals creats per Uderzo i Goscinny i fins ahir el secret més ben guardat d'aquests últims temps.
 # orig_file_sentence 017#15
@@ -40523,6 +40620,7 @@
 20	dir	dir	VERB	_	VerbForm=Inf	0	root	_	_
 21	.	.	PUNCT	_	PunctType=Peri	20	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010216-25787
 # sent_id = CESS-CAT-AAP-20010216-25787-s1
 # text = La Generalitat de Catalunya ha iniciat ja el nou sistema de codificació de la xarxa bàsica de carreteres, que substitueix l'actual identificació de les carreteres basada en un pla elaborat pel ministeri d'Obres Públiques en ple període de postguerra i fet amb una visió centralista de l'Estat espanyol.
 # orig_file_sentence 010#79
@@ -41498,6 +41596,7 @@
 21	carreteres	carretera	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010301-149
 # sent_id = CESS-CAT-AAP-20010301-149-s1
 # text = El model Vulcano és la gran novetat de la firma Eassun.
 # orig_file_sentence 009#13
@@ -41578,6 +41677,7 @@
 10	pessetes	pesseta	NOUN	_	NumForm=Digit	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010301-48
 # sent_id = CESS-CAT-AAP-20010301-48-s1
 # text = El PP i el PSOE van acordar ahir deixar de banda les seves diferències en nom d'arribar a un pacte d'Estat per agilitzar l'administració de justícia.
 # orig_file_sentence 013#86
@@ -42007,6 +42107,7 @@
 39	proximitat	proximitat	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010307-27013
 # sent_id = CESS-CAT-AAP-20010307-27013-s1
 # text = Per a celebrar el vint-i-cinquè aniversari del recull de cançons i tonades de Beget, Jaume Arnella (Barcelona, 1944) ha preparat l'edició completa en un disc-llibre totes les cançons, rondalles i notes que va anar prenent del que li explicava la gent.
 # orig_file_sentence 011#5
@@ -42356,6 +42457,7 @@
 12	Tradicional	Tradicional	PROPN	_	_	11	flat	_	SpaceAfter=No
 13	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010329-28643
 # sent_id = CESS-CAT-AAP-20010329-28643-s1
 # text = Diversos artistes i escriptors del país reten homenatge al compositor tarragoní Joan Guinjoan en el seu 70 aniversari, amb l'edició d'un llibre i un disc presentats aquest migdia a la Fundació Autor.
 # orig_file_sentence 011#15
@@ -42910,6 +43012,7 @@
 28	Guinjoan	Guinjoan	PROPN	_	_	22	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010401-125
 # sent_id = CESS-CAT-AAP-20010401-125-s1
 # text = La policia ha desarticulat a Madrid una organització internacional que usava com a tapadora l'Església de Jesús sobre la Terra per introduir immigrants bolivians a Espanya de forma il·legal.
 # orig_file_sentence 008#9
@@ -43051,6 +43154,7 @@
 19	organització	organització	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010401-126
 # sent_id = CESS-CAT-AAP-20010401-126-s1
 # text = Divuit mesos.
 # orig_file_sentence 008#14
@@ -43788,6 +43892,7 @@
 69	Vella	Vella	PROPN	_	_	68	flat	_	SpaceAfter=No
 70	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010402-26
 # sent_id = CESS-CAT-AAP-20010402-26-s1
 # text = Els comunistes francesos, que formen part de la coalició governamental, van dir ahir que el primer ministre no sembla que hagi decidit un canvi polític durant la reunió de dissabte per abordar les mesures destinades a recuperar l'electorat perdut en les recents eleccions municipals.
 # orig_file_sentence 011#4
@@ -43840,6 +43945,7 @@
 47	municipals	municipal	ADJ	_	Number=Plur	46	amod	_	SpaceAfter=No
 48	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010423-30000
 # sent_id = CESS-CAT-AAP-20010423-30000-s1
 # text = L'Audiència de Barcelona ha condemnat a un total de 15 anys i sis mesos de presó un veí de Terrassa (Vallès Occidental) que va agredir sexualment en dues ocasions la seva antiga companya sentimental perquè es negava a reprendre la relació.
 # orig_file_sentence 011#47
@@ -44495,6 +44601,7 @@
 35	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	det	_	SpaceAfter=No
 36	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010501-111
 # sent_id = CESS-CAT-AAP-20010501-111-s2
 # text = La cèntrica avinguda del Parc es tancarà al trànsit demà per l'inici de les obres d'ampliació del pàrquing del Sot, que guanyarà 350 places.
 # orig_file_sentence 007#97
@@ -44563,6 +44670,7 @@
 22	Vinyamata	Vinyamata	PROPN	_	_	21	flat	_	SpaceAfter=No
 23	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010521-31752
 # sent_id = CESS-CAT-AAP-20010521-31752-s1
 # text = El Consorci per a la Promoció dels Municipis del Moianès, integrat per 10 municipis del Bages, el Vallès Oriental i Osona i pels Consells Comarcals del Bages i del Vallès Oriental, han incorporat a la Festa del Moianès la fira 'Moianès , turisme i lleure'.
 # orig_file_sentence 011#61
@@ -45499,6 +45607,7 @@
 34	ocupació	ocupació	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010602-28
 # sent_id = CESS-CAT-AAP-20010602-28-s1
 # text = Nombrosos soldats de l'Exèrcit filipí, membres de la guerrilla islàmica Abu Saiaf i civils van resultar morts ahir a la nit en el transcurs d'un intens tiroteig entre tots dos bàndols a l'illa de Basilan, situada al sud de l'arxipèlag, informa l'agència France Presse.
 # orig_file_sentence 011#27
@@ -45800,6 +45909,7 @@
 22	guerrillers	guerriller	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010701-167
 # sent_id = CESS-CAT-AAP-20010701-167-s1
 # text = Antoni Siurana, alcalde socialista de Lleida, va afirmar ahir que les queixes dels veïns del barri de Noguerola pel soroll que causa la farinera La Meta són infundades, ja que la indústria ha instal·lat les mesures correctores necessàries.
 # orig_file_sentence 009#31
@@ -45967,6 +46077,7 @@
 14	urbanitzats	urbanitzat	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	13	amod	_	SpaceAfter=No
 15	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010701-21
 # sent_id = CESS-CAT-AAP-20010701-21-s1
 # text = El temps de Big Brother va passar a Alemanya.
 # orig_file_sentence 010#24
@@ -46088,6 +46199,7 @@
 22	formats	format	NOUN	_	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010713-35350
 # sent_id = CESS-CAT-AAP-20010713-35350-s2
 # text = El president comarcal d'IC-V al Vallès Occidental, Francesc Morales, ha qualificat avui 'd'incoherent, incomprensible i mancada d'arguments' l'actitud que va mantenir ahir el PSC al ple d'aquest organisme, ja que va ser l'única formació política que es va oposar a impulsar una Iniciativa Legislativa Comarcal per protegir els espais naturals de la Serra de Collserola.
 # orig_file_sentence 011#97
@@ -46905,6 +47017,7 @@
 26	protecció	protecció	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010717-35555
 # sent_id = CESS-CAT-AAP-20010717-35555-s1
 # text = El pla comarcal de muntanya del Pallars Jussà pel període 2001-2005 preveu una despesa de 11.552 milions de pessetes, la major part dels quals corresponen al departament de Política Territorial i Obres Públiques de la Generalitat.
 # orig_file_sentence 012#14
@@ -47419,6 +47532,7 @@
 85	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	84	punct	_	SpaceAfter=No
 86	.	.	PUNCT	_	PunctType=Peri	25	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010801-122
 # sent_id = CESS-CAT-AAP-20010801-122-s1
 # text = De moment, es tracta de la llista provisional per a la ronda prèvia de la Lliga de Campions - la definitiva s'ha d'anunciar abans del 30 d'agost -, però ja és suficient per saber que Saviola s'ha apoderat del 7, dorsal que a penes es va veure la temporada passada amb Alfonso i va lluir Figo abans de fugar-se al Madrid.
 # orig_file_sentence 008#7
@@ -47534,6 +47648,7 @@
 31	excapità	excapità	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010802-41
 # sent_id = CESS-CAT-AAP-20010802-41-s1
 # text = El líder d'IC-V va afirmar ahir que el nou finançament autonòmic reportarà a Catalunya, en el període 2002-2006, uns ingressos addicionals de 665.000 milions de pessetes i no pas de 770.000 milions, com assegura el Govern català.
 # orig_file_sentence 012#87
@@ -47580,6 +47695,7 @@
 41	català	català	ADJ	_	Gender=Masc|Number=Sing	40	amod	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20010803-36636
 # sent_id = CESS-CAT-AAP-20010803-36636-s1
 # text = El Cos d'Agents Rurals del Departament de Medi Ambient ha interceptat aquesta setmana tres corallers que havien recol·lectat corall pressumptament de forma il·legal a la zona del Cap de Creus.
 # orig_file_sentence 012#38
@@ -47967,6 +48083,7 @@
 43	corallers	coraller	NOUN	_	Gender=Masc|Number=Plur	40	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20011001-62
 # sent_id = CESS-CAT-AAP-20011001-62-s2
 # text = Joan Ridao, portaveu d'Esquerra, es va mostrar perplex que Pasqual Maragall insisteixi en el fet que els seus diputats votin la moció per derrocar el Govern, quan ja li han comunicat en públic i en privat que no recolzaran el que qualifiquen de gest "testimonial, estèril i abocat al fracàs".
 # orig_file_sentence 015#39
@@ -48054,6 +48171,7 @@
 17	PP	PP	PROPN	_	_	14	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20011002-141
 # sent_id = CESS-CAT-AAP-20011002-141-s1
 # text = Els municipis de Palafrugell i Mont-ras volen que el desdoblament de la C-31 sigui soterrat i han aprovat una moció en què ho sol·liciten.
 # orig_file_sentence 008#98
@@ -48100,6 +48218,7 @@
 12	finalitat	finalitat	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 13	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20011002-88_a
 # sent_id = CESS-CAT-AAP-20011002-88_a-s1
 # text = Si a qualsevol inversor li pregunten què faria amb les seves accions després d'anotar en una setmana l'alça més alta dels últims tres anys, la resposta seria vendre.
 # orig_file_sentence 017#7
@@ -48352,6 +48471,7 @@
 31	12,54%	12.54/100	SYM	_	NumForm=Digit|NumType=Frac	29	obj	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20011017-40803
 # sent_id = CESS-CAT-AAP-20011017-40803-s1
 # text = Sota el títol 'Tardor d'òpera', Calafell presenta tres espectacles cantats en català, inspirats en clàssics operístics i amb escenografia de petit format, que es representaran a partir d'aquest cap de setmana a l'auditori municipal.
 # orig_file_sentence 012#49
@@ -48532,6 +48652,7 @@
 10	pessetes	pesseta	NOUN	_	NumForm=Digit	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20011023-41221
 # sent_id = CESS-CAT-AAP-20011023-41221-s1
 # text = Un treball de recerca presentat a la UdG assegura que encara hi ha abocaments puntuals de residus en els recs de Banyoles.
 # orig_file_sentence 012#64
@@ -49586,6 +49707,7 @@
 31	original	original	ADJ	_	Number=Sing	30	amod	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20011101-19
 # sent_id = CESS-CAT-AAP-20011101-19-s1
 # text = ¿Què és una castanya?
 # orig_file_sentence 009#79
@@ -50114,6 +50236,7 @@
 15	passar	passar	VERB	_	VerbForm=Inf	11	acl	_	SpaceAfter=No
 16	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20011102-62
 # sent_id = CESS-CAT-AAP-20011102-62-s2
 # text = Durant 48 dies discontinus a partir d'avui 2.400 dels 4.000 empleats de la factoria de la Zona Franca reduiran els seus horaris per adaptar-los a les necessitats de producció.
 # orig_file_sentence 015#41
@@ -50191,6 +50314,7 @@
 10	extres	extra	ADJ	_	Number=Plur	8	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20011116-43003
 # sent_id = CESS-CAT-AAP-20011116-43003-s1
 # text = Joves Agricultors i Ramaders de Catalunya (JARC) vol denunciar l'actitud d'alguns escorxadors catalans que es neguen a la creació de la llotja única per establir els preus del conill i evitar així 'les dents de serra' en aquest mercat i les especulacions de majoristes que juguen amb els diferents preus que es fixen ara a les llotges de Silleda, Madrid, Saragossa i Bellpuig.
 # orig_file_sentence 012#88
@@ -50423,6 +50547,7 @@
 33	realitat	realitat	NOUN	_	Gender=Fem|Number=Sing	27	ccomp	_	SpaceAfter=No
 34	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20011119-43111
 # sent_id = CESS-CAT-AAP-20011119-43111-s1
 # text = El Tribunal Suprem ha elevat la condemna imposada a un veí de Sabadell (Vallès Occidental) que va agredir sexualment una comercial amb qui tenia una entrevista professional.
 # orig_file_sentence 012#92
@@ -50964,6 +51089,7 @@
 38	pessetes	pesseta	NOUN	_	NumForm=Digit	35	obl	_	SpaceAfter=No
 39	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20011202-48
 # sent_id = CESS-CAT-AAP-20011202-48-s1
 # text = La cúpula de CiU ha arribat a la conclusió que la seva col·laboració amb el Govern de José María Aznar i amb el PP ha arribat al final del camí i ha posat data a la ruptura: no més enllà del febrer.
 # orig_file_sentence 013#96
@@ -51583,6 +51709,7 @@
 18	coalició	coalició	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20011203-44098
 # sent_id = CESS-CAT-AAP-20011203-44098-s1
 # text = Un projecte audiovisual català que proposa la creació d'un canal de televisió propi per als Pirineus (Canal Pirineus TV) des del Mediterrani fins a l'Atlàntic a banda i banda del massís, es va presentar per primera vegada la setmana passada, a Tolosa de Llenguadoc.
 # orig_file_sentence 013#4
@@ -52233,6 +52360,7 @@
 22	producció	producció	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
 23	audiovisual	audiovisual	ADJ	_	Number=Sing	22	amod	_	_
 
+# newdoc id = CESS-CAT-AAP-20020114-46382
 # sent_id = CESS-CAT-AAP-20020114-46382-s1
 # text = El Consell Comarcal del Pla de l'Estany posa en funcionament un espai per a tramitacions en línia.
 # orig_file_sentence 013#25
@@ -52722,6 +52850,7 @@
 32	'	'	SYM	_	_	31	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020116-46628
 # sent_id = CESS-CAT-AAP-20020116-46628-s1
 # text = El president del PSC, Pasqual Maragall, ha manifestat aquest dimecres el compromís dels socialistes catalans de mantenir l'autonomia respecte al PSOE tal i com defensava Josep Pallach.
 # orig_file_sentence 013#35
@@ -53417,6 +53546,7 @@
 43	'	'	SYM	_	_	32	nmod	_	SpaceAfter=No
 44	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020129-47505
 # sent_id = CESS-CAT-AAP-20020129-47505-s1
 # text = L'exposició 'Pantalles sensibles' (Videoart dels anys 90), que s'inaugurarà demà al Centre Cultural de la Fundació 'la Caixa' de Lleida (avinguda Blondel 3), aconsegueix impactar el visitant amb unes narracions artístiques en format semblant al videoclip, que toquen la sensibilitat de l'espectador.
 # orig_file_sentence 013#55
@@ -53934,6 +54064,7 @@
 36	ningú	ningú	PRON	_	Number=Sing|PronType=Ind	33	obj	_	SpaceAfter=No
 37	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020202-61_e
 # sent_id = CESS-CAT-AAP-20020202-61_e-s1
 # text = El resultat de Catalana Occident augmenta el 2%.
 # orig_file_sentence 015#27
@@ -54000,6 +54131,7 @@
 21	31,1%	31.1/100	SYM	_	NumForm=Digit|NumType=Frac	18	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020202-61_f
 # sent_id = CESS-CAT-AAP-20020202-61_f-s1
 # text = TDK amplia en 400 comiats el pla de reestructuració.
 # orig_file_sentence 015#30
@@ -54065,6 +54197,7 @@
 12	pla	pla	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020202-64
 # sent_id = CESS-CAT-AAP-20020202-64-s1
 # text = El judici per l'assassinat de la jove de Cala de Mijas (Màlaga) Rocío Wanninkhof, de 19 anys, s'haurà de repetir.
 # orig_file_sentence 015#77
@@ -54960,6 +55093,7 @@
 31	Suprem	Suprem	PROPN	_	_	19	obl	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020205-48049
 # sent_id = CESS-CAT-AAP-20020205-48049-s1
 # text = El president del Grup Popular al Parlament de Catalunya, Alberto Fernández Díaz, ha dit aquest matí que el recurs d'inconstitucionalitat contra la Llei d'estabilitat pressupostària anunciat pel Govern de la Generalitat 'no és pas un recurs contra el Partit Popular, sinó contra Europa i contra el progrés social i econòmic de Catalunya'.
 # orig_file_sentence 013#64
@@ -55247,6 +55381,7 @@
 113	'	'	SYM	_	_	11	conj	_	SpaceAfter=No
 114	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020214-48759
 # sent_id = CESS-CAT-AAP-20020214-48759-s1
 # text = La comissió de Govern de l'Ajuntament de La Seu d'Urgell ha tramitat a través de la Generalitat les peticions d'ajut per a dos projectes de cooperació transfronterera del Programa d'Iniciativa Comunitària Interreg III A (Espanya-França) per al període 2000-2006.
 # orig_file_sentence 013#67
@@ -55839,6 +55974,7 @@
 78	'	'	SYM	_	_	36	nmod	_	SpaceAfter=No
 79	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020302-13
 # sent_id = CESS-CAT-AAP-20020302-13-s1
 # text = Des de demà, i amb una periodicitat quinzenal, les pàgines d'opinió d'EL PERIÓDICO incorporaran la secció Ccorrespondència entre Barcelona i Madrid, en la qual el comte de Sert i Nicolás Sartorius analitzaran temes d'actualitat vistos des de les diferents òptiques de les dues capitals.
 # orig_file_sentence 008#79
@@ -55894,6 +56030,7 @@
 50	capitals	capital	NOUN	_	Gender=Fem|Number=Plur	46	nmod	_	SpaceAfter=No
 51	.	.	PUNCT	_	PunctType=Peri	18	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020302-22
 # sent_id = CESS-CAT-AAP-20020302-22-s1
 # text = L'Autoritat Nacional Palestina (ANP) va anunciar ahir que interromp tots els seus contactes polítics i de seguretat amb el Govern israelià mentre no acabi les seves operacions militars contra els camps de refugiats de Cisjordània, segons va anunciar el secretari general del gabinet de l'ANP, Ahmed Abdel Rahman.
 # orig_file_sentence 010#46
@@ -56377,6 +56514,7 @@
 22	Exèrcit	Exèrcit	PROPN	_	_	15	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020302-69
 # sent_id = CESS-CAT-AAP-20020302-69-s1
 # text = El Centre per a la Investigació del Genoma d'Edimburg (Escòcia) i el Guy 's Hospital de Londres són les dues primeres entitats que han aconseguit de les autoritats britàniques una llicència que els permeti la utilització dels embrions humans, després que dimecres passat la Cambra dels Lords en va aprovar la clonació amb finalitats terapèutiques.
 # orig_file_sentence 016#36
@@ -56469,6 +56607,7 @@
 17	vitro	vitro	ADJ	_	_	15	amod	_	SpaceAfter=No
 18	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020312-50714
 # sent_id = CESS-CAT-AAP-20020312-50714-s1
 # text = El Síndic de Greuges recorda a la Generalitat en el seu informe anual que té el deure de vetllar per la dignitat dels habitatges, i insisteix que un control administratiu més rigorós podria garantir la qualitat dels habitatges protegits.
 # orig_file_sentence 014#13
@@ -57087,6 +57226,7 @@
 40	variant	variant	NOUN	_	Gender=Fem|Number=Sing	38	obj	_	SpaceAfter=No
 41	.	.	PUNCT	_	PunctType=Peri	18	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020326-51713
 # sent_id = CESS-CAT-AAP-20020326-51713-s1
 # text = Un total de 116 poemes, inspirats principalment en passatges bíblics, escrits i decorats pels malalts de l'Hospital de Santa Caterina s'exposen a l'Arxiu Històric de Girona.
 # orig_file_sentence 014#34
@@ -57570,6 +57710,7 @@
 30	XX	XX	NOUN	_	_	29	compound	_	SpaceAfter=No
 31	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020402-23
 # sent_id = CESS-CAT-AAP-20020402-23-s1
 # text = Unes 3.000 persones es van manifestar ahir davant l'Ambaixada d'Israel a Madrid per reclamar la llibertat del president palestí, Iàssir Arafat, i exigir la retirada dels tancs israelians de Ramal·là.
 # orig_file_sentence 010#60
@@ -57658,6 +57799,7 @@
 40	Bush	Bush	PROPN	_	_	39	flat	_	SpaceAfter=No
 41	.	.	PUNCT	_	PunctType=Peri	26	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020402-40
 # sent_id = CESS-CAT-AAP-20020402-40-s1
 # text = Vicenç Villatoro es va mostrar satisfet pel seu imminent nomenament al capdavant dels mitjans de comunicació de la Generalitat i va reivindicar la seva trajectòria professional com a periodista en resposta a les crítiques de l'esquerra pel fet que un diputat de CiU dirigeixi la CCRTV.
 # orig_file_sentence 012#61
@@ -57809,6 +57951,7 @@
 46	periodístic	periodístic	ADJ	_	Gender=Masc|Number=Sing	45	amod	_	SpaceAfter=No
 47	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020402-83
 # sent_id = CESS-CAT-AAP-20020402-83-s1
 # text = El que va ser president del desaparegut Grupo Mundo de publicacions periòdiques, Sebastián Auger, va morir ahir a la matinada a Barcelona després de tenir un vessament cerebral, segons van informar fonts pròximes a la família.
 # orig_file_sentence 016#72
@@ -58562,6 +58705,7 @@
 23	radiofònica	radiofònic	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
 24	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020501-63
 # sent_id = CESS-CAT-AAP-20020501-63-s1
 # text = El Santander Central Hispano (SCH) suprimirà aquest any a tot el món 11.000 llocs de treball (el 10% de la seva plantilla), dels quals 3.000 correspondran al grup a Espanya.
 # orig_file_sentence 015#46
@@ -59177,6 +59321,7 @@
 28	prejubilacions	prejubilació	NOUN	_	Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
 29	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020501-71_e
 # sent_id = CESS-CAT-AAP-20020501-71_e-s1
 # text = Aventis incrementa els beneficis el 33,7%.
 # orig_file_sentence 016#38
@@ -59220,6 +59365,7 @@
 25	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	22	punct	_	SpaceAfter=No
 26	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020514-55209
 # sent_id = CESS-CAT-AAP-20020514-55209-s1
 # text = La comissió parlamentària sobre la Unió Europea i Actuacions Exteriors , Cooperació i Solidaritat ha aprovat, amb els vots a favor d'ICV, PSC-CpC i CiU, i l'abstenció del PPC, una proposició de llei del grup parlamentari d'ERC que insta a la Generalitat a 'convocar la Comissió General de les Comunitats Autònomes del Senat' per debatre al costat de membres de l'Executiu central i de les Corts les prioritats que han de defensar els representants espanyols davant la Convenció europea.
 # orig_file_sentence 014#85
@@ -59624,6 +59770,7 @@
 19	proposició	proposició	NOUN	_	Gender=Fem|Number=Sing	7	advcl	_	SpaceAfter=No
 20	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020515-55329
 # sent_id = CESS-CAT-AAP-20020515-55329-s1
 # text = Un jutjat de Barcelona ha condemnat l'entitat bancària Caixa de Catalunya a indemnitzar amb 6.010 euros un empleat que, en negar-se a acceptar la prejubilació, va ser degradat de la seva posició com a director bancari d'Artesa de Segre i va ser 'vexat' amb un continu canvi de lloc de treball per oficines bancàries de Catalunya amb categoria inferior.
 # orig_file_sentence 014#91
@@ -60268,6 +60415,7 @@
 32	'	'	SYM	_	_	15	nmod	_	SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020601-63_c
 # sent_id = CESS-CAT-AAP-20020601-63_c-s1
 # text = Un festival fa de Barcelona la capital de l'humor.
 # orig_file_sentence 015#61
@@ -61003,6 +61151,7 @@
 33	altres	altre	PRON	_	Number=Plur|PronType=Ind	17	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020602-24_b
 # sent_id = CESS-CAT-AAP-20020602-24_b-s1
 # text = Transportes Hermanos Clemente SA.
 # orig_file_sentence 010#70
@@ -61210,6 +61359,7 @@
 17	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	16	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020901-9_b
 # sent_id = CESS-CAT-AAP-20020901-9_b-s1
 # text = Mil persones es manifesten a França amb símbols de Batasuna.
 # orig_file_sentence 017#37
@@ -63633,6 +63783,7 @@
 12	diferències	diferència	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020901-9_e
 # sent_id = CESS-CAT-AAP-20020901-9_e-s1
 # text = La reforma de l'estatut del ministeri fiscal que està elaborant el Ministeri de Justícia no té previst atendre les demandes dels sectors de la judicatura i la política que reclamen que el fiscal general de l'Estat sigui escollit pel Congrés.
 # orig_file_sentence 017#100
@@ -63861,6 +64012,7 @@
 34	jutges	jutge	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20020901-9_j
 # sent_id = CESS-CAT-AAP-20020901-9_j-s1
 # text = El Govern frenarà la promesa reducció de tarifes telefòniques.
 # orig_file_sentence 018#6
@@ -64585,6 +64737,7 @@
 34	preus	preu	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20021209-69545
 # sent_id = CESS-CAT-AAP-20021209-69545-s1
 # text = L'Ajuntament de Granollers ha engegat una sèrie d'actuacions per reordenar el barri del Congost.
 # orig_file_sentence 016#17
@@ -65291,6 +65444,7 @@
 13	aigua	aigua	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20030206-75289
 # sent_id = CESS-CAT-AAP-20030206-75289-s1
 # text = La tèrmica de Cercs i l'activitat d'extracció de mineral a Carbons de Pedraforca podrien continuar fins l'any 2007.
 # orig_file_sentence 016#40
@@ -65747,6 +65901,7 @@
 32	Farguell	Farguell	PROPN	_	_	31	nsubj	_	SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
+# newdoc id = CESS-CAT-AAP-20030312-79197
 # sent_id = CESS-CAT-AAP-20030312-79197-s1
 # text = El president de la Sociedad Española de Participaciones Industriales, Ignacio Ruiz-Jarabo, ha de comparèixer avui davant la Comissió d'Economia i Hisenda del Congrés dels Diputats per a donar explicacions de l'actuació de l'empresa Infoinvest, que és propietat de la Societat, al barri de la Botjosa de Sallent.
 # orig_file_sentence 016#50
