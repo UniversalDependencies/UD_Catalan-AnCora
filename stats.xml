@@ -5,10 +5,10 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>16678</sentences><tokens>530766</tokens><words>546637</words><fused>15845</fused></total>
-    <train><sentences>13123</sentences><tokens>416659</tokens><words>429120</words><fused>12440</fused></train>
-    <dev><sentences>1709</sentences><tokens>56321</tokens><words>58015</words><fused>1690</fused></dev>
-    <test><sentences>1846</sentences><tokens>57786</tokens><words>59502</words><fused>1715</fused></test>
+    <total><sentences>16678</sentences><tokens>530794</tokens><words>546665</words><fused>15845</fused></total>
+    <train><sentences>13123</sentences><tokens>416680</tokens><words>429141</words><fused>12440</fused></train>
+    <dev><sentences>1709</sentences><tokens>56322</tokens><words>58016</words><fused>1690</fused></dev>
+    <test><sentences>1846</sentences><tokens>57792</tokens><words>59508</words><fused>1715</fused></test>
   </size>
   <lemmas unique="23334" /><!-- el, de, ,, a, ., que, i, un, ell, haver, en, per, anar, ser, " -->
   <forms unique="32514" /><!-- de, ,, el, la, a, ., que, i, l', els, d', per, en, les, un -->
@@ -27,9 +27,9 @@
     <tag name="PART">147</tag><!-- no -->
     <tag name="PRON">23455</tag><!-- ell, que, hi, un, jo, tot, qual, on, què, en -->
     <tag name="PROPN">46661</tag><!-- Catalunya, barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU, PP -->
-    <tag name="PUNCT">53444</tag><!-- ,, ., ", (, ), -, :, ;, ?, ¿ -->
+    <tag name="PUNCT">57270</tag><!-- ,, ., ", ', (, ), -, :, ;, ? -->
     <tag name="SCONJ">10550</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, què -->
-    <tag name="SYM">4611</tag><!-- ', %, 50/100, 10/100, 30/100, 5/100, 1/100, 2/100, 25/100, 20/100 -->
+    <tag name="SYM">813</tag><!-- %, 50/100, 10/100, 30/100, 5/100, 1/100, 2/100, 25/100, 20/100, 40/100 -->
     <tag name="VERB">41899</tag><!-- fer, tenir, haver, dir, donar, presentar, arribar, passar, voler, demanar -->
     <tag name="X">8</tag><!-- 8'5, 1'2, 17'5, 32'5, 38'3, 5'1, 77'7 -->
   </tags>
@@ -79,15 +79,15 @@
     <feat name="PronType" value="Rel" upos="DET,PRON">8814</feat><!-- que, on, qual, què, qui, quals, quan, com -->
     <feat name="PronType" value="Tot" upos="DET,PRON">430</feat><!-- tot -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">1937</feat><!-- ), ?, !, ], ( -->
-    <feat name="PunctSide" value="Ini" upos="PUNCT">1849</feat><!-- (, ¿, ¡, [, ), ] -->
-    <feat name="PunctType" value="Brck" upos="PUNCT">3399</feat><!-- ), ( -->
-    <feat name="PunctType" value="Colo" upos="PUNCT">547</feat><!-- :, / -->
-    <feat name="PunctType" value="Comm" upos="PUNCT">26630</feat><!-- ,, ..., [, ], . -->
-    <feat name="PunctType" value="Dash" upos="PUNCT">938</feat><!-- -, _ -->
+    <feat name="PunctSide" value="Ini" upos="PUNCT">1850</feat><!-- (, ¿, ¡, [, ), ] -->
+    <feat name="PunctType" value="Brck" upos="PUNCT">3400</feat><!-- (, ) -->
+    <feat name="PunctType" value="Colo" upos="PUNCT">545</feat><!-- :, / -->
+    <feat name="PunctType" value="Comm" upos="PUNCT">26603</feat><!-- ,, ..., [, ], . -->
+    <feat name="PunctType" value="Dash" upos="PUNCT">925</feat><!-- -, _ -->
     <feat name="PunctType" value="Excl" upos="PUNCT">30</feat><!-- !, ¡ -->
-    <feat name="PunctType" value="Peri" upos="PUNCT">16453</feat><!-- ., - -->
+    <feat name="PunctType" value="Peri" upos="PUNCT">16452</feat><!-- ., - -->
     <feat name="PunctType" value="Qest" upos="PUNCT">337</feat><!-- ?, ¿ -->
-    <feat name="PunctType" value="Quot" upos="PUNCT">4304</feat><!-- " -->
+    <feat name="PunctType" value="Quot" upos="PUNCT">8222</feat><!-- ", ', - -->
     <feat name="PunctType" value="Semi" upos="PUNCT">424</feat><!-- ; -->
     <feat name="Reflex" value="Yes" upos="PRON">6616</feat><!-- es, s', se, si, s, 's, -se, se'n -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">3725</feat><!-- serà, haurà, farà, podrà, seran, tindrà, podran, celebrarà, presentarà, faran -->
@@ -104,7 +104,7 @@
     <dep name="acl">9552</dep>
     <dep name="acl:relcl">21</dep>
     <dep name="advcl">6921</dep>
-    <dep name="advmod">15400</dep>
+    <dep name="advmod">15399</dep>
     <dep name="advmod:emph">1</dep>
     <dep name="amod">25002</dep>
     <dep name="appos">7674</dep>
@@ -113,7 +113,7 @@
     <dep name="cc">14696</dep>
     <dep name="ccomp">4334</dep>
     <dep name="compound">3317</dep>
-    <dep name="conj">16524</dep>
+    <dep name="conj">16509</dep>
     <dep name="cop">4673</dep>
     <dep name="csubj">1091</dep>
     <dep name="csubj:pass">2</dep>
@@ -126,15 +126,15 @@
     <dep name="flat">18025</dep>
     <dep name="iobj">1536</dep>
     <dep name="mark">15323</dep>
-    <dep name="nmod">44127</dep>
+    <dep name="nmod">40346</dep>
     <dep name="nsubj">27434</dep>
     <dep name="nsubj:pass">25</dep>
     <dep name="nummod">5675</dep>
-    <dep name="obj">37074</dep>
+    <dep name="obj">37073</dep>
     <dep name="obl">21634</dep>
     <dep name="orphan">14</dep>
     <dep name="parataxis">575</dep>
-    <dep name="punct">53444</dep>
+    <dep name="punct">57270</dep>
     <dep name="root">16678</dep>
     <dep name="vocative">1</dep>
     <dep name="xcomp">3957</dep>

@@ -109,9 +109,9 @@
 12	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 13	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
 14	equipament	equipament	NOUN	_	Gender=Masc|Number=Sing	8	ccomp	_	_
-15	'	'	SYM	_	_	16	nmod	_	SpaceAfter=No
+15	'	'	PUNCT	fe	PunctType=Quot	16	punct	_	SpaceAfter=No
 16	viu	viu	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
-17	'	'	SYM	_	_	16	nmod	_	SpaceAfter=No
+17	'	'	PUNCT	fe	PunctType=Quot	16	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
 # sent_id = 3LB-CAT-06010100-17-s5
@@ -503,10 +503,10 @@
 7	vaixell	vaixell	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
 8	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
 9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 11	Lili	Lili	PROPN	_	_	7	appos	_	MWE=Lili_Marleen|MWEPOS=PROPN
 12	Marleen	Marleen	PROPN	_	_	11	flat	_	SpaceAfter=No
-13	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+13	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	17	punct	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
@@ -599,10 +599,10 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	creuer	creuer	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
-9	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+9	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 10	Silver	Silver	PROPN	_	_	8	appos	_	MWE=Silver_Shadow|MWEPOS=PROPN
 11	Shadow	Shadow	PROPN	_	_	10	flat	_	_
-12	'	'	PUNCT	_	_	10	punct	_	_
+12	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	_
 13	,	,	PUNCT	fc	PunctType=Comm	16	punct	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -630,9 +630,9 @@
 4	atracarà	atracar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	vaixell	vaixell	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-7	'	'	SYM	_	_	8	nmod	_	SpaceAfter=No
+7	'	'	PUNCT	fe	PunctType=Quot	8	punct	_	SpaceAfter=No
 8	Assedo	Assedo	PROPN	_	_	6	appos	_	SpaceAfter=No
-9	'	'	SYM	_	_	8	nmod	_	SpaceAfter=No
+9	'	'	PUNCT	fe	PunctType=Quot	8	punct	_	SpaceAfter=No
 10	,	,	PUNCT	_	PunctType=Comm	13	punct	_	_
 11	de	de	ADP	_	_	13	case	_	_
 12	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
@@ -1278,16 +1278,16 @@
 4	per	per	ADP	_	_	5	mark	_	_
 5	reforçar	reforçar	VERB	_	VerbForm=Inf	11	advcl	_	_
 6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
-7	'	'	SYM	_	_	8	nmod	_	SpaceAfter=No
+7	'	'	PUNCT	fe	PunctType=Quot	8	punct	_	SpaceAfter=No
 8	corresponsabilitat	corresponsabilitat	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
-9	'	'	SYM	_	_	8	nmod	_	_
+9	'	'	PUNCT	fe	PunctType=Quot	8	punct	_	_
 10	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	iobj	_	_
 11	planteja	plantejar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	impulsar	impulsar	VERB	_	VerbForm=Inf	11	xcomp	_	_
 13	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-14	'	'	SYM	_	_	15	nmod	_	SpaceAfter=No
+14	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	SpaceAfter=No
 15	coordinació	coordinació	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
-16	'	'	SYM	_	_	15	nmod	_	_
+16	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	_
 17	de	de	ADP	_	_	19	case	_	_
 18	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
 19	comunitats	comunitat	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
@@ -1614,14 +1614,14 @@
 27	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
 28	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	conferència	conferència	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
-30	'	'	SYM	_	_	31	nmod	_	SpaceAfter=No
+30	'	'	PUNCT	fe	PunctType=Quot	31	punct	_	SpaceAfter=No
 31	Efectes	Efectes	PROPN	_	_	29	appos	_	MWE=Efectes_adversos_del_sol|MWEPOS=PROPN
 32	adversos	adversos	PROPN	_	_	31	flat	_	_
 33-34	del	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	_	35	case	_	_
 34	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	sol	sol	PROPN	_	_	31	flat	_	SpaceAfter=No
-36	'	'	SYM	_	_	31	nmod	_	SpaceAfter=No
+36	'	'	PUNCT	fe	PunctType=Quot	31	punct	_	SpaceAfter=No
 37	,	,	PUNCT	_	PunctType=Comm	39	punct	_	_
 38	que	que	PRON	_	PronType=Rel	39	obj	_	_
 39	pronunciarà	pronunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	29	acl	_	_
@@ -2080,10 +2080,10 @@
 6	ofrena	ofrena	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
 7	simbòlica	simbòlic	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
 8	a	a	ADP	_	_	11	case	_	_
-9	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+9	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 10	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Moreneta	Moreneta	PROPN	_	_	4	obj	_	SpaceAfter=No
-12	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+12	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 13	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = 3LB-CAT-06010300-3-s5
@@ -6195,7 +6195,7 @@
 1	Llorens	Llorens	PROPN	_	_	2	nsubj	_	_
 2	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	22	mark	_	_
-4	'	'	SYM	_	_	22	nmod	_	SpaceAfter=No
+4	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 5	desqualificar	desqualificar	VERB	_	VerbForm=Inf	22	csubj	_	_
 6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	catalanitat	catalanitat	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
@@ -6244,7 +6244,7 @@
 48	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	49	det	_	SpaceAfter=No
 49	alternativa	alternativa	NOUN	_	Gender=Fem|Number=Sing	46	nmod	_	_
 50	socialista	socialista	ADJ	_	Number=Sing	49	amod	_	SpaceAfter=No
-51	'	'	SYM	_	_	22	nmod	_	SpaceAfter=No
+51	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 52	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # sent_id = 3LB-CAT-06030200-4-s3
@@ -6267,7 +6267,7 @@
 15	criticar	criticar	VERB	_	VerbForm=Inf	12	advcl	_	_
 16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	comitè	comitè	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
-18	'	'	SYM	_	_	21	nmod	_	SpaceAfter=No
+18	'	'	PUNCT	fe	PunctType=Quot	21	punct	_	SpaceAfter=No
 19	no	no	ADV	_	Polarity=Neg	21	advmod	_	_
 20	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 21	destacat	destacar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	_
@@ -6295,7 +6295,7 @@
 42	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
 43	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	det	_	_
 44	partit	partit	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	SpaceAfter=No
-45	'	'	SYM	_	_	21	nmod	_	SpaceAfter=No
+45	'	'	PUNCT	fe	PunctType=Quot	21	punct	_	SpaceAfter=No
 46	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = 3LB-CAT-06030200-4-s4
@@ -6649,11 +6649,11 @@
 7	Blanch	Blanch	PROPN	_	_	6	nsubj	_	_
 8	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	obj	_	SpaceAfter=No
 9	anomena	anomenar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 11	Parlo	Parlo	PROPN	_	_	9	obj	_	MWE=Parlo_d'_Amor|MWEPOS=PROPN
 12	d'	d'	ADP	_	_	13	case	_	SpaceAfter=No
 13	Amor	Amor	PROPN	_	_	11	flat	_	SpaceAfter=No
-14	'	'	SYM	_	_	11	nmod	_	_
+14	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	_
 15	i	i	CCONJ	_	_	16	cc	_	_
 16	té	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 17	una	un	NUM	_	Gender=Fem|Number=Sing|NumType=Card	18	nummod	_	_
@@ -6686,7 +6686,7 @@
 5	grisos	gris	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
 6	i	i	CCONJ	_	_	7	cc	_	_
 7	negres	negre	ADJ	_	Number=Plur	3	conj	_	_
-8	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+8	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 9	vaig	anar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	intentar	intentar	VERB	_	VerbForm=Inf	35	xcomp	_	_
 11	expressar	expressar	VERB	_	VerbForm=Inf	10	xcomp	_	_
@@ -6710,7 +6710,7 @@
 29	ciutat	ciutat	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
 30	de	de	ADP	_	_	31	case	_	_
 31	Berlín	Berlín	PROPN	_	_	29	nmod	_	SpaceAfter=No
-32	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+32	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 33	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
 34	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
 35	explicat	explicar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -6994,7 +6994,7 @@
 19	expressa	expressar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_
 20	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	23	det	_	MWE=la_seva|MWEPOS=DET
 21	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	_	_
-22	'	'	SYM	_	_	23	nmod	_	SpaceAfter=No
+22	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	SpaceAfter=No
 23	disconformitat	disconformitat	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
 24	contra	contra	ADP	_	_	26	case	_	_
 25	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
@@ -7028,7 +7028,7 @@
 53	Generalitat	Generalitat	PROPN	_	_	45	nmod	_	MWE=Generalitat_de_Catalunya|MWEPOS=PROPN
 54	de	de	ADP	_	_	55	case	_	_
 55	Catalunya	Catalunya	PROPN	_	_	53	flat	_	SpaceAfter=No
-56	'	'	SYM	_	_	23	nmod	_	SpaceAfter=No
+56	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	SpaceAfter=No
 57	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
 # sent_id = 3LB-CAT-107-12-s2
@@ -7141,13 +7141,13 @@
 4	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	moció	moció	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
 6	preveu	preveure	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	'	'	SYM	_	_	8	nmod	_	SpaceAfter=No
+7	'	'	PUNCT	fe	PunctType=Quot	8	punct	_	SpaceAfter=No
 8	exercir	exercir	VERB	_	VerbForm=Inf	6	xcomp	_	_
 9	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	accions	acció	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
 11	administratives	administratiu	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
 12	oportunes	oportú	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
-13	'	'	SYM	_	_	8	nmod	_	_
+13	'	'	PUNCT	fe	PunctType=Quot	8	punct	_	_
 14	contra	contra	ADP	_	_	16	case	_	_
 15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	comunicat	comunicat	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
@@ -7160,7 +7160,7 @@
 23	si	si	SCONJ	_	_	25	mark	_	_
 24	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	25	expl:pass	_	SpaceAfter=No
 25	escau	escaure	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	_
-26	'	'	SYM	_	_	28	nmod	_	SpaceAfter=No
+26	'	'	PUNCT	fe	PunctType=Quot	28	punct	_	SpaceAfter=No
 27	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	28	obj	_	SpaceAfter=No
 28	exerciran	exercir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	21	ccomp	_	_
 29	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
@@ -7168,7 +7168,7 @@
 31	judicials	judicial	ADJ	_	Number=Plur	30	amod	_	_
 32	que	que	PRON	_	PronType=Rel	33	nsubj	_	_
 33	procedeixin	procedir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	acl	_	SpaceAfter=No
-34	'	'	SYM	_	_	28	nmod	_	SpaceAfter=No
+34	'	'	PUNCT	fe	PunctType=Quot	28	punct	_	SpaceAfter=No
 35	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = 3LB-CAT-107-12-s4
@@ -7244,7 +7244,7 @@
 16	Ministeri	Ministeri	PROPN	_	_	12	conj	_	MWE=Ministeri_de_Foment|MWEPOS=PROPN
 17	de	de	ADP	_	_	18	case	_	_
 18	Foment	Foment	PROPN	_	_	16	flat	_	_
-19	'	'	SYM	_	_	9	nmod	_	SpaceAfter=No
+19	'	'	PUNCT	fe	PunctType=Quot	9	punct	_	SpaceAfter=No
 20	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	atorgament	atorgament	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
 22	immediat	immediat	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
@@ -7287,7 +7287,7 @@
 59	d'	de	ADP	_	_	60	case	_	SpaceAfter=No
 60	emissió	emissió	NOUN	_	Gender=Fem|Number=Sing	58	nmod	_	_
 61	definitiva	definitiu	ADJ	_	Gender=Fem|Number=Sing	58	amod	_	SpaceAfter=No
-62	'	'	SYM	_	_	56	nmod	_	SpaceAfter=No
+62	'	'	PUNCT	fe	PunctType=Quot	56	punct	_	SpaceAfter=No
 63	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
 # sent_id = 3LB-CAT-107-12-s6
@@ -7639,13 +7639,13 @@
 19	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
 20	apartats	apartat	NOUN	_	Gender=Masc|Number=Plur	11	obj	_	_
 21	d'	de	ADP	_	_	23	case	_	SpaceAfter=No
-22	'	'	SYM	_	_	23	nmod	_	SpaceAfter=No
+22	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	SpaceAfter=No
 23	Agenda	Agenda	PROPN	_	_	20	nmod	_	SpaceAfter=No
-24	'	'	SYM	_	_	23	nmod	_	_
+24	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	_
 25	i	i	CCONJ	_	_	27	cc	_	_
-26	'	'	SYM	_	_	27	nmod	_	SpaceAfter=No
+26	'	'	PUNCT	fe	PunctType=Quot	27	punct	_	SpaceAfter=No
 27	Notícies	Notícies	PROPN	_	_	23	conj	_	SpaceAfter=No
-28	'	'	SYM	_	_	27	nmod	_	SpaceAfter=No
+28	'	'	PUNCT	fe	PunctType=Quot	27	punct	_	SpaceAfter=No
 29	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = 3LB-CAT-107-7-s6
@@ -7655,9 +7655,9 @@
 2	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
 3	apartat	apartat	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
 4	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
-5	'	'	SYM	_	_	6	nmod	_	SpaceAfter=No
+5	'	'	PUNCT	fe	PunctType=Quot	6	punct	_	SpaceAfter=No
 6	Agenda	Agenda	PROPN	_	_	3	nmod	_	SpaceAfter=No
-7	'	'	SYM	_	_	6	nmod	_	_
+7	'	'	PUNCT	fe	PunctType=Quot	6	punct	_	_
 8	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	obj	_	SpaceAfter=No
 9	hi	hi	PRON	_	Case=Loc|Person=3|PronType=Prs	11	obl	_	_
 10	poden	poder	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
@@ -7692,9 +7692,9 @@
 8	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	apartat	apartat	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
 10	anomenat	anomenat	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	9	amod	_	_
-11	'	'	SYM	_	_	12	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	SpaceAfter=No
 12	mainada-peques-kids	mainada-peques-kids	PROPN	_	_	10	obj	_	SpaceAfter=No
-13	'	'	SYM	_	_	12	nmod	_	SpaceAfter=No
+13	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
 15	dedicat	dedicat	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	9	amod	_	_
 16-17	als	_	_	_	_	_	_	_	_
@@ -7897,11 +7897,11 @@
 19	Barcelona	Barcelona	PROPN	_	_	15	flat	_	SpaceAfter=No
 20	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
 21	de	de	ADP	_	_	23	case	_	_
-22	'	'	SYM	_	_	23	nmod	_	SpaceAfter=No
+22	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	SpaceAfter=No
 23	Web	Web	PROPN	_	_	9	nmod	_	MWE=Web_Mèdica_Acreditada|MWEPOS=PROPN
 24	Mèdica	Mèdica	PROPN	_	_	23	flat	_	_
 25	Acreditada	Acreditada	PROPN	_	_	23	flat	_	SpaceAfter=No
-26	'	'	SYM	_	_	23	nmod	_	SpaceAfter=No
+26	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = 3LB-CAT-107-7-s15
@@ -8228,10 +8228,10 @@
 22	local	local	ADJ	_	Number=Sing	21	amod	_	SpaceAfter=No
 23	,	,	PUNCT	_	PunctType=Comm	26	punct	_	_
 24	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
-25	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
+25	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	SpaceAfter=No
 26	Easton	Easton	PROPN	_	_	21	appos	_	MWE=Easton_express|MWEPOS=PROPN
 27	express	express	PROPN	_	_	26	flat	_	SpaceAfter=No
-28	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
+28	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	SpaceAfter=No
 29	,	,	PUNCT	_	PunctType=Comm	26	punct	_	_
 30	des	des	ADP	_	_	32	case	_	MWE=des_d'|MWEPOS=ADP
 31	d'	de	ADP	_	_	30	fixed	_	SpaceAfter=No
@@ -8250,10 +8250,10 @@
 43	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	44	det	_	_
 44	universitat	universitat	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
 45	,	,	PUNCT	_	PunctType=Comm	47	punct	_	_
-46	'	'	SYM	_	_	47	nmod	_	SpaceAfter=No
+46	'	'	PUNCT	fe	PunctType=Quot	47	punct	_	SpaceAfter=No
 47	The	The	PROPN	_	_	40	appos	_	MWE=The_Collegian|MWEPOS=PROPN
 48	Collegian	Collegian	PROPN	_	_	47	flat	_	SpaceAfter=No
-49	'	'	SYM	_	_	47	nmod	_	SpaceAfter=No
+49	'	'	PUNCT	fe	PunctType=Quot	47	punct	_	SpaceAfter=No
 50	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = 3LB-CAT-203-19-s8
@@ -8367,10 +8367,10 @@
 3	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 4	tan	tan	ADV	_	_	5	advmod	_	_
 5	anunciada	anunciat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	7	amod	_	_
-6	'	'	SYM	_	_	7	nmod	_	SpaceAfter=No
+6	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	SpaceAfter=No
 7	revolució	revolució	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 8	digital	digital	ADJ	_	Number=Sing	7	amod	_	SpaceAfter=No
-9	'	'	SYM	_	_	7	nmod	_	_
+9	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	_
 10	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	12	obj	_	SpaceAfter=No
 11	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	acabat	acabar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -8739,7 +8739,7 @@
 # sent_id = 3LB-CAT-203-2-s3
 # text = 'L'orina en funció de l'alimentació' de Núria Soto de l'IES Manuel Blancafort, de La Garriga ha resultat finalista en la primera edició dels Premis Universitat de Girona a treballs de recerca d'estudiants de batxillerat.
 # orig_file_sentence 003#27
-1	'	'	SYM	_	_	2	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	2	punct	_	SpaceAfter=No
 2	L'	L'	DET	_	Number=Sing|PronType=Art	3	det	_	SpaceAfter=No|MWE=L'_orina_en_funció_de_l'_alimentació|MWEPOS=PROPN
 3	orina	orina	PROPN	_	_	23	nsubj	_	_
 4	en	en	ADP	_	_	5	case	_	_
@@ -8747,7 +8747,7 @@
 6	de	de	ADP	_	_	8	case	_	_
 7	l'	l'	DET	_	Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	alimentació	alimentació	PROPN	_	_	2	flat	_	SpaceAfter=No
-9	'	'	SYM	_	_	2	nmod	_	_
+9	'	'	PUNCT	fe	PunctType=Quot	2	punct	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	Núria	Núria	PROPN	_	_	2	nmod	_	MWE=Núria_Soto|MWEPOS=PROPN
 12	Soto	Soto	PROPN	_	_	11	flat	_	_
@@ -8822,13 +8822,13 @@
 # sent_id = 3LB-CAT-203-2-s5
 # text = 'Els jardins de la Devesa', de Zuzanna Celej, de l'IES Santiago Sobrequés de Girona, 'El naixement i la vida del barri de Vilarroja' d'Anna Jiménez, de l'IES Jaume Vicenç Vives de Girona, 'Com vendre més i millor' d'Àngel Pons, de l'IES de Vidreres i 'Les cases d'estiueig modernistes' de Gener Salicrú, de l'IES Alexandre Satorras de Mataró han estat els quatre treballs premiats per la Universitat de Girona en l'àmbit humanísticosocial.
 # orig_file_sentence 003#29
-1	'	'	SYM	_	_	3	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	Els	Els	DET	_	Gender=Masc|Number=Plur|PronType=Art	3	det	_	MWE=Els_jardins_de_la_Devesa|MWEPOS=PROPN
 3	jardins	jardins	PROPN	_	_	85	nsubj	_	_
 4	de	de	ADP	_	_	6	case	_	_
 5	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Devesa	Devesa	PROPN	_	_	2	flat	_	SpaceAfter=No
-7	'	'	SYM	_	_	3	nmod	_	SpaceAfter=No
+7	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 8	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
 9	de	de	ADP	_	_	10	case	_	_
 10	Zuzanna	Zuzanna	PROPN	_	_	2	nmod	_	MWE=Zuzanna_Celej|MWEPOS=PROPN
@@ -8842,7 +8842,7 @@
 18	de	de	ADP	_	_	19	case	_	_
 19	Girona	Girona	PROPN	_	_	15	nmod	_	SpaceAfter=No
 20	,	,	PUNCT	_	PunctType=Comm	23	punct	_	_
-21	'	'	SYM	_	_	22	nmod	_	SpaceAfter=No
+21	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 22	El	El	DET	_	Gender=Masc|Number=Sing|PronType=Art	23	det	_	MWE=El_naixement_i_la_vida_del_barri_de_Vilarroja|MWEPOS=PROPN
 23	naixement	naixement	PROPN	_	_	3	conj	_	_
 24	i	i	CCONJ	_	_	26	cc	_	_
@@ -8854,7 +8854,7 @@
 29	barri	barri	PROPN	_	_	22	flat	_	_
 30	de	de	ADP	_	_	31	case	_	_
 31	Vilarroja	Vilarroja	PROPN	_	_	22	flat	_	SpaceAfter=No
-32	'	'	SYM	_	_	22	nmod	_	_
+32	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	_
 33	d'	de	ADP	_	_	34	case	_	SpaceAfter=No
 34	Anna	Anna	PROPN	_	_	22	nmod	_	MWE=Anna_Jiménez|MWEPOS=PROPN
 35	Jiménez	Jiménez	PROPN	_	_	34	flat	_	SpaceAfter=No
@@ -8868,13 +8868,13 @@
 43	de	de	ADP	_	_	44	case	_	_
 44	Girona	Girona	PROPN	_	_	39	nmod	_	SpaceAfter=No
 45	,	,	PUNCT	_	PunctType=Comm	48	punct	_	_
-46	'	'	SYM	_	_	48	nmod	_	SpaceAfter=No
+46	'	'	PUNCT	fe	PunctType=Quot	48	punct	_	SpaceAfter=No
 47	Com	Com	SCONJ	_	_	46	case	_	MWE=Com_vendre_més_i_millor|MWEPOS=PROPN
 48	vendre	vendre	PROPN	_	_	3	conj	_	_
 49	més	més	ADV	_	Degree=Cmp	48	flat	_	_
 50	i	i	CCONJ	_	_	51	cc	_	_
 51	millor	millor	PROPN	_	_	48	conj	_	SpaceAfter=No
-52	'	'	SYM	_	_	46	nmod	_	_
+52	'	'	PUNCT	fe	PunctType=Quot	46	punct	_	_
 53	d'	de	ADP	_	_	54	case	_	SpaceAfter=No
 54	Àngel	Àngel	PROPN	_	_	46	nmod	_	MWE=Àngel_Pons|MWEPOS=PROPN
 55	Pons	Pons	PROPN	_	_	54	flat	_	SpaceAfter=No
@@ -8885,13 +8885,13 @@
 60	de	de	ADP	_	_	61	case	_	_
 61	Vidreres	Vidreres	PROPN	_	_	59	nmod	_	_
 62	i	i	CCONJ	_	_	65	cc	_	_
-63	'	'	SYM	_	_	64	nmod	_	SpaceAfter=No
+63	'	'	PUNCT	fe	PunctType=Quot	64	punct	_	SpaceAfter=No
 64	Les	Les	DET	_	Gender=Fem|Number=Plur|PronType=Art	65	det	_	MWE=Les_cases_d'_estiueig_modernistes|MWEPOS=PROPN
 65	cases	cases	PROPN	_	_	3	conj	_	_
 66	d'	d'	ADP	_	_	67	case	_	SpaceAfter=No
 67	estiueig	estiueig	PROPN	_	_	64	flat	_	_
 68	modernistes	modernistes	PROPN	_	_	67	flat	_	SpaceAfter=No
-69	'	'	SYM	_	_	64	nmod	_	_
+69	'	'	PUNCT	fe	PunctType=Quot	64	punct	_	_
 70	de	de	ADP	_	_	71	case	_	_
 71	Gener	Gener	PROPN	_	_	64	nmod	_	MWE=Gener_Salicrú|MWEPOS=PROPN
 72	Salicrú	Salicrú	PROPN	_	_	71	flat	_	SpaceAfter=No
@@ -8946,7 +8946,7 @@
 # sent_id = 3LB-CAT-203-2-s7
 # text = 'Epidemiologia de la fluorosi dental a la població escolar de Caldes de Malavella ' de Marina Berbel de l'escola Montessori Palau de Girona,' Els mosaics . Estudi de la fulla de la Devesa 'de Joan Borrell de l'IES Santiago Sobrequés de Girona,' Cristal·lització anòmala dels otòlits dels peixos confinats 'de Francina Sintas i Clara Coll de l'IES Els tres turons d'Arenys de Mar i' Els satèl·lits de Júpiter 'de Xan Elasri de l'IES Pere Barnils de Centelles són les obres premiades.
 # orig_file_sentence 003#31
-1	'	'	SYM	_	_	2	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	2	punct	_	SpaceAfter=No
 2	Epidemiologia	Epidemiologia	PROPN	_	_	96	nsubj	_	MWE=Epidemiologia_de_la_fluorosi_dental_a_la_població_escolar_de_Caldes_de_Malavella|MWEPOS=PROPN
 3	de	de	ADP	_	_	5	case	_	_
 4	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -8960,7 +8960,7 @@
 12	Caldes	Caldes	PROPN	_	_	5	flat	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Malavella	Malavella	PROPN	_	_	5	flat	_	_
-15	'	'	PUNCT	_	_	2	punct	_	_
+15	'	'	PUNCT	fe	PunctType=Quot	2	punct	_	_
 16	de	de	ADP	_	_	17	case	_	_
 17	Marina	Marina	PROPN	_	_	2	nmod	_	MWE=Marina_Berbel|MWEPOS=PROPN
 18	Berbel	Berbel	PROPN	_	_	17	flat	_	_
@@ -8972,7 +8972,7 @@
 24	de	de	ADP	_	_	25	case	_	_
 25	Girona	Girona	PROPN	_	_	21	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	_	PunctType=Comm	29	punct	_	SpaceAfter=No
-27	'	'	SYM	_	_	28	nmod	_	_
+27	'	'	PUNCT	fe	PunctType=Quot	28	punct	_	_
 28	Els	Els	DET	_	Gender=Masc|Number=Plur|PronType=Art	29	det	_	MWE=Els_mosaics_._Estudi_de_la_fulla_de_la_Devesa|MWEPOS=PROPN
 29	mosaics	mosaics	PROPN	_	_	2	conj	_	_
 30	.	.	PUNCT	_	_	29	punct	_	_
@@ -8983,7 +8983,7 @@
 35	de	de	ADP	_	_	37	case	_	_
 36	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	Devesa	Devesa	PROPN	_	_	28	flat	_	_
-38	'	'	SYM	_	_	28	nmod	_	SpaceAfter=No
+38	'	'	PUNCT	fe	PunctType=Quot	28	punct	_	SpaceAfter=No
 39	de	de	ADP	_	_	40	case	_	_
 40	Joan	Joan	PROPN	_	_	28	nmod	_	MWE=Joan_Borrell|MWEPOS=PROPN
 41	Borrell	Borrell	PROPN	_	_	40	flat	_	_
@@ -8995,7 +8995,7 @@
 47	de	de	ADP	_	_	48	case	_	_
 48	Girona	Girona	PROPN	_	_	44	nmod	_	SpaceAfter=No
 49	,	,	PUNCT	_	PunctType=Comm	51	punct	_	SpaceAfter=No
-50	'	'	SYM	_	_	51	nmod	_	_
+50	'	'	PUNCT	fe	PunctType=Quot	51	punct	_	_
 51	Cristal·lització	Cristal·lització	PROPN	_	_	2	conj	_	MWE=Cristal·lització_anòmala_dels_otòlits_dels_peixos_confinats|MWEPOS=PROPN
 52	anòmala	anòmala	PROPN	_	_	51	flat	_	_
 53-54	dels	_	_	_	_	_	_	_	_
@@ -9007,7 +9007,7 @@
 57	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	58	det	_	_
 58	peixos	peixos	PROPN	_	_	51	flat	_	_
 59	confinats	confinats	PROPN	_	_	51	flat	_	_
-60	'	'	SYM	_	_	51	nmod	_	SpaceAfter=No
+60	'	'	PUNCT	fe	PunctType=Quot	51	punct	_	SpaceAfter=No
 61	de	de	ADP	_	_	62	case	_	_
 62	Francina	Francina	PROPN	_	_	51	nmod	_	MWE=Francina_Sintas|MWEPOS=PROPN
 63	Sintas	Sintas	PROPN	_	_	62	flat	_	_
@@ -9025,12 +9025,12 @@
 75	de	de	ADP	_	_	76	case	_	_
 76	Mar	Mar	PROPN	_	_	74	flat	_	_
 77	i	i	CCONJ	_	_	80	cc	_	SpaceAfter=No
-78	'	'	SYM	_	_	79	nmod	_	_
+78	'	'	PUNCT	fe	PunctType=Quot	79	punct	_	_
 79	Els	Els	DET	_	Gender=Masc|Number=Plur|PronType=Art	80	det	_	MWE=Els_satèl·lits_de_Júpiter|MWEPOS=PROPN
 80	satèl·lits	satèl·lits	PROPN	_	_	2	conj	_	_
 81	de	de	ADP	_	_	82	case	_	_
 82	Júpiter	Júpiter	PROPN	_	_	79	flat	_	_
-83	'	'	SYM	_	_	79	nmod	_	SpaceAfter=No
+83	'	'	PUNCT	fe	PunctType=Quot	79	punct	_	SpaceAfter=No
 84	de	de	ADP	_	_	85	case	_	_
 85	Xan	Xan	PROPN	_	_	79	nmod	_	MWE=Xan_Elasri|MWEPOS=PROPN
 86	Elasri	Elasri	PROPN	_	_	85	flat	_	_
@@ -9881,7 +9881,7 @@
 23	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	policia	policia	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
 25	autonòmica	autonòmic	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
-26	'	'	SYM	_	_	27	nmod	_	SpaceAfter=No
+26	'	'	PUNCT	fe	PunctType=Quot	27	punct	_	SpaceAfter=No
 27	preocupa	preocupar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 28	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
 29	societat	societat	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
@@ -9924,7 +9924,7 @@
 65	de	de	ADP	_	_	67	case	_	_
 66	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
 67	zona	zona	NOUN	_	Gender=Fem|Number=Sing	64	nmod	_	SpaceAfter=No
-68	'	'	SYM	_	_	27	nmod	_	SpaceAfter=No
+68	'	'	PUNCT	fe	PunctType=Quot	27	punct	_	SpaceAfter=No
 69	.	.	PUNCT	_	PunctType=Peri	27	punct	_	_
 
 # sent_id = 3LB-CAT-207-22-s5
@@ -9999,7 +9999,7 @@
 6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	subdelegada	subdelegada	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
 8	també	també	ADV	_	_	12	advmod	_	_
-9	'	'	SYM	_	_	12	nmod	_	SpaceAfter=No
+9	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	SpaceAfter=No
 10	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	12	iobj	_	_
 11	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 12	comprometre	comprometre	VERB	_	VerbForm=Inf	0	root	_	_
@@ -10031,7 +10031,7 @@
 38	de	de	ADP	_	_	40	case	_	_
 39	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	droga	droga	NOUN	_	Gender=Fem|Number=Sing	37	nmod	_	SpaceAfter=No
-41	'	'	SYM	_	_	12	nmod	_	SpaceAfter=No
+41	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	SpaceAfter=No
 42	,	,	PUNCT	_	PunctType=Comm	45	punct	_	_
 43	segons	segons	ADP	_	_	45	case	_	_
 44	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
@@ -10448,9 +10448,9 @@
 32	haurà	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	17	conj	_	_
 33	animació	animació	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	_
 34	amb	amb	ADP	_	_	36	case	_	_
-35	'	'	SYM	_	_	36	nmod	_	SpaceAfter=No
+35	'	'	PUNCT	fe	PunctType=Quot	36	punct	_	SpaceAfter=No
 36	mariachis	mariachi	NOUN	_	_	33	nmod	_	SpaceAfter=No
-37	'	'	PUNCT	_	_	36	punct	_	_
+37	'	'	PUNCT	fe	PunctType=Quot	36	punct	_	_
 38	.	.	PUNCT	fp	PunctType=Peri	17	punct	_	_
 
 # sent_id = 3LB-CAT-207-3-s12
@@ -14047,9 +14047,9 @@
 6	qualifica	qualificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	com	com	SCONJ	_	_	10	case	_	MWE=com_a|MWEPOS=ADP
 8	a	a	ADP	_	_	7	fixed	_	_
-9	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+9	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 10	incongruent	incongruent	ADJ	_	Number=Sing	6	iobj	_	SpaceAfter=No
-11	'	'	SYM	_	_	10	nmod	_	_
+11	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	_
 12	que	que	SCONJ	_	_	16	mark	_	_
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	grup	grup	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -14064,7 +14064,7 @@
 23	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	24	det	_	_
 24	tema	tema	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
 25	quan	quan	SCONJ	_	_	51	mark	_	_
-26	'	'	SYM	_	_	51	nmod	_	SpaceAfter=No
+26	'	'	PUNCT	fe	PunctType=Quot	51	punct	_	SpaceAfter=No
 27	espais	espai	NOUN	_	Gender=Masc|Number=Plur	51	nsubj	_	_
 28	agrícoles	agrícola	ADJ	_	Number=Plur	27	amod	_	_
 29	importants	important	ADJ	_	Number=Plur	27	amod	_	_
@@ -14110,7 +14110,7 @@
 68	a	a	ADP	_	_	70	case	_	_
 69	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
 70	PSC-Cpc	PSC-Cpc	PROPN	_	_	67	obj	_	SpaceAfter=No
-71	'	'	SYM	_	_	51	nmod	_	SpaceAfter=No
+71	'	'	PUNCT	fe	PunctType=Quot	51	punct	_	SpaceAfter=No
 72	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = CESS-CAT-A-20000925-15876-s4
@@ -14311,10 +14311,10 @@
 7	en	en	ADP	_	_	8	case	_	_
 8	Acció	Acció	PROPN	_	_	6	flat	_	_
 9	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	'	'	SYM	_	_	12	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	SpaceAfter=No
 11	molt	molt	ADV	_	_	12	advmod	_	_
 12	positiva	positiu	ADJ	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
-13	'	'	SYM	_	_	12	nmod	_	_
+13	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	_
 14	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	proposició	proposició	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 16	no	no	ADV	_	Polarity=Neg	15	advmod	_	_
@@ -14608,7 +14608,7 @@
 21	hi	hi	PRON	_	Case=Loc|Person=3|PronType=Prs	22	obj	_	_
 22	ha	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_
 23	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
-24	'	'	SYM	_	_	25	nmod	_	SpaceAfter=No
+24	'	'	PUNCT	fe	PunctType=Quot	25	punct	_	SpaceAfter=No
 25	situació	situació	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
 26	clara	clar	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
 27	de	de	ADP	_	_	28	case	_	_
@@ -14618,7 +14618,7 @@
 31	de	de	ADP	_	_	32	case	_	_
 32	problemàtica	problemàtica	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	_
 33	social	social	ADJ	_	Number=Sing	32	amod	_	SpaceAfter=No
-34	'	'	SYM	_	_	25	nmod	_	SpaceAfter=No
+34	'	'	PUNCT	fe	PunctType=Quot	25	punct	_	SpaceAfter=No
 35	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
 # sent_id = CESS-CAT-A-20010126-24222-s7
@@ -15331,7 +15331,7 @@
 # sent_id = CESS-CAT-A-20010312-27346-s6
 # text = 'Això no suposa dir que demanem a la Generalitat, a l'Ajuntament o a l'empresariat gironí que contribueixin a finançar l'obra, sinó que cada administració, en l'àmbit de les seves conseqüències, exerciti les facultats que li corresponen', ha dit .
 # orig_file_sentence 004#13
-1	'	'	SYM	_	_	49	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	49	punct	_	SpaceAfter=No
 2	Això	això	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	_
 3	no	no	ADV	_	Polarity=Neg	4	advmod	_	_
 4	suposa	suposar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
@@ -15376,7 +15376,7 @@
 43	que	que	PRON	_	PronType=Rel	45	nsubj	_	_
 44	li	ell	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	45	obj	_	_
 45	corresponen	correspondre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	acl	_	SpaceAfter=No
-46	'	'	SYM	_	_	40	nmod	_	SpaceAfter=No
+46	'	'	PUNCT	fe	PunctType=Quot	40	punct	_	SpaceAfter=No
 47	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 48	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
 49	dit	dir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -15424,7 +15424,7 @@
 35	estació	estació	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
 36	central	central	ADJ	_	Number=Sing	35	amod	_	SpaceAfter=No
 37	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	17	punct	_	_
-38	'	'	SYM	_	_	39	nmod	_	SpaceAfter=No
+38	'	'	PUNCT	fe	PunctType=Quot	39	punct	_	SpaceAfter=No
 39	ho	ell	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	42	obj	_	_
 40	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
 41	d'	de	ADP	_	_	42	mark	_	SpaceAfter=No
@@ -15433,11 +15433,11 @@
 44	Ministeri	Ministeri	PROPN	_	_	42	nsubj	_	MWE=Ministeri_de_Foment|MWEPOS=PROPN
 45	de	de	ADP	_	_	46	case	_	_
 46	Foment	Foment	PROPN	_	_	44	flat	_	SpaceAfter=No
-47	'	'	SYM	_	_	44	nmod	_	SpaceAfter=No
+47	'	'	PUNCT	fe	PunctType=Quot	44	punct	_	SpaceAfter=No
 48	,	,	PUNCT	_	PunctType=Comm	56	punct	_	_
 49	i	i	CCONJ	_	_	56	cc	_	_
 50	que	que	SCONJ	_	_	56	mark	_	_
-51	'	'	SYM	_	_	53	nmod	_	SpaceAfter=No
+51	'	'	PUNCT	fe	PunctType=Quot	53	punct	_	SpaceAfter=No
 52	altra	altre	DET	_	Gender=Fem|Number=Sing|PronType=Ind	53	det	_	_
 53	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	56	nsubj	_	_
 54	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
@@ -15474,7 +15474,7 @@
 84	estació	estació	NOUN	_	Gender=Fem|Number=Sing	80	obl	_	_
 85	central	central	ADJ	_	Number=Sing	84	amod	_	_
 86	soterrada	soterrat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	84	amod	_	SpaceAfter=No
-87	'	'	SYM	_	_	56	nmod	_	SpaceAfter=No
+87	'	'	PUNCT	fe	PunctType=Quot	56	punct	_	SpaceAfter=No
 88	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAT-A-20010312-27346-s8
@@ -15489,7 +15489,7 @@
 7	que	que	SCONJ	_	_	13	mark	_	_
 8	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	Ajuntament	Ajuntament	PROPN	_	_	13	nsubj	_	_
-10	'	'	SYM	_	_	13	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	13	punct	_	SpaceAfter=No
 11	haurà	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	aux	_	_
 12	de	de	ADP	_	_	13	mark	_	_
 13	determinar	determinar	VERB	_	VerbForm=Inf	6	ccomp	_	_
@@ -15517,10 +15517,10 @@
 34	de	de	ADP	_	_	35	case	_	_
 35	zona	zona	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
 36	verda	verd	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
-37	'	'	SYM	_	_	23	nmod	_	_
+37	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	_
 38	i	i	CCONJ	_	_	57	cc	_	_
 39	que	que	SCONJ	_	_	57	mark	_	_
-40	'	'	SYM	_	_	49	nmod	_	SpaceAfter=No
+40	'	'	PUNCT	fe	PunctType=Quot	49	punct	_	SpaceAfter=No
 41	en	en	ADP	_	_	49	mark	_	MWE=en_la_mesura_que|MWEPOS=SCONJ
 42	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	41	fixed	_	_
 43	mesura	mesura	NOUN	_	_	41	fixed	_	_
@@ -15540,13 +15540,13 @@
 57	parlar	parlar	VERB	_	VerbForm=Inf	13	conj	_	_
 58	de	de	ADP	_	_	59	case	_	_
 59	plusvàlues	plusvàlua	NOUN	_	Gender=Fem|Number=Plur	57	obj	_	SpaceAfter=No
-60	'	'	SYM	_	_	59	nmod	_	SpaceAfter=No
+60	'	'	PUNCT	fe	PunctType=Quot	59	punct	_	SpaceAfter=No
 61	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = CESS-CAT-A-20010312-27346-s9
 # text = 'Si hi ha plusvàlues seria lògic demanar que contribuïssin a finançar l'obra, com ha passat en altres indrets, però no estem diguent que necessàriament n'hi hagi', ha dit .
 # orig_file_sentence 004#16
-1	'	'	SYM	_	_	7	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	SpaceAfter=No
 2	Si	si	SCONJ	_	_	4	mark	_	_
 3	hi	hi	PRON	_	Case=Loc|Person=3|PronType=Prs	4	obj	_	_
 4	ha	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
@@ -15577,7 +15577,7 @@
 29	n'	en	PRON	_	Case=Gen|Person=3|PronType=Prs	31	obj	_	SpaceAfter=No
 30	hi	hi	PRON	_	Case=Loc|Person=3|PronType=Prs	31	obj	_	_
 31	hagi	haver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp	_	SpaceAfter=No
-32	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
+32	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	SpaceAfter=No
 33	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 34	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
 35	dit	dir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -15616,16 +15616,16 @@
 28	hi	hi	PRON	_	Case=Loc|Person=3|PronType=Prs	30	obj	_	_
 29	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
 30	veure	veure	VERB	_	VerbForm=Inf	25	xcomp	_	_
-31	'	'	SYM	_	_	33	nmod	_	SpaceAfter=No
+31	'	'	PUNCT	fe	PunctType=Quot	33	punct	_	SpaceAfter=No
 32	cap	cap	DET	_	Number=Sing|PronType=Ind	33	det	_	_
 33	ambigüitat	ambigüitat	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No
-34	'	'	SYM	_	_	33	nmod	_	SpaceAfter=No
+34	'	'	PUNCT	fe	PunctType=Quot	33	punct	_	SpaceAfter=No
 35	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = CESS-CAT-A-20010312-27346-s11
 # text = 'Creiem que referma plenament i íntegrament la nostra proposta i que va dir clarament que es comprometia a fer un estudi de la viabilitat tècnica del projecte', ha afegit .
 # orig_file_sentence 004#18
-1	'	'	SYM	_	_	2	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	2	punct	_	SpaceAfter=No
 2	Creiem	creure	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	33	ccomp	_	_
 3	que	que	SCONJ	_	_	4	mark	_	_
 4	referma	refermar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
@@ -15655,7 +15655,7 @@
 27	de	de	ADP	_	_	29	case	_	_
 28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	projecte	projecte	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
-30	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+30	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 31	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
 32	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 33	afegit	afegir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -20083,10 +20083,10 @@
 9	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
 10	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
 11	ensenya	ensenyar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
-12	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+12	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 13	a	a	ADP	_	_	12	mark	_	_
 14	pensar	pensar	VERB	_	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
-15	'	'	SYM	_	_	12	nmod	_	SpaceAfter=No
+15	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	SpaceAfter=No
 16	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = CESS-CAT-A-20010808-36814-s8
@@ -20184,11 +20184,11 @@
 59	denunciant	denunciant	NOUN	_	Number=Sing	56	nsubj	_	_
 60	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	56	aux	_	_
 61	fet	fer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	56	xcomp	_	_
-62	'	'	SYM	_	_	64	nmod	_	SpaceAfter=No
+62	'	'	PUNCT	fe	PunctType=Quot	64	punct	_	SpaceAfter=No
 63	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	64	det	_	_
 64	ús	ús	NOUN	_	Gender=Masc|Number=Sing	61	obj	_	_
 65	indegut	indegut	ADJ	_	Gender=Masc|Number=Sing	64	amod	_	SpaceAfter=No
-66	'	'	SYM	_	_	64	nmod	_	_
+66	'	'	PUNCT	fe	PunctType=Quot	64	punct	_	_
 67	de	de	ADP	_	_	69	case	_	_
 68	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	69	det	_	_
 69	porteria	porteria	NOUN	_	Gender=Fem|Number=Sing	64	nmod	_	SpaceAfter=No
@@ -20569,9 +20569,9 @@
 9	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	qualificat	qualificar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 11	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
-12	'	'	SYM	_	_	13	nmod	_	SpaceAfter=No
+12	'	'	PUNCT	fe	PunctType=Quot	13	punct	_	SpaceAfter=No
 13	hilarants	hilarant	ADJ	_	Number=Plur	10	obj	_	SpaceAfter=No
-14	'	'	SYM	_	_	13	nmod	_	_
+14	'	'	PUNCT	fe	PunctType=Quot	13	punct	_	_
 15	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
 16	declaracions	declaració	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
 17	fetes	fet	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	16	amod	_	_
@@ -20627,13 +20627,13 @@
 16	de	de	ADP	_	_	18	case	_	_
 17	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	tardor	tardor	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	_
-19	'	'	SYM	_	_	20	nmod	_	SpaceAfter=No
+19	'	'	PUNCT	fe	PunctType=Quot	20	punct	_	SpaceAfter=No
 20	el	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
 21	desinfla	desinflar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 22	com	com	SCONJ	_	_	24	case	_	MWE=com_a|MWEPOS=ADP
 23	a	a	ADP	_	_	22	fixed	_	_
 24	candidat	candidat	NOUN	_	Gender=Masc|Number=Sing	21	iobj	_	SpaceAfter=No
-25	'	'	SYM	_	_	24	nmod	_	SpaceAfter=No
+25	'	'	PUNCT	fe	PunctType=Quot	24	punct	_	SpaceAfter=No
 26	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-A-20010814-37027-s3
@@ -20645,7 +20645,7 @@
 4	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	manifestat	manifestar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	que	que	SCONJ	_	_	24	mark	_	_
-7	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+7	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 8	si	si	SCONJ	_	_	11	mark	_	MWE=si_bé|MWEPOS=SCONJ
 9	bé	bé	NOUN	_	_	8	fixed	_	_
 10	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
@@ -20688,7 +20688,7 @@
 46	de	de	ADP	_	_	48	case	_	_
 47	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
 48	tardor	tardor	NOUN	_	Gender=Fem|Number=Sing	45	nmod	_	SpaceAfter=No
-49	'	'	SYM	_	_	30	nmod	_	SpaceAfter=No
+49	'	'	PUNCT	fe	PunctType=Quot	30	punct	_	SpaceAfter=No
 50	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = CESS-CAT-A-20010814-37027-s4
@@ -20698,7 +20698,7 @@
 2	a	a	ADP	_	_	3	case	_	_
 3	Ridao	Ridao	PROPN	_	_	7	obl	_	SpaceAfter=No
 4	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
-5	'	'	SYM	_	_	6	nmod	_	SpaceAfter=No
+5	'	'	PUNCT	fe	PunctType=Quot	6	punct	_	SpaceAfter=No
 6	més	més	ADV	_	Degree=Cmp	7	advmod	_	_
 7	valdria	valer	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
 8	que	que	SCONJ	_	_	36	mark	_	_
@@ -20760,7 +20760,7 @@
 62	amb	amb	ADP	_	_	64	case	_	_
 63	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
 64	PP	PP	PROPN	_	_	61	nmod	_	SpaceAfter=No
-65	'	'	SYM	_	_	61	nmod	_	SpaceAfter=No
+65	'	'	PUNCT	fe	PunctType=Quot	61	punct	_	SpaceAfter=No
 66	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
 # sent_id = CESS-CAT-A-20010814-37027-s5
@@ -20790,7 +20790,7 @@
 # sent_id = CESS-CAT-A-20010814-37027-s6
 # text = 'Mas es desinfla com a líder de futur de CiU en no afrontar els reptes d'aquests debats', ha dit el portaveu d'ERC, i ha afegit que 'encara ha de demostrar que no només és un simple cartell electoral o el candidat preferit per Aznar a Catalunya, una mena de clònic de Piqué a CDC, i això no ho aconseguirà si no surt de la tutela de Pujol'.
 # orig_file_sentence 005#60
-1	'	'	SYM	_	_	4	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	4	punct	_	SpaceAfter=No
 2	Mas	Mas	PROPN	_	_	4	nsubj	_	_
 3	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	obj	_	_
 4	desinfla	desinflar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
@@ -20809,7 +20809,7 @@
 17	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
 18	aquests	aquest	DET	_	Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
 19	debats	debat	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
-20	'	'	SYM	_	_	4	nmod	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	4	punct	_	SpaceAfter=No
 21	,	,	PUNCT	_	PunctType=Comm	4	punct	_	_
 22	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
 23	dit	dir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -20822,7 +20822,7 @@
 30	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
 31	afegit	afegir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	conj	_	_
 32	que	que	SCONJ	_	_	37	mark	_	_
-33	'	'	SYM	_	_	37	nmod	_	SpaceAfter=No
+33	'	'	PUNCT	fe	PunctType=Quot	37	punct	_	SpaceAfter=No
 34	encara	encara	ADV	_	_	37	advmod	_	_
 35	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
 36	de	de	ADP	_	_	37	mark	_	_
@@ -20866,7 +20866,7 @@
 74	tutela	tutela	NOUN	_	Gender=Fem|Number=Sing	71	obl	_	_
 75	de	de	ADP	_	_	76	case	_	_
 76	Pujol	Pujol	PROPN	_	_	74	nmod	_	SpaceAfter=No
-77	'	'	SYM	_	_	68	nmod	_	SpaceAfter=No
+77	'	'	PUNCT	fe	PunctType=Quot	68	punct	_	SpaceAfter=No
 78	.	.	PUNCT	_	PunctType=Peri	23	punct	_	_
 
 # sent_id = CESS-CAT-A-20010814-37027-s7
@@ -20929,10 +20929,10 @@
 2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 3	qualifica	qualificar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	ADP	_	_	7	case	_	_
-5	'	'	SYM	_	_	7	nmod	_	SpaceAfter=No
+5	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	SpaceAfter=No
 6	mal	mal	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
 7	pacte	pacte	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
-8	'	'	SYM	_	_	7	nmod	_	_
+8	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	_
 9	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
 10	acord	acord	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 11	de	de	ADP	_	_	12	case	_	_
@@ -20944,9 +20944,9 @@
 17	Govern	Govern	PROPN	_	_	15	obj	_	_
 18	català	català	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
 19	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
-20	'	'	SYM	_	_	21	nmod	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	21	punct	_	SpaceAfter=No
 21	impotent	impotent	ADJ	_	Number=Sing	15	obj	_	SpaceAfter=No
-22	'	'	SYM	_	_	21	nmod	_	_
+22	'	'	PUNCT	fe	PunctType=Quot	21	punct	_	_
 23	per	per	ADP	_	_	26	mark	_	_
 24	no	no	ADV	_	Polarity=Neg	26	advmod	_	_
 25	poder	poder	AUX	_	VerbForm=Inf	26	aux	_	_
@@ -20972,14 +20972,14 @@
 9	per	per	ADP	_	_	10	mark	_	_
 10	qualificar	qualificar	VERB	_	VerbForm=Inf	5	advcl	_	_
 11	de	de	ADP	_	_	14	case	_	_
-12	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+12	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 13	mera	mer	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
 14	comparsa	comparsa	NOUN	_	Number=Sing	10	obj	_	_
 15-16	del	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	17	case	_	_
 16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	PSOE	PSOE	PROPN	_	_	14	nmod	_	SpaceAfter=No
-18	'	'	SYM	_	_	14	nmod	_	_
+18	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	paper	paper	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
 21	assumit	assumit	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	20	amod	_	_
@@ -21002,7 +21002,7 @@
 37	ERC	ERC	PROPN	_	_	38	nsubj	_	_
 38	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 39	que	que	SCONJ	_	_	42	mark	_	_
-40	'	'	SYM	_	_	42	nmod	_	SpaceAfter=No
+40	'	'	PUNCT	fe	PunctType=Quot	42	punct	_	SpaceAfter=No
 41	encara	encara	ADV	_	_	42	advmod	_	_
 42	està	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	ccomp	_	_
 43	per	per	ADP	_	_	44	mark	_	_
@@ -21015,7 +21015,7 @@
 50	arribar	arribar	VERB	_	VerbForm=Inf	48	xcomp	_	_
 51	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
 52	PSC	PSC	PROPN	_	_	44	nsubj	_	SpaceAfter=No
-53	'	'	SYM	_	_	42	nmod	_	SpaceAfter=No
+53	'	'	PUNCT	fe	PunctType=Quot	42	punct	_	SpaceAfter=No
 54	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # newdoc id = CESS-CAT-A-20011023-41218
@@ -21089,7 +21089,7 @@
 8	de	de	ADP	_	_	7	case	_	_
 9	llei	llei	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 10	aprovada	aprovat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	6	amod	_	_
-11	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 12-13	al	_	_	_	_	_	_	_	_
 12	a	a	ADP	_	_	11	case	_	_
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -21153,7 +21153,7 @@
 71	d'	de	ADP	_	_	73	case	_	SpaceAfter=No
 72	aquesta	aquest	DET	_	Gender=Fem|Number=Sing|PronType=Dem	73	det	_	_
 73	iniciativa	iniciativa	NOUN	_	Gender=Fem|Number=Sing	67	nmod	_	SpaceAfter=No
-74	'	'	SYM	_	_	67	nmod	_	SpaceAfter=No
+74	'	'	PUNCT	fe	PunctType=Quot	67	punct	_	SpaceAfter=No
 75	.	.	PUNCT	_	PunctType=Peri	30	punct	_	_
 
 # sent_id = CESS-CAT-A-20011023-41218-s3
@@ -21285,7 +21285,7 @@
 11	inicial	inicial	ADJ	_	Number=Sing	10	amod	_	_
 12	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
 13	ERC	ERC	PROPN	_	_	10	nmod	_	_
-14	'	'	SYM	_	_	17	nmod	_	SpaceAfter=No
+14	'	'	PUNCT	fe	PunctType=Quot	17	punct	_	SpaceAfter=No
 15	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 16	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	necessitat	necessitat	NOUN	_	Gender=Fem|Number=Sing	7	ccomp	_	_
@@ -21305,12 +21305,12 @@
 31	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	32	det	_	_
 32	servei	servei	NOUN	_	Gender=Masc|Number=Sing	29	nmod	_	_
 33	públic	públic	ADJ	_	Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
-34	'	'	SYM	_	_	19	nmod	_	SpaceAfter=No
+34	'	'	PUNCT	fe	PunctType=Quot	19	punct	_	SpaceAfter=No
 35	,	,	PUNCT	_	PunctType=Comm	36	punct	_	_
 36	per	per	ADP	_	_	19	mark	_	MWE=per_tal_de|MWEPOS=ADP
 37	tal	tal	NOUN	_	_	36	fixed	_	_
 38	de	de	ADP	_	_	36	fixed	_	_
-39	'	'	SYM	_	_	36	conj	_	SpaceAfter=No
+39	'	'	PUNCT	fe	PunctType=Quot	36	punct	_	SpaceAfter=No
 40	dotar	dotar	VERB	_	VerbForm=Inf	36	conj	_	_
 41	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	país	país	NOUN	_	Gender=Masc|Number=Sing	40	obj	_	_
@@ -21343,13 +21343,13 @@
 68	de	de	ADP	_	_	67	fixed	_	_
 69	perspectiva	perspectiva	NOUN	_	Gender=Fem|Number=Sing	65	conj	_	_
 70	catalana	català	ADJ	_	Gender=Fem|Number=Sing	69	amod	_	SpaceAfter=No
-71	'	'	SYM	_	_	36	conj	_	SpaceAfter=No
+71	'	'	PUNCT	fe	PunctType=Quot	36	punct	_	SpaceAfter=No
 72	,	,	PUNCT	_	PunctType=Comm	80	punct	_	_
 73	així	així	ADV	_	_	80	cc	_	MWE=així_com|MWEPOS=CCONJ
 74	com	com	SCONJ	_	_	73	fixed	_	_
 75	que	que	SCONJ	_	_	80	mark	_	_
 76	sigui	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	80	cop	_	_
-77	'	'	SYM	_	_	80	nmod	_	SpaceAfter=No
+77	'	'	PUNCT	fe	PunctType=Quot	80	punct	_	SpaceAfter=No
 78	tant	tant	ADV	_	_	80	cc	_	_
 79	de	de	ADP	_	_	80	case	_	_
 80	consum	consum	NOUN	_	Gender=Masc|Number=Sing	36	conj	_	_
@@ -21384,7 +21384,7 @@
 106	esdevinguin	esdevenir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	104	acl	_	_
 107	a	a	ADP	_	_	108	case	_	_
 108	Catalunya	Catalunya	PROPN	_	_	106	obl	_	SpaceAfter=No
-109	'	'	SYM	_	_	80	nmod	_	SpaceAfter=No
+109	'	'	PUNCT	fe	PunctType=Quot	80	punct	_	SpaceAfter=No
 110	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
 # sent_id = CESS-CAT-A-20011023-41218-s7
@@ -21421,7 +21421,7 @@
 3	insistir	insistir	VERB	_	VerbForm=Inf	0	root	_	_
 4	que	que	SCONJ	_	_	7	mark	_	_
 5	ERC	ERC	PROPN	_	_	7	nsubj	_	_
-6	'	'	SYM	_	_	7	nmod	_	SpaceAfter=No
+6	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	SpaceAfter=No
 7	té	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 8	en	en	ADP	_	_	11	case	_	_
 9	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	11	det	_	MWE=el_seu|MWEPOS=DET
@@ -21453,13 +21453,13 @@
 34	en	en	ADP	_	_	35	case	_	_
 35	llengua	llengua	NOUN	_	Gender=Fem|Number=Sing	28	conj	_	_
 36	catalana	català	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
-37	'	'	SYM	_	_	20	nmod	_	SpaceAfter=No
+37	'	'	PUNCT	fe	PunctType=Quot	20	punct	_	SpaceAfter=No
 38	,	,	PUNCT	_	PunctType=Comm	42	punct	_	_
 39	en	en	ADP	_	_	41	case	_	_
 40	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 41	qual	qual	PRON	_	Number=Sing|PronType=Rel	42	obl	_	_
 42	creuen	creure	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl	_	_
-43	'	'	SYM	_	_	53	nmod	_	SpaceAfter=No
+43	'	'	PUNCT	fe	PunctType=Quot	53	punct	_	SpaceAfter=No
 44	que	que	SCONJ	_	_	53	mark	_	_
 45	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
 46	existència	existència	NOUN	_	Gender=Fem|Number=Sing	53	nsubj	_	_
@@ -21485,7 +21485,7 @@
 66	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	68	det	_	MWE=la_seva|MWEPOS=DET
 67	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	68	det	_	_
 68	creació	creació	NOUN	_	Gender=Fem|Number=Sing	64	obj	_	SpaceAfter=No
-69	'	'	SYM	_	_	57	nmod	_	SpaceAfter=No
+69	'	'	PUNCT	fe	PunctType=Quot	57	punct	_	SpaceAfter=No
 70	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-A-20011023-41218-s9
@@ -21617,7 +21617,7 @@
 17	que	que	SCONJ	_	_	23	mark	_	_
 18	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	proposició	proposició	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
-20	'	'	SYM	_	_	23	nmod	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	SpaceAfter=No
 21	hauria	haver	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	23	aux	_	_
 22	de	de	ADP	_	_	23	mark	_	_
 23	portar	portar	VERB	_	VerbForm=Inf	16	xcomp	_	_
@@ -21639,7 +21639,7 @@
 39	de	de	ADP	_	_	41	case	_	_
 40	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	informació	informació	NOUN	_	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
-42	'	'	SYM	_	_	23	nmod	_	SpaceAfter=No
+42	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	SpaceAfter=No
 43	.	.	PUNCT	_	PunctType=Peri	16	punct	_	_
 
 # sent_id = CESS-CAT-A-20011023-41218-s12
@@ -21656,7 +21656,7 @@
 9	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	afegir	afegir	VERB	_	VerbForm=Inf	3	conj	_	_
 11	que	que	SCONJ	_	_	14	mark	_	_
-12	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+12	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 13	no	no	ADV	_	Polarity=Neg	14	advmod	_	_
 14	tenim	tenir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
 15	clar	clar	ADJ	_	Gender=Masc|Number=Sing	14	iobj	_	_
@@ -21683,7 +21683,7 @@
 36	oficial	oficial	ADJ	_	Number=Sing	35	amod	_	_
 37	de	de	ADP	_	_	38	case	_	_
 38	notícies	notícia	NOUN	_	Gender=Fem|Number=Plur	35	nmod	_	SpaceAfter=No
-39	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+39	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-A-20011023-41218-s13
@@ -21716,7 +21716,7 @@
 25	català	català	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
 26	,	,	PUNCT	_	PunctType=Comm	31	punct	_	_
 27	però	però	CCONJ	_	_	31	cc	_	_
-28	'	'	SYM	_	_	31	nmod	_	SpaceAfter=No
+28	'	'	PUNCT	fe	PunctType=Quot	31	punct	_	SpaceAfter=No
 29	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	30	det	_	_
 30	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	31	nsubj	_	_
 31	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
@@ -21742,7 +21742,7 @@
 50	Catalana	Catalana	PROPN	_	_	49	flat	_	_
 51	de	de	ADP	_	_	52	case	_	_
 52	Comunicació	Comunicació	PROPN	_	_	49	flat	_	SpaceAfter=No
-53	'	'	SYM	_	_	31	nmod	_	SpaceAfter=No
+53	'	'	PUNCT	fe	PunctType=Quot	31	punct	_	SpaceAfter=No
 54	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
 # sent_id = CESS-CAT-A-20011023-41218-s14
@@ -21758,7 +21758,7 @@
 8	CiU	CiU	PROPN	_	_	6	nmod	_	_
 9	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 10	afegir	afegir	VERB	_	VerbForm=Inf	0	root	_	_
-11	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 12	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	14	det	_	MWE=el_nostre|MWEPOS=DET
 13	nostre	nostre	DET	_	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det	_	_
 14	grup	grup	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -21784,7 +21784,7 @@
 34	pugui	poder	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
 35	ser	ser	AUX	_	VerbForm=Inf	36	cop	_	_
 36	privada	privat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	30	xcomp	_	SpaceAfter=No
-37	'	'	SYM	_	_	18	nmod	_	SpaceAfter=No
+37	'	'	PUNCT	fe	PunctType=Quot	18	punct	_	SpaceAfter=No
 38	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
 # sent_id = CESS-CAT-A-20011023-41218-s15
@@ -21795,20 +21795,20 @@
 3	que	que	SCONJ	_	_	11	mark	_	_
 4	transformar	transformar	VERB	_	VerbForm=Inf	11	csubj	_	_
 5	Efe	Efe	PROPN	_	_	4	obj	_	_
-6	'	'	SYM	_	_	2	nmod	_	SpaceAfter=No
+6	'	'	PUNCT	fe	PunctType=Quot	2	punct	_	SpaceAfter=No
 7	no	no	ADV	_	Polarity=Neg	11	advmod	_	_
 8	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	11	cop	_	_
 9	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
 10	bon	bo	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
 11	camí	camí	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
-12	'	'	SYM	_	_	6	conj	_	_
+12	'	'	PUNCT	fe	PunctType=Quot	6	punct	_	_
 13	sinó	sinó	CCONJ	_	_	18	cc	_	MWE=sinó_que|MWEPOS=CCONJ
 14	que	que	SCONJ	_	_	13	fixed	_	_
 15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
 17	caldria	caldre	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	18	csubj	_	_
 18	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
-19	'	'	SYM	_	_	20	nmod	_	SpaceAfter=No
+19	'	'	PUNCT	fe	PunctType=Quot	20	punct	_	SpaceAfter=No
 20	demanar	demanar	VERB	_	VerbForm=Inf	18	ccomp	_	_
 21	recursos	recurs	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
 22	per	per	ADP	_	_	25	mark	_	MWE=per_tal_de|MWEPOS=ADP
@@ -21821,7 +21821,7 @@
 29	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	30	det	_	_
 30	agència	agència	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
 31	pròpia	propi	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
-32	'	'	PUNCT	_	_	20	punct	_	_
+32	'	'	PUNCT	fe	PunctType=Quot	20	punct	_	_
 33	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	_
 
 # newdoc id = CESS-CAT-A-20011102-115
@@ -21927,7 +21927,7 @@
 28	de	de	ADP	_	_	29	case	_	_
 29	Lucia	Lucia	PROPN	_	_	27	nmod	_	MWE=Lucia_Etxebarria|MWEPOS=PROPN
 30	Etxebarria	Etxebarria	PROPN	_	_	29	flat	_	_
-31	'	'	SYM	_	_	32	nmod	_	SpaceAfter=No
+31	'	'	PUNCT	fe	PunctType=Quot	32	punct	_	SpaceAfter=No
 32	Amor	Amor	PROPN	_	_	27	appos	_	MWE=Amor_,_curiosidad_,_Prozac_y_dudas|MWEPOS=PROPN
 33	,	,	PUNCT	_	_	34	punct	_	_
 34	curiosidad	curiosidad	PROPN	_	_	32	conj	_	_
@@ -21935,7 +21935,7 @@
 36	Prozac	Prozac	PROPN	_	_	32	conj	_	_
 37	y	y	CCONJ	_	_	38	cc	_	_
 38	dudas	dudas	PROPN	_	_	32	conj	_	SpaceAfter=No
-39	'	'	SYM	_	_	32	nmod	_	SpaceAfter=No
+39	'	'	PUNCT	fe	PunctType=Quot	32	punct	_	SpaceAfter=No
 40	,	,	PUNCT	_	PunctType=Comm	41	punct	_	_
 41	després	després	ADV	_	_	11	advmod	_	_
 42	de	de	ADP	_	_	44	case	_	_
@@ -22017,22 +22017,22 @@
 # sent_id = CESS-CAT-A-20020121-46870-s4
 # text = 'Amor , Prozac i dubtes' és una adaptació lliure però 'molt fidel' de la popular novel·la de Lucía Etxebarria 'Amor , curiosidad , Prozac y dudas', que explica la història de tres germanes, a la trentena, que dubten i pateixen per tots els conflictes de la vida que els ha tocat viure i que volen canviar definitivament.
 # orig_file_sentence 005#98
-1	'	'	SYM	_	_	2	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	2	punct	_	SpaceAfter=No
 2	Amor	Amor	PROPN	_	_	10	nsubj	_	MWE=Amor_,_Prozac_i_dubtes|MWEPOS=PROPN
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	Prozac	Prozac	PROPN	_	_	2	conj	_	_
 5	i	i	CCONJ	_	_	6	cc	_	_
 6	dubtes	dubtes	PROPN	_	_	2	conj	_	SpaceAfter=No
-7	'	'	SYM	_	_	2	nmod	_	_
+7	'	'	PUNCT	fe	PunctType=Quot	2	punct	_	_
 8	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 9	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
 10	adaptació	adaptació	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 11	lliure	lliure	ADJ	_	Number=Sing	10	amod	_	_
 12	però	però	CCONJ	_	_	15	cc	_	_
-13	'	'	SYM	_	_	15	nmod	_	SpaceAfter=No
+13	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	SpaceAfter=No
 14	molt	molt	ADV	_	_	15	advmod	_	_
 15	fidel	fidel	ADJ	_	Number=Sing	11	conj	_	SpaceAfter=No
-16	'	'	SYM	_	_	15	nmod	_	_
+16	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	_
 17	de	de	ADP	_	_	20	case	_	_
 18	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	popular	popular	ADJ	_	Number=Sing	20	amod	_	_
@@ -22040,7 +22040,7 @@
 21	de	de	ADP	_	_	22	case	_	_
 22	Lucía	Lucía	PROPN	_	_	20	nmod	_	MWE=Lucía_Etxebarria|MWEPOS=PROPN
 23	Etxebarria	Etxebarria	PROPN	_	_	22	flat	_	_
-24	'	'	SYM	_	_	25	nmod	_	SpaceAfter=No
+24	'	'	PUNCT	fe	PunctType=Quot	25	punct	_	SpaceAfter=No
 25	Amor	Amor	PROPN	_	_	20	appos	_	MWE=Amor_,_curiosidad_,_Prozac_y_dudas|MWEPOS=PROPN
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	curiosidad	curiosidad	PROPN	_	_	25	conj	_	_
@@ -22048,7 +22048,7 @@
 29	Prozac	Prozac	PROPN	_	_	25	conj	_	_
 30	y	y	CCONJ	_	_	31	cc	_	_
 31	dudas	dudas	PROPN	_	_	25	conj	_	SpaceAfter=No
-32	'	'	SYM	_	_	25	nmod	_	SpaceAfter=No
+32	'	'	PUNCT	fe	PunctType=Quot	25	punct	_	SpaceAfter=No
 33	,	,	PUNCT	_	PunctType=Comm	35	punct	_	_
 34	que	que	PRON	_	PronType=Rel	35	nsubj	_	_
 35	explica	explicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl	_	_
@@ -22284,7 +22284,7 @@
 5	obra	obra	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
 6	tracta	tractar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 7	amb	amb	ADP	_	_	9	case	_	_
-8	'	'	SYM	_	_	9	nmod	_	SpaceAfter=No
+8	'	'	PUNCT	fe	PunctType=Quot	9	punct	_	SpaceAfter=No
 9	humor	humor	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
 11	ironia	ironia	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
@@ -22302,7 +22302,7 @@
 23	de	de	ADP	_	_	25	case	_	_
 24	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	vida	vida	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
-26	'	'	SYM	_	_	15	nmod	_	_
+26	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	_
 27	i	i	CCONJ	_	_	29	cc	_	_
 28	ho	ell	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
 29	fa	fer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
@@ -22332,7 +22332,7 @@
 15	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 16	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	17	det	_	_
 17	peça	peça	NOUN	_	Number=Sing	0	root	_	_
-18	'	'	SYM	_	_	17	nmod	_	SpaceAfter=No
+18	'	'	PUNCT	fe	PunctType=Quot	17	punct	_	SpaceAfter=No
 19	molt	molt	ADV	_	_	20	advmod	_	_
 20	moderna	modern	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
 21	perquè	perquè	SCONJ	_	_	23	mark	_	_
@@ -22347,7 +22347,7 @@
 30	pot	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
 31	reconèixer	reconèixer	VERB	_	VerbForm=Inf	23	acl	_	_
 32	fàcilment	fàcilment	ADV	_	_	31	advmod	_	SpaceAfter=No
-33	'	'	SYM	_	_	23	nmod	_	SpaceAfter=No
+33	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	SpaceAfter=No
 34	.	.	PUNCT	_	PunctType=Peri	17	punct	_	_
 
 # sent_id = CESS-CAT-A-20020121-46870-s11
@@ -22514,12 +22514,12 @@
 21	total	total	ADJ	_	Number=Sing	22	amod	_	_
 22	llibertat	llibertat	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	_
 23	i	i	CCONJ	_	_	26	cc	_	_
-24	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
+24	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	SpaceAfter=No
 25	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	26	det	_	_
 26	vot	vot	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	confiança	confiança	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
-29	'	'	SYM	_	_	26	nmod	_	_
+29	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	_
 30	a	a	ADP	_	_	32	case	_	_
 31	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	companyia	companyia	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
@@ -22624,7 +22624,7 @@
 24	paraules	paraula	NOUN	_	Gender=Fem|Number=Plur	35	obl	_	_
 25	seves	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	det	_	_
 26	-	-	PUNCT	_	PunctType=Dash	24	punct	_	_
-27	'	'	SYM	_	_	30	nmod	_	SpaceAfter=No
+27	'	'	PUNCT	fe	PunctType=Quot	30	punct	_	SpaceAfter=No
 28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 29	que	que	PRON	_	PronType=Rel	30	nsubj	_	_
 30	falta	faltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	csubj	_	_
@@ -22638,7 +22638,7 @@
 38	teatre	teatre	NOUN	_	Gender=Masc|Number=Sing	35	nmod	_	_
 39	català	català	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	_
 40	contemporani	contemporani	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
-41	'	'	SYM	_	_	35	nmod	_	SpaceAfter=No
+41	'	'	PUNCT	fe	PunctType=Quot	35	punct	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
 # sent_id = CESS-CAT-A-20020121-46870-s20
@@ -22664,9 +22664,9 @@
 8	-les	-les	PROPN	_	_	7	flat	_	_
 9	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	12	iobj	_	SpaceAfter=No
 10	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-11	'	'	SYM	_	_	12	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	SpaceAfter=No
 12	especialitzat	especialitzar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
-13	'	'	SYM	_	_	12	nmod	_	_
+13	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	_
 14	en	en	ADP	_	_	15	mark	_	_
 15	portar	portar	VERB	_	VerbForm=Inf	12	xcomp	_	_
 16	a	a	ADP	_	_	17	case	_	_
@@ -22697,7 +22697,7 @@
 14	feminisme	feminisme	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
 15	sinó	sinó	CCONJ	_	_	19	cc	_	_
 16	perquè	perquè	SCONJ	_	_	19	mark	_	_
-17	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+17	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 18	som	ser	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	cop	_	_
 19	dones	dona	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	_
 20	i	i	CCONJ	_	_	21	cc	_	_
@@ -22711,7 +22711,7 @@
 28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 29	que	que	PRON	_	PronType=Rel	30	obj	_	_
 30	coneixem	conèixer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	ccomp	_	SpaceAfter=No
-31	'	'	SYM	_	_	22	nmod	_	SpaceAfter=No
+31	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 32	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = CESS-CAT-A-20020121-46870-s23
@@ -22727,11 +22727,11 @@
 7	amb	amb	ADP	_	_	9	case	_	_
 8	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	text	text	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	_
-10	'	'	SYM	_	_	12	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	SpaceAfter=No
 11	Amb	Amb	ADP	_	_	10	case	_	MWE=Amb_doble_intenció|MWEPOS=PROPN
 12	doble	doble	PROPN	_	_	9	appos	_	_
 13	intenció	intenció	PROPN	_	_	12	flat	_	SpaceAfter=No
-14	'	'	SYM	_	_	10	nmod	_	_
+14	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	_
 15	escrit	escrit	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	9	amod	_	_
 16	per	per	ADP	_	_	19	case	_	_
 17	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
@@ -22755,9 +22755,9 @@
 10	valenciana	valencià	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
 11	Isabel	Isabel	PROPN	_	_	7	nmod	_	MWE=Isabel_Clara-Simó|MWEPOS=PROPN
 12	Clara-Simó	Clara-Simó	PROPN	_	_	11	flat	_	_
-13	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+13	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 14	Dones	Dones	PROPN	_	_	7	appos	_	SpaceAfter=No
-15	'	'	SYM	_	_	14	nmod	_	_
+15	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	_
 16	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
 17	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
 18	tenir	tenir	VERB	_	VerbForm=Inf	7	acl	_	_
@@ -22786,13 +22786,13 @@
 # sent_id = CESS-CAT-A-20020121-46870-s25
 # text = 'Amor , Prozac i dubtes' és la tercera obra de la companyia, i segona vegada que adapten un text literari.
 # orig_file_sentence 006#20
-1	'	'	SYM	_	_	2	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	2	punct	_	SpaceAfter=No
 2	Amor	Amor	PROPN	_	_	11	nsubj	_	MWE=Amor_,_Prozac_i_dubtes|MWEPOS=PROPN
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	Prozac	Prozac	PROPN	_	_	2	conj	_	_
 5	i	i	CCONJ	_	_	6	cc	_	_
 6	dubtes	dubtes	PROPN	_	_	2	conj	_	SpaceAfter=No
-7	'	'	SYM	_	_	2	nmod	_	_
+7	'	'	PUNCT	fe	PunctType=Quot	2	punct	_	_
 8	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 9	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 10	tercera	tercer	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	11	amod	_	_
@@ -22821,7 +22821,7 @@
 5	fet	fet	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
 6	assegurant	assegurar	VERB	_	VerbForm=Ger	3	advcl	_	_
 7	que	que	SCONJ	_	_	11	mark	_	_
-8	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+8	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 9	no	no	ADV	_	Polarity=Neg	11	advmod	_	_
 10	hi	hi	PRON	_	Case=Loc|Person=3|PronType=Prs	11	obj	_	_
 11	ha	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
@@ -22830,7 +22830,7 @@
 14	per	per	ADP	_	_	16	case	_	_
 15	a	a	ADP	_	_	16	case	_	_
 16	dones	dona	NOUN	_	Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
-17	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+17	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # newdoc id = CESS-CAT-A-20020124-47193
@@ -23025,14 +23025,14 @@
 19	de	de	ADP	_	_	21	case	_	_
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	projecte	projecte	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
-22	'	'	SYM	_	_	23	nmod	_	SpaceAfter=No
+22	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	SpaceAfter=No
 23	Costa	Costa	PROPN	_	_	21	appos	_	MWE=Costa_Brava_:_Paisatge_i_turisme|MWEPOS=PROPN
 24	Brava	Brava	PROPN	_	_	23	flat	_	_
 25	:	:	PUNCT	_	_	26	punct	_	_
 26	Paisatge	Paisatge	PROPN	_	_	23	flat	_	_
 27	i	i	CCONJ	_	_	28	cc	_	_
 28	turisme	turisme	PROPN	_	_	26	conj	_	SpaceAfter=No
-29	'	'	SYM	_	_	23	nmod	_	SpaceAfter=No
+29	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	SpaceAfter=No
 30	,	,	PUNCT	_	PunctType=Comm	34	punct	_	_
 31	que	que	PRON	_	PronType=Rel	34	nsubj	_	_
 32	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
@@ -23991,10 +23991,10 @@
 9	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
 10	està	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 11	en	en	ADP	_	_	14	case	_	_
-12	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+12	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 13	constant	constant	ADJ	_	Number=Sing	14	amod	_	_
 14	creixement	creixement	NOUN	_	Gender=Masc|Number=Sing	6	acl	_	SpaceAfter=No
-15	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+15	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 16	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 17	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	obj	_	SpaceAfter=No
 18	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
@@ -24006,10 +24006,10 @@
 24	Berguedà	Berguedà	PROPN	_	_	25	nsubj	_	_
 25	té	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
 26	una	un	NUM	_	Gender=Fem|Number=Sing|NumType=Card	29	nummod	_	_
-27	'	'	SYM	_	_	29	nmod	_	SpaceAfter=No
+27	'	'	PUNCT	fe	PunctType=Quot	29	punct	_	SpaceAfter=No
 28	enorme	enorme	ADJ	_	Number=Sing	29	amod	_	_
 29	varietat	varietat	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
-30	'	'	SYM	_	_	29	nmod	_	_
+30	'	'	PUNCT	fe	PunctType=Quot	29	punct	_	_
 31	de	de	ADP	_	_	32	case	_	_
 32	punts	punt	NOUN	_	Gender=Masc|Number=Plur	29	nmod	_	_
 33	d'	de	ADP	_	_	34	case	_	SpaceAfter=No
@@ -24138,7 +24138,7 @@
 16	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	dit	dir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 18	que	que	SCONJ	_	_	25	mark	_	_
-19	'	'	SYM	_	_	25	nmod	_	SpaceAfter=No
+19	'	'	PUNCT	fe	PunctType=Quot	25	punct	_	SpaceAfter=No
 20	fa	fer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	_
 21	25	25	NUM	_	NumForm=Digit|NumType=Card	22	nummod	_	_
 22	anys	any	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
@@ -24152,11 +24152,11 @@
 30	i	i	CCONJ	_	_	32	cc	_	_
 31	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	PSC	PSC	PROPN	_	_	29	conj	_	SpaceAfter=No
-33	'	'	SYM	_	_	25	nmod	_	_
+33	'	'	PUNCT	fe	PunctType=Quot	25	punct	_	_
 34	i	i	CCONJ	_	_	36	cc	_	_
 35	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
 36	afegit	afegir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	_
-37	'	'	SYM	_	_	40	nmod	_	SpaceAfter=No
+37	'	'	PUNCT	fe	PunctType=Quot	40	punct	_	SpaceAfter=No
 38	ja	ja	ADV	_	_	40	nsubj	_	_
 39	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
 40	hora	hora	NOUN	_	Gender=Fem|Number=Sing	36	ccomp	_	_
@@ -24170,7 +24170,7 @@
 48	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	cop	_	_
 49	de	de	ADP	_	_	50	case	_	_
 50	tots	tot	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	40	advcl	_	SpaceAfter=No
-51	'	'	SYM	_	_	40	nmod	_	SpaceAfter=No
+51	'	'	PUNCT	fe	PunctType=Quot	40	punct	_	SpaceAfter=No
 52	.	.	PUNCT	_	PunctType=Peri	17	punct	_	_
 
 # sent_id = CESS-CAT-A-20030522-88507-s2
@@ -24183,13 +24183,13 @@
 5	Carod-Rovira	Carod-Rovira	PROPN	_	_	7	nsubj	_	_
 6	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 7	criticat	criticar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-8	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+8	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 9	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Catalunya	Catalunya	PROPN	_	_	7	obj	_	_
 11	bipartidista	bipartidista	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 12	i	i	CCONJ	_	_	13	cc	_	_
 13	enfrontada	enfrontat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	11	conj	_	SpaceAfter=No
-14	'	'	SYM	_	_	10	nmod	_	_
+14	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	_
 15-16	dels	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	18	case	_	_
 16	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
@@ -24220,14 +24220,14 @@
 17	CiU	CiU	PROPN	_	_	11	nmod	_	_
 18	dient	dir	VERB	_	VerbForm=Ger	9	acl	_	_
 19	que	que	SCONJ	_	_	22	mark	_	_
-20	'	'	SYM	_	_	22	nmod	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 21	CiU	CiU	PROPN	_	_	22	nsubj	_	_
 22	defensa	defensar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
 23	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	puresa	puresa	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
 25	de	de	ADP	_	_	26	case	_	_
 26	sang	sang	NOUN	_	Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
-27	'	'	SYM	_	_	22	nmod	_	_
+27	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	_
 28	i	i	CCONJ	_	_	30	cc	_	_
 29	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
@@ -24239,7 +24239,7 @@
 35	PSC	PSC	PROPN	_	_	30	nmod	_	_
 36	que	que	PRON	_	PronType=Rel	37	nsubj	_	_
 37	alertava	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	30	acl	_	_
-38	'	'	SYM	_	_	44	nmod	_	SpaceAfter=No
+38	'	'	PUNCT	fe	PunctType=Quot	44	punct	_	SpaceAfter=No
 39	si	si	SCONJ	_	_	40	mark	_	_
 40	guanyen	guanyar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	advcl	_	_
 41	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
@@ -24250,7 +24250,7 @@
 46	gent	gent	NOUN	_	Gender=Fem|Number=Sing	44	nsubj	_	_
 47	de	de	ADP	_	_	48	case	_	_
 48	fora	fora	ADV	_	_	46	advmod	_	SpaceAfter=No
-49	'	'	SYM	_	_	44	nmod	_	SpaceAfter=No
+49	'	'	PUNCT	fe	PunctType=Quot	44	punct	_	SpaceAfter=No
 50	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = CESS-CAT-A-20030522-88507-s4
@@ -24314,7 +24314,7 @@
 16	de	de	ADP	_	_	17	case	_	_
 17	Reus	Reus	PROPN	_	_	14	flat	_	_
 18	que	que	SCONJ	_	_	26	mark	_	_
-19	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
+19	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	SpaceAfter=No
 20	Catalunya	Catalunya	PROPN	_	_	26	nsubj	_	_
 21	fa	fer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	_
 22	25	25	NUM	_	NumForm=Digit|NumType=Card	23	nummod	_	_
@@ -24329,12 +24329,12 @@
 31	i	i	CCONJ	_	_	33	cc	_	_
 32	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	PSC	PSC	PROPN	_	_	30	conj	_	SpaceAfter=No
-34	'	'	SYM	_	_	26	nmod	_	_
+34	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	_
 35	i	i	CCONJ	_	_	37	cc	_	_
 36	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
 37	dit	dir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
 38	que	que	SCONJ	_	_	42	mark	_	_
-39	'	'	SYM	_	_	42	nmod	_	SpaceAfter=No
+39	'	'	PUNCT	fe	PunctType=Quot	42	punct	_	SpaceAfter=No
 40	ja	ja	ADV	_	_	42	nsubj	_	_
 41	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
 42	hora	hora	NOUN	_	Gender=Fem|Number=Sing	37	ccomp	_	_
@@ -24347,7 +24347,7 @@
 49	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	cop	_	_
 50	de	de	ADP	_	_	51	case	_	_
 51	tots	tot	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	42	advcl	_	SpaceAfter=No
-52	'	'	SYM	_	_	42	nmod	_	SpaceAfter=No
+52	'	'	PUNCT	fe	PunctType=Quot	42	punct	_	SpaceAfter=No
 53	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAT-A-20030522-88507-s6
@@ -24397,14 +24397,14 @@
 19	Unió	Unió	PROPN	_	_	17	conj	_	_
 20	dient	dir	VERB	_	VerbForm=Ger	9	acl	_	_
 21	que	que	SCONJ	_	_	24	mark	_	_
-22	'	'	SYM	_	_	24	nmod	_	SpaceAfter=No
+22	'	'	PUNCT	fe	PunctType=Quot	24	punct	_	SpaceAfter=No
 23	CiU	CiU	PROPN	_	_	24	nsubj	_	_
 24	defensa	defensar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
 25	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	puresa	puresa	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	sang	sang	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
-29	'	'	SYM	_	_	24	nmod	_	_
+29	'	'	PUNCT	fe	PunctType=Quot	24	punct	_	_
 30	i	i	CCONJ	_	_	33	cc	_	_
 31	també	també	ADV	_	_	33	advmod	_	_
 32	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
@@ -24419,7 +24419,7 @@
 40	PSC	PSC	PROPN	_	_	35	nmod	_	_
 41	que	que	PRON	_	PronType=Rel	42	nsubj	_	_
 42	alertava	alertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	acl	_	_
-43	'	'	SYM	_	_	49	nmod	_	SpaceAfter=No
+43	'	'	PUNCT	fe	PunctType=Quot	49	punct	_	SpaceAfter=No
 44	si	si	SCONJ	_	_	45	mark	_	_
 45	guanyen	guanyar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	advcl	_	_
 46	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
@@ -24430,7 +24430,7 @@
 51	gent	gent	NOUN	_	Gender=Fem|Number=Sing	49	nsubj	_	_
 52	de	de	ADP	_	_	53	case	_	_
 53	fora	fora	ADV	_	_	51	advmod	_	SpaceAfter=No
-54	'	'	SYM	_	_	49	nmod	_	SpaceAfter=No
+54	'	'	PUNCT	fe	PunctType=Quot	49	punct	_	SpaceAfter=No
 55	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = CESS-CAT-A-20030522-88507-s8
@@ -24445,7 +24445,7 @@
 7	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 8	lamentat	lamentar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
 9	que	que	SCONJ	_	_	14	mark	_	_
-10	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 11	no	no	ADV	_	Polarity=Neg	14	advmod	_	_
 12	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	14	expl:pass	_	_
 13	pot	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
@@ -24476,7 +24476,7 @@
 38	com	com	SCONJ	_	_	40	case	_	_
 39	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
 40	primers	primer	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	35	obl	_	SpaceAfter=No
-41	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+41	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-A-20030522-88507-s9
@@ -24529,7 +24529,7 @@
 3	que	que	SCONJ	_	_	5	mark	_	_
 4	això	això	PRON	_	Number=Sing|PronType=Dem	5	nsubj	_	_
 5	acabarà	acabar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	advcl	_	_
-6	'	'	SYM	_	_	5	nmod	_	SpaceAfter=No
+6	'	'	PUNCT	fe	PunctType=Quot	5	punct	_	SpaceAfter=No
 7	amb	amb	ADP	_	_	9	case	_	_
 8	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	règim	règim	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
@@ -24540,7 +24540,7 @@
 14	CiU	CiU	PROPN	_	_	13	obj	_	_
 15	i	i	CCONJ	_	_	16	cc	_	_
 16	PSC	PSC	PROPN	_	_	14	conj	_	SpaceAfter=No
-17	'	'	SYM	_	_	5	nmod	_	_
+17	'	'	PUNCT	fe	PunctType=Quot	5	punct	_	_
 18	i	i	CCONJ	_	_	20	cc	_	_
 19	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	afegit	afegir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
@@ -24571,7 +24571,7 @@
 7	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
 8	enquestes	enquesta	NOUN	_	Gender=Fem|Number=Plur	14	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	PunctType=Comm	8	punct	_	_
-10	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 11	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
 12	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
 13	bona	bo	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
@@ -24595,7 +24595,7 @@
 31	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
 32	Illes	Illes	PROPN	_	_	24	conj	_	MWE=Illes_Balears|MWEPOS=PROPN
 33	Balears	Balears	PROPN	_	_	32	flat	_	SpaceAfter=No
-34	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+34	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 35	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-A-20030522-88507-s12
@@ -24607,7 +24607,7 @@
 4	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 5	dit	dir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	que	que	SCONJ	_	_	11	mark	_	_
-7	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+7	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 8	ja	ja	ADV	_	_	11	advmod	_	_
 9	n'	en	PRON	_	Case=Gen|Person=3|PronType=Prs	11	obj	_	SpaceAfter=No
 10	hi	hi	PRON	_	Case=Loc|Person=3|PronType=Prs	11	obj	_	_
@@ -24621,7 +24621,7 @@
 18	canvi	canvi	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	res	res	PRON	_	Number=Sing|PronType=Ind	18	nmod	_	SpaceAfter=No
-21	'	'	SYM	_	_	11	nmod	_	_
+21	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	_
 22	i	i	CCONJ	_	_	24	cc	_	_
 23	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 24	denunciat	denunciar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
@@ -24669,16 +24669,16 @@
 24	i	i	CCONJ	_	_	25	cc	_	_
 25	PSC	PSC	PROPN	_	_	23	conj	_	_
 26	responen	respondre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	xcomp	_	SpaceAfter=No
-27	'	'	SYM	_	_	26	nmod	_	_
+27	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	_
 28	a	a	ADP	_	_	27	case	_	_
 29	sus	sus	NOUN	_	_	30	nmod	_	_
 30	órdenes	órdenes	NOUN	_	_	27	obj	_	_
-31	'	'	SYM	_	_	27	nmod	_	SpaceAfter=No
+31	'	'	PUNCT	fe	PunctType=Quot	27	punct	_	SpaceAfter=No
 32	i	i	CCONJ	_	_	34	cc	_	_
 33	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
 34	afegit	afegir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
 35	que	que	SCONJ	_	_	39	mark	_	SpaceAfter=No
-36	'	'	SYM	_	_	39	nmod	_	_
+36	'	'	PUNCT	fe	PunctType=Quot	39	punct	_	_
 37	quan	quan	SCONJ	_	_	39	mark	_	_
 38	ens	jo	PRON	_	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	39	obj	_	_
 39	truquin	trucar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	ccomp	_	_
@@ -24706,7 +24706,7 @@
 61	per	per	ADP	_	_	63	case	_	_
 62	a	a	ADP	_	_	63	case	_	_
 63	ells	ell	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	60	nmod	_	_
-64	'	'	SYM	_	_	39	nmod	_	SpaceAfter=No
+64	'	'	PUNCT	fe	PunctType=Quot	39	punct	_	SpaceAfter=No
 65	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
 # sent_id = CESS-CAT-A-20030522-88507-s14
@@ -24957,7 +24957,7 @@
 44	de	de	ADP	_	_	46	case	_	_
 45	l'	l'	DET	_	Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
 46	Infant	Infant	PROPN	_	_	43	flat	_	_
-47	'	'	SYM	_	_	50	nmod	_	SpaceAfter=No
+47	'	'	PUNCT	fe	PunctType=Quot	50	punct	_	SpaceAfter=No
 48	sigui	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	cop	_	_
 49	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	50	det	_	SpaceAfter=No
 50	escollida	escollit	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	26	acl	_	_
@@ -24989,7 +24989,7 @@
 75	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	77	det	_	_
 76	transcendental	transcendental	ADJ	_	Number=Sing	77	amod	_	_
 77	projecte	projecte	NOUN	_	Gender=Masc|Number=Sing	72	nmod	_	SpaceAfter=No
-78	'	'	SYM	_	_	50	nmod	_	SpaceAfter=No
+78	'	'	PUNCT	fe	PunctType=Quot	50	punct	_	SpaceAfter=No
 79	.	.	PUNCT	_	PunctType=Peri	19	punct	_	_
 
 # sent_id = CESS-CAT-A-20030905-98951-s2
@@ -25041,7 +25041,7 @@
 20	lamenta	lamentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
 21	que	que	SCONJ	_	_	52	mark	_	SpaceAfter=No
 22	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
-23	'	'	SYM	_	_	25	nmod	_	SpaceAfter=No
+23	'	'	PUNCT	fe	PunctType=Quot	25	punct	_	SpaceAfter=No
 24	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
 25	qüestió	qüestió	NOUN	_	Gender=Fem|Number=Sing	52	nsubj	_	_
 26	de	de	ADP	_	_	29	case	_	_
@@ -25090,7 +25090,7 @@
 68	mereixia	merèixer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	55	acl	_	_
 69	i	i	CCONJ	_	_	70	cc	_	_
 70	mereix	merèixer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	68	conj	_	SpaceAfter=No
-71	'	'	SYM	_	_	52	nmod	_	SpaceAfter=No
+71	'	'	PUNCT	fe	PunctType=Quot	52	punct	_	SpaceAfter=No
 72	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = CESS-CAT-A-20030905-98951-s4
@@ -25167,7 +25167,7 @@
 31	uns	un	DET	_	Gender=Masc|Number=Plur|PronType=Ind	32	det	_	_
 32	anys	any	NOUN	_	Gender=Masc|Number=Plur	30	obj	_	SpaceAfter=No
 33	,	,	PUNCT	_	PunctType=Comm	34	punct	_	_
-34	'	'	SYM	_	_	32	nmod	_	SpaceAfter=No
+34	'	'	PUNCT	fe	PunctType=Quot	32	punct	_	SpaceAfter=No
 35	per	per	ADP	_	_	34	mark	_	_
 36	endegar	endegar	VERB	_	VerbForm=Inf	34	acl	_	_
 37	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	38	det	_	_
@@ -25184,7 +25184,7 @@
 48	les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	50	det	_	MWE=les_nostres|MWEPOS=DET
 49	nostres	nostre	DET	_	Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	50	det	_	_
 50	comarques	comarca	NOUN	_	Gender=Fem|Number=Plur	38	nmod	_	SpaceAfter=No
-51	'	'	SYM	_	_	34	nmod	_	SpaceAfter=No
+51	'	'	PUNCT	fe	PunctType=Quot	34	punct	_	SpaceAfter=No
 52	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
 
 # newdoc id = CESS-CAT-A-20031219-110702
@@ -36138,11 +36138,11 @@
 21	aeris	aeri	ADJ	_	Gender=Masc|Number=Plur	20	amod	_	_
 22	han	haver	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
 23	donat	donar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-24	'	'	SYM	_	_	25	nmod	_	SpaceAfter=No
+24	'	'	PUNCT	fe	PunctType=Quot	25	punct	_	SpaceAfter=No
 25	resultats	resultat	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	_
 26	molt	molt	ADV	_	_	27	advmod	_	_
 27	satisfactoris	satisfactori	ADJ	_	Gender=Masc|Number=Plur	25	amod	_	SpaceAfter=No
-28	'	'	SYM	_	_	25	nmod	_	SpaceAfter=No
+28	'	'	PUNCT	fe	PunctType=Quot	25	punct	_	SpaceAfter=No
 29	,	,	PUNCT	_	PunctType=Comm	32	punct	_	_
 30	segons	segons	ADP	_	_	32	case	_	_
 31	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -36223,11 +36223,11 @@
 4	explicat	explicar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	que	que	SCONJ	_	_	15	mark	_	_
 6	enguany	enguany	ADV	_	_	15	advmod	_	_
-7	'	'	SYM	_	_	15	nmod	_	SpaceAfter=No
+7	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	SpaceAfter=No
 8	per	per	ADP	_	_	7	case	_	_
 9	primer	primer	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	10	amod	_	_
 10	cop	cop	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
-11	'	'	SYM	_	_	7	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	SpaceAfter=No
 12	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
 13	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	obj	_	SpaceAfter=No
 14	han	haver	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
@@ -36247,12 +36247,12 @@
 27	de	de	ADP	_	_	29	case	_	_
 28	l'	l'	DET	_	Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
 29	Ebre	Ebre	PROPN	_	_	22	flat	_	_
-30	'	'	SYM	_	_	15	nmod	_	SpaceAfter=No
+30	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	SpaceAfter=No
 31	amb	amb	ADP	_	_	30	case	_	_
 32	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	34	det	_	_
 33	gran	gran	ADJ	_	Number=Sing	34	amod	_	_
 34	resultat	resultat	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
-35	'	'	SYM	_	_	30	nmod	_	SpaceAfter=No
+35	'	'	PUNCT	fe	PunctType=Quot	30	punct	_	SpaceAfter=No
 36	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001109-19093-s5
@@ -36260,7 +36260,7 @@
 # orig_file_sentence 009#65
 1	Segons	segons	ADP	_	_	2	case	_	_
 2	Rius	Rius	PROPN	_	_	5	obl	_	_
-3	'	'	SYM	_	_	5	nmod	_	SpaceAfter=No
+3	'	'	PUNCT	fe	PunctType=Quot	5	punct	_	SpaceAfter=No
 4	hi	hi	PRON	_	Case=Loc|Person=3|PronType=Prs	5	obj	_	_
 5	haurà	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 6	pics	pic	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
@@ -36269,7 +36269,7 @@
 9	en	en	ADP	_	_	10	case	_	_
 10	moments	moment	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
 11	determinats	determinat	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	10	amod	_	SpaceAfter=No
-12	'	'	SYM	_	_	5	nmod	_	SpaceAfter=No
+12	'	'	PUNCT	fe	PunctType=Quot	5	punct	_	SpaceAfter=No
 13	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
 14	però	però	CCONJ	_	_	16	cc	_	_
 15	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	_	_
@@ -36298,10 +36298,10 @@
 7	argumentat	argumentar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 8	que	que	SCONJ	_	_	17	mark	_	_
 9	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-10	'	'	SYM	_	_	12	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	SpaceAfter=No
 11	bons	bo	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
 12	resultats	resultat	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
-13	'	'	SYM	_	_	12	nmod	_	_
+13	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	_
 14	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
 15	enguany	enguany	ADV	_	_	12	advmod	_	_
 16	són	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
@@ -36341,7 +36341,7 @@
 2	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	manifestat	manifestar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 4	que	que	SCONJ	_	_	7	mark	_	_
-5	'	'	SYM	_	_	7	nmod	_	SpaceAfter=No
+5	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	SpaceAfter=No
 6	sempre	sempre	ADV	_	_	7	advmod	_	_
 7	caldrà	caldre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
 8	estar	estar	VERB	_	VerbForm=Inf	7	csubj	_	_
@@ -36350,12 +36350,12 @@
 10	de	de	ADP	_	_	12	case	_	_
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	terreny	terreny	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
-13	'	'	SYM	_	_	7	nmod	_	_
+13	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	_
 14-15	pels	_	_	_	_	_	_	_	_
 14	per	per	ADP	_	_	13	case	_	_
 15	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
 16	canvis	canvi	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
-17	'	'	SYM	_	_	16	nmod	_	SpaceAfter=No
+17	'	'	PUNCT	fe	PunctType=Quot	16	punct	_	SpaceAfter=No
 18	constants	constant	ADJ	_	Number=Plur	16	amod	_	_
 19	i	i	CCONJ	_	_	20	cc	_	_
 20	fluctuants	fluctuant	ADJ	_	Number=Plur	18	conj	_	_
@@ -36366,7 +36366,7 @@
 24	a	a	ADP	_	_	26	case	_	_
 25	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Delta	Delta	PROPN	_	_	23	obj	_	SpaceAfter=No
-27	'	'	SYM	_	_	16	nmod	_	SpaceAfter=No
+27	'	'	PUNCT	fe	PunctType=Quot	16	punct	_	SpaceAfter=No
 28	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001109-19093-s8
@@ -36387,16 +36387,16 @@
 12	que	que	SCONJ	_	_	14	mark	_	_
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	canvi	canvi	NOUN	_	Gender=Masc|Number=Sing	11	ccomp	_	_
-15	'	'	SYM	_	_	16	nmod	_	SpaceAfter=No
+15	'	'	PUNCT	fe	PunctType=Quot	16	punct	_	SpaceAfter=No
 16	fonamental	fonamental	ADJ	_	Number=Sing	14	amod	_	SpaceAfter=No
-17	'	'	SYM	_	_	16	nmod	_	_
+17	'	'	PUNCT	fe	PunctType=Quot	16	punct	_	_
 18	respecte	respecte	NOUN	_	_	21	case	_	MWE=respecte_a|MWEPOS=ADP
 19	a	a	ADP	_	_	18	fixed	_	_
 20	altres	altre	DET	_	Number=Plur|PronType=Ind	21	det	_	_
 21	campanyes	campanya	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
 22	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 23	estat	ser	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
-24	'	'	SYM	_	_	25	nmod	_	SpaceAfter=No
+24	'	'	PUNCT	fe	PunctType=Quot	25	punct	_	SpaceAfter=No
 25	disposar	disposar	VERB	_	VerbForm=Inf	14	csubj	_	_
 26	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
 27	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	28	det	_	_
@@ -36406,7 +36406,7 @@
 31	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
 32	aplicació	aplicació	NOUN	_	Gender=Fem|Number=Sing	28	appos	_	_
 33	aèria	aeri	ADJ	_	Gender=Fem|Number=Sing	32	amod	_	SpaceAfter=No
-34	'	'	SYM	_	_	32	nmod	_	_
+34	'	'	PUNCT	fe	PunctType=Quot	32	punct	_	_
 35-36	dels	_	_	_	_	_	_	_	_
 35	de	de	ADP	_	_	37	case	_	_
 36	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	_	_
@@ -36439,7 +36439,7 @@
 5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	CODE	CODE	PROPN	_	_	3	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
-8	'	'	SYM	_	_	17	nmod	_	SpaceAfter=No
+8	'	'	PUNCT	fe	PunctType=Quot	17	punct	_	SpaceAfter=No
 9	a	a	ADP	_	_	12	case	_	MWE=a_partir_d'|MWEPOS=ADP
 10	partir	partir	NOUN	_	_	9	fixed	_	_
 11	d'	de	ADP	_	_	9	fixed	_	SpaceAfter=No
@@ -36471,7 +36471,7 @@
 36	a	a	ADP	_	_	38	case	_	_
 37	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 38	Delta	Delta	PROPN	_	_	35	obl	_	SpaceAfter=No
-39	'	'	SYM	_	_	17	nmod	_	SpaceAfter=No
+39	'	'	PUNCT	fe	PunctType=Quot	17	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	PunctType=Peri	17	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001109-19093-s11
@@ -36620,14 +36620,14 @@
 15	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	necessitat	necessitat	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
 17	de	de	ADP	_	_	19	mark	_	_
-18	'	'	SYM	_	_	19	nmod	_	SpaceAfter=No
+18	'	'	PUNCT	fe	PunctType=Quot	19	punct	_	SpaceAfter=No
 19	començar	començar	VERB	_	VerbForm=Inf	16	acl	_	_
 20	abans	abans	ADV	_	_	19	advmod	_	_
 21	i	i	CCONJ	_	_	22	cc	_	_
 22	acabar	acabar	VERB	_	VerbForm=Inf	19	conj	_	_
 23	més	més	ADV	_	Degree=Cmp	24	advmod	_	_
 24	tard	tard	ADV	_	_	22	advmod	_	SpaceAfter=No
-25	'	'	SYM	_	_	19	nmod	_	_
+25	'	'	PUNCT	fe	PunctType=Quot	19	punct	_	_
 26	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
 27	tractaments	tractament	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
 28	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
@@ -36788,7 +36788,7 @@
 25	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
 26	aportacions	aportació	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
 27	de	de	ADP	_	_	30	case	_	_
-28	'	'	SYM	_	_	30	nmod	_	SpaceAfter=No
+28	'	'	PUNCT	fe	PunctType=Quot	30	punct	_	SpaceAfter=No
 29	30	30	NUM	_	NumForm=Digit|NumType=Card	30	nummod	_	_
 30	milions	milió	NOUN	_	Gender=Masc|Number=Plur	26	nmod	_	_
 31	de	de	ADP	_	_	33	case	_	_
@@ -36806,7 +36806,7 @@
 43	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
 44	any	any	NOUN	_	_	42	obl	_	MWE=any_2003|MWEPOS=NOUN
 45	2003	2003	NUM	_	NumForm=Digit|NumType=Card	44	compound	_	SpaceAfter=No
-46	'	'	SYM	_	_	38	nmod	_	SpaceAfter=No
+46	'	'	PUNCT	fe	PunctType=Quot	38	punct	_	SpaceAfter=No
 47	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # newdoc id = CESS-CAT-AAP-20001201-2
@@ -37638,9 +37638,9 @@
 3	inconstant	inconstant	ADJ	_	_	2	amod	_	_
 4	o	o	CCONJ	_	_	7	cc	_	_
 5	Les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	7	det	_	MWE=Les_'_tragaderas_'_del_caiman|MWEPOS=PROPN
-6	'	'	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	SpaceAfter=No
 7	tragaderas	tragadera	NOUN	Gender=Fem|Number=Plur	_	2	conj	_	SpaceAfter=No
-8	'	'	PUNCT	_	_	7	punct	_	_
+8	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	_
 9-10	del	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	11	case	_	_
 10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -38038,9 +38038,9 @@
 34	operació	operació	NOUN	_	Gender=Fem|Number=Sing	30	obj	_	_
 35	i	i	CCONJ	_	_	45	cc	_	_
 36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-37	'	'	SYM	_	_	38	nmod	_	SpaceAfter=No
+37	'	'	PUNCT	fe	PunctType=Quot	38	punct	_	SpaceAfter=No
 38	bypass	bypass	NOUN	_	_	45	nsubj	_	SpaceAfter=No
-39	'	'	SYM	_	_	38	nmod	_	_
+39	'	'	PUNCT	fe	PunctType=Quot	38	punct	_	_
 40	que	que	PRON	_	PronType=Rel	44	nsubj	_	_
 41	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	44	obj	_	_
 42	li	ell	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	44	obj	_	_
@@ -38267,7 +38267,7 @@
 11	que	que	SCONJ	_	_	20	mark	_	_
 12	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	recaptació	recaptació	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
-14	'	'	SYM	_	_	20	nmod	_	SpaceAfter=No
+14	'	'	PUNCT	fe	PunctType=Quot	20	punct	_	SpaceAfter=No
 15	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 16	estat	ser	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	cop	_	_
 17	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	20	det	_	_
@@ -38302,7 +38302,7 @@
 45	Caritat	Caritat	PROPN	_	_	43	flat	_	_
 46	de	de	ADP	_	_	47	case	_	_
 47	Càritas	Càritas	PROPN	_	_	43	flat	_	SpaceAfter=No
-48	'	'	SYM	_	_	36	nmod	_	SpaceAfter=No
+48	'	'	PUNCT	fe	PunctType=Quot	36	punct	_	SpaceAfter=No
 49	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001214-21681-s6
@@ -38484,9 +38484,9 @@
 6	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 7	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
 8	home	home	NOUN	_	Gender=Masc|Number=Sing	4	ccomp	_	_
-9	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+9	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 10	perillós	perillós	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
-11	'	'	SYM	_	_	10	nmod	_	_
+11	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	_
 12	per	per	ADP	_	_	15	case	_	_
 13	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	det	_	MWE=la_seva|MWEPOS=DET
 14	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	det	_	_
@@ -38539,12 +38539,12 @@
 41	li	ell	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	42	iobj	_	_
 42	deia	dir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	advcl	_	_
 43	que	que	SCONJ	_	_	48	mark	_	_
-44	'	'	SYM	_	_	48	nmod	_	SpaceAfter=No
+44	'	'	PUNCT	fe	PunctType=Quot	48	punct	_	SpaceAfter=No
 45	l'	ell	PRON	_	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	48	obj	_	SpaceAfter=No
 46	anava	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	48	aux	_	_
 47	a	a	ADP	_	_	48	mark	_	_
 48	matar	matar	VERB	_	VerbForm=Inf	42	xcomp	_	SpaceAfter=No
-49	'	'	SYM	_	_	48	nmod	_	SpaceAfter=No
+49	'	'	PUNCT	fe	PunctType=Quot	48	punct	_	SpaceAfter=No
 50	.	.	PUNCT	_	PunctType=Peri	18	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001219-21926-s4
@@ -38587,7 +38587,7 @@
 35	i	i	CCONJ	_	_	36	cc	_	_
 36	agressius	agressiu	ADJ	_	Gender=Masc|Number=Plur	34	conj	_	SpaceAfter=No
 37	,	,	PUNCT	_	PunctType=Comm	42	punct	_	_
-38	'	'	SYM	_	_	42	nmod	_	SpaceAfter=No
+38	'	'	PUNCT	fe	PunctType=Quot	42	punct	_	SpaceAfter=No
 39	que	que	PRON	_	PronType=Rel	42	nsubj	_	_
 40	el	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	iobj	_	_
 41	podrien	poder	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	42	aux	_	_
@@ -38596,7 +38596,7 @@
 44	matar	matar	VERB	_	VerbForm=Inf	42	xcomp	_	_
 45	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	46	det	_	_
 46	home	home	NOUN	_	Gender=Masc|Number=Sing	44	obj	_	SpaceAfter=No
-47	'	'	SYM	_	_	44	nmod	_	_
+47	'	'	PUNCT	fe	PunctType=Quot	44	punct	_	_
 48	si	si	SCONJ	_	_	49	mark	_	_
 49	perd	perdre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	advcl	_	_
 50	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
@@ -38608,10 +38608,10 @@
 56	provoca	provocar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	advcl	_	_
 57	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	58	det	_	_
 58	reacció	reacció	NOUN	_	Gender=Fem|Number=Sing	56	obj	_	_
-59	'	'	SYM	_	_	61	nmod	_	SpaceAfter=No
+59	'	'	PUNCT	fe	PunctType=Quot	61	punct	_	SpaceAfter=No
 60	exageradament	exageradament	ADV	_	_	61	advmod	_	_
 61	violenta	violent	ADJ	_	Gender=Fem|Number=Sing	58	amod	_	SpaceAfter=No
-62	'	'	SYM	_	_	61	nmod	_	_
+62	'	'	PUNCT	fe	PunctType=Quot	61	punct	_	_
 63	quan	quan	SCONJ	_	_	65	mark	_	_
 64	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	65	obj	_	_
 65	troba	trobar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	advcl	_	_
@@ -38721,10 +38721,10 @@
 30	interns	intern	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	SpaceAfter=No
 31	,	,	PUNCT	_	PunctType=Comm	25	punct	_	_
 32	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	35	cop	_	_
-33	'	'	SYM	_	_	35	nmod	_	SpaceAfter=No
+33	'	'	PUNCT	fe	PunctType=Quot	35	punct	_	SpaceAfter=No
 34	potencialment	potencialment	ADV	_	_	35	advmod	_	_
 35	perillós	perillós	ADJ	_	Gender=Masc|Number=Sing	10	ccomp	_	SpaceAfter=No
-36	'	'	SYM	_	_	35	nmod	_	SpaceAfter=No
+36	'	'	PUNCT	fe	PunctType=Quot	35	punct	_	SpaceAfter=No
 37	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001219-21926-s7
@@ -38909,19 +38909,19 @@
 43-44	dient-li	_	_	_	_	_	_	_	_
 43	dient	dir	VERB	_	VerbForm=Ger	34	advcl	_	_
 44	li	ell	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	50	obj	_	_
-45	'	'	SYM	_	_	50	nmod	_	SpaceAfter=No
+45	'	'	PUNCT	fe	PunctType=Quot	50	punct	_	SpaceAfter=No
 46	a	a	ADP	_	_	47	case	_	_
 47	mi	jo	PRON	_	Case=Acc|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	50	obj	_	_
 48	no	no	ADV	_	Polarity=Neg	50	advmod	_	_
 49	em	jo	PRON	_	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	50	obj	_	_
 50	roba	robar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	xcomp	_	_
 51	ningú	ningú	PRON	_	Number=Sing|PronType=Ind	43	nsubj	_	SpaceAfter=No
-52	'	'	SYM	_	_	50	nmod	_	_
+52	'	'	PUNCT	fe	PunctType=Quot	50	punct	_	_
 53	i	i	CCONJ	_	_	56	cc	_	_
-54	'	'	SYM	_	_	56	nmod	_	SpaceAfter=No
+54	'	'	PUNCT	fe	PunctType=Quot	56	punct	_	SpaceAfter=No
 55	et	tu	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|Polite=Infm|PrepCase=Npr|PronType=Prs	56	obj	_	_
 56	mataré	matar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	50	conj	_	SpaceAfter=No
-57	'	'	SYM	_	_	56	nmod	_	SpaceAfter=No
+57	'	'	PUNCT	fe	PunctType=Quot	56	punct	_	SpaceAfter=No
 58	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001219-21926-s11
@@ -38975,9 +38975,9 @@
 2	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 3	coguionista	coguionista	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	_
 4	de	de	ADP	_	_	6	case	_	_
-5	'	'	SYM	_	_	6	nmod	_	SpaceAfter=No
+5	'	'	PUNCT	fe	PunctType=Quot	6	punct	_	SpaceAfter=No
 6	Casablanca	Casablanca	PROPN	_	_	3	nmod	_	SpaceAfter=No
-7	'	'	SYM	_	_	6	nmod	_	_
+7	'	'	PUNCT	fe	PunctType=Quot	6	punct	_	_
 8	juntament	juntament	ADV	_	_	12	case	_	MWE=juntament_amb|MWEPOS=ADP
 9	amb	amb	ADP	_	_	8	fixed	_	_
 10	el	el	DET	_	Gender=Masc|Number=Sing|PronType=Art	12	det	_	MWE=el_seu|MWEPOS=DET
@@ -39016,7 +39016,7 @@
 12	de	de	ADP	_	_	10	case	_	_
 13	pel·lícules	pel·lícula	NOUN	_	Gender=Fem|Number=Plur	10	nmod	_	_
 14	com	com	SCONJ	_	_	17	mark	_	_
-15	'	'	SYM	_	_	17	nmod	_	SpaceAfter=No
+15	'	'	PUNCT	fe	PunctType=Quot	17	punct	_	SpaceAfter=No
 16	L'	L'	DET	_	Number=Sing|PronType=Art	17	det	_	SpaceAfter=No|MWE=L'_home_que_va_venir_a_sopar|MWEPOS=PROPN
 17	home	home	PROPN	_	_	13	nmod	_	_
 18	que	que	SCONJ	_	_	19	case	_	_
@@ -39024,13 +39024,13 @@
 20	venir	venir	PROPN	_	_	19	flat	_	_
 21	a	a	ADP	_	_	22	case	_	_
 22	sopar	sopar	PROPN	_	_	19	flat	_	SpaceAfter=No
-23	'	'	SYM	_	_	17	nmod	_	_
+23	'	'	PUNCT	fe	PunctType=Quot	17	punct	_	_
 24	i	i	CCONJ	_	_	26	cc	_	_
-25	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
+25	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	SpaceAfter=No
 26	The	The	PROPN	_	_	17	conj	_	MWE=The_strawberry_blonde|MWEPOS=PROPN
 27	strawberry	strawberry	PROPN	_	_	26	flat	_	_
 28	blonde	blonde	PROPN	_	_	26	flat	_	SpaceAfter=No
-29	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
+29	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	SpaceAfter=No
 30	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # newdoc id = CESS-CAT-AAP-20010103-152
@@ -39591,7 +39591,7 @@
 34	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
 35	territori	territori	NOUN	_	Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
 36	:	:	PUNCT	_	PunctType=Colo	38	punct	_	_
-37	'	'	SYM	_	_	38	nmod	_	SpaceAfter=No
+37	'	'	PUNCT	fe	PunctType=Quot	38	punct	_	SpaceAfter=No
 38	Conservar	conservar	VERB	_	VerbForm=Inf	32	appos	_	_
 39	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
 40	ciutats	ciutat	NOUN	_	Gender=Fem|Number=Plur	38	obj	_	_
@@ -39612,7 +39612,7 @@
 55	Feliu	Feliu	PROPN	_	_	54	flat	_	_
 56	de	de	ADP	_	_	57	case	_	_
 57	Guíxols	Guíxols	PROPN	_	_	54	flat	_	SpaceAfter=No
-58	'	'	SYM	_	_	46	nmod	_	SpaceAfter=No
+58	'	'	PUNCT	fe	PunctType=Quot	46	punct	_	SpaceAfter=No
 59	,	,	PUNCT	_	PunctType=Comm	63	punct	_	_
 60	així	així	ADV	_	_	63	cc	_	MWE=així_com|MWEPOS=CCONJ
 61	com	com	SCONJ	_	_	60	fixed	_	_
@@ -39636,7 +39636,7 @@
 5	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	criticat	criticar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	que	que	SCONJ	_	_	11	mark	_	_
-8	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+8	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 9	CiU	CiU	PROPN	_	_	11	nsubj	_	_
 10	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 11	exclòs	excloure	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
@@ -39646,16 +39646,16 @@
 14	de	de	ADP	_	_	16	case	_	_
 15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	catalanisme	catalanisme	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
-17	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+17	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
 19	afavorint	afavorir	VERB	_	VerbForm=Ger	11	advcl	_	_
-20	'	'	SYM	_	_	22	nmod	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 21	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	identificació	identificació	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
 23	Pujol	Pujol	PROPN	_	_	22	appos	_	MWE=Pujol_._Catalanisme|MWEPOS=PROPN
 24	.	.	PUNCT	_	_	23	punct	_	_
 25	Catalanisme	Catalanisme	PROPN	_	_	23	flat	_	SpaceAfter=No
-26	'	'	SYM	_	_	22	nmod	_	SpaceAfter=No
+26	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 27	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
 28	i	i	CCONJ	_	_	30	cc	_	_
 29	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
@@ -39740,15 +39740,15 @@
 14	PSC	PSC	PROPN	_	_	15	nsubj	_	_
 15	ofereix	oferir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
 16	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-17	'	'	SYM	_	_	18	nmod	_	SpaceAfter=No
+17	'	'	PUNCT	fe	PunctType=Quot	18	punct	_	SpaceAfter=No
 18	canvi	canvi	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
 19	tranquil	tranquil	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
-20	'	'	SYM	_	_	18	nmod	_	_
+20	'	'	PUNCT	fe	PunctType=Quot	18	punct	_	_
 21	davant	davant	ADP	_	_	23	case	_	_
 22	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
 23	situacions	situació	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
 24	de	de	ADP	_	_	26	case	_	_
-25	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
+25	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	SpaceAfter=No
 26	monopoli	monopoli	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	_	PunctType=Comm	28	punct	_	_
 28	exclusió	exclusió	NOUN	_	Gender=Fem|Number=Sing	26	appos	_	_
@@ -39769,7 +39769,7 @@
 42	altres	altre	PRON	_	Number=Plur|PronType=Ind	39	obl	_	_
 43	sense	sense	ADP	_	_	44	case	_	_
 44	matisos	matís	NOUN	_	Gender=Masc|Number=Plur	33	obl	_	SpaceAfter=No
-45	'	'	SYM	_	_	26	nmod	_	_
+45	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	_
 46	que	que	PRON	_	PronType=Rel	51	obj	_	_
 47-48	al	_	_	_	_	_	_	_	_
 47	a	a	ADP	_	_	50	case	_	_
@@ -39783,7 +39783,7 @@
 # sent_id = CESS-CAT-AAP-20010105-22726-s6
 # text = 'Ens horroritza la tendència a la homogeneÏtat i el pensament únic que s'està estenent', ha dit .
 # orig_file_sentence 010#34
-1	'	'	SYM	_	_	3	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	Ens	jo	PRON	_	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
 3	horroritza	horroritzar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
 4	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -39799,7 +39799,7 @@
 14	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	_	SpaceAfter=No
 15	està	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 16	estenent	estendre	VERB	_	VerbForm=Ger	5	acl	_	SpaceAfter=No
-17	'	'	SYM	_	_	3	nmod	_	SpaceAfter=No
+17	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 19	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 20	dit	dir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -39811,7 +39811,7 @@
 1	Segons	segons	ADP	_	_	2	case	_	_
 2	Nadal	Nadal	PROPN	_	_	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
-4	'	'	SYM	_	_	7	nmod	_	SpaceAfter=No
+4	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	SpaceAfter=No
 5	avui	avui	ADV	_	_	7	advmod	_	_
 6	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	obj	_	SpaceAfter=No
 7	encadenen	encadenar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -39825,10 +39825,10 @@
 14	crèdit	crèdit	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
 15	de	de	ADP	_	_	16	case	_	_
 16	CiU	CiU	PROPN	_	_	14	nmod	_	SpaceAfter=No
-17	'	'	SYM	_	_	7	nmod	_	_
+17	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	_
 18	i	i	CCONJ	_	_	26	cc	_	_
 19	això	això	PRON	_	Number=Sing|PronType=Dem	26	obj	_	_
-20	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	SpaceAfter=No
 21	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	societat	societat	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	_
 23	no	no	ADV	_	Polarity=Neg	26	advmod	_	_
@@ -39847,7 +39847,7 @@
 36	responsabilitats	responsabilitat	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	_
 37	de	de	ADP	_	_	38	case	_	_
 38	govern	govern	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
-39	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
+39	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
 # newdoc id = CESS-CAT-AAP-20010202-168
@@ -42170,12 +42170,12 @@
 1	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	cantant	cantant	NOUN	_	Number=Sing	3	nsubj	_	_
 3	presentarà	presentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-4	'	'	SYM	_	_	5	nmod	_	SpaceAfter=No
+4	'	'	PUNCT	fe	PunctType=Quot	5	punct	_	SpaceAfter=No
 5	Les	Les	DET	_	Gender=Fem|Number=Plur|PronType=Art	6	det	_	MWE=Les_cançons_de_Beget|MWEPOS=PROPN
 6	cançons	cançons	PROPN	_	_	3	obj	_	_
 7	de	de	ADP	_	_	8	case	_	_
 8	Beget	Beget	PROPN	_	_	5	flat	_	SpaceAfter=No
-9	'	'	SYM	_	_	5	nmod	_	_
+9	'	'	PUNCT	fe	PunctType=Quot	5	punct	_	_
 10-11	al	_	_	_	_	_	_	_	_
 10	a	a	ADP	_	_	13	case	_	_
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -42352,13 +42352,13 @@
 7	quals	qual	PRON	_	Number=Plur|PronType=Rel	8	obl	_	_
 8	cal	caldre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
 9	destacar	destacar	VERB	_	VerbForm=Inf	8	csubj	_	_
-10	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 11	Repertori	repertori	PROPN	_	_	9	obj	_	MWE=Repertori_bàsic_de_Cançons_Populars|MWEPOS=PROPN
 12	bàsic	bàsic	PROPN	_	_	11	flat	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Cançons	cançons	PROPN	_	_	11	flat	_	_
 15	Populars	populars	PROPN	_	_	11	flat	_	SpaceAfter=No
-16	'	'	SYM	_	_	11	nmod	_	_
+16	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	_
 17	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	18	punct	_	SpaceAfter=No
 18	1995	1995	NOUN	_	AdvType=Tim	11	appos	_	SpaceAfter=No
 19	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	18	punct	_	SpaceAfter=No
@@ -42374,60 +42374,60 @@
 5	discografia	discografia	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
 6	cal	caldre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	destacar	destacar	VERB	_	VerbForm=Inf	6	csubj	_	_
-8	'	'	SYM	_	_	9	nmod	_	SpaceAfter=No
+8	'	'	PUNCT	fe	PunctType=Quot	9	punct	_	SpaceAfter=No
 9	Negro	Negro	PROPN	_	_	7	obj	_	MWE=Negro_Spirituals|MWEPOS=PROPN
 10	Spirituals	Spirituals	PROPN	_	_	9	flat	_	SpaceAfter=No
-11	'	'	SYM	_	_	9	nmod	_	_
+11	'	'	PUNCT	fe	PunctType=Quot	9	punct	_	_
 12	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	13	punct	_	SpaceAfter=No
 13	1969	1969	NOUN	_	AdvType=Tim	9	appos	_	SpaceAfter=No
 14	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	13	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	PunctType=Comm	17	punct	_	_
-16	'	'	SYM	_	_	17	nmod	_	SpaceAfter=No
+16	'	'	PUNCT	fe	PunctType=Quot	17	punct	_	SpaceAfter=No
 17	Negro	Negro	PROPN	_	_	9	flat	_	MWE=Negro_Spirituals_II|MWEPOS=PROPN
 18	Spirituals	Spirituals	PROPN	_	_	17	flat	_	_
 19	II	II	PROPN	_	_	17	flat	_	SpaceAfter=No
-20	'	'	SYM	_	_	17	nmod	_	_
+20	'	'	PUNCT	fe	PunctType=Quot	17	punct	_	_
 21	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	22	punct	_	SpaceAfter=No
 22	1971	1971	NOUN	_	AdvType=Tim	17	appos	_	SpaceAfter=No
 23	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	22	punct	_	SpaceAfter=No
 24	,	,	PUNCT	_	PunctType=Comm	26	punct	_	_
-25	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
+25	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	SpaceAfter=No
 26	Cançons	cançons	PROPN	_	_	9	flat	_	MWE=Cançons_de_vi_i_de_taverna|MWEPOS=PROPN
 27	de	de	ADP	_	_	28	case	_	_
 28	vi	vi	PROPN	_	_	26	flat	_	_
 29	i	i	CCONJ	_	_	31	cc	_	_
 30	de	de	ADP	_	_	31	case	_	_
 31	taverna	taverna	PROPN	_	_	28	conj	_	SpaceAfter=No
-32	'	'	SYM	_	_	26	nmod	_	_
+32	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	_
 33	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	34	punct	_	SpaceAfter=No
 34	1975	1975	NOUN	_	AdvType=Tim	26	appos	_	SpaceAfter=No
 35	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	34	punct	_	SpaceAfter=No
 36	,	,	PUNCT	_	PunctType=Comm	38	punct	_	_
-37	'	'	SYM	_	_	38	nmod	_	SpaceAfter=No
+37	'	'	PUNCT	fe	PunctType=Quot	38	punct	_	SpaceAfter=No
 38	Carregat	Carregat	PROPN	_	_	9	flat	_	MWE=Carregat_de_romanços|MWEPOS=PROPN
 39	de	de	ADP	_	_	40	case	_	_
 40	romanços	romanços	PROPN	_	_	38	flat	_	SpaceAfter=No
-41	'	'	SYM	_	_	38	nmod	_	_
+41	'	'	PUNCT	fe	PunctType=Quot	38	punct	_	_
 42	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	43	punct	_	SpaceAfter=No
 43	1990	1990	NOUN	_	AdvType=Tim	38	appos	_	SpaceAfter=No
 44	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	43	punct	_	SpaceAfter=No
 45	,	,	PUNCT	_	PunctType=Comm	47	punct	_	_
-46	'	'	SYM	_	_	47	nmod	_	SpaceAfter=No
+46	'	'	PUNCT	fe	PunctType=Quot	47	punct	_	SpaceAfter=No
 47	Eròtica	Eròtica	PROPN	_	_	9	flat	_	MWE=Eròtica_monàstica|MWEPOS=PROPN
 48	monàstica	monàstica	PROPN	_	_	47	flat	_	SpaceAfter=No
-49	'	'	SYM	_	_	47	nmod	_	_
+49	'	'	PUNCT	fe	PunctType=Quot	47	punct	_	_
 50	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	51	punct	_	SpaceAfter=No
 51	1995	1995	NOUN	_	AdvType=Tim	47	appos	_	SpaceAfter=No
 52	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	51	punct	_	_
 53	i	i	CCONJ	_	_	56	cc	_	_
-54	'	'	SYM	_	_	55	nmod	_	SpaceAfter=No
+54	'	'	PUNCT	fe	PunctType=Quot	55	punct	_	SpaceAfter=No
 55	La	La	DET	_	Gender=Fem|Number=Sing|PronType=Art	56	det	_	MWE=La_raó_al_desig|MWEPOS=PROPN
 56	raó	raó	PROPN	_	_	9	conj	_	_
 57-58	al	_	_	_	_	_	_	_	_
 57	a	a	ADP	_	_	59	case	_	_
 58	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
 59	desig	desig	PROPN	_	_	55	flat	_	SpaceAfter=No
-60	'	'	SYM	_	_	55	nmod	_	_
+60	'	'	PUNCT	fe	PunctType=Quot	55	punct	_	_
 61	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	62	punct	_	SpaceAfter=No
 62	1997	1997	NOUN	_	AdvType=Tim	55	appos	_	SpaceAfter=No
 63	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	62	punct	_	SpaceAfter=No
@@ -42694,7 +42694,7 @@
 4	editat	editar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	llibre	llibre	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-7	'	'	SYM	_	_	8	nmod	_	SpaceAfter=No
+7	'	'	PUNCT	fe	PunctType=Quot	8	punct	_	SpaceAfter=No
 8	Joan	Joan	PROPN	_	_	6	appos	_	MWE=Joan_Guinjoan_,_el_testimoni_d'_un_músic|MWEPOS=PROPN
 9	Guinjoan	Guinjoan	PROPN	_	_	8	flat	_	_
 10	,	,	PUNCT	_	_	12	punct	_	_
@@ -42703,7 +42703,7 @@
 13	d'	d'	ADP	_	_	15	case	_	SpaceAfter=No
 14	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	músic	músic	PROPN	_	_	8	flat	_	SpaceAfter=No
-16	'	'	SYM	_	_	8	nmod	_	SpaceAfter=No
+16	'	'	PUNCT	fe	PunctType=Quot	8	punct	_	SpaceAfter=No
 17	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
 18	on	on	PRON	_	PronType=Rel	27	obl	_	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -43002,12 +43002,12 @@
 18	,	,	PUNCT	_	PunctType=Comm	14	punct	_	_
 19	de	de	ADP	_	_	22	case	_	_
 20	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
-21	'	'	SYM	_	_	22	nmod	_	SpaceAfter=No
+21	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 22	Tensió	Tensió	PROPN	_	_	8	nmod	_	MWE=Tensió_per_a_violí|MWEPOS=PROPN
 23	per	per	ADP	_	_	25	case	_	_
 24	a	a	ADP	_	_	25	case	_	_
 25	violí	violí	PROPN	_	_	22	flat	_	SpaceAfter=No
-26	'	'	PUNCT	_	PunctType=Quot	28	punct	_	_
+26	'	'	PUNCT	fe	PunctType=Quot	28	punct	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	Guinjoan	Guinjoan	PROPN	_	_	22	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
@@ -44195,21 +44195,21 @@
 22	pis	pis	NOUN	_	Gender=Masc|Number=Sing	17	conj	_	_
 23	i	i	CCONJ	_	_	24	cc	_	_
 24	adoptava	adoptar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj	_	_
-25	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
+25	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	SpaceAfter=No
 26	actituds	actitud	NOUN	_	Gender=Fem|Number=Plur	24	obj	_	_
 27	violentes	violent	ADJ	_	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
-28	'	'	SYM	_	_	26	nmod	_	_
+28	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	_
 29	quan	quan	SCONJ	_	_	32	mark	_	_
 30	ella	ell	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
 31	el	ell	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	iobj	_	_
 32	volia	voler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	_
-33	'	'	SYM	_	_	34	nmod	_	SpaceAfter=No
+33	'	'	PUNCT	fe	PunctType=Quot	34	punct	_	SpaceAfter=No
 34	allunyar	allunyar	VERB	_	VerbForm=Inf	32	xcomp	_	_
 35	de	de	ADP	_	_	38	case	_	_
 36	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	38	det	_	MWE=la_seva|MWEPOS=DET
 37	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	38	det	_	_
 38	vida	vida	NOUN	_	Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
-39	'	'	SYM	_	_	34	nmod	_	SpaceAfter=No
+39	'	'	PUNCT	fe	PunctType=Quot	34	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20010423-30000-s7
@@ -44731,13 +44731,13 @@
 48	Moianès	Moianès	PROPN	_	_	45	flat	_	_
 49	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
 50	fira	fira	NOUN	_	Gender=Fem|Number=Sing	42	obj	_	_
-51	'	'	SYM	_	_	52	nmod	_	SpaceAfter=No
+51	'	'	PUNCT	fe	PunctType=Quot	52	punct	_	SpaceAfter=No
 52	Moianès	Moianès	PROPN	_	_	50	appos	_	MWE=Moianès_,_turisme_i_lleure|MWEPOS=PROPN
 53	,	,	PUNCT	_	_	54	punct	_	_
 54	turisme	turisme	PROPN	_	_	52	conj	_	_
 55	i	i	CCONJ	_	_	56	cc	_	_
 56	lleure	lleure	PROPN	_	_	52	conj	_	SpaceAfter=No
-57	'	'	SYM	_	_	52	nmod	_	SpaceAfter=No
+57	'	'	PUNCT	fe	PunctType=Quot	52	punct	_	SpaceAfter=No
 58	.	.	PUNCT	_	PunctType=Peri	42	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20010521-31752-s2
@@ -44796,13 +44796,13 @@
 # sent_id = CESS-CAT-AAP-20010521-31752-s3
 # text = 'Moianès , turisme i lleure' vol ser una Fira especialitzada en el turisme i el lleure de les comarques d'interior i fer promoció de les activitats i destinacions turístiques d'aquestes comarques i de les de tot l'interior del país.
 # orig_file_sentence 011#63
-1	'	'	SYM	_	_	2	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	2	punct	_	SpaceAfter=No
 2	Moianès	Moianès	PROPN	_	_	8	nsubj	_	MWE=Moianès_,_turisme_i_lleure|MWEPOS=PROPN
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	turisme	turisme	PROPN	_	_	2	conj	_	_
 5	i	i	CCONJ	_	_	6	cc	_	_
 6	lleure	lleure	PROPN	_	_	2	conj	_	SpaceAfter=No
-7	'	'	SYM	_	_	2	nmod	_	_
+7	'	'	PUNCT	fe	PunctType=Quot	2	punct	_	_
 8	vol	voler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	ser	ser	AUX	_	VerbForm=Inf	11	cop	_	_
 10	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
@@ -45092,14 +45092,14 @@
 17	inici	inici	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
 18	de	de	ADP	_	_	21	case	_	_
 19	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-20	'	'	SYM	_	_	21	nmod	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	21	punct	_	SpaceAfter=No
 21	Nit	Nit	PROPN	_	_	17	nmod	_	MWE=Nit_Jove_del_Moianès|MWEPOS=PROPN
 22	Jove	Jove	PROPN	_	_	21	flat	_	_
 23-24	del	_	_	_	_	_	_	_	_
 23	de	de	ADP	_	_	25	case	_	_
 24	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	Moianès	Moianès	PROPN	_	_	21	flat	_	SpaceAfter=No
-26	'	'	SYM	_	_	21	nmod	_	SpaceAfter=No
+26	'	'	PUNCT	fe	PunctType=Quot	21	punct	_	SpaceAfter=No
 27	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20010521-31752-s9
@@ -45141,14 +45141,14 @@
 4	presentarà	presentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	estudi	estudi	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-7	'	'	SYM	_	_	8	nmod	_	SpaceAfter=No
+7	'	'	PUNCT	fe	PunctType=Quot	8	punct	_	SpaceAfter=No
 8	L'	L'	DET	_	Number=Sing|PronType=Art	9	det	_	SpaceAfter=No|MWE=L'_Ecomuseu_del_Moianès|MWEPOS=PROPN
 9	Ecomuseu	Ecomuseu	PROPN	_	_	6	appos	_	_
 10-11	del	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	12	case	_	_
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Moianès	Moianès	PROPN	_	_	8	flat	_	SpaceAfter=No
-13	'	'	SYM	_	_	8	nmod	_	SpaceAfter=No
+13	'	'	PUNCT	fe	PunctType=Quot	8	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
 15	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
 16	projecte	projecte	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
@@ -46220,7 +46220,7 @@
 14	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	qualificat	qualificar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 16	avui	avui	ADV	_	_	15	advmod	_	_
-17	'	'	SYM	_	_	15	nmod	_	SpaceAfter=No
+17	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	SpaceAfter=No
 18	d'	de	ADP	_	_	17	case	_	SpaceAfter=No
 19	incoherent	incoherent	ADJ	_	Number=Sing	17	obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
@@ -46229,7 +46229,7 @@
 23	mancada	mancat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	19	conj	_	_
 24	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
 25	arguments	argument	NOUN	_	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
-26	'	'	SYM	_	_	17	nmod	_	_
+26	'	'	PUNCT	fe	PunctType=Quot	17	punct	_	_
 27	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 28	actitud	actitud	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
 29	que	que	PRON	_	PronType=Rel	31	obj	_	_
@@ -46406,7 +46406,7 @@
 26	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	det	_	_
 27	municipi	municipi	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	_	PunctType=Comm	30	punct	_	_
-29	'	'	SYM	_	_	30	nmod	_	SpaceAfter=No
+29	'	'	PUNCT	fe	PunctType=Quot	30	punct	_	SpaceAfter=No
 30	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
 31	que	que	PRON	_	PronType=Rel	36	obj	_	_
 32	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
@@ -46416,7 +46416,7 @@
 36	incapaços	incapaç	ADJ	_	Gender=Masc|Number=Plur	30	acl	_	_
 37	de	de	ADP	_	_	38	mark	_	_
 38	fer	fer	VERB	_	VerbForm=Inf	36	acl	_	SpaceAfter=No
-39	'	'	SYM	_	_	30	nmod	_	SpaceAfter=No
+39	'	'	PUNCT	fe	PunctType=Quot	30	punct	_	SpaceAfter=No
 40	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20010713-35350-s6
@@ -46581,7 +46581,7 @@
 # sent_id = CESS-CAT-AAP-20010713-35350-s9
 # text = 'Ara cal veure també què passa al Consell del Baix Llobregat que se celebra el 23 d'aquest mes, i més tard al Barcelonès'.
 # orig_file_sentence 012#5
-1	'	'	SYM	_	_	3	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	Ara	ara	ADV	_	_	3	advmod	_	_
 3	cal	caldre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	veure	veure	VERB	_	VerbForm=Inf	3	csubj	_	_
@@ -46613,7 +46613,7 @@
 27	a	a	ADP	_	_	26	case	_	_
 28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 29	Barcelonès	Barcelonès	PROPN	_	_	26	nmod	_	SpaceAfter=No
-30	'	'	SYM	_	_	3	nmod	_	SpaceAfter=No
+30	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 31	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20010713-35350-s10
@@ -48478,11 +48478,11 @@
 1	Sota	sota	ADP	_	_	3	case	_	_
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	títol	títol	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	_
-4	'	'	SYM	_	_	5	nmod	_	SpaceAfter=No
+4	'	'	PUNCT	fe	PunctType=Quot	5	punct	_	SpaceAfter=No
 5	Tardor	Tardor	PROPN	_	_	3	appos	_	MWE=Tardor_d'_òpera|MWEPOS=PROPN
 6	d'	d'	ADP	_	_	7	case	_	SpaceAfter=No
 7	òpera	òpera	PROPN	_	_	5	flat	_	SpaceAfter=No
-8	'	'	SYM	_	_	5	nmod	_	SpaceAfter=No
+8	'	'	PUNCT	fe	PunctType=Quot	5	punct	_	SpaceAfter=No
 9	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 10	Calafell	Calafell	PROPN	_	_	11	nsubj	_	_
 11	presenta	presentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -48534,11 +48534,11 @@
 10	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	representació	representació	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
 12	de	de	ADP	_	_	15	case	_	_
-13	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+13	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 14	La	La	DET	_	Gender=Fem|Number=Sing|PronType=Art	15	det	_	MWE=La_flauta_màgica|MWEPOS=PROPN
 15	flauta	flauta	PROPN	_	_	11	nmod	_	_
 16	màgica	màgica	PROPN	_	_	15	flat	_	SpaceAfter=No
-17	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+17	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	PunctType=Comm	22	punct	_	_
 19	a	a	ADP	_	_	22	case	_	MWE=a_càrrec_d'|MWEPOS=ADP
 20	càrrec	càrrec	NOUN	_	_	19	fixed	_	_
@@ -48562,12 +48562,12 @@
 10	de	de	ADP	_	_	11	case	_	_
 11	novembre	novembre	NOUN	_	_	9	compound	_	SpaceAfter=No
 12	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
-13	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+13	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 14	L'	L'	DET	_	Number=Sing|PronType=Art	15	det	_	SpaceAfter=No|MWE=L'_elixir_d'_amor|MWEPOS=PROPN
 15	elixir	elixir	PROPN	_	_	4	obj	_	_
 16	d'	d'	ADP	_	_	17	case	_	SpaceAfter=No
 17	amor	amor	PROPN	_	_	14	flat	_	SpaceAfter=No
-18	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+18	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 19	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20011017-40803-s4
@@ -48611,10 +48611,10 @@
 6	presentarà	presentar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	espectacle	espectacle	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
-9	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+9	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 10	Còctel	Còctel	PROPN	_	_	8	appos	_	MWE=Còctel_vienès|MWEPOS=PROPN
 11	vienès	vienès	PROPN	_	_	10	flat	_	SpaceAfter=No
-12	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+12	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 13	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
 14	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	15	det	_	_
 15	recorregut	recorregut	NOUN	_	Gender=Masc|Number=Sing	8	appos	_	_
@@ -49561,7 +49561,7 @@
 # sent_id = CESS-CAT-AAP-20011023-41221-s21
 # text = 'El valor que se 'ls pot donar està lligat, al nostre parer, amb el seu paper històric, en la col·lecció de sistemes d'aprofitament de l'aigua que es poden trobar al llarg del seu recorregut, i com a eixos vertebradors d'itineraris sobre la història de la indústria medieval i decimonònica a Banyoles que podria culminar en un projecte museístic a La Farga', diuen .
 # orig_file_sentence 012#84
-1	'	'	SYM	_	_	3	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	valor	valor	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
 4	que	que	PRON	_	PronType=Rel	8	nsubj	_	_
@@ -49636,7 +49636,7 @@
 70	a	a	ADP	_	_	72	case	_	_
 71	La	La	DET	_	Gender=Fem|Number=Sing|PronType=Art	72	det	_	MWE=La_Farga|MWEPOS=PROPN
 72	Farga	Farga	PROPN	_	_	65	obl	_	SpaceAfter=No
-73	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+73	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 74	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
 75	diuen	dir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 76	.	.	PUNCT	_	PunctType=Peri	75	punct	_	_
@@ -50356,12 +50356,12 @@
 35	i	i	CCONJ	_	_	36	cc	_	_
 36	evitar	evitar	VERB	_	VerbForm=Inf	29	conj	_	_
 37	així	així	ADV	_	_	36	advmod	_	_
-38	'	'	SYM	_	_	40	nmod	_	SpaceAfter=No
+38	'	'	PUNCT	fe	PunctType=Quot	40	punct	_	SpaceAfter=No
 39	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
 40	dents	dent	NOUN	_	Gender=Fem|Number=Plur	36	obj	_	_
 41	de	de	ADP	_	_	42	case	_	_
 42	serra	serra	NOUN	_	Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
-43	'	'	SYM	_	_	40	nmod	_	_
+43	'	'	PUNCT	fe	PunctType=Quot	40	punct	_	_
 44	en	en	ADP	_	_	43	case	_	_
 45	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	46	det	_	_
 46	mercat	mercat	NOUN	_	Gender=Masc|Number=Sing	43	nmod	_	_
@@ -50695,10 +50695,10 @@
 58	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	45	aux	_	_
 59	hagut	haver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	45	xcomp	_	_
 60	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	62	det	_	_
-61	'	'	SYM	_	_	62	nmod	_	SpaceAfter=No
+61	'	'	PUNCT	fe	PunctType=Quot	62	punct	_	SpaceAfter=No
 62	violència	violència	NOUN	_	Gender=Fem|Number=Sing	59	obj	_	_
 63	intimidatòria	intimidatori	ADJ	_	Gender=Fem|Number=Sing	62	amod	_	SpaceAfter=No
-64	'	'	SYM	_	_	62	nmod	_	_
+64	'	'	PUNCT	fe	PunctType=Quot	62	punct	_	_
 65	en	en	ADP	_	_	67	case	_	_
 66	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	67	det	_	SpaceAfter=No
 67	acció	acció	NOUN	_	Gender=Fem|Number=Sing	45	obl	_	_
@@ -50758,12 +50758,12 @@
 12	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
 13	acusat	acusat	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
 14	havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	ccomp	_	_
-15	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+15	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 16	agafat	agafat	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	14	amod	_	_
 17	per	per	ADP	_	_	19	case	_	_
 18	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	cintura	cintura	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
-20	'	'	SYM	_	_	19	nmod	_	_
+20	'	'	PUNCT	fe	PunctType=Quot	19	punct	_	_
 21	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	víctima	víctima	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
 23	,	,	PUNCT	_	PunctType=Comm	24	punct	_	_
@@ -50777,11 +50777,11 @@
 31	i	i	CCONJ	_	_	35	cc	_	_
 32	que	que	SCONJ	_	_	35	mark	_	_
 33	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
-34	'	'	SYM	_	_	35	nmod	_	SpaceAfter=No
+34	'	'	PUNCT	fe	PunctType=Quot	35	punct	_	SpaceAfter=No
 35-36	arrossegar-la	_	_	_	_	_	_	_	SpaceAfter=No
 35	arrossegar	arrossegar	VERB	_	VerbForm=Inf	14	conj	_	_
 36	la	ell	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
-37	'	'	SYM	_	_	35	nmod	_	_
+37	'	'	PUNCT	fe	PunctType=Quot	35	punct	_	_
 38	fins	fins	ADP	_	_	41	case	_	_
 39-40	al	_	_	_	_	_	_	_	_
 39	a	a	ADP	_	_	41	case	_	_
@@ -50805,17 +50805,17 @@
 7	només	només	ADV	_	_	9	advmod	_	_
 8	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 9	ser	ser	AUX	_	VerbForm=Inf	3	xcomp	_	_
-10	'	'	SYM	_	_	9	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	9	punct	_	SpaceAfter=No
 11	deixada	deixat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	9	amod	_	SpaceAfter=No
-12	'	'	SYM	_	_	9	nmod	_	_
-13	'	'	SYM	_	_	9	nmod	_	SpaceAfter=No
+12	'	'	PUNCT	fe	PunctType=Quot	9	punct	_	_
+13	'	'	PUNCT	fe	PunctType=Quot	9	punct	_	SpaceAfter=No
 14	davant	davant	ADP	_	_	13	case	_	_
 15	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	17	det	_	MWE=la_seva|MWEPOS=DET
 16	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	det	_	_
 17	resistència	resistència	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
 18	i	i	CCONJ	_	_	19	cc	_	_
 19	precs	prec	NOUN	_	Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
-20	'	'	SYM	_	_	13	nmod	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	13	punct	_	SpaceAfter=No
 21	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20011119-43111-s8
@@ -50827,11 +50827,11 @@
 4	que	que	SCONJ	_	_	6	mark	_	_
 5	això	això	PRON	_	Number=Sing|PronType=Dem	6	nsubj	_	_
 6	mostra	mostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
-7	'	'	SYM	_	_	6	nmod	_	SpaceAfter=No
+7	'	'	PUNCT	fe	PunctType=Quot	6	punct	_	SpaceAfter=No
 8	amb	amb	ADP	_	_	7	case	_	_
 9	absoluta	absolut	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	_
 10	claredat	claredat	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
-11	'	'	SYM	_	_	7	nmod	_	_
+11	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	_
 12	que	que	SCONJ	_	_	21	mark	_	_
 13	en	en	ADP	_	_	15	case	_	_
 14	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -50841,19 +50841,19 @@
 17	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	fet	fet	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
 19	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
-20	'	'	SYM	_	_	21	nmod	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	21	punct	_	SpaceAfter=No
 21	existir	existir	VERB	_	VerbForm=Inf	6	xcomp	_	_
 22	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	24	det	_	_
 23	determinada	determinat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	24	amod	_	_
 24	violència	violència	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
-25	'	'	SYM	_	_	24	nmod	_	SpaceAfter=No
+25	'	'	PUNCT	fe	PunctType=Quot	24	punct	_	SpaceAfter=No
 26	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
 27	i	i	CCONJ	_	_	31	cc	_	_
 28	que	que	SCONJ	_	_	31	mark	_	_
 29	no	no	ADV	_	Polarity=Neg	31	advmod	_	_
 30	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 31	ser	ser	AUX	_	VerbForm=Inf	21	conj	_	_
-32	'	'	SYM	_	_	31	nmod	_	SpaceAfter=No
+32	'	'	PUNCT	fe	PunctType=Quot	31	punct	_	SpaceAfter=No
 33	simplement	simplement	ADV	_	_	31	advmod	_	_
 34	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	35	det	_	_
 35	acció	acció	NOUN	_	Gender=Fem|Number=Sing	31	obj	_	_
@@ -50867,7 +50867,7 @@
 43	Audiència	Audiència	PROPN	_	_	41	nsubj	_	MWE=Audiència_de_Barcelona|MWEPOS=PROPN
 44	de	de	ADP	_	_	45	case	_	_
 45	Barcelona	Barcelona	PROPN	_	_	43	flat	_	SpaceAfter=No
-46	'	'	SYM	_	_	31	nmod	_	SpaceAfter=No
+46	'	'	PUNCT	fe	PunctType=Quot	31	punct	_	SpaceAfter=No
 47	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20011119-43111-s9
@@ -50895,9 +50895,9 @@
 19	a	a	ADP	_	_	21	case	_	_
 20	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
-22	'	'	SYM	_	_	23	nmod	_	SpaceAfter=No
+22	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	SpaceAfter=No
 23	Seur	Seur	PROPN	_	_	21	appos	_	SpaceAfter=No
-24	'	'	SYM	_	_	23	nmod	_	_
+24	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	_
 25	i	i	CCONJ	_	_	27	cc	_	_
 26	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
 27	anar	anar	VERB	_	VerbForm=Inf	17	conj	_	_
@@ -50909,10 +50909,10 @@
 32	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
 33	processat	processat	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
 34	,	,	PUNCT	_	PunctType=Comm	36	punct	_	_
-35	'	'	SYM	_	_	36	nmod	_	SpaceAfter=No
+35	'	'	PUNCT	fe	PunctType=Quot	36	punct	_	SpaceAfter=No
 36	Modes	Modes	PROPN	_	_	30	appos	_	MWE=Modes_Ocaña|MWEPOS=PROPN
 37	Ocaña	Ocaña	PROPN	_	_	36	flat	_	SpaceAfter=No
-38	'	'	SYM	_	_	36	nmod	_	SpaceAfter=No
+38	'	'	PUNCT	fe	PunctType=Quot	36	punct	_	SpaceAfter=No
 39	,	,	PUNCT	_	PunctType=Comm	36	punct	_	_
 40	situada	situat	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	30	amod	_	_
 41-42	al	_	_	_	_	_	_	_	_
@@ -52486,10 +52486,10 @@
 8-9	al	_	_	_	_	_	_	_	_
 8	a	a	ADP	_	_	11	case	_	_
 9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-10	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 11	Consell	consell	PROPN	_	_	7	obl	_	_
 12	on-line	on-line	ADJ	_	_	11	amod	_	SpaceAfter=No
-13	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+13	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 15	se	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	18	obj	_	_
 16	'n	en	PRON	_	Case=Gen|Person=3|PronType=Prs	18	obl	_	_
@@ -52693,10 +52693,10 @@
 2	tot	tot	PRON	_	Gender=Masc|Number=Sing|PronType=Tot	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-5	'	'	SYM	_	_	6	nmod	_	SpaceAfter=No
+5	'	'	PUNCT	fe	PunctType=Quot	6	punct	_	SpaceAfter=No
 6	Consell	consell	PROPN	_	_	10	nsubj	_	_
 7	on-line	on-line	ADJ	_	_	6	amod	_	SpaceAfter=No
-8	'	'	SYM	_	_	6	nmod	_	_
+8	'	'	PUNCT	fe	PunctType=Quot	6	punct	_	_
 9	no	no	ADV	_	Polarity=Neg	10	advmod	_	_
 10	vol	voler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	ser	ser	AUX	_	VerbForm=Inf	13	cop	_	_
@@ -52824,18 +52824,18 @@
 7	de	de	ADP	_	_	9	case	_	_
 8	l'	l'	DET	_	Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	Estany	Estany	PROPN	_	_	2	flat	_	_
-10	'	'	SYM	_	_	11	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 11	on-line	on-line	ADJ	_	_	2	amod	_	SpaceAfter=No
-12	'	'	SYM	_	_	11	nmod	_	_
+12	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	_
 13	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	obj	_	_
 14	pot	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	trobar	trobar	VERB	_	VerbForm=Inf	0	root	_	_
 16	a	a	ADP	_	_	18	case	_	_
 17	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
 18	adreça	adreça	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
-19	'	'	SYM	_	_	20	nmod	_	SpaceAfter=No
+19	'	'	PUNCT	fe	PunctType=Quot	20	punct	_	SpaceAfter=No
 20	www.plaestany.org/online	www.plaestany.org/online	PROPN	_	_	18	appos	_	SpaceAfter=No
-21	'	'	SYM	_	_	20	nmod	_	_
+21	'	'	PUNCT	fe	PunctType=Quot	20	punct	_	_
 22	o	o	CCONJ	_	_	28	cc	_	MWE=o_bé|MWEPOS=CCONJ
 23	bé	bé	NOUN	_	_	22	fixed	_	_
 24	a	a	ADP	_	_	28	case	_	MWE=a_través_del|MWEPOS=ADP
@@ -52845,9 +52845,9 @@
 27	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
 28	portal	portal	NOUN	_	Gender=Masc|Number=Sing	18	conj	_	_
 29	comarcal	comarcal	ADJ	_	Number=Sing	28	amod	_	_
-30	'	'	SYM	_	_	31	nmod	_	SpaceAfter=No
+30	'	'	PUNCT	fe	PunctType=Quot	31	punct	_	SpaceAfter=No
 31	www.plaestany.net	www.plaestany.net	PROPN	_	_	28	appos	_	SpaceAfter=No
-32	'	'	SYM	_	_	31	nmod	_	SpaceAfter=No
+32	'	'	PUNCT	fe	PunctType=Quot	31	punct	_	SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
 
 # newdoc id = CESS-CAT-AAP-20020116-46628
@@ -52917,7 +52917,7 @@
 # sent_id = CESS-CAT-AAP-20020116-46628-s3
 # text = 'La presència del socialisme català dins el conjunt del socialisme espanyol requereix de nosaltres, en la línia de Pallach, un grau d'autonomia suficient', ha assenyalat Maragall en la seva intervenció.
 # orig_file_sentence 013#37
-1	'	'	SYM	_	_	3	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	La	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	presència	presència	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
 4-5	del	_	_	_	_	_	_	_	_
@@ -52948,7 +52948,7 @@
 27	d'	de	ADP	_	_	28	case	_	SpaceAfter=No
 28	autonomia	autonomia	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
 29	suficient	suficient	ADJ	_	Number=Sing	28	amod	_	SpaceAfter=No
-30	'	'	SYM	_	_	26	nmod	_	SpaceAfter=No
+30	'	'	PUNCT	fe	PunctType=Quot	26	punct	_	SpaceAfter=No
 31	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
 32	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
 33	assenyalat	assenyalar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -52982,7 +52982,7 @@
 17	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	compromís	compromís	NOUN	_	Gender=Masc|Number=Sing	16	obj	_	_
 19	que	que	SCONJ	_	_	21	mark	_	_
-20	'	'	SYM	_	_	24	nmod	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	24	punct	_	SpaceAfter=No
 21	mirarem	mirar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	18	acl	_	_
 22	de	de	ADP	_	_	24	case	_	_
 23	ser	ser	AUX	_	VerbForm=Inf	24	cop	_	_
@@ -53003,7 +53003,7 @@
 37	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	39	det	_	MWE=la_seva|MWEPOS=DET
 38	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	det	_	_
 39	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	24	ccomp	_	SpaceAfter=No
-40	'	'	SYM	_	_	24	nmod	_	SpaceAfter=No
+40	'	'	PUNCT	fe	PunctType=Quot	24	punct	_	SpaceAfter=No
 41	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020116-46628-s5
@@ -53019,7 +53019,7 @@
 8	que	que	SCONJ	_	_	10	mark	_	_
 9	Pallach	Pallach	PROPN	_	_	10	nsubj	_	_
 10	defensava	defensar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
-11	'	'	SYM	_	_	14	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	fe	PunctType=Quot	14	punct	_	SpaceAfter=No
 12	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
 13	gran	gran	ADJ	_	Number=Sing	14	amod	_	_
 14	partit	partit	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
@@ -53038,7 +53038,7 @@
 27	normal	normal	ADJ	_	Number=Sing	26	amod	_	_
 28	d'	de	ADP	_	_	29	case	_	SpaceAfter=No
 29	Europa	Europa	PROPN	_	_	26	nmod	_	SpaceAfter=No
-30	'	'	SYM	_	_	23	nmod	_	SpaceAfter=No
+30	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	SpaceAfter=No
 31	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020116-46628-s6
@@ -53051,15 +53051,15 @@
 5	remarcat	remarcar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	que	que	SCONJ	_	_	9	mark	_	_
 7	Pallach	Pallach	PROPN	_	_	9	nsubj	_	_
-8	'	'	SYM	_	_	9	nmod	_	SpaceAfter=No
+8	'	'	PUNCT	fe	PunctType=Quot	9	punct	_	SpaceAfter=No
 9	celebraria	celebrar	VERB	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
-10	'	'	SYM	_	_	9	nmod	_	_
+10	'	'	PUNCT	fe	PunctType=Quot	9	punct	_	_
 11	avui	avui	ADV	_	_	9	advmod	_	_
-12	'	'	SYM	_	_	15	nmod	_	SpaceAfter=No
+12	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	SpaceAfter=No
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	nou	nou	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
 15	federalisme	federalisme	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
-16	'	'	SYM	_	_	15	nmod	_	_
+16	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	_
 17	que	que	PRON	_	PronType=Rel	18	obj	_	_
 18	encapçala	encapçalar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	_
 19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -53093,7 +53093,7 @@
 12	definició	definició	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	Europa	Europa	PROPN	_	_	12	nmod	_	_
-15	'	'	PUNCT	_	_	18	punct	_	SpaceAfter=No
+15	'	'	PUNCT	fe	PunctType=Quot	18	punct	_	SpaceAfter=No
 16	hauria	haver	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	18	aux	_	_
 17	de	de	ADP	_	_	18	mark	_	_
 18	tenir	tenir	VERB	_	VerbForm=Inf	4	xcomp	_	_
@@ -53110,10 +53110,10 @@
 29	de	de	ADP	_	_	30	case	_	_
 30	Josep	Josep	PROPN	_	_	28	nmod	_	MWE=Josep_Pallach|MWEPOS=PROPN
 31	Pallach	Pallach	PROPN	_	_	30	flat	_	SpaceAfter=No
-32	'	'	PUNCT	_	_	18	punct	_	_
+32	'	'	PUNCT	fe	PunctType=Quot	18	punct	_	_
 33	i	i	CCONJ	_	_	41	cc	_	_
 34	que	que	SCONJ	_	_	41	mark	_	_
-35	'	'	PUNCT	_	_	38	punct	_	SpaceAfter=No
+35	'	'	PUNCT	fe	PunctType=Quot	38	punct	_	SpaceAfter=No
 36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 37	millor	millor	ADJ	_	Degree=Cmp|Number=Sing	38	amod	_	_
 38	homenatge	homenatge	NOUN	_	Gender=Masc|Number=Sing	41	nsubj	_	_
@@ -53127,7 +53127,7 @@
 46	seves	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	47	det	_	_
 47	posicions	posició	NOUN	_	Gender=Fem|Number=Plur	43	nmod	_	_
 48	polítiques	polític	ADJ	_	Gender=Fem|Number=Plur	47	amod	_	SpaceAfter=No
-49	'	'	PUNCT	_	_	41	punct	_	SpaceAfter=No
+49	'	'	PUNCT	fe	PunctType=Quot	41	punct	_	SpaceAfter=No
 50	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020116-46628-s8
@@ -53168,7 +53168,7 @@
 30	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
 31	assegurat	assegurar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
 32	que	que	SCONJ	_	_	39	mark	_	_
-33	'	'	SYM	_	_	36	nmod	_	SpaceAfter=No
+33	'	'	PUNCT	fe	PunctType=Quot	36	punct	_	SpaceAfter=No
 34	si	si	SCONJ	_	_	36	mark	_	_
 35	hagués	haver	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	aux	_	_
 36	viscut	viure	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	advcl	_	SpaceAfter=No
@@ -53181,7 +53181,7 @@
 43	influent	influent	ADJ	_	Number=Sing	41	amod	_	_
 44	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	1976	1976	NOUN	_	AdvType=Tim	39	obl	_	SpaceAfter=No
-46	'	'	SYM	_	_	45	nmod	_	SpaceAfter=No
+46	'	'	PUNCT	fe	PunctType=Quot	45	punct	_	SpaceAfter=No
 47	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020116-46628-s9
@@ -53318,7 +53318,7 @@
 5	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 6	destacat	destacar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-8	'	'	SYM	_	_	9	nmod	_	SpaceAfter=No
+8	'	'	PUNCT	fe	PunctType=Quot	9	punct	_	SpaceAfter=No
 9	testimoni	testimoni	NOUN	_	Number=Sing	6	obj	_	_
 10	vital	vital	ADJ	_	Number=Sing	9	amod	_	_
 11	lliurat	lliurat	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	9	amod	_	_
@@ -53333,7 +53333,7 @@
 20	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
 21	causa	causa	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	_
 22	noble	noble	ADJ	_	Number=Sing	21	amod	_	SpaceAfter=No
-23	'	'	SYM	_	_	9	nmod	_	SpaceAfter=No
+23	'	'	PUNCT	fe	PunctType=Quot	9	punct	_	SpaceAfter=No
 24	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020116-46628-s13
@@ -53366,7 +53366,7 @@
 24	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
 25	definit	definir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
 26	com	com	SCONJ	_	_	29	mark	_	_
-27	'	'	SYM	_	_	29	nmod	_	SpaceAfter=No
+27	'	'	PUNCT	fe	PunctType=Quot	29	punct	_	SpaceAfter=No
 28	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	29	det	_	_
 29	socialista	socialista	NOUN	_	Number=Sing	25	iobj	_	_
 30	que	que	PRON	_	PronType=Rel	32	nsubj	_	_
@@ -53381,7 +53381,7 @@
 39	Espanya	Espanya	PROPN	_	_	36	obl	_	_
 40	i	i	CCONJ	_	_	41	cc	_	_
 41	Catalunya	Catalunya	PROPN	_	_	39	conj	_	SpaceAfter=No
-42	'	'	SYM	_	_	29	nmod	_	SpaceAfter=No
+42	'	'	PUNCT	fe	PunctType=Quot	29	punct	_	SpaceAfter=No
 43	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020116-46628-s14
@@ -53416,7 +53416,7 @@
 26	que	que	SCONJ	_	_	32	mark	_	_
 27	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
 28	homenatjat	homenatjat	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	32	nsubj	_	_
-29	'	'	SYM	_	_	32	nmod	_	SpaceAfter=No
+29	'	'	PUNCT	fe	PunctType=Quot	32	punct	_	SpaceAfter=No
 30	hauria	haver	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	32	aux	_	_
 31	estat	ser	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	aux	_	_
 32	satisfet	satisfer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	ccomp	_	_
@@ -53425,7 +53425,7 @@
 35	situació	situació	NOUN	_	Gender=Fem|Number=Sing	32	obl	_	_
 36	estructural	estructural	ADJ	_	Number=Sing	35	amod	_	_
 37	actual	actual	ADJ	_	Number=Sing	35	amod	_	SpaceAfter=No
-38	'	'	SYM	_	_	35	nmod	_	_
+38	'	'	PUNCT	fe	PunctType=Quot	35	punct	_	_
 39	de	de	ADP	_	_	40	case	_	_
 40	Catalunya	Catalunya	PROPN	_	_	35	nmod	_	_
 41	i	i	CCONJ	_	_	45	cc	_	_
@@ -53442,7 +53442,7 @@
 # sent_id = CESS-CAT-AAP-20020116-46628-s15
 # text = 'Va lluitar per dues coses, pel socialisme i el catalanisme', ha assenyalat un altre dels seus seguidors, Ramon Martínez Fraile, que ha recordat que les seves posicions 'avançades al seus temps' li van crear amistats però també grans adversaris.
 # orig_file_sentence 013#49
-1	'	'	SYM	_	_	3	nmod	_	SpaceAfter=No
+1	'	'	PUNCT	fe	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	Va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	lluitar	lluitar	VERB	_	VerbForm=Inf	17	xcomp	_	_
 4	per	per	ADP	_	_	6	case	_	_
@@ -53456,7 +53456,7 @@
 11	i	i	CCONJ	_	_	13	cc	_	_
 12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	catalanisme	catalanisme	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
-14	'	'	SYM	_	_	13	nmod	_	SpaceAfter=No
+14	'	'	PUNCT	fe	PunctType=Quot	13	punct	_	SpaceAfter=No
 15	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 16	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
 17	assenyalat	assenyalar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -53479,14 +53479,14 @@
 33	les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	35	det	_	MWE=les_seves|MWEPOS=DET
 34	seves	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	35	det	_	_
 35	posicions	posició	NOUN	_	Gender=Fem|Number=Plur	45	nsubj	_	_
-36	'	'	SYM	_	_	37	nmod	_	SpaceAfter=No
+36	'	'	PUNCT	fe	PunctType=Quot	37	punct	_	SpaceAfter=No
 37	avançades	avançat	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	35	amod	_	_
 38-39	al	_	_	_	_	_	_	_	_
 38	a	a	ADP	_	_	41	case	_	_
 39	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
 40	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	41	det	_	_
 41	temps	temps	NOUN	_	Gender=Masc	37	obl	_	SpaceAfter=No
-42	'	'	SYM	_	_	37	nmod	_	_
+42	'	'	PUNCT	fe	PunctType=Quot	37	punct	_	_
 43	li	ell	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	45	obj	_	_
 44	van	anar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	45	aux	_	_
 45	crear	crear	VERB	_	VerbForm=Inf	31	xcomp	_	_
@@ -53532,7 +53532,7 @@
 28	socialistes	socialista	NOUN	_	Number=Plur	32	nsubj	_	_
 29	catalans	català	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
 30	són	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
-31	'	'	SYM	_	_	32	nmod	_	SpaceAfter=No
+31	'	'	PUNCT	fe	PunctType=Quot	32	punct	_	SpaceAfter=No
 32	hereus	hereu	NOUN	_	Gender=Masc|Number=Plur	25	ccomp	_	_
 33	d'	de	ADP	_	_	35	case	_	SpaceAfter=No
 34	aquests	aquest	DET	_	Gender=Masc|Number=Plur|PronType=Dem	35	det	_	_
@@ -53544,7 +53544,7 @@
 40	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
 41	justícia	justícia	NOUN	_	Gender=Fem|Number=Sing	38	obj	_	_
 42	social	social	ADJ	_	Number=Sing	41	amod	_	SpaceAfter=No
-43	'	'	SYM	_	_	32	nmod	_	SpaceAfter=No
+43	'	'	PUNCT	fe	PunctType=Quot	32	punct	_	SpaceAfter=No
 44	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # newdoc id = CESS-CAT-AAP-20020129-47505
@@ -53553,10 +53553,10 @@
 # orig_file_sentence 013#55
 1	L'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	exposició	exposició	NOUN	_	Gender=Fem|Number=Sing	38	nsubj	_	_
-3	'	'	SYM	_	_	4	nmod	_	SpaceAfter=No
+3	'	'	PUNCT	fe	PunctType=Quot	4	punct	_	SpaceAfter=No
 4	Pantalles	Pantalles	PROPN	_	_	2	appos	_	MWE=Pantalles_sensibles|MWEPOS=PROPN
 5	sensibles	sensibles	PROPN	_	_	4	flat	_	SpaceAfter=No
-6	'	'	SYM	_	_	4	nmod	_	_
+6	'	'	PUNCT	fe	PunctType=Quot	4	punct	_	_
 7	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	8	punct	_	SpaceAfter=No
 8	Videoart	Videoart	PROPN	_	_	4	flat	_	_
 9-10	dels	_	_	_	_	_	_	_	_
@@ -53578,10 +53578,10 @@
 23	de	de	ADP	_	_	25	case	_	_
 24	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	Fundació	Fundació	PROPN	_	_	21	nmod	_	MWE=Fundació_'_la_Caixa_'|MWEPOS=PROPN
-26	'	'	PUNCT	_	_	28	punct	_	SpaceAfter=No
+26	'	'	PUNCT	fe	PunctType=Quot	28	punct	_	SpaceAfter=No
 27	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	Caixa	Caixa	PROPN	_	_	25	flat	_	SpaceAfter=No
-29	'	'	PUNCT	_	_	28	punct	_	_
+29	'	'	PUNCT	fe	PunctType=Quot	28	punct	_	_
 30	de	de	ADP	_	_	31	case	_	_
 31	Lleida	Lleida	PROPN	_	_	21	nmod	_	_
 32	(	(	PUNCT	_	PunctSide=Ini|PunctType=Brck	33	punct	_	SpaceAfter=No
@@ -53774,10 +53774,10 @@
 3	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
 4	aquests	aquest	DET	_	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
 5	cinc	cinc	NUM	_	Number=Plur|NumType=Card	4	nummod	_	_
-6	'	'	SYM	_	_	7	nmod	_	SpaceAfter=No
+6	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	SpaceAfter=No
 7	curts	curts	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
 8	artístics	artístic	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
-9	'	'	SYM	_	_	7	nmod	_	_
+9	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	_
 10	on	on	PRON	_	PronType=Rel	15	obl	_	_
 11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	so	so	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
@@ -53831,9 +53831,9 @@
 4	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	autors	autor	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
 6	són	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-7	'	'	SYM	_	_	8	nmod	_	SpaceAfter=No
+7	'	'	PUNCT	fe	PunctType=Quot	8	punct	_	SpaceAfter=No
 8	Douche	Douche	PROPN	_	_	0	root	_	SpaceAfter=No
-9	'	'	SYM	_	_	8	nmod	_	_
+9	'	'	PUNCT	fe	PunctType=Quot	8	punct	_	_
 10	de	de	ADP	_	_	11	case	_	_
 11	Marijke	Marijke	PROPN	_	_	8	nmod	_	MWE=Marijke_van_Wanderman|MWEPOS=PROPN
 12	van	van	PROPN	_	_	11	flat	_	_
@@ -53842,9 +53842,9 @@
 15	Holanda	Holanda	PROPN	_	_	11	flat	_	SpaceAfter=No
 16	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	15	punct	_	SpaceAfter=No
 17	;	;	PUNCT	_	PunctType=Semi	19	punct	_	_
-18	'	'	SYM	_	_	19	nmod	_	SpaceAfter=No
+18	'	'	PUNCT	fe	PunctType=Quot	19	punct	_	SpaceAfter=No
 19	Sustain	Sustain	PROPN	_	_	8	flat	_	SpaceAfter=No
-20	'	'	SYM	_	_	19	nmod	_	_
+20	'	'	PUNCT	fe	PunctType=Quot	19	punct	_	_
 21	d'	de	ADP	_	_	22	case	_	SpaceAfter=No
 22	Edward	Edward	PROPN	_	_	19	nmod	_	MWE=Edward_Stewart|MWEPOS=PROPN
 23	Stewart	Stewart	PROPN	_	_	22	flat	_	_
@@ -53856,9 +53856,9 @@
 28	Nord	Nord	PROPN	_	_	25	flat	_	SpaceAfter=No
 29	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	25	punct	_	SpaceAfter=No
 30	,	,	PUNCT	_	PunctType=Comm	32	punct	_	_
-31	'	'	SYM	_	_	32	nmod	_	SpaceAfter=No
+31	'	'	PUNCT	fe	PunctType=Quot	32	punct	_	SpaceAfter=No
 32	Atlàntic	Atlàntic	PROPN	_	_	8	flat	_	SpaceAfter=No
-33	'	'	SYM	_	_	32	nmod	_	_
+33	'	'	PUNCT	fe	PunctType=Quot	32	punct	_	_
 34	de	de	ADP	_	_	35	case	_	_
 35	Sam	Sam	PROPN	_	_	32	nmod	_	MWE=Sam_Tylor-Wood|MWEPOS=PROPN
 36	Tylor-Wood	Tylor-Wood	PROPN	_	_	35	flat	_	_
@@ -53866,12 +53866,12 @@
 38	Britànic	britànic	ADJ	_	Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
 39	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	38	punct	_	SpaceAfter=No
 40	;	;	PUNCT	_	PunctType=Semi	42	punct	_	_
-41	'	'	SYM	_	_	42	nmod	_	SpaceAfter=No
+41	'	'	PUNCT	fe	PunctType=Quot	42	punct	_	SpaceAfter=No
 42	Ever	Ever	PROPN	_	_	8	flat	_	MWE=Ever_is_over_all|MWEPOS=PROPN
 43	is	is	PROPN	_	_	42	flat	_	_
 44	over	over	PROPN	_	_	42	flat	_	_
 45	all	all	PROPN	_	_	42	flat	_	SpaceAfter=No
-46	'	'	SYM	_	_	42	nmod	_	_
+46	'	'	PUNCT	fe	PunctType=Quot	42	punct	_	_
 47	de	de	ADP	_	_	48	case	_	_
 48	Pipilotti	Pipilotti	PROPN	_	_	42	nmod	_	MWE=Pipilotti_Rist|MWEPOS=PROPN
 49	Rist	Rist	PROPN	_	_	48	flat	_	_
@@ -53936,9 +53936,9 @@
 8	algunes	algun	DET	_	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
 9	obres	obra	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
 10	com	com	SCONJ	_	_	12	mark	_	_
-11	'	'	SYM	_	_	12	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	SpaceAfter=No
 12	Atlàntic	Atlàntic	PROPN	_	_	9	nmod	_	SpaceAfter=No
-13	'	'	SYM	_	_	12	nmod	_	SpaceAfter=No
+13	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	SpaceAfter=No
 14	,	,	PUNCT	_	PunctType=Comm	19	punct	_	_
 15	on	on	PRON	_	PronType=Rel	19	obl	_	_
 16	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
@@ -55139,7 +55139,7 @@
 36	de	de	ADP	_	_	38	case	_	_
 37	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	Generalitat	Generalitat	PROPN	_	_	35	flat	_	_
-39	'	'	SYM	_	_	44	nmod	_	SpaceAfter=No
+39	'	'	PUNCT	fe	PunctType=Quot	44	punct	_	SpaceAfter=No
 40	no	no	ADV	_	Polarity=Neg	44	advmod	_	_
 41	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	cop	_	_
 42	pas	pas	ADV	_	Polarity=Neg	44	advmod	_	_
@@ -55162,7 +55162,7 @@
 59	econòmic	econòmic	ADJ	_	Gender=Masc|Number=Sing	57	conj	_	_
 60	de	de	ADP	_	_	61	case	_	_
 61	Catalunya	Catalunya	PROPN	_	_	56	nmod	_	SpaceAfter=No
-62	'	'	SYM	_	_	52	nmod	_	SpaceAfter=No
+62	'	'	PUNCT	fe	PunctType=Quot	52	punct	_	SpaceAfter=No
 63	.	.	PUNCT	_	PunctType=Peri	18	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020205-48049-s2
@@ -55180,7 +55180,7 @@
 9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	dèficit	dèficit	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
 11	zero	zero	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
-12	'	'	SYM	_	_	15	nmod	_	SpaceAfter=No
+12	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	SpaceAfter=No
 13	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
 14	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	garantia	garantia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -55242,7 +55242,7 @@
 71	reduir	reduir	VERB	_	VerbForm=Inf	59	conj	_	_
 72	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	73	det	_	_
 73	impostos	impost	NOUN	_	Gender=Masc|Number=Plur	71	obj	_	SpaceAfter=No
-74	'	'	SYM	_	_	29	nmod	_	SpaceAfter=No
+74	'	'	PUNCT	fe	PunctType=Quot	29	punct	_	SpaceAfter=No
 75	,	,	PUNCT	_	PunctType=Comm	76	punct	_	_
 76	objectius	objectiu	NOUN	_	Gender=Masc|Number=Plur	29	appos	_	_
 77	que	que	PRON	_	PronType=Rel	84	nsubj	_	_
@@ -55250,7 +55250,7 @@
 79	a	a	ADP	_	_	80	case	_	_
 80	Fernández	Fernández	PROPN	_	_	84	obl	_	_
 81	són	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	84	cop	_	_
-82	'	'	SYM	_	_	84	nmod	_	SpaceAfter=No
+82	'	'	PUNCT	fe	PunctType=Quot	84	punct	_	SpaceAfter=No
 83	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	84	det	_	_
 84	filosofia	filosofia	NOUN	_	Gender=Fem|Number=Sing	76	acl	_	_
 85	de	de	ADP	_	_	87	case	_	_
@@ -55259,7 +55259,7 @@
 88	d'	de	ADP	_	_	89	case	_	SpaceAfter=No
 89	estabilitat	estabilitat	NOUN	_	Gender=Fem|Number=Sing	87	nmod	_	_
 90	pressupostària	pressupostari	ADJ	_	Gender=Fem|Number=Sing	89	amod	_	SpaceAfter=No
-91	'	'	SYM	_	_	84	nmod	_	SpaceAfter=No
+91	'	'	PUNCT	fe	PunctType=Quot	84	punct	_	SpaceAfter=No
 92	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020205-48049-s3
@@ -55276,7 +55276,7 @@
 8	Popular	Popular	PROPN	_	_	7	flat	_	_
 9	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	que	que	SCONJ	_	_	20	mark	_	_
-11	'	'	SYM	_	_	9	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	fe	PunctType=Quot	9	punct	_	SpaceAfter=No
 12	si	si	SCONJ	_	_	14	mark	_	_
 13	CiU	CiU	PROPN	_	_	14	nsubj	_	_
 14	interposa	interposar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
@@ -55379,7 +55379,7 @@
 110	reduccions	reducció	NOUN	_	Gender=Fem|Number=Plur	107	nmod	_	_
 111	d'	de	ADP	_	_	112	case	_	SpaceAfter=No
 112	impostos	impost	NOUN	_	Gender=Masc|Number=Plur	110	nmod	_	SpaceAfter=No
-113	'	'	SYM	_	_	11	conj	_	SpaceAfter=No
+113	'	'	PUNCT	fe	PunctType=Quot	11	punct	_	SpaceAfter=No
 114	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
 # newdoc id = CESS-CAT-AAP-20020214-48759
@@ -55580,7 +55580,7 @@
 7	haurà	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
 8	de	de	ADP	_	_	9	mark	_	_
 9	consistir	consistir	VERB	_	VerbForm=Inf	0	root	_	_
-10	'	'	SYM	_	_	9	nmod	_	SpaceAfter=No
+10	'	'	PUNCT	fe	PunctType=Quot	9	punct	_	SpaceAfter=No
 11	en	en	ADP	_	_	10	case	_	_
 12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	desenvolupament	desenvolupament	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
@@ -55608,7 +55608,7 @@
 35	producció	producció	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
 36	turística	turístic	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	_
 37	transfronterera	transfronterer	ADJ	_	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
-38	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
+38	'	'	PUNCT	fe	PunctType=Quot	10	punct	_	SpaceAfter=No
 39	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020214-48759-s7
@@ -55864,7 +55864,7 @@
 17	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	18	det	_	_
 18	vegada	vegada	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
 19	més	més	ADV	_	Degree=Cmp	18	advmod	_	_
-20	'	'	SYM	_	_	22	nmod	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 21	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	22	obj	_	_
 22	demostra	demostrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
 23	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
@@ -55886,7 +55886,7 @@
 39	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	40	det	_	_
 40	relacions	relació	NOUN	_	Gender=Fem|Number=Plur	38	obj	_	_
 41	transfrontereres	transfronterer	ADJ	_	Gender=Fem|Number=Plur	40	amod	_	SpaceAfter=No
-42	'	'	SYM	_	_	22	nmod	_	SpaceAfter=No
+42	'	'	PUNCT	fe	PunctType=Quot	22	punct	_	SpaceAfter=No
 43	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020214-48759-s13
@@ -55902,7 +55902,7 @@
 8	programa	programa	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
 9	Interreg	Interreg	PROPN	_	_	8	appos	_	MWE=Interreg_III|MWEPOS=PROPN
 10	III	III	PROPN	_	_	9	flat	_	_
-11	'	'	SYM	_	_	13	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	fe	PunctType=Quot	13	punct	_	SpaceAfter=No
 12	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	obj	_	_
 13	reforça	reforçar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -55972,7 +55972,7 @@
 75	Principat	Principat	PROPN	_	_	72	nmod	_	MWE=Principat_d'_Andorra|MWEPOS=PROPN
 76	d'	d'	ADP	_	_	77	case	_	SpaceAfter=No
 77	Andorra	Andorra	PROPN	_	_	75	flat	_	SpaceAfter=No
-78	'	'	SYM	_	_	36	nmod	_	SpaceAfter=No
+78	'	'	PUNCT	fe	PunctType=Quot	36	punct	_	SpaceAfter=No
 79	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
 # newdoc id = CESS-CAT-AAP-20020302-13
@@ -56726,7 +56726,7 @@
 2	Síndic	Síndic	PROPN	_	_	3	nsubj	_	_
 3	entén	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	que	que	SCONJ	_	_	7	mark	_	_
-5	'	'	SYM	_	_	7	nmod	_	SpaceAfter=No
+5	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	SpaceAfter=No
 6	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
 7	evident	evident	ADJ	_	Number=Sing	3	ccomp	_	_
 8	que	que	SCONJ	_	_	13	mark	_	_
@@ -56778,7 +56778,7 @@
 54	a	a	ADP	_	_	55	case	_	_
 55	residència	residència	NOUN	_	Gender=Fem|Number=Sing	52	nmod	_	_
 56	humana	humà	ADJ	_	Gender=Fem|Number=Sing	55	amod	_	SpaceAfter=No
-57	'	'	SYM	_	_	7	nmod	_	SpaceAfter=No
+57	'	'	PUNCT	fe	PunctType=Quot	7	punct	_	SpaceAfter=No
 58	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020312-50714-s5
@@ -56913,7 +56913,7 @@
 16	quan	quan	SCONJ	_	_	17	mark	_	_
 17	diu	dir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
 18	que	que	SCONJ	_	_	23	mark	_	_
-19	'	'	SYM	_	_	23	nmod	_	SpaceAfter=No
+19	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	SpaceAfter=No
 20	totes	tot	DET	_	Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
 21	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
 22	persones	persona	NOUN	_	Gender=Fem|Number=Plur	23	nsubj	_	_
@@ -56926,7 +56926,7 @@
 29	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	30	det	_	_
 30	habitatge	habitatge	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
 31	digne	digne	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
-32	'	'	SYM	_	_	23	nmod	_	_
+32	'	'	PUNCT	fe	PunctType=Quot	23	punct	_	_
 33	i	i	CCONJ	_	_	35	cc	_	_
 34	que	que	SCONJ	_	_	35	mark	_	_
 35	són	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
@@ -57272,14 +57272,14 @@
 1	Sota	sota	ADP	_	_	3	case	_	_
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	títol	títol	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
-4	'	'	SYM	_	_	5	nmod	_	SpaceAfter=No
+4	'	'	PUNCT	fe	PunctType=Quot	5	punct	_	SpaceAfter=No
 5	Dècimes	Dècimes	PROPN	_	_	3	appos	_	MWE=Dècimes_de_l'_Hospital_Santa_Caterina|MWEPOS=PROPN
 6	de	de	ADP	_	_	8	case	_	_
 7	l'	l'	DET	_	Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	Hospital	Hospital	PROPN	_	_	5	flat	_	_
 9	Santa	Santa	PROPN	_	_	8	flat	_	_
 10	Caterina	Caterina	PROPN	_	_	8	flat	_	SpaceAfter=No
-11	'	'	SYM	_	_	5	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	fe	PunctType=Quot	5	punct	_	SpaceAfter=No
 12	,	,	PUNCT	_	PunctType=Comm	3	punct	_	_
 13	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	mostra	mostra	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
@@ -57344,7 +57344,7 @@
 8	composicions	composició	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
 9	com	com	SCONJ	_	_	12	mark	_	MWE=com_a|MWEPOS=SCONJ
 10	a	a	ADP	_	_	9	fixed	_	_
-11	'	'	SYM	_	_	12	nmod	_	SpaceAfter=No
+11	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	SpaceAfter=No
 12	antecedent	antecedent	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
 13	de	de	ADP	_	_	15	case	_	_
 14	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
@@ -57356,7 +57356,7 @@
 20	pòsters	pòster	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	_
 21	d'	d'	ADP	_	_	20	advmod	_	SpaceAfter=No|MWE=d'_època|MWEPOS=ADV
 22	època	època	NOUN	_	_	21	fixed	_	SpaceAfter=No
-23	'	'	SYM	_	_	12	nmod	_	SpaceAfter=No
+23	'	'	PUNCT	fe	PunctType=Quot	12	punct	_	SpaceAfter=No
 24	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
 25	ja	ja	ADV	_	_	27	mark	_	MWE=ja_que|MWEPOS=SCONJ
 26	que	que	SCONJ	_	_	25	fixed	_	_
@@ -57635,10 +57635,10 @@
 10	a	a	ADP	_	_	11	case	_	_
 11	Girona	Girona	PROPN	_	_	9	obl	_	_
 12	sigui	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
-13	'	'	SYM	_	_	15	nmod	_	SpaceAfter=No
+13	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	SpaceAfter=No
 14	absolutament	absolutament	ADV	_	_	15	advmod	_	_
 15	singular	singular	ADJ	_	Number=Sing	3	ccomp	_	SpaceAfter=No
-16	'	'	SYM	_	_	15	nmod	_	SpaceAfter=No
+16	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	SpaceAfter=No
 17	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020326-51713-s14
@@ -59424,7 +59424,7 @@
 50	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
 51	Generalitat	Generalitat	PROPN	_	_	48	iobj	_	_
 52	a	a	ADP	_	_	54	mark	_	_
-53	'	'	SYM	_	_	54	nmod	_	SpaceAfter=No
+53	'	'	PUNCT	fe	PunctType=Quot	54	punct	_	SpaceAfter=No
 54	convocar	convocar	VERB	_	VerbForm=Inf	48	xcomp	_	_
 55	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
 56	Comissió	Comissió	PROPN	_	_	54	obj	_	MWE=Comissió_General_de_les_Comunitats_Autònomes_del_Senat|MWEPOS=PROPN
@@ -59437,7 +59437,7 @@
 62	de	de	ADP	_	_	64	case	_	_
 63	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
 64	Senat	Senat	PROPN	_	_	56	flat	_	SpaceAfter=No
-65	'	'	SYM	_	_	54	nmod	_	_
+65	'	'	PUNCT	fe	PunctType=Quot	54	punct	_	_
 66	per	per	ADP	_	_	67	mark	_	_
 67	debatre	debatre	VERB	_	VerbForm=Inf	54	advcl	_	_
 68-69	al	_	_	_	_	_	_	_	_
@@ -59736,7 +59736,7 @@
 30	que	que	SCONJ	_	_	29	fixed	_	_
 31	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 32	redacció	redacció	NOUN	_	Gender=Fem|Number=Sing	36	nsubj	_	_
-33	'	'	SYM	_	_	36	nmod	_	SpaceAfter=No
+33	'	'	PUNCT	fe	PunctType=Quot	36	punct	_	SpaceAfter=No
 34	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
 35	poc	poc	ADV	_	_	36	advmod	_	_
 36	curosa	curós	ADJ	_	Gender=Fem|Number=Sing	21	conj	_	_
@@ -59744,7 +59744,7 @@
 38	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
 39	aspecte	aspecte	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
 40	procedimental	procedimental	ADJ	_	Number=Sing	39	amod	_	SpaceAfter=No
-41	'	'	SYM	_	_	36	nmod	_	SpaceAfter=No
+41	'	'	PUNCT	fe	PunctType=Quot	36	punct	_	SpaceAfter=No
 42	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020514-55209-s6
@@ -59823,9 +59823,9 @@
 45	i	i	CCONJ	_	_	49	cc	_	_
 46	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
 47	ser	ser	AUX	_	VerbForm=Inf	49	aux	_	_
-48	'	'	SYM	_	_	49	nmod	_	SpaceAfter=No
+48	'	'	PUNCT	fe	PunctType=Quot	49	punct	_	SpaceAfter=No
 49	vexat	vexar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	conj	_	SpaceAfter=No
-50	'	'	SYM	_	_	49	nmod	_	_
+50	'	'	PUNCT	fe	PunctType=Quot	49	punct	_	_
 51	amb	amb	ADP	_	_	54	case	_	_
 52	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	54	det	_	_
 53	continu	continu	ADJ	_	Gender=Masc|Number=Sing	54	amod	_	_
@@ -59867,7 +59867,7 @@
 17	duta	dur	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	MWE=duta_a_terme|MWEPOS=VERB
 18	a	a	ADP	_	_	19	case	_	_
 19	terme	terme	NOUN	_	Number=Sing	17	compound	_	_
-20	'	'	SYM	_	_	17	nmod	_	SpaceAfter=No
+20	'	'	PUNCT	fe	PunctType=Quot	17	punct	_	SpaceAfter=No
 21	sense	sense	ADP	_	_	20	mark	_	_
 22	menystenir	menystenir	VERB	_	VerbForm=Inf	20	advcl	_	_
 23	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
@@ -59884,7 +59884,7 @@
 33	i	i	CCONJ	_	_	34	cc	_	_
 34	formació	formació	NOUN	_	Gender=Fem|Number=Sing	32	conj	_	_
 35	professional	professional	ADJ	_	Number=Sing	32	amod	_	SpaceAfter=No
-36	'	'	SYM	_	_	20	nmod	_	_
+36	'	'	PUNCT	fe	PunctType=Quot	20	punct	_	_
 37	d'	d'	ADP	_	_	41	case	_	SpaceAfter=No|MWE=d'_acord_amb|MWEPOS=ADP
 38	acord	acord	NOUN	_	_	37	fixed	_	_
 39	amb	amb	ADP	_	_	37	fixed	_	_
@@ -60081,7 +60081,7 @@
 36	a	a	ADP	_	_	35	fixed	_	_
 37	simple	simple	ADJ	_	Number=Sing	38	amod	_	_
 38	empleat	empleat	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
-39	'	'	SYM	_	_	20	nmod	_	SpaceAfter=No
+39	'	'	PUNCT	fe	PunctType=Quot	20	punct	_	SpaceAfter=No
 40	amb	amb	ADP	_	_	39	case	_	_
 41	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	contradicció	contradicció	NOUN	_	Gender=Fem|Number=Sing	39	obl	_	_
@@ -60098,7 +60098,7 @@
 53	professional	professional	ADJ	_	Number=Sing	52	amod	_	_
 54	de	de	ADP	_	_	55	case	_	_
 55	Cap	Cap	PROPN	_	_	52	nmod	_	SpaceAfter=No
-56	'	'	SYM	_	_	39	nmod	_	SpaceAfter=No
+56	'	'	PUNCT	fe	PunctType=Quot	39	punct	_	SpaceAfter=No
 57	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020515-55329-s6
@@ -60284,7 +60284,7 @@
 37	tasques	tasca	NOUN	_	Gender=Fem|Number=Plur	34	iobj	_	_
 38	diferents	diferent	ADJ	_	Number=Plur	37	amod	_	SpaceAfter=No
 39	,	,	PUNCT	_	PunctType=Comm	40	punct	_	_
-40	'	'	SYM	_	_	13	nmod	_	SpaceAfter=No
+40	'	'	PUNCT	fe	PunctType=Quot	13	punct	_	SpaceAfter=No
 41	però	però	CCONJ	_	_	52	cc	_	_
 42	en	en	ADP	_	_	44	case	_	_
 43	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
@@ -60307,7 +60307,7 @@
 59	no	no	ADV	_	Polarity=Neg	61	advmod	_	_
 60	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	aux	_	_
 61	acceptar	acceptar	VERB	_	VerbForm=Inf	55	acl	_	SpaceAfter=No
-62	'	'	SYM	_	_	13	nmod	_	SpaceAfter=No
+62	'	'	PUNCT	fe	PunctType=Quot	13	punct	_	SpaceAfter=No
 63	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020515-55329-s10
@@ -60395,7 +60395,7 @@
 11	Col·lectiu	Col·lectiu	PROPN	_	_	8	nmod	_	MWE=Col·lectiu_Ronda|MWEPOS=PROPN
 12	Ronda	Ronda	PROPN	_	_	11	flat	_	_
 13	perquè	perquè	SCONJ	_	_	15	mark	_	_
-14	'	'	SYM	_	_	15	nmod	_	SpaceAfter=No
+14	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	SpaceAfter=No
 15	fixa	fixar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
 16	criteri	criteri	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
 17	en	en	ADP	_	_	19	case	_	_
@@ -60413,7 +60413,7 @@
 29	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	sector	sector	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
 31	bancari	bancari	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	SpaceAfter=No
-32	'	'	SYM	_	_	15	nmod	_	SpaceAfter=No
+32	'	'	PUNCT	fe	PunctType=Quot	15	punct	_	SpaceAfter=No
 33	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # newdoc id = CESS-CAT-AAP-20020601-63_c
@@ -65196,7 +65196,7 @@
 13	oest	oest	ADJ	_	_	12	amod	_	_
 14	tindrà	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	parataxis	_	_
 15	3	3	NUM	_	NumForm=Digit|NumType=Card	18	nummod	_	MWE=3_'_5|MWEPOS=NUM
-16	'	'	PUNCT	_	_	17	punct	_	SpaceAfter=No
+16	'	'	PUNCT	fe	PunctType=Quot	17	punct	_	SpaceAfter=No
 17	5	5	NUM	_	NumForm=Digit|NumType=Card	15	compound	_	_
 18	metres	metre	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
 19	,	,	PUNCT	_	PunctType=Comm	18	punct	_	_
@@ -65210,7 +65210,7 @@
 26	riu	riu	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
 27	medirà	medir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	parataxis	_	_
 28	2	2	NUM	_	NumForm=Digit|NumType=Card	27	obj	_	MWE=2_'_5|MWEPOS=NUM
-29	'	'	PUNCT	_	_	28	punct	_	SpaceAfter=No
+29	'	'	PUNCT	fe	PunctType=Quot	28	punct	_	SpaceAfter=No
 30	5	5	NUM	_	NumForm=Digit|NumType=Card	28	compound	_	SpaceAfter=No
 31	.	.	PUNCT	_	PunctType=Peri	20	punct	_	_
 
