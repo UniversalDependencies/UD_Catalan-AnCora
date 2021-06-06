@@ -588,7 +588,7 @@
 20	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = 3LB-CAT-06010100-4-s6
-# text = També està prevista l'arribada del creuer 'Silver Shadow, de la companyia Silversea Cruises, amb una eslora de 182 metres i 388 passatgers.
+# text = També està prevista l'arribada del creuer 'Silver Shadow, ' de la companyia Silversea Cruises, amb una eslora de 182 metres i 388 passatgers.
 # orig_file_sentence 001#19
 1	També	també	ADV	_	_	3	advmod	_	_
 2	està	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -602,23 +602,24 @@
 9	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
 10	Silver	Silver	PROPN	_	_	8	appos	_	MWE=Silver_Shadow|MWEPOS=PROPN
 11	Shadow	Shadow	PROPN	_	_	10	flat	_	SpaceAfter=No
-12	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
-13	de	de	ADP	_	_	15	case	_	_
-14	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	companyia	companyia	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-16	Silversea	Silversea	PROPN	_	_	15	appos	_	MWE=Silversea_Cruises|MWEPOS=PROPN
-17	Cruises	Cruises	PROPN	_	_	16	flat	_	SpaceAfter=No
-18	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
-19	amb	amb	ADP	_	_	21	case	_	_
-20	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
-21	eslora	eslora	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-22	de	de	ADP	_	_	24	case	_	_
-23	182	182	NUM	_	NumForm=Digit|NumType=Card	24	nummod	_	_
-24	metres	metre	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
-25	i	i	CCONJ	_	_	27	cc	_	_
-26	388	388	NUM	_	NumForm=Digit|NumType=Card	27	nummod	_	_
-27	passatgers	passatger	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
-28	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+12	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
+13	'	'	PUNCT	_	_	10	punct	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	companyia	companyia	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+17	Silversea	Silversea	PROPN	_	_	16	appos	_	MWE=Silversea_Cruises|MWEPOS=PROPN
+18	Cruises	Cruises	PROPN	_	_	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
+20	amb	amb	ADP	_	_	22	case	_	_
+21	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	22	det	_	_
+22	eslora	eslora	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	182	182	NUM	_	NumForm=Digit|NumType=Card	25	nummod	_	_
+25	metres	metre	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+26	i	i	CCONJ	_	_	28	cc	_	_
+27	388	388	NUM	_	NumForm=Digit|NumType=Card	28	nummod	_	_
+28	passatgers	passatger	NOUN	_	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = 3LB-CAT-06010100-4-s7
 # text = El dia 18 atracarà el vaixell 'Assedo', de la companyia Transtours, amb 175 metres d'eslora i un passatge de 500 persones.
@@ -3099,7 +3100,7 @@
 54	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = 3LB-CAT-06019900-14-s15
-# text = Finalment, el president de l'Autoritat Portuària ha assegurat que "estem treballant seriosament amb l'àrea de creuers.
+# text = Finalment, el president de l'Autoritat Portuària ha assegurat que "estem treballant seriosament amb l'àrea de creuers."
 # orig_file_sentence 001#84
 1	Finalment	finalment	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
@@ -3121,7 +3122,8 @@
 18	àrea	àrea	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	creuers	creuer	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
+21	.	.	PUNCT	_	PunctType=Peri	14	punct	_	SpaceAfter=No
+22	"	"	PUNCT	fe	PunctType=Quot	14	punct	_	_
 
 # sent_id = 3LB-CAT-06019900-14-s16
 # text = De fet - ha dit - és la prioritat del Port i pretenem fer el salt l'any vinent.
@@ -8943,10 +8945,10 @@
 19	.	.	PUNCT	_	PunctType=Peri	16	punct	_	_
 
 # sent_id = 3LB-CAT-203-2-s7
-# text = 'Epidemiologia de la fluorosi dental a la població escolar de Caldes de Malavella de Marina Berbel de l'escola Montessori Palau de Girona,' Els mosaics . Estudi de la fulla de la Devesa 'de Joan Borrell de l'IES Santiago Sobrequés de Girona,' Cristal·lització anòmala dels otòlits dels peixos confinats 'de Francina Sintas i Clara Coll de l'IES Els tres turons d'Arenys de Mar i' Els satèl·lits de Júpiter 'de Xan Elasri de l'IES Pere Barnils de Centelles són les obres premiades.
+# text = 'Epidemiologia de la fluorosi dental a la població escolar de Caldes de Malavella ' de Marina Berbel de l'escola Montessori Palau de Girona,' Els mosaics . Estudi de la fulla de la Devesa 'de Joan Borrell de l'IES Santiago Sobrequés de Girona,' Cristal·lització anòmala dels otòlits dels peixos confinats 'de Francina Sintas i Clara Coll de l'IES Els tres turons d'Arenys de Mar i' Els satèl·lits de Júpiter 'de Xan Elasri de l'IES Pere Barnils de Centelles són les obres premiades.
 # orig_file_sentence 003#31
 1	'	'	SYM	_	_	2	nmod	_	SpaceAfter=No
-2	Epidemiologia	Epidemiologia	PROPN	_	_	95	nsubj	_	MWE=Epidemiologia_de_la_fluorosi_dental_a_la_població_escolar_de_Caldes_de_Malavella|MWEPOS=PROPN
+2	Epidemiologia	Epidemiologia	PROPN	_	_	96	nsubj	_	MWE=Epidemiologia_de_la_fluorosi_dental_a_la_població_escolar_de_Caldes_de_Malavella|MWEPOS=PROPN
 3	de	de	ADP	_	_	5	case	_	_
 4	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	fluorosi	fluorosi	PROPN	_	_	2	flat	_	_
@@ -8959,91 +8961,92 @@
 12	Caldes	Caldes	PROPN	_	_	5	flat	_	_
 13	de	de	ADP	_	_	14	case	_	_
 14	Malavella	Malavella	PROPN	_	_	5	flat	_	_
-15	de	de	ADP	_	_	16	case	_	_
-16	Marina	Marina	PROPN	_	_	2	nmod	_	MWE=Marina_Berbel|MWEPOS=PROPN
-17	Berbel	Berbel	PROPN	_	_	16	flat	_	_
-18	de	de	ADP	_	_	20	case	_	_
-19	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
-20	escola	escola	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
-21	Montessori	Montessori	PROPN	_	_	20	appos	_	MWE=Montessori_Palau|MWEPOS=PROPN
-22	Palau	Palau	PROPN	_	_	21	flat	_	_
-23	de	de	ADP	_	_	24	case	_	_
-24	Girona	Girona	PROPN	_	_	20	nmod	_	SpaceAfter=No
-25	,	,	PUNCT	_	PunctType=Comm	28	punct	_	SpaceAfter=No
-26	'	'	SYM	_	_	27	nmod	_	_
-27	Els	Els	DET	_	Gender=Masc|Number=Plur|PronType=Art	28	det	_	MWE=Els_mosaics_._Estudi_de_la_fulla_de_la_Devesa|MWEPOS=PROPN
-28	mosaics	mosaics	PROPN	_	_	2	conj	_	_
-29	.	.	PUNCT	_	_	28	punct	_	_
-30	Estudi	Estudi	PROPN	_	_	27	flat	_	_
-31	de	de	ADP	_	_	33	case	_	_
-32	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	fulla	fulla	PROPN	_	_	27	flat	_	_
-34	de	de	ADP	_	_	36	case	_	_
-35	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-36	Devesa	Devesa	PROPN	_	_	27	flat	_	_
-37	'	'	SYM	_	_	27	nmod	_	SpaceAfter=No
-38	de	de	ADP	_	_	39	case	_	_
-39	Joan	Joan	PROPN	_	_	27	nmod	_	MWE=Joan_Borrell|MWEPOS=PROPN
-40	Borrell	Borrell	PROPN	_	_	39	flat	_	_
-41	de	de	ADP	_	_	43	case	_	_
-42	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	43	det	_	SpaceAfter=No
-43	IES	IES	PROPN	_	_	39	nmod	_	_
-44	Santiago	Santiago	PROPN	_	_	43	flat	_	MWE=Santiago_Sobrequés|MWEPOS=PROPN
-45	Sobrequés	Sobrequés	PROPN	_	_	44	flat	_	_
-46	de	de	ADP	_	_	47	case	_	_
-47	Girona	Girona	PROPN	_	_	43	nmod	_	SpaceAfter=No
-48	,	,	PUNCT	_	PunctType=Comm	50	punct	_	SpaceAfter=No
-49	'	'	SYM	_	_	50	nmod	_	_
-50	Cristal·lització	Cristal·lització	PROPN	_	_	2	conj	_	MWE=Cristal·lització_anòmala_dels_otòlits_dels_peixos_confinats|MWEPOS=PROPN
-51	anòmala	anòmala	PROPN	_	_	50	flat	_	_
-52-53	dels	_	_	_	_	_	_	_	_
-52	de	de	ADP	_	_	54	case	_	_
-53	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
-54	otòlits	otòlits	PROPN	_	_	50	flat	_	_
-55-56	dels	_	_	_	_	_	_	_	_
-55	de	de	ADP	_	_	57	case	_	_
-56	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	57	det	_	_
-57	peixos	peixos	PROPN	_	_	50	flat	_	_
-58	confinats	confinats	PROPN	_	_	50	flat	_	_
-59	'	'	SYM	_	_	50	nmod	_	SpaceAfter=No
-60	de	de	ADP	_	_	61	case	_	_
-61	Francina	Francina	PROPN	_	_	50	nmod	_	MWE=Francina_Sintas|MWEPOS=PROPN
-62	Sintas	Sintas	PROPN	_	_	61	flat	_	_
-63	i	i	CCONJ	_	_	64	cc	_	_
-64	Clara	Clara	PROPN	_	_	61	conj	_	MWE=Clara_Coll|MWEPOS=PROPN
-65	Coll	Coll	PROPN	_	_	64	flat	_	_
-66	de	de	ADP	_	_	68	case	_	_
-67	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	68	det	_	SpaceAfter=No
-68	IES	IES	PROPN	_	_	61	nmod	_	_
-69	Els	Els	DET	_	Gender=Masc|Number=Plur|PronType=Art	70	det	_	MWE=Els_tres_turons|MWEPOS=PROPN
-70	tres	tres	NUM	_	NumType=Card	68	appos	_	_
-71	turons	turons	PROPN	_	_	69	flat	_	_
-72	d'	de	ADP	_	_	73	case	_	SpaceAfter=No
-73	Arenys	Arenys	PROPN	_	_	68	nmod	_	MWE=Arenys_de_Mar|MWEPOS=PROPN
-74	de	de	ADP	_	_	75	case	_	_
-75	Mar	Mar	PROPN	_	_	73	flat	_	_
-76	i	i	CCONJ	_	_	79	cc	_	SpaceAfter=No
-77	'	'	SYM	_	_	78	nmod	_	_
-78	Els	Els	DET	_	Gender=Masc|Number=Plur|PronType=Art	79	det	_	MWE=Els_satèl·lits_de_Júpiter|MWEPOS=PROPN
-79	satèl·lits	satèl·lits	PROPN	_	_	2	conj	_	_
-80	de	de	ADP	_	_	81	case	_	_
-81	Júpiter	Júpiter	PROPN	_	_	78	flat	_	_
-82	'	'	SYM	_	_	78	nmod	_	SpaceAfter=No
-83	de	de	ADP	_	_	84	case	_	_
-84	Xan	Xan	PROPN	_	_	78	nmod	_	MWE=Xan_Elasri|MWEPOS=PROPN
-85	Elasri	Elasri	PROPN	_	_	84	flat	_	_
-86	de	de	ADP	_	_	88	case	_	_
-87	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	88	det	_	SpaceAfter=No
-88	IES	IES	PROPN	_	_	84	nmod	_	_
-89	Pere	Pere	PROPN	_	_	88	flat	_	MWE=Pere_Barnils|MWEPOS=PROPN
-90	Barnils	Barnils	PROPN	_	_	89	flat	_	_
-91	de	de	ADP	_	_	92	case	_	_
-92	Centelles	Centelles	PROPN	_	_	88	nmod	_	_
-93	són	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	95	cop	_	_
-94	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	95	det	_	_
-95	obres	obra	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
-96	premiades	premiat	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	95	amod	_	SpaceAfter=No
-97	.	.	PUNCT	_	PunctType=Peri	95	punct	_	_
+15	'	'	PUNCT	_	_	2	punct	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	Marina	Marina	PROPN	_	_	2	nmod	_	MWE=Marina_Berbel|MWEPOS=PROPN
+18	Berbel	Berbel	PROPN	_	_	17	flat	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	escola	escola	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+22	Montessori	Montessori	PROPN	_	_	21	appos	_	MWE=Montessori_Palau|MWEPOS=PROPN
+23	Palau	Palau	PROPN	_	_	22	flat	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Girona	Girona	PROPN	_	_	21	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	PunctType=Comm	29	punct	_	SpaceAfter=No
+27	'	'	SYM	_	_	28	nmod	_	_
+28	Els	Els	DET	_	Gender=Masc|Number=Plur|PronType=Art	29	det	_	MWE=Els_mosaics_._Estudi_de_la_fulla_de_la_Devesa|MWEPOS=PROPN
+29	mosaics	mosaics	PROPN	_	_	2	conj	_	_
+30	.	.	PUNCT	_	_	29	punct	_	_
+31	Estudi	Estudi	PROPN	_	_	28	flat	_	_
+32	de	de	ADP	_	_	34	case	_	_
+33	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	fulla	fulla	PROPN	_	_	28	flat	_	_
+35	de	de	ADP	_	_	37	case	_	_
+36	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Devesa	Devesa	PROPN	_	_	28	flat	_	_
+38	'	'	SYM	_	_	28	nmod	_	SpaceAfter=No
+39	de	de	ADP	_	_	40	case	_	_
+40	Joan	Joan	PROPN	_	_	28	nmod	_	MWE=Joan_Borrell|MWEPOS=PROPN
+41	Borrell	Borrell	PROPN	_	_	40	flat	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
+44	IES	IES	PROPN	_	_	40	nmod	_	_
+45	Santiago	Santiago	PROPN	_	_	44	flat	_	MWE=Santiago_Sobrequés|MWEPOS=PROPN
+46	Sobrequés	Sobrequés	PROPN	_	_	45	flat	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	Girona	Girona	PROPN	_	_	44	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	_	PunctType=Comm	51	punct	_	SpaceAfter=No
+50	'	'	SYM	_	_	51	nmod	_	_
+51	Cristal·lització	Cristal·lització	PROPN	_	_	2	conj	_	MWE=Cristal·lització_anòmala_dels_otòlits_dels_peixos_confinats|MWEPOS=PROPN
+52	anòmala	anòmala	PROPN	_	_	51	flat	_	_
+53-54	dels	_	_	_	_	_	_	_	_
+53	de	de	ADP	_	_	55	case	_	_
+54	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	55	det	_	_
+55	otòlits	otòlits	PROPN	_	_	51	flat	_	_
+56-57	dels	_	_	_	_	_	_	_	_
+56	de	de	ADP	_	_	58	case	_	_
+57	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	58	det	_	_
+58	peixos	peixos	PROPN	_	_	51	flat	_	_
+59	confinats	confinats	PROPN	_	_	51	flat	_	_
+60	'	'	SYM	_	_	51	nmod	_	SpaceAfter=No
+61	de	de	ADP	_	_	62	case	_	_
+62	Francina	Francina	PROPN	_	_	51	nmod	_	MWE=Francina_Sintas|MWEPOS=PROPN
+63	Sintas	Sintas	PROPN	_	_	62	flat	_	_
+64	i	i	CCONJ	_	_	65	cc	_	_
+65	Clara	Clara	PROPN	_	_	62	conj	_	MWE=Clara_Coll|MWEPOS=PROPN
+66	Coll	Coll	PROPN	_	_	65	flat	_	_
+67	de	de	ADP	_	_	69	case	_	_
+68	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	69	det	_	SpaceAfter=No
+69	IES	IES	PROPN	_	_	62	nmod	_	_
+70	Els	Els	DET	_	Gender=Masc|Number=Plur|PronType=Art	71	det	_	MWE=Els_tres_turons|MWEPOS=PROPN
+71	tres	tres	NUM	_	NumType=Card	69	appos	_	_
+72	turons	turons	PROPN	_	_	70	flat	_	_
+73	d'	de	ADP	_	_	74	case	_	SpaceAfter=No
+74	Arenys	Arenys	PROPN	_	_	69	nmod	_	MWE=Arenys_de_Mar|MWEPOS=PROPN
+75	de	de	ADP	_	_	76	case	_	_
+76	Mar	Mar	PROPN	_	_	74	flat	_	_
+77	i	i	CCONJ	_	_	80	cc	_	SpaceAfter=No
+78	'	'	SYM	_	_	79	nmod	_	_
+79	Els	Els	DET	_	Gender=Masc|Number=Plur|PronType=Art	80	det	_	MWE=Els_satèl·lits_de_Júpiter|MWEPOS=PROPN
+80	satèl·lits	satèl·lits	PROPN	_	_	2	conj	_	_
+81	de	de	ADP	_	_	82	case	_	_
+82	Júpiter	Júpiter	PROPN	_	_	79	flat	_	_
+83	'	'	SYM	_	_	79	nmod	_	SpaceAfter=No
+84	de	de	ADP	_	_	85	case	_	_
+85	Xan	Xan	PROPN	_	_	79	nmod	_	MWE=Xan_Elasri|MWEPOS=PROPN
+86	Elasri	Elasri	PROPN	_	_	85	flat	_	_
+87	de	de	ADP	_	_	89	case	_	_
+88	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	89	det	_	SpaceAfter=No
+89	IES	IES	PROPN	_	_	85	nmod	_	_
+90	Pere	Pere	PROPN	_	_	89	flat	_	MWE=Pere_Barnils|MWEPOS=PROPN
+91	Barnils	Barnils	PROPN	_	_	90	flat	_	_
+92	de	de	ADP	_	_	93	case	_	_
+93	Centelles	Centelles	PROPN	_	_	89	nmod	_	_
+94	són	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	96	cop	_	_
+95	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	96	det	_	_
+96	obres	obra	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+97	premiades	premiat	ADJ	_	Gender=Fem|Number=Plur|VerbForm=Part	96	amod	_	SpaceAfter=No
+98	.	.	PUNCT	_	PunctType=Peri	96	punct	_	_
 
 # sent_id = 3LB-CAT-203-2-s8
 # text = Pel que fa als finalistes n'hi ha 9 en l'àmbit de les ciències naturals i 9 en l'àmbit de les ciències socials i abasten temàtiques diverses que van de la creació d'una empresa, la recerca històrica, la immigració o la comunicació a les noves tecnologies o la recerca ambiental.
@@ -10409,7 +10412,7 @@
 22	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = 3LB-CAT-207-3-s11
-# text = L'endemà, diumenge , a dos quarts d'una, l'Esbart Cor de Catalunya oferirà un repertori de balls tradicionals dels Països Catalans i a les sis hi haurà animació amb 'mariachis.
+# text = L'endemà, diumenge , a dos quarts d'una, l'Esbart Cor de Catalunya oferirà un repertori de balls tradicionals dels Països Catalans i a les sis hi haurà animació amb 'mariachis.'
 # orig_file_sentence 003#65
 1	L'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	endemà	endemà	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
@@ -10448,7 +10451,8 @@
 34	amb	amb	ADP	_	_	36	case	_	_
 35	'	'	SYM	_	_	36	nmod	_	SpaceAfter=No
 36	mariachis	mariachi	NOUN	_	_	33	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	_	PunctType=Peri	17	punct	_	_
+37	.	.	PUNCT	_	PunctType=Peri	36	punct	_	SpaceAfter=No
+38	'	'	PUNCT	_	_	36	punct	_	_
 
 # sent_id = 3LB-CAT-207-3-s12
 # text = Els actes es clouran a les vuit del vespre amb un segon sorteig de viatges.
@@ -16045,7 +16049,7 @@
 14	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
 # sent_id = CESS-CAT-A-20010315-27617-s15C
-# text = Anà a Madrid, on fundà (1865) un Centro de Correspondencias, agència de notícies telegràfiques anomenada més tard Agencia Fabra.
+# text = Anà a Madrid, on fundà (1865) un Centro de Correspondencias, agència de notícies telegràfiques anomenada més tard Agencia Fabra. ,
 # orig_file_sentence 004#35
 1	Anà	anar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	a	a	ADP	_	_	3	case	_	_
@@ -16071,6 +16075,7 @@
 22	Agencia	Agencia	PROPN	_	_	19	obj	_	MWE=Agencia_Fabra|MWEPOS=PROPN
 23	Fabra	Fabra	PROPN	_	_	22	flat	_	SpaceAfter=No
 24	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+25	,	,	PUNCT	fc	PunctType=Comm	1	punct	_	_
 
 # sent_id = CESS-CAT-A-20010315-27617-s15D
 # text = Deixà escrits polítics ... ".
@@ -21786,7 +21791,7 @@
 38	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
 # sent_id = CESS-CAT-A-20011023-41218-s15
-# text = Cuenca considera que transformar Efe 'no seria un bon camí' sinó que el que caldria és 'demanar recursos per tal de crear de bell antuvi una agència pròpia.
+# text = Cuenca considera que transformar Efe 'no seria un bon camí' sinó que el que caldria és 'demanar recursos per tal de crear de bell antuvi una agència pròpia.'
 # orig_file_sentence 005#79
 1	Cuenca	Cuenca	PROPN	_	_	2	nsubj	_	_
 2	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -21819,7 +21824,8 @@
 29	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	30	det	_	_
 30	agència	agència	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
 31	pròpia	propi	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
-32	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
+32	.	.	PUNCT	_	PunctType=Peri	20	punct	_	SpaceAfter=No
+33	'	'	PUNCT	_	_	20	punct	_	_
 
 # newdoc id = CESS-CAT-A-20011102-115
 # sent_id = CESS-CAT-A-20011102-115-s2
@@ -37963,26 +37969,27 @@
 15	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001202-139-s18A
-# text = És un home important per la seva presència i per la jerarquia que transmet a l'equip.
+# text = " És un home important per la seva presència i per la jerarquia que transmet a l'equip.
 # orig_file_sentence 008#75
-1	És	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
-2	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
-3	home	home	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
-4	important	important	ADJ	_	Number=Sing	3	amod	_	_
-5	per	per	ADP	_	_	8	case	_	_
-6	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	det	_	MWE=la_seva|MWEPOS=DET
-7	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	det	_	_
-8	presència	presència	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
-9	i	i	CCONJ	_	_	12	cc	_	_
-10	per	per	ADP	_	_	12	case	_	_
-11	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	jerarquia	jerarquia	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
-13	que	que	PRON	_	PronType=Rel	14	obj	_	_
-14	transmet	transmetre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_
-15	a	a	ADP	_	_	17	case	_	_
-16	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
-17	equip	equip	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
-18	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	2	punct	_	_
+2	És	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+4	home	home	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	important	important	ADJ	_	Number=Sing	4	amod	_	_
+6	per	per	ADP	_	_	9	case	_	_
+7	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	_	MWE=la_seva|MWEPOS=DET
+8	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	_	_
+9	presència	presència	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+10	i	i	CCONJ	_	_	13	cc	_	_
+11	per	per	ADP	_	_	13	case	_	_
+12	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	jerarquia	jerarquia	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+14	que	que	PRON	_	PronType=Rel	15	obj	_	_
+15	transmet	transmetre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	_
+16	a	a	ADP	_	_	18	case	_	_
+17	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	equip	equip	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001202-139-s18B
 # text = El Barça hi surt guanyant amb ell ".
@@ -51231,18 +51238,19 @@
 6	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20011202-48-s5
-# text = D'Aznar ja no en traurem res més ".
+# text = " D'Aznar ja no en traurem res més ".
 # orig_file_sentence 013#100
-1	D'	de	ADP	_	_	2	case	_	SpaceAfter=No
-2	Aznar	Aznar	PROPN	_	_	6	obj	_	_
-3	ja	ja	ADV	_	_	6	advmod	_	_
-4	no	no	ADV	_	Polarity=Neg	6	advmod	_	_
-5	en	en	PRON	_	Case=Gen|Person=3|PronType=Prs	6	obj	_	_
-6	traurem	treure	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
-7	res	res	PRON	_	Number=Sing|PronType=Ind	6	obj	_	_
-8	més	més	ADV	_	Degree=Cmp	7	advmod	_	_
-9	"	"	PUNCT	_	PunctType=Quot	6	punct	_	SpaceAfter=No
-10	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	7	punct	_	_
+2	D'	de	ADP	_	_	3	case	_	SpaceAfter=No
+3	Aznar	Aznar	PROPN	_	_	7	obj	_	_
+4	ja	ja	ADV	_	_	7	advmod	_	_
+5	no	no	ADV	_	Polarity=Neg	7	advmod	_	_
+6	en	en	PRON	_	Case=Gen|Person=3|PronType=Prs	7	obj	_	_
+7	traurem	treure	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	res	res	PRON	_	Number=Sing|PronType=Ind	7	obj	_	_
+9	més	més	ADV	_	Degree=Cmp	8	advmod	_	_
+10	"	"	PUNCT	_	PunctType=Quot	7	punct	_	SpaceAfter=No
+11	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20011202-48-s6
 # text = Aquesta frase, pronunciada per un alt dirigent de CiU, es basa en la convicció que el president del Govern ha donat per tancat el procés autonòmic.
@@ -53076,7 +53084,7 @@
 30	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020116-46628-s7
-# text = Maragall també ha assenyalat que la Convenció catalana per a la definició d'Europa 'hauria de tenir com a punt de partida la persona i el missatge de Josep Pallach i que' el millor homenatge és la continuació de moltes de les seves posicions polítiques '.
+# text = Maragall també ha assenyalat que la Convenció catalana per a la definició d'Europa 'hauria de tenir com a punt de partida la persona i el missatge de Josep Pallach ' i que' el millor homenatge és la continuació de moltes de les seves posicions polítiques '.
 # orig_file_sentence 013#41
 1	Maragall	Maragall	PROPN	_	_	4	nsubj	_	_
 2	també	també	ADV	_	_	4	advmod	_	_
@@ -53109,24 +53117,25 @@
 29	de	de	ADP	_	_	30	case	_	_
 30	Josep	Josep	PROPN	_	_	28	nmod	_	MWE=Josep_Pallach|MWEPOS=PROPN
 31	Pallach	Pallach	PROPN	_	_	30	flat	_	_
-32	i	i	CCONJ	_	_	40	cc	_	_
-33	que	que	SCONJ	_	_	40	mark	_	SpaceAfter=No
-34	'	'	SYM	_	_	37	nmod	_	_
-35	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
-36	millor	millor	ADJ	_	Degree=Cmp|Number=Sing	37	amod	_	_
-37	homenatge	homenatge	NOUN	_	Gender=Masc|Number=Sing	40	nsubj	_	_
-38	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
-39	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	continuació	continuació	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
-41	de	de	ADP	_	_	42	case	_	_
-42	moltes	molt	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	40	nmod	_	_
-43	de	de	ADP	_	_	46	case	_	_
-44	les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	46	det	_	MWE=les_seves|MWEPOS=DET
-45	seves	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	46	det	_	_
-46	posicions	posició	NOUN	_	Gender=Fem|Number=Plur	42	nmod	_	_
-47	polítiques	polític	ADJ	_	Gender=Fem|Number=Plur	46	amod	_	_
-48	'	'	SYM	_	_	40	nmod	_	SpaceAfter=No
-49	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
+32	'	'	PUNCT	_	_	16	punct	_	_
+33	i	i	CCONJ	_	_	41	cc	_	_
+34	que	que	SCONJ	_	_	41	mark	_	SpaceAfter=No
+35	'	'	SYM	_	_	38	nmod	_	_
+36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	millor	millor	ADJ	_	Degree=Cmp|Number=Sing	38	amod	_	_
+38	homenatge	homenatge	NOUN	_	Gender=Masc|Number=Sing	41	nsubj	_	_
+39	és	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+40	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	continuació	continuació	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	moltes	molt	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	41	nmod	_	_
+44	de	de	ADP	_	_	47	case	_	_
+45	les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	47	det	_	MWE=les_seves|MWEPOS=DET
+46	seves	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	47	det	_	_
+47	posicions	posició	NOUN	_	Gender=Fem|Number=Plur	43	nmod	_	_
+48	polítiques	polític	ADJ	_	Gender=Fem|Number=Plur	47	amod	_	_
+49	'	'	SYM	_	_	41	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020116-46628-s8
 # text = El president del PSC ha fet un repàs històric de la figura de Pallach i del context polític de la dècada dels 60 i 70 i ha assegurat que 'si hagués viscut, hauria estat un factor molt influent el 1976'.

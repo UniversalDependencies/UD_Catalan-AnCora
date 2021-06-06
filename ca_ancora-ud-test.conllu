@@ -2620,7 +2620,7 @@
 27	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
 # sent_id = 3LB-CAT-06019900-10-s12
-# text = Segons la Diputació 'la presentació d'aquest fons Bertrana ens permet analitzar novament la complexa personalitat d'aquest artista gironí.
+# text = Segons la Diputació 'la presentació d'aquest fons Bertrana ens permet analitzar novament la complexa personalitat d'aquest artista gironí.'
 # orig_file_sentence 001#65
 1	Segons	segons	ADP	_	_	3	case	_	_
 2	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -2643,7 +2643,8 @@
 19	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
 20	artista	artista	NOUN	_	Number=Sing	17	nmod	_	_
 21	gironí	gironí	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
-22	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
+22	.	.	PUNCT	_	PunctType=Peri	12	punct	_	SpaceAfter=No
+23	'	'	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 3LB-CAT-06019900-10-s13
 # text = Segons ha manifestat Frederic Suñer, president de la Diputació 'la mostra ens presenta Bertrana des dels dos vessants creatius que va practicar: el de pintor i el d'escriptor'.
@@ -6963,7 +6964,7 @@
 69	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # sent_id = 3LB-CAT-06029900-1-s5
-# text = Els departaments de Política territorial i Obres Públiques i de Medi Ambient reconeixen "la tasca realitzada per Rossell i també la seva aportació al procés que va conduir a la creació de l'Agència Catalana de l'Aigua el passat 31 de desembre i que va culminar el 20 de maig amb l'aprovació dels Estatuts que inicien el procés d'adscripció de la Junta d'Aigües i la Direcció general de Política Hidràulica al Departament de Medi Ambient.
+# text = Els departaments de Política territorial i Obres Públiques i de Medi Ambient reconeixen "la tasca realitzada per Rossell i també la seva aportació al procés que va conduir a la creació de l'Agència Catalana de l'Aigua el passat 31 de desembre i que va culminar el 20 de maig amb l'aprovació dels Estatuts que inicien el procés d'adscripció de la Junta d'Aigües i la Direcció general de Política Hidràulica al Departament de Medi Ambient."
 # orig_file_sentence 002#70
 1	Els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	departaments	departament	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
@@ -7051,7 +7052,8 @@
 81	de	de	ADP	_	_	82	case	_	_
 82	Medi	Medi	PROPN	_	_	80	flat	_	_
 83	Ambient	Ambient	PROPN	_	_	82	flat	_	SpaceAfter=No
-84	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
+84	.	.	PUNCT	_	PunctType=Peri	16	punct	_	SpaceAfter=No
+85	"	"	PUNCT	fe	PunctType=Quot	16	punct	_	_
 
 # sent_id = 3LB-CAT-06029900-1-s6
 # text = Jordi-Joan Rossell es reincorporarà a les tasques d'execució d'obra pública i ocuparà el càrrec de Director General d'Obra Civil de l'empresa GISA.
@@ -7691,7 +7693,7 @@
 26	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
 
 # sent_id = 3LB-CAT-06030200-17-s4
-# text = Els demandants van reclamar als jutjats la quantitat que resultés d'aplicar el 10 per cent del valor brut de la negociació del traspàs del jugador Geovanni, més interessos legals, des de la formalització del contracte definitiu '.
+# text = Els demandants van reclamar als jutjats ' la quantitat que resultés d'aplicar el 10 per cent del valor brut de la negociació del traspàs del jugador Geovanni, més interessos legals, des de la formalització del contracte definitiu '.
 # orig_file_sentence 002#83
 1	Els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	demandants	demandant	NOUN	_	Number=Plur	4	nsubj	_	_
@@ -7701,49 +7703,50 @@
 5	a	a	ADP	_	_	7	case	_	_
 6	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	jutjats	jutjat	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
-8	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	quantitat	quantitat	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
-10	que	que	PRON	_	PronType=Rel	11	nsubj	_	_
-11	resultés	resultar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	acl	_	_
-12	d'	de	ADP	_	_	13	mark	_	SpaceAfter=No
-13	aplicar	aplicar	VERB	_	VerbForm=Inf	11	xcomp	_	_
-14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	10	10	NUM	_	NumForm=Digit|NumType=Card	13	obj	_	MWE=10_per_cent|MWEPOS=NUM
-16	per	per	ADP	_	_	17	case	_	_
-17	cent	cent	NUM	_	NumType=Card	15	compound	_	_
-18-19	del	_	_	_	_	_	_	_	_
-18	de	de	ADP	_	_	20	case	_	_
-19	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	valor	valor	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
-21	brut	brut	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
-22	de	de	ADP	_	_	24	case	_	_
-23	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	negociació	negociació	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
-25-26	del	_	_	_	_	_	_	_	_
-25	de	de	ADP	_	_	27	case	_	_
-26	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	traspàs	traspàs	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
-28-29	del	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	30	case	_	_
-29	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	jugador	jugador	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
-31	Geovanni	Geovanni	PROPN	_	_	30	appos	_	SpaceAfter=No
-32	,	,	PUNCT	_	PunctType=Comm	34	punct	_	_
-33	més	més	ADV	_	Degree=Cmp	34	cc	_	_
-34	interessos	interès	NOUN	_	Gender=Masc|Number=Plur	9	conj	_	_
-35	legals	legal	ADJ	_	Number=Plur	34	amod	_	SpaceAfter=No
-36	,	,	PUNCT	_	PunctType=Comm	40	punct	_	_
-37	des	des	ADP	_	_	40	case	_	MWE=des_de|MWEPOS=ADP
-38	de	de	ADP	_	_	37	fixed	_	_
-39	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	formalització	formalització	NOUN	_	Gender=Fem|Number=Sing	34	nmod	_	_
-41-42	del	_	_	_	_	_	_	_	_
-41	de	de	ADP	_	_	43	case	_	_
-42	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
-43	contracte	contracte	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
-44	definitiu	definitiu	ADJ	_	Gender=Masc|Number=Sing	43	amod	_	_
-45	'	'	SYM	_	_	4	nmod	_	SpaceAfter=No
-46	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
+8	'	'	PUNCT	_	_	4	punct	_	_
+9	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	quantitat	quantitat	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+11	que	que	PRON	_	PronType=Rel	12	nsubj	_	_
+12	resultés	resultar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl	_	_
+13	d'	de	ADP	_	_	14	mark	_	SpaceAfter=No
+14	aplicar	aplicar	VERB	_	VerbForm=Inf	12	xcomp	_	_
+15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	10	10	NUM	_	NumForm=Digit|NumType=Card	14	obj	_	MWE=10_per_cent|MWEPOS=NUM
+17	per	per	ADP	_	_	18	case	_	_
+18	cent	cent	NUM	_	NumType=Card	16	compound	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	valor	valor	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+22	brut	brut	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	negociació	negociació	NOUN	_	Gender=Fem|Number=Sing	21	nmod	_	_
+26-27	del	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	traspàs	traspàs	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+29-30	del	_	_	_	_	_	_	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	jugador	jugador	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+32	Geovanni	Geovanni	PROPN	_	_	31	appos	_	SpaceAfter=No
+33	,	,	PUNCT	_	PunctType=Comm	35	punct	_	_
+34	més	més	ADV	_	Degree=Cmp	35	cc	_	_
+35	interessos	interès	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
+36	legals	legal	ADJ	_	Number=Plur	35	amod	_	SpaceAfter=No
+37	,	,	PUNCT	_	PunctType=Comm	41	punct	_	_
+38	des	des	ADP	_	_	41	case	_	MWE=des_de|MWEPOS=ADP
+39	de	de	ADP	_	_	38	fixed	_	_
+40	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	formalització	formalització	NOUN	_	Gender=Fem|Number=Sing	35	nmod	_	_
+42-43	del	_	_	_	_	_	_	_	_
+42	de	de	ADP	_	_	44	case	_	_
+43	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	contracte	contracte	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
+45	definitiu	definitiu	ADJ	_	Gender=Masc|Number=Sing	44	amod	_	_
+46	'	'	SYM	_	_	4	nmod	_	SpaceAfter=No
+47	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = 3LB-CAT-06030200-17-s5
 # text = Segons la sentència, però, 'no s'ha practicat cap prova que permeti assolir la conclusió ni tan sols presumptiva, de l'existència d'una relació contractual de comissió mercantil entre els demandants i el Futbol Club Barcelona'.
@@ -18944,7 +18947,7 @@
 20	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-A-20000529-9624-s19
-# text = El tutor o tutora, segons recull el Codi de Família, 'ha de tenir cura del tutelat o tutelada i li ha de procurar aliments, si els recursos del patrimoni d'aquest no són suficients, i també donar-li una educació integral i, si s'escau, fer tot el que calgui per a la recuperació de la seva capacitat i per a la seva millor reinserció en la societat.
+# text = El tutor o tutora, segons recull el Codi de Família, 'ha de tenir cura del tutelat o tutelada i li ha de procurar aliments, si els recursos del patrimoni d'aquest no són suficients, i també donar-li una educació integral i, si s'escau, fer tot el que calgui per a la recuperació de la seva capacitat i per a la seva millor reinserció en la societat.'
 # orig_file_sentence 008#81
 1	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tutor	tutor	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -19026,7 +19029,8 @@
 75	en	en	ADP	_	_	77	case	_	_
 76	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	77	det	_	_
 77	societat	societat	NOUN	_	Gender=Fem|Number=Sing	74	nmod	_	SpaceAfter=No
-78	.	.	PUNCT	_	PunctType=Peri	16	punct	_	_
+78	.	.	PUNCT	_	PunctType=Peri	44	punct	_	SpaceAfter=No
+79	'	'	PUNCT	_	_	44	punct	_	_
 
 # newdoc id = CESS-CAT-A-20000608-10463
 # sent_id = CESS-CAT-A-20000608-10463-s1
@@ -21447,7 +21451,7 @@
 34	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
 # sent_id = CESS-CAT-A-20000616-11009-s13
-# text = Narcís Jordi Aragó ha afegit que "a la problemàtica que tenen les revistes culturals en qualsevol país s'hi ha d'afegir el greuge que Catalunya no és un país normal i per tant encara es converteixen en més minoritàries.
+# text = Narcís Jordi Aragó ha afegit que "a la problemàtica que tenen les revistes culturals en qualsevol país s'hi ha d'afegir el greuge que Catalunya no és un país normal i per tant encara es converteixen en més minoritàries."
 # orig_file_sentence 004#92
 1	Narcís	Narcís	PROPN	_	_	5	nsubj	_	MWE=Narcís_Jordi_Aragó|MWEPOS=PROPN
 2	Jordi	Jordi	PROPN	_	_	1	flat	_	_
@@ -21490,7 +21494,8 @@
 39	en	en	ADP	_	_	41	case	_	_
 40	més	més	ADV	_	Degree=Cmp	41	advmod	_	_
 41	minoritàries	minoritari	ADJ	_	Gender=Fem|Number=Plur	38	obj	_	SpaceAfter=No
-42	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
+42	.	.	PUNCT	_	PunctType=Peri	38	punct	_	SpaceAfter=No
+43	"	"	PUNCT	fe	PunctType=Quot	38	punct	_	_
 
 # newdoc id = CESS-CAT-A-20000802-12
 # sent_id = CESS-CAT-A-20000802-12-s1
@@ -40036,7 +40041,7 @@
 22	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20000229-3672-s4
-# text = Els responsables de l'entitat han explicat que aquest nou fons d'inversió "es dirigirà preferentment a sectors relacionats amb la salut, com farmàcia, biotecnologia, tecnologia de la salut, productes mèdics, i amb l'oci com hotels, restaurants, mitjans de comunicació, electrònica, TV, i multimèdia.
+# text = Els responsables de l'entitat han explicat que aquest nou fons d'inversió "es dirigirà preferentment a sectors relacionats amb la salut, com farmàcia, biotecnologia, tecnologia de la salut, productes mèdics, i amb l'oci com hotels, restaurants, mitjans de comunicació, electrònica, TV, i multimèdia."
 # orig_file_sentence 014#42
 1	Els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	responsables	responsable	NOUN	_	Number=Plur	7	nsubj	_	_
@@ -40094,7 +40099,8 @@
 54	,	,	PUNCT	_	PunctType=Comm	53	punct	_	_
 55	i	i	CCONJ	_	_	56	cc	_	_
 56	multimèdia	multimèdia	NOUN	_	Gender=Masc	43	conj	_	SpaceAfter=No
-57	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
+57	.	.	PUNCT	_	PunctType=Peri	16	punct	_	SpaceAfter=No
+58	"	"	PUNCT	fe	PunctType=Quot	16	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20000229-3672-s5
 # text = La cartera d'aquest nou fons d'inversió serà molt diversificada territorialment, amb oportunitats a diferents països, com Japó, França, Itàlia, Suïssa, Alemanya, Holanda, Gran Bretanya, o els Estats Units.
@@ -40141,7 +40147,7 @@
 40	.	.	PUNCT	_	PunctType=Peri	11	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20000229-3672-s6
-# text = Segons un comunicat de l'entitat, "amb aquest nou fons Caixa Tarragona incrementa la seva oferta en productes orientats a l'estalvi-inversió, tant dins dels fons d'inversió com de les assegurances (unit link), completant una important gamma de possibilitats inversores que canalitza mitjançant sis importants empreses gestores: Goldman Sach, Morgan Stanley, Merril Lynch Mercury Asset Management, Gesinca Inversiones SA, GVC Gestió SA, i Caixa Tarragona Gestió SA.
+# text = Segons un comunicat de l'entitat, "amb aquest nou fons Caixa Tarragona incrementa la seva oferta en productes orientats a l'estalvi-inversió, tant dins dels fons d'inversió com de les assegurances (unit link), completant una important gamma de possibilitats inversores que canalitza mitjançant sis importants empreses gestores: Goldman Sach, Morgan Stanley, Merril Lynch Mercury Asset Management, Gesinca Inversiones SA, GVC Gestió SA, i Caixa Tarragona Gestió SA."
 # orig_file_sentence 014#44
 1	Segons	segons	ADP	_	_	3	case	_	_
 2	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
@@ -40225,7 +40231,8 @@
 79	Tarragona	Tarragona	PROPN	_	_	78	flat	_	_
 80	Gestió	Gestió	PROPN	_	_	78	flat	_	_
 81	SA	SA	PROPN	_	_	78	flat	_	SpaceAfter=No
-82	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
+82	.	.	PUNCT	_	PunctType=Peri	42	punct	_	SpaceAfter=No
+83	"	"	PUNCT	fe	PunctType=Quot	42	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20000229-3672-s7
 # text = L'empresa gestora Caixa Tarragona Gestió SA, participada al 100% per l'entitat bancària tarragonina, ha incrementat el seu benefici en un 34% respecte a l'any anterior en el seu tercer any d'activitat, i ha contribuït amb 180 milions de pessetes en el compte de resultats de l'entitat.
@@ -46553,26 +46560,27 @@
 22	.	.	PUNCT	_	PunctType=Peri	7	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001006-16729-s8
-# text = Aquesta ha estat la nostra intenció en el cas del Palau ", considera Constante.
+# text = " Aquesta ha estat la nostra intenció en el cas del Palau ", considera Constante.
 # orig_file_sentence 012#11
-1	Aquesta	aquest	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	6	nsubj	_	_
-2	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-3	estat	ser	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
-4	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	6	det	_	MWE=la_nostra|MWEPOS=DET
-5	nostra	nostre	DET	_	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det	_	_
-6	intenció	intenció	NOUN	_	Gender=Fem|Number=Sing	15	ccomp	_	_
-7	en	en	ADP	_	_	9	case	_	_
-8	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	cas	cas	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	_
-10-11	del	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	Palau	Palau	PROPN	_	_	9	nmod	_	_
-13	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
-14	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
-15	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-16	Constante	Constante	PROPN	_	_	15	nsubj	_	SpaceAfter=No
-17	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	4	punct	_	_
+2	Aquesta	aquest	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	7	nsubj	_	_
+3	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	estat	ser	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+5	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	7	det	_	MWE=la_nostra|MWEPOS=DET
+6	nostra	nostre	DET	_	Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+7	intenció	intenció	NOUN	_	Gender=Fem|Number=Sing	16	ccomp	_	_
+8	en	en	ADP	_	_	10	case	_	_
+9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	cas	cas	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Palau	Palau	PROPN	_	_	10	nmod	_	_
+14	"	"	PUNCT	_	PunctType=Quot	10	punct	_	SpaceAfter=No
+15	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
+16	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	Constante	Constante	PROPN	_	_	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	PunctType=Peri	16	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001006-16729-s9
 # text = L'any passat els catalans van jugar en aquest tipus de loteria un total de 16.325 pessetes per habitant, un 6,59% més que l'any anterior i cent quaranta pessetes menys que la mitjana estatal.
@@ -52947,7 +52955,7 @@
 13	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20010901-61-s9
-# text = Amb aquests dos nous casos, les morts ja arribarien a 22 a tot Espanya, segons Flores, "encara que Sanitat només n'ha reconegut set.
+# text = Amb aquests dos nous casos, les morts ja arribarien a 22 a tot Espanya, segons Flores, "encara que Sanitat només n'ha reconegut set."
 # orig_file_sentence 016#80
 1	Amb	amb	ADP	_	_	5	case	_	_
 2	aquests	aquest	DET	_	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
@@ -52977,43 +52985,45 @@
 26	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
 27	reconegut	reconèixer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
 28	set	set	NUM	_	Number=Plur|NumType=Card	27	obj	_	SpaceAfter=No
-29	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
+29	.	.	PUNCT	_	PunctType=Peri	27	punct	_	SpaceAfter=No
+30	"	"	PUNCT	fe	PunctType=Quot	27	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20010901-61-s10
-# text = Quan ja fa temps vam denunciar que hi havia quatre morts, Sanitat va dir que dues, i el temps - va subratllar - ens ha donat la raó ".
+# text = " Quan ja fa temps vam denunciar que hi havia quatre morts, Sanitat va dir que dues, i el temps - va subratllar - ens ha donat la raó ".
 # orig_file_sentence 016#81
-1	Quan	quan	SCONJ	_	_	6	mark	_	_
-2	ja	ja	ADV	_	_	6	advmod	_	_
-3	fa	fer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
-4	temps	temps	NOUN	_	Gender=Masc	3	obj	_	_
-5	vam	anar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
-6	denunciar	denunciar	VERB	_	VerbForm=Inf	15	advcl	_	_
-7	que	que	SCONJ	_	_	9	mark	_	_
-8	hi	hi	PRON	_	Case=Loc|Person=3|PronType=Prs	9	obj	_	_
-9	havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
-10	quatre	quatre	NUM	_	Number=Plur|NumType=Card	11	nummod	_	_
-11	morts	mort	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
-12	,	,	PUNCT	_	PunctType=Comm	6	punct	_	_
-13	Sanitat	Sanitat	PROPN	_	_	15	nsubj	_	_
-14	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
-15	dir	dir	VERB	_	VerbForm=Inf	0	root	_	_
-16	que	que	SCONJ	_	_	17	mark	_	_
-17	dues	dos	NUM	_	Gender=Fem|Number=Plur|NumType=Card	15	obj	_	SpaceAfter=No
-18	,	,	PUNCT	_	PunctType=Comm	28	punct	_	_
-19	i	i	CCONJ	_	_	28	cc	_	_
-20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	temps	temps	NOUN	_	Gender=Masc	28	nsubj	_	_
-22	-	-	PUNCT	_	PunctType=Dash	24	punct	_	_
-23	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
-24	subratllar	subratllar	VERB	_	VerbForm=Inf	28	parataxis	_	_
-25	-	-	PUNCT	_	PunctType=Dash	24	punct	_	_
-26	ens	jo	PRON	_	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	28	obj	_	_
-27	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
-28	donat	donar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	_
-29	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	raó	raó	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
-31	"	"	PUNCT	_	PunctType=Quot	28	punct	_	SpaceAfter=No
-32	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
+1	"	"	PUNCT	fe	PunctType=Quot	16	punct	_	_
+2	Quan	quan	SCONJ	_	_	7	mark	_	_
+3	ja	ja	ADV	_	_	7	advmod	_	_
+4	fa	fer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+5	temps	temps	NOUN	_	Gender=Masc	4	obj	_	_
+6	vam	anar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	denunciar	denunciar	VERB	_	VerbForm=Inf	16	advcl	_	_
+8	que	que	SCONJ	_	_	10	mark	_	_
+9	hi	hi	PRON	_	Case=Loc|Person=3|PronType=Prs	10	obj	_	_
+10	havia	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	ccomp	_	_
+11	quatre	quatre	NUM	_	Number=Plur|NumType=Card	12	nummod	_	_
+12	morts	mort	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	PunctType=Comm	7	punct	_	_
+14	Sanitat	Sanitat	PROPN	_	_	16	nsubj	_	_
+15	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	dir	dir	VERB	_	VerbForm=Inf	0	root	_	_
+17	que	que	SCONJ	_	_	18	mark	_	_
+18	dues	dos	NUM	_	Gender=Fem|Number=Plur|NumType=Card	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	PunctType=Comm	29	punct	_	_
+20	i	i	CCONJ	_	_	29	cc	_	_
+21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	temps	temps	NOUN	_	Gender=Masc	29	nsubj	_	_
+23	-	-	PUNCT	_	PunctType=Dash	25	punct	_	_
+24	va	anar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	subratllar	subratllar	VERB	_	VerbForm=Inf	29	parataxis	_	_
+26	-	-	PUNCT	_	PunctType=Dash	25	punct	_	_
+27	ens	jo	PRON	_	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	29	obj	_	_
+28	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	donat	donar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+30	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	raó	raó	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
+32	"	"	PUNCT	_	PunctType=Quot	29	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	PunctType=Peri	16	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20010901-61-s11
 # text = D'altra banda, el conseller de Sanitat, Eduard Rius, va reconèixer ahir que 31 persones han presentat alteracions de salut després d'haver pres Lipobay.
@@ -57944,38 +57954,39 @@
 16	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020128-47394-s11
-# text = 'De la mateixa manera, ha afegit Ignacio Monreal,' en aquest 'etcétera' es podrien justificar exclusions per motius ideològics, polítics o religiosos '.
+# text = 'De la mateixa manera, ' ha afegit Ignacio Monreal,' en aquest 'etcétera' es podrien justificar exclusions per motius ideològics, polítics o religiosos '.
 # orig_file_sentence 015#26
-1	'	'	SYM	_	_	8	nmod	_	SpaceAfter=No
-2	De	de	ADP	_	_	8	advmod	_	MWE=De_la_mateixa_manera|MWEPOS=ADV
+1	'	'	SYM	_	_	9	nmod	_	SpaceAfter=No
+2	De	de	ADP	_	_	9	advmod	_	MWE=De_la_mateixa_manera|MWEPOS=ADV
 3	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	2	fixed	_	_
 4	mateixa	mateixa	NOUN	_	_	2	fixed	_	_
 5	manera	manera	NOUN	_	_	2	fixed	_	SpaceAfter=No
 6	,	,	PUNCT	_	PunctType=Comm	2	punct	_	_
-7	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
-8	afegit	afegir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-9	Ignacio	Ignacio	PROPN	_	_	8	nsubj	_	MWE=Ignacio_Monreal|MWEPOS=PROPN
-10	Monreal	Monreal	PROPN	_	_	9	flat	_	SpaceAfter=No
-11	,	,	PUNCT	_	PunctType=Comm	20	punct	_	SpaceAfter=No
-12	'	'	SYM	_	_	20	nmod	_	_
-13	en	en	ADP	_	_	16	case	_	_
-14	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
-15	'	'	SYM	_	_	16	nmod	_	SpaceAfter=No
-16	etcétera	etcétera	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
-17	'	'	SYM	_	_	16	nmod	_	_
-18	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	obj	_	_
-19	podrien	poder	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	20	aux	_	_
-20	justificar	justificar	VERB	_	VerbForm=Inf	8	xcomp	_	_
-21	exclusions	exclusió	NOUN	_	Gender=Fem|Number=Plur	20	nsubj	_	_
-22	per	per	ADP	_	_	23	case	_	_
-23	motius	motiu	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
-24	ideològics	ideològic	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
-25	,	,	PUNCT	_	PunctType=Comm	26	punct	_	_
-26	polítics	polític	ADJ	_	Gender=Masc|Number=Plur	24	conj	_	_
-27	o	o	CCONJ	_	_	28	cc	_	_
-28	religiosos	religiós	ADJ	_	Gender=Masc|Number=Plur	24	conj	_	_
-29	'	'	SYM	_	_	20	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
+7	'	'	PUNCT	_	_	2	punct	_	_
+8	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	afegit	afegir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	Ignacio	Ignacio	PROPN	_	_	9	nsubj	_	MWE=Ignacio_Monreal|MWEPOS=PROPN
+11	Monreal	Monreal	PROPN	_	_	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	_	PunctType=Comm	21	punct	_	SpaceAfter=No
+13	'	'	SYM	_	_	21	nmod	_	_
+14	en	en	ADP	_	_	17	case	_	_
+15	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+16	'	'	SYM	_	_	17	nmod	_	SpaceAfter=No
+17	etcétera	etcétera	NOUN	_	Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+18	'	'	SYM	_	_	17	nmod	_	_
+19	es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	obj	_	_
+20	podrien	poder	AUX	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	21	aux	_	_
+21	justificar	justificar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+22	exclusions	exclusió	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
+23	per	per	ADP	_	_	24	case	_	_
+24	motius	motiu	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+25	ideològics	ideològic	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	,	,	PUNCT	_	PunctType=Comm	27	punct	_	_
+27	polítics	polític	ADJ	_	Gender=Masc|Number=Plur	25	conj	_	_
+28	o	o	CCONJ	_	_	29	cc	_	_
+29	religiosos	religiós	ADJ	_	Gender=Masc|Number=Plur	25	conj	_	_
+30	'	'	SYM	_	_	21	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	PunctType=Peri	9	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020128-47394-s12
 # text = El fiscal s'ha referit també a la queixa que la professora exclosa va adreçar al Defensor del Pueblo.
