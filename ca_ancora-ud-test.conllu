@@ -856,7 +856,7 @@
 30	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = 3LB-CAT-06010100-31-s5B
-# text = Per aquest motiu, la intenció de Santiago Fisas només pot ser la difamació i la incitació explícita a la violència contra el moviment okupa, tal i com queda recollit als articles - codi penal - 205, 206 i 211 (calúmnies amb publicitat), 208, 209 i 211 (injúries amb publicitat) i l'article 510 (provocar discriminació, odi o violència contra grups o associacions per motius referents a la ideologia ... Amb coneixement de la seva falsedat o temerari menyspreu respecte a la veritat, difonent informacions injurioses sobre aquests grups o associacions en relació a la seva ideologia).
+# text = Per aquest motiu, la intenció de Santiago Fisas només pot ser la difamació i la incitació explícita a la violència contra el moviment okupa, tal i com queda recollit als articles - codi penal - 205, 206 i 211 (calúmnies amb publicitat), 208, 209 i 211 (injúries amb publicitat) i l'article 510 (provocar discriminació, odi o violència contra grups o associacions per motius referents a la ideologia ... Amb coneixement de la seva falsedat o temerari menyspreu respecte a la veritat, difonent informacions injurioses sobre aquests grups o associacions en relació a la seva ideologia)
 # orig_file_sentence 001#23
 1	Per	per	ADP	_	_	3	case	_	_
 2	aquest	aquest	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -968,36 +968,34 @@
 107	la	el	DET	_	Gender=Fem|Number=Sing|PronType=Art	109	det	_	MWE=la_seva|MWEPOS=DET
 108	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	109	det	_	_
 109	ideologia	ideologia	NOUN	_	Gender=Fem|Number=Sing	97	nmod	_	SpaceAfter=No
-110	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	65	punct	_	SpaceAfter=No
-111	.	.	PUNCT	_	PunctType=Peri	14	punct	_	_
+110	)	)	PUNCT	_	PunctSide=Fin|PunctType=Brck	65	punct	_	_
 
 # sent_id = 3LB-CAT-06010100-31-s6
-# text = 'El moviment denuncia l'especulació, els desallotjaments, les polítiques de criminalització i la violència policial exercida contra el moviment okupa.
+# text = El moviment denuncia l'especulació, els desallotjaments, les polítiques de criminalització i la violència policial exercida contra el moviment okupa.
 # orig_file_sentence 001#24
-1	'	'	SYM	_	_	4	nmod	_	SpaceAfter=No
-2	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	moviment	moviment	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
-4	denuncia	denunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
-6	especulació	especulació	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
-7	,	,	PUNCT	_	PunctType=Comm	9	punct	_	_
-8	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
-9	desallotjaments	desallotjament	NOUN	_	Gender=Masc|Number=Plur	6	appos	_	SpaceAfter=No
-10	,	,	PUNCT	_	PunctType=Comm	12	punct	_	_
-11	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-12	polítiques	política	NOUN	_	Gender=Fem|Number=Plur	6	appos	_	_
-13	de	de	ADP	_	_	14	case	_	_
-14	criminalització	criminalització	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
-15	i	i	CCONJ	_	_	17	cc	_	_
-16	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	violència	violència	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
-18	policial	policial	ADJ	_	Number=Sing	17	amod	_	_
-19	exercida	exercit	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	17	amod	_	_
-20	contra	contra	ADP	_	_	22	case	_	_
-21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	moviment	moviment	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
-23	okupa	okupa	NOUN	_	Number=Sing	22	nmod	_	SpaceAfter=No
-24	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
+1	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	moviment	moviment	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	denuncia	denunciar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	l'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	especulació	especulació	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	PunctType=Comm	8	punct	_	_
+7	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	desallotjaments	desallotjament	NOUN	_	Gender=Masc|Number=Plur	5	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
+10	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	polítiques	política	NOUN	_	Gender=Fem|Number=Plur	5	appos	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	criminalització	criminalització	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	i	i	CCONJ	_	_	16	cc	_	_
+15	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	violència	violència	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+17	policial	policial	ADJ	_	Number=Sing	16	amod	_	_
+18	exercida	exercit	ADJ	_	Gender=Fem|Number=Sing|VerbForm=Part	16	amod	_	_
+19	contra	contra	ADP	_	_	21	case	_	_
+20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	moviment	moviment	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+22	okupa	okupa	NOUN	_	Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = 3LB-CAT-06010100-31-s7
 # text = En la reunió d'aquest vespre, en què hi han de prendre part la comissió d'acció, la de comunicació i la legal, es decidirà quan es presenta la querella.
@@ -14611,7 +14609,7 @@
 16	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-A-19990202-124-s36A
-# text = "Vaig assistir al seu naixement, com a membre del Teatre Fronterer.
+# text = "Vaig assistir al seu naixement com a membre del Teatre Fronterer.
 # orig_file_sentence 005#81
 1	"	"	PUNCT	_	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	Vaig	anar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -14620,17 +14618,16 @@
 4	a	a	ADP	_	_	7	case	_	_
 5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
-7	naixement	naixement	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
-8	,	,	PUNCT	_	PunctType=Comm	11	punct	_	_
-9	com	com	SCONJ	_	_	11	case	_	MWE=com_a|MWEPOS=ADP
-10	a	a	ADP	_	_	9	fixed	_	_
-11	membre	membre	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
-12-13	del	_	_	_	_	_	_	_	_
-12	de	de	ADP	_	_	14	case	_	_
-13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Teatre	Teatre	PROPN	_	_	11	nmod	_	MWE=Teatre_Fronterer|MWEPOS=PROPN
-15	Fronterer	Fronterer	PROPN	_	_	14	flat	_	SpaceAfter=No
-16	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+7	naixement	naixement	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+8	com	com	SCONJ	_	_	10	case	_	MWE=com_a|MWEPOS=ADP
+9	a	a	ADP	_	_	8	fixed	_	_
+10	membre	membre	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Teatre	Teatre	PROPN	_	_	10	nmod	_	MWE=Teatre_Fronterer|MWEPOS=PROPN
+14	Fronterer	Fronterer	PROPN	_	_	13	flat	_	SpaceAfter=No
+15	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-A-19990202-124-s36B
 # text = Després - recorda - vaig deixar aquest grup per buscar el meu propi camí, però aquí estan els moltíssims fruits que ha donat la Beckett ".
@@ -35516,7 +35513,7 @@
 38	.	.	PUNCT	_	PunctType=Peri	19	punct	_	_
 
 # sent_id = CESS-CAT-AAP-19990301-39-s4A
-# text = "Es trepitgen els drets dels immigrants, augmenta la societat de consum, el capitalisme salvatge, les desigualtats, la societat frívola estil Tómbola.
+# text = "Es trepitgen els drets dels immigrants, augmenta la societat de consum, el capitalisme salvatge, les desigualtats la societat frívola estil Tómbola.
 # orig_file_sentence 014#50
 1	"	"	PUNCT	_	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	Es	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	3	obj	_	_
@@ -35539,14 +35536,13 @@
 18	salvatge	salvatge	ADJ	_	Number=Sing	17	amod	_	SpaceAfter=No
 19	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
 20	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
-21	desigualtats	desigualtat	NOUN	_	Gender=Fem|Number=Plur	12	appos	_	SpaceAfter=No
-22	,	,	PUNCT	_	PunctType=Comm	24	punct	_	_
-23	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	societat	societat	NOUN	_	Gender=Fem|Number=Sing	12	appos	_	_
-25	frívola	frívol	ADJ	_	Gender=Fem|Number=Sing	24	amod	_	_
-26	estil	estil	NOUN	_	Gender=Masc|Number=Sing	24	appos	_	_
-27	Tómbola	Tómbola	PROPN	_	_	26	appos	_	SpaceAfter=No
-28	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+21	desigualtats	desigualtat	NOUN	_	Gender=Fem|Number=Plur	12	appos	_	_
+22	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	societat	societat	NOUN	_	Gender=Fem|Number=Sing	12	appos	_	_
+24	frívola	frívol	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
+25	estil	estil	NOUN	_	Gender=Masc|Number=Sing	23	appos	_	_
+26	Tómbola	Tómbola	PROPN	_	_	25	appos	_	SpaceAfter=No
+27	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-AAP-19990301-39-s4B
 # text = Però callen per por de fer enfadar el PP, a veure si els resol tots aquests temes ", comenta un teòleg progressista.
@@ -57898,40 +57894,39 @@
 47	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020128-47394-s9
-# text = 'Entre els motius d'exclusió d'un tribunal de les PAAU figura no ser professor titular, no ser catedràtic, no conèixer la matèria que s'examina, etcètera.
+# text = Entre els motius d'exclusió d'un tribunal de les PAAU figura no ser professor titular, no ser catedràtic, no conèixer la matèria que s'examina, etcètera.
 # orig_file_sentence 015#24
-1	'	'	SYM	_	_	13	nmod	_	SpaceAfter=No
-2	Entre	entre	ADP	_	_	4	case	_	_
-3	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
-4	motius	motiu	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
-5	d'	de	ADP	_	_	6	case	_	SpaceAfter=No
-6	exclusió	exclusió	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
-7	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
-8	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
-9	tribunal	tribunal	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
-10	de	de	ADP	_	_	12	case	_	_
-11	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
-12	PAAU	PAAU	PROPN	_	_	6	nmod	_	_
-13	figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	no	no	ADV	_	Polarity=Neg	16	advmod	_	_
-15	ser	ser	AUX	_	VerbForm=Inf	16	cop	_	_
-16	professor	professor	NOUN	_	Gender=Masc|Number=Sing	13	csubj	_	_
-17	titular	titular	ADJ	_	Number=Sing	16	amod	_	SpaceAfter=No
-18	,	,	PUNCT	_	PunctType=Comm	21	punct	_	_
-19	no	no	ADV	_	Polarity=Neg	21	advmod	_	_
-20	ser	ser	AUX	_	VerbForm=Inf	21	cop	_	_
-21	catedràtic	catedràtic	NOUN	_	Gender=Masc|Number=Sing	16	advcl	_	SpaceAfter=No
-22	,	,	PUNCT	_	PunctType=Comm	24	punct	_	_
-23	no	no	ADV	_	Polarity=Neg	24	advmod	_	_
-24	conèixer	conèixer	VERB	_	VerbForm=Inf	16	advcl	_	_
-25	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	matèria	matèria	NOUN	_	Gender=Fem|Number=Sing	24	obj	_	_
-27	que	que	PRON	_	PronType=Rel	29	nsubj	_	_
-28	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	29	obj	_	SpaceAfter=No
-29	examina	examinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl	_	SpaceAfter=No
-30	,	,	PUNCT	_	PunctType=Comm	31	punct	_	_
-31	etcètera	etcètera	ADV	_	_	16	conj	_	SpaceAfter=No
-32	.	.	PUNCT	_	PunctType=Peri	13	punct	_	_
+1	Entre	entre	ADP	_	_	3	case	_	_
+2	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	motius	motiu	NOUN	_	Gender=Masc|Number=Plur	12	obl	_	_
+4	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
+5	exclusió	exclusió	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
+7	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	tribunal	tribunal	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	PAAU	PAAU	PROPN	_	_	5	nmod	_	_
+12	figura	figurar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	no	no	ADV	_	Polarity=Neg	15	advmod	_	_
+14	ser	ser	AUX	_	VerbForm=Inf	15	cop	_	_
+15	professor	professor	NOUN	_	Gender=Masc|Number=Sing	12	csubj	_	_
+16	titular	titular	ADJ	_	Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	PunctType=Comm	20	punct	_	_
+18	no	no	ADV	_	Polarity=Neg	20	advmod	_	_
+19	ser	ser	AUX	_	VerbForm=Inf	20	cop	_	_
+20	catedràtic	catedràtic	NOUN	_	Gender=Masc|Number=Sing	15	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	_	PunctType=Comm	23	punct	_	_
+22	no	no	ADV	_	Polarity=Neg	23	advmod	_	_
+23	conèixer	conèixer	VERB	_	VerbForm=Inf	15	advcl	_	_
+24	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	matèria	matèria	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+26	que	que	PRON	_	PronType=Rel	28	nsubj	_	_
+27	s'	ell	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	28	obj	_	SpaceAfter=No
+28	examina	examinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl	_	SpaceAfter=No
+29	,	,	PUNCT	_	PunctType=Comm	30	punct	_	_
+30	etcètera	etcètera	ADV	_	_	15	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	PunctType=Peri	12	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020128-47394-s10
 # text = La sentència es basa en aquest 'etcétera' per justificar l'exclusió d'Albert.
