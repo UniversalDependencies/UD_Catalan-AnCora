@@ -42979,7 +42979,7 @@
 14	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20010329-28643-s12
-# text = L'acte s'ha tancat amb la interpretació, per part del violinista Àngel Jesús Garcia, de la 'Tensió per a violí "de Guinjoan.
+# text = L'acte s'ha tancat amb la interpretació, per part del violinista Àngel Jesús Garcia, de la 'Tensió per a violí' de Guinjoan.
 # orig_file_sentence 011#26
 1	L'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	acte	acte	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -43006,8 +43006,8 @@
 22	Tensió	Tensió	PROPN	_	_	8	nmod	_	MWE=Tensió_per_a_violí|MWEPOS=PROPN
 23	per	per	ADP	_	_	25	case	_	_
 24	a	a	ADP	_	_	25	case	_	_
-25	violí	violí	PROPN	_	_	22	flat	_	_
-26	"	"	PUNCT	_	PunctType=Quot	28	punct	_	SpaceAfter=No
+25	violí	violí	PROPN	_	_	22	flat	_	SpaceAfter=No
+26	'	'	PUNCT	_	PunctType=Quot	28	punct	_	_
 27	de	de	ADP	_	_	28	case	_	_
 28	Guinjoan	Guinjoan	PROPN	_	_	22	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
@@ -55263,7 +55263,7 @@
 92	.	.	PUNCT	_	PunctType=Peri	15	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020205-48049-s3
-# text = Així, el president del Grup Popular considera que 'si CiU interposa recurs d'inconstitucionalitat no està fent un acte polític contra el Partit Popular, sinó que està impulsant una decisió de Govern contra Europa i contra el progrés social i econòmic de Catalunya, perquè "ha insistit - aquesta llei del dèficit zero pretén el progrés deu per a Catalunya, amb més recursos i més inversions per afavorir la protecció social i millorar la qualitat de la sanitat, l'educació, l'atenció a la gent gran, aconseguir noves inversions per a Catalunya i també obrir la possibilitat de noves reduccions d'impostos'.
+# text = Així, el president del Grup Popular considera que 'si CiU interposa recurs d'inconstitucionalitat no està fent un acte polític contra el Partit Popular, sinó que està impulsant una decisió de Govern contra Europa i contra el progrés social i econòmic de Catalunya, perquè - ha insistit - aquesta llei del dèficit zero pretén el progrés deu per a Catalunya, amb més recursos i més inversions per afavorir la protecció social i millorar la qualitat de la sanitat, l'educació, l'atenció a la gent gran, aconseguir noves inversions per a Catalunya i també obrir la possibilitat de noves reduccions d'impostos'.
 # orig_file_sentence 013#66
 1	Així	així	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
@@ -55315,7 +55315,7 @@
 47	Catalunya	Catalunya	PROPN	_	_	42	nmod	_	SpaceAfter=No
 48	,	,	PUNCT	_	PunctType=Comm	60	punct	_	_
 49	perquè	perquè	SCONJ	_	_	60	mark	_	_
-50	"	"	PUNCT	_	PunctType=Quot	52	punct	_	SpaceAfter=No
+50	-	-	PUNCT	_	PunctType=Dash	52	punct	_	_
 51	ha	haver	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	aux	_	_
 52	insistit	insistir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	60	parataxis	_	_
 53	-	-	PUNCT	_	PunctType=Dash	52	punct	_	_

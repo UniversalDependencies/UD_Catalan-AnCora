@@ -48722,13 +48722,13 @@
 26	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20001226-22191-s6
-# text = Ara són quatre compositors "Llaràs sempre hi posa les lletres - i, potser," el grup es troba més obert ", apunta Moya, el baixista, al temps que remarca que" tots els canvis que hem fet sempre han estat per anar a millor ".
+# text = Ara són quatre compositors - Llaràs sempre hi posa les lletres - i, potser," el grup es troba més obert ", apunta Moya, el baixista, al temps que remarca que" tots els canvis que hem fet sempre han estat per anar a millor ".
 # orig_file_sentence 013#35
 1	Ara	ara	ADV	_	_	4	advmod	_	_
 2	són	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	quatre	quatre	NUM	_	Number=Plur|NumType=Card	4	nummod	_	_
 4	compositors	compositor	NOUN	_	Gender=Masc|Number=Plur	26	parataxis	_	_
-5	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
+5	-	-	PUNCT	_	PunctType=Dash	9	punct	_	_
 6	Llaràs	Llaràs	PROPN	_	_	9	nsubj	_	_
 7	sempre	sempre	ADV	_	_	9	advmod	_	_
 8	hi	hi	PRON	_	Case=Loc|Person=3|PronType=Prs	9	obl	_	_
