@@ -588,7 +588,7 @@
 20	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = 3LB-CAT-06010100-4-s6
-# text = També està prevista l'arribada del creuer 'Silver Shadow, ' de la companyia Silversea Cruises, amb una eslora de 182 metres i 388 passatgers.
+# text = També està prevista l'arribada del creuer 'Silver Shadow ' de la companyia Silversea Cruises, amb una eslora de 182 metres i 388 passatgers.
 # orig_file_sentence 001#19
 1	També	també	ADV	_	_	3	advmod	_	_
 2	està	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -601,25 +601,24 @@
 8	creuer	creuer	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
 9	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
 10	Silver	Silver	PROPN	_	_	8	appos	_	MWE=Silver_Shadow|MWEPOS=PROPN
-11	Shadow	Shadow	PROPN	_	_	10	flat	_	SpaceAfter=No
-12	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
-13	'	'	PUNCT	_	_	10	punct	_	_
-14	de	de	ADP	_	_	16	case	_	_
-15	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	companyia	companyia	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-17	Silversea	Silversea	PROPN	_	_	16	appos	_	MWE=Silversea_Cruises|MWEPOS=PROPN
-18	Cruises	Cruises	PROPN	_	_	17	flat	_	SpaceAfter=No
-19	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
-20	amb	amb	ADP	_	_	22	case	_	_
-21	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	22	det	_	_
-22	eslora	eslora	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
-23	de	de	ADP	_	_	25	case	_	_
-24	182	182	NUM	_	NumForm=Digit|NumType=Card	25	nummod	_	_
-25	metres	metre	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
-26	i	i	CCONJ	_	_	28	cc	_	_
-27	388	388	NUM	_	NumForm=Digit|NumType=Card	28	nummod	_	_
-28	passatgers	passatger	NOUN	_	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
-29	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+11	Shadow	Shadow	PROPN	_	_	10	flat	_	_
+12	'	'	PUNCT	_	_	10	punct	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	companyia	companyia	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+16	Silversea	Silversea	PROPN	_	_	15	appos	_	MWE=Silversea_Cruises|MWEPOS=PROPN
+17	Cruises	Cruises	PROPN	_	_	16	flat	_	SpaceAfter=No
+18	,	,	PUNCT	_	PunctType=Comm	15	punct	_	_
+19	amb	amb	ADP	_	_	21	case	_	_
+20	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
+21	eslora	eslora	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	182	182	NUM	_	NumForm=Digit|NumType=Card	24	nummod	_	_
+24	metres	metre	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+25	i	i	CCONJ	_	_	27	cc	_	_
+26	388	388	NUM	_	NumForm=Digit|NumType=Card	27	nummod	_	_
+27	passatgers	passatger	NOUN	_	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = 3LB-CAT-06010100-4-s7
 # text = El dia 18 atracarà el vaixell 'Assedo', de la companyia Transtours, amb 175 metres d'eslora i un passatge de 500 persones.
@@ -3100,7 +3099,7 @@
 54	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = 3LB-CAT-06019900-14-s15
-# text = Finalment, el president de l'Autoritat Portuària ha assegurat que "estem treballant seriosament amb l'àrea de creuers."
+# text = Finalment, el president de l'Autoritat Portuària ha assegurat que "estem treballant seriosament amb l'àrea de creuers"
 # orig_file_sentence 001#84
 1	Finalment	finalment	ADV	_	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	PunctType=Comm	1	punct	_	_
@@ -3122,8 +3121,7 @@
 18	àrea	àrea	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	_
 19	de	de	ADP	_	_	20	case	_	_
 20	creuers	creuer	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	_	PunctType=Peri	14	punct	_	SpaceAfter=No
-22	"	"	PUNCT	fe	PunctType=Quot	14	punct	_	_
+21	"	"	PUNCT	fe	PunctType=Quot	14	punct	_	_
 
 # sent_id = 3LB-CAT-06019900-14-s16
 # text = De fet - ha dit - és la prioritat del Port i pretenem fer el salt l'any vinent.
@@ -10411,7 +10409,7 @@
 22	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = 3LB-CAT-207-3-s11
-# text = L'endemà, diumenge , a dos quarts d'una, l'Esbart Cor de Catalunya oferirà un repertori de balls tradicionals dels Països Catalans i a les sis hi haurà animació amb 'mariachis.'
+# text = L'endemà, diumenge , a dos quarts d'una, l'Esbart Cor de Catalunya oferirà un repertori de balls tradicionals dels Països Catalans i a les sis hi haurà animació amb 'mariachis'
 # orig_file_sentence 003#65
 1	L'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	endemà	endemà	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
@@ -10450,8 +10448,7 @@
 34	amb	amb	ADP	_	_	36	case	_	_
 35	'	'	SYM	_	_	36	nmod	_	SpaceAfter=No
 36	mariachis	mariachi	NOUN	_	_	33	nmod	_	SpaceAfter=No
-37	.	.	PUNCT	_	PunctType=Peri	36	punct	_	SpaceAfter=No
-38	'	'	PUNCT	_	_	36	punct	_	_
+37	'	'	PUNCT	_	_	36	punct	_	_
 
 # sent_id = 3LB-CAT-207-3-s12
 # text = Els actes es clouran a les vuit del vespre amb un segon sorteig de viatges.
@@ -16011,23 +16008,22 @@
 46	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
 # sent_id = CESS-CAT-A-20010315-27617-s15A
-# text = L'Enciclopèdia li dedica unes ratlles: "Fabra i Deàs , Nil Maria ...
+# text = L'Enciclopèdia li dedica unes ratlles "Fabra i Deàs , Nil Maria ...
 # orig_file_sentence 004#33
 1	L'	el	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	Enciclopèdia	Enciclopèdia	PROPN	_	_	4	nsubj	_	_
 3	li	ell	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
 4	dedica	dedicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	unes	un	DET	_	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
-6	ratlles	ratlla	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
-7	:	:	PUNCT	_	PunctType=Colo	9	punct	_	_
-8	"	"	PUNCT	_	PunctType=Quot	9	punct	_	SpaceAfter=No
-9	Fabra	Fabra	PROPN	_	_	6	appos	_	MWE=Fabra_i_Deàs_,_Nil_Maria|MWEPOS=PROPN
-10	i	i	CCONJ	_	_	11	cc	_	_
-11	Deàs	Deàs	PROPN	_	_	9	conj	_	_
-12	,	,	PUNCT	_	_	13	punct	_	_
-13	Nil	Nil	PROPN	_	_	9	flat	_	_
-14	Maria	Maria	PROPN	_	_	13	flat	_	_
-15	...	...	PUNCT	_	PunctType=Comm	4	punct	_	_
+6	ratlles	ratlla	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+7	"	"	PUNCT	_	PunctType=Quot	8	punct	_	SpaceAfter=No
+8	Fabra	Fabra	PROPN	_	_	6	appos	_	MWE=Fabra_i_Deàs_,_Nil_Maria|MWEPOS=PROPN
+9	i	i	CCONJ	_	_	10	cc	_	_
+10	Deàs	Deàs	PROPN	_	_	8	conj	_	_
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	Nil	Nil	PROPN	_	_	8	flat	_	_
+13	Maria	Maria	PROPN	_	_	12	flat	_	_
+14	...	...	PUNCT	_	PunctType=Comm	4	punct	_	_
 
 # sent_id = CESS-CAT-A-20010315-27617-s15B
 # text = Col·laborà en diversos diaris de Barcelona, on estrenà algunes peces de teatre.
@@ -16048,7 +16044,7 @@
 14	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
 # sent_id = CESS-CAT-A-20010315-27617-s15C
-# text = Anà a Madrid, on fundà (1865) un Centro de Correspondencias, agència de notícies telegràfiques anomenada més tard Agencia Fabra. ,
+# text = Anà a Madrid, on fundà (1865) un Centro de Correspondencias, agència de notícies telegràfiques anomenada més tard Agencia Fabra ,
 # orig_file_sentence 004#35
 1	Anà	anar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	a	a	ADP	_	_	3	case	_	_
@@ -16072,9 +16068,8 @@
 20	més	més	ADV	_	Degree=Cmp	21	advmod	_	_
 21	tard	tard	ADV	_	_	19	advmod	_	_
 22	Agencia	Agencia	PROPN	_	_	19	obj	_	MWE=Agencia_Fabra|MWEPOS=PROPN
-23	Fabra	Fabra	PROPN	_	_	22	flat	_	SpaceAfter=No
-24	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
-25	,	,	PUNCT	fc	PunctType=Comm	1	punct	_	_
+23	Fabra	Fabra	PROPN	_	_	22	flat	_	_
+24	,	,	PUNCT	fc	PunctType=Comm	1	punct	_	_
 
 # sent_id = CESS-CAT-A-20010315-27617-s15D
 # text = Deixà escrits polítics ... ".
@@ -21788,7 +21783,7 @@
 38	.	.	PUNCT	_	PunctType=Peri	10	punct	_	_
 
 # sent_id = CESS-CAT-A-20011023-41218-s15
-# text = Cuenca considera que transformar Efe 'no seria un bon camí' sinó que el que caldria és 'demanar recursos per tal de crear de bell antuvi una agència pròpia.'
+# text = Cuenca considera que transformar Efe 'no seria un bon camí' sinó que el que caldria és 'demanar recursos per tal de crear de bell antuvi una agència pròpia'
 # orig_file_sentence 005#79
 1	Cuenca	Cuenca	PROPN	_	_	2	nsubj	_	_
 2	considera	considerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -21821,8 +21816,7 @@
 29	una	un	DET	_	Gender=Fem|Number=Sing|PronType=Ind	30	det	_	_
 30	agència	agència	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
 31	pròpia	propi	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	SpaceAfter=No
-32	.	.	PUNCT	_	PunctType=Peri	20	punct	_	SpaceAfter=No
-33	'	'	PUNCT	_	_	20	punct	_	_
+32	'	'	PUNCT	_	_	20	punct	_	_
 
 # newdoc id = CESS-CAT-A-20011102-115
 # sent_id = CESS-CAT-A-20011102-115-s2
