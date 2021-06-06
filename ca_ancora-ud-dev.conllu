@@ -15334,7 +15334,7 @@
 1	'	'	PUNCT	fe	PunctType=Quot	4	punct	_	SpaceAfter=No
 2	Això	això	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	_
 3	no	no	ADV	_	Polarity=Neg	4	advmod	_	_
-4	suposa	suposar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	conj	_	_
+4	suposa	suposar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	ccomp	_	_
 5	dir	dir	VERB	_	VerbForm=Inf	4	ccomp	_	_
 6	que	que	SCONJ	_	_	7	mark	_	_
 7	demanem	demanar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
@@ -15370,7 +15370,7 @@
 37	seves	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	38	det	_	_
 38	conseqüències	conseqüència	NOUN	_	Gender=Fem|Number=Plur	34	nmod	_	SpaceAfter=No
 39	,	,	PUNCT	_	PunctType=Comm	34	punct	_	_
-40	exerciti	exercitar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	conj	_	_
+40	exerciti	exercitar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
 41	les	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
 42	facultats	facultat	NOUN	_	Gender=Fem|Number=Plur	40	obj	_	_
 43	que	que	PRON	_	PronType=Rel	45	nsubj	_	_
@@ -38914,8 +38914,8 @@
 47	mi	jo	PRON	_	Case=Acc|Number=Sing|Person=1|PrepCase=Pre|PronType=Prs	50	obj	_	_
 48	no	no	ADV	_	Polarity=Neg	50	advmod	_	_
 49	em	jo	PRON	_	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	50	obj	_	_
-50	roba	robar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	xcomp	_	_
-51	ningú	ningú	PRON	_	Number=Sing|PronType=Ind	43	nsubj	_	SpaceAfter=No
+50	roba	robar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	ccomp	_	_
+51	ningú	ningú	PRON	_	Number=Sing|PronType=Ind	50	nsubj	_	SpaceAfter=No
 52	'	'	PUNCT	fe	PunctType=Quot	50	punct	_	_
 53	i	i	CCONJ	_	_	56	cc	_	_
 54	'	'	PUNCT	fe	PunctType=Quot	56	punct	_	SpaceAfter=No
@@ -53173,7 +53173,7 @@
 35	hagués	haver	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	aux	_	_
 36	viscut	viure	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	39	advcl	_	SpaceAfter=No
 37	,	,	PUNCT	_	PunctType=Comm	36	punct	_	_
-38	hauria	haver	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	31	aux	_	_
+38	hauria	haver	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	39	aux	_	_
 39	estat	ser	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	ccomp	_	_
 40	un	un	DET	_	Gender=Masc|Number=Sing|PronType=Ind	41	det	_	_
 41	factor	factor	NOUN	_	Gender=Masc|Number=Sing	39	obj	_	_
