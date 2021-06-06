@@ -602,7 +602,7 @@
 9	'	'	SYM	_	_	10	nmod	_	SpaceAfter=No
 10	Silver	Silver	PROPN	_	_	8	appos	_	MWE=Silver_Shadow|MWEPOS=PROPN
 11	Shadow	Shadow	PROPN	_	_	10	flat	_	SpaceAfter=No
-12	,	,	PUNCT	_	PunctType=Comm	16	punct	_	_
+12	,	,	PUNCT	_	PunctType=Comm	10	punct	_	_
 13	'	'	PUNCT	_	_	10	punct	_	_
 14	de	de	ADP	_	_	16	case	_	_
 15	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -53084,7 +53084,7 @@
 30	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020116-46628-s7
-# text = Maragall també ha assenyalat que la Convenció catalana per a la definició d'Europa 'hauria de tenir com a punt de partida la persona i el missatge de Josep Pallach ' i que' el millor homenatge és la continuació de moltes de les seves posicions polítiques '.
+# text = Maragall també ha assenyalat que la Convenció catalana per a la definició d'Europa 'hauria de tenir com a punt de partida la persona i el missatge de Josep Pallach' i que 'el millor homenatge és la continuació de moltes de les seves posicions polítiques'.
 # orig_file_sentence 013#41
 1	Maragall	Maragall	PROPN	_	_	4	nsubj	_	_
 2	també	també	ADV	_	_	4	advmod	_	_
@@ -53100,7 +53100,7 @@
 12	definició	definició	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
 13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
 14	Europa	Europa	PROPN	_	_	12	nmod	_	_
-15	'	'	SYM	_	_	18	nmod	_	SpaceAfter=No
+15	'	'	PUNCT	_	_	18	punct	_	SpaceAfter=No
 16	hauria	haver	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	18	aux	_	_
 17	de	de	ADP	_	_	18	mark	_	_
 18	tenir	tenir	VERB	_	VerbForm=Inf	4	xcomp	_	_
@@ -53116,11 +53116,11 @@
 28	missatge	missatge	NOUN	_	Gender=Masc|Number=Sing	25	conj	_	_
 29	de	de	ADP	_	_	30	case	_	_
 30	Josep	Josep	PROPN	_	_	28	nmod	_	MWE=Josep_Pallach|MWEPOS=PROPN
-31	Pallach	Pallach	PROPN	_	_	30	flat	_	_
-32	'	'	PUNCT	_	_	16	punct	_	_
+31	Pallach	Pallach	PROPN	_	_	30	flat	_	SpaceAfter=No
+32	'	'	PUNCT	_	_	18	punct	_	_
 33	i	i	CCONJ	_	_	41	cc	_	_
-34	que	que	SCONJ	_	_	41	mark	_	SpaceAfter=No
-35	'	'	SYM	_	_	38	nmod	_	_
+34	que	que	SCONJ	_	_	41	mark	_	_
+35	'	'	PUNCT	_	_	38	punct	_	SpaceAfter=No
 36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
 37	millor	millor	ADJ	_	Degree=Cmp|Number=Sing	38	amod	_	_
 38	homenatge	homenatge	NOUN	_	Gender=Masc|Number=Sing	41	nsubj	_	_
@@ -53133,8 +53133,8 @@
 45	les	el	DET	_	Gender=Fem|Number=Plur|PronType=Art	47	det	_	MWE=les_seves|MWEPOS=DET
 46	seves	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	47	det	_	_
 47	posicions	posició	NOUN	_	Gender=Fem|Number=Plur	43	nmod	_	_
-48	polítiques	polític	ADJ	_	Gender=Fem|Number=Plur	47	amod	_	_
-49	'	'	SYM	_	_	41	nmod	_	SpaceAfter=No
+48	polítiques	polític	ADJ	_	Gender=Fem|Number=Plur	47	amod	_	SpaceAfter=No
+49	'	'	PUNCT	_	_	41	punct	_	SpaceAfter=No
 50	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = CESS-CAT-AAP-20020116-46628-s8
