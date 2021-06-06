@@ -18944,7 +18944,7 @@
 20	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = CESS-CAT-A-20000529-9624-s19
-# text = El tutor o tutora, segons recull el Codi de Família, 'ha de tenir cura del tutelat o tutelada i li ha de procurar aliments, si els recursos del patrimoni d'aquest no són suficients, i també donar-li una educació integral i, si s'escau, fer tot el que calgui per a la recuperació de la seva capacitat i per a la seva millor reinserció en la societat' .
+# text = El tutor o tutora, segons recull el Codi de Família, 'ha de tenir cura del tutelat o tutelada i li ha de procurar aliments, si els recursos del patrimoni d'aquest no són suficients, i també donar-li una educació integral i, si s'escau, fer tot el que calgui per a la recuperació de la seva capacitat i per a la seva millor reinserció en la societat'.
 # orig_file_sentence 008#81
 1	El	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tutor	tutor	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -19026,8 +19026,8 @@
 75	en	en	ADP	_	_	77	case	_	_
 76	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	77	det	_	_
 77	societat	societat	NOUN	_	Gender=Fem|Number=Sing	74	nmod	_	SpaceAfter=No
-78	'	'	PUNCT	_	_	44	punct	_	_
-79	.	.	PUNCT	fp	PunctType=Peri	14	punct	_	_
+78	'	'	PUNCT	_	_	44	punct	_	SpaceAfter=No
+79	.	.	PUNCT	fp	PunctType=Peri	16	punct	_	_
 
 # newdoc id = CESS-CAT-A-20000608-10463
 # sent_id = CESS-CAT-A-20000608-10463-s1
