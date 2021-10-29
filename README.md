@@ -45,6 +45,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
   * Added document boundaries.
   * Manually fixed numerous validation errors.
   * Copied XPOS from the original AnCora.
+  * Copied CorefUD-style coreference and entity annotation from the original AnCora.
 * 2021-05-15 v2.8
   * Manually fixed offset errors in lemmas inside MWEs (#2).
   * Removed XPOS (which was uninformative).
