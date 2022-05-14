@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Catalan-AnCora:
-commit 3891e85d764f1000dc6d6c8b370a6db824c0b06e
-Merge: 764c8d8 2bf143c
+commit df68802fef4a07f2c6e4da83ba08f7f13f5881e8
+Merge: d67669d 909833a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 546665 of 546665 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.60767236673.
