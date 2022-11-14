@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Catalan-AnCora:
-commit df68802fef4a07f2c6e4da83ba08f7f13f5881e8
-Merge: d67669d 909833a
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Catalan-AnCora:
+commit 30afedfd18e12216053d13ac8b6e714fbb15e9d8
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 14 13:44:21 2022 +0200
 Size: counted 546665 of 546665 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.60767236673.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,12 +25,48 @@ Udapi: found 6309 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 546665 words.
 Genres: found 1 out of 17 known.
 validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-dev.conllu
-*** PASSED ***
+[Line 903 Sent 3LB-CAT-06010100-51-s4 Node 13]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2879 Sent 3LB-CAT-06019900-14-s9 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2908 Sent 3LB-CAT-06019900-14-s10 Node 9]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 20]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 5878 Sent 3LB-CAT-06029900-9-s5 Node 25]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [24, 32]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 6028 Sent 3LB-CAT-06029900-9-s9 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 17]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7830 Sent 3LB-CAT-107-7-s11 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [9, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 15375 Sent CESS-CAT-A-20010312-27346-s4 Node 35]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [39, 51]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 17699 Sent CESS-CAT-A-20010315-27617-s49 Node 35]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 33]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 19169 Sent CESS-CAT-A-20010315-27617-s86 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 18]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 21
+*** FAILED *** with 21 errors
+Exit code: 1
 validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-test.conllu
-*** PASSED ***
+[Line 273 Sent 3LB-CAT-06010100-23-s1 Node 18]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 19006 Sent CESS-CAT-A-20000529-9624-s17 Node 31]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [25, 27]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 20311 Sent CESS-CAT-A-20000613-10690-s9 Node 28]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 26]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 20448 Sent CESS-CAT-A-20000613-10690-s12 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [6, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 27484 Sent CESS-CAT-A-20011113-42553-s1 Node 49]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [51, 59]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 29482 Sent CESS-CAT-A-20020301-114-s13 Node 29]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 77]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 33133 Sent CESS-CAT-AAP-19981202-19-s23 Node 48]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [47, 56]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 33271 Sent CESS-CAT-AAP-19981202-19-s26 Node 9]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 43131 Sent CESS-CAT-AAP-20000802-42-s10 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 19
+*** FAILED *** with 19 errors
+Exit code: 1
 validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 3799 Sent 3LB-CAT-06010100-21-s3 Node 24]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [27, 39]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 3996 Sent 3LB-CAT-06010100-22-s4 Node 13]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 13582 Sent 3LB-CAT-06010100-48-s11 Node 25]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [22, 26]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 14598 Sent 3LB-CAT-06010100-52-s7 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 22354 Sent 3LB-CAT-06010300-29-s5 Node 7]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [6, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 22391 Sent 3LB-CAT-06010300-29-s6 Node 15]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 24]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 23712 Sent 3LB-CAT-06019900-1-s3 Node 14]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 24149 Sent 3LB-CAT-06019900-1-s14 Node 23]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [12, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 24708 Sent 3LB-CAT-06019900-12-s2 Node 12]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 18]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 126
+*** FAILED *** with 126 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -39,6 +75,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
 (weight=0.307692307692308) * (score{udapi}=0.884591111558267) = 0.272181880479467
 (weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.79815672569069) * (availability=1) * (validity=1) = 0.79815672569069
-STARS = 4
-UD_Catalan-AnCora	0.79815672569069	4
+(TOTAL score=0.79815672569069) * (availability=1) * (validity=0.01) = 0.0079815672569069
+STARS = 0
+UD_Catalan-AnCora	0.0079815672569069	0
