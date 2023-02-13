@@ -51,6 +51,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
 * 2023-05-15 v2.12
   * Propagated the arg and tem attributes from the original AnCora.
   * Per-nominals under participles changed from obj to obl:agent.
+  * Prepositional objects (except for the preposition "a") changed to obl:arg.
 * 2022-05-15 v2.10
   * Some fixes in the LEMMA column.
   * Heuristically resolved coreference cluster type mismatches.

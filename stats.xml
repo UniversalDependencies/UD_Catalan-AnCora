@@ -100,7 +100,7 @@
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">13078</feat><!-- estat, passat, fet, explicat, dit, presentat, tingut, destacat, assegurat, previst -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="37">
+  <deps unique="38">
     <dep name="acl">9552</dep>
     <dep name="acl:relcl">21</dep>
     <dep name="advcl">6922</dep>
@@ -130,9 +130,10 @@
     <dep name="nsubj">27434</dep>
     <dep name="nsubj:pass">25</dep>
     <dep name="nummod">5675</dep>
-    <dep name="obj">35907</dep>
+    <dep name="obj">31979</dep>
     <dep name="obl">21634</dep>
     <dep name="obl:agent">1166</dep>
+    <dep name="obl:arg">3928</dep>
     <dep name="parataxis">577</dep>
     <dep name="punct">57270</dep>
     <dep name="root">16678</dep>
