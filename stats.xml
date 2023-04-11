@@ -37,8 +37,8 @@
   <feats unique="63">
     <feat name="AdvType" value="Tim" upos="ADV,NOUN,SYM">1689</feat><!-- 1999, divendres, 1998, dilluns, diumenge, dimecres, dissabte, 2001, dijous, 2000 -->
     <feat name="Case" value="Acc" upos="PRON">1249</feat><!-- ho, la, el, l', lo, les, mi, si, 'l, -ho -->
-    <feat name="Case" value="Acc,Dat" upos="PRON">7439</feat><!-- es, s', se, els, ens, los, em, m', 'ls, nos -->
-    <feat name="Case" value="Dat" upos="PRON">553</feat><!-- li -->
+    <feat name="Case" value="Acc,Dat" upos="PRON">7311</feat><!-- es, s', se, els, ens, los, em, m', 'ls, nos -->
+    <feat name="Case" value="Dat" upos="PRON">681</feat><!-- li, es, s', ens, em, els, se, m', 's, et -->
     <feat name="Case" value="Gen" upos="PRON">354</feat><!-- n', en, ne, 'n, -ne -->
     <feat name="Case" value="Loc" upos="PRON">1317</feat><!-- hi -->
     <feat name="Case" value="Nom" upos="PRON">86</feat><!-- jo, tu, hom -->
@@ -100,7 +100,7 @@
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">13078</feat><!-- estat, passat, fet, explicat, dit, presentat, tingut, destacat, assegurat, previst -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="38">
+  <deps unique="37">
     <dep name="acl">9552</dep>
     <dep name="acl:relcl">21</dep>
     <dep name="advcl">6922</dep>
@@ -124,7 +124,6 @@
     <dep name="expl:pass">512</dep>
     <dep name="fixed">9872</dep>
     <dep name="flat">18020</dep>
-    <dep name="iobj">174</dep>
     <dep name="mark">15323</dep>
     <dep name="nmod">40351</dep>
     <dep name="nsubj">27434</dep>
@@ -133,7 +132,7 @@
     <dep name="obj">30402</dep>
     <dep name="obl">21634</dep>
     <dep name="obl:agent">1166</dep>
-    <dep name="obl:arg">6764</dep>
+    <dep name="obl:arg">6938</dep>
     <dep name="parataxis">577</dep>
     <dep name="punct">57270</dep>
     <dep name="root">16678</dep>
