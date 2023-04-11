@@ -124,7 +124,7 @@
     <dep name="expl:pass">512</dep>
     <dep name="fixed">9872</dep>
     <dep name="flat">18020</dep>
-    <dep name="iobj">729</dep>
+    <dep name="iobj">571</dep>
     <dep name="mark">15323</dep>
     <dep name="nmod">40351</dep>
     <dep name="nsubj">27434</dep>
@@ -133,7 +133,7 @@
     <dep name="obj">30005</dep>
     <dep name="obl">21634</dep>
     <dep name="obl:agent">1166</dep>
-    <dep name="obl:arg">6606</dep>
+    <dep name="obl:arg">6764</dep>
     <dep name="parataxis">577</dep>
     <dep name="punct">57270</dep>
     <dep name="root">16678</dep>
