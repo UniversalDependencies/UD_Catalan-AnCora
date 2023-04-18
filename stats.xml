@@ -10,12 +10,12 @@
     <dev><sentences>1709</sentences><tokens>56322</tokens><words>58016</words><fused>1690</fused></dev>
     <test><sentences>1846</sentences><tokens>57792</tokens><words>59508</words><fused>1715</fused></test>
   </size>
-  <lemmas unique="23318" /><!-- el, de, ,, a, ., que, i, un, ell, haver, en, per, anar, ser, " -->
+  <lemmas unique="23317" /><!-- el, de, ,, a, ., que, i, un, ell, haver, en, per, anar, ser, " -->
   <forms unique="32514" /><!-- de, ,, el, la, a, ., que, i, l', els, d', per, en, les, un -->
   <fusions unique="789" /><!-- del, al, dels, als, pel, pels, fer-ho, haver-se, convertir-se, fer-se, dirigir-se, desplaçar-se, donar-li, fer-li, posar-se -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">30081</tag><!-- nou, primer, gran, català, passat, polític, general, espanyol, últim, públic -->
+    <tag name="ADJ">30082</tag><!-- nou, primer, gran, català, passat, polític, general, espanyol, últim, públic -->
     <tag name="ADP">87976</tag><!-- de, a, per, en, amb, entre, sobre, segons, des, durant -->
     <tag name="ADV">15482</tag><!-- no, més, també, ja, després, ahir, molt, avui, només, ara -->
     <tag name="AUX">22052</tag><!-- haver, anar, ser, poder, estar, saber -->
@@ -26,10 +26,10 @@
     <tag name="NUM">9235</tag><!-- dos, tres, un, quatre, cent, 10, cinc, sis, 15, 20 -->
     <tag name="PART">147</tag><!-- no -->
     <tag name="PRON">23454</tag><!-- ell, que, hi, un, jo, tot, qual, on, què, en -->
-    <tag name="PROPN">46663</tag><!-- Catalunya, barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU, PP -->
+    <tag name="PROPN">46661</tag><!-- Catalunya, barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU, PP -->
     <tag name="PUNCT">57270</tag><!-- ,, ., ", ', (, ), -, :, ;, ? -->
     <tag name="SCONJ">10550</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, què -->
-    <tag name="SYM">813</tag><!-- %, 50/100, 10/100, 30/100, 5/100, 1/100, 2/100, 25/100, 20/100, 40/100 -->
+    <tag name="SYM">814</tag><!-- %, 50/100, 10/100, 30/100, 5/100, 1/100, 2/100, 25/100, 20/100, 40/100 -->
     <tag name="VERB">41898</tag><!-- fer, tenir, haver, dir, donar, presentar, arribar, passar, voler, demanar -->
     <tag name="X">8</tag><!-- 8'5, 1'2, 17'5, 32'5, 38'3, 5'1, 77'7 -->
   </tags>
@@ -106,39 +106,39 @@
     <dep name="advcl">6852</dep>
     <dep name="advmod">15398</dep>
     <dep name="advmod:emph">1</dep>
-    <dep name="amod">25002</dep>
+    <dep name="amod">25003</dep>
     <dep name="appos">7674</dep>
     <dep name="aux">16750</dep>
     <dep name="case">77933</dep>
-    <dep name="cc">14696</dep>
-    <dep name="ccomp">4191</dep>
+    <dep name="cc">14698</dep>
+    <dep name="ccomp">4190</dep>
     <dep name="compound">3315</dep>
-    <dep name="conj">16523</dep>
-    <dep name="cop">4676</dep>
+    <dep name="conj">16525</dep>
+    <dep name="cop">4677</dep>
     <dep name="csubj">946</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">89</dep>
-    <dep name="det">86234</dep>
+    <dep name="det">86233</dep>
     <dep name="discourse">1</dep>
     <dep name="dislocated">2</dep>
-    <dep name="expl">55</dep>
+    <dep name="expl">57</dep>
     <dep name="expl:pass">513</dep>
     <dep name="fixed">9872</dep>
-    <dep name="flat">18019</dep>
+    <dep name="flat">18014</dep>
     <dep name="mark">15254</dep>
-    <dep name="nmod">40503</dep>
-    <dep name="nsubj">27481</dep>
+    <dep name="nmod">40505</dep>
+    <dep name="nsubj">27473</dep>
     <dep name="nsubj:outer">5</dep>
-    <dep name="nsubj:pass">26</dep>
+    <dep name="nsubj:pass">25</dep>
     <dep name="nummod">5675</dep>
-    <dep name="obj">30551</dep>
-    <dep name="obl">21739</dep>
+    <dep name="obj">30554</dep>
+    <dep name="obl">21740</dep>
     <dep name="obl:agent">1166</dep>
-    <dep name="obl:arg">6940</dep>
-    <dep name="parataxis">577</dep>
+    <dep name="obl:arg">6939</dep>
+    <dep name="parataxis">578</dep>
     <dep name="punct">57270</dep>
     <dep name="root">16678</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">4050</dep>
+    <dep name="xcomp">4052</dep>
   </deps>
 </treebank>
