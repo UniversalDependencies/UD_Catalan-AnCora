@@ -101,9 +101,9 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="39">
-    <dep name="acl">9551</dep>
-    <dep name="acl:relcl">320</dep>
-    <dep name="advcl">6923</dep>
+    <dep name="acl">9401</dep>
+    <dep name="acl:relcl">541</dep>
+    <dep name="advcl">6852</dep>
     <dep name="advmod">15398</dep>
     <dep name="advmod:emph">1</dep>
     <dep name="amod">25002</dep>
@@ -118,7 +118,7 @@
     <dep name="csubj">946</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">89</dep>
-    <dep name="det">86518</dep>
+    <dep name="det">86297</dep>
     <dep name="discourse">1</dep>
     <dep name="dislocated">2</dep>
     <dep name="expl">55</dep>
@@ -126,13 +126,13 @@
     <dep name="fixed">9872</dep>
     <dep name="flat">18019</dep>
     <dep name="mark">15254</dep>
-    <dep name="nmod">40353</dep>
+    <dep name="nmod">40503</dep>
     <dep name="nsubj">27481</dep>
     <dep name="nsubj:outer">5</dep>
     <dep name="nsubj:pass">26</dep>
     <dep name="nummod">5675</dep>
     <dep name="obj">30551</dep>
-    <dep name="obl">21668</dep>
+    <dep name="obl">21739</dep>
     <dep name="obl:agent">1166</dep>
     <dep name="obl:arg">6940</dep>
     <dep name="parataxis">577</dep>
