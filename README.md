@@ -48,6 +48,12 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 # Changelog
 
+* 2023-05-15 v2.12
+  * Propagated the arg and tem attributes from the original AnCora.
+  * Per-nominals under participles changed from obj to obl:agent.
+  * Prepositional objects changed to obl:arg.
+  * Clitic doubling: only the noun is obj. The clitic changed to expl.
+  * Named entities that are not annotated for coreference marked as such.
 * 2022-05-15 v2.10
   * Some fixes in the LEMMA column.
   * Heuristically resolved coreference cluster type mismatches.
