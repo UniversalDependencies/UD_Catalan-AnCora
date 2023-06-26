@@ -22,11 +22,11 @@
     <tag name="CCONJ">15049</tag><!-- i, o, però, ni, sinó, mentre, y, que, bé, et -->
     <tag name="DET">87267</tag><!-- el, un, aquest, seu, la, tot, altre, mateix, algun, divers -->
     <tag name="INTJ">15</tag><!-- vaja, he, compte, déu, ep, hola, home, marbella, mira, oh -->
-    <tag name="NOUN">98706</tag><!-- any, milió, pesseta, dia, obra, persona, president, mes, grup, empresa -->
-    <tag name="NUM">9228</tag><!-- dos, tres, un, quatre, cent, 10, cinc, sis, 15, 20 -->
+    <tag name="NOUN">98646</tag><!-- any, milió, pesseta, dia, obra, persona, president, mes, grup, empresa -->
+    <tag name="NUM">9358</tag><!-- dos, tres, un, quatre, cent, 10, cinc, sis, 15, 20 -->
     <tag name="PART">147</tag><!-- no -->
     <tag name="PRON">23454</tag><!-- ell, que, hi, un, jo, tot, qual, on, què, en -->
-    <tag name="PROPN">46660</tag><!-- Catalunya, barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU, PP -->
+    <tag name="PROPN">46590</tag><!-- Catalunya, barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU, PP -->
     <tag name="PUNCT">57270</tag><!-- ,, ., ", ', (, ), -, :, ;, ? -->
     <tag name="SCONJ">10550</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, què -->
     <tag name="SYM">821</tag><!-- %, 50/100, 10/100, 30/100, 5/100, 1/100, 2/100, 25/100, 20/100, 40/100 -->
@@ -34,8 +34,8 @@
     <tag name="X">8</tag><!-- 8'5, 1'2, 17'5, 32'5, 38'3, 5'1, 77'7 -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="63">
-    <feat name="AdvType" value="Tim" upos="ADV,NOUN,SYM">1689</feat><!-- 1999, divendres, 1998, dilluns, diumenge, dimecres, dissabte, 2001, dijous, 2000 -->
+  <feats unique="64">
+    <feat name="AdvType" value="Tim" upos="ADV,NOUN,SYM">1682</feat><!-- 1999, divendres, 1998, dilluns, diumenge, dimecres, dissabte, 2001, dijous, 2000 -->
     <feat name="Case" value="Acc" upos="PRON">1262</feat><!-- ho, la, el, l', lo, les, mi, si, els, 'l -->
     <feat name="Case" value="Acc,Dat" upos="PRON">7298</feat><!-- es, s', se, els, ens, los, em, m', 'ls, nos -->
     <feat name="Case" value="Dat" upos="PRON">681</feat><!-- li, es, s', ens, em, els, se, m', 's, et -->
@@ -59,7 +59,8 @@
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">183</feat><!-- nostra, nostre, nostres -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">43</feat><!-- meu, meus, meva, teu, teus, teva -->
     <feat name="NumForm" value="Digit" upos="ADJ,NOUN,NUM,SYM">7718</feat><!-- pessetes, %, euros, 10, 15, 30, 20, 5, 4, 12 -->
-    <feat name="NumType" value="Card" upos="NUM">9212</feat><!-- dos, tres, dues, quatre, cent, un, 10, cinc, una, sis -->
+    <feat name="NumForm" value="Roman" upos="NUM">130</feat><!-- XX, II, XIX, XXI, III, X, XVI, XIII, IV, VII -->
+    <feat name="NumType" value="Card" upos="NUM">9342</feat><!-- dos, tres, dues, quatre, cent, un, 10, cinc, una, sis -->
     <feat name="NumType" value="Frac" upos="NUM,SYM">594</feat><!-- 50%, 10%, 30%, 5%, 25%, 1%, 20%, 40%, 2%, 0,1% -->
     <feat name="NumType" value="Ord" upos="ADJ">1615</feat><!-- primer, primera, últims, segona, últim, segon, primers, tercer, última, darrers -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">2160</feat><!-- ens, hem, nosaltres, em, jo, he, nostra, tenim, nostre, estem -->
