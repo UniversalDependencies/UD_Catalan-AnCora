@@ -105,13 +105,13 @@
     <dep name="acl">9399</dep>
     <dep name="acl:relcl">606</dep>
     <dep name="advcl">6853</dep>
-    <dep name="advmod">15397</dep>
+    <dep name="advmod">15219</dep>
     <dep name="advmod:emph">1</dep>
     <dep name="amod">25003</dep>
     <dep name="appos">7678</dep>
     <dep name="aux">16750</dep>
     <dep name="case">77933</dep>
-    <dep name="cc">14699</dep>
+    <dep name="cc">14877</dep>
     <dep name="ccomp">4192</dep>
     <dep name="compound">3315</dep>
     <dep name="conj">16525</dep>
