@@ -45,19 +45,19 @@
     <feat name="Definite" value="Ind" upos="DET">16</feat><!-- en, l', al, col·laboració, la, sa, ses, suficient -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2556</feat><!-- més, menys, millor, major, millors, pitjor, menor, majors, menors, pitjors -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,SCONJ,VERB">29</feat><!-- a, de, Ceguera, Como, Por, Quién, amor, amore, cadáver, difunto -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">85738</feat><!-- la, les, una, aquesta, seva, persones, seves, dues, aquestes, primera -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">86326</feat><!-- la, les, una, aquesta, seva, pessetes, persones, seves, dues, aquestes -->
     <feat name="Gender" value="Fem,Masc" upos="PRON">176</feat><!-- l' -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">107688</feat><!-- el, els, un, aquest, seu, anys, tot, estat, milions, dos -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">107932</feat><!-- el, els, un, aquest, seu, anys, tot, estat, milions, dos -->
     <feat name="Gender" value="Neut" upos="PRON">333</feat><!-- ho, -ho -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">690</feat><!-- hauria, podria, seria, podrien, haurien, faria, caldria, agradaria, estaria, permetria -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">75</feat><!-- deixi, sigui, seguim, siguin, superi, aclareixi, estigui, estrena, gestioni, miri -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">34891</feat><!-- va, ha, és, van, han, són, està, té, fa, havia -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2625</feat><!-- hagi, sigui, pugui, puguin, hagués, hagin, tingui, siguin, fos, estigui -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">69070</feat><!-- els, les, van, han, anys, milions, dos, són, altres, seus -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">191883</feat><!-- el, la, l', un, va, ha, una, és, aquest, aquesta -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">69881</feat><!-- els, les, van, han, anys, milions, pessetes, dos, són, altres -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">191904</feat><!-- el, la, l', un, va, ha, una, és, aquest, aquesta -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">183</feat><!-- nostra, nostre, nostres -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">43</feat><!-- meu, meus, meva, teu, teus, teva -->
-    <feat name="NumForm" value="Digit" upos="ADJ,NOUN,NUM,SYM">7728</feat><!-- pessetes, %, euros, 10, 15, 30, 20, 5, 4, 12 -->
+    <feat name="NumForm" value="Digit" upos="ADJ,NUM,SYM">6896</feat><!-- %, 10, 15, 30, 20, 5, 4, 12, 2, 2000 -->
     <feat name="NumForm" value="Roman" upos="NUM">130</feat><!-- XX, II, XIX, XXI, III, X, XVI, XIII, IV, VII -->
     <feat name="NumForm" value="Word" upos="NUM">3166</feat><!-- dos, tres, dues, quatre, cent, un, cinc, una, sis, vuit -->
     <feat name="NumType" value="Card" upos="NUM">9350</feat><!-- dos, tres, dues, quatre, cent, un, 10, cinc, una, sis -->

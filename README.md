@@ -51,6 +51,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
 * 2023-11-15 v2.13
   * Combination of letters and digits is not NUM but SYM.
   * NumForm used where appropriate.
+  * Currencies do not have NumForm=Digit (but they keep their special XPOS).
   * Fixed: Sentence-initial "i" is cc, not advmod.
 * 2023-05-15 v2.12
   * Propagated the arg and tem attributes from the original AnCora.
