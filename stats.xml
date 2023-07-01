@@ -10,7 +10,7 @@
     <dev><sentences>1709</sentences><tokens>56379</tokens><words>58073</words><fused>1690</fused></dev>
     <test><sentences>1846</sentences><tokens>57894</tokens><words>59610</words><fused>1715</fused></test>
   </size>
-  <lemmas unique="23195" /><!-- el, de, ,, a, ., que, i, un, ell, haver, en, per, anar, ser, " -->
+  <lemmas unique="23216" /><!-- el, de, ,, a, ., que, i, un, ell, haver, en, per, anar, ser, " -->
   <forms unique="32377" /><!-- de, ,, el, la, a, ., que, i, l', els, d', per, en, les, un -->
   <fusions unique="789" /><!-- del, al, dels, als, pel, pels, fer-ho, haver-se, convertir-se, fer-se, dirigir-se, desplaçar-se, donar-li, fer-li, posar-se -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
