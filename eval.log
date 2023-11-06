@@ -1,44 +1,77 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Catalan-AnCora:
-commit 7823646d9bd1025563d0aef178ee2f35fb0bbd44
-Merge: 475189e 85ea1b3
+commit ea946a61657c0257aff396179b90f2b259350d60
+Merge: 32942c2 2181238
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 546665 of 546665 words (nodes).
-Size: min(0, log((N/1000)**2)) = 12.60767236673.
+Size: counted 547261 of 547261 words (nodes).
+Size: min(0, log((N/1000)**2)) = 12.6098516734069.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
-Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 368422 out of 546665 total words have one or more features.
+Features: 368551 out of 547261 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       3536
-Udapi: found 3536 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 546665 words.
+               TOTAL       3525
+Udapi: found 3525 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 547261 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-dev.conllu
+[Line 2943 Sent 3LB-CAT-06019900-14-s11 Node 18]: [L3 Warning fixed-gap] Gaps in fixed expression [18, 20, 21] 'a * voltant de'
+[Line 5945 Sent 3LB-CAT-06029900-9-s7 Node 12]: [L3 Warning fixed-gap] Gaps in fixed expression [12, 14] 'a * capdavant'
+[Line 6590 Sent 3LB-CAT-103-20-s7 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9, 10] 'a * llarg de'
+[Line 14901 Sent CESS-CAT-A-20010126-24222-s10 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'A * voltant'
+[Line 18681 Sent CESS-CAT-A-20010315-27617-s70 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8, 9] 'a * cap de'
+[Line 23319 Sent CESS-CAT-A-20020124-47193-s4 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 10, 11] 'a * llarg de'
+[Line 26945 Sent CESS-CAT-AAP-19981201-67-s2 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 7, 9, 10] 'fins a * punt que'
+[Line 27680 Sent CESS-CAT-AAP-19990302-33-s4 Node 23]: [L3 Warning fixed-gap] Gaps in fixed expression [23, 25, 26] 'a * cap de'
+[Line 29604 Sent CESS-CAT-AAP-19990501-127-s15 Node 54]: [L3 Warning fixed-gap] Gaps in fixed expression [54, 56] 'a * capdavant'
+...suppressing further errors regarding Warning
+Warnings: 28
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-test.conllu
+[Line 4868 Sent 3LB-CAT-06020300-13-s5 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9, 10] 'a * llarg de'
+[Line 4887 Sent 3LB-CAT-06020300-13-s5 Node 25]: [L3 Warning fixed-gap] Gaps in fixed expression [25, 39, 40] 'de * * * * * * * * * * * * * fins a'
+[Line 6103 Sent 3LB-CAT-06020300-3-s3 Node 60]: [L3 Warning fixed-gap] Gaps in fixed expression [60, 62, 63] 'a * llarg de'
+[Line 15209 Sent CESS-CAT-A-19990902-115-s2 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9, 10] 'a * llarg de'
+[Line 15279 Sent CESS-CAT-A-19990902-115-s4 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4, 5] 'Fins * * punt que'
+[Line 15774 Sent CESS-CAT-A-19991201-4-s6 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18, 19] 'a * voltant de'
+[Line 17837 Sent CESS-CAT-A-20000308-4318-s1 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * llarg de'
+[Line 21387 Sent CESS-CAT-A-20000616-11009-s7 Node 31]: [L3 Warning fixed-gap] Gaps in fixed expression [31, 34, 35] 'de * * fins a'
+[Line 21487 Sent CESS-CAT-A-20000616-11009-s10 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * seu torn'
+...suppressing further errors regarding Warning
+Warnings: 28
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-train.conllu
+[Line 2898 Sent 3LB-CAT-06010100-18-s4 Node 15]: [L3 Warning fixed-gap] Gaps in fixed expression [15, 17, 18] 'a * voltant d''
+[Line 3188 Sent 3LB-CAT-06010100-19-s6 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * marge de'
+[Line 6425 Sent 3LB-CAT-06010100-27-s8 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18, 19] 'a * marge de'
+[Line 11751 Sent 3LB-CAT-06010100-43-s8 Node 25]: [L3 Warning fixed-gap] Gaps in fixed expression [25, 27] 'de * tot'
+[Line 17709 Sent 3LB-CAT-06010300-13-s7 Node 65]: [L3 Warning fixed-gap] Gaps in fixed expression [65, 67, 68] 'a * voltant de'
+[Line 19494 Sent 3LB-CAT-06010300-22-s2 Node 32]: [L3 Warning fixed-gap] Gaps in fixed expression [32, 34, 35] 'a * mateix temps'
+[Line 22052 Sent 3LB-CAT-06010300-28-s6 Node 30]: [L3 Warning fixed-gap] Gaps in fixed expression [30, 31, 32, 34] 'amb l' objectiu * d''
+[Line 24932 Sent 3LB-CAT-06019900-12-s7 Node 22]: [L3 Warning fixed-gap] Gaps in fixed expression [22, 24, 25] 'a * llarg de'
+[Line 25018 Sent 3LB-CAT-06019900-12-s9 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18, 19] 'a * llarg de'
+...suppressing further errors regarding Warning
+Warnings: 196
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.912573756419158) = 0.233993270876707
+(weight=0.256410256410256) * (score{size}=0.91273149989652) = 0.234033717922185
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.935316875966085) = 0.287789807989565
+(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
+(weight=0.307692307692308) * (score{udapi}=0.935588320746408) = 0.287873329460433
 (weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.813764653200787) * (availability=1) * (validity=1) = 0.813764653200787
+(TOTAL score=0.810268712214871) * (availability=1) * (validity=1) = 0.810268712214871
 STARS = 4
-UD_Catalan-AnCora	0.813764653200787	4
+UD_Catalan-AnCora	0.810268712214871	4
