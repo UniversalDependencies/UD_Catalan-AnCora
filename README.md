@@ -48,6 +48,8 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 # Changelog
 
+* 2024-11-15 v2.15
+  * Removed feature AdvType.
 * 2024-05-15 v2.14
   * Dates ("el 7 d'abril") should be connected via nmod, not compound.
   * Percentages ("40 per cent") should be connected via nmod, not compound.
