@@ -33,8 +33,7 @@
     <tag name="VERB">41898</tag><!-- fer, tenir, haver, dir, donar, presentar, arribar, passar, voler, demanar -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="65">
-    <feat name="AdvType" value="Tim" upos="ADV,NOUN">1681</feat><!-- 1999, divendres, 1998, dilluns, diumenge, dimecres, dissabte, 2001, dijous, 2000 -->
+  <feats unique="64">
     <feat name="Case" value="Acc" upos="PRON">1262</feat><!-- ho, la, el, l', lo, les, mi, si, els, 'l -->
     <feat name="Case" value="Acc,Dat" upos="PRON">7298</feat><!-- es, s', se, els, ens, los, em, m', 'ls, nos -->
     <feat name="Case" value="Dat" upos="PRON">681</feat><!-- li, es, s', ens, em, els, se, m', 's, et -->
