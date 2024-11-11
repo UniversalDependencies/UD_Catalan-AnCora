@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Catalan-AnCora:
-commit 0e4d172fb7a30b0b2fc605f90338edcb2bfd8e68
-Merge: 0939d5a 44280cf
+commit 7156b78cb31d70fc3e3f331753eefeb7683830e7
+Merge: f8721ab 8ea204a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 547261 of 547261 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.6098516734069.
@@ -15,7 +15,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 368551 out of 547261 total words have one or more features.
+Features: 366871 out of 547261 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
@@ -25,46 +25,46 @@ Udapi: found 3505 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 547261 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-dev.conllu
+[Line 25 Sent 3LB-CAT-06010100-17-s1 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:els:det --> 19:primers:amod)
+[Line 26 Sent 3LB-CAT-06010100-17-s1 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:els:det --> 20:cinc:nummod)
+[Line 159 Sent 3LB-CAT-06010100-17-s6 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:aquests:det --> 3:primers:amod)
+[Line 160 Sent 3LB-CAT-06010100-17-s6 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:aquests:det --> 4:cinc:nummod)
+[Line 922 Sent 3LB-CAT-06010100-51-s4 Node 33]: [L3 Warning leaf-det] 'det' not expected to have children (33:altra:det --> 32:una:nummod)
+[Line 1776 Sent 3LB-CAT-06010300-16-s4 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Cada:det --> 2:quatre:nummod)
+[Line 2446 Sent 3LB-CAT-06010300-6-s4 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Els:det --> 2:dos:nummod)
+[Line 2619 Sent 3LB-CAT-06010300-6-s10 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:els:det --> 8:dos:nummod)
 [Line 2943 Sent 3LB-CAT-06019900-14-s11 Node 18]: [L3 Warning fixed-gap] Gaps in fixed expression [18, 20, 21] 'a * voltant de'
-[Line 5945 Sent 3LB-CAT-06029900-9-s7 Node 12]: [L3 Warning fixed-gap] Gaps in fixed expression [12, 14] 'a * capdavant'
-[Line 6590 Sent 3LB-CAT-103-20-s7 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9, 10] 'a * llarg de'
-[Line 14901 Sent CESS-CAT-A-20010126-24222-s10 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'A * voltant'
-[Line 18681 Sent CESS-CAT-A-20010315-27617-s70 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 8, 9] 'a * cap de'
-[Line 23319 Sent CESS-CAT-A-20020124-47193-s4 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 10, 11] 'a * llarg de'
-[Line 26945 Sent CESS-CAT-AAP-19981201-67-s2 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 7, 9, 10] 'fins a * punt que'
-[Line 27680 Sent CESS-CAT-AAP-19990302-33-s4 Node 23]: [L3 Warning fixed-gap] Gaps in fixed expression [23, 25, 26] 'a * cap de'
-[Line 29604 Sent CESS-CAT-AAP-19990501-127-s15 Node 54]: [L3 Warning fixed-gap] Gaps in fixed expression [54, 56] 'a * capdavant'
-[Line 30952 Sent CESS-CAT-AAP-19990802-5-s10 Node 3]: [L3 Warning fixed-gap] Gaps in fixed expression [3, 5, 6, 7, 8, 9] 'a * cap i a la fi'
+[Line 3318 Sent 3LB-CAT-06020300-34-s3 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:aquests:det --> 5:dos:nummod)
 ...suppressing further errors regarding Warning
-Warnings: 28
+Warnings: 123
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-test.conllu
+[Line 521 Sent 3LB-CAT-06010100-23-s8 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:la:det --> 19:Tortosa:nsubj)
+[Line 1027 Sent 3LB-CAT-06010100-31-s7 Node 20]: [L3 Warning leaf-det] 'det' not expected to have children (20:la:det --> 22:comunicació:appos)
+[Line 1464 Sent 3LB-CAT-06010300-26-s4 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:les:det --> 22:dues:nummod)
+[Line 2116 Sent 3LB-CAT-06010300-5-s6 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Els:det --> 2:tres:nummod)
+[Line 2686 Sent 3LB-CAT-06019900-10-s13 Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:el:det --> 29:pintor:appos)
+[Line 3669 Sent 3LB-CAT-06020300-1-s1 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:Una:det --> 27:programa:appos)
 [Line 4868 Sent 3LB-CAT-06020300-13-s5 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9, 10] 'a * llarg de'
 [Line 4887 Sent 3LB-CAT-06020300-13-s5 Node 25]: [L3 Warning fixed-gap] Gaps in fixed expression [25, 39, 40] 'de * * * * * * * * * * * * * fins a'
-[Line 6103 Sent 3LB-CAT-06020300-3-s3 Node 60]: [L3 Warning fixed-gap] Gaps in fixed expression [60, 62, 63] 'a * llarg de'
-[Line 15209 Sent CESS-CAT-A-19990902-115-s2 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9, 10] 'a * llarg de'
-[Line 15279 Sent CESS-CAT-A-19990902-115-s4 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4, 5] 'Fins * * punt que'
-[Line 15774 Sent CESS-CAT-A-19991201-4-s6 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18, 19] 'a * voltant de'
-[Line 17837 Sent CESS-CAT-A-20000308-4318-s1 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * llarg de'
-[Line 21387 Sent CESS-CAT-A-20000616-11009-s7 Node 31]: [L3 Warning fixed-gap] Gaps in fixed expression [31, 34, 35] 'de * * fins a'
-[Line 21487 Sent CESS-CAT-A-20000616-11009-s10 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * seu torn'
-[Line 28207 Sent CESS-CAT-A-20020102-7-s2 Node 12]: [L3 Warning fixed-gap] Gaps in fixed expression [12, 14, 15] 'a * llarg de'
+[Line 5984 Sent 3LB-CAT-06020300-3-s1 Node 20]: [L3 Warning leaf-det] 'det' not expected to have children (20:els:det --> 21:últims:amod)
+[Line 5985 Sent 3LB-CAT-06020300-3-s1 Node 20]: [L3 Warning leaf-det] 'det' not expected to have children (20:els:det --> 22:deu:nummod)
 ...suppressing further errors regarding Warning
-Warnings: 28
+Warnings: 141
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-train.conllu
+[Line 1292 Sent 3LB-CAT-06010100-12-s8 Node 20]: [L3 Warning leaf-det] 'det' not expected to have children (20:cada:det --> 21:tres:nummod)
+[Line 1324 Sent 3LB-CAT-06010100-12-s9 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:la:det --> 13:Alemanya:obj)
 [Line 2898 Sent 3LB-CAT-06010100-18-s4 Node 15]: [L3 Warning fixed-gap] Gaps in fixed expression [15, 17, 18] 'a * voltant d''
 [Line 3188 Sent 3LB-CAT-06010100-19-s6 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * marge de'
-[Line 6425 Sent 3LB-CAT-06010100-27-s8 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18, 19] 'a * marge de'
-[Line 11751 Sent 3LB-CAT-06010100-43-s8 Node 25]: [L3 Warning fixed-gap] Gaps in fixed expression [25, 27] 'de * tot'
-[Line 17709 Sent 3LB-CAT-06010300-13-s7 Node 65]: [L3 Warning fixed-gap] Gaps in fixed expression [65, 67, 68] 'a * voltant de'
-[Line 19494 Sent 3LB-CAT-06010300-22-s2 Node 32]: [L3 Warning fixed-gap] Gaps in fixed expression [32, 34, 35] 'a * mateix temps'
-[Line 22052 Sent 3LB-CAT-06010300-28-s6 Node 30]: [L3 Warning fixed-gap] Gaps in fixed expression [30, 31, 32, 34] 'amb l' objectiu * d''
-[Line 24932 Sent 3LB-CAT-06019900-12-s7 Node 22]: [L3 Warning fixed-gap] Gaps in fixed expression [22, 24, 25] 'a * llarg de'
-[Line 25018 Sent 3LB-CAT-06019900-12-s9 Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18, 19] 'a * llarg de'
-[Line 27343 Sent 3LB-CAT-06019900-18-s8 Node 10]: [L3 Warning fixed-gap] Gaps in fixed expression [10, 12, 13] 'a * llarg de'
+[Line 3450 Sent 3LB-CAT-06010100-2-s4 Node 1]: [L3 Warning leaf-det] 'det' not expected to have children (1:Els:det --> 3:quatre:nummod)
+[Line 4220 Sent 3LB-CAT-06010100-22-s9 Node 42]: [L3 Warning leaf-det] 'det' not expected to have children (42:el:det --> 45:tren:nsubj)
+[Line 4235 Sent 3LB-CAT-06010100-22-s9 Node 57]: [L3 Warning leaf-det] 'det' not expected to have children (57:el:det --> 59:avió:nsubj)
+[Line 4651 Sent 3LB-CAT-06010100-24-s4 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:els:det --> 20:com:mark)
+[Line 4656 Sent 3LB-CAT-06010100-24-s4 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:els:det --> 24:funicular:nmod)
+[Line 4761 Sent 3LB-CAT-06010100-24-s7 Node 26]: [L3 Warning leaf-det] 'det' not expected to have children (26:els:det --> 27:dos:nummod)
 ...suppressing further errors regarding Warning
-Warnings: 196
+Warnings: 1012
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
