@@ -48,6 +48,8 @@ Additionally, the following paper must be cited when argumental attributes in "s
 
 # Changelog
 
+* 2025-11-15 v2.17
+  * Added the ExtPos feature to fixed expressions.
 * 2024-11-15 v2.15
   * Removed feature AdvType.
 * 2024-05-15 v2.14
