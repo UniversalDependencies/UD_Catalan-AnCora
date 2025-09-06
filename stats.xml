@@ -40,7 +40,7 @@
     <feat name="Case" value="Gen" upos="PRON">354</feat><!-- n', en, ne, 'n, -ne -->
     <feat name="Case" value="Loc" upos="PRON">1317</feat><!-- hi -->
     <feat name="Case" value="Nom" upos="PRON">86</feat><!-- jo, tu, hom -->
-    <feat name="Definite" value="Def" upos="DET">63638</feat><!-- el, la, l', els, les -->
+    <feat name="Definite" value="Def" upos="DET">63482</feat><!-- el, la, l', els, les -->
     <feat name="Definite" value="Ind" upos="DET">16</feat><!-- en, l', al, col·laboració, la, sa, ses, suficient -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2556</feat><!-- més, menys, millor, major, millors, pitjor, menor, majors, menors, pitjors -->
     <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,PART,PRON,SCONJ">3265</feat><!-- a, com, des, en, pel, respecte, per, cap, gràcies, de -->
@@ -75,9 +75,9 @@
     <feat name="Poss" value="Yes" upos="DET,PRON">3175</feat><!-- seva, seu, seus, seves, nostra, nostre, nostres, meu, meus, su -->
     <feat name="PrepCase" value="Npr" upos="PRON">6790</feat><!-- es, s', se, em, m', me, et, t', s, 't -->
     <feat name="PrepCase" value="Pre" upos="PRON">51</feat><!-- mi, si, ti -->
-    <feat name="PronType" value="Art" upos="DET">68466</feat><!-- el, la, l', els, les, un, una, meva, los, las -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">3995</feat><!-- aquest, aquesta, aquests, això, aquestes, aquell, aquells, tal, allò, aquella -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">14074</feat><!-- un, una, altres, tots, uns, tot, mateix, cap, altra, cada -->
+    <feat name="PronType" value="Art" upos="DET">68307</feat><!-- el, la, l', els, les, un, una, meva, los, las -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">4155</feat><!-- aquest, aquesta, aquests, això, aquestes, el, aquell, aquells, tal, allò -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">14073</feat><!-- un, una, altres, tots, uns, tot, mateix, cap, altra, cada -->
     <feat name="PronType" value="Int" upos="DET,PRON">345</feat><!-- què, com, quina, qui, quin, quines, on, quins, quan, quant -->
     <feat name="PronType" value="Prs" upos="DET,PRON">14592</feat><!-- es, s', hi, seva, seu, se, li, seus, ho, seves -->
     <feat name="PronType" value="Rel" upos="DET,PRON">8814</feat><!-- que, on, qual, què, qui, quals, quan, com -->
@@ -122,7 +122,7 @@
     <dep name="csubj">926</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">89</dep>
-    <dep name="det">86234</dep>
+    <dep name="det">86074</dep>
     <dep name="discourse">1</dep>
     <dep name="dislocated">2</dep>
     <dep name="expl">58</dep>
@@ -131,7 +131,7 @@
     <dep name="flat">18014</dep>
     <dep name="mark">15254</dep>
     <dep name="nmod">41169</dep>
-    <dep name="nsubj">27450</dep>
+    <dep name="nsubj">27610</dep>
     <dep name="nsubj:outer">12</dep>
     <dep name="nsubj:pass">25</dep>
     <dep name="nummod">6270</dep>
