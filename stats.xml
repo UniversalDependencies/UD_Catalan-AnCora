@@ -45,7 +45,7 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2556</feat><!-- més, menys, millor, major, millors, pitjor, menor, majors, menors, pitjors -->
     <feat name="ExtPos" value="ADP" upos="ADP,ADV">2122</feat><!-- a, des, en, pel, per, de, d', amb, pels, fins -->
     <feat name="ExtPos" value="ADV" upos="ADP,CCONJ,NOUN">1069</feat><!-- a, en, per, de, sí, ni, amb, d', ara, tan -->
-    <feat name="ExtPos" value="SCONJ" upos="NOUN">102</feat><!-- malgrat, tal, cada, atès, ara, gràcies, lluny, És, Després, cas -->
+    <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PRON,SCONJ">1233</feat><!-- ja, tot, encara, per, com, a, en, amb, de, malgrat -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,SCONJ,VERB">29</feat><!-- a, de, Ceguera, Como, Por, Quién, amor, amore, cadáver, difunto -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">86326</feat><!-- la, les, una, aquesta, seva, pessetes, persones, seves, dues, aquestes -->
     <feat name="Gender" value="Fem,Masc" upos="PRON">176</feat><!-- l' -->
