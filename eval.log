@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Catalan-AnCora:
-commit 1e571634487988b20e2473d257abcfad057b910f
-Merge: 9849e19 6249103
+commit bcfdd8dd5aaedbf2a476ff060d9738ed48ad9bec
+Merge: 2f5ef53 5277402
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'ca_ancora'
+Language code (from CoNLL-U file name) = 'ca'
+Found the following data files: ca_ancora-ud-dev.conllu, ca_ancora-ud-test.conllu, ca_ancora-ud-train.conllu
 Size: counted 547261 of 547261 words (nodes).
 Size: min(0, log((N/1000)**2)) = 12.6098516734069.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,105 +19,100 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 366872 out of 547261 total words have one or more features.
+Features: 372858 out of 547261 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL       3090
-Udapi: found 3090 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 547261 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-dev.conllu
-[Line 25 Sent 3LB-CAT-06010100-17-s1 Node 18]: [L3 Syntax leaf-det] 'det' not expected to have children (18:els:det --> 19:primers:amod)
-[Line 26 Sent 3LB-CAT-06010100-17-s1 Node 18]: [L3 Syntax leaf-det] 'det' not expected to have children (18:els:det --> 20:cinc:nummod)
-[Line 48 Sent 3LB-CAT-06010100-17-s2 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'a banda de' does not have the 'ExtPos' feature
-[Line 159 Sent 3LB-CAT-06010100-17-s6 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:aquests:det --> 3:primers:amod)
-[Line 160 Sent 3LB-CAT-06010100-17-s6 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:aquests:det --> 4:cinc:nummod)
-[Line 173 Sent 3LB-CAT-06010100-17-s6 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'a més de' does not have the 'ExtPos' feature
-[Line 203 Sent 3LB-CAT-06010100-17-s8 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Per exemple' does not have the 'ExtPos' feature
-[Line 203 Sent 3LB-CAT-06010100-17-s8 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Per'
-[Line 326 Sent 3LB-CAT-06010100-17-s11 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'com a' does not have the 'ExtPos' feature
-[Line 438 Sent 3LB-CAT-06010100-4-s1 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'fins a' does not have the 'ExtPos' feature
-[Line 453 Sent 3LB-CAT-06010100-4-s2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Tot i que' does not have the 'ExtPos' feature
-[Line 453 Sent 3LB-CAT-06010100-4-s2 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'DET' word 'Tot'
-[Line 558 Sent 3LB-CAT-06010100-4-s4 Node 34]: [L3 Warning fixed-without-extpos] Fixed expression 'a bord' does not have the 'ExtPos' feature
-[Line 558 Sent 3LB-CAT-06010100-4-s4 Node 34]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'a'
-[Line 787 Sent 3LB-CAT-06010100-51-s2 Node 52]: [L3 Warning fixed-without-extpos] Fixed expression 'de moment' does not have the 'ExtPos' feature
-[Line 787 Sent 3LB-CAT-06010100-51-s2 Node 52]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'de'
-[Line 837 Sent 3LB-CAT-06010100-51-s3 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'en relació a' does not have the 'ExtPos' feature
-[Line 922 Sent 3LB-CAT-06010100-51-s4 Node 33]: [L3 Syntax leaf-det] 'det' not expected to have children (33:altra:det --> 32:una:nummod)
-[Line 995 Sent 3LB-CAT-06010100-51-s7 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Un cop' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 1279 Sent 3LB-CAT-06010100-8-s5 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'A'
+[Line 66 Sent 3LB-CAT-06010100-17-s2]: [L3 Syntax too-many-objects] Multiple direct objects [28, 33] ("s'", 'públic') under the predicate 'obert'.
+[Line 193 Sent 3LB-CAT-06010100-17-s7]: [L3 Syntax too-many-objects] Multiple direct objects [7, 12] ("s'", 'públic') under the predicate 'obert'.
+[Line 859 Sent 3LB-CAT-06010100-51-s3]: [L3 Syntax too-many-objects] Multiple direct objects [41, 44] ('es', 'veracitat') under the predicate 'demostra'.
+[Line 1107 Sent 3LB-CAT-06010100-8-s1]: [L3 Syntax too-many-objects] Multiple direct objects [22, 23] ("s'", 'els') under the predicate 'tancar'.
+[Line 1159 Sent 3LB-CAT-06010100-8-s2]: [L3 Syntax too-many-objects] Multiple direct objects [22, 29] ('nombre', 'variable') under the predicate 'tindrà'.
+[Line 1214 Sent 3LB-CAT-06010100-8-s3]: [L3 Syntax too-many-objects] Multiple direct objects [14, 17] ('hi', 'IVA') under the predicate 'ha'.
+[Line 1682 Sent 3LB-CAT-06010300-16-s2]: [L3 Syntax too-many-objects] Multiple direct objects [31, 37] ('abast', 'proposta') under the predicate 'posa'.
+[Line 2019 Sent 3LB-CAT-06010300-3-s1]: [L3 Syntax too-many-objects] Multiple direct objects [23, 25] ('li', 'crisi') under the predicate 'explicar'.
+[Line 2189 Sent 3LB-CAT-06010300-3-s7]: [L3 Syntax too-many-objects] Multiple direct objects [21, 23] ('li', 'situació') under the predicate 'exposar'.
+[Line 2437 Sent 3LB-CAT-06010300-6-s3]: [L3 Warning obl-should-be-nmod] The parent (node [12] 'pla') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2585 Sent 3LB-CAT-06010300-6-s8]: [L3 Syntax too-many-objects] Multiple direct objects [16, 18] ('es', 'excessiu') under the predicate 'considera'.
+[Line 2943 Sent 3LB-CAT-06019900-14-s11]: [L3 Warning fixed-gap] Gaps in fixed expression [18, 20, 21] 'a * voltant de'
+[Line 3699 Sent 3LB-CAT-06020300-34-s13]: [L3 Warning fixed-without-extpos] Fixed expression 'mentre que' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Syntax
-Syntax errors: 254
-Warnings: 769
-*** FAILED *** with 254 errors
+[Line 5945 Sent 3LB-CAT-06029900-9-s7]: [L3 Warning fixed-gap] Gaps in fixed expression [12, 14] 'a * capdavant'
+[Line 6590 Sent 3LB-CAT-103-20-s7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9, 10] 'a * llarg de'
+[Line 6629 Sent 3LB-CAT-103-20-s8]: [L3 Warning fixed-without-extpos] Fixed expression 'mentre que' does not have the 'ExtPos' feature
+[Line 6858 Sent 3LB-CAT-103-20-s16]: [L3 Warning obl-should-be-nmod] The parent (node [4] 'que') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 7883 Sent 3LB-CAT-107-7-s13]: [L3 Warning fixed-without-extpos] Fixed expression 'o bé' does not have the 'ExtPos' feature
+[Line 11800 Sent CESS-CAT-A-20000216-2770-s3]: [L3 Warning fixed-without-extpos] Fixed expression 'per sobre' does not have the 'ExtPos' feature
+[Line 12064 Sent CESS-CAT-A-20000216-2770-s12]: [L3 Warning fixed-without-extpos] Fixed expression 'mentre que' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Syntax errors: 348
+Warnings: 69
+*** FAILED *** with 348 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-test.conllu
-[Line 27 Sent 3LB-CAT-06010100-16-s1 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'a través de' does not have the 'ExtPos' feature
-[Line 52 Sent 3LB-CAT-06010100-16-s2 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'com a' does not have the 'ExtPos' feature
-[Line 164 Sent 3LB-CAT-06010100-16-s6 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'A partir d'' does not have the 'ExtPos' feature
-[Line 217 Sent 3LB-CAT-06010100-16-s7 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'a través d'' does not have the 'ExtPos' feature
-[Line 297 Sent 3LB-CAT-06010100-23-s2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Per tant' does not have the 'ExtPos' feature
-[Line 297 Sent 3LB-CAT-06010100-23-s2 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Per'
-[Line 361 Sent 3LB-CAT-06010100-23-s4 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'des d'' does not have the 'ExtPos' feature
-[Line 387 Sent 3LB-CAT-06010100-23-s5 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'tan sols' does not have the 'ExtPos' feature
-[Line 387 Sent 3LB-CAT-06010100-23-s5 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN' word 'tan'
-[Line 402 Sent 3LB-CAT-06010100-23-s5 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'per tal d'' does not have the 'ExtPos' feature
-[Line 470 Sent 3LB-CAT-06010100-23-s7 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'per sobre' does not have the 'ExtPos' feature
-[Line 470 Sent 3LB-CAT-06010100-23-s7 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'per'
-[Line 488 Sent 3LB-CAT-06010100-23-s7 Node 31]: [L3 Warning fixed-without-extpos] Fixed expression 'des de' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 521 Sent 3LB-CAT-06010100-23-s8 Node 17]: [L3 Syntax leaf-det] 'det' not expected to have children (17:la:det --> 19:Tortosa:nsubj)
-[Line 530 Sent 3LB-CAT-06010100-23-s9 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'En'
-[Line 540 Sent 3LB-CAT-06010100-23-s9 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN' word 'sí'
-[Line 890 Sent 3LB-CAT-06010100-31-s5B Node 27]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' word 'tal'
-[Line 1027 Sent 3LB-CAT-06010100-31-s7 Node 20]: [L3 Syntax leaf-det] 'det' not expected to have children (20:la:det --> 22:comunicació:appos)
-[Line 1464 Sent 3LB-CAT-06010300-26-s4 Node 21]: [L3 Syntax leaf-det] 'det' not expected to have children (21:les:det --> 22:dues:nummod)
-[Line 2116 Sent 3LB-CAT-06010300-5-s6 Node 1]: [L3 Syntax leaf-det] 'det' not expected to have children (1:Els:det --> 2:tres:nummod)
+[Line 517 Sent 3LB-CAT-06010100-23-s8]: [L3 Warning fixed-without-extpos] Fixed expression 'mentre que' does not have the 'ExtPos' feature
+[Line 523 Sent 3LB-CAT-06010100-23-s8]: [L3 Syntax too-many-objects] Multiple direct objects [20, 22] ('en', '240') under the predicate 'té'.
+[Line 807 Sent 3LB-CAT-06010100-31-s4]: [L3 Syntax too-many-objects] Multiple direct objects [35, 40] ("s'", 'política') under the predicate 'oposa'.
+[Line 1194 Sent 3LB-CAT-06010100-40-s3]: [L3 Syntax too-many-objects] Multiple direct objects [9, 12] ('actuació', 'agressió') under the predicate 'qualificat'.
+[Line 2483 Sent 3LB-CAT-06019900-10-s8]: [L3 Syntax too-many-objects] Multiple direct objects [25, 33] ('abast', 'mostra') under the predicate 'posar'.
+[Line 2671 Sent 3LB-CAT-06019900-10-s13]: [L3 Syntax too-many-objects] Multiple direct objects [14, 16] ('ens', 'Bertrana') under the predicate 'presenta'.
+[Line 2956 Sent 3LB-CAT-06019900-10-s18]: [L3 Syntax too-many-objects] Multiple direct objects [8, 12] ('hi', 'representació') under the predicate 'hagut'.
+[Line 3012 Sent 3LB-CAT-06019900-10-s19]: [L3 Syntax too-many-objects] Multiple direct objects [18, 21] ("s'", 'reflectida') under the predicate 'veu'.
+[Line 3353 Sent 3LB-CAT-06019900-7-s9]: [L3 Syntax too-many-objects] Multiple direct objects [9, 17] ('instal·lacions', 'ala') under the predicate 'inclourà'.
+[Line 3797 Sent 3LB-CAT-06020300-1-s4]: [L3 Syntax too-many-objects] Multiple direct objects [39, 40] ("s'", 'hi') under the predicate 'inscrit'.
+[Line 3875 Sent 3LB-CAT-06020300-1-s6]: [L3 Syntax too-many-objects] Multiple direct objects [20, 37] ("s'", 'model') under the predicate 'canviat'.
+[Line 3964 Sent 3LB-CAT-06020300-1-s9]: [L3 Warning obl-should-be-nmod] The parent (node [7] 'millores') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 263
-Warnings: 740
-*** FAILED *** with 263 errors
+[Line 4868 Sent 3LB-CAT-06020300-13-s5]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9, 10] 'a * llarg de'
+[Line 4887 Sent 3LB-CAT-06020300-13-s5]: [L3 Warning fixed-gap] Gaps in fixed expression [25, 39, 40] 'de * * * * * * * * * * * * * fins a'
+[Line 6103 Sent 3LB-CAT-06020300-3-s3]: [L3 Warning fixed-gap] Gaps in fixed expression [60, 62, 63] 'a * llarg de'
+[Line 6500 Sent 3LB-CAT-06020300-31-s6]: [L3 Warning fixed-without-extpos] Fixed expression 'sinó que' does not have the 'ExtPos' feature
+[Line 6658 Sent 3LB-CAT-06020300-31-s9]: [L3 Warning fixed-without-extpos] Fixed expression 'així com' does not have the 'ExtPos' feature
+[Line 8411 Sent 3LB-CAT-103-1-s3]: [L3 Warning obl-should-be-nmod] The parent (node [22] 'Mollerussa') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10279 Sent 3LB-CAT-107-1-s13]: [L3 Warning fixed-without-extpos] Fixed expression 'així com' does not have the 'ExtPos' feature
+[Line 14864 Sent CESS-CAT-A-19990901-74-s3]: [L3 Warning fixed-without-extpos] Fixed expression 'en suspens' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Syntax errors: 299
+Warnings: 66
+*** FAILED *** with 299 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-train.conllu
-[Line 122 Sent 3LB-CAT-06010100-1-s2 Node 50]: [L3 Warning fixed-without-extpos] Fixed expression 'com a' does not have the 'ExtPos' feature
-[Line 270 Sent 3LB-CAT-06010100-1-s6 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Pel que fa a' does not have the 'ExtPos' feature
-[Line 302 Sent 3LB-CAT-06010100-1-s6 Node 32]: [L3 Warning fixed-without-extpos] Fixed expression 'd' acord amb' does not have the 'ExtPos' feature
-[Line 313 Sent 3LB-CAT-06010100-1-s6 Node 43]: [L3 Warning fixed-without-extpos] Fixed expression 'des d'' does not have the 'ExtPos' feature
-[Line 334 Sent 3LB-CAT-06010100-1-s6 Node 64]: [L3 Warning fixed-without-extpos] Fixed expression 'ja que' does not have the 'ExtPos' feature
-[Line 514 Sent 3LB-CAT-06010100-10-s5 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Tot i que' does not have the 'ExtPos' feature
-[Line 514 Sent 3LB-CAT-06010100-10-s5 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' word 'Tot'
-[Line 534 Sent 3LB-CAT-06010100-10-s5 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'de manera que' does not have the 'ExtPos' feature
-[Line 550 Sent 3LB-CAT-06010100-10-s6 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'A més de' does not have the 'ExtPos' feature
-[Line 589 Sent 3LB-CAT-06010100-10-s6 Node 38]: [L3 Warning fixed-without-extpos] Fixed expression 'des de' does not have the 'ExtPos' feature
-[Line 694 Sent 3LB-CAT-06010100-10-s9 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'a partir de' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 1180 Sent 3LB-CAT-06010100-12-s5 Node 54]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' word 'tal'
-[Line 1292 Sent 3LB-CAT-06010100-12-s8 Node 20]: [L3 Syntax leaf-det] 'det' not expected to have children (20:cada:det --> 21:tres:nummod)
-[Line 1300 Sent 3LB-CAT-06010100-12-s8 Node 29]: [L3 Syntax rel-upos-cc] 'cc' should not be 'NOUN' word 'això'
-[Line 1324 Sent 3LB-CAT-06010100-12-s9 Node 11]: [L3 Syntax leaf-det] 'det' not expected to have children (11:la:det --> 13:Alemanya:obj)
-[Line 1350 Sent 3LB-CAT-06010100-12-s10 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'a'
-[Line 1418 Sent 3LB-CAT-06010100-12-s11 Node 54]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'en'
-[Line 1783 Sent 3LB-CAT-06010100-13-s8 Node 30]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'per'
-[Line 1967 Sent 3LB-CAT-06010100-13-s13 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'Tot'
-[Line 2606 Sent 3LB-CAT-06010100-15-s6 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'A'
+[Line 61 Sent 3LB-CAT-06010100-1-s1]: [L3 Syntax too-many-objects] Multiple direct objects [54, 55] ('los', 'serveis') under the predicate 'oferir'.
+[Line 520 Sent 3LB-CAT-06010100-10-s5]: [L3 Syntax too-many-objects] Multiple direct objects [5, 9] ('hi', 'reunió') under the predicate 'haver'.
+[Line 775 Sent 3LB-CAT-06010100-10-s11]: [L3 Syntax too-many-objects] Multiple direct objects [15, 17] ('hi', 'recollida') under the predicate 'haurà'.
+[Line 1204 Sent 3LB-CAT-06010100-12-s5]: [L3 Syntax too-many-objects] Multiple direct objects [76, 77] ('se', "'n") under the predicate 'ressenti'.
+[Line 1314 Sent 3LB-CAT-06010100-12-s9]: [L3 Syntax too-many-objects] Multiple direct objects [5, 11] ('situació', 'la') under the predicate 'comparat'.
+[Line 1390 Sent 3LB-CAT-06010100-12-s11]: [L3 Syntax too-many-objects] Multiple direct objects [21, 29] ('ciutadania', 'escoles') under the predicate 'vol'.
+[Line 1508 Sent 3LB-CAT-06010100-13-s2]: [L3 Syntax too-many-objects] Multiple direct objects [35, 38] ('hi', 'previsió') under the predicate 'ha'.
+[Line 1591 Sent 3LB-CAT-06010100-13-s4]: [L3 Syntax too-many-objects] Multiple direct objects [22, 24] ('pública', 'voluntat') under the predicate 'fet'.
+[Line 1674 Sent 3LB-CAT-06010100-13-s5]: [L3 Syntax too-many-objects] Multiple direct objects [43, 46, 48] ("n'", 'públic', 'detall') under the predicate 'fet'.
+[Line 1804 Sent 3LB-CAT-06010100-13-s8]: [L3 Syntax too-many-objects] Multiple direct objects [50, 52] ('hi', 'situacions') under the predicate 'hagi'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 1969
-Warnings: 5417
-*** FAILED *** with 1969 errors
+[Line 2898 Sent 3LB-CAT-06010100-18-s4]: [L3 Warning fixed-gap] Gaps in fixed expression [15, 17, 18] 'a * voltant d''
+[Line 3188 Sent 3LB-CAT-06010100-19-s6]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3, 4] 'A * marge de'
+[Line 3838 Sent 3LB-CAT-06010100-21-s4]: [L3 Warning fixed-without-extpos] Fixed expression 'mentre que' does not have the 'ExtPos' feature
+[Line 4231 Sent 3LB-CAT-06010100-22-s9]: [L3 Warning fixed-without-extpos] Fixed expression 'mentre que' does not have the 'ExtPos' feature
+[Line 5912 Sent 3LB-CAT-06010100-26-s7]: [L3 Warning fixed-without-extpos] Fixed expression 'mentre que' does not have the 'ExtPos' feature
+[Line 6425 Sent 3LB-CAT-06010100-27-s8]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18, 19] 'a * marge de'
+[Line 7013 Sent 3LB-CAT-06010100-29-s6]: [L3 Warning fixed-without-extpos] Fixed expression 'mentre que' does not have the 'ExtPos' feature
+[Line 7779 Sent 3LB-CAT-06010100-30-s7]: [L3 Warning fixed-without-extpos] Fixed expression 'de mica en mica' does not have the 'ExtPos' feature
+[Line 10087 Sent 3LB-CAT-06010100-39-s2]: [L3 Warning fixed-without-extpos] Fixed expression 'a soles' does not have the 'ExtPos' feature
+[Line 10664 Sent 3LB-CAT-06010100-39-s13]: [L3 Warning fixed-without-extpos] Fixed expression 'mentre que' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Syntax errors: 2289
+Warnings: 487
+*** FAILED *** with 2289 errors
 Exit code: 1
 Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.91273149989652) = 0.234033717922185
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.943536996058553) = 0.290319075710324
-(weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.812463075860438) * (availability=1) * (validity=0.01) = 0.00812463075860438
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.91273149989652) = 0.338048703665378
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
+(weight=0.111111111111111) * (score{udeprels}=0.67027027027027) = 0.0744744744744745
+(TOTAL score=0.754208000216831) * (availability=1) * (validity=0.01) = 0.00754208000216831
 STARS = 0
-UD_Catalan-AnCora	0.00812463075860438	0
+UD_Catalan-AnCora	0.00754208000216831	0
