@@ -18,7 +18,7 @@
     <tag name="ADJ">30082</tag><!-- nou, primer, gran, català, passat, polític, general, espanyol, últim, públic -->
     <tag name="ADP">87976</tag><!-- de, a, per, en, amb, entre, sobre, segons, des, durant -->
     <tag name="ADV">15482</tag><!-- no, més, també, ja, després, ahir, molt, avui, només, ara -->
-    <tag name="AUX">22052</tag><!-- haver, anar, ser, poder, estar, saber -->
+    <tag name="AUX">22054</tag><!-- haver, anar, ser, poder, estar, saber -->
     <tag name="CCONJ">15049</tag><!-- i, o, però, ni, sinó, mentre, y, que, bé, et -->
     <tag name="DET">87267</tag><!-- el, un, aquest, seu, la, tot, altre, mateix, algun, divers -->
     <tag name="INTJ">15</tag><!-- vaja, he, compte, déu, ep, hola, home, marbella, mira, oh -->
@@ -30,20 +30,23 @@
     <tag name="PUNCT">57270</tag><!-- ,, ., ", ', (, ), -, :, ;, ? -->
     <tag name="SCONJ">10550</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, què -->
     <tag name="SYM">821</tag><!-- %, m2, 5, &, -, -3, 3, 7 -->
-    <tag name="VERB">41898</tag><!-- fer, tenir, haver, dir, donar, presentar, arribar, passar, voler, demanar -->
+    <tag name="VERB">41896</tag><!-- fer, tenir, haver, dir, donar, presentar, arribar, passar, voler, demanar -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="65">
+  <feats unique="68">
     <feat name="Case" value="Acc" upos="PRON">1262</feat><!-- ho, la, el, l', lo, les, mi, si, els, 'l -->
     <feat name="Case" value="Acc,Dat" upos="PRON">7298</feat><!-- es, s', se, els, ens, los, em, m', 'ls, nos -->
     <feat name="Case" value="Dat" upos="PRON">681</feat><!-- li, es, s', ens, em, els, se, m', 's, et -->
     <feat name="Case" value="Gen" upos="PRON">354</feat><!-- n', en, ne, 'n, -ne -->
     <feat name="Case" value="Loc" upos="PRON">1317</feat><!-- hi -->
     <feat name="Case" value="Nom" upos="PRON">86</feat><!-- jo, tu, hom -->
-    <feat name="Definite" value="Def" upos="DET">63638</feat><!-- el, la, l', els, les -->
+    <feat name="Definite" value="Def" upos="DET">63482</feat><!-- el, la, l', els, les -->
     <feat name="Definite" value="Ind" upos="DET">16</feat><!-- en, l', al, col·laboració, la, sa, ses, suficient -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2556</feat><!-- més, menys, millor, major, millors, pitjor, menor, majors, menors, pitjors -->
-    <feat name="ExtPos" value="ADP" upos="ADV">1</feat><!-- fins -->
+    <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,PART,PRON,SCONJ">3265</feat><!-- a, com, des, en, pel, respecte, per, cap, gràcies, de -->
+    <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PART,PRON">1492</feat><!-- a, en, per, de, fins, no, tot, així, un, sí -->
+    <feat name="ExtPos" value="CCONJ" upos="ADP,ADV,CCONJ,NOUN,PART,SCONJ">383</feat><!-- així, sinó, a, no, és, o, mentre, de, juntament, en -->
+    <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PRON,SCONJ">1233</feat><!-- ja, tot, encara, per, com, a, en, amb, de, malgrat -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,SCONJ,VERB">29</feat><!-- a, de, Ceguera, Como, Por, Quién, amor, amore, cadáver, difunto -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">86326</feat><!-- la, les, una, aquesta, seva, pessetes, persones, seves, dues, aquestes -->
     <feat name="Gender" value="Fem,Masc" upos="PRON">176</feat><!-- l' -->
@@ -72,9 +75,9 @@
     <feat name="Poss" value="Yes" upos="DET,PRON">3175</feat><!-- seva, seu, seus, seves, nostra, nostre, nostres, meu, meus, su -->
     <feat name="PrepCase" value="Npr" upos="PRON">6790</feat><!-- es, s', se, em, m', me, et, t', s, 't -->
     <feat name="PrepCase" value="Pre" upos="PRON">51</feat><!-- mi, si, ti -->
-    <feat name="PronType" value="Art" upos="DET">68466</feat><!-- el, la, l', els, les, un, una, meva, los, las -->
-    <feat name="PronType" value="Dem" upos="DET,PRON">3995</feat><!-- aquest, aquesta, aquests, això, aquestes, aquell, aquells, tal, allò, aquella -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">14074</feat><!-- un, una, altres, tots, uns, tot, mateix, cap, altra, cada -->
+    <feat name="PronType" value="Art" upos="DET">68307</feat><!-- el, la, l', els, les, un, una, meva, los, las -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">4155</feat><!-- aquest, aquesta, aquests, això, aquestes, el, aquell, aquells, tal, allò -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">14073</feat><!-- un, una, altres, tots, uns, tot, mateix, cap, altra, cada -->
     <feat name="PronType" value="Int" upos="DET,PRON">345</feat><!-- què, com, quina, qui, quin, quines, on, quins, quan, quant -->
     <feat name="PronType" value="Prs" upos="DET,PRON">14592</feat><!-- es, s', hi, seva, seu, se, li, seus, ho, seves -->
     <feat name="PronType" value="Rel" upos="DET,PRON">8814</feat><!-- que, on, qual, què, qui, quals, quan, com -->
@@ -102,7 +105,7 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="39">
-    <dep name="acl">9399</dep>
+    <dep name="acl">9405</dep>
     <dep name="acl:relcl">606</dep>
     <dep name="advcl">6853</dep>
     <dep name="advmod">15219</dep>
@@ -110,30 +113,30 @@
     <dep name="amod">25003</dep>
     <dep name="appos">7678</dep>
     <dep name="aux">16750</dep>
-    <dep name="case">77933</dep>
+    <dep name="case">77934</dep>
     <dep name="cc">14877</dep>
-    <dep name="ccomp">4192</dep>
+    <dep name="ccomp">4187</dep>
     <dep name="compound">2652</dep>
-    <dep name="conj">16525</dep>
-    <dep name="cop">4679</dep>
-    <dep name="csubj">926</dep>
+    <dep name="conj">16524</dep>
+    <dep name="cop">4685</dep>
+    <dep name="csubj">925</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">89</dep>
-    <dep name="det">86234</dep>
+    <dep name="det">85917</dep>
     <dep name="discourse">1</dep>
     <dep name="dislocated">2</dep>
     <dep name="expl">58</dep>
     <dep name="expl:pass">514</dep>
-    <dep name="fixed">9872</dep>
+    <dep name="fixed">9871</dep>
     <dep name="flat">18014</dep>
     <dep name="mark">15254</dep>
-    <dep name="nmod">41169</dep>
-    <dep name="nsubj">27450</dep>
+    <dep name="nmod">41225</dep>
+    <dep name="nsubj">27610</dep>
     <dep name="nsubj:outer">12</dep>
     <dep name="nsubj:pass">25</dep>
     <dep name="nummod">6270</dep>
     <dep name="obj">30556</dep>
-    <dep name="obl">21744</dep>
+    <dep name="obl">21840</dep>
     <dep name="obl:agent">1166</dep>
     <dep name="obl:arg">6939</dep>
     <dep name="parataxis">578</dep>
