@@ -17286,7 +17286,7 @@
 78-79	al	_	_	_	_	_	_	_	MWE=al_mateix_temps|MWEPOS=ADV
 78	a	a	ADP	rg	_	81	case	81:case	ArgTem=argM:adv|MWE=al_mateix_temps|MWEPOS=ADV
 79	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	81	det	81:det	_
-80	mateix	mateix	DET	_	_	81	det	81:det	_
+80	mateix	mateix	DET	_	PronType=Ind	81	det	81:det	_
 81	temps	temps	NOUN	_	_	91	obl	91:obl	_
 82	que	que	SCONJ	pr0cn000	_	85	mark	85:mark	ArgTem=arg1:tem|Entity=(CESSCATA2001031527617c51_PLUS_CESSCATA2001031527617c52--1-CorefType:ident,gstype:gen)
 83	eren	ser	AUX	vsii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	85	cop	85:cop	_
