@@ -10900,7 +10900,7 @@
 25	havia	haver	AUX	vaii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	aux	28:aux	_
 26	estat	ser	AUX	vsp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	aux	28:aux	_
 27	científicament	científicament	ADV	rg	_	28	advmod	28:advmod	ArgTem=argM:mnr
-28	confirmada	confirmar	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl	18:acl	SpaceAfter=No|Entity=CESSCATA1999030145c19)CESSCATA1999030145c18)
+28	confirmada	confirmar	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	18:acl:relcl	SpaceAfter=No|Entity=CESSCATA1999030145c19)CESSCATA1999030145c18)
 29	.	.	PUNCT	fp	PunctType=Peri	10	punct	10:punct	_
 
 # sent_id = CESS-CAT-A-19990301-45-s13
@@ -11124,7 +11124,7 @@
 45	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	46:det	_
 46	quals	qual	PRON	pr0cp000	Number=Plur|PronType=Rel	41	nmod	41:nmod	Entity=(CESSCATA1999120170c6--1-CorefType:ident,gstype:gen)NOCOREF:Gen)
 47	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	48	obj	48:obj	_
-48	mesuri	mesurar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl	37:acl	_
+48	mesuri	mesurar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	acl:relcl	37:acl:relcl	_
 49	per	per	ADP	sps00	_	50	case	50:case	_
 50	aparells	aparell	NOUN	ncmp000	Gender=Masc|Number=Plur	48	obl	48:obl	ArgTem=argM:adv|Entity=(CESSCATA1999120170c7--1-gstype:gen
 51	automàtics	automàtic	ADJ	aq0mp0	Gender=Masc|Number=Plur	50	amod	50:amod	SpaceAfter=No|Entity=CESSCATA1999120170c7)
@@ -19925,7 +19925,7 @@
 36	de	de	ADP	spcmp	_	38	case	38:case	_
 37	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	38:det	_
 38	quals	qual	PRON	pr0cp000	Number=Plur|PronType=Rel	33	nmod	33:nmod	Entity=(CESSCATA2001031527617c121--1-CorefType:ident)NOCOREF:Gen)
-39	vesteix	vestir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl	16:acl	_
+39	vesteix	vestir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
 40	aquest	aquest	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	43	det	43:det	Entity=(CESSCATA2001031527617c122--5-gstype:gen
 40.1	_	_	PRON	p	_	_	_	41:nsubj	ArgTem=arg0:agt|Entity=(CESSCATA2001031527617c3--1-CorefType:ident,gstype:gen)
 41	diguem	dir	VERB	vmsp1p0	Mood=Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	43	parataxis	43:parataxis	_
@@ -20043,7 +20043,7 @@
 25	quals	qual	PRON	pr0cp000	Number=Plur|PronType=Rel	22	nmod	22:nmod	Entity=CESSCATA2001080836814c4)CESSCATA2001080836814c5)
 26	no	no	ADV	rn	Polarity=Neg	28	advmod	28:advmod	_
 27	està	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	28:cop	_
-28	regulat	regulat	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	19	acl	19:acl	SpaceAfter=No|ArgTem=arg2:atr
+28	regulat	regulat	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	19	acl:relcl	19:acl:relcl	SpaceAfter=No|ArgTem=arg2:atr
 29	,	,	PUNCT	fc	PunctType=Comm	33	punct	33:punct	_
 30	i	i	CCONJ	cc	_	33	cc	33:cc	_
 31	que	que	PRON	pr0cn000	PronType=Rel	33	nsubj	33:nsubj	ArgTem=arg0:cau|Entity=(CESSCATA2001080836814c5--1-CorefType:ident,gstype:gen)
@@ -47774,7 +47774,7 @@
 26	de	de	ADP	spcmp	_	28	case	28:case	_
 27	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	28:det	_
 28	quals	qual	PRON	pr0cp000	Number=Plur|PronType=Rel	25	nmod	25:nmod	Entity=(CESSCATAAP2001071735555c1-number-1-CorefType:ident,gstype:spec)NOCOREF:Gen)
-29	corresponen	correspondre	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl	19:acl	_
+29	corresponen	correspondre	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	19:acl:relcl	_
 30-31	al	_	_	_	_	_	_	_	_
 30	a	a	ADP	spcms	_	32	case	32:case	_
 31	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	32:det	_
