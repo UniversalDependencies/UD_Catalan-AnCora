@@ -5016,8 +5016,8 @@
 # text = Un cop finalitzades les jornades, es redactaran unes conclusions que es faran públiques.
 # orig_file_sentence 002#21
 1	Un	un	DET	rg	ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	3	advmod	3:advmod	MWE=Un_cop|MWEPOS=ADV|ArgTem=argM:tmp
-2	cop	cop	NOUN	_	_	1	fixed	1:fixed	_
-3	finalitzades	finalitzat	VERB	vmp00pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	8:advcl	ArgTem=argM:tmp
+2	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	1	fixed	1:fixed	_
+3	finalitzades	finalitzar	VERB	vmp00pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	8:advcl	ArgTem=argM:tmp
 4	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	5:det	_
 5	jornades	jornada	NOUN	ncfp000	Gender=Fem|Number=Plur	3	nsubj	3:nsubj	SpaceAfter=No|ArgTem=arg1:pat
 6	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
@@ -13345,9 +13345,9 @@
 55	ell	ell	PRON	pp3ms000	Gender=Masc|Number=Sing|Person=3|PronType=Prs	52	nmod	52:nmod	_
 56	podia	poder	AUX	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	57	aux	57:aux	_
 57	portar	portar	VERB	vmn0000	VerbForm=Inf	48	xcomp	48:xcomp	MWE=portar_a_bon_fi|MWEPOS=VERB|ArgTem=arg1:pat
-58	a	a	ADP	_	_	57	compound	57:compound	_
-59	bon	bon	VERB	_	VerbForm=Inf	57	compound	57:compound	_
-60	fi	fi	VERB	_	VerbForm=Inf	57	compound	57:compound	_
+58	a	a	ADP	sps00	_	60	case	60:case	_
+59	bon	bon	ADJ	_	_	60	amod	60:amod	_
+60	fi	fi	NOUN	_	_	57	obl	57:obl	_
 61	una	un	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	62	det	62:det	_
 62	obra	obra	NOUN	ncfs000	Gender=Fem|Number=Sing	57	obj	57:obj	ArgTem=arg1:pat
 63	d'	de	ADP	sps00	_	65	case	65:case	SpaceAfter=No
@@ -26489,8 +26489,8 @@
 35	recursos	recurs	NOUN	ncmp000	Gender=Masc|Number=Plur	32	conj	32:conj	_
 36	naturals	natural	ADJ	aq0cp0	Number=Plur	35	amod	35:amod	Entity=NOCOREF:Gen)NOCOREF:Gen)
 37	un	un	DET	rg	ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	39	advmod	39:advmod	MWE=un_cop|MWEPOS=ADV|ArgTem=argM:tmp
-38	cop	cop	NOUN	_	_	37	fixed	37:fixed	_
-39	esgotats	esgotat	VERB	vmp00pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	advcl	24:advcl	ArgTem=argM:tmp
+38	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	37	fixed	37:fixed	_
+39	esgotats	esgotar	VERB	vmp00pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	advcl	24:advcl	ArgTem=argM:tmp
 40	els	el	DET	da0mp0	Gender=Masc|Number=Plur|PronType=Dem	39	nsubj	39:nsubj	Entity=(NOCOREF:Gen--1-gstype:gen
 41	de	de	ADP	sps00	_	40	case	40:case	_
 42	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	43:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -37512,13 +37512,13 @@
 # sent_id = CESS-CAT-AAP-19990701-54-s2
 # text = Fent clara referència als pilots, controladors i treballadors de terra, Navío va insistir que les negociacions "s'han de fer fer fora dels moments més crítics", com és l'inici de les vacances.
 # orig_file_sentence 015#94
-1	Fent	fer	VERB	vmg0000	VerbForm=Ger	3	xcomp	3:xcomp	ArgTem=argM:adv
-2	clara	clar	ADJ	aq0fs0	Gender=Fem|Number=Sing	3	advmod	3:advmod	ArgTem=argM:mnr
-3	referència	referència	VERB	ncfs000	VerbForm=Ger	16	advcl	16:advcl	_
+1	Fent	fer	VERB	vmg0000	VerbForm=Ger	16	advcl	16:advcl	ArgTem=argM:adv
+2	clara	clar	ADJ	aq0fs0	Gender=Fem|Number=Sing	3	amod	3:amod	ArgTem=argM:mnr
+3	referència	referència	NOUN	ncfs000	Gender=Fem|Number=Sing	1	obj	1:obj	_
 4-5	als	_	_	_	_	_	_	_	_
 4	a	a	ADP	spcmp	_	6	case	6:case	_
 5	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	6:det	_
-6	pilots	pilot	NOUN	ncmp000	Gender=Masc|Number=Plur	1	obl:arg	1:obl:arg	SpaceAfter=No|ArgTem=arg2:atr
+6	pilots	pilot	NOUN	ncmp000	Gender=Masc|Number=Plur	3	nmod	3:nmod	SpaceAfter=No|ArgTem=arg2:atr
 7	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
 8	controladors	controlador	NOUN	ncmp000	Gender=Masc|Number=Plur	6	conj	6:conj	_
 9	i	i	CCONJ	cc	_	10	cc	10:cc	_
@@ -41729,10 +41729,10 @@
 # text = La cloenda oficial serà presidida per Federico Mayor Zaragoza, exdirector general de la Unesco i president honorari de l'Associació Universitat d'Estiu de les Terres de l'Ebre.
 # orig_file_sentence 009#24
 1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCATAAP2000062011186c9--2-gstype:gen
-2	cloenda	cloenda	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg1:pat
+2	cloenda	cloenda	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nsubj:pass	5:nsubj:pass	ArgTem=arg1:pat
 3	oficial	oficial	ADJ	aq0cs0	Number=Sing	2	amod	2:amod	Entity=CESSCATAAP2000062011186c9)
-4	serà	ser	AUX	vsif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux	5:aux	_
-5	presidida	presidit	VERB	vmp0000	Tense=Past|VerbForm=Part	0	root	0:root	_
+4	serà	ser	AUX	vsif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux:pass	5:aux:pass	_
+5	presidida	presidir	VERB	vmp0000	Tense=Past|VerbForm=Part	0	root	0:root	_
 6	per	per	ADP	sps00	_	7	case	7:case	_
 7	Federico	Federico	PROPN	np0000p	_	5	obl:agent	5:obl:agent	MWE=Federico_Mayor_Zaragoza|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(CESSCATAAP2000062011186c2-person-1-gstype:spec
 8	Mayor	Mayor	PROPN	_	_	7	flat	7:flat	_
@@ -65863,7 +65863,7 @@
 20	i	i	CCONJ	cc	_	22	cc	22:cc	_
 20.1	_	_	PRON	p	_	_	_	22:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2002060165c6--1-CorefType:ident,gstype:gen)
 21	en	en	PRON	pp3cn000	Case=Gen|Person=3|PronType=Prs	22	obj	22:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP2002060165c8--1-CorefType:ident,gstype:gen)
-22	mostra	mostra	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	9:conj	_
+22	mostra	mostrar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	9:conj	_
 23	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	24	det	24:det	SpaceAfter=No|Entity=(NOCOREF:Gen--2-gstype:gen
 24	evolució	evolució	NOUN	ncfs000	Gender=Fem|Number=Sing	22	obj	22:obj	SpaceAfter=No|ArgTem=arg1:pat|Entity=NOCOREF:Gen)
 25	.	.	PUNCT	fp	PunctType=Peri	9	punct	9:punct	_
