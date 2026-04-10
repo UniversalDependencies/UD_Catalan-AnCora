@@ -993,7 +993,7 @@
 # text = Un cop allí, el metge que la va reconèixer va sol·licitar la presència d'un forense perquè va veure indicis que feien pensar que la nena podia haver estat víctima d'abusos sexuals.
 # orig_file_sentence 001#27
 1	Un	un	DET	rg	ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	3	advmod	3:advmod	MWE=Un_cop|MWEPOS=ADV
-2	cop	cop	NOUN	_	_	1	fixed	1:fixed	_
+2	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	1	fixed	1:fixed	_
 3	allí	allí	ADV	rg	_	12	advmod	12:advmod	SpaceAfter=No|ArgTem=argM:loc
 4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
@@ -3478,7 +3478,7 @@
 44	Madrid-Barcelona-França	Madrid-Barcelona-França	PROPN	np0000l	_	43	appos	43:appos	SpaceAfter=No|Entity=(NOCOREF:Spec.location-place-1-gstype:spec)
 45	,	,	PUNCT	fc	PunctType=Comm	46	punct	46:punct	_
 46	un	un	DET	rg	ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	36	advmod	36:advmod	MWE=un_cop|MWEPOS=ADV|ArgTem=argM:tmp
-47	cop	cop	NOUN	_	_	46	fixed	46:fixed	_
+47	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	46	fixed	46:fixed	_
 48	posat	posar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	xcomp	36:xcomp	MWE=posat_en_marxa|MWEPOS=VERB
 49	en	en	ADP	_	_	50	case	50:case	_
 50	marxa	marxa	NOUN	_	Gender=Fem|Number=Sing	48	compound	48:compound	_
@@ -13289,7 +13289,7 @@
 # text = Un cop s'hagi fet el nomenament del ministre d'Indústria, l'associació d'afectats farà arribar un escrit al titular del ministeri expressant la seva reclamació i demanant una entrevista.
 # orig_file_sentence 007#8
 1	Un	un	DET	cs	ExtPos=SCONJ|Gender=Masc|Number=Sing|PronType=Art	5	mark	5:mark	MWE=Un_cop|MWEPOS=SCONJ
-2	cop	cop	NOUN	_	_	1	fixed	1:fixed	_
+2	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	1	fixed	1:fixed	_
 3	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	obj	5:obj	SpaceAfter=No
 4	hagi	haver	AUX	vasp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 5	fet	fer	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	advcl	19:advcl	ArgTem=argM:tmp
@@ -15406,7 +15406,7 @@
 45	quedi	quedar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	acl:relcl	43:acl:relcl	_
 46	lliure	lliure	ADJ	aq0cs0	Number=Sing	45	obj	45:obj	ArgTem=arg2:atr|Entity=CESSCATA2001031227346c3)CESSCATA2001031227346c10)
 47	un	un	DET	rg	ExtPos=SCONJ|Gender=Masc|Number=Sing|PronType=Art	49	mark	49:mark	MWE=un_cop|MWEPOS=ADV|ArgTem=argM:tmp
-48	cop	cop	NOUN	_	_	47	fixed	47:fixed	_
+48	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	47	fixed	47:fixed	_
 49	eliminat	eliminar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	35	advcl	35:advcl	ArgTem=argM:tmp
 50	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	51:det	Entity=(CESSCATA2001031227346c4--2-CorefType:ident,gstype:gen
 51	viaducte	viaducte	NOUN	ncms000	Gender=Masc|Number=Sing	49	nsubj	49:nsubj	SpaceAfter=No|ArgTem=arg1:pat|Entity=CESSCATA2001031227346c4)
@@ -18359,7 +18359,7 @@
 58	d'	de	ADP	sps00	_	59	case	59:case	SpaceAfter=No
 59	Efe	Efe	PROPN	np0000o	_	56	nmod	56:nmod	Entity=(CESSCATA2001031527617c32-organization-1-CorefType:ident,gstype:spec)NOCOREF:Spec.organization)
 60	de	de	ADP	rg	ExtPos=ADV	65	advmod	65:advmod	MWE=de_cop_i_volta|MWEPOS=ADV|ArgTem=argM:adv
-61	cop	cop	NOUN	_	_	60	fixed	60:fixed	_
+61	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	60	fixed	60:fixed	_
 62	i	i	CCONJ	_	_	60	fixed	60:fixed	_
 63	volta	volta	NOUN	_	_	60	fixed	60:fixed	_
 64	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	65	obj	65:obj	_
@@ -24224,7 +24224,7 @@
 16	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	Entity=(CESSCATA2002041252755c1-organization-2-CorefType:ident,gstype:spec
 17	Consorci	Consorci	PROPN	np0000o	_	15	nsubj	15:nsubj	ArgTem=arg0:agt|Entity=CESSCATA2002041252755c1)
 18	un	un	DET	cs	ExtPos=SCONJ|Gender=Masc|Number=Sing|PronType=Art	22	mark	22:mark	MWE=un_cop|MWEPOS=SCONJ
-19	cop	cop	NOUN	_	_	18	fixed	18:fixed	_
+19	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	18	fixed	18:fixed	_
 20	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	22	obj	22:obj	SpaceAfter=No
 21	hagin	haver	AUX	vasp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	22:aux	_
 22	completat	completar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	15:advcl	ArgTem=argM:tmp
@@ -24260,7 +24260,7 @@
 4	Roma	Roma	PROPN	_	_	3	flat	3:flat	SpaceAfter=No|Entity=CESSCATA2002041252755c7)
 5	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
 6	un	un	DET	rg	ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	8	advmod	8:advmod	MWE=un_cop|MWEPOS=ADV|ArgTem=argM:tmp
-7	cop	cop	NOUN	_	_	6	fixed	6:fixed	_
+7	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	6	fixed	6:fixed	_
 8	coberta	cobrir	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	21:advcl	ArgTem=argM:tmp
 9	aquesta	aquest	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	10	det	10:det	Entity=(NOCOREF:Gen--2-gstype:gen
 10	prioritat	prioritat	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg1:pat
@@ -28554,7 +28554,7 @@
 9	grans	gran	ADJ	aq0cp0	Number=Plur	10	amod	10:amod	_
 10	grups	grup	NOUN	ncmp000	Gender=Masc|Number=Plur	8	nsubj	8:nsubj	ArgTem=arg1:tem
 11	de	de	ADP	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=de_cop_i_volta|MWEPOS=ADV|ArgTem=argM:adv
-12	cop	cop	NOUN	_	_	11	fixed	11:fixed	_
+12	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	11	fixed	11:fixed	_
 13	i	i	CCONJ	_	_	11	fixed	11:fixed	_
 14	volta	volta	NOUN	_	_	11	fixed	11:fixed	SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
@@ -32900,7 +32900,7 @@
 23	i	i	CCONJ	cc	_	30	cc	30:cc	SpaceAfter=No
 24	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 25	un	un	DET	rg	ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	30	advmod	30:advmod	MWE=un_cop|MWEPOS=ADV|ArgTem=argM:tmp
-26	cop	cop	NOUN	_	_	25	fixed	25:fixed	_
+26	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	25	fixed	25:fixed	_
 27	per	per	ADP	sps00	_	28	case	28:case	_
 28	setmana	setmana	NOUN	ncfs000	Gender=Fem|Number=Sing	25	obl	25:obl	SpaceAfter=No
 29	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
@@ -34156,7 +34156,7 @@
 28	presó	presó	NOUN	ncfs000	Gender=Fem|Number=Sing	26	nmod	26:nmod	SpaceAfter=No|Entity=CESSCATAAP200003285691c11)
 29	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
 30	un	un	DET	rg	ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	32	advmod	32:advmod	MWE=un_cop|MWEPOS=ADV|ArgTem=argM:tmp
-31	cop	cop	NOUN	_	_	30	fixed	30:fixed	_
+31	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	30	fixed	30:fixed	_
 32	acceptada	acceptar	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	23:advcl	ArgTem=argM:tmp
 33	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	34:det	Entity=(CESSCATAAP200003285691c1--2-gstype:gen,HomoDD
 34	pena	pena	NOUN	ncfs000	Gender=Fem|Number=Sing	32	nsubj	32:nsubj	ArgTem=arg1:pat
@@ -38101,7 +38101,7 @@
 1	El	ell	PRON	pp3msa00	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	2:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP20001202139c1-person-1-CorefType:ident,gstype:spec)
 2	xiularem	xiular	VERB	vmif1p0	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	0:root	Entity=(CESSCATAAP20001202139c25--1)
 3	cada	cada	NOUN	cs	ExtPos=SCONJ	6	mark	6:mark	MWE=cada_cop_que|MWEPOS=SCONJ
-4	cop	cop	NOUN	_	_	3	fixed	3:fixed	_
+4	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	3	fixed	3:fixed	_
 5	que	que	SCONJ	_	_	3	fixed	3:fixed	_
 5.1	_	_	PRON	p	_	_	_	6:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP20001202139c1-person-1-CorefType:ident,gstype:spec)
 6	intervingui	intervenir	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	2:advcl	ArgTem=argM:tmp
@@ -49759,7 +49759,7 @@
 # text = Un cop sostrets de la mirada i assumit el seu paper de claveguera, la vila de Banyoles ha viscut durant molt temps d'esquena a la seva existència.
 # orig_file_sentence 012#73
 1	Un	un	DET	rg	ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	3	advmod	3:advmod	MWE=Un_cop|MWEPOS=ADV|ArgTem=argM:tmp
-2	cop	cop	NOUN	_	_	1	fixed	1:fixed	_
+2	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	1	fixed	1:fixed	_
 3	sostrets	sostret	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	20	advmod	20:advmod	ArgTem=argM:tmp
 4	de	de	ADP	sps00	_	6	case	6:case	_
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -58488,7 +58488,7 @@
 13	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	14	obj	14:obj	SpaceAfter=No
 14	aprofitaven	aprofitar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	conj	11:conj	_
 15	un	un	DET	cs	ExtPos=SCONJ|Gender=Masc|Number=Sing|PronType=Art	18	mark	18:mark	MWE=un_cop|MWEPOS=SCONJ
-16	cop	cop	NOUN	_	_	15	fixed	15:fixed	_
+16	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	15	fixed	15:fixed	_
 16.1	_	_	PRON	p	_	_	_	18:nsubj	ArgTem=arg1:pat|Entity=(CESSCATAAP2002032651713c7--1-CorefType:ident,gstype:gen)
 17	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	18	obj	18:obj	_
 18	despenjaven	despenjar	VERB	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	14:advcl	ArgTem=argM:tmp
@@ -63409,7 +63409,7 @@
 26	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
 27	i	i	CCONJ	cc	_	32	cc	32:cc	_
 28	un	un	DET	cs	ExtPos=SCONJ|Gender=Masc|Number=Sing|PronType=Art	32	mark	32:mark	MWE=un_cop|MWEPOS=SCONJ
-29	cop	cop	NOUN	_	_	28	fixed	28:fixed	_
+29	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	28	fixed	28:fixed	_
 29.1	_	_	PRON	p	_	_	_	32:nsubj	ArgTem=arg1:pat|Entity=(CESSCATAAP200209019_bc52--1-CorefType:ident,gstype:gen)
 30	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	32	obj	32:obj	SpaceAfter=No
 31	hagi	haver	AUX	vasp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	32:aux	_
@@ -65784,7 +65784,7 @@
 # text = Un cop acabades aquestes obres, que es preveu que serà al febrer, l'Ajuntament preveu executar la remodelació del Camí Vell de Canovelles.
 # orig_file_sentence 016#19
 1	Un	un	DET	rg	ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	3	advmod	3:advmod	MWE=Un_cop|MWEPOS=ADV|ArgTem=argM:tmp
-2	cop	cop	NOUN	_	_	1	fixed	1:fixed	_
+2	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	1	fixed	1:fixed	_
 3	acabades	acabar	VERB	vmp00pf	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	advcl	18:advcl	ArgTem=argM:tmp
 4	aquestes	aquest	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	5	det	5:det	Entity=(CESSCATAAP2002120969545c2--2-CorefType:ident,gstype:gen
 5	obres	obra	NOUN	ncfp000	Gender=Fem|Number=Plur	3	nsubj	3:nsubj	SpaceAfter=No|ArgTem=arg1:tem

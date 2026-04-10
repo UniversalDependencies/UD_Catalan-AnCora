@@ -24527,7 +24527,7 @@
 34	de	de	ADP	sps00	_	33	case	33:case	_
 35	llei	llei	NOUN	ncfs000	Gender=Fem|Number=Sing	33	nmod	33:nmod	Entity=CESSCATA2000121321562c1)
 36	un	un	DET	rg	ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	28	advmod	28:advmod	MWE=un_cop|MWEPOS=ADV|ArgTem=argM:tmp
-37	cop	cop	NOUN	_	_	36	fixed	36:fixed	_
+37	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	36	fixed	36:fixed	_
 38	retirat	retirat	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	36	advmod	36:advmod	_
 39	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	41:det	Entity=(CESSCATA2000121321562c7--3-CorefType:ident,gstype:gen
 40	primer	primer	ADJ	ao0ms0	Gender=Masc|Number=Sing|NumType=Ord	41	amod	41:amod	_
@@ -26703,7 +26703,7 @@
 # text = Un cop inaugurat, demà comença realment el festival, que manté viva la tradició del gènere fantàstic que sempre l'ha distingit.
 # orig_file_sentence 007#5
 1	Un	un	DET	rg	ExtPos=ADV|Gender=Masc|Number=Sing|PronType=Art	3	advmod	3:advmod	MWE=Un_cop|MWEPOS=ADV|ArgTem=argM:tmp
-2	cop	cop	NOUN	_	_	1	fixed	1:fixed	_
+2	cop	cop	NOUN	ncms000	Gender=Masc|Number=Sing	1	fixed	1:fixed	_
 3	inaugurat	inaugurat	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	6	advmod	6:advmod	SpaceAfter=No|ArgTem=argM:tmp
 4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 5	demà	demà	ADV	rg	_	6	advmod	6:advmod	ArgTem=argM:tmp
