@@ -18465,7 +18465,7 @@
 48	voldrien	voler	VERB	vmic3p0	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	46	acl:relcl	46:acl:relcl	_
 49	que	que	SCONJ	cs	_	51	mark	51:mark	Entity=(CESSCATA200005299624c9--3
 50	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	51	obj	51:obj	_
-51	fessin	fer-se	VERB	vmsi3p0	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	48	ccomp	48:ccomp	MWE=fessin_càrrec|MWEPOS=VERB|ArgTem=arg1:pat
+51	fessin	fer	VERB	vmsi3p0	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	48	ccomp	48:ccomp	ArgTem=arg1:pat|MWE=fessin_càrrec|MWEPOS=VERB|ReflexLemma=fer-se
 52	càrrec	càrrec	NOUN	_	Number=Sing	51	compound	51:compound	_
 53-54	dels	_	_	_	_	_	_	_	_
 53	de	de	ADP	spcmp	_	55	case	55:case	_
@@ -31888,7 +31888,7 @@
 20	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
 21	decidir	decidir	VERB	vmn0000	VerbForm=Inf	13	acl:relcl	13:acl:relcl	_
 22-23	personar-se	_	_	_	_	_	_	_	_
-22	personar	personar-se	VERB	vmn0000	VerbForm=Inf	21	xcomp	21:xcomp	ArgTem=arg1:pat
+22	personar	personar	VERB	vmn0000	VerbForm=Inf	21	xcomp	21:xcomp	ArgTem=arg1:pat|ReflexLemma=personar-se
 23	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	22	obj	22:obj	_
 24	en	en	ADP	sps00	_	26	case	26:case	_
 25	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	26:det	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -45189,7 +45189,7 @@
 32	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	33:det	_
 33	espanyols	espanyol	NOUN	ncmp000	Gender=Masc|Number=Plur	30	nmod	30:nmod	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)NOCOREF:Gen)
 34	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	35	obj	35:obj	_
-35	rebel·lin	rebel·lar-se	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	csubj	27:csubj	ArgTem=arg1:pat
+35	rebel·lin	rebel·lar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	csubj	27:csubj	ArgTem=arg1:pat|ReflexLemma=rebel·lar-se
 36	contra	contra	ADP	sps00	_	38	case	38:case	_
 37	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	38:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 38	PP	PP	PROPN	np0000o	_	35	obl:arg	35:obl:arg	SpaceAfter=No|ArgTem=arg1:tem|Entity=NOCOREF:Spec.organization)
@@ -45280,7 +45280,7 @@
 18	autopista	autopista	NOUN	ncfs000	Gender=Fem|Number=Sing	15	obl	15:obl	ArgTem=arg4:des|Entity=NOCOREF:Gen)
 18.1	_	_	PRON	p	_	_	_	20:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2000100131c2--1-CorefType:ident,gstype:gen)
 19	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	obj	20:obj	SpaceAfter=No
-20	adona	adonar-se	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	5:conj	_
+20	adona	adonar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	5:conj	ReflexLemma=adonar-se
 21	de	de	ADP	sps00	_	24	case	24:case	_
 22	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	24:det	Entity=(CESSCATAAP2000100131c4--3-gstype:gen,HomoDD
 23	poca	poc	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	24	det	24:det	_
@@ -45623,7 +45623,7 @@
 6	Strauss-Kahn	Strauss-Kahn	PROPN	np0000p	_	9	nsubj	9:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2000100160c4-person-1-CorefType:ident,gstype:spec)
 7	ni	ni	ADV	rg	_	9	advmod	9:advmod	_
 8	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	obj	9:obj	_
-9	digna	dignar-se	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	csubj	4:csubj	ArgTem=arg1:pat
+9	digna	dignar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	csubj	4:csubj	ArgTem=arg1:pat|ReflexLemma=dignar-se
 10	a	a	ADP	sps00	_	11	mark	11:mark	_
 11	veure	veure	VERB	vmn0000	VerbForm=Inf	9	xcomp	9:xcomp	ArgTem=arg1:tem
 12	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	13:det	Entity=(CESSCATAAP2000100160c2--2-CorefType:ident,gstype:gen
@@ -47039,7 +47039,7 @@
 33	quals	qual	PRON	pr0cp000	Number=Plur|PronType=Rel	36	obl:arg	36:obl:arg	Entity=(CESSCATAAP2000100616729c7--1-CorefType:ident,gstype:gen)
 34	un	un	NUM	pn0ms000	Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	36	nsubj	36:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--1-gstype:gen)
 35	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	36	obj	36:obj	SpaceAfter=No
-36	emportarà	emportar-se	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	acl:relcl	26:acl:relcl	_
+36	emportarà	emportar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	26	acl:relcl	26:acl:relcl	ReflexLemma=emportar-se
 37	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	38:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 38	premi	premi	NOUN	ncms000	Gender=Masc|Number=Sing	36	obj	36:obj	ArgTem=arg2:atr
 39	especial	especial	ADJ	aq0cs0	Number=Sing	38	amod	38:amod	_
@@ -48674,7 +48674,7 @@
 3	que	que	PRON	pr0cn000	PronType=Rel	6	nsubj	6:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP20001201108c14--1-CorefType:ident,gstype:gen)
 4	no	no	ADV	rn	Polarity=Neg	6	advmod	6:advmod	_
 5	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	obj	6:obj	SpaceAfter=No
-6	atreveixin	atrevir-se	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
+6	atreveixin	atrevir	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	ReflexLemma=atrevir-se
 7	a	a	ADP	sps00	_	8	mark	8:mark	_
 8	plantejar	plantejar	VERB	vmn0000	VerbForm=Inf	6	xcomp	6:xcomp	ArgTem=arg1:tem
 9	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	Entity=(CESSCATAAP20001201108c10--2-CorefType:ident,gstype:gen
@@ -50055,7 +50055,7 @@
 5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	Entity=(CESSCATAAP20010202192_ac3--2-gstype:gen
 6	veïnat	veïnat	NOUN	ncms000	Gender=Masc|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg0:agt|Entity=CESSCATAAP20010202192_ac3)
 7	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	obj	8:obj	_
-8	rebel·la	rebel·lar-se	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+8	rebel·la	rebel·lar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	ReflexLemma=rebel·lar-se
 9	contra	contra	ADP	sps00	_	10	case	10:case	_
 10	ell	ell	PRON	pp3ms000	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl:arg	8:obl:arg	SpaceAfter=No|ArgTem=arg1:tem|Entity=(CESSCATAAP20010202192_ac1-person-1-CorefType:ident,gstype:spec)
 11	.	.	PUNCT	fp	PunctType=Peri	8	punct	8:punct	_
@@ -52678,7 +52678,7 @@
 13	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	nsubj	19:nsubj	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
 14	que	que	PRON	pr0cn000	PronType=Rel	16	nsubj	16:nsubj	ArgTem=arg0:agt
 15	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	16:obj	SpaceAfter=No
-16	emportaran	emportar-se	VERB	vmif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	13	acl:relcl	13:acl:relcl	ArgTem=arg1:tem
+16	emportaran	emportar	VERB	vmif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	13	acl:relcl	13:acl:relcl	ArgTem=arg1:tem|ReflexLemma=emportar-se
 17	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	Entity=(CESSCATAAP20010502157c2-number-2-CorefType:ident,gstype:spec
 18	plata	plata	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obj	16:obj	ArgTem=arg1:pat|Entity=CESSCATAAP20010502157c2)NOCOREF:Gen)
 19	viuen	viure	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	11:parataxis	_
@@ -58540,7 +58540,7 @@
 16	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
 17	s'	ell	PRON	p0300000	Case=Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	obl:arg	19:obl:arg	SpaceAfter=No
 18	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
-19	queixat	queixar-se	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+19	queixat	queixar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	ReflexLemma=queixar-se
 20	Monreal	Monreal	PROPN	np0000p	_	19	nsubj	19:nsubj	SpaceAfter=No|ArgTem=arg0:agt|Entity=(CESSCATAAP2002012847394c5-person-1-CorefType:ident,gstype:spec
 21	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 22	qui	qui	PRON	pr0cn000	PronType=Rel	25	nsubj	25:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2002012847394c5-person-1-CorefType:ident,gstype:spec)
@@ -59262,7 +59262,7 @@
 22-23	haver-se	_	_	_	_	_	_	_	_
 22	haver	haver	AUX	van0000	VerbForm=Inf	24	aux	24:aux	_
 23	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	24	obj	24:obj	_
-24	queixat	queixar-se	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	20:acl	_
+24	queixat	queixar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	acl	20:acl	ReflexLemma=queixar-se
 25	davant	davant	ADV	rg	_	24	advmod	24:advmod	ArgTem=argM:loc
 26-27	del	_	_	_	_	_	_	_	_
 26	de	de	ADP	spcms	_	28	case	28:case	_
@@ -65052,7 +65052,7 @@
 3	mor	morir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	en	en	ADP	sps00	_	5	mark	5:mark	_
 5-6	empassar-se	_	_	_	_	_	_	_	_
-5	empassar	empassar-se	VERB	vmn0000	VerbForm=Inf	3	advcl	3:advcl	ArgTem=argM:cau
+5	empassar	empassar	VERB	vmn0000	VerbForm=Inf	3	advcl	3:advcl	ArgTem=argM:cau|ReflexLemma=empassar-se
 6	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	obj	5:obj	_
 7	droga	droga	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obj	5:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP2002060124_ec4--1-gstype:gen,Title)
 8	per	per	ADP	sps00	_	9	mark	9:mark	_
@@ -65494,7 +65494,7 @@
 1	Alguns	algun	DET	di0mp0	Gender=Masc|Number=Plur|PronType=Ind	2	det	2:det	Entity=(NOCOREF:Gen--2-gstype:gen
 2	camells	camell	NOUN	ncmp000	Gender=Masc|Number=Plur	4	nsubj	4:nsubj	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
 3	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	obj	4:obj	SpaceAfter=No
-4	empassen	empassar-se	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+4	empassen	empassar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	ReflexLemma=empassar-se
 5	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	6:det	Entity=(CESSCATAAP2002060124_ec19--2-CorefType:ident,gstype:gen
 6	boles	bola	NOUN	ncfp000	Gender=Fem|Number=Plur	4	obj	4:obj	SpaceAfter=No|ArgTem=arg1:pat|Entity=CESSCATAAP2002060124_ec19)
 7	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
@@ -67603,7 +67603,7 @@
 44	Finisterre	Finisterre	PROPN	np0000l	_	42	nmod	42:nmod	SpaceAfter=No|Entity=(NOCOREF:Spec.location-place-1-gstype:spec)NOCOREF:Spec.location)
 45	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	Entity=CESSCATAAP2003021175815c12)
 46	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	47	obj	47:obj	_
-47	farà	fer-se	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	parataxis	27:parataxis	MWE=farà_càrrec|MWEPOS=VERB
+47	farà	fer	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	27	parataxis	27:parataxis	MWE=farà_càrrec|MWEPOS=VERB|ReflexLemma=fer-se
 48	càrrec	càrrec	NOUN	_	Number=Sing	47	compound	47:compound	_
 49	de	de	ADP	sps00	_	51	case	51:case	_
 50	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	51	det	51:det	SpaceAfter=No|Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
