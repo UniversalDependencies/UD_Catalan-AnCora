@@ -51,6 +51,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
 * 2026-05-15 v2.18
   * Distinguished acl:relcl from acl based on the presence of PronType=Rel.
   * Reflexive verbs do not have "-se" in their lemma.
+  * Changed obl to nmod where detectable that it was wrong.
 * 2025-11-15 v2.17
   * Added the ExtPos feature to fixed expressions.
   * Fixed spurious dependents of determiners.
