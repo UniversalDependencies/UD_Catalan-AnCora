@@ -11957,7 +11957,7 @@
 # sent_id = CESS-CAT-A-20000216-2770-s9
 # text = No obstant això, al gener el nombre de desocupats va incrementar-se en 3.482 persones, de manera que la xifra total va arribar a les 177.656 persones.
 # orig_file_sentence 005#35
-1	No	no	PART	sps00	ExtPos=ADP	3	case	3:case	MWE=No_obstant|MWEPOS=ADP
+1	No	no	ADV	rn	ExtPos=ADP|Polarity=Neg	3	case	3:case	MWE=No_obstant|MWEPOS=ADP
 2	obstant	obstant	NOUN	_	_	1	fixed	1:fixed	_
 3	això	això	PRON	pd0ns000	Number=Sing|PronType=Dem	13	obl	13:obl	SpaceAfter=No|Entity=(CESSCATA200002162770c10--1-CorefType:ident,gstype:gen)
 4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
@@ -14060,7 +14060,7 @@
 27-28	del	_	_	_	_	_	_	_	_
 27	de	de	ADP	spcms	_	29	case	29:case	_
 28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	29:det	_
-29	no	no	NOUN	ncms000	Gender=Masc|Number=Sing	26	nmod	26:nmod	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)NOCOREF:Gen)NOCOREF:Gen)
+29	no	no	INTJ	rn	Polarity=Neg	26	nmod	26:nmod	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)NOCOREF:Gen)NOCOREF:Gen)
 30	en	en	ADP	sps00	_	32	case	32:case	_
 31	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	32:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 32	referèndum	referèndum	NOUN	ncms000	Gender=Masc|Number=Sing	21	obl	21:obl	ArgTem=argM:loc
@@ -21094,7 +21094,7 @@
 37	demostrar	demostrar	VERB	vmn0000	VerbForm=Inf	31	xcomp	31:xcomp	_
 38	que	que	SCONJ	cs	_	44	mark	44:mark	_
 38.1	_	_	PRON	p	_	_	_	41:nsubj	ArgTem=arg1:tem|Entity=(CESSCATA2001081437027c2-person-1-CorefType:ident,gstype:spec)
-39	no	no	PART	rg	ExtPos=ADV	44	advmod	44:advmod	MWE=no_només|MWEPOS=ADV
+39	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	44	advmod	44:advmod	MWE=no_només|MWEPOS=ADV
 40	només	només	ADV	_	_	39	fixed	39:fixed	_
 41	és	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	cop	44:cop	ArgTem=arg1:pat
 42	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	44	det	44:det	_
@@ -25488,7 +25488,7 @@
 13	Reus	Reus	PROPN	_	_	11	flat	11:flat	SpaceAfter=No|Entity=CESSCATA2003090598951c3)
 14	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
 15	passa	passar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-16	no	no	PART	rg	ExtPos=CCONJ	20	cc	20:cc	MWE=no_tan_sols|MWEPOS=ADV
+16	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	20	cc	20:cc	MWE=no_tan_sols|MWEPOS=ADV
 17	tan	tan	NOUN	_	_	16	fixed	16:fixed	_
 18	sols	sols	NOUN	_	_	16	fixed	16:fixed	_
 19	per	per	ADP	sps00	_	20	mark	20:mark	_
@@ -27613,7 +27613,7 @@
 # sent_id = CESS-CAT-AAP-19990302-33-s3
 # text = No obstant, el primer ministre israelià, Benjamin Netanyahu, va anunciar una política de represàlies més dures davant dels atacs de la guerrilla des del sud de Líban.
 # orig_file_sentence 011#83
-1	No	no	PART	rg	ExtPos=ADV	13	advmod	13:advmod	MWE=No_obstant|MWEPOS=ADV
+1	No	no	ADV	rn	ExtPos=ADV|Polarity=Neg	13	advmod	13:advmod	MWE=No_obstant|MWEPOS=ADV
 2	obstant	obstant	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	Entity=(CESSCATAAP1999030233c2-person-3-gstype:spec
@@ -31866,7 +31866,7 @@
 # sent_id = CESS-CAT-AAP-19991202-50-s9
 # text = No obstant això, Sirera també ha preguntat al Consell Executiu si hi va haver alguna altra raó, a més a més de la lingüística, per deixar que aquest suculent pastís anés a parar a mans particulars.
 # orig_file_sentence 014#33
-1	No	no	PART	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=No_obstant_això|MWEPOS=ADV
+1	No	no	ADV	rn	ExtPos=ADV|Polarity=Neg	8	advmod	8:advmod	MWE=No_obstant_això|MWEPOS=ADV
 2	obstant	obstant	NOUN	_	_	1	fixed	1:fixed	_
 3	això	això	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
@@ -43487,7 +43487,7 @@
 15	a	a	ADP	_	_	14	fixed	14:fixed	_
 16	personatge	personatge	NOUN	ncms000	Gender=Masc|Number=Sing	11	nmod	11:nmod	_
 17	"	"	PUNCT	fe	PunctType=Quot	20	punct	20:punct	SpaceAfter=No
-18	no	no	PART	rn	ExtPos=CCONJ	20	cc	20:cc	MWE=no_només|MWEPOS=ADV
+18	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	20	cc	20:cc	MWE=no_només|MWEPOS=ADV
 19	només	només	ADV	_	Polarity=Neg	18	fixed	18:fixed	_
 20	fonamental	fonamental	ADJ	aq0cs0	Number=Sing	16	amod	16:amod	SpaceAfter=No
 21	,	,	PUNCT	fc	PunctType=Comm	23	punct	23:punct	_
@@ -44295,7 +44295,7 @@
 2	immobles	immoble	NOUN	ncmp000	Gender=Masc|Number=Plur	8	nsubj	8:nsubj	ArgTem=arg1:tem
 3	adjacents	adjacent	ADJ	aq0cp0	Number=Plur	2	amod	2:amod	SpaceAfter=No|Entity=CESSCATAAP20010401126c22)
 4	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
-5	no	no	PART	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=no_obstant|MWEPOS=ADV
+5	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	8	advmod	8:advmod	MWE=no_obstant|MWEPOS=ADV
 6	obstant	obstant	NOUN	_	_	5	fixed	5:fixed	SpaceAfter=No
 7	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 8	continuaran	continuar	VERB	vmif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
@@ -44482,7 +44482,7 @@
 # sent_id = CESS-CAT-AAP-20010401-126-s17
 # text = No obstant, del conjunt del projecte la regidora s'estima més destacar-ne no el vessant arquitectònic, sinó l'aportació social del pla, que permetrà guanyar espai per a tres nous equipaments - una residència geriàtrica i pisos de lloguer per a joves, entre d'altres - i que possibilitarà estendre la xarxa subterrània de recollida pneumàtica d'escombraries a Ciutat Vella.
 # orig_file_sentence 008#30
-1	No	no	PART	rg	ExtPos=ADV	13	advmod	13:advmod	MWE=No_obstant|MWEPOS=ADV
+1	No	no	ADV	rn	ExtPos=ADV|Polarity=Neg	13	advmod	13:advmod	MWE=No_obstant|MWEPOS=ADV
 2	obstant	obstant	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4-5	del	_	_	_	_	_	_	_	_
@@ -47084,7 +47084,7 @@
 42-43	al	_	_	_	_	_	_	_	_
 42	a	a	ADP	_	_	41	fixed	41:fixed	_
 43	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	44:det	_
-44	no	no	NOUN	ncms000	Gender=Masc|Number=Sing	38	obl	38:obl	SpaceAfter=No|ArgTem=argM:adv|Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)CESSCATAAP2001071335350c6)CESSCATAAP2001071335350c5)
+44	no	no	INTJ	rn	Polarity=Neg	38	obl	38:obl	SpaceAfter=No|ArgTem=argM:adv|Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)CESSCATAAP2001071335350c6)CESSCATAAP2001071335350c5)
 45	.	.	PUNCT	fp	PunctType=Peri	7	punct	7:punct	_
 
 # sent_id = CESS-CAT-AAP-20010713-35350-s5
@@ -54089,7 +54089,7 @@
 9	com	com	SCONJ	sps00	ExtPos=ADP	11	case	11:case	MWE=com_a|MWEPOS=ADP
 10	a	a	ADP	_	_	9	fixed	9:fixed	_
 11	partidari	partidari	NOUN	ncms000	Gender=Masc|Number=Sing	6	nmod	6:nmod	_
-12	no	no	PART	cc	ExtPos=CCONJ	17	cc	17:cc	MWE=no_tan_sols|MWEPOS=CCONJ
+12	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	17	cc	17:cc	MWE=no_tan_sols|MWEPOS=CCONJ
 13	tan	tan	NOUN	_	_	12	fixed	12:fixed	_
 14	sols	sols	NOUN	_	_	12	fixed	12:fixed	_
 15	de	de	ADP	sps00	_	17	case	17:case	_
@@ -55435,7 +55435,7 @@
 13	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	Entity=(CESSCATAAP2002020264c5--2-CorefType:ident,gstype:gen
 14	veredicte	veredicte	NOUN	ncms000	Gender=Masc|Number=Sing	12	obj	12:obj	SpaceAfter=No|ArgTem=arg1:pat|Entity=CESSCATAAP2002020264c5)CESSCATAAP2002020264c17)
 15	;	;	PUNCT	fx	PunctType=Semi	21	punct	21:punct	_
-16	no	no	PART	rg	ExtPos=CCONJ	21	cc	21:cc	MWE=no_només|MWEPOS=ADV
+16	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	21	cc	21:cc	MWE=no_només|MWEPOS=ADV
 17	només	només	ADV	_	_	16	fixed	16:fixed	_
 17.1	_	_	PRON	p	_	_	_	21:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2002020264c6-person-1-CorefType:ident,gstype:spec)
 18	no	no	ADV	rn	Polarity=Neg	21	advmod	21:advmod	_
@@ -62430,7 +62430,7 @@
 # sent_id = CESS-CAT-AAP-20020901-9_b-s5
 # text = No obstant, en la protesta no hi va ser present cap dels habituals portaveus de la formació radical al País Basc espanyol.
 # orig_file_sentence 017#41
-1	No	no	PART	sps00	ExtPos=ADV	10	advmod	10:advmod	MWE=No_obstant|MWEPOS=ADP
+1	No	no	ADV	rn	ExtPos=ADV|Polarity=Neg	10	advmod	10:advmod	MWE=No_obstant|MWEPOS=ADP
 2	obstant	obstant	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 4	en	en	ADP	sps00	_	6	case	6:case	_
@@ -62467,7 +62467,7 @@
 3	amb	amb	ADP	sps00	_	5	case	5:case	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 5	lema	lema	NOUN	ncms000	Gender=Masc|Number=Sing	2	nmod	2:nmod	_
-6	No	no	PART	np0000a	_	5	appos	5:appos	MWE=No_a_la_dissolució_de_Batasuna|MWEPOS=PROPN|Entity=(NOCOREF:Spec.other-other-1-gstype:spec
+6	No	no	ADV	rn	Polarity=Neg	5	appos	5:appos	MWE=No_a_la_dissolució_de_Batasuna|MWEPOS=PROPN|Entity=(NOCOREF:Spec.other-other-1-gstype:spec
 7	a	a	ADP	_	_	9	case	9:case	_
 8	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	_
 9	dissolució	dissolució	PROPN	_	_	6	flat	6:flat	_
@@ -63609,7 +63609,7 @@
 20	il·legalització	il·legalització	NOUN	ncfs000	Gender=Fem|Number=Sing	17	nmod	17:nmod	_
 21	de	de	ADP	sps00	_	22	case	22:case	_
 22	Batasuna	Batasuna	PROPN	np0000o	_	20	nmod	20:nmod	Entity=(CESSCATAAP200209019_bc23-organization-1-CorefType:ident,gstype:spec)NOCOREF:Gen)CESSCATAAP200209019_bc73)
-23	no	no	PART	rg	ExtPos=CCONJ	27	cc	27:cc	MWE=no_només|MWEPOS=ADV
+23	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	27	cc	27:cc	MWE=no_només|MWEPOS=ADV
 24	només	només	ADV	_	_	23	fixed	23:fixed	_
 25	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	27	obj	27:obj	SpaceAfter=No
 26	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	27:aux	_

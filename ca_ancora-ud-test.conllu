@@ -842,7 +842,7 @@
 13	okupa	okupa	NOUN	nccs000	Number=Sing	12	nmod	12:nmod	_
 14	i	i	CCONJ	cc	_	15	cc	15:cc	_
 15	ETA	ETA	PROPN	np0000o	_	12	conj	12:conj	_
-16	no	no	PART	rg	ExtPos=ADV	19	advmod	19:advmod	MWE=no_només|MWEPOS=ADV
+16	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	19	advmod	19:advmod	MWE=no_només|MWEPOS=ADV
 17	només	només	ADV	_	_	16	fixed	16:fixed	_
 18	és	ser	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	19:cop	ArgTem=arg1:pat
 19	falsa	fals	ADJ	aq0fs0	Gender=Fem|Number=Sing	5	conj	5:conj	SpaceAfter=No|ArgTem=arg2:atr
@@ -2844,7 +2844,7 @@
 19	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	20:det	_
 20	qual	qual	PRON	pr0cs000	Number=Sing|PronType=Rel	17	nmod	17:nmod	_
 21	potencien	potenciar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	11:acl:relcl	_
-22	no	no	PART	rg	ExtPos=CCONJ	26	cc	26:cc	MWE=no_tan_sols|MWEPOS=ADV
+22	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	26	cc	26:cc	MWE=no_tan_sols|MWEPOS=ADV
 23	tan	tan	NOUN	_	_	22	fixed	22:fixed	_
 24	sols	sols	NOUN	_	_	22	fixed	22:fixed	_
 25	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	26:det	_
@@ -4445,7 +4445,7 @@
 8	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	_
 9	salut	salut	NOUN	ncfs000	Gender=Fem|Number=Sing	6	nmod	6:nmod	_
 10	i	i	CCONJ	cc	_	14	cc	14:cc	_
-11	no	no	PART	rg	ExtPos=ADV	14	advmod	14:advmod	MWE=no_només|MWEPOS=ADV
+11	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	14	advmod	14:advmod	MWE=no_només|MWEPOS=ADV
 12	només	només	ADV	_	_	11	fixed	11:fixed	_
 13	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
 14	tractament	tractament	NOUN	ncms000	Gender=Masc|Number=Sing	6	conj	6:conj	_
@@ -6490,7 +6490,7 @@
 2	aquesta	aquest	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	3	det	3:det	_
 3	manera	manera	NOUN	ncfs000	Gender=Fem|Number=Sing	12	parataxis	12:parataxis	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
-5	no	no	PART	rg	ExtPos=CCONJ	12	cc	12:cc	MWE=no_només|MWEPOS=ADV
+5	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	12	cc	12:cc	MWE=no_només|MWEPOS=ADV
 6	només	només	ADV	_	_	5	fixed	5:fixed	_
 7	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	expl:pass	8:expl:pass	_
 8	guanya	guanyar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	12:parataxis	_
@@ -7641,7 +7641,7 @@
 37	per	per	ADP	sps00	_	27	mark	27:mark	_
 38	entendre	entendre	VERB	vmn0000	VerbForm=Inf	37	conj	37:conj	ArgTem=argM:cau
 39	que	que	SCONJ	cs	_	37	conj	37:conj	_
-40	no	no	PART	rg	ExtPos=CCONJ	38	cc	38:cc	MWE=no_només|MWEPOS=ADV
+40	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	38	cc	38:cc	MWE=no_només|MWEPOS=ADV
 41	només	només	ADV	_	_	40	fixed	40:fixed	_
 42	no	no	ADV	rn	Polarity=Neg	38	advmod	38:advmod	_
 43	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	38	obj	38:obj	SpaceAfter=No
@@ -11421,7 +11421,7 @@
 28	,	,	PUNCT	fc	PunctType=Comm	30	punct	30:punct	_
 29	'	'	PUNCT	fz	PunctType=Quot	30	punct	30:punct	SpaceAfter=No
 30	treball	treball	NOUN	nc00000	_	10	conj	10:conj	MWE=treball_no_declarat|MWEPOS=NOUN
-31	no	no	PART	_	_	30	compound	30:compound	_
+31	no	no	ADV	rn	Polarity=Neg	30	compound	30:compound	_
 32	declarat	declarat	NOUN	_	_	30	compound	30:compound	SpaceAfter=No
 33	'	'	PUNCT	fz	PunctType=Quot	30	punct	30:punct	_
 34	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	35	punct	35:punct	SpaceAfter=No
@@ -13959,7 +13959,7 @@
 39	que	que	SCONJ	cs	_	40	mark	40:mark	_
 40	estrenin	estrenar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	ccomp	38:ccomp	ArgTem=arg1:pat
 41	aquí	aquí	ADV	rg	_	40	advmod	40:advmod	ArgTem=argM:loc
-42	no	no	PART	rg	ExtPos=CCONJ	45	cc	45:cc	MWE=no_només|MWEPOS=ADV
+42	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	45	cc	45:cc	MWE=no_només|MWEPOS=ADV
 43	només	només	ADV	_	_	42	fixed	42:fixed	_
 44	nous	nou	ADJ	aq0mp0	Gender=Masc|Number=Plur	45	amod	45:amod	Entity=(NOCOREF:Gen--2-gstype:gen
 45	autors	autor	NOUN	ncmp000	Gender=Masc|Number=Plur	40	nsubj	40:nsubj	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
@@ -21365,7 +21365,7 @@
 10	de	de	ADP	sps00	_	11	case	11:case	_
 11	normalització	normalització	NOUN	ncfs000	Gender=Fem|Number=Sing	9	nmod	9:nmod	_
 12	ja	ja	ADV	rg	_	15	advmod	15:advmod	_
-13	no	no	PART	rg	ExtPos=CCONJ	15	cc	15:cc	MWE=no_només|MWEPOS=ADV
+13	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	15	cc	15:cc	MWE=no_només|MWEPOS=ADV
 14	només	només	ADV	_	_	13	fixed	13:fixed	_
 15	lingüística	lingüístic	ADJ	aq0fs0	Gender=Fem|Number=Sing	11	amod	11:amod	_
 16	sinó	sinó	CCONJ	cc	ExtPos=CCONJ	18	cc	18:cc	MWE=sinó_també|MWEPOS=CCONJ
@@ -26825,7 +26825,7 @@
 61	que	que	PRON	pr0cn000	PronType=Rel	62	nsubj	62:nsubj	ArgTem=arg0:agt|Entity=(CESSCATA2001100540005c23-other-1-CorefType:ident,gstype:spec)
 62	porta	portar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	59	acl:relcl	59:acl:relcl	_
 63	'	'	PUNCT	fz	PunctType=Quot	64	punct	64:punct	SpaceAfter=No|Entity=(NOCOREF:Spec.other-other-2-gstype:spec
-64	No	no	PART	np0000a	_	62	obj	62:obj	MWE=No_such_thing|MWEPOS=PROPN|ArgTem=arg1:pat
+64	No	no	ADV	rn	Polarity=Neg	62	obj	62:obj	MWE=No_such_thing|MWEPOS=PROPN|ArgTem=arg1:pat
 65	such	such	PROPN	_	_	64	flat	64:flat	_
 66	thing	thing	PROPN	_	_	65	flat	65:flat	SpaceAfter=No
 67	'	'	PUNCT	fz	PunctType=Quot	64	punct	64:punct	SpaceAfter=No|Entity=NOCOREF:Spec.other)NOCOREF:Gen)
@@ -32607,7 +32607,7 @@
 3	com	com	SCONJ	cs	_	4	cc	4:cc	_
 4	I	I	NUM	nc00000	NumForm=Roman|NumType=Card	2	conj	2:conj	Entity=CESSCATAAP1998120219c6)
 5	coneixen	conèixer	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-6	no	no	PART	rg	ExtPos=CCONJ	9	cc	9:cc	MWE=no_només|MWEPOS=ADV
+6	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	9	cc	9:cc	MWE=no_només|MWEPOS=ADV
 7	només	només	ADV	_	_	6	fixed	6:fixed	_
 8	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	Entity=(CESSCATAAP1998120219c12--2-CorefType:ident,gstype:gen
 9	proposta	proposta	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obj	5:obj	SpaceAfter=No|ArgTem=arg1:pat
@@ -33530,7 +33530,7 @@
 3	sanitàries	sanitari	ADJ	aq0fp0	Gender=Fem|Number=Plur	2	amod	2:amod	_
 4	gallegues	gallec	ADJ	aq0fp0	Gender=Fem|Number=Plur	2	amod	2:amod	SpaceAfter=No|Entity=NOCOREF:Gen)
 5	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
-6	no	no	PART	rg	ExtPos=ADV	10	advmod	10:advmod	MWE=no_obstant|MWEPOS=ADV
+6	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	10	advmod	10:advmod	MWE=no_obstant|MWEPOS=ADV
 7	obstant	obstant	NOUN	_	_	6	fixed	6:fixed	SpaceAfter=No
 8	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
 9	només	només	ADV	rg	_	10	advmod	10:advmod	_
@@ -35014,7 +35014,7 @@
 25	:	:	PUNCT	fd	PunctType=Colo	28	punct	28:punct	Entity=(NOCOREF:Spec.other-other-4-gstype:spec
 26	"	"	PUNCT	fe	PunctType=Quot	28	punct	28:punct	SpaceAfter=No
 27	¡	¡	PUNCT	faa	PunctSide=Ini|PunctType=Excl	28	punct	28:punct	SpaceAfter=No
-28	No	no	PART	np0000a	_	24	appos	24:appos	MWE=No_hi_ha_dret|MWEPOS=PROPN
+28	No	no	ADV	rn	Polarity=Neg	24	appos	24:appos	MWE=No_hi_ha_dret|MWEPOS=PROPN
 29	hi	hi	PROPN	_	_	28	flat	28:flat	_
 30	ha	ha	PROPN	_	_	29	flat	29:flat	_
 31	dret	dret	PROPN	_	_	29	flat	29:flat	SpaceAfter=No
@@ -35699,7 +35699,7 @@
 7	"	"	PUNCT	fe	PunctType=Quot	8	punct	8:punct	SpaceAfter=No
 8	Hola	hola	INTJ	_	_	6	dep	6:dep	MWE=Hola_,_no_sóc_a_Marbella|MWEPOS=INTJ|ArgTem=argM:adv
 9	,	,	PUNCT	_	_	10	punct	10:punct	_
-10	no	no	PART	_	_	8	dep	8:dep	_
+10	no	no	ADV	rn	Polarity=Neg	8	dep	8:dep	_
 11	sóc	sóc	INTJ	_	_	8	dep	8:dep	_
 12	a	a	ADP	_	_	8	dep	8:dep	_
 13	Marbella	marbella	INTJ	_	_	8	dep	8:dep	SpaceAfter=No
@@ -41611,7 +41611,7 @@
 4	de	de	ADP	spcmp	_	6	case	6:case	_
 5	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	6:det	_
 6	EUA	EUA	PROPN	np0000o	_	2	nmod	2:nmod	Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec)CESSCATAAP2000060214_dc11)
-7	no	no	PART	rg	ExtPos=CCONJ	19	cc	19:cc	MWE=no_només|MWEPOS=ADV
+7	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	19	cc	19:cc	MWE=no_només|MWEPOS=ADV
 8	només	només	ADV	_	_	7	fixed	7:fixed	_
 9	deixa	deixar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	19:parataxis	_
 10	fora	fora	ADV	rg	_	9	advmod	9:advmod	ArgTem=argM:loc
@@ -44677,7 +44677,7 @@
 3	nostre	nostre	DET	_	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det	4:det	Entity=CESSCATAAP20001001141c2)
 4	format	format	NOUN	ncms000	Gender=Masc|Number=Sing	22	obj	22:obj	SpaceAfter=No|ArgTem=arg1:tem
 5	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	Entity=CESSCATAAP20001001141c9)
-6	no	no	PART	rg	ExtPos=CCONJ	12	cc	12:cc	MWE=no_tan_sols|MWEPOS=ADV
+6	no	no	ADV	rn	ExtPos=CCONJ|Polarity=Neg	12	cc	12:cc	MWE=no_tan_sols|MWEPOS=ADV
 7	tan	tan	NOUN	_	_	6	fixed	6:fixed	_
 8	sols	sols	NOUN	_	_	6	fixed	6:fixed	_
 9	no	no	ADV	rn	Polarity=Neg	12	advmod	12:advmod	_
@@ -62518,7 +62518,7 @@
 22	Canals	Canals	PROPN	np0000p	_	1	flat	1:flat	ArgTem=arg0:agt|Entity=CESSCATAAP2002030218c3)
 23	admet	admetre	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 24	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
-25	no	no	PART	rg	ExtPos=ADV	23	advmod	23:advmod	MWE=no_obstant|MWEPOS=ADV
+25	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	23	advmod	23:advmod	MWE=no_obstant|MWEPOS=ADV
 26	obstant	obstant	NOUN	_	_	25	fixed	25:fixed	SpaceAfter=No
 27	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 28	que	que	SCONJ	cs	_	32	mark	32:mark	_
@@ -64531,7 +64531,7 @@
 # sent_id = CESS-CAT-AAP-20020502-26-s7
 # text = No obstant, van aconseguir aplegar entre 15.000 i 20.000 persones arribades de tot França, una xifra que triplica les aconseguides els últims anys després de l'escissió provocada pel braç dret de Le Pen, Bruno Mégret.
 # orig_file_sentence 014#13
-1	No	no	PART	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=No_obstant|MWEPOS=ADV
+1	No	no	ADV	rn	ExtPos=ADV|Polarity=Neg	5	advmod	5:advmod	MWE=No_obstant|MWEPOS=ADV
 2	obstant	obstant	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 3.1	_	_	PRON	p	_	_	_	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2002050226c9--1-CorefType:ident,gstype:gen)
@@ -64825,7 +64825,7 @@
 3	per	per	ADP	sps00	_	4	mark	4:mark	_
 4	dir	dir	VERB	vmn0000	VerbForm=Inf	2	acl	2:acl	_
 5	"	"	PUNCT	fe	PunctType=Quot	6	punct	6:punct	SpaceAfter=No
-6	no	no	PART	np0000a	_	4	obj	4:obj	MWE=no_a_l'_extrema_dreta|MWEPOS=PROPN|ArgTem=arg1:pat
+6	no	no	ADV	rn	Polarity=Neg	4	obj	4:obj	MWE=no_a_l'_extrema_dreta|MWEPOS=PROPN|ArgTem=arg1:pat
 7	a	a	ADP	_	_	9	case	9:case	_
 8	l'	el	DET	_	Number=Sing|PronType=Art	9	det	9:det	SpaceAfter=No
 9	extrema	extrema	PROPN	_	_	6	flat	6:flat	_
@@ -64833,14 +64833,14 @@
 11	"	"	PUNCT	fe	PunctType=Quot	6	punct	6:punct	SpaceAfter=No
 12	,	,	PUNCT	fc	PunctType=Comm	14	punct	14:punct	_
 13	"	"	PUNCT	fe	PunctType=Quot	14	punct	14:punct	SpaceAfter=No
-14	no	no	PART	np0000a	_	6	conj	6:conj	MWE=no_a_Le_Pen|MWEPOS=PROPN
+14	no	no	ADV	rn	Polarity=Neg	6	conj	6:conj	MWE=no_a_Le_Pen|MWEPOS=PROPN
 15	a	a	ADP	_	_	16	case	16:case	_
 16	Le	Le	PROPN	_	_	14	flat	14:flat	_
 17	Pen	Pen	PROPN	_	_	16	flat	16:flat	SpaceAfter=No
 18	"	"	PUNCT	fe	PunctType=Quot	14	punct	14:punct	_
 19	i	i	CCONJ	cc	_	21	cc	21:cc	_
 20	"	"	PUNCT	fe	PunctType=Quot	21	punct	21:punct	SpaceAfter=No
-21	no	no	PART	np0000a	_	6	conj	6:conj	MWE=no_a_l'_FN|MWEPOS=PROPN
+21	no	no	ADV	rn	Polarity=Neg	6	conj	6:conj	MWE=no_a_l'_FN|MWEPOS=PROPN
 22	a	a	ADP	_	_	24	case	24:case	_
 23	l'	el	DET	_	Number=Sing|PronType=Art	24	det	24:det	SpaceAfter=No
 24	FN	FN	PROPN	_	_	21	flat	21:flat	SpaceAfter=No
@@ -67283,7 +67283,7 @@
 11.1	_	_	PRON	p	_	_	_	12:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2002120569392c2--1-CorefType:ident,gstype:gen)
 12	aporten	aportar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl	SpaceAfter=No|ArgTem=argM:adv|Entity=NOCOREF:Gen)
 13	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
-14	no	no	PART	rg	ExtPos=ADV	18	advmod	18:advmod	MWE=no_només|MWEPOS=ADV
+14	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	18	advmod	18:advmod	MWE=no_només|MWEPOS=ADV
 15	només	només	ADV	_	_	14	fixed	14:fixed	_
 16	ens	jo	PRON	p010p000	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	18	obj	18:obj	_
 17	hi	hi	PRON	pp3cn000	Case=Loc|Person=3|PronType=Prs	18	obl	18:obl	ArgTem=argM:loc
