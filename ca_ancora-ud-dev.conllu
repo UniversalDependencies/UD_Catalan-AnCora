@@ -13737,7 +13737,7 @@
 31	en	en	ADP	sps00	_	32	case	32:case	_
 32	fins	fi	NOUN	ncms000	Gender=Masc|Number=Sing	18	obl	18:obl	_
 33	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	34	det	34:det	SpaceAfter=No|Entity=(NOCOREF:Spec.date-time-2-gstype:spec
-34	any	any	NOUN	_	_	18	obj	18:obj	MWE=any_1997|MWEPOS=NOUN
+34	any	any	NOUN	_	_	18	obl:arg	18:obl:arg	MWE=any_1997|MWEPOS=NOUN
 35	1997	1997	NUM	_	NumForm=Digit|NumType=Card	34	compound	34:compound	Entity=NOCOREF:Spec.date)
 36	i	i	CCONJ	cc	_	40	cc	40:cc	_
 37	que	que	SCONJ	cs	_	40	mark	40:mark	_
@@ -27145,7 +27145,7 @@
 14	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	_
 15	cupó	cupó	NOUN	ncms000	Gender=Masc|Number=Sing	11	nmod	11:nmod	Entity=(CESSCATAAP1998120167c4--1-CorefType:ident,gstype:gen)CESSCATAAP1998120167c3)
 16	-	-	PUNCT	fg	PunctType=Dash	17	punct	17:punct	_
-17	que	que	PRON	pr0cn000	PronType=Rel	9	obj	9:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP1998120167c8--1-CorefType:ident,gstype:gen)
+17	que	que	PRON	pr0cn000	PronType=Rel	9	obl:arg	9:obl:arg	ArgTem=arg1:pat|Entity=(CESSCATAAP1998120167c8--1-CorefType:ident,gstype:gen)
 18	haurà	haver	AUX	vaif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux	9:aux	_
 19	d'	de	ADP	sps00	_	20	mark	20:mark	SpaceAfter=No
 20	autoritzar	autoritzar	VERB	vmn0000	VerbForm=Inf	9	xcomp	9:xcomp	_
@@ -29455,7 +29455,7 @@
 56	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	54:det	_
 57	descans	descans	NOUN	ncms000	Gender=Masc|Number=Sing	54	nmod	54:nmod	ArgTem=argM:tmp|Entity=(CESSCATAAP19990501127c16--1-gstype:gen,HomoDD)
 58	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	59	punct	59:punct	SpaceAfter=No|Entity=(NOCOREF:Spec.number-number-2-gstype:spec
-59	38-33	38-33	NUM	_	NumForm=Digit|NumType=Card	52	obj	52:obj	SpaceAfter=No
+59	38-33	38-33	NUM	_	NumForm=Digit|NumType=Card	52	obl:arg	52:obl:arg	SpaceAfter=No
 60	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	59	punct	59:punct	SpaceAfter=No|Entity=NOCOREF:Spec.number)CESSCATAAP19990501127c14)
 61	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
 
@@ -33277,7 +33277,7 @@
 18	a	a	ADP	sps00	_	19	case	19:case	_
 19	fora	fora	NOUN	ncms000	Gender=Masc|Number=Sing	15	obl	15:obl	ArgTem=argM:loc
 20	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	21	punct	21:punct	SpaceAfter=No
-21	Racing	Racing	PROPN	np0000o	_	15	obj	15:obj	_
+21	Racing	Racing	PROPN	np0000o	_	15	obl:arg	15:obl:arg	_
 22	i	i	CCONJ	cc	_	23	cc	23:cc	_
 23	Valladolid	Valladolid	PROPN	np0000o	_	21	conj	21:conj	SpaceAfter=No
 24	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	21	punct	21:punct	_
@@ -53426,7 +53426,7 @@
 41	correu	correu	NOUN	ncms000	Gender=Masc|Number=Sing	37	obl	37:obl	SpaceAfter=No|ArgTem=argM:adv
 42	,	,	PUNCT	fc	PunctType=Comm	44	punct	44:punct	_
 43	bàsicament	bàsicament	ADV	rg	_	44	advmod	44:advmod	_
-44	aquelles	aquell	PRON	pd0fp000	Gender=Fem|Number=Plur|PronType=Dem	37	obj	37:obj	Entity=(CESSCATAAP2002011446382c8--1-gstype:gen
+44	aquelles	aquell	PRON	pd0fp000	Gender=Fem|Number=Plur|PronType=Dem	37	obl:arg	37:obl:arg	Entity=(CESSCATAAP2002011446382c8--1-gstype:gen
 45	que	que	PRON	pr0cn000	PronType=Rel	46	nsubj	46:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2002011446382c8--1-CorefType:ident,gstype:gen)
 46	necessiten	necessitar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	acl:relcl	44:acl:relcl	_
 47	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	48:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -54933,7 +54933,7 @@
 8	primes	prima	NOUN	ncfp000	Gender=Fem|Number=Plur	4	obl	4:obl	ArgTem=argM:adv|Entity=(NOCOREF:Gen--1-gstype:gen)
 9	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	11	punct	11:punct	SpaceAfter=No|Entity=(NOCOREF:Spec.number-number-3-gstype:spec
 10	185.853	185853	NUM	_	NumForm=Digit|NumType=Card	11	nummod	11:nummod	_
-11	milions	milió	NOUN	ncmp000	Gender=Masc|Number=Plur	4	obj	4:obj	_
+11	milions	milió	NOUN	ncmp000	Gender=Masc|Number=Plur	4	obl:arg	4:obl:arg	_
 12	de	de	ADP	sps00	_	13	case	13:case	_
 13	pessetes	pesseta	NOUN	zm	Gender=Fem|Number=Plur	11	nmod	11:nmod	Currency=Yes|Entity=(NOCOREF:Spec.number-number-1-gstype:spec)|SpaceAfter=No
 14	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	11	punct	11:punct	SpaceAfter=No|Entity=NOCOREF:Spec.number)
@@ -61056,7 +61056,7 @@
 25	de	de	ADP	sps00	_	26	case	26:case	_
 26	Lleida	Lleida	PROPN	np0000l	_	24	nmod	24:nmod	SpaceAfter=No|Entity=(CESSCATAAP2002051555329c10-place-1-CorefType:ident,gstype:spec)NOCOREF:Spec.number)
 27	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	Entity=NOCOREF:Spec.location)
-28	plaça	plaça	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obj	16:obj	Entity=(CESSCATAAP2002051555329c9--1-CorefType:ident,gstype:gen
+28	plaça	plaça	NOUN	ncfs000	Gender=Fem|Number=Sing	16	obl:arg	16:obl:arg	Entity=(CESSCATAAP2002051555329c9--1-CorefType:ident,gstype:gen
 29	que	que	PRON	pr0cn000	PronType=Rel	31	obj	31:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP2002051555329c9--1-CorefType:ident,gstype:gen)
 29.1	_	_	PRON	p	_	_	_	31:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2002051555329c1-person-1-CorefType:ident,gstype:spec)
 30	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	31:aux	_
@@ -65320,7 +65320,7 @@
 37	15	15	NUM	_	NumForm=Digit|NumType=Card	38	nummod	38:nummod	SpaceAfter=No
 38	%	%	SYM	zp	_	35	obj	35:obj	ArgTem=arg2:ext|Entity=NOCOREF:Spec.number)
 39	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	40:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-40	preus	preu	NOUN	ncmp000	Gender=Masc|Number=Plur	35	obj	35:obj	ArgTem=arg1:tem
+40	preus	preu	NOUN	ncmp000	Gender=Masc|Number=Plur	35	obl:arg	35:obl:arg	ArgTem=arg1:tem
 41	de	de	ADP	sps00	_	43	case	43:case	_
 42	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	43:det	Entity=(CESSCATAAP200209019_jc17--2-gstype:gen,HomoDD
 43	telefonia	telefonia	NOUN	ncfs000	Gender=Fem|Number=Sing	40	nmod	40:nmod	_

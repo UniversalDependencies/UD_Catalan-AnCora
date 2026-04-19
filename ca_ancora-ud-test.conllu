@@ -1196,7 +1196,7 @@
 9	actuació	actuació	NOUN	ncfs000	Gender=Fem|Number=Sing	7	obj	7:obj	ArgTem=arg1:pat
 10	'	'	PUNCT	fz	PunctType=Quot	11	punct	11:punct	SpaceAfter=No
 11	d'	de	ADP	sps00	_	7	case	7:case	SpaceAfter=No
-12	agressió	agressió	NOUN	ncfs000	Gender=Fem|Number=Sing	7	obj	7:obj	ArgTem=arg2:atr
+12	agressió	agressió	NOUN	ncfs000	Gender=Fem|Number=Sing	7	obl:arg	7:obl:arg	ArgTem=arg2:atr
 13	a	a	ADP	sps00	_	15	case	15:case	_
 14	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	15:det	_
 15	unitat	unitat	NOUN	ncfs000	Gender=Fem|Number=Sing	12	nmod	12:nmod	_
@@ -15894,7 +15894,7 @@
 28	,	,	PUNCT	fc	PunctType=Comm	31	punct	31:punct	Entity=(NOCOREF:Spec.number-number-3-gstype:spec
 29	un	un	PRON	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	31	nmod	31:nmod	_
 30	30	30	NUM	_	NumForm=Digit|NumType=Card	31	nummod	31:nummod	SpaceAfter=No
-31	%	%	SYM	zp	_	11	obj	11:obj	_
+31	%	%	SYM	zp	_	11	obl:arg	11:obl:arg	_
 32	més	més	ADV	rg	Degree=Cmp	31	advmod	31:advmod	_
 33	que	que	SCONJ	cs	_	37	mark	37:mark	_
 34	si	si	SCONJ	cs	_	37	mark	37:mark	_
@@ -36015,7 +36015,7 @@
 10	coherència	coherència	NOUN	ncfs000	Gender=Fem|Number=Sing	7	nmod	7:nmod	SpaceAfter=No
 11	"	"	PUNCT	fe	PunctType=Quot	10	punct	10:punct	Entity=NOCOREF:Gen)
 12	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	13:det	Entity=(CESSCATAAP1999030246c3--2-gstype:gen,HomoDD
-13	rebuig	rebuig	NOUN	ncms000	Gender=Masc|Number=Sing	5	obj	5:obj	ArgTem=arg1:pat
+13	rebuig	rebuig	NOUN	ncms000	Gender=Masc|Number=Sing	5	obl:arg	5:obl:arg	ArgTem=arg1:pat
 14	generalitzat	generalitzat	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	13	amod	13:amod	_
 15	que	que	PRON	pr0cn000	PronType=Rel	17	obj	17:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP1999030246c3--1-CorefType:ident,gstype:gen)
 16	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	17:aux	_
@@ -40834,7 +40834,7 @@
 86	DIVISA	DIVISA	PROPN	_	_	81	flat	81:flat	_
 87	FIM	FIM	PROPN	_	_	81	flat	81:flat	SpaceAfter=No|Entity=NOCOREF:Spec.other)NOCOREF:Gen)
 88	,	,	PUNCT	fc	PunctType=Comm	89	punct	89:punct	_
-89	ambdós	ambdós	NUM	pn0mp000	Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	52	obj	52:obj	_
+89	ambdós	ambdós	NUM	pn0mp000	Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	52	obl:arg	52:obl:arg	_
 90	comercialitzats	comercialitzat	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	89	advmod	89:advmod	_
 91	per	per	ADP	sps00	_	92	case	92:case	_
 92	Caixa	Caixa	PROPN	np0000o	_	90	obl:agent	90:obl:agent	MWE=Caixa_Tarragona|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(CESSCATAAP200002293672c2-organization-1-CorefType:ident,gstype:spec
@@ -59993,7 +59993,7 @@
 12	fer	fer	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
 13	seu	seu	PRON	px3ms000	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	obj	12:obj	ArgTem=argM:atr|Entity=(CESSCATAAP2002020222c28--1-CorefType:ident,gstype:gen)
 14	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	Entity=(CESSCATAAP2002020222c10--2-CorefType:ident,gstype:gen
-15	problema	problema	NOUN	ncms000	Gender=Masc|Number=Sing	12	obj	12:obj	ArgTem=arg1:pat|Entity=CESSCATAAP2002020222c10)
+15	problema	problema	NOUN	ncms000	Gender=Masc|Number=Sing	12	obl:arg	12:obl:arg	ArgTem=arg1:pat|Entity=CESSCATAAP2002020222c10)
 16	perquè	perquè	SCONJ	cs	_	20	mark	20:mark	_
 17	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	18:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 18	polítics	polític	NOUN	ncmp000	Gender=Masc|Number=Plur	20	nsubj	20:nsubj	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
