@@ -7652,11 +7652,11 @@
 13	espai	espai	NOUN	ncms000	Gender=Masc|Number=Sing	11	obj	11:obj	ArgTem=arg2:atr
 14	web	web	NOUN	nccs000	Number=Sing	13	nmod	13:nmod	_
 15	sempre	sempre	ADV	rg	_	16	advmod	16:advmod	_
-16	actualitzat	actualitzat	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	11	obj	11:obj	SpaceAfter=No|ArgTem=argM:atr
+16	actualitzat	actualitzat	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	11	xcomp	11:xcomp	SpaceAfter=No|ArgTem=argM:atr
 17	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 18	especialment	especialment	ADV	rg	_	20	advmod	20:advmod	_
 19	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	20:det	_
-20	apartats	apartat	NOUN	ncmp000	Gender=Masc|Number=Plur	11	obj	11:obj	_
+20	apartats	apartat	NOUN	ncmp000	Gender=Masc|Number=Plur	14	appos	14:appos	_
 21	d'	de	ADP	sps00	_	23	case	23:case	SpaceAfter=No
 22	'	'	PUNCT	fz	PunctType=Quot	23	punct	23:punct	SpaceAfter=No
 23	Agenda	Agenda	PROPN	np0000a	_	20	nmod	20:nmod	SpaceAfter=No
