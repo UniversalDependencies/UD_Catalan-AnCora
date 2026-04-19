@@ -53,6 +53,7 @@ Additionally, the following paper must be cited when argumental attributes in "s
   * Reflexive verbs do not have "-se" in their lemma.
   * Changed obl to nmod where detectable that it was wrong.
   * Fixed: Genitive and locative pronouns are not direct objects.
+  * Fixed double objects.
 * 2025-11-15 v2.17
   * Added the ExtPos feature to fixed expressions.
   * Fixed spurious dependents of determiners.

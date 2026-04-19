@@ -19085,7 +19085,7 @@
 # orig_file_sentence 005#4
 1	L'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	3	det	3:det	SpaceAfter=No|Entity=(NOCOREF:Gen--3-gstype:gen
 2	altra	altre	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	3	det	3:det	_
-3	casualitat	casualitat	NOUN	ncfs000	Gender=Fem|Number=Sing	12	obj	12:obj	SpaceAfter=No|Entity=NOCOREF:Gen)
+3	casualitat	casualitat	NOUN	ncfs000	Gender=Fem|Number=Sing	12	dislocated	12:dislocated	SpaceAfter=No|Entity=NOCOREF:Gen)
 4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 5	que	que	SCONJ	cs	_	12	mark	12:mark	_
 6	aquesta	aquest	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	8	det	8:det	Entity=(CESSCATA2001031527617c106--3-CorefType:ident,gstype:gen
