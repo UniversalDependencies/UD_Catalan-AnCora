@@ -137,10 +137,10 @@
     <dep name="nsubj:outer">11</dep>
     <dep name="nsubj:pass">26</dep>
     <dep name="nummod">6270</dep>
-    <dep name="obj">30571</dep>
+    <dep name="obj">29306</dep>
     <dep name="obl">21790</dep>
     <dep name="obl:agent">1166</dep>
-    <dep name="obl:arg">6936</dep>
+    <dep name="obl:arg">8201</dep>
     <dep name="parataxis">578</dep>
     <dep name="punct">57270</dep>
     <dep name="root">16678</dep>
