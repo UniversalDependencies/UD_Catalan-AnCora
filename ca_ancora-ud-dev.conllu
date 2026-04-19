@@ -6340,7 +6340,7 @@
 21	que	que	SCONJ	_	_	20	fixed	20:fixed	_
 22	"	"	PUNCT	fe	PunctType=Quot	23	punct	23:punct	SpaceAfter=No
 23	dóna	donar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl	ArgTem=argM:cau
-24	per	per	ADP	sps00	_	23	obj	23:obj	_
+24	per	per	ADP	sps00	_	23	obl:arg	23:obl:arg	_
 25	fet	fet	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	24	advmod	24:advmod	SpaceAfter=No|ArgTem=arg2:atr
 26	"	"	PUNCT	fe	PunctType=Quot	23	punct	23:punct	_
 27	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	29	det	29:det	_
@@ -11797,7 +11797,7 @@
 3	situa	situar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCATA200002162770c2-place-2-CorefType:ident,gstype:spec
 5	comarca	comarca	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obj	3:obj	ArgTem=arg1:tem|Entity=CESSCATA200002162770c2)
-6	per	per	ADP	rg	_	3	obj	3:obj	MWE=per_sobre|MWEPOS=ADV|ArgTem=arg2:ext
+6	per	per	ADP	rg	_	3	obl:arg	3:obl:arg	MWE=per_sobre|MWEPOS=ADV|ArgTem=arg2:ext
 7	sobre	sobre	ADP	_	_	6	fixed	6:fixed	_
 8	de	de	ADP	sps00	_	10	case	10:case	_
 9	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	Entity=(CESSCATA200002162770c6--2-gstype:gen,HomoDD
@@ -27811,7 +27811,7 @@
 21	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
 22	nosaltres	jo	PRON	pp1cp000	Number=Plur|Person=1|PronType=Prs	23	nsubj	23:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP1999030233c19--1-CorefType:ident,gstype:gen)
 23	donarem	donar	VERB	vmif1p0	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	13	ccomp	13:ccomp	ArgTem=arg1:pat
-24	per	per	ADP	sps00	_	23	obj	23:obj	_
+24	per	per	ADP	sps00	_	23	obl:arg	23:obl:arg	_
 25	finalitzada	finalitzat	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	24	advmod	24:advmod	ArgTem=arg2:atr
 26	aquesta	aquest	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	27	det	27:det	Entity=(CESSCATAAP1999030233c12--2-CorefType:ident,gstype:gen
 27	escalada	escalada	NOUN	ncfs000	Gender=Fem|Number=Sing	23	obj	23:obj	ArgTem=arg1:pat

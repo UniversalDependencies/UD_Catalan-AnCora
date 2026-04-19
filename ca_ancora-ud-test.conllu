@@ -33830,7 +33830,7 @@
 10	de	de	ADP	_	_	11	case	11:case	_
 11	Sanidade	Sanidade	PROPN	_	_	9	flat	9:flat	Entity=NOCOREF:Spec.organization)
 12	dóna	donar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-13	per	per	ADP	sps00	_	12	obj	12:obj	_
+13	per	per	ADP	sps00	_	12	obl:arg	12:obl:arg	_
 14	eradicat	eradicat	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	13	advmod	13:advmod	ArgTem=arg2:atr
 15	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	Entity=(NOCOREF:Gen--2-gstype:gen
 16	brot	brot	NOUN	ncms000	Gender=Masc|Number=Sing	12	obj	12:obj	SpaceAfter=No|ArgTem=arg1:pat|Entity=NOCOREF:Gen)
