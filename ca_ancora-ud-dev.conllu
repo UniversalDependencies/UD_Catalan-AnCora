@@ -22537,7 +22537,7 @@
 7.1	_	_	PRON	p	_	_	_	9:nsubj	ArgTem=arg0:agt|Entity=(CESSCATA2002012146870c15-person-1-CorefType:ident,gstype:spec)
 8	ho	ell	PRON	pp3nn000	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	9:obj	ArgTem=arg1:pat|Entity=(CESSCATA2002012146870c16--1-CorefType:ident,gstype:gen)
 9	experimenta	experimentar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	1:conj	_
-10	tot	tot	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	9	obj	9:obj	SpaceAfter=No|ArgTem=arg1:pat|Entity=(CESSCATA2002012146870c16--1-gstype:gen)
+10	tot	tot	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	8	nmod	8:nmod	SpaceAfter=No|ArgTem=arg1:pat|Entity=(CESSCATA2002012146870c16--1-gstype:gen)
 11	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
 
 # sent_id = CESS-CAT-A-20020121-46870-s8

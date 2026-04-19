@@ -47946,7 +47946,7 @@
 30	ho	ell	PRON	pp3nn000	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	obj	32:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP2000111419446c15--1-CorefType:ident,gstype:gen)
 31	hagués	haver	AUX	vasi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	aux	32:aux	_
 32	recollit	recollir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	10:conj	_
-33	tot	tot	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	32	obj	32:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP2000111419446c15--1-CorefType:ident,gstype:gen)
+33	tot	tot	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	30	nmod	30:nmod	ArgTem=arg1:pat|Entity=(CESSCATAAP2000111419446c15--1-CorefType:ident,gstype:gen)
 34	en	en	ADP	sps00	_	36	case	36:case	_
 35	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	36	det	36:det	Entity=(NOCOREF:Gen--2-gstype:gen
 36	llibre	llibre	NOUN	ncms000	Gender=Masc|Number=Sing	32	obl	32:obl	SpaceAfter=No|ArgTem=arg2:loc|Entity=NOCOREF:Gen)
