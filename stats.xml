@@ -134,11 +134,11 @@
     <dep name="flat">18013</dep>
     <dep name="mark">15257</dep>
     <dep name="nmod">41298</dep>
-    <dep name="nsubj">27605</dep>
+    <dep name="nsubj">27638</dep>
     <dep name="nsubj:outer">11</dep>
     <dep name="nsubj:pass">28</dep>
     <dep name="nummod">6270</dep>
-    <dep name="obj">27129</dep>
+    <dep name="obj">27092</dep>
     <dep name="obl">21810</dep>
     <dep name="obl:agent">1166</dep>
     <dep name="obl:arg">9253</dep>
@@ -146,6 +146,6 @@
     <dep name="punct">57270</dep>
     <dep name="root">16678</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">4564</dep>
+    <dep name="xcomp">4568</dep>
   </deps>
 </treebank>
