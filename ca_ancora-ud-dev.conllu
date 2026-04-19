@@ -61,7 +61,7 @@
 25	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	26:det	_
 26	quals	qual	PRON	pr0cp000	Number=Plur|PronType=Rel	23	nmod	23:nmod	_
 27	no	no	ADV	rn	Polarity=Neg	30	advmod	30:advmod	_
-28	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	30	obj	30:obj	SpaceAfter=No
+28	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	30	expl:impers	30:expl:impers	SpaceAfter=No
 29	han	haver	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	aux	30:aux	_
 30	obert	obrir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	8:advcl	_
 31-32	al	_	_	_	_	_	_	_	_
@@ -188,7 +188,7 @@
 4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 5	algunes	algun	PRON	pi0fp000	Gender=Fem|Number=Plur|PronType=Ind	9	nsubj	9:nsubj	ArgTem=arg1:pat
 6	no	no	ADV	rn	Polarity=Neg	9	advmod	9:advmod	_
-7	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	obj	9:obj	SpaceAfter=No
+7	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	expl:impers	9:expl:impers	SpaceAfter=No
 8	han	haver	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
 9	obert	obrir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 10-11	al	_	_	_	_	_	_	_	_
@@ -855,7 +855,7 @@
 38	,	,	PUNCT	fc	PunctType=Comm	50	punct	50:punct	_
 39	i	i	CCONJ	cc	_	50	cc	50:cc	_
 40	si	si	SCONJ	cs	_	42	mark	42:mark	_
-41	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	42	obj	42:obj	_
+41	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	42	expl:impers	42:expl:impers	_
 42	demostra	demostrar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	advcl	50:advcl	_
 43	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	44:det	_
 44	veracitat	veracitat	NOUN	ncfs000	Gender=Fem|Number=Sing	42	obj	42:obj	ArgTem=arg1:pat
@@ -4302,7 +4302,7 @@
 6	,	,	PUNCT	fc	PunctType=Comm	11	punct	11:punct	_
 7	que	que	PRON	pr0cn000	PronType=Rel	11	nsubj	11:nsubj	ArgTem=arg0:agt
 8	ja	ja	ADV	rg	_	11	advmod	11:advmod	ArgTem=argM:tmp
-9	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	obj	11:obj	SpaceAfter=No
+9	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	expl:impers	11:expl:impers	SpaceAfter=No
 10	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
 11	consolidat	consolidar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	4:acl:relcl	_
 12	com	com	SCONJ	cs	_	14	mark	14:mark	_
@@ -5126,7 +5126,7 @@
 7	van	anar	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
 8-9	afegir-se	_	_	_	_	_	_	_	_
 8	afegir	afegir	VERB	vmn0000	VerbForm=Inf	3	ccomp	3:ccomp	ArgTem=arg2:atr
-9	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	obj	8:obj	_
+9	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	expl:impers	8:expl:impers	_
 10	a	a	ADP	sps00	_	12	case	12:case	_
 11	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	12:det	_
 12	baralla	baralla	NOUN	ncfs000	Gender=Fem|Number=Sing	8	obj	8:obj	ArgTem=arg1:tem
@@ -6221,7 +6221,7 @@
 11	ni	ni	CCONJ	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=ni_tan_sols|MWEPOS=ADV
 12	tan	tan	NOUN	_	_	11	fixed	11:fixed	_
 13	sols	sols	NOUN	_	_	11	fixed	11:fixed	_
-14	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	obj	5:obj	SpaceAfter=No
+14	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:impers	5:expl:impers	SpaceAfter=No
 15	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 16	llegit	llegir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	xcomp	5:xcomp	ArgTem=argM:adv
 17	les	el	DET	dp1fpp	Gender=Fem|Number=Plur|PronType=Art	19	det	19:det	MWE=les_nostres|MWEPOS=DET
@@ -6664,7 +6664,7 @@
 5	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 6	fer	fer	VERB	vmn0000	VerbForm=Inf	2	acl:relcl	2:acl:relcl	_
 7	Blanch	Blanch	PROPN	np0000p	_	6	nsubj	6:nsubj	ArgTem=arg0:agt|Entity=(NOCOREF:Spec.person-person-1-gstype:spec)
-8	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	obj	9:obj	SpaceAfter=No
+8	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	expl:impers	9:expl:impers	SpaceAfter=No
 9	anomena	anomenar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 10	'	'	PUNCT	fz	PunctType=Quot	11	punct	11:punct	SpaceAfter=No|Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 11	Parlo	Parlo	PROPN	np0000a	_	9	obj	9:obj	MWE=Parlo_d'_Amor|MWEPOS=PROPN|ArgTem=arg2:atr
@@ -7761,7 +7761,7 @@
 31	de	de	ADP	sps00	_	32	mark	32:mark	_
 32-33	baixar-se	_	_	_	_	_	_	_	_
 32	baixar	baixar	VERB	vmn0000	VerbForm=Inf	30	acl	30:acl	_
-33	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	32	obj	32:obj	_
+33	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	32	expl:impers	32:expl:impers	_
 34	jocs	joc	NOUN	ncmp000	Gender=Masc|Number=Plur	32	obj	32:obj	ArgTem=arg1:tem
 35	relacionats	relacionat	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	34	amod	34:amod	_
 36	amb	amb	ADP	sps00	_	38	case	38:case	_
@@ -7884,7 +7884,7 @@
 18	bé	bé	NOUN	_	_	17	fixed	17:fixed	_
 19-20	fer-se	_	_	_	_	_	_	_	_
 19	fer	fer	VERB	vmn0000	VerbForm=Inf	17	parataxis	17:parataxis	_
-20	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	obj	19:obj	_
+20	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	19	expl:impers	19:expl:impers	_
 21	membres	membre	NOUN	ncmp000	Gender=Masc|Number=Plur	19	obj	19:obj	_
 22	de	de	ADP	sps00	_	24	case	24:case	_
 23	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	24	det	24:det	SpaceAfter=No
@@ -12408,7 +12408,7 @@
 37	i	i	CCONJ	cc	_	40	cc	40:cc	_
 37.1	_	_	PRON	p	_	_	_	40:nsubj	ArgTem=arg1:tem|Entity=(CESSCATA200003205009c2--1-CorefType:ident,gstype:gen)
 38	no	no	ADV	rn	Polarity=Neg	40	advmod	40:advmod	_
-39	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	40	obj	40:obj	_
+39	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	40	expl:impers	40:expl:impers	_
 40	trobava	trobar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	32	conj	32:conj	_
 41	bé	bé	ADV	rg	_	40	obj	40:obj	SpaceAfter=No|ArgTem=arg2:atr
 42	.	.	PUNCT	fp	PunctType=Peri	5	punct	5:punct	_
@@ -15123,7 +15123,7 @@
 9	5.983	5983	NUM	_	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
 10	metres	metre	NOUN	ncmp000	Gender=Masc|Number=Plur	13	nsubj	13:nsubj	ArgTem=arg1:pat
 11	quadrats	quadrat	ADJ	aq0mp0	Gender=Masc|Number=Plur	10	amod	10:amod	Entity=NOCOREF:Spec.number)
-12	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	obj	13:obj	_
+12	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	expl:impers	13:expl:impers	_
 13	destinin	destinar	VERB	vmsp3p0	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	7:ccomp	ArgTem=arg1:pat
 14	a	a	ADP	sps00	_	15	case	15:case	_
 15	usos	ús	NOUN	ncmp000	Gender=Masc|Number=Plur	13	obj	13:obj	ArgTem=arg2:tem|Entity=(NOCOREF:Gen--1-gstype:gen
@@ -16319,7 +16319,7 @@
 18	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	19:det	Entity=(CESSCATA2001031527617c57-place-2-gstype:spec
 19	Amèriques	Amèriques	PROPN	np0000l	_	16	nmod	16:nmod	SpaceAfter=No|Entity=CESSCATA2001031527617c57)NOCOREF:Gen)
 20	,	,	PUNCT	fc	PunctType=Comm	10	punct	10:punct	Entity=CESSCATA2001031527617c32)
-21	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	22	obj	22:obj	_
+21	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	22	expl:impers	22:expl:impers	_
 22	diu	dir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	ArgTem=arg1:pat
 23	"	"	PUNCT	fe	PunctType=Quot	24	punct	24:punct	SpaceAfter=No|Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 24	Efe	Efe	PROPN	np0000a	_	22	obj	22:obj	SpaceAfter=No|ArgTem=arg2:atr
@@ -16564,7 +16564,7 @@
 83	a	a	ADP	sps00	_	84	case	84:case	_
 84	què	què	PRON	pr0cn000	PronType=Rel	86	obj	86:obj	ArgTem=arg1:tem
 84.1	_	_	PRON	p	_	_	_	86:nsubj	ArgTem=arg0:agt|Entity=(CESSCATA2001031527617c29--1-CorefType:ident,gstype:gen)
-85	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	86	obj	86:obj	_
+85	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	86	expl:impers	86:expl:impers	_
 86	dedica	dedicar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	81	ccomp	81:ccomp	SpaceAfter=No|ArgTem=arg1:pat|Entity=CESSCATA2001031527617c29)
 87	.	.	PUNCT	fp	PunctType=Peri	44	punct	44:punct	_
 
@@ -16810,7 +16810,7 @@
 38	en	en	ADP	sps00	_	39	mark	39:mark	_
 39-40	escurçar-se	_	_	_	_	_	_	_	_
 39	escurçar	escurçar	VERB	vmn0000	VerbForm=Inf	33	advcl	33:advcl	ArgTem=argM:tmp|Entity=(CESSCATA2001031527617c41--1
-40	se	ell	PRON	pp3cn000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	39	obj	39:obj	_
+40	se	ell	PRON	pp3cn000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	39	expl:impers	39:expl:impers	_
 41	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	42:det	Entity=(CESSCATA2001031527617c50--2-gstype:gen,HomoDD
 42	distàncies	distància	NOUN	ncfp000	Gender=Fem|Number=Plur	39	obj	39:obj	ArgTem=arg1:pat
 43	culturals	cultural	ADJ	aq0cp0	Number=Plur	42	amod	42:amod	SpaceAfter=No
@@ -16958,7 +16958,7 @@
 10	i	i	CCONJ	cc	_	11	cc	11:cc	_
 11	Reuter	Reuter	PROPN	np0000o	_	5	conj	5:conj	Entity=(CESSCATA2001031527617c43-organization-1-CorefType:ident,gstype:spec
 12	anglesa	anglès	ADJ	aq0fs0	Gender=Fem|Number=Sing	11	amod	11:amod	Entity=CESSCATA2001031527617c43)NOCOREF:Spec)
-13	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	obj	15:obj	_
+13	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	expl:impers	15:expl:impers	_
 14	van	anar	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	15:aux	_
 15	repartir	repartir	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
 16	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	17:det	Entity=(CESSCATA2001031527617c24--2-CorefType:ident,gstype:gen,HomoDD
@@ -16978,7 +16978,7 @@
 30	que	que	SCONJ	cs	_	35	mark	35:mark	_
 31	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	32	det	32:det	SpaceAfter=No|Entity=(CESSCATA2001031527617c43-organization-2-CorefType:ident,gstype:spec
 32	anglesa	anglesa	NOUN	ncfs000	Gender=Fem|Number=Sing	35	nsubj	35:nsubj	ArgTem=arg0:agt|Entity=CESSCATA2001031527617c43)
-33	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	35	obj	35:obj	_
+33	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	35	expl:impers	35:expl:impers	_
 34	n'	en	PRON	pp3cn000	Case=Gen|Person=3|PronType=Prs	35	obl:arg	35:obl:arg	SpaceAfter=No|ArgTem=arg1:pat|Entity=(CESSCATA2001031527617c24--1-CorefType:ident,gstype:gen)
 35	endugués	endur	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	ccomp	29:ccomp	ArgTem=arg1:pat|ReflexLemma=endur-se
 36	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	37:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -17067,7 +17067,7 @@
 51	podien	poder	AUX	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	52	aux	52:aux	_
 52-53	pagar-se	_	_	_	_	_	_	_	_
 52	pagar	pagar	VERB	vmn0000	VerbForm=Inf	48	acl:relcl	48:acl:relcl	_
-53	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	52	obj	52:obj	_
+53	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	52	expl:impers	52:expl:impers	_
 54	corresponsals	corresponsal	NOUN	nccp000	Number=Plur	52	obj	52:obj	ArgTem=arg1:pat|Entity=(CESSCATA2001031527617c35--1-CorefType:ident,gstype:gen
 55	exclusius	exclusiu	ADJ	aq0mp0	Gender=Masc|Number=Plur	54	amod	54:amod	SpaceAfter=No|Entity=CESSCATA2001031527617c35)CESSCATA2001031527617c34)NOCOREF:Gen)
 56	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
@@ -18003,7 +18003,7 @@
 # orig_file_sentence 004#78
 1	L'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	2	det	2:det	SpaceAfter=No|Entity=(CESSCATA2001031527617c68-person-2-CorefType:ident,gstype:spec
 2	intel·ligent	intel·ligent	ADJ	aq0cs0	Number=Sing	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=CESSCATA2001031527617c68)
-3	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	obj	5:obj	SpaceAfter=No
+3	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:impers	5:expl:impers	SpaceAfter=No
 4	ho	ell	PRON	pp3nn000	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	5:obj	ArgTem=arg1:pat|Entity=(CESSCATA2001031527617c71--1-CorefType:ident,gstype:gen)
 5	coneix	conèixer	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	millor	millor	ADJ	aq0cs0	Degree=Cmp|Number=Sing	5	advmod	5:advmod	ArgTem=argM:adv
@@ -18016,7 +18016,7 @@
 # orig_file_sentence 004#79
 1	Anson	Anson	PROPN	np0000p	_	4	nsubj	4:nsubj	ArgTem=arg0:agt|Entity=(CESSCATA2001031527617c68-person-1-CorefType:ident,gstype:spec)
 2	també	també	ADV	rg	_	4	advmod	4:advmod	_
-3	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	obj	4:obj	_
+3	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:impers	4:expl:impers	_
 4	sabia	saber	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 6	història	història	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obj	4:obj	ArgTem=arg1:pat
@@ -18214,7 +18214,7 @@
 41	de	de	ADP	sps00	_	42	case	42:case	_
 42	notícies	notícia	NOUN	ncfp000	Gender=Fem|Number=Plur	40	nmod	40:nmod	SpaceAfter=No|Entity=CESSCATA2001031527617c29)NOCOREF:Gen)
 43	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
-44	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	45	obj	45:obj	_
+44	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	45	expl:impers	45:expl:impers	_
 45	faria	fer	VERB	vmic3s0	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	xcomp	10:xcomp	ArgTem=argM:cau
 46	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	47	det	47:det	Entity=(NOCOREF:Gen--2-gstype:gen
 47	pacte	pacte	NOUN	ncms000	Gender=Masc|Number=Sing	10	nsubj	10:nsubj	SpaceAfter=No|ArgTem=arg1:pat
@@ -19067,7 +19067,7 @@
 10	política	polític	ADJ	aq0fs0	Gender=Fem|Number=Sing	9	amod	9:amod	_
 11	amb	amb	ADP	sps00	_	12	case	12:case	_
 12	poder	poder	NOUN	ncms000	Gender=Masc|Number=Sing	9	nmod	9:nmod	Entity=CESSCATA2001031527617c106)
-13	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	16:obj	_
+13	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	expl:impers	16:expl:impers	_
 14	'n	en	PRON	pp3cn000	Case=Gen|Person=3|PronType=Prs	16	obl:arg	16:obl:arg	ArgTem=arg1:tem|Entity=(CESSCATA2001031527617c105--1-CorefType:ident,gstype:gen)
 15	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	16:aux	_
 16	adonar	adonar	VERB	vmn0000	VerbForm=Inf	2	acl	2:acl	ReflexLemma=adonar-se
@@ -20359,7 +20359,7 @@
 9	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
 10	i	i	CCONJ	cc	_	12	cc	12:cc	_
 10.1	_	_	PRON	p	_	_	_	12:nsubj	ArgTem=arg0:agt|Entity=(CESSCATA2001080836814c1-person-1-CorefType:ident,gstype:spec)
-11	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	12	obj	12:obj	_
+11	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	12	expl:impers	12:expl:impers	_
 12	dedicava	dedicar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	3:conj	_
 13	a	a	ADP	sps00	_	15	case	15:case	_
 14	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	15	det	15:det	SpaceAfter=No|Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -21452,7 +21452,7 @@
 18	debatuda	debatre	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 19	i	i	CCONJ	cc	_	22	cc	22:cc	_
 19.1	_	_	PRON	p	_	_	_	22:nsubj	ArgTem=arg1:pat|Entity=(CESSCATA2001102341218c1--1-CorefType:ident,gstype:gen)
-20	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	22	obj	22:obj	SpaceAfter=No
+20	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	22	expl:impers	22:expl:impers	SpaceAfter=No
 21	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	22:aux	_
 22	donat	donar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	conj	18:conj	_
 23	per	per	ADP	sps00	_	22	obj	22:obj	_
@@ -23186,7 +23186,7 @@
 40	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	41:det	_
 41	objectius	objectiu	NOUN	ncmp000	Gender=Masc|Number=Plur	38	nmod	38:nmod	Entity=(CESSCATA2002012447193c1--1-gstype:gen,HomoDD
 42	que	que	PRON	pr0cn000	PronType=Rel	45	obj	45:obj	ArgTem=arg1:pat|Entity=(CESSCATA2002012447193c1--1-CorefType:ident,gstype:gen)
-43	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	45	obj	45:obj	SpaceAfter=No
+43	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	45	expl:impers	45:expl:impers	SpaceAfter=No
 44	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux	45:aux	_
 45	marcat	marcar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	acl:relcl	41:acl:relcl	_
 46	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	47:det	Entity=(CESSCATA2002012447193c2-organization-2-gstype:spec
@@ -28055,7 +28055,7 @@
 26	un	un	PRON	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	28	nmod	28:nmod	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
 27	53	53	NUM	_	NumForm=Digit|NumType=Card	28	nummod	28:nummod	SpaceAfter=No
 28	%	%	SYM	zp	_	30	nsubj	30:nsubj	ArgTem=arg0:agt|Entity=NOCOREF:Spec.number)
-29	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	30	obj	30:obj	SpaceAfter=No
+29	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	30	expl:impers	30:expl:impers	SpaceAfter=No
 30	oposa	oposar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	15:conj	_
 31	a	a	ADP	sps00	_	33	case	33:case	_
 32	una	un	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	33	det	33:det	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -28437,7 +28437,7 @@
 13	zones	zona	NOUN	ncfp000	Gender=Fem|Number=Plur	17	nsubj	17:nsubj	ArgTem=arg0:agt
 14	humides	humit	ADJ	aq0fp0	Gender=Fem|Number=Plur	13	amod	13:amod	_
 15	espanyoles	espanyol	ADJ	aq0fp0	Gender=Fem|Number=Plur	13	amod	13:amod	Entity=CESSCATAAP1999030254c10)
-16	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	17	obj	17:obj	SpaceAfter=No
+16	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	17	expl:impers	17:expl:impers	SpaceAfter=No
 17	estalviaran	estalviar	VERB	vmif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 18	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	21:det	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
 19	gens	gens	ADV	rg	_	20	advmod	20:advmod	_
@@ -28652,7 +28652,7 @@
 9	quan	quan	SCONJ	cs	_	13	mark	13:mark	_
 10	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	11	det	11:det	Entity=(NOCOREF:Gen--2-gstype:gen
 11	depredador	depredador	NOUN	ncms000	Gender=Masc|Number=Sing	13	nsubj	13:nsubj	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
-12	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	obj	13:obj	_
+12	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	expl:impers	13:expl:impers	_
 13	menja	menjar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	8:advcl	ArgTem=argM:tmp
 14	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	15	det	15:det	SpaceAfter=No|Entity=(CESSCATAAP1999030254c30--2-gstype:gen,HomoDD
 15	au	au	NOUN	ncms000	Gender=Masc|Number=Sing	13	obj	13:obj	ArgTem=arg1:pat
@@ -29020,7 +29020,7 @@
 22	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	23	det	23:det	Entity=(CESSCATAAP1999040162_ec16-other-2-CorefType:ident,gstype:spec
 23	Citroën	Citroën	PROPN	np0000a	_	27	nsubj	27:nsubj	MWE=Citroën_AX|MWEPOS=PROPN|ArgTem=arg0:agt
 24	AX	AX	PROPN	_	_	23	flat	23:flat	Entity=CESSCATAAP1999040162_ec16)
-25	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	27	obj	27:obj	_
+25	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	27	expl:impers	27:expl:impers	_
 26	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	27:aux	_
 27	saltar	saltar	VERB	vmn0000	VerbForm=Inf	4	advcl	4:advcl	ArgTem=argM:tmp
 28	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	29	det	29:det	Entity=(NOCOREF:Gen--2-gstype:gen
@@ -29100,7 +29100,7 @@
 # orig_file_sentence 008#32
 1	Els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	Entity=(CESSCATAAP19990501127c1-organization-2-gstype:spec,HomoDD
 2	blaugranes	blaugrana	NOUN	ncmp000	Gender=Masc|Number=Plur	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=CESSCATAAP19990501127c1)
-3	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	obj	5:obj	_
+3	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:impers	5:expl:impers	_
 4	van	anar	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 5	assegurar	assegurar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
 6	també	també	ADV	rg	_	5	advmod	5:advmod	_
@@ -29151,7 +29151,7 @@
 5	Girona	Girona	PROPN	np0000l	_	9	obl	9:obl	SpaceAfter=No|ArgTem=argM:loc|Entity=(NOCOREF:Spec.location-place-1-gstype:spec)
 6	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 6.1	_	_	PRON	p	_	_	_	9:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP19990501127c1-organization-1-CorefType:ident,gstype:spec)
-7	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	obj	9:obj	_
+7	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	expl:impers	9:expl:impers	_
 8	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
 9	assegurar	assegurar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
 10	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	Entity=(CESSCATAAP19990501127c2--2-CorefType:ident,gstype:gen
@@ -29889,7 +29889,7 @@
 15	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 16	pessimisme	pessimisme	NOUN	ncms000	Gender=Masc|Number=Sing	13	conj	13:conj	SpaceAfter=No|Entity=NOCOREF:Gen)
 17	,	,	PUNCT	fc	PunctType=Comm	11	punct	11:punct	Entity=CESSCATAAP19990601122c4)
-18	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	obj	20:obj	_
+18	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	expl:impers	20:expl:impers	_
 19	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
 20	enganxar	enganxar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
 21	a	a	ADP	sps00	_	23	case	23:case	_
@@ -30683,7 +30683,7 @@
 8	treballs	treball	NOUN	ncmp000	Gender=Masc|Number=Plur	13	nsubj	13:nsubj	ArgTem=arg1:pat
 9	de	de	ADP	sps00	_	10	case	10:case	_
 10	recerca	recerca	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nmod	8:nmod	Entity=NOCOREF:Gen)
-11	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	obj	13:obj	SpaceAfter=No
+11	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	expl:impers	13:expl:impers	SpaceAfter=No
 12	han	haver	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
 13	liquidat	liquidar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 14	en	en	ADP	sps00	_	16	case	16:case	_
@@ -31726,7 +31726,7 @@
 # orig_file_sentence 014#30
 0.1	_	_	PRON	p	_	_	_	4:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP1999120250c8-organization-1-CorefType:ident,gstype:spec)
 1	No	no	ADV	rn	Polarity=Neg	4	advmod	4:advmod	_
-2	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	obj	4:obj	_
+2	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:impers	4:expl:impers	_
 3	podien	poder	AUX	vmii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	4:aux	_
 4	permetre	permetre	VERB	vmn0000	VerbForm=Inf	24	xcomp	24:xcomp	_
 5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -31738,7 +31738,7 @@
 11	d'	de	ADP	sps00	_	12	case	12:case	SpaceAfter=No
 12	Internet	Internet	PROPN	np0000a	_	10	nmod	10:nmod	Entity=(CESSCATAAP1999120250c6-other-1-CorefType:ident,gstype:spec)
 13	que	que	PRON	pr0cn000	PronType=Rel	15	nsubj	15:nsubj	ArgTem=arg1:tem|Entity=(CESSCATAAP1999120250c7--1-CorefType:ident,gstype:gen)
-14	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	obj	15:obj	_
+14	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	expl:impers	15:expl:impers	_
 15	digués	dir	VERB	vmsi3s0	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	10:acl:relcl	_
 16	Olé	Olé	PROPN	np0000a	_	15	obj	15:obj	ArgTem=arg2:atr|Entity=(NOCOREF:Spec.other-other-1-gstype:spec)
 17	i	i	CCONJ	cc	_	21	cc	21:cc	_
@@ -32059,7 +32059,7 @@
 1	Avui	avui	ADV	rg	_	4	advmod	4:advmod	SpaceAfter=No|ArgTem=argM:tmp
 2	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 2.1	_	_	PRON	p	_	_	_	4:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP20000102106c1_PLUS_CESSCATAAP20000102106c3-other-1-CorefType:ident,gstype:spec)|SplitAnte=CESSCATAAP20000102106c1<CESSCATAAP20000102106c1_PLUS_CESSCATAAP20000102106c3,CESSCATAAP20000102106c3<CESSCATAAP20000102106c1_PLUS_CESSCATAAP20000102106c3
-3	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	obj	4:obj	_
+3	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:impers	4:expl:impers	_
 4	veuran	veure	VERB	vmif3p0	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 5	una	un	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	7	det	7:det	_
 6	altra	altre	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	7	det	7:det	_
@@ -33135,7 +33135,7 @@
 16	d'	de	ADP	sps00	_	17	mark	17:mark	SpaceAfter=No
 17-19	emportar-se'n	_	_	_	_	_	_	_	_
 17	emportar	emportar	VERB	vmn0000	VerbForm=Inf	15	acl	15:acl	ReflexLemma=emportar-se
-18	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	17	obj	17:obj	_
+18	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	17	expl:impers	17:expl:impers	_
 19	ne	en	PRON	pp3cn000	Case=Gen|Person=3|PronType=Prs	17	obl:arg	17:obl:arg	ArgTem=arg1:pat|Entity=(CESSCATAAP20000102107c7-place-1-CorefType:ident,gstype:spec)
 20	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	21	det	21:det	Entity=(NOCOREF:Gen--2-gstype:gen
 21	regal	regal	NOUN	ncms000	Gender=Masc|Number=Sing	17	obj	17:obj	ArgTem=arg1:pat
@@ -33978,7 +33978,7 @@
 15	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	Entity=(CESSCATAAP2000020124_bc2--2-gstype:gen,HomoDD
 16	societat	societat	NOUN	ncfs000	Gender=Fem|Number=Sing	20	nsubj	20:nsubj	ArgTem=arg1:tem
 17	basca	basc	ADJ	aq0fs0	Gender=Fem|Number=Sing	16	amod	16:amod	Entity=CESSCATAAP2000020124_bc2)
-18	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	obj	20:obj	_
+18	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	expl:impers	20:expl:impers	_
 19	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
 20	mostrar	mostrar	VERB	vmn0000	VerbForm=Inf	13	ccomp	13:ccomp	ArgTem=arg2:atr
 21	cara	cara	NOUN	rg	_	20	obj	20:obj	MWE=cara_a_cara|MWEPOS=ADV|ArgTem=arg2:atr
@@ -34269,7 +34269,7 @@
 75	i	i	CCONJ	cc	_	80	cc	80:cc	_
 76	llavors	llavors	ADV	rg	_	80	advmod	80:advmod	ArgTem=argM:tmp
 76.1	_	_	PRON	p	_	_	_	80:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP200003285691c5-other-1-CorefType:ident,gstype:spec)
-77	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	80	obj	80:obj	_
+77	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	80	expl:impers	80:expl:impers	_
 78	'ls	ell	PRON	pp3cp000	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	80	obj	80:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP200003285691c6--1-CorefType:ident,gstype:gen)
 79	van	anar	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	80	aux	80:aux	_
 80	repartir	repartir	VERB	vmn0000	VerbForm=Inf	24	conj	24:conj	SpaceAfter=No
@@ -35351,7 +35351,7 @@
 # orig_file_sentence 009#18
 1	Els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	Entity=(CESSCATAAP2000050114_ac2-organization-2-CorefType:ident,gstype:spec
 2	nacionalistes	nacionalista	NOUN	ncmp000	Gender=Masc|Number=Plur	5	nsubj	5:nsubj	ArgTem=arg0:agt|Entity=CESSCATAAP2000050114_ac2)
-3	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	obj	5:obj	_
+3	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	expl:impers	5:expl:impers	_
 4	van	anar	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 5	comprometre	comprometre	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
 6	a	a	ADP	sps00	_	8	case	8:case	_
@@ -36108,7 +36108,7 @@
 7	de	de	ADP	rg	ExtPos=ADV	11	advmod	11:advmod	MWE=de_moment|MWEPOS=ADV|ArgTem=argM:adv
 8	moment	moment	NOUN	_	_	7	fixed	7:fixed	_
 9	no	no	ADV	rn	Polarity=Neg	11	advmod	11:advmod	_
-10	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	obj	11:obj	_
+10	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	expl:impers	11:expl:impers	_
 11	tenen	tenir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	5:ccomp	ArgTem=arg1:pat
 12	més	més	ADV	rg	Degree=Cmp	13	advmod	13:advmod	_
 13	dades	dada	NOUN	ncfp000	Gender=Fem|Number=Plur	11	obj	11:obj	ArgTem=arg2:atr
@@ -37754,7 +37754,7 @@
 14	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	16:det	Entity=(CESSCATAAP2000120193c1-other-3-CorefType:ident,gstype:spec
 15	noves	nou	ADJ	aq0fp0	Gender=Fem|Number=Plur	16	amod	16:amod	_
 16	tecnologies	tecnologia	NOUN	ncfp000	Gender=Fem|Number=Plur	12	nmod	12:nmod	Entity=CESSCATAAP2000120193c1)CESSCATAAP2000120193c3)NOCOREF:Gen)CESSCATAAP2000120193c5)
-17	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	18	obj	18:obj	_
+17	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	18	expl:impers	18:expl:impers	_
 18	vol	voler	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 19	complementar	complementar	VERB	vmn0000	VerbForm=Inf	18	csubj	18:csubj	ArgTem=arg1:pat
 20	amb	amb	ADP	sps00	_	22	case	22:case	_
@@ -39960,7 +39960,7 @@
 35	per	per	ADP	sps00	_	36	mark	36:mark	_
 36-37	assegurar-se	_	_	_	_	_	_	_	_
 36	assegurar	assegurar	VERB	vmn0000	VerbForm=Inf	32	advcl	32:advcl	ArgTem=argM:fin
-37	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	36	obj	36:obj	_
+37	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	36	expl:impers	36:expl:impers	_
 38	la	el	DET	dp3fs0	Gender=Fem|Number=Sing|PronType=Art	40	det	40:det	MWE=la_seva|MWEPOS=DET|Entity=(NOCOREF:Gen--3-gstype:gen(CESSCATAAP2001010385c14-other-1-CorefType:ident,gstype:spec
 39	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	40	det	40:det	Entity=CESSCATAAP2001010385c14)
 40	obligació	obligació	NOUN	ncfs000	Gender=Fem|Number=Sing	36	obj	36:obj	ArgTem=arg1:pat
@@ -40029,7 +40029,7 @@
 9	abusius	abusiu	ADJ	aq0mp0	Gender=Masc|Number=Plur	8	amod	8:amod	Entity=NOCOREF:Gen)
 10	i	i	CCONJ	cc	_	14	cc	14:cc	_
 10.1	_	_	PRON	p	_	_	_	12:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2001010385c9--1-CorefType:ident,gstype:gen)
-11	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	14	obj	14:obj	SpaceAfter=No
+11	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	14	expl:impers	14:expl:impers	SpaceAfter=No
 12	havien	haver	AUX	vaii3p0	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	14	aux	14:aux	_
 13	de	de	ADP	sps00	_	14	mark	14:mark	_
 14	pagar	pagar	VERB	vmn0000	VerbForm=Inf	4	conj	4:conj	_
@@ -40308,7 +40308,7 @@
 7	que	que	SCONJ	cs	_	11	mark	11:mark	_
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(CESSCATAAP2001010522726c2-organization-2-CorefType:ident,gstype:spec
 9	partit	partit	NOUN	ncms000	Gender=Masc|Number=Sing	11	nsubj	11:nsubj	ArgTem=arg0:agt|Entity=CESSCATAAP2001010522726c2)
-10	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	obj	11:obj	_
+10	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	expl:impers	11:expl:impers	_
 11	planteja	plantejar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	6:ccomp	ArgTem=arg1:pat
 12	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	13	nummod	13:nummod	Entity=(NOCOREF:Gen--2-gstype:gen
 13	propòsits	propòsit	NOUN	ncmp000	Gender=Masc|Number=Plur	11	obj	11:obj	ArgTem=arg1:pat
@@ -43535,7 +43535,7 @@
 # orig_file_sentence 011#23
 1	Inicialment	inicialment	ADV	rg	_	4	advmod	4:advmod	_
 1.1	_	_	PRON	p	_	_	_	4:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2001032928643c1-person-1-CorefType:ident,gstype:spec)
-2	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	obj	4:obj	_
+2	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:impers	4:expl:impers	_
 3	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	dedicar	dedicar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
 5-6	al	_	_	_	_	_	_	_	_
@@ -47655,7 +47655,7 @@
 43	,	,	PUNCT	fc	PunctType=Comm	48	punct	48:punct	_
 44	i	i	CCONJ	cc	_	48	cc	48:cc	_
 44.1	_	_	PRON	p	_	_	_	46:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2001071335350c27--1-CorefType:ident,gstype:gen)
-45	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	48	obj	48:obj	SpaceAfter=No
+45	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	48	expl:impers	48:expl:impers	SpaceAfter=No
 46	han	haver	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	48	aux	48:aux	_
 47	d'	de	ADP	sps00	_	48	mark	48:mark	SpaceAfter=No
 48	enfrontar	enfrontar	VERB	vmn0000	VerbForm=Inf	25	conj	25:conj	_
@@ -49204,7 +49204,7 @@
 18	d'	de	ADP	sps00	_	21	mark	21:mark	SpaceAfter=No
 19-20	haver-se	_	_	_	_	_	_	_	_
 19	haver	haver	AUX	van0000	VerbForm=Inf	21	aux	21:aux	_
-20	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	obj	21:obj	_
+20	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	expl:impers	21:expl:impers	_
 21	revaloritzat	revaloritzar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	advcl	17:advcl	_
 22	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	Entity=(CESSCATAAP2001100288_ac6--2-CorefType:ident,gstype:gen,HomoDD
 23	setmana	setmana	NOUN	ncfs000	Gender=Fem|Number=Sing	21	obl	21:obl	ArgTem=argM:loc
@@ -51104,7 +51104,7 @@
 16	escorxadors	escorxador	NOUN	ncmp000	Gender=Masc|Number=Plur	13	nmod	13:nmod	_
 17	catalans	català	ADJ	aq0mp0	Gender=Masc|Number=Plur	16	amod	16:amod	_
 18	que	que	PRON	pr0cn000	PronType=Rel	20	nsubj	20:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2001111643003c2--1-CorefType:ident,gstype:gen)
-19	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	obj	20:obj	_
+19	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	20	expl:impers	20:expl:impers	_
 20	neguen	negar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
 21	a	a	ADP	sps00	_	23	case	23:case	_
 22	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	Entity=(CESSCATAAP2001111643003c8--2-gstype:gen,HomoDD
@@ -52114,7 +52114,7 @@
 8	objectiu	objectiu	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl:arg	3:obl:arg	ArgTem=arg2:loc
 9	que	que	PRON	pr0cn000	PronType=Rel	13	obj	13:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP2001120248c11--1-CorefType:ident,gstype:gen)
 10	Pujol	Pujol	PROPN	np0000p	_	13	nsubj	13:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2001120248c6-person-1-CorefType:ident,gstype:spec)
-11	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	obj	13:obj	SpaceAfter=No
+11	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	13	expl:impers	13:expl:impers	SpaceAfter=No
 12	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	_
 13	fixat	fixar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	8:acl:relcl	_
 14	per	per	ADP	sps00	_	17	case	17:case	_
@@ -52688,7 +52688,7 @@
 42	d'	de	ADP	sps00	_	43	mark	43:mark	SpaceAfter=No
 43-44	aproximar-se	_	_	_	_	_	_	_	_
 43	aproximar	aproximar	VERB	vmn0000	VerbForm=Inf	41	acl	41:acl	_
-44	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	43	obj	43:obj	_
+44	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	43	expl:impers	43:expl:impers	_
 45	a	a	ADP	sps00	_	47	case	47:case	_
 46	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	47	det	47:det	Entity=(NOCOREF:Gen--2-gstype:gen
 47	espai	espai	NOUN	ncms000	Gender=Masc|Number=Sing	43	obj	43:obj	ArgTem=arg1:tem
@@ -52908,7 +52908,7 @@
 5	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	6	punct	6:punct	SpaceAfter=No|Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 6	www.canalpirineos.com	www.canalpirineos.com	PROPN	np0000a	_	3	flat	3:flat	SpaceAfter=No
 7	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	6	punct	6:punct	Entity=NOCOREF:Spec.other)NOCOREF:Spec.other)CESSCATAAP2001120344098c1)
-8	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	obj	9:obj	_
+8	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	9	expl:impers	9:expl:impers	_
 9	marca	marcar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 10	dos	dos	NUM	dn0mp0	Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	11	nummod	11:nummod	Entity=(NOCOREF:Gen--2-gstype:gen
 11	objectius	objectiu	NOUN	ncmp000	Gender=Masc|Number=Plur	9	obj	9:obj	SpaceAfter=No|ArgTem=arg1:pat|Entity=NOCOREF:Gen)
@@ -58963,7 +58963,7 @@
 26	i	i	CCONJ	cc	_	29	cc	29:cc	_
 27-28	haver-se	_	_	_	_	_	_	_	_
 27	haver	haver	AUX	van0000	VerbForm=Inf	29	aux	29:aux	_
-28	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	29	obj	29:obj	_
+28	se	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	29	expl:impers	29:expl:impers	_
 29	apropiat	apropiar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	conj	22:conj	_
 30	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	31:det	Entity=(CESSCATAAP2002040283c7--2-gstype:gen,HomoDD
 31	quotes	quota	NOUN	ncfp000	Gender=Fem|Number=Plur	29	obj	29:obj	ArgTem=arg1:pat
@@ -60143,7 +60143,7 @@
 10	,	,	PUNCT	fc	PunctType=Comm	14	punct	14:punct	_
 11	amb	amb	ADP	sps00	_	12	case	12:case	_
 12	què	què	PRON	pr0cn000	PronType=Rel	14	obl	14:obl	ArgTem=argM:adv|Entity=(CESSCATAAP2002050163c21--1-CorefType:ident,gstype:gen)
-13	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	14	obj	14:obj	SpaceAfter=No
+13	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	14	expl:impers	14:expl:impers	SpaceAfter=No
 14	espera	esperar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
 15	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	16	det	16:det	Entity=(NOCOREF:Gen--2-gstype:gen
 16	estalvi	estalvi	NOUN	ncms000	Gender=Masc|Number=Sing	14	nsubj	14:nsubj	ArgTem=arg1:pat
@@ -60209,7 +60209,7 @@
 2	i	i	CCONJ	cc	_	4	cc	4:cc	_
 3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 4	UGT	UGT	PROPN	np0000o	_	1	conj	1:conj	Entity=NOCOREF:Spec.organization)CESSCATAAP2002050163c23)
-5	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	obj	7:obj	_
+5	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	7	expl:impers	7:expl:impers	_
 6	van	anar	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
 7	oposar	oposar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
 8	ahir	ahir	ADV	rg	_	7	advmod	7:advmod	ArgTem=argM:tmp
@@ -61477,7 +61477,7 @@
 25	que	que	SCONJ	cs	_	30	mark	30:mark	_
 26	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	27:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 27	gent	gent	NOUN	ncfs000	Gender=Fem|Number=Sing	30	nsubj	30:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
-28	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	30	obj	30:obj	SpaceAfter=No
+28	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	30	expl:impers	30:expl:impers	SpaceAfter=No
 29	ho	ell	PRON	pp3nn000	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	obj	30:obj	ArgTem=argL:
 30	passi	passar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl	24:acl	_
 31	bé	bé	ADV	rg	_	30	advmod	30:advmod	SpaceAfter=No|ArgTem=argM:mnr|Entity=NOCOREF:Gen)CESSCATAAP2002060163_cc2)
@@ -62147,7 +62147,7 @@
 # orig_file_sentence 010#73
 1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCATAAP2002060224_bc1-organization-2-CorefType:ident,gstype:spec
 2	firma	firma	NOUN	ncfs000	Gender=Fem|Number=Sing	4	nsubj	4:nsubj	ArgTem=arg0:agt|Entity=CESSCATAAP2002060224_bc1)
-3	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	obj	4:obj	_
+3	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:impers	4:expl:impers	_
 4	dedica	dedicar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5-6	al	_	_	_	_	_	_	_	_
 5	a	a	ADP	spcms	_	7	case	7:case	_
@@ -63996,7 +63996,7 @@
 54	polítiques	polític	ADJ	aq0fp0	Gender=Fem|Number=Plur	53	amod	53:amod	Entity=NOCOREF:Gen)
 55	i	i	CCONJ	cc	_	58	cc	58:cc	_
 55.1	_	_	PRON	p	_	_	_	58:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP200209019_bc23-organization-1-CorefType:ident,gstype:spec)
-56	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	58	obj	58:obj	SpaceAfter=No
+56	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	58	expl:impers	58:expl:impers	SpaceAfter=No
 57	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	aux	58:aux	_
 58	remès	remetre	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	49	conj	49:conj	_
 59	sempre	sempre	ADV	rg	_	58	advmod	58:advmod	ArgTem=argM:tmp
@@ -64039,7 +64039,7 @@
 20	abertzale	abertzale	ADJ	_	_	19	amod	19:amod	SpaceAfter=No|Entity=NOCOREF:Gen)
 21	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 21.1	_	_	PRON	p	_	_	_	24:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP200209019_bc23-organization-1-CorefType:ident,gstype:spec)
-22	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	24	obj	24:obj	SpaceAfter=No
+22	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	24	expl:impers	24:expl:impers	SpaceAfter=No
 23	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	24:aux	_
 24	negat	negar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	4:advcl	_
 25	a	a	ADP	sps00	_	26	case	26:case	_
@@ -64717,7 +64717,7 @@
 6	nacionalisme	nacionalisme	NOUN	ncms000	Gender=Masc|Number=Sing	11	nsubj	11:nsubj	ArgTem=arg0:agt
 7	basc	basc	ADJ	aq0ms0	Gender=Masc|Number=Sing	6	amod	6:amod	Entity=CESSCATAAP200209019_bc89)
 8	no	no	ADV	rn	Polarity=Neg	11	advmod	11:advmod	_
-9	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	obj	11:obj	_
+9	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	expl:impers	11:expl:impers	_
 10	podrà	poder	AUX	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	aux	11:aux	_
 11	sumar	sumar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
 12	a	a	ADP	sps00	_	14	case	14:case	_
@@ -65710,7 +65710,7 @@
 24	Ministeri	Ministeri	PROPN	np0000o	_	29	nsubj	29:nsubj	MWE=Ministeri_d'_Economia|MWEPOS=PROPN|ArgTem=arg0:agt
 25	d'	de	ADP	_	_	26	case	26:case	SpaceAfter=No
 26	Economia	Economia	PROPN	_	_	24	flat	24:flat	Entity=NOCOREF:Spec.organization)
-27	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	29	obj	29:obj	_
+27	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	29	expl:impers	29:expl:impers	_
 28	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	29:aux	_
 29	reservar	reservar	VERB	vmn0000	VerbForm=Inf	9	conj	9:conj	_
 30	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	32	det	32:det	SpaceAfter=No|Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
