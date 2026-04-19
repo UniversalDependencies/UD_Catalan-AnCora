@@ -21121,7 +21121,7 @@
 63	,	,	PUNCT	fc	PunctType=Comm	68	punct	68:punct	Entity=CESSCATA2001081437027c9)
 64	i	i	CCONJ	cc	_	68	cc	68:cc	_
 64.1	_	_	PRON	p	_	_	_	68:nsubj	ArgTem=arg0:agt|Entity=(CESSCATA2001081437027c2-person-1-CorefType:ident,gstype:spec)
-65	això	això	PRON	pd0ns000	Number=Sing|PronType=Dem	68	obj	68:obj	ArgTem=arg1:pat|Entity=(CESSCATA2001081437027c9--1-CorefType:dx.token)
+65	això	això	PRON	pd0ns000	Number=Sing|PronType=Dem	68	obl	68:obl	ArgTem=arg1:pat|Entity=(CESSCATA2001081437027c9--1-CorefType:dx.token)
 66	no	no	ADV	rn	Polarity=Neg	68	advmod	68:advmod	_
 67	ho	ell	PRON	pp3nn000	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	68	obj	68:obj	ArgTem=arg1:pat|Entity=(CESSCATA2001081437027c9--1-CorefType:ident)
 68	aconseguirà	aconseguir	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	37	conj	37:conj	_
@@ -40444,7 +40444,7 @@
 16	CiU	CiU	PROPN	np0000o	_	14	nmod	14:nmod	SpaceAfter=No|Entity=(CESSCATAAP2001010522726c11-organization-1-CorefType:ident,gstype:spec)NOCOREF:Gen)
 17	'	'	PUNCT	fz	PunctType=Quot	7	punct	7:punct	Entity=CESSCATAAP2001010522726c13)
 18	i	i	CCONJ	cc	_	26	cc	26:cc	_
-19	això	això	PRON	pd0ns000	Number=Sing|PronType=Dem	26	obj	26:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP2001010522726c13--1-CorefType:dx.token)
+19	això	això	PRON	pd0ns000	Number=Sing|PronType=Dem	26	obl	26:obl	ArgTem=arg1:pat|Entity=(CESSCATAAP2001010522726c13--1-CorefType:dx.token)
 20	'	'	PUNCT	fz	PunctType=Quot	26	punct	26:punct	SpaceAfter=No
 21	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 22	societat	societat	NOUN	ncfs000	Gender=Fem|Number=Sing	26	nsubj	26:nsubj	ArgTem=arg0:agt|Entity=NOCOREF:Gen)
@@ -43926,7 +43926,7 @@
 45	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	Entity=CESSCATAAP20010401126c3)
 46	i	i	CCONJ	cc	_	49	cc	49:cc	_
 47	tot	tot	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	48	det	48:det	Entity=(CESSCATAAP20010401126c3--2-CorefType:ident,gstype:gen
-48	això	això	PRON	pd0ns000	Number=Sing|PronType=Dem	49	obj	49:obj	Entity=CESSCATAAP20010401126c3)
+48	això	això	PRON	pd0ns000	Number=Sing|PronType=Dem	49	obl	49:obl	Entity=CESSCATAAP20010401126c3)
 49	respectant	respectar	VERB	vmg0000	VerbForm=Ger	13	conj	13:conj	_
 50	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	51:det	Entity=(CESSCATAAP20010401126c5--2-gstype:gen,HomoDD
 51	conceptes	concepte	NOUN	ncmp000	Gender=Masc|Number=Plur	49	obj	49:obj	ArgTem=arg1:pat
