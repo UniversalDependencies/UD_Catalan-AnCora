@@ -16750,7 +16750,7 @@
 26	cèlebre	cèlebre	ADJ	aq0cs0	Number=Sing	27	amod	27:amod	_
 27	frase	frase	NOUN	ncfs000	Gender=Fem|Number=Sing	23	nmod	23:nmod	_
 28	"	"	PUNCT	_	PunctType=Quot	33	punct	33:punct	SpaceAfter=No|Entity=(NOCOREF:Spec.other-other-6-gstype:spec
-29	Mister	mister	NOUN	_	Gender=Masc|Number=Sing	33	obj	33:obj	_
+29	Mister	mister	NOUN	_	Gender=Masc|Number=Sing	33	dislocated	33:dislocated	_
 30	Livingstone	Livingstone	PROPN	_	_	29	appos	29:appos	SpaceAfter=No
 31	,	,	PUNCT	_	PunctType=Comm	29	punct	29:punct	_
 32	I	I	PRON	_	Foreign=Yes|Number=Sing|Person=1|PronType=Prs	33	obj	33:obj	Lang=en
@@ -59042,7 +59042,7 @@
 7	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
 8	ser	ser	AUX	vsn0000	VerbForm=Inf	0	root	0:root	_
 9	adquirir	adquirir	VERB	vmn0000	VerbForm=Inf	8	ccomp	8:ccomp	ArgTem=arg2:atr
-10	Diario	Diario	PROPN	np0000a	_	18	obj	18:obj	MWE=Diario_Femenino|MWEPOS=PROPN|ArgTem=arg1:pat|Entity=(CESSCATAAP2002040283c3-other-1-gstype:spec
+10	Diario	Diario	PROPN	np0000a	_	18	dislocated	18:dislocated	MWE=Diario_Femenino|MWEPOS=PROPN|ArgTem=arg1:pat|Entity=(CESSCATAAP2002040283c3-other-1-gstype:spec
 11	Femenino	Femenino	PROPN	_	_	10	flat	10:flat	SpaceAfter=No|Entity=CESSCATAAP2002040283c3)
 12	,	,	PUNCT	fc	PunctType=Comm	14	punct	14:punct	Entity=(NOCOREF:Spec.date-time-3-gstype:spec
 13	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
