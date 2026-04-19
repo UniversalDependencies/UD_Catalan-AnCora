@@ -53371,7 +53371,7 @@
 12	o	o	CCONJ	cc	_	13	cc	13:cc	_
 13-14	enviar-los	_	_	_	_	_	_	_	_
 13	enviar	enviar	VERB	vmn0000	VerbForm=Inf	4	conj	4:conj	_
-14	los	ell	PRON	pp3cp000	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	13	obj	13:obj	Entity=(CESSCATAAP2002011446382c16--1-CorefType:ident,gstype:gen)
+14	los	ell	PRON	pp3cp000	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	13	obl:arg	13:obl:arg	Entity=(CESSCATAAP2002011446382c16--1-CorefType:ident,gstype:gen)
 15	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	16	det	16:det	Entity=(NOCOREF:Gen--2-gstype:gen
 16	correu	correu	NOUN	ncms000	Gender=Masc|Number=Sing	13	obj	13:obj	_
 17	electrònic	electrònic	ADJ	aq0ms0	Gender=Masc|Number=Sing	16	amod	16:amod	_
@@ -62995,7 +62995,7 @@
 28	democràcia	democràcia	NOUN	ncfs000	Gender=Fem|Number=Sing	26	nmod	26:nmod	_
 29	constitucional	constitucional	ADJ	aq0cs0	Number=Sing	28	amod	28:amod	SpaceAfter=No|Entity=NOCOREF:Gen)
 30	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
-31	ens	jo	PRON	p010p000	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	32	obj	32:obj	_
+31	ens	jo	PRON	p010p000	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	32	obl:arg	32:obl:arg	_
 32	trobem	trobar	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	acl	16:acl	_
 33	davant	davant	ADV	rg	_	32	obj	32:obj	ArgTem=arg2:atr
 34	d'	de	ADP	sps00	_	36	case	36:case	SpaceAfter=No

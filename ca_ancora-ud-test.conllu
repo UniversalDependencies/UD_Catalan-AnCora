@@ -23745,7 +23745,7 @@
 13	a	a	ADP	sps00	_	14	mark	14:mark	_
 14-15	informar-nos	_	_	_	_	_	_	_	_
 14	informar	informar	VERB	vmn0000	VerbForm=Inf	8	conj	8:conj	_
-15	nos	jo	PRON	pp1cp000	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	24	obj	24:obj	ArgTem=arg1:pat|Entity=(CESSCATA2000082914312c6-organization-1-CorefType:ident,gstype:spec)
+15	nos	jo	PRON	pp1cp000	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	24	obl:arg	24:obl:arg	ArgTem=arg1:pat|Entity=(CESSCATA2000082914312c6-organization-1-CorefType:ident,gstype:spec)
 16	de	de	ADP	sps00	_	19	case	19:case	_
 17	les	el	DET	dp3fp0	Gender=Fem|Number=Plur|PronType=Art	19	det	19:det	MWE=les_seves|MWEPOS=DET|Entity=(CESSCATA2000082914312c15--3-gstype:gen(CESSCATA2000082914312c7-organization-1-CorefType:ident,gstype:spec
 18	seves	seu	DET	_	Gender=Fem|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	det	19:det	Entity=CESSCATA2000082914312c7)
@@ -60032,7 +60032,7 @@
 12	i	i	CCONJ	cc	_	13	cc	13:cc	_
 13-14	treure-li	_	_	_	_	_	_	_	_
 13	treure	treure	VERB	vmn0000	VerbForm=Inf	5	conj	5:conj	_
-14	li	ell	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	13	obj	13:obj	Entity=(CESSCATAAP2002020222c11--1-CorefType:ident,gstype:gen)
+14	li	ell	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	13	obl:arg	13:obl:arg	Entity=(CESSCATAAP2002020222c11--1-CorefType:ident,gstype:gen)
 15	a	a	ADP	sps00	_	17	case	17:case	_
 16	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	17:det	Entity=(CESSCATAAP2002020222c11--2-gstype:gen
 17	discussió	discussió	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obl:arg	13:obl:arg	Entity=CESSCATAAP2002020222c11)
@@ -67285,7 +67285,7 @@
 13	,	,	PUNCT	fc	PunctType=Comm	12	punct	12:punct	_
 14	no	no	ADV	rn	ExtPos=ADV|Polarity=Neg	18	advmod	18:advmod	MWE=no_només|MWEPOS=ADV
 15	només	només	ADV	_	_	14	fixed	14:fixed	_
-16	ens	jo	PRON	p010p000	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	18	obj	18:obj	_
+16	ens	jo	PRON	p010p000	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	18	obl:arg	18:obl:arg	_
 17	hi	hi	PRON	pp3cn000	Case=Loc|Person=3|PronType=Prs	18	obl	18:obl	ArgTem=argM:loc
 18	juguem	jugar	VERB	vmip1p0	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	5:ccomp	ArgTem=arg1:pat
 19	una	un	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	20	det	20:det	Entity=(NOCOREF:Gen--2-gstype:gen
