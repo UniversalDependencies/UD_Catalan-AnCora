@@ -21296,7 +21296,7 @@
 22	general	general	NOUN	_	_	20	obl	20:obl	SpaceAfter=No
 23	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 24	de	de	ADP	sps00	_	25	case	25:case	_
-25	divulgació	divulgació	NOUN	ncfs000	Gender=Fem|Number=Sing	22	obl	22:obl	_
+25	divulgació	divulgació	NOUN	ncfs000	Gender=Fem|Number=Sing	22	nmod	22:nmod	_
 26	d'	de	ADP	sps00	_	27	case	27:case	SpaceAfter=No
 27	informació	informació	NOUN	ncfs000	Gender=Fem|Number=Sing	25	nmod	25:nmod	Entity=(NOCOREF:Gen--1-gstype:gen
 28	generalista	generalista	ADJ	aq0cs0	Number=Sing	27	amod	27:amod	SpaceAfter=No|Entity=NOCOREF:Gen)
@@ -35984,7 +35984,7 @@
 31	censura	censura	NOUN	ncfs000	Gender=Fem|Number=Sing	29	nmod	29:nmod	Entity=CESSCATAAP1999030246c5)
 32	en	en	ADP	rg	ExtPos=ADV	33	case	33:case	MWE=en_contra|MWEPOS=ADV|ArgTem=argM:adv
 33	contra	contra	NOUN	_	_	27	obl	27:obl	_
-34	seu	seu	PRON	px3ms000	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	obl	33:obl	Entity=(CESSCATAAP1999030246c1-person-1-CorefType:ident,gstype:spec)CESSCATAAP1999030246c4)
+34	seu	seu	PRON	px3ms000	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	nmod	33:nmod	Entity=(CESSCATAAP1999030246c1-person-1-CorefType:ident,gstype:spec)CESSCATAAP1999030246c4)
 35	quan	quan	SCONJ	cs	_	37	mark	37:mark	_
 36	només	només	ADV	rg	_	37	advmod	37:advmod	_
 37	falten	faltar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	26:advcl	ArgTem=argM:tmp
@@ -62443,7 +62443,7 @@
 12-13	del	_	_	_	_	_	_	_	_
 12	de	de	ADP	spcms	_	14	case	14:case	_
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
-14	vaixell	vaixell	NOUN	ncms000	Gender=Masc|Number=Sing	11	obl	11:obl	Entity=(CESSCATAAP2002030218c10-other-1-gstype:spec
+14	vaixell	vaixell	NOUN	ncms000	Gender=Masc|Number=Sing	11	nmod	11:nmod	Entity=(CESSCATAAP2002030218c10-other-1-gstype:spec
 15	Hespérides	Hespérides	PROPN	np0000a	_	14	appos	14:appos	SpaceAfter=No|Entity=(NOCOREF:Spec.other-other-1-gstype:spec)CESSCATAAP2002030218c10)
 16	:	:	PUNCT	fd	PunctType=Colo	18	punct	18:punct	_
 17	dos	dos	NUM	dn0mp0	Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	18	nummod	18:nummod	_
@@ -64514,7 +64514,7 @@
 10	sota	sota	NOUN	_	_	7	obl	7:obl	_
 11	de	de	ADP	sps00	_	13	case	13:case	_
 12	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	13:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-13	expectatives	expectativa	NOUN	ncfp000	Gender=Fem|Number=Plur	10	obl	10:obl	_
+13	expectatives	expectativa	NOUN	ncfp000	Gender=Fem|Number=Plur	10	nmod	10:nmod	_
 14-15	dels	_	_	_	_	_	_	_	_
 14	de	de	ADP	spcmp	_	16	case	16:case	_
 15	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	16:det	_

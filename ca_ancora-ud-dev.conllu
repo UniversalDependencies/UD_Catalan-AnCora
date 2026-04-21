@@ -11921,7 +11921,7 @@
 19	de	de	ADP	spcms	_	22	case	22:case	_
 20	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	_
 21	5'5	5'5	NUM	_	NumForm=Digit|NumType=Card	22	nummod	22:nummod	SpaceAfter=No
-22	%	%	SYM	zp	_	18	obl	18:obl	SpaceAfter=No|Entity=(NOCOREF:Spec.number-number-1-gstype:spec)NOCOREF:Gen)
+22	%	%	SYM	zp	_	18	nmod	18:nmod	SpaceAfter=No|Entity=(NOCOREF:Spec.number-number-1-gstype:spec)NOCOREF:Gen)
 23	.	.	PUNCT	fp	PunctType=Peri	10	punct	10:punct	_
 
 # sent_id = CESS-CAT-A-20000216-2770-s8
@@ -58703,7 +58703,7 @@
 15-16	dels	_	_	_	_	_	_	_	_
 15	de	de	ADP	spcmp	_	17	case	17:case	_
 16	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	17:det	_
-17	mitjans	mitjà	NOUN	ncmp000	Gender=Masc|Number=Plur	11	obl	11:obl	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD
+17	mitjans	mitjà	NOUN	ncmp000	Gender=Masc|Number=Plur	11	nmod	11:nmod	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD
 18	de	de	ADP	sps00	_	19	case	19:case	_
 19	comunicació	comunicació	NOUN	ncfs000	Gender=Fem|Number=Sing	17	nmod	17:nmod	_
 20	de	de	ADP	sps00	_	22	case	22:case	_
