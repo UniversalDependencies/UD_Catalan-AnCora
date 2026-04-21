@@ -114,7 +114,7 @@
     <dep name="appos">7687</dep>
     <dep name="aux">16749</dep>
     <dep name="aux:pass">1</dep>
-    <dep name="case">77939</dep>
+    <dep name="case">77945</dep>
     <dep name="cc">14877</dep>
     <dep name="ccomp">4187</dep>
     <dep name="compound">2620</dep>
@@ -130,7 +130,7 @@
     <dep name="expl:impers">500</dep>
     <dep name="expl:pass">518</dep>
     <dep name="expl:pv">1</dep>
-    <dep name="fixed">9872</dep>
+    <dep name="fixed">9866</dep>
     <dep name="flat">18013</dep>
     <dep name="mark">15257</dep>
     <dep name="nmod">41298</dep>
