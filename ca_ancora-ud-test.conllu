@@ -527,8 +527,8 @@
 # sent_id = 3LB-CAT-06010100-23-s9
 # text = En principi no està previst incrementar el professorat, però sí que s'augmentaran les hores lectives.
 # orig_file_sentence 001#16
-1	En	en	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=En_principi|MWEPOS=ADV
-2	principi	principi	NOUN	_	_	1	fixed	1:fixed	_
+1	En	en	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=En_principi|MWEPOS=ADV
+2	principi	principi	NOUN	_	_	5	obl	5:obl	_
 3	no	no	ADV	rn	Polarity=Neg	5	advmod	5:advmod	_
 4	està	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 5	previst	previst	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
@@ -4215,9 +4215,9 @@
 39	,	,	PUNCT	fc	PunctType=Comm	40	punct	40:punct	_
 40	garantint	garantir	VERB	vmg0000	VerbForm=Ger	33	xcomp	33:xcomp	SpaceAfter=No|ArgTem=argM:mnr
 41	,	,	PUNCT	fc	PunctType=Comm	42	punct	42:punct	_
-42	per	per	ADP	rg	ExtPos=ADV	33	advmod	33:advmod	MWE=per_exemple|MWEPOS=ADV
-43	exemple	exemple	NOUN	_	_	42	fixed	42:fixed	SpaceAfter=No
-44	,	,	PUNCT	fc	PunctType=Comm	42	punct	42:punct	_
+42	per	per	ADP	rg	ExtPos=ADV	43	case	43:case	MWE=per_exemple|MWEPOS=ADV
+43	exemple	exemple	NOUN	_	_	33	obl	33:obl	SpaceAfter=No
+44	,	,	PUNCT	fc	PunctType=Comm	43	punct	43:punct	_
 45	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	46:det	_
 46	dret	dret	NOUN	ncms000	Gender=Masc|Number=Sing	40	obj	40:obj	ArgTem=arg1:pat
 47	a	a	ADP	sps00	_	48	mark	48:mark	_
@@ -4564,8 +4564,8 @@
 # sent_id = 3LB-CAT-06020300-11-s3
 # text = De fet aconseguir l'establiment de tots els líders mundials és un dels objectius que es planteja CILSA per a la nova ZAL-Prat, 'que per fi ens permet saltar el Llobregat', ha dit Bassols, que esdevé la més important d'Europa i la Mediterrània com a multimodal ja que integra carretera, port, aeroport i xarxa ferroviària.
 # orig_file_sentence 002#11
-1	De	de	ADP	rg	ExtPos=ADV	12	advmod	12:advmod	MWE=De_fet|MWEPOS=ADV
-2	fet	fet	NOUN	_	_	1	fixed	1:fixed	_
+1	De	de	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=De_fet|MWEPOS=ADV
+2	fet	fet	NOUN	_	_	12	obl	12:obl	_
 3	aconseguir	aconseguir	VERB	vmn0000	VerbForm=Inf	12	csubj	12:csubj	ArgTem=arg0:agt
 4	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	5	det	5:det	SpaceAfter=No
 5	establiment	establiment	NOUN	ncms000	Gender=Masc|Number=Sing	3	obj	3:obj	ArgTem=arg1:pat
@@ -5855,8 +5855,8 @@
 46	a	a	ADP	spcms	_	48	case	48:case	_
 47	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	48:det	_
 48	públic	públic	NOUN	ncms000	Gender=Masc|Number=Sing	30	conj	30:conj	_
-49	en	en	ADP	rg	ExtPos=ADV	48	advmod	48:advmod	MWE=en_general|MWEPOS=ADV
-50	general	general	NOUN	_	_	49	fixed	49:fixed	SpaceAfter=No
+49	en	en	ADP	rg	ExtPos=ADV	50	case	50:case	MWE=en_general|MWEPOS=ADV
+50	general	general	NOUN	_	_	48	obl	48:obl	SpaceAfter=No
 51	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
 
 # sent_id = 3LB-CAT-06020300-22-s5
@@ -6086,8 +6086,8 @@
 44	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	45:det	_
 45	misteri	misteri	NOUN	ncms000	Gender=Masc|Number=Sing	42	nmod	42:nmod	_
 46	que	que	PRON	pr0cn000	PronType=Rel	50	obj	50:obj	ArgTem=arg1:pat
-47	de	de	ADP	rg	ExtPos=ADV	50	advmod	50:advmod	MWE=de_fet|MWEPOS=ADV
-48	fet	fet	NOUN	_	_	47	fixed	47:fixed	_
+47	de	de	ADP	rg	ExtPos=ADV	48	case	48:case	MWE=de_fet|MWEPOS=ADV
+48	fet	fet	NOUN	_	_	50	obl	50:obl	_
 49	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	aux	50:aux	_
 50	mantingut	mantenir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	42	acl:relcl	42:acl:relcl	_
 51	sempre	sempre	ADV	rg	_	50	advmod	50:advmod	ArgTem=argM:tmp
@@ -6692,8 +6692,8 @@
 7	no	no	ADV	rn	Polarity=Neg	9	advmod	9:advmod	_
 8	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
 9	passat	passar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
-10	de	de	ADP	rg	ExtPos=ADV	9	advmod	9:advmod	MWE=de_llarg|MWEPOS=ADV|ArgTem=argM:adv
-11	llarg	llarg	NOUN	_	_	10	fixed	10:fixed	_
+10	de	de	ADP	rg	ExtPos=ADV	11	case	11:case	MWE=de_llarg|MWEPOS=ADV|ArgTem=argM:adv
+11	llarg	llarg	NOUN	_	_	9	obl	9:obl	_
 12	de	de	ADP	sps00	_	14	case	14:case	_
 13	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	Entity=(NOCOREF:Spec.location-place-2-gstype:spec
 14	ciutat	ciutat	NOUN	ncfs000	Gender=Fem|Number=Sing	9	obl	9:obl	ArgTem=arg3:ori
@@ -7979,8 +7979,8 @@
 6	'	'	PUNCT	fz	PunctType=Quot	8	punct	8:punct	SpaceAfter=No
 7	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
 8	resultar	resultar	VERB	vmn0000	VerbForm=Inf	14	xcomp	14:xcomp	ArgTem=arg1:pat
-9	en	en	ADP	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=en_definitiva|MWEPOS=ADV
-10	definitiva	definitiva	NOUN	_	_	9	fixed	9:fixed	_
+9	en	en	ADP	rg	ExtPos=ADV	10	case	10:case	MWE=en_definitiva|MWEPOS=ADV
+10	definitiva	definitiva	NOUN	_	_	8	obl	8:obl	_
 11	fals	fals	ADJ	aq0ms0	Gender=Masc|Number=Sing	8	obj	8:obj	SpaceAfter=No|ArgTem=arg2:atr
 12	'	'	PUNCT	fz	PunctType=Quot	8	punct	8:punct	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
@@ -10779,9 +10779,9 @@
 23	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	24:aux	_
 24	posicionat	posicionar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
 25	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
-26	per	per	ADP	rg	ExtPos=ADV	24	advmod	24:advmod	MWE=per_unanimitat|MWEPOS=ADV|ArgTem=argM:adv
-27	unanimitat	unanimitat	NOUN	_	_	26	fixed	26:fixed	SpaceAfter=No
-28	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
+26	per	per	ADP	rg	ExtPos=ADV	27	case	27:case	MWE=per_unanimitat|MWEPOS=ADV|ArgTem=argM:adv
+27	unanimitat	unanimitat	NOUN	_	_	24	obl	24:obl	SpaceAfter=No
+28	,	,	PUNCT	fc	PunctType=Comm	30	punct	30:punct	_
 29	en	en	ADP	sps00	_	30	case	30:case	_
 30	contra	contra	NOUN	ncfs000	Gender=Fem|Number=Sing	24	obl	24:obl	ArgTem=argM:adv
 31	de	de	ADP	sps00	_	33	case	33:case	_
@@ -14560,7 +14560,7 @@
 17	concretes	concret	ADJ	aq0fp0	Gender=Fem|Number=Plur	16	amod	16:amod	SpaceAfter=No|Entity=NOCOREF:Gen)
 18	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
 19	com	com	SCONJ	cs	_	15	mark	15:mark	_
-20	llavors	llavors	ADV	rg	_	19	advmod	19:advmod	SpaceAfter=No|ArgTem=argM:tmp
+20	llavors	llavors	ADV	rg	_	15	advmod	15:advmod	SpaceAfter=No|ArgTem=argM:tmp
 21	"	"	PUNCT	fe	PunctType=Quot	7	punct	7:punct	SpaceAfter=No
 22	.	.	PUNCT	fp	PunctType=Peri	7	punct	7:punct	_
 
@@ -14854,22 +14854,22 @@
 21	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	_
 22	país	país	NOUN	ncms000	Gender=Masc|Number=Sing	8	obl	8:obl	ArgTem=arg2:loc|Entity=(CESSCATA1999090174c6-place-1-gstype:spec,HomoDD
 23	pirinenc	pirinenc	ADJ	aq0ms0	Gender=Masc|Number=Sing	22	amod	22:amod	SpaceAfter=No|Entity=CESSCATA1999090174c6)
-24	,	,	PUNCT	fc	PunctType=Comm	31	punct	31:punct	_
-25	malgrat	malgrat	NOUN	cs	ExtPos=SCONJ	31	mark	31:mark	MWE=malgrat_que|MWEPOS=SCONJ
+24	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	_
+25	malgrat	malgrat	NOUN	cs	ExtPos=SCONJ	32	mark	32:mark	MWE=malgrat_que|MWEPOS=SCONJ
 26	que	que	SCONJ	_	_	25	fixed	25:fixed	_
 27	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	28:det	Entity=(CESSCATA1999090174c2--2-CorefType:ident,gstype:gen
-28	permís	permís	NOUN	ncms000	Gender=Masc|Number=Sing	31	nsubj	31:nsubj	ArgTem=arg1:tem|Entity=CESSCATA1999090174c2)
-29	està	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	31:cop	_
+28	permís	permís	NOUN	ncms000	Gender=Masc|Number=Sing	32	nsubj	32:nsubj	ArgTem=arg1:tem|Entity=CESSCATA1999090174c2)
+29	està	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	32:cop	_
 30	"	"	PUNCT	fe	PunctType=Quot	31	punct	31:punct	SpaceAfter=No
-31	en	en	ADP	rg	_	18	advcl	18:advcl	MWE=en_suspens|MWEPOS=ADV|ArgTem=arg2:atr
-32	suspens	suspens	NOUN	_	_	31	fixed	31:fixed	SpaceAfter=No
-33	"	"	PUNCT	fe	PunctType=Quot	31	punct	31:punct	_
+31	en	en	ADP	rg	_	32	case	32:case	MWE=en_suspens|MWEPOS=ADV|ArgTem=arg2:atr
+32	suspens	suspens	NOUN	_	_	18	advcl	18:advcl	SpaceAfter=No
+33	"	"	PUNCT	fe	PunctType=Quot	32	punct	32:punct	_
 34	fins	fins	ADP	sps00	_	39	mark	39:mark	_
 35	que	que	SCONJ	cs	_	39	mark	39:mark	_
 36	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	37	det	37:det	SpaceAfter=No|Entity=(CESSCATA1999090174c1-organization-2-CorefType:ident,gstype:spec
 37	entitat	entitat	NOUN	ncfs000	Gender=Fem|Number=Sing	39	nsubj	39:nsubj	ArgTem=arg0:agt
 38	catalana	català	ADJ	aq0fs0	Gender=Fem|Number=Sing	37	amod	37:amod	Entity=CESSCATA1999090174c1)
-39	presenti	presentar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	advcl	31:advcl	ArgTem=argM:tmp
+39	presenti	presentar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	32:advcl	ArgTem=argM:tmp
 40	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	41	det	41:det	SpaceAfter=No|Entity=(CESSCATA1999090174c3--2-CorefType:ident,gstype:gen,HomoDD
 41	autorització	autorització	NOUN	ncfs000	Gender=Fem|Number=Sing	39	obj	39:obj	ArgTem=arg1:pat
 42	corresponent	corresponent	ADJ	aq0cs0	Number=Sing	41	amod	41:amod	_
@@ -16189,9 +16189,9 @@
 1	L'	ell	PRON	pp3csa00	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	2	obj	2:obj	SpaceAfter=No|ArgTem=arg1:tem|Entity=(CESSCATA1999120212c11--1-CorefType:ident,gstype:gen)
 2	inquieta	inquietar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
-4	en	en	ADP	rg	ExtPos=ADV	2	advmod	2:advmod	MWE=en_canvi|MWEPOS=ADV
-5	canvi	canvi	NOUN	_	_	4	fixed	4:fixed	SpaceAfter=No
-6	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
+4	en	en	ADP	rg	ExtPos=ADV	5	case	5:case	MWE=en_canvi|MWEPOS=ADV
+5	canvi	canvi	NOUN	_	_	2	obl	2:obl	SpaceAfter=No
+6	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 8	proliferació	proliferació	NOUN	ncfs000	Gender=Fem|Number=Sing	2	nsubj	2:nsubj	ArgTem=arg0:cau
 9	de	de	ADP	sps00	_	10	case	10:case	_
@@ -18081,10 +18081,10 @@
 # orig_file_sentence 007#40
 0.1	_	_	PRON	p	_	_	_	1:nsubj	ArgTem=arg1:tem|Entity=(CESSCATA200003084318c7--1-CorefType:ident,gstype:gen)
 1	Són	ser	AUX	vsip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	SpaceAfter=No
-2	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
-3	en	en	ADP	rg	ExtPos=ADV	7	advmod	7:advmod	MWE=en_concret|MWEPOS=ADV|ArgTem=argM:adv
-4	concret	concret	NOUN	_	_	3	fixed	3:fixed	SpaceAfter=No
-5	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
+2	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
+3	en	en	ADP	rg	ExtPos=ADV	4	case	4:case	MWE=en_concret|MWEPOS=ADV|ArgTem=argM:adv
+4	concret	concret	NOUN	_	_	7	obl	7:obl	SpaceAfter=No
+5	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 6	212	212	NUM	_	NumForm=Digit|NumType=Card	7	nummod	7:nummod	_
 7	préstecs	préstec	NOUN	ncmp000	Gender=Masc|Number=Plur	22	parataxis	22:parataxis	ArgTem=arg2:atr
 8	directes	directe	ADJ	aq0cp0	Number=Plur	7	amod	7:amod	_
@@ -18533,14 +18533,14 @@
 10	hi	hi	PRON	pp3cn000	Case=Loc|Person=3|PronType=Prs	11	obl:arg	11:obl:arg	_
 11	ha	haver	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 12	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
-13	per	per	ADP	rg	_	11	obl:arg	11:obl:arg	MWE=per_exemple|MWEPOS=ADV
-14	exemple	exemple	NOUN	_	_	13	fixed	13:fixed	SpaceAfter=No
+13	per	per	ADP	rg	_	14	case	14:case	MWE=per_exemple|MWEPOS=ADV
+14	exemple	exemple	NOUN	_	_	11	obl:arg	11:obl:arg	SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
-16	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	13:det	Entity=(NOCOREF:Gen--4-gstype:gen
+16	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	14:det	Entity=(NOCOREF:Gen--4-gstype:gen
 17-18	dels	_	_	_	_	_	_	_	_
-17	de	de	ADP	spcmp	_	13	case	13:case	_
-18	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	13:det	_
-19	pares	pare	NOUN	ncmp000	Gender=Masc|Number=Plur	13	nmod	13:nmod	ArgTem=arg1:tem|Entity=(CESSCATA200005299624c15--1-gstype:gen,HomoDD
+17	de	de	ADP	spcmp	_	14	case	14:case	_
+18	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	14:det	_
+19	pares	pare	NOUN	ncmp000	Gender=Masc|Number=Plur	14	nmod	14:nmod	ArgTem=arg1:tem|Entity=(CESSCATA200005299624c15--1-gstype:gen,HomoDD
 20	que	que	PRON	pr0cn000	PronType=Rel	27	nsubj	27:nsubj	ArgTem=arg0:agt|Entity=(CESSCATA200005299624c15--1-CorefType:ident,gstype:gen)
 21	per	per	ADP	sps00	_	22	case	22:case	_
 22	raons	raó	NOUN	ncfp000	Gender=Fem|Number=Plur	27	obl	27:obl	ArgTem=argM:cau|Entity=(NOCOREF:Gen--1-gstype:gen
@@ -20132,9 +20132,9 @@
 1	A	a	ADP	sps00	_	2	case	2:case	_
 2	Tarragona	Tarragona	PROPN	np0000l	_	14	obl	14:obl	SpaceAfter=No|ArgTem=argM:loc|Entity=(CESSCATA2000061310690c2-place-1-CorefType:ident,gstype:spec)
 3	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
-4	en	en	ADP	rg	ExtPos=ADV	14	advmod	14:advmod	MWE=en_canvi|MWEPOS=ADV
-5	canvi	canvi	NOUN	_	_	4	fixed	4:fixed	SpaceAfter=No
-6	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
+4	en	en	ADP	rg	ExtPos=ADV	5	case	5:case	MWE=en_canvi|MWEPOS=ADV
+5	canvi	canvi	NOUN	_	_	14	obl	14:obl	SpaceAfter=No
+6	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	8:det	Entity=(CESSCATA2000061310690c20-other-2-CorefType:ident,gstype:spec,HomoDD
 8	inflació	inflació	NOUN	ncfs000	Gender=Fem|Number=Sing	14	nsubj	14:nsubj	ArgTem=arg1:tem
 9	acumulada	acumulat	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	8	amod	8:amod	Entity=CESSCATA2000061310690c20)
@@ -21292,11 +21292,11 @@
 18	sinó	sinó	CCONJ	cc	_	20	cc	20:cc	_
 19	de	de	ADP	sps00	_	20	case	20:case	_
 20	revistes	revista	NOUN	ncfp000	Gender=Fem|Number=Plur	16	conj	16:conj	_
-21	en	en	ADP	rg	ExtPos=ADV	20	advmod	20:advmod	MWE=en_general|MWEPOS=ADV
-22	general	general	NOUN	_	_	21	fixed	21:fixed	SpaceAfter=No
+21	en	en	ADP	rg	ExtPos=ADV	22	case	22:case	MWE=en_general|MWEPOS=ADV
+22	general	general	NOUN	_	_	20	obl	20:obl	SpaceAfter=No
 23	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 24	de	de	ADP	sps00	_	25	case	25:case	_
-25	divulgació	divulgació	NOUN	ncfs000	Gender=Fem|Number=Sing	21	obl	21:obl	_
+25	divulgació	divulgació	NOUN	ncfs000	Gender=Fem|Number=Sing	22	obl	22:obl	_
 26	d'	de	ADP	sps00	_	27	case	27:case	SpaceAfter=No
 27	informació	informació	NOUN	ncfs000	Gender=Fem|Number=Sing	25	nmod	25:nmod	Entity=(NOCOREF:Gen--1-gstype:gen
 28	generalista	generalista	ADJ	aq0cs0	Number=Sing	27	amod	27:amod	SpaceAfter=No|Entity=NOCOREF:Gen)
@@ -21817,9 +21817,9 @@
 # sent_id = CESS-CAT-A-20000802-12-s7
 # text = En definitiva, el que pretén és treure beneficis d'un debat confús, irreal i que s'ha resolt a partir de la irracionalitat.
 # orig_file_sentence 006#11
-1	En	en	ADP	rg	ExtPos=ADV	7	advmod	7:advmod	MWE=En_definitiva|MWEPOS=ADV
-2	definitiva	definitiva	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
-3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
+1	En	en	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=En_definitiva|MWEPOS=ADV
+2	definitiva	definitiva	NOUN	_	_	7	obl	7:obl	SpaceAfter=No
+3	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	nsubj	7:nsubj	Entity=(NOCOREF:Gen--4-gstype:gen,HomoDD
 5	que	que	PRON	pr0cn000	PronType=Rel	6	obj	6:obj	ArgTem=arg1:pat
 5.1	_	_	PRON	p	_	_	_	6:nsubj	ArgTem=arg0:agt|Entity=(CESSCATA2000080212c3-organization-1-CorefType:ident,gstype:spec)
@@ -22404,9 +22404,9 @@
 15	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	16:det	Entity=(CESSCATA2000080212c8--2-CorefType:ident,gstype:gen
 16	extracomunitaris	extracomunitari	ADJ	aq0mp0	Gender=Masc|Number=Plur	9	conj	9:conj	SpaceAfter=No|Entity=CESSCATA2000080212c8)
 17	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
-18	en	en	ADP	rg	ExtPos=ADV	16	advmod	16:advmod	MWE=en_canvi|MWEPOS=ADV
-19	canvi	canvi	NOUN	_	_	18	fixed	18:fixed	SpaceAfter=No
-20	,	,	PUNCT	fc	PunctType=Comm	18	punct	18:punct	_
+18	en	en	ADP	rg	ExtPos=ADV	19	case	19:case	MWE=en_canvi|MWEPOS=ADV
+19	canvi	canvi	NOUN	_	_	16	obl	16:obl	SpaceAfter=No
+20	,	,	PUNCT	fc	PunctType=Comm	21	punct	21:punct	_
 21	no	no	ADV	rn	Polarity=Neg	16	advmod	16:advmod	SpaceAfter=No
 22	?	?	PUNCT	fit	PunctSide=Fin|PunctType=Qest	3	punct	3:punct	_
 
@@ -22747,8 +22747,8 @@
 # sent_id = CESS-CAT-A-20000802-12-s33
 # text = En definitiva cal apostar per polítiques actives en la integració social i política dels ciutadans que ja avui formen part activa de la nostra societat.
 # orig_file_sentence 006#37
-1	En	en	ADP	rg	ExtPos=ADV	3	advmod	3:advmod	MWE=En_definitiva|MWEPOS=ADV
-2	definitiva	definitiva	NOUN	_	_	1	fixed	1:fixed	_
+1	En	en	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=En_definitiva|MWEPOS=ADV
+2	definitiva	definitiva	NOUN	_	_	3	obl	3:obl	_
 3	cal	caldre	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	apostar	apostar	VERB	vmn0000	VerbForm=Inf	3	csubj	3:csubj	ArgTem=arg1:tem
 5	per	per	ADP	sps00	_	6	case	6:case	_
@@ -23327,9 +23327,9 @@
 34	projecte	projecte	NOUN	ncms000	Gender=Masc|Number=Sing	28	obl	28:obl	ArgTem=argM:adv|Entity=CESSCATA2000082814291c5)
 35	i	i	CCONJ	cc	_	42	cc	42:cc	SpaceAfter=No
 36	,	,	PUNCT	fc	PunctType=Comm	35	punct	35:punct	_
-37	en	en	ADP	rg	ExtPos=ADV	42	advmod	42:advmod	MWE=en_general|MWEPOS=ADV
-38	general	general	NOUN	_	_	37	fixed	37:fixed	SpaceAfter=No
-39	,	,	PUNCT	fc	PunctType=Comm	37	punct	37:punct	_
+37	en	en	ADP	rg	ExtPos=ADV	38	case	38:case	MWE=en_general|MWEPOS=ADV
+38	general	general	NOUN	_	_	42	obl	42:obl	SpaceAfter=No
+39	,	,	PUNCT	fc	PunctType=Comm	38	punct	38:punct	_
 40	perquè	perquè	SCONJ	cs	_	42	mark	42:mark	_
 40.1	_	_	PRON	p	_	_	_	41:nsubj	ArgTem=arg1:tem|Entity=(CESSCATA2000082814291c1-person-1-CorefType:ident,gstype:spec)
 41	està	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	42:cop	ArgTem=argM:cau
@@ -24662,8 +24662,8 @@
 15	hi	hi	PRON	pp3cn000	Case=Loc|Person=3|PronType=Prs	17	obl:arg	17:obl:arg	Entity=(CESSCATA2000121321562c1--1-CorefType:ident,gstype:gen)
 16	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	17:aux	_
 17	manifestat	manifestar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
-18	en	en	ADP	rg	ExtPos=ADV	17	advmod	17:advmod	MWE=en_contra|MWEPOS=ADV|ArgTem=argM:mnr
-19	contra	contra	NOUN	_	_	18	fixed	18:fixed	_
+18	en	en	ADP	rg	ExtPos=ADV	19	case	19:case	MWE=en_contra|MWEPOS=ADV|ArgTem=argM:mnr
+19	contra	contra	NOUN	_	_	17	obl	17:obl	_
 20	en	en	ADP	sps00	_	21	mark	21:mark	_
 21	considerar	considerar	VERB	vmn0000	VerbForm=Inf	17	advcl	17:advcl	ArgTem=argM:cau
 22	que	que	SCONJ	cs	_	25	mark	25:mark	_
@@ -25096,9 +25096,9 @@
 # sent_id = CESS-CAT-A-20010117-23467-s8
 # text = De fet, la noia presentava fractura de pelvis, turmell i cama i va ser atesa a un centre hospitalari.
 # orig_file_sentence 006#86
-1	De	de	ADP	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=De_fet|MWEPOS=ADV
-2	fet	fet	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
-3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
+1	De	de	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=De_fet|MWEPOS=ADV
+2	fet	fet	NOUN	_	_	6	obl	6:obl	SpaceAfter=No
+3	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCATA2001011723467c14--2-CorefType:ident,gstype:gen
 5	noia	noia	NOUN	ncfs000	Gender=Fem|Number=Sing	6	nsubj	6:nsubj	ArgTem=arg1:tem|Entity=CESSCATA2001011723467c14)
 6	presentava	presentar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
@@ -25457,7 +25457,7 @@
 35	(	(	PUNCT	fpa	PunctSide=Ini|PunctType=Brck	36	punct	36:punct	SpaceAfter=No|Entity=(CESSCATA2001070173c6-organization-2-CorefType:ident,gstype:spec
 36	EA	EA	PROPN	np0000o	_	33	flat	33:flat	SpaceAfter=No
 37	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	36	punct	36:punct	SpaceAfter=No|Entity=CESSCATA2001070173c6)NOCOREF:Spec.person)NOCOREF:Gen)
-38	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
+38	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
 39	a	a	ADP	sps00	_	41	case	41:case	_
 40	"	"	PUNCT	fe	PunctType=Quot	41	punct	41:punct	SpaceAfter=No|Entity=(CESSCATA2001070173c17--2-gstype:gen
 41	problemes	problema	NOUN	ncmp000	Gender=Masc|Number=Plur	19	obl:arg	19:obl:arg	ArgTem=arg2:atr
@@ -26386,9 +26386,9 @@
 # sent_id = CESS-CAT-A-20011005-40005-s4
 # text = De fet, a la breu introducció prèvia a la projecció, feta per una de les actrius del film, Joanna Cassidy - coneguda arran de la mítica 'Blade Runner', de Ridley Scott - no hi han faltat referències a la psicosi que s'ha desencadenat a Nord-Amèrica després de l'11 de setembre.
 # orig_file_sentence 006#99
-1	De	de	ADP	rg	ExtPos=ADV	43	advmod	43:advmod	MWE=De_fet|MWEPOS=ADV
-2	fet	fet	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
-3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
+1	De	de	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=De_fet|MWEPOS=ADV
+2	fet	fet	NOUN	_	_	43	obl	43:obl	SpaceAfter=No
+3	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 4	a	a	ADP	sps00	_	7	case	7:case	_
 5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	Entity=(CESSCATA2001100540005c7--3-gstype:gen,HomoDD
 6	breu	breu	ADJ	aq0cs0	Number=Sing	7	amod	7:amod	_
@@ -27030,10 +27030,10 @@
 2	vocalista	vocalista	NOUN	nccs000	Number=Sing	9	nsubj	9:nsubj	ArgTem=arg0:agt
 3	Belén	Belén	PROPN	np0000p	_	2	appos	2:appos	MWE=Belén_Alonso|MWEPOS=PROPN|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 4	Alonso	Alonso	PROPN	_	_	3	flat	3:flat	SpaceAfter=No|Entity=NOCOREF:Spec.person)CESSCATA2001102241084c4)
-5	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
-6	en	en	ADP	rg	ExtPos=ADV	9	advmod	9:advmod	MWE=en_canvi|MWEPOS=ADV
-7	canvi	canvi	NOUN	_	_	6	fixed	6:fixed	SpaceAfter=No
-8	,	,	PUNCT	fc	PunctType=Comm	6	punct	6:punct	_
+5	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
+6	en	en	ADP	rg	ExtPos=ADV	7	case	7:case	MWE=en_canvi|MWEPOS=ADV
+7	canvi	canvi	NOUN	_	_	9	obl	9:obl	SpaceAfter=No
+8	,	,	PUNCT	fc	PunctType=Comm	7	punct	7:punct	_
 9	interpreta	interpretar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 10	temes	tema	NOUN	ncmp000	Gender=Masc|Number=Plur	9	obj	9:obj	ArgTem=arg1:pat|Entity=(CESSCATA2001102241084c5--1-gstype:gen
 11	de	de	ADP	sps00	_	13	case	13:case	_
@@ -27720,8 +27720,8 @@
 14	cobrament	cobrament	NOUN	ncms000	Gender=Masc|Number=Sing	12	obj	12:obj	ArgTem=argL:
 15	de	de	ADP	sps00	_	16	case	16:case	_
 16	quantitats	quantitat	NOUN	ncfp000	Gender=Fem|Number=Plur	14	nmod	14:nmod	Entity=(CESSCATA2001111342553c3--1-CorefType:ident,gstype:gen)NOCOREF:Gen)
-17	en	en	ADP	rg	ExtPos=ADV	12	advmod	12:advmod	MWE=en_efectiu|MWEPOS=ADV|ArgTem=argM:adv
-18	efectiu	efectiu	NOUN	_	_	17	fixed	17:fixed	_
+17	en	en	ADP	rg	ExtPos=ADV	18	case	18:case	MWE=en_efectiu|MWEPOS=ADV|ArgTem=argM:adv
+18	efectiu	efectiu	NOUN	_	_	12	obl	12:obl	_
 19	quan	quan	SCONJ	cs	_	22	mark	22:mark	_
 20	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	21:det	Entity=(CESSCATA2001111342553c16--2-CorefType:ident,gstype:gen
 21	compradors	comprador	NOUN	ncmp000	Gender=Masc|Number=Plur	22	nsubj	22:nsubj	ArgTem=arg0:agt|Entity=CESSCATA2001111342553c16)
@@ -27850,16 +27850,16 @@
 19	així	així	ADV	cs	_	0	root	0:root	MWE=així_com|MWEPOS=SCONJ
 20	com	com	SCONJ	_	_	19	fixed	19:fixed	_
 21	posteriorment	posteriorment	ADV	rg	_	28	advmod	28:advmod	SpaceAfter=No
-22	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
+22	,	,	PUNCT	fc	PunctType=Comm	21	punct	21:punct	_
 23	en	en	ADP	sps00	_	24	case	24:case	_
 24	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	28:det	Entity=(NOCOREF:Gen--1-gstype:gen
 25	d'	de	ADP	sps00	_	28	case	28:case	SpaceAfter=No
 26	abril	abril	NOUN	_	_	28	nmod	28:nmod	Entity=(NOCOREF:Spec.date-time-1-gstype:spec)NOCOREF:Gen)|SpaceAfter=No
-27	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	_
+27	,	,	PUNCT	fc	PunctType=Comm	26	punct	26:punct	_
 28	200.000	200000	NUM	_	NumForm=Digit|NumType=Card	19	parataxis	19:parataxis	Entity=(NOCOREF:Gen--1-gstype:gen
 29	més	més	ADV	rg	Degree=Cmp	28	advmod	28:advmod	Entity=NOCOREF:Gen)
-30	en	en	ADP	rg	ExtPos=ADV	28	advmod	28:advmod	MWE=en_efectiu|MWEPOS=ADV
-31	efectiu	efectiu	NOUN	_	_	30	fixed	30:fixed	_
+30	en	en	ADP	rg	ExtPos=ADV	31	case	31:case	MWE=en_efectiu|MWEPOS=ADV
+31	efectiu	efectiu	NOUN	_	_	28	obl	28:obl	_
 32	i	i	CCONJ	cc	_	34	cc	34:cc	_
 33	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	34	nummod	34:nummod	Entity=(NOCOREF:Gen--2-gstype:gen
 34	lletres	lletra	NOUN	ncfp000	Gender=Fem|Number=Plur	28	conj	28:conj	_
@@ -28675,8 +28675,8 @@
 53	Estabilitat	Estabilitat	PROPN	_	_	51	flat	51:flat	_
 54	Pressupostària	Pressupostària	PROPN	_	_	53	flat	53:flat	Entity=NOCOREF:Spec.other)CESSCATA2002022549494c7)
 55	però	però	CCONJ	cc	_	60	cc	60:cc	_
-56	en	en	ADP	rg	ExtPos=ADV	60	advmod	60:advmod	MWE=en_canvi|MWEPOS=ADV
-57	canvi	canvi	NOUN	_	_	56	fixed	56:fixed	_
+56	en	en	ADP	rg	ExtPos=ADV	57	case	57:case	MWE=en_canvi|MWEPOS=ADV
+57	canvi	canvi	NOUN	_	_	60	obl	60:obl	_
 58	no	no	ADV	rn	Polarity=Neg	60	advmod	60:advmod	_
 59	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	60	obj	60:obj	_
 60	farà	fer	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	41	conj	41:conj	_
@@ -28956,26 +28956,26 @@
 12	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	Entity=(NOCOREF:Spec.other-other-2-gstype:spec
 13	Llei	Llei	PROPN	np0000a	_	10	nmod	10:nmod	MWE=Llei_Electoral|MWEPOS=PROPN
 14	Electoral	Electoral	PROPN	_	_	13	flat	13:flat	Entity=NOCOREF:Spec.other)
-15	que	que	SCONJ	cs	_	25	mark	25:mark	_
+15	que	que	SCONJ	cs	_	26	mark	26:mark	_
 16	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	17:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-17	quota	quota	NOUN	ncfs000	Gender=Fem|Number=Sing	25	nsubj	25:nsubj	ArgTem=arg1:tem
+17	quota	quota	NOUN	ncfs000	Gender=Fem|Number=Sing	26	nsubj	26:nsubj	ArgTem=arg1:tem
 18	tant	tant	ADV	rg	_	20	cc	20:cc	_
 19	d'	de	ADP	sps00	_	20	case	20:case	SpaceAfter=No
 20	homes	home	NOUN	ncmp000	Gender=Masc|Number=Plur	17	nmod	17:nmod	_
 21	com	com	SCONJ	cs	_	23	cc	23:cc	_
 22	de	de	ADP	sps00	_	23	case	23:case	_
 23	dones	dona	NOUN	ncfp000	Gender=Fem|Number=Plur	20	conj	20:conj	Entity=NOCOREF:Gen)
-24	estigui	estar	AUX	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	25:cop	_
-25	per	per	ADP	rg	_	10	acl	10:acl	MWE=per_sota|MWEPOS=ADV|ArgTem=arg2:atr
-26	sota	sota	NOUN	_	_	25	fixed	25:fixed	_
+24	estigui	estar	AUX	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	26:cop	_
+25	per	per	ADP	rg	_	26	case	26:case	MWE=per_sota|MWEPOS=ADV|ArgTem=arg2:atr
+26	sota	sota	NOUN	_	_	10	acl	10:acl	_
 27-28	del	_	_	_	_	_	_	_	_
 27	de	de	ADP	spcms	_	30	case	30:case	_
 28	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	30:det	_
 29	40	40	NUM	_	NumForm=Digit|NumType=Card	30	nummod	30:nummod	SpaceAfter=No
-30	%	%	SYM	zp	_	25	obl	25:obl	Entity=(NOCOREF:Spec.number-number-1-gstype:spec)
+30	%	%	SYM	zp	_	26	obl	26:obl	Entity=(NOCOREF:Spec.number-number-1-gstype:spec)
 31	a	a	ADP	sps00	_	33	case	33:case	_
 32	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	33:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-33	llistes	llista	NOUN	ncfp000	Gender=Fem|Number=Plur	25	obl	25:obl	ArgTem=argM:loc
+33	llistes	llista	NOUN	ncfp000	Gender=Fem|Number=Plur	26	obl	26:obl	ArgTem=argM:loc
 34	electorals	electoral	ADJ	aq0cp0	Number=Plur	33	amod	33:amod	SpaceAfter=No|Entity=NOCOREF:Gen)NOCOREF:Gen)
 35	.	.	PUNCT	fp	PunctType=Peri	7	punct	7:punct	_
 
@@ -29870,11 +29870,11 @@
 19	,	,	PUNCT	fc	PunctType=Comm	21	punct	21:punct	_
 20	una	un	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	21	det	21:det	_
 21	idiosincràsia	idiosincràsia	NOUN	ncfs000	Gender=Fem|Number=Sing	12	appos	12:appos	_
-22	a	a	ADP	rg	ExtPos=ADV	21	advmod	21:advmod	MWE=a_cavall|MWEPOS=ADV
-23	cavall	cavall	NOUN	_	_	22	fixed	22:fixed	_
-24	entre	entre	ADP	sps00	_	22	case	22:case	_
+22	a	a	ADP	rg	ExtPos=ADV	23	case	23:case	MWE=a_cavall|MWEPOS=ADV
+23	cavall	cavall	NOUN	_	_	21	obl	21:obl	_
+24	entre	entre	ADP	sps00	_	23	case	23:case	_
 25	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	26:det	Entity=(NOCOREF:Gen--2-gstype:gen
-26	catalana	català	ADJ	aq0fs0	Gender=Fem|Number=Sing	22	amod	22:amod	Entity=NOCOREF:Gen)
+26	catalana	català	ADJ	aq0fs0	Gender=Fem|Number=Sing	23	amod	23:amod	Entity=NOCOREF:Gen)
 27	i	i	CCONJ	cc	_	29	cc	29:cc	_
 28	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	29:det	Entity=(NOCOREF:Gen--2-gstype:gen
 29	francesa	francès	ADJ	aq0fs0	Gender=Fem|Number=Sing	26	conj	26:conj	SpaceAfter=No|Entity=NOCOREF:Gen)NOCOREF:Gen)CESSCATA2003050786093c7_PLUS_CESSCATA2003050786093c8)
@@ -30266,9 +30266,9 @@
 # sent_id = CESS-CAT-A-20030507-86093-s17
 # text = De fet, s'estan començant a posar les bases, i la Generalitat i el Conselh han començat a demanar la col·laboració dels sectors per iniciar les bases d'un pla d'ordenació territorial, que servirà com a punt de partida per a un pla general d'urbanisme.
 # orig_file_sentence 008#34
-1	De	de	ADP	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=De_fet|MWEPOS=ADV
-2	fet	fet	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
-3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
+1	De	de	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=De_fet|MWEPOS=ADV
+2	fet	fet	NOUN	_	_	6	obl	6:obl	SpaceAfter=No
+3	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 4	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	6	obj	6:obj	SpaceAfter=No
 5	estan	estar	AUX	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 6	començant	començar	VERB	vmg0000	VerbForm=Ger	0	root	0:root	_
@@ -30571,9 +30571,9 @@
 # sent_id = CESS-CAT-A-20030507-86093-s26
 # text = De fet, 'cal que els establiments familiars que haurien d'apostar pels esforços de desestacionalització i matenir-se obert tot l'any'.
 # orig_file_sentence 008#43
-1	De	de	ADP	rg	ExtPos=ADV	5	advmod	5:advmod	MWE=De_fet|MWEPOS=ADV
-2	fet	fet	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
-3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
+1	De	de	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=De_fet|MWEPOS=ADV
+2	fet	fet	NOUN	_	_	5	obl	5:obl	SpaceAfter=No
+3	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 4	'	'	PUNCT	fz	PunctType=Quot	5	punct	5:punct	SpaceAfter=No
 5	cal	caldre	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	que	que	SCONJ	cs	_	8	mark	8:mark	_
@@ -31099,9 +31099,9 @@
 # sent_id = CESS-CAT-A-20030527-89190-s3
 # text = En concret, el Pla preveu una inversió de 48,5 milions d'euros durant aquest any 2003 i una inversió de 107,5 milions d'euros durant l'any 2004.
 # orig_file_sentence 008#57
-1	En	en	ADP	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=En_concret|MWEPOS=ADV
-2	concret	concret	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
-3	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
+1	En	en	ADP	rg	ExtPos=ADV	2	case	2:case	MWE=En_concret|MWEPOS=ADV
+2	concret	concret	NOUN	_	_	6	obl	6:obl	SpaceAfter=No
+3	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCATA2003052789190c2-other-2-CorefType:ident,gstype:spec
 5	Pla	Pla	PROPN	np0000a	_	6	nsubj	6:nsubj	ArgTem=arg0:agt|Entity=CESSCATA2003052789190c2)
 6	preveu	preveure	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -31632,7 +31632,7 @@
 24	de	de	ADP	sps00	_	26	case	26:case	_
 25	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	26:det	Entity=(CESSCATA20031222110802c15-place-2-CorefType:ident,gstype:spec
 26	zona	zona	NOUN	ncfs000	Gender=Fem|Number=Sing	22	nmod	22:nmod	SpaceAfter=No|Entity=CESSCATA20031222110802c15)NOCOREF:Gen)
-27	'	'	PUNCT	fz	PunctType=Quot	26	punct	26:punct	_
+27	'	'	PUNCT	fz	PunctType=Quot	22	punct	22:punct	_
 28	i	i	CCONJ	cc	_	31	cc	31:cc	_
 29-30	dels	_	_	_	_	_	_	_	_
 29	de	de	ADP	spcmp	_	31	case	31:case	_
@@ -34323,9 +34323,9 @@
 26	no	no	ADV	rn	Polarity=Neg	27	advmod	27:advmod	_
 27	pretén	pretendre	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl	SpaceAfter=No
 28	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	_
-29	de	de	ADP	rg	ExtPos=ADV	27	advmod	27:advmod	MWE=de_moment|MWEPOS=ADV
-30	moment	moment	NOUN	_	_	29	fixed	29:fixed	SpaceAfter=No
-31	,	,	PUNCT	fc	PunctType=Comm	29	punct	29:punct	_
+29	de	de	ADP	rg	ExtPos=ADV	30	case	30:case	MWE=de_moment|MWEPOS=ADV
+30	moment	moment	NOUN	_	_	27	obl	27:obl	SpaceAfter=No
+31	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
 32	canviar	canviar	VERB	vmn0000	VerbForm=Inf	27	xcomp	27:xcomp	ArgTem=arg1:pat
 33	de	de	ADP	sps00	_	34	case	34:case	_
 34	domicili	domicili	NOUN	ncms000	Gender=Masc|Number=Sing	32	obl:arg	32:obl:arg	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--1-gstype:gen)
@@ -35102,8 +35102,8 @@
 17	de	de	ADP	sps00	_	18	case	18:case	_
 18	perplexitat	perplexitat	NOUN	ncfs000	Gender=Fem|Number=Sing	16	nmod	16:nmod	_
 19	que	que	PRON	pr0cn000	PronType=Rel	22	obj	22:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP1999020223c6--1-CorefType:ident,gstype:gen)
-20	a	a	ADP	rg	ExtPos=ADV	22	advmod	22:advmod	MWE=a_vegades|MWEPOS=ADV|ArgTem=argM:adv
-21	vegades	vegada	NOUN	_	_	20	fixed	20:fixed	_
+20	a	a	ADP	rg	ExtPos=ADV	21	case	21:case	MWE=a_vegades|MWEPOS=ADV|ArgTem=argM:adv
+21	vegades	vegada	NOUN	_	_	22	obl	22:obl	_
 22	creen	crear	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	16:acl:relcl	_
 23	algunes	algun	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	24	det	24:det	Entity=(NOCOREF:Gen--2-gstype:gen
 24	decisions	decisió	NOUN	ncfp000	Gender=Fem|Number=Plur	22	nsubj	22:nsubj	ArgTem=arg0:agt
@@ -35134,8 +35134,8 @@
 19	com	com	SCONJ	cs	_	20	mark	20:mark	_
 20	ho	ell	PRON	pp3nn000	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	advcl	18:advcl	ArgTem=arg2:atr
 21	és	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	20:cop	_
-22	per	per	ADP	rg	ExtPos=ADV	25	advmod	25:advmod	MWE=per_exemple|MWEPOS=ADV
-23	exemple	exemple	NOUN	_	_	22	fixed	22:fixed	_
+22	per	per	ADP	rg	ExtPos=ADV	23	case	23:case	MWE=per_exemple|MWEPOS=ADV
+23	exemple	exemple	NOUN	_	_	25	nmod	25:nmod	_
 24	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	25	det	25:det	Entity=(NOCOREF:Gen--2-gstype:gen
 25	àrbitre	àrbitre	NOUN	ncms000	Gender=Masc|Number=Sing	20	nsubj	20:nsubj	ArgTem=arg1:tem
 26	de	de	ADP	sps00	_	27	case	27:case	_
@@ -35571,7 +35571,7 @@
 19	mal	mal	NOUN	ncms000	Gender=Masc|Number=Sing	18	obj	18:obj	ArgTem=argL:
 20	a	a	ADP	sps00	_	21	case	21:case	_
 21	Marbella	Marbella	PROPN	np0000l	_	18	obl	18:obl	SpaceAfter=No|ArgTem=argM:loc|Entity=(CESSCATAAP1999020286c16-place-1-CorefType:ident,gstype:spec)CESSCATAAP1999020286c11)
-22	"	"	PUNCT	fe	PunctType=Quot	12	punct	12:punct	SpaceAfter=No
+22	"	"	PUNCT	fe	PunctType=Quot	16	punct	16:punct	SpaceAfter=No
 23	,	,	PUNCT	fc	PunctType=Comm	34	punct	34:punct	_
 24	ja	ja	ADV	cs	ExtPos=SCONJ	34	mark	34:mark	MWE=ja_que|MWEPOS=SCONJ
 25	que	que	SCONJ	_	_	24	fixed	24:fixed	SpaceAfter=No
@@ -35982,9 +35982,9 @@
 29	moció	moció	NOUN	ncfs000	Gender=Fem|Number=Sing	27	obj	27:obj	ArgTem=arg1:pat
 30	de	de	ADP	sps00	_	31	case	31:case	_
 31	censura	censura	NOUN	ncfs000	Gender=Fem|Number=Sing	29	nmod	29:nmod	Entity=CESSCATAAP1999030246c5)
-32	en	en	ADP	rg	ExtPos=ADV	27	advmod	27:advmod	MWE=en_contra|MWEPOS=ADV|ArgTem=argM:adv
-33	contra	contra	NOUN	_	_	32	fixed	32:fixed	_
-34	seu	seu	PRON	px3ms000	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	obl	32:obl	Entity=(CESSCATAAP1999030246c1-person-1-CorefType:ident,gstype:spec)CESSCATAAP1999030246c4)
+32	en	en	ADP	rg	ExtPos=ADV	33	case	33:case	MWE=en_contra|MWEPOS=ADV|ArgTem=argM:adv
+33	contra	contra	NOUN	_	_	27	obl	27:obl	_
+34	seu	seu	PRON	px3ms000	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	33	obl	33:obl	Entity=(CESSCATAAP1999030246c1-person-1-CorefType:ident,gstype:spec)CESSCATAAP1999030246c4)
 35	quan	quan	SCONJ	cs	_	37	mark	37:mark	_
 36	només	només	ADV	rg	_	37	advmod	37:advmod	_
 37	falten	faltar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	26:advcl	ArgTem=argM:tmp
@@ -36738,7 +36738,7 @@
 44	de	de	ADP	sps00	_	46	case	46:case	_
 45	gran	gran	ADJ	aq0cs0	Number=Sing	46	amod	46:amod	_
 46	magnitud	magnitud	NOUN	ncfs000	Gender=Fem|Number=Sing	42	conj	42:conj	SpaceAfter=No
-47	"	"	PUNCT	fe	PunctType=Quot	46	punct	46:punct	_
+47	"	"	PUNCT	fe	PunctType=Quot	41	punct	41:punct	_
 48	d'	de	ADP	sps00	_	49	case	49:case	SpaceAfter=No
 49	ajuda	ajuda	NOUN	ncfs000	Gender=Fem|Number=Sing	41	nmod	41:nmod	_
 50-51	als	_	_	_	_	_	_	_	_
@@ -37545,7 +37545,7 @@
 29	moments	moment	NOUN	ncmp000	Gender=Masc|Number=Plur	25	obl	25:obl	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD
 30	més	més	ADV	rg	Degree=Cmp	31	advmod	31:advmod	_
 31	crítics	crític	ADJ	aq0mp0	Gender=Masc|Number=Plur	29	amod	29:amod	SpaceAfter=No
-32	"	"	PUNCT	fe	PunctType=Quot	31	punct	31:punct	SpaceAfter=No
+32	"	"	PUNCT	fe	PunctType=Quot	29	punct	29:punct	SpaceAfter=No
 33	,	,	PUNCT	fc	PunctType=Comm	37	punct	37:punct	_
 34	com	com	SCONJ	cs	_	37	mark	37:mark	_
 35	és	ser	AUX	vsip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	37:cop	_
@@ -43228,17 +43228,17 @@
 # sent_id = CESS-CAT-AAP-20000802-42-s12
 # text = De segur que el circ Barajas els donarà la benvinguda.
 # orig_file_sentence 014#89
-1	De	de	ADP	rg	_	0	root	0:root	MWE=De_segur|MWEPOS=ADV
-2	segur	segur	NOUN	_	_	1	fixed	1:fixed	_
+1	De	de	ADP	rg	_	2	case	2:case	MWE=De_segur|MWEPOS=ADV
+2	segur	segur	NOUN	_	_	0	root	0:root	_
 3	que	que	SCONJ	cs	_	8	mark	8:mark	_
 4	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCATAAP2000080242c1--2-CorefType:ident,gstype:gen
 5	circ	circ	NOUN	ncms000	Gender=Masc|Number=Sing	8	nsubj	8:nsubj	ArgTem=arg0:agt
 6	Barajas	Barajas	PROPN	np0000l	_	5	appos	5:appos	Entity=(NOCOREF:Spec.location-place-1-gstype:spec)CESSCATAAP2000080242c1)
 7	els	ell	PRON	pp3cp000	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	8	obl:arg	8:obl:arg	ArgTem=arg2:ben|Entity=(CESSCATAAP2000080242c6--1-CorefType:ident,gstype:gen)
-8	donarà	donar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	advcl	1:advcl	_
+8	donarà	donar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	advcl	2:advcl	_
 9	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	_
 10	benvinguda	benvinguda	NOUN	ncfs000	Gender=Fem|Number=Sing	8	obj	8:obj	SpaceAfter=No|ArgTem=arg1:pat
-11	.	.	PUNCT	fp	PunctType=Peri	1	punct	1:punct	_
+11	.	.	PUNCT	fp	PunctType=Peri	2	punct	2:punct	_
 
 # global.Entity = eid-etype-head-other
 # newdoc id = CESS-CAT-AAP-20000903-11
@@ -44960,10 +44960,10 @@
 # orig_file_sentence 013#25
 1	A	a	ADP	sps00	_	2	case	2:case	_
 2	Aznar	Aznar	PROPN	np0000p	_	8	obl:arg	8:obl:arg	SpaceAfter=No|ArgTem=arg1:pat|Entity=(CESSCATAAP2000100121c5-person-1-CorefType:ident,gstype:spec)
-3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
-4	per	per	ADP	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=per_exemple|MWEPOS=ADV
-5	exemple	exemple	NOUN	_	_	4	fixed	4:fixed	SpaceAfter=No
-6	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
+3	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
+4	per	per	ADP	rg	ExtPos=ADV	5	case	5:case	MWE=per_exemple|MWEPOS=ADV
+5	exemple	exemple	NOUN	_	_	8	obl	8:obl	SpaceAfter=No
+6	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 7	l'	ell	PRON	pp3csa00	Case=Acc|Gender=Fem,Masc|Number=Sing|Person=3|PronType=Prs	8	obj	8:obj	SpaceAfter=No|ArgTem=arg1:pat|Entity=(CESSCATAAP2000100121c5-person-1-CorefType:ident,gstype:spec)
 8	interroguen	interrogar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 9	amb	amb	ADP	sps00	_	10	case	10:case	_
@@ -47359,8 +47359,8 @@
 40	no	no	ADV	rn	Polarity=Neg	42	advmod	42:advmod	_
 41	ser	ser	AUX	vsn0000	VerbForm=Inf	42	aux	42:aux	_
 42	mantinguda	mantenir	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	37	acl	37:acl	_
-43	en	en	ADP	rg	ExtPos=ADV	42	advmod	42:advmod	MWE=en_vida|MWEPOS=ADV|ArgTem=argM:adv
-44	vida	vida	NOUN	_	_	43	fixed	43:fixed	_
+43	en	en	ADP	rg	ExtPos=ADV	44	case	44:case	MWE=en_vida|MWEPOS=ADV|ArgTem=argM:adv
+44	vida	vida	NOUN	_	_	42	obl	42:obl	_
 45	per	per	ADP	sps00	_	46	case	46:case	_
 46	mitjans	mitjà	NOUN	ncmp000	Gender=Masc|Number=Plur	42	obl	42:obl	ArgTem=argM:adv|Entity=(NOCOREF:Gen--1-gstype:gen
 47	artificials	artificial	ADJ	aq0cp0	Number=Plur	46	amod	46:amod	SpaceAfter=No|Entity=NOCOREF:Gen)NOCOREF:Gen)CESSCATAAP2000102417897c3)
@@ -48658,9 +48658,9 @@
 11	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
 12	causar	causar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 13	,	,	PUNCT	fc	PunctType=Comm	14	punct	14:punct	_
-14	en	en	ADP	rg	ExtPos=ADV	12	advmod	12:advmod	MWE=en_canvi|MWEPOS=ADV
-15	canvi	canvi	NOUN	_	_	14	fixed	14:fixed	SpaceAfter=No
-16	,	,	PUNCT	fc	PunctType=Comm	14	punct	14:punct	_
+14	en	en	ADP	rg	ExtPos=ADV	15	case	15:case	MWE=en_canvi|MWEPOS=ADV
+15	canvi	canvi	NOUN	_	_	12	obl	12:obl	SpaceAfter=No
+16	,	,	PUNCT	fc	PunctType=Comm	17	punct	17:punct	_
 17	reaccions	reacció	NOUN	ncfp000	Gender=Fem|Number=Plur	12	obj	12:obj	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--1-gstype:gen
 18	menys	menys	ADV	rg	Degree=Cmp	19	advmod	19:advmod	_
 19	virulentes	virulent	ADJ	aq0fp0	Gender=Fem|Number=Plur	17	amod	17:amod	SpaceAfter=No|Entity=NOCOREF:Gen)
@@ -52603,8 +52603,8 @@
 20	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	22:aux	ArgTem=arg1:pat
 21	de	de	ADP	sps00	_	22	mark	22:mark	_
 22	pagar	pagar	VERB	vmn0000	VerbForm=Inf	12	xcomp	12:xcomp	_
-23	de	de	ADP	rg	ExtPos=ADV	22	advmod	22:advmod	MWE=de_seguida|MWEPOS=ADV|ArgTem=argM:adv
-24	seguida	seguida	NOUN	_	_	23	fixed	23:fixed	SpaceAfter=No
+23	de	de	ADP	rg	ExtPos=ADV	24	case	24:case	MWE=de_seguida|MWEPOS=ADV|ArgTem=argM:adv
+24	seguida	seguida	NOUN	_	_	22	obl	22:obl	SpaceAfter=No
 25	.	.	PUNCT	fp	PunctType=Peri	5	punct	5:punct	Entity=CESSCATAAP20010502157c13)
 
 # sent_id = CESS-CAT-AAP-20010502-157-s14B
@@ -54383,8 +54383,8 @@
 8	Catalunya	Catalunya	PROPN	_	_	6	flat	6:flat	Entity=CESSCATAAP2001101040380c17)NOCOREF:Spec.organization)
 9	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
 10	aprovat	aprovar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
-11	per	per	ADP	rg	ExtPos=ADV	10	advmod	10:advmod	MWE=per_unanimitat|MWEPOS=ADV|ArgTem=argM:adv
-12	unanimitat	unanimitat	NOUN	_	_	11	fixed	11:fixed	_
+11	per	per	ADP	rg	ExtPos=ADV	12	case	12:case	MWE=per_unanimitat|MWEPOS=ADV|ArgTem=argM:adv
+12	unanimitat	unanimitat	NOUN	_	_	10	obl	10:obl	_
 13	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	14	nummod	14:nummod	Entity=(CESSCATAAP2001101040380c1--2-gstype:gen
 14	proposicions	proposició	NOUN	ncfp000	Gender=Fem|Number=Plur	10	obj	10:obj	ArgTem=arg1:pat
 15	no	no	ADV	rn	Polarity=Neg	14	advmod	14:advmod	_
@@ -54985,18 +54985,18 @@
 12	i	i	CCONJ	cc	_	13	cc	13:cc	_
 13	setembre	setembre	NOUN	_	_	11	conj	11:conj	SpaceAfter=No|Entity=CESSCATAAP2001110157c16)
 14	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	_
-15	en	en	ADP	rg	ExtPos=ADV	6	advmod	6:advmod	MWE=en_part|MWEPOS=ADV
-16	part	part	NOUN	_	_	15	fixed	15:fixed	_
+15	en	en	ADP	rg	ExtPos=ADV	16	case	16:case	MWE=en_part|MWEPOS=ADV
+16	part	part	NOUN	_	_	6	obl	6:obl	_
 17-18	pels	_	_	_	_	_	_	_	_
-17	per	per	ADP	spcmp	_	15	case	15:case	_
-18	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	15:det	_
-19	atemptats	atemptat	NOUN	ncmp000	Gender=Masc|Number=Plur	15	nmod	15:nmod	ArgTem=argM:cau|Entity=(CESSCATAAP2001110157c3--1-gstype:gen,HomoDD
+17	per	per	ADP	spcmp	_	16	case	16:case	_
+18	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	16:det	_
+19	atemptats	atemptat	NOUN	ncmp000	Gender=Masc|Number=Plur	16	nmod	16:nmod	ArgTem=argM:cau|Entity=(CESSCATAAP2001110157c3--1-gstype:gen,HomoDD
 20	de	de	ADP	sps00	_	22	case	22:case	_
 21	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	22	det	22:det	SpaceAfter=No|Entity=(NOCOREF:Spec.date-time-2-gstype:spec
 22	11	11	NUM	_	NumForm=Digit|NumType=Card	19	nmod	19:nmod	MWE=11_de_setembre|MWEPOS=NOUN
 23	de	de	ADP	_	_	24	case	24:case	_
 24	setembre	setembre	NOUN	_	_	22	nmod	22:nmod	SpaceAfter=No|Entity=NOCOREF:Spec.date)CESSCATAAP2001110157c3)
-25	,	,	PUNCT	fc	PunctType=Comm	15	punct	15:punct	Entity=CESSCATAAP2001110157c17)
+25	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	Entity=CESSCATAAP2001110157c17)
 26	però	però	CCONJ	cc	_	32	cc	32:cc	_
 27	aquest	aquest	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	28	det	28:det	Entity=(CESSCATAAP2001110157c17--2-CorefType:dx.token
 28	retrocés	retrocés	NOUN	ncms000	Gender=Masc|Number=Sing	32	nsubj	32:nsubj	ArgTem=arg1:tem|Entity=CESSCATAAP2001110157c17)
@@ -55479,8 +55479,8 @@
 # text = "De fet - afegeix -, el primer cop que ens van comentar un problema va ser el 1998, però després va resultar que a la mateixa casa ja n'hi havia des de feia més d'una dècada".
 # orig_file_sentence 018#42
 1	"	"	PUNCT	fe	PunctType=Quot	20	punct	20:punct	SpaceAfter=No
-2	De	de	ADP	rg	ExtPos=ADV	20	advmod	20:advmod	MWE=De_fet|MWEPOS=ADV
-3	fet	fet	NOUN	_	_	2	fixed	2:fixed	_
+2	De	de	ADP	rg	ExtPos=ADV	3	case	3:case	MWE=De_fet|MWEPOS=ADV
+3	fet	fet	NOUN	_	_	20	obl	20:obl	_
 4	-	-	PUNCT	fg	PunctType=Dash	5	punct	5:punct	_
 5	afegeix	afegir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	parataxis	20:parataxis	_
 5.1	_	_	PRON	p	_	_	_	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2001110184c8-person-1-CorefType:ident,gstype:spec)
@@ -57608,8 +57608,8 @@
 37	2,99	2.99	NUM	_	NumForm=Digit|NumType=Card	38	nummod	38:nummod	Entity=(NOCOREF:Spec.number-number-2-gstype:spec
 38	euros	euro	NOUN	zm	Gender=Masc|Number=Plur	34	nmod	34:nmod	Currency=Yes|Entity=NOCOREF:Spec.number)NOCOREF:Gen)|SpaceAfter=No
 39	,	,	PUNCT	fc	PunctType=Comm	40	punct	40:punct	_
-40	per	per	ADP	rg	ExtPos=ADV	32	advmod	32:advmod	MWE=per_exemple|MWEPOS=ADV
-41	exemple	exemple	NOUN	_	_	40	fixed	40:fixed	SpaceAfter=No
+40	per	per	ADP	rg	ExtPos=ADV	41	case	41:case	MWE=per_exemple|MWEPOS=ADV
+41	exemple	exemple	NOUN	_	_	32	obl	32:obl	SpaceAfter=No
 42	,	,	PUNCT	fc	PunctType=Comm	43	punct	43:punct	Entity=(CESSCATAAP2001120298c12--2-CorefType:dx.type
 43	cosa	cosa	NOUN	ncfs000	Gender=Fem|Number=Sing	30	obl	30:obl	_
 44	que	que	PRON	pr0cn000	PronType=Rel	45	nsubj	45:nsubj	ArgTem=arg1:tem
@@ -58719,7 +58719,7 @@
 13	'	'	PUNCT	fz	PunctType=Quot	14	punct	14:punct	_
 14	en	en	ADP	sps00	_	17	case	17:case	_
 15	aquest	aquest	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	17	det	17:det	Entity=(CESSCATAAP2002012847394c16--3-CorefType:ident,gstype:gen
-16	'	'	PUNCT	fz	PunctType=Quot	17	punct	17:punct	SpaceAfter=No
+16	'	'	PUNCT	fz	PunctType=Quot	15	punct	15:punct	SpaceAfter=No
 17	etcétera	etcétera	NOUN	ncms000	Gender=Masc|Number=Sing	21	obl	21:obl	SpaceAfter=No|ArgTem=argM:loc
 18	'	'	PUNCT	fz	PunctType=Quot	21	punct	21:punct	Entity=CESSCATAAP2002012847394c16)
 19	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	21	obj	21:obj	_
@@ -60884,15 +60884,15 @@
 24	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	25:det	_
 25	societat	societat	NOUN	ncfs000	Gender=Fem|Number=Sing	21	obl:arg	21:obl:arg	ArgTem=arg2:ben
 26	civil	civil	ADJ	aq0cs0	Number=Sing	25	amod	25:amod	_
-27	en	en	ADP	rg	ExtPos=ADV	25	advmod	25:advmod	MWE=en_general|MWEPOS=ADV
-28	general	general	NOUN	_	_	27	fixed	27:fixed	Entity=NOCOREF:Gen)
+27	en	en	ADP	rg	ExtPos=ADV	28	case	28:case	MWE=en_general|MWEPOS=ADV
+28	general	general	NOUN	_	_	25	nmod	25:nmod	Entity=NOCOREF:Gen)
 29	i	i	CCONJ	cc	_	30	cc	30:cc	_
-30	en	en	ADP	rg	_	25	conj	25:conj	MWE=en_particular|MWEPOS=ADV
-31	particular	particular	NOUN	_	_	30	fixed	30:fixed	_
+30	en	en	ADP	rg	_	31	case	31:case	MWE=en_particular|MWEPOS=ADV
+31	particular	particular	NOUN	_	_	25	conj	25:conj	_
 32-33	als	_	_	_	_	_	_	_	_
-32	a	a	ADP	spcmp	_	30	case	30:case	_
-33	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	30:det	_
-34	adolescents	adolescent	NOUN	nccp000	Number=Plur	30	nmod	30:nmod	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)
+32	a	a	ADP	spcmp	_	31	case	31:case	_
+33	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	31:det	_
+34	adolescents	adolescent	NOUN	nccp000	Number=Plur	31	nmod	31:nmod	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)
 35	i	i	CCONJ	cc	_	37	cc	37:cc	_
 36	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	37:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 37	escolars	escolar	NOUN	_	Number=Plur	34	conj	34:conj	SpaceAfter=No|Entity=NOCOREF:Gen)
@@ -62438,12 +62438,12 @@
 7	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det	9:det	Entity=CESSCATAAP2002030218c3)
 8	sisena	sisè	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	9	amod	9:amod	_
 9	campanya	campanya	NOUN	ncfs000	Gender=Fem|Number=Sing	2	obl	2:obl	ArgTem=arg3:ori
-10	a	a	ADP	rg	ExtPos=ADV	9	advmod	9:advmod	MWE=a_bord|MWEPOS=ADV
-11	bord	bord	NOUN	_	_	10	fixed	10:fixed	_
+10	a	a	ADP	rg	ExtPos=ADV	11	case	11:case	MWE=a_bord|MWEPOS=ADV
+11	bord	bord	NOUN	_	_	9	nmod	9:nmod	_
 12-13	del	_	_	_	_	_	_	_	_
 12	de	de	ADP	spcms	_	14	case	14:case	_
 13	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	14:det	_
-14	vaixell	vaixell	NOUN	ncms000	Gender=Masc|Number=Sing	10	obl	10:obl	Entity=(CESSCATAAP2002030218c10-other-1-gstype:spec
+14	vaixell	vaixell	NOUN	ncms000	Gender=Masc|Number=Sing	11	obl	11:obl	Entity=(CESSCATAAP2002030218c10-other-1-gstype:spec
 15	Hespérides	Hespérides	PROPN	np0000a	_	14	appos	14:appos	SpaceAfter=No|Entity=(NOCOREF:Spec.other-other-1-gstype:spec)CESSCATAAP2002030218c10)
 16	:	:	PUNCT	fd	PunctType=Colo	18	punct	18:punct	_
 17	dos	dos	NUM	dn0mp0	Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	18	nummod	18:nummod	_
@@ -62846,15 +62846,15 @@
 # sent_id = CESS-CAT-AAP-20020501-56-s1
 # text = Tot està a punt per a la primera vaga general al Govern del Partit Popular.
 # orig_file_sentence 016#3
-1	Tot	tot	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	3:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--1-gstype:gen)
-2	està	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	_
-3	a	a	ADP	rg	_	0	root	0:root	MWE=a_punt|MWEPOS=ADV|ArgTem=arg2:atr
-4	punt	punt	NOUN	_	_	3	fixed	3:fixed	_
+1	Tot	tot	PRON	pi0ms000	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	4:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--1-gstype:gen)
+2	està	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+3	a	a	ADP	rg	_	4	case	4:case	MWE=a_punt|MWEPOS=ADV|ArgTem=arg2:atr
+4	punt	punt	NOUN	_	_	0	root	0:root	_
 5	per	per	ADP	sps00	_	9	case	9:case	_
 6	a	a	ADP	sps00	_	9	case	9:case	_
 7	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	Entity=(NOCOREF:Gen--3-gstype:gen,HomoDD
 8	primera	primer	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	9	amod	9:amod	_
-9	vaga	vaga	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obl	3:obl	_
+9	vaga	vaga	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obl	4:obl	_
 10	general	general	ADJ	aq0cs0	Number=Sing	9	amod	9:amod	_
 11-12	al	_	_	_	_	_	_	_	_
 11	a	a	ADP	spcms	_	13	case	13:case	_
@@ -62865,7 +62865,7 @@
 15	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
 16	Partit	Partit	PROPN	np0000o	_	13	nmod	13:nmod	MWE=Partit_Popular|MWEPOS=PROPN|Entity=(NOCOREF:Spec.organization-organization-1-gstype:spec
 17	Popular	Popular	PROPN	_	_	16	flat	16:flat	SpaceAfter=No|Entity=NOCOREF:Spec.organization)NOCOREF:Spec.organization)NOCOREF:Gen)
-18	.	.	PUNCT	fp	PunctType=Peri	3	punct	3:punct	_
+18	.	.	PUNCT	fp	PunctType=Peri	4	punct	4:punct	_
 
 # sent_id = CESS-CAT-AAP-20020501-56-s2
 # text = Per un costat, els sindicats han trobat en la reforma de la desocupació un casus belli oportú per formular una declaració de guerra unitària.
@@ -63295,8 +63295,8 @@
 15.1	_	_	PRON	p	_	_	_	17:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP20020502128c2-person-1-CorefType:ident,gstype:spec)
 16	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	17:aux	_
 17	tocar	tocar	VERB	vmn0000	VerbForm=Inf	8	advcl	8:advcl	_
-18	en	en	ADP	rg	ExtPos=ADV	17	advmod	17:advmod	MWE=en_curt|MWEPOS=ADV|ArgTem=argM:mnr
-19	curt	curt	NOUN	_	_	18	fixed	18:fixed	_
+18	en	en	ADP	rg	ExtPos=ADV	19	case	19:case	MWE=en_curt|MWEPOS=ADV|ArgTem=argM:mnr
+19	curt	curt	NOUN	_	_	17	obl	17:obl	_
 20	Zidane	Zidane	PROPN	np0000p	_	17	obj	17:obj	SpaceAfter=No|ArgTem=arg1:pat|Entity=(CESSCATAAP20020502128c13-person-1-gstype:spec)
 21	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 21.1	_	_	PRON	p	_	_	_	25:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP20020502128c2-person-1-CorefType:ident,gstype:spec)
@@ -63344,8 +63344,8 @@
 1	També	també	ADV	rg	_	8	advmod	8:advmod	_
 2	com	com	SCONJ	cs	_	8	mark	8:mark	_
 3	gairebé	gairebé	ADV	rg	_	4	advmod	4:advmod	_
-4	sempre	sempre	ADV	rg	_	2	advmod	2:advmod	SpaceAfter=No|ArgTem=argM:adv
-5	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
+4	sempre	sempre	ADV	rg	_	8	advmod	8:advmod	SpaceAfter=No|ArgTem=argM:adv
+5	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 5.1	_	_	PRON	p	_	_	_	8:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP20020502128c2-person-1-CorefType:ident,gstype:spec)
 6	es	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	expl:impers	8:expl:impers	_
 7	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
@@ -64509,12 +64509,12 @@
 5	ultres	ultra	NOUN	nccp000	Number=Plur	2	nmod	2:nmod	Entity=(CESSCATAAP2002050226c7-organization-1-CorefType:ident,gstype:spec)NOCOREF:Gen)
 6	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
 7	quedar	quedar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
-8	molt	molt	ADV	rg	_	9	advmod	9:advmod	_
-9	per	per	ADP	rg	ExtPos=ADV	7	advmod	7:advmod	MWE=per_sota|MWEPOS=ADV|ArgTem=argM:loc
-10	sota	sota	NOUN	_	_	9	fixed	9:fixed	_
+8	molt	molt	ADV	rg	_	10	advmod	10:advmod	_
+9	per	per	ADP	rg	ExtPos=ADV	10	case	10:case	MWE=per_sota|MWEPOS=ADV|ArgTem=argM:loc
+10	sota	sota	NOUN	_	_	7	obl	7:obl	_
 11	de	de	ADP	sps00	_	13	case	13:case	_
 12	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	13:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-13	expectatives	expectativa	NOUN	ncfp000	Gender=Fem|Number=Plur	9	obl	9:obl	_
+13	expectatives	expectativa	NOUN	ncfp000	Gender=Fem|Number=Plur	10	obl	10:obl	_
 14-15	dels	_	_	_	_	_	_	_	_
 14	de	de	ADP	spcmp	_	16	case	16:case	_
 15	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	16:det	_
