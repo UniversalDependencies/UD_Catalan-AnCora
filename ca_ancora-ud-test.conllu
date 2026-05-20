@@ -17283,7 +17283,7 @@
 # sent_id = CESS-CAT-A-20000301-45-s14
 # text = Com la va obtenir o qui li va facilitar és el que intentava ahir dilucidar l'FBI i, per descomptat, es converteix en el punt clau d'aquesta esborronadora història.
 # orig_file_sentence 007#57
-1	Com	com	PRON	pt000000	PronType=Int	4	obl	4:obl	ArgTem=argM:mnr
+1	Com	com	ADV	pt000000	PronType=Int	4	advmod	4:advmod	ArgTem=argM:mnr
 2	la	ell	PRON	pp3fsa00	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	4:obj	ArgTem=arg1:pat|Entity=(CESSCATA2000030145c4--1-CorefType:ident,gstype:gen)
 3	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	obtenir	obtenir	VERB	vmn0000	VerbForm=Inf	10	ccomp	10:ccomp	ArgTem=arg2:atr
@@ -17328,7 +17328,7 @@
 3	interessats	interessat	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 4	a	a	ADP	sps00	_	10	mark	10:mark	_
 5	saber	saber	AUX	vmn0000	VerbForm=Inf	10	aux	10:aux	ArgTem=arg2:tem
-6	com	com	PRON	pt000000	PronType=Int	10	obl	10:obl	ArgTem=argM:mnr
+6	com	com	ADV	pt000000	PronType=Int	10	advmod	10:advmod	ArgTem=argM:mnr
 7	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	Entity=(CESSCATA2000030145c1--2-CorefType:ident,gstype:gen
 8	nen	nen	NOUN	ncms000	Gender=Masc|Number=Sing	10	nsubj	10:nsubj	ArgTem=arg0:agt|Entity=CESSCATA2000030145c1)
 9	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	10:aux	_
@@ -17596,7 +17596,7 @@
 24	:	:	PUNCT	fd	PunctType=Colo	29	punct	29:punct	_
 25	"	"	PUNCT	fe	PunctType=Quot	29	punct	29:punct	SpaceAfter=No
 26	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	29	punct	29:punct	SpaceAfter=No
-27	Com	com	PRON	pt000000	PronType=Int	29	obl	29:obl	ArgTem=argM:mnr
+27	Com	com	ADV	pt000000	PronType=Int	29	advmod	29:advmod	ArgTem=argM:mnr
 28	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	29:aux	_
 29	aconseguit	aconseguir	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	21:advcl	_
 30	aquest	aquest	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	31	det	31:det	Entity=(CESSCATA2000030145c1--2-CorefType:ident,gstype:gen
@@ -17610,7 +17610,7 @@
 # orig_file_sentence 007#70
 1	¿	¿	PUNCT	fia	PunctSide=Ini|PunctType=Qest	6	punct	6:punct	SpaceAfter=No
 2	I	i	CCONJ	cc	_	6	cc	6:cc	_
-3	com	com	PRON	pt000000	PronType=Int	6	obl	6:obl	ArgTem=argM:mnr
+3	com	com	ADV	pt000000	PronType=Int	6	advmod	6:advmod	ArgTem=argM:mnr
 3.1	_	_	PRON	p	_	_	_	6:nsubj	ArgTem=arg0:agt|Entity=(CESSCATA2000030145c1--1-CorefType:ident,gstype:gen)
 4	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
 5	pogut	poder	AUX	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	6:aux	_
@@ -22435,7 +22435,7 @@
 # sent_id = CESS-CAT-A-20000802-12-s25
 # text = Com construirem una societat intercultural, mestissa, que aprofiti els avantatges de futur del fet migratori?
 # orig_file_sentence 006#29
-1	Com	com	PRON	pt000000	PronType=Int	2	obl	2:obl	ArgTem=argM:mnr
+1	Com	com	ADV	pt000000	PronType=Int	2	advmod	2:advmod	ArgTem=argM:mnr
 2	construirem	construir	VERB	vmif1p0	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 2.1	_	_	PRON	p	_	_	_	2:nsubj	ArgTem=arg0:agt|Entity=(CESSCATA2000080212c2--1-CorefType:ident,gstype:gen)
 3	una	un	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	4	det	4:det	Entity=(CESSCATA2000080212c37--2-gstype:gen
@@ -25676,7 +25676,7 @@
 3	espera	espera	NOUN	ncfs000	Gender=Fem|Number=Sing	36	obl	36:obl	ArgTem=argM:tmp
 4	de	de	ADP	sps00	_	5	mark	5:mark	_
 5	veure	veure	VERB	vmn0000	VerbForm=Inf	3	acl	3:acl	_
-6	com	com	PRON	pt000000	PronType=Int	7	obl	7:obl	ArgTem=argM:mnr
+6	com	com	ADV	pt000000	PronType=Int	7	advmod	7:advmod	ArgTem=argM:mnr
 7	queda	quedar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	xcomp	5:xcomp	ArgTem=arg1:pat
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 9	duel	duel	NOUN	ncms000	Gender=Masc|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg1:tem
@@ -32639,7 +32639,7 @@
 7	I	I	NUM	nc00000	NumForm=Roman|NumType=Card	5	conj	5:conj	SpaceAfter=No|Entity=CESSCATAAP1998120219c6)
 8	:	:	PUNCT	fd	PunctType=Colo	9	punct	9:punct	_
 9	deduir	deduir	VERB	vmn0000	VerbForm=Inf	3	csubj	3:csubj	ArgTem=arg1:tem
-10	com	com	PRON	pt000000	PronType=Int	11	obl	11:obl	ArgTem=argM:mnr
+10	com	com	ADV	pt000000	PronType=Int	11	advmod	11:advmod	ArgTem=argM:mnr
 11	actuarà	actuar	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	xcomp	9:xcomp	ArgTem=arg1:pat
 12	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	13:det	Entity=(NOCOREF:Gen--2-gstype:gen
 13	contrari	contrari	NOUN	ncms000	Gender=Masc|Number=Sing	9	nsubj	9:nsubj	SpaceAfter=No|ArgTem=arg0:agt|Entity=NOCOREF:Gen)
@@ -34658,7 +34658,7 @@
 11	de	de	ADP	sps00	_	13	case	13:case	_
 12	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	13:det	Entity=(NOCOREF:Gen--2-gstype:gen
 13	manera	manera	NOUN	ncfs000	Gender=Fem|Number=Sing	10	nmod	10:nmod	_
-14	com	com	PRON	pt000000	PronType=Int	16	obl	16:obl	ArgTem=argM:mnr
+14	com	com	ADV	pt000000	PronType=Int	16	advmod	16:advmod	ArgTem=argM:mnr
 15	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	obj	16:obj	_
 16	transmeten	transmetre	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl	13:acl	_
 17	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	18:det	Entity=(CESSCATAAP1999010363c15--2-CorefType:ident,gstype:gen,HomoDD
@@ -45397,7 +45397,7 @@
 # sent_id = CESS-CAT-AAP-20001001-60-s3
 # text = Com va arribar la cinta a Le Monde?
 # orig_file_sentence 016#50
-1	Com	com	PRON	pt000000	PronType=Int	3	obl	3:obl	ArgTem=argM:mnr
+1	Com	com	ADV	pt000000	PronType=Int	3	advmod	3:advmod	ArgTem=argM:mnr
 2	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	_
 3	arribar	arribar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	Entity=(CESSCATAAP2000100160c2--2-CorefType:ident,gstype:gen
@@ -45615,7 +45615,7 @@
 # sent_id = CESS-CAT-AAP-20001001-60-s12
 # text = Com es pot imaginar que Strauss-Kahn ni es digna a veure el vídeo i l'oblida en un calaix?
 # orig_file_sentence 016#59
-1	Com	com	PRON	pt000000	PronType=Int	4	obl	4:obl	ArgTem=argM:mnr
+1	Com	com	ADV	pt000000	PronType=Int	4	advmod	4:advmod	ArgTem=argM:mnr
 2	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	obj	4:obj	_
 3	pot	poder	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_
 4	imaginar	imaginar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_

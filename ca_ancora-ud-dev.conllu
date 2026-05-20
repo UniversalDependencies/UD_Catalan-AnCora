@@ -19694,7 +19694,7 @@
 # sent_id = CESS-CAT-A-20010315-27617-s99
 # text = Com podia, doncs, un català dir que volia catalanitzar Espanya, si amb l'altra mà catalanitzava Catalunya, a més d'internacionalitzar-la, que és la finalitat de qualsevol agència de notícies?
 # orig_file_sentence 005#21
-1	Com	com	PRON	pt000000	PronType=Int	2	obl	2:obl	ArgTem=argM:mnr
+1	Com	com	ADV	pt000000	PronType=Int	2	advmod	2:advmod	ArgTem=argM:mnr
 2	podia	poder	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 4	doncs	doncs	ADV	rg	_	2	advmod	2:advmod	SpaceAfter=No
@@ -29266,7 +29266,7 @@
 18	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	_
 19	sense	sense	ADP	sps00	_	22	mark	22:mark	_
 20	saber	saber	AUX	vmn0000	VerbForm=Inf	22	aux	22:aux	ArgTem=argM:adv
-21	com	com	PRON	pt000000	PronType=Int	22	obl	22:obl	_
+21	com	com	ADV	pt000000	PronType=Int	22	advmod	22:advmod	_
 22	recuperar	recuperar	VERB	vmn0000	VerbForm=Inf	13	advcl	13:advcl	ArgTem=arg1:pat
 23	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	24:det	Entity=(NOCOREF:Gen--2-gstype:gen
 24	iniciativa	iniciativa	NOUN	ncfs000	Gender=Fem|Number=Sing	22	obj	22:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
@@ -55706,7 +55706,7 @@
 25	pena	pena	NOUN	ncfs000	Gender=Fem|Number=Sing	23	obj	23:obj	ArgTem=arg2:atr
 26	menor	menor	ADJ	aq0cs0	Degree=Cmp|Number=Sing	25	amod	25:amod	Entity=NOCOREF:Gen)
 27	-	-	PUNCT	fg	PunctType=Dash	21	punct	21:punct	Entity=CESSCATAAP2002020264c22)
-28	com	com	ADV	pt000000	_	29	advmod	29:advmod	ArgTem=argM:mnr
+28	com	com	ADV	pt000000	PronType=Int	29	advmod	29:advmod	ArgTem=argM:mnr
 29	reclamava	reclamar	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	4:conj	_
 30	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	31:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 31	fiscalia	fiscalia	NOUN	ncfs000	Gender=Fem|Number=Sing	29	nsubj	29:nsubj	SpaceAfter=No|ArgTem=arg0:agt|Entity=NOCOREF:Gen)
