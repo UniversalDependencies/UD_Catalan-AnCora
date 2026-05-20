@@ -2716,7 +2716,7 @@
 20	de	de	ADP	sps00	_	21	case	21:case	_
 21	Prudenci	Prudenci	PROPN	np0000p	_	16	nmod	16:nmod	MWE=Prudenci_Bertana|MWEPOS=PROPN|Entity=(NOCOREF:Spec.person-person-1-gstype:spec
 22	Bertana	Bertana	PROPN	_	_	21	flat	21:flat	Entity=NOCOREF:Spec.person)
-23	especialment	especialment	ADV	rg	_	14	obl:arg	14:obl:arg	_
+23	especialment	especialment	ADV	rg	_	14	advmod	14:advmod	_
 24	a	a	ADP	sps00	_	23	case	23:case	_
 25	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	27:det	_
 26	noves	nou	ADJ	aq0fp0	Gender=Fem|Number=Plur	27	amod	27:amod	_
@@ -9935,7 +9935,7 @@
 16	sector	sector	NOUN	ncms000	Gender=Masc|Number=Sing	13	nmod	13:nmod	_
 17	metal·lúrgic	metal·lúrgic	ADJ	aq0ms0	Gender=Masc|Number=Sing	16	amod	16:amod	_
 18	dedicada	dedicat	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	13	amod	13:amod	_
-19	principalment	principalment	ADV	rg	_	18	obl:arg	18:obl:arg	_
+19	principalment	principalment	ADV	rg	_	18	advmod	18:advmod	_
 20	a	a	ADP	sps00	_	19	case	19:case	_
 21	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	22:det	_
 22	fabricació	fabricació	NOUN	ncfs000	Gender=Fem|Number=Sing	19	nmod	19:nmod	ArgTem=arg1:tem
@@ -22860,7 +22860,7 @@
 # text = Tal com ja van anunciar fa uns dies, els agricultors presentaran un contenciós administratiu contra el DARP i en funció del resultat d'una reunió amb els responsables de la Confederació Hidrogràfica de l'Ebre no descarten emprendre també mesures legals.
 # orig_file_sentence 006#40
 1	Tal	tal	PRON	pd0cs000	Number=Sing|PronType=Dem	12	obl	12:obl	_
-2	com	com	PRON	pr000000	PronType=Rel	5	obl	5:obl	ArgTem=argM:mnr
+2	com	com	ADV	pr000000	PronType=Rel	5	advmod	5:advmod	ArgTem=argM:mnr
 3	ja	ja	ADV	rg	_	5	advmod	5:advmod	ArgTem=argM:tmp
 3.1	_	_	PRON	p	_	_	_	5:nsubj	ArgTem=arg0:agt|Entity=(CESSCATA2000080313497c1--1-CorefType:ident,gstype:gen,HomoDD)
 4	van	anar	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
@@ -33180,7 +33180,7 @@
 53	estratègia	estratègia	NOUN	ncfs000	Gender=Fem|Number=Sing	48	obl	48:obl	ArgTem=argM:fin|Entity=NOCOREF:Gen)
 54	que	que	SCONJ	cs	_	56	mark	56:mark	_
 55	estigui	estar	AUX	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	56:cop	ArgTem=arg1:tem
-56	més	més	ADV	rg	Degree=Cmp	48	obl	48:obl	_
+56	més	més	ADV	rg	Degree=Cmp	48	advmod	48:advmod	_
 57	a	a	ADP	sps00	_	56	case	56:case	_
 58	Madrid	Madrid	PROPN	np0000l	_	56	nmod	56:nmod	ArgTem=arg2:atr|Entity=(CESSCATAAP1998120219c33-place-1-CorefType:ident,gstype:spec)
 59	que	que	SCONJ	cs	_	61	mark	61:mark	_
@@ -39586,7 +39586,7 @@
 36	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	37:det	_
 37	text	text	NOUN	ncms000	Gender=Masc|Number=Sing	29	obl:arg	29:obl:arg	Entity=(CESSCATAAP1999120169c13--1-CorefType:ident,gstype:gen,HomoDD
 38	aprovat	aprovat	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	37	amod	37:amod	_
-39	inicialment	inicialment	ADV	rg	_	38	obl:arg	38:obl:arg	_
+39	inicialment	inicialment	ADV	rg	_	38	advmod	38:advmod	_
 40	per	per	ADP	sps00	_	39	case	39:case	_
 41	aquesta	aquest	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	42	det	42:det	Entity=(CESSCATAAP1999120169c9-organization-2-CorefType:ident,gstype:spec
 42	cambra	cambra	NOUN	ncfs000	Gender=Fem|Number=Sing	39	nmod	39:nmod	SpaceAfter=No|ArgTem=arg0:agt|Entity=CESSCATAAP1999120169c9)CESSCATAAP1999120169c13)
@@ -44913,7 +44913,7 @@
 # orig_file_sentence 013#24
 1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	Entity=(CESSCATAAP2000100121c4--2-gstype:gen,HomoDD
 2	manera	manera	NOUN	ncfs000	Gender=Fem|Number=Sing	16	nsubj	16:nsubj	ArgTem=arg1:tem
-3	com	com	PRON	pr000000	PronType=Rel	9	obl	9:obl	ArgTem=argM:mnr|Entity=(CESSCATAAP2000100121c4--1-CorefType:ident,gstype:gen)
+3	com	com	ADV	pr000000	PronType=Rel	9	advmod	9:advmod	ArgTem=argM:mnr|Entity=(CESSCATAAP2000100121c4--1-CorefType:ident,gstype:gen)
 4	Rodríguez	Rodríguez	PROPN	np0000p	_	9	nsubj	9:nsubj	MWE=Rodríguez_Zapatero|MWEPOS=PROPN|ArgTem=arg0:agt|Entity=(CESSCATAAP2000100121c3-person-1-CorefType:ident,gstype:spec
 5	Zapatero	Zapatero	PROPN	_	_	4	flat	4:flat	Entity=CESSCATAAP2000100121c3)
 6	i	i	CCONJ	cc	_	7	cc	7:cc	_
@@ -45011,7 +45011,7 @@
 19	per	per	ADP	sps00	_	20	case	20:case	_
 20	telèfon	telèfon	NOUN	ncms000	Gender=Masc|Number=Sing	16	obl	16:obl	SpaceAfter=No|ArgTem=argM:adv|Entity=(NOCOREF:Gen--1-gstype:gen)
 21	,	,	PUNCT	fc	PunctType=Comm	22	punct	22:punct	_
-22	sobretot	sobretot	ADV	rg	_	16	obl:arg	16:obl:arg	_
+22	sobretot	sobretot	ADV	rg	_	16	advmod	16:advmod	_
 23	de	de	ADP	sps00	_	22	case	22:case	_
 24	qüestions	qüestió	NOUN	ncfp000	Gender=Fem|Number=Plur	22	nmod	22:nmod	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--1-gstype:gen
 25	relacionades	relacionat	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	24	amod	24:amod	_
@@ -45248,7 +45248,7 @@
 15	no	no	ADV	rn	Polarity=Neg	17	advmod	17:advmod	_
 16	se	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	17	obj	17:obj	_
 17	sap	saber	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
-18	ni	ni	ADV	rg	_	17	obl	17:obl	_
+18	ni	ni	ADV	rg	_	17	advmod	17:advmod	_
 19	de	de	ADP	sps00	_	18	case	18:case	_
 20	quin	quin	DET	dt0ms0	Gender=Masc|Number=Sing|PronType=Int	21	det	21:det	_
 21	color	color	NOUN	ncms000	Gender=Masc|Number=Sing	18	nmod	18:nmod	ArgTem=arg2:atr
@@ -49358,7 +49358,7 @@
 48	per	per	ADP	sps00	_	49	mark	49:mark	_
 49	anar	anar	VERB	vmn0000	VerbForm=Inf	47	xcomp	47:xcomp	ArgTem=arg2:atr
 50	a	a	ADP	sps00	_	51	case	51:case	_
-51	millor	millor	ADV	rg	_	49	obl	49:obl	ArgTem=arg2:atr
+51	millor	millor	ADV	rg	_	49	advmod	49:advmod	ArgTem=arg2:atr
 52	"	"	PUNCT	fe	PunctType=Quot	47	punct	47:punct	SpaceAfter=No
 53	.	.	PUNCT	fp	PunctType=Peri	26	punct	26:punct	_
 
@@ -54428,7 +54428,7 @@
 51	directa	directe	ADJ	aq0fs0	Gender=Fem|Number=Sing	50	amod	50:amod	SpaceAfter=No
 52	)	)	PUNCT	fpt	PunctSide=Fin|PunctType=Brck	44	punct	44:punct	Entity=CESSCATAAP2001101040380c19)CESSCATAAP2001101040380c18)
 53	tal	tal	PRON	pd0cs000	Number=Sing|PronType=Dem	25	obl	25:obl	ArgTem=argM:adv
-54	com	com	PRON	pr000000	PronType=Rel	56	obl	56:obl	ArgTem=argM:mnr
+54	com	com	ADV	pr000000	PronType=Rel	56	advmod	56:advmod	ArgTem=argM:mnr
 55	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	56	expl:pass	56:expl:pass	SpaceAfter=No
 56	estableix	establir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	acl:relcl	53:acl:relcl	_
 57	en	en	ADP	sps00	_	59	case	59:case	_
