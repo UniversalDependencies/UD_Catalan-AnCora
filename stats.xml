@@ -16,7 +16,7 @@
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
     <tag name="ADJ">30085</tag><!-- nou, primer, gran, català, passat, polític, general, espanyol, últim, públic -->
-    <tag name="ADP">87978</tag><!-- de, a, per, en, amb, entre, sobre, segons, des, durant -->
+    <tag name="ADP">87975</tag><!-- de, a, per, en, amb, entre, sobre, segons, des, durant -->
     <tag name="ADV">15630</tag><!-- no, més, també, ja, després, ahir, molt, avui, només, ara -->
     <tag name="AUX">22054</tag><!-- haver, anar, ser, poder, estar, saber -->
     <tag name="CCONJ">15049</tag><!-- i, o, però, ni, sinó, mentre, y, que, bé, et -->
@@ -27,7 +27,7 @@
     <tag name="PRON">23455</tag><!-- ell, que, hi, un, jo, tot, qual, on, què, en -->
     <tag name="PROPN">46589</tag><!-- Catalunya, barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU, PP -->
     <tag name="PUNCT">57270</tag><!-- ,, ., ", ', (, ), -, :, ;, ? -->
-    <tag name="SCONJ">10551</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, què -->
+    <tag name="SCONJ">10554</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, què -->
     <tag name="SYM">821</tag><!-- %, m2, 5, &, -, -3, 3, 7 -->
     <tag name="VERB">41868</tag><!-- fer, tenir, haver, dir, donar, presentar, arribar, passar, voler, demanar -->
   </tags>
