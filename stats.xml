@@ -17,17 +17,17 @@
   <tags unique="15">
     <tag name="ADJ">30085</tag><!-- nou, primer, gran, català, passat, polític, general, espanyol, últim, públic -->
     <tag name="ADP">87975</tag><!-- de, a, per, en, amb, entre, sobre, segons, des, durant -->
-    <tag name="ADV">15737</tag><!-- no, més, també, ja, després, ahir, molt, avui, només, ara -->
+    <tag name="ADV">15817</tag><!-- no, més, també, ja, després, ahir, molt, avui, només, ara -->
     <tag name="AUX">22054</tag><!-- haver, anar, ser, poder, estar, saber -->
     <tag name="CCONJ">15049</tag><!-- i, o, però, ni, sinó, mentre, y, que, bé, et -->
     <tag name="DET">87267</tag><!-- el, un, aquest, seu, la, tot, altre, mateix, algun, divers -->
     <tag name="INTJ">22</tag><!-- no, vaja, he, compte, déu, ep, hola, home, marbella, mira -->
-    <tag name="NOUN">98661</tag><!-- any, milió, pesseta, dia, obra, persona, president, mes, grup, empresa -->
+    <tag name="NOUN">98582</tag><!-- any, milió, pesseta, dia, obra, persona, president, mes, grup, empresa -->
     <tag name="NUM">9962</tag><!-- dos, tres, un, quatre, cent, 10, cinc, sis, 15, 30 -->
     <tag name="PRON">23348</tag><!-- ell, que, hi, un, jo, tot, qual, on, què, en -->
     <tag name="PROPN">46589</tag><!-- Catalunya, barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU, PP -->
     <tag name="PUNCT">57270</tag><!-- ,, ., ", ', (, ), -, :, ;, ? -->
-    <tag name="SCONJ">10554</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, què -->
+    <tag name="SCONJ">10553</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, què -->
     <tag name="SYM">821</tag><!-- %, m2, 5, &, -, -3, 3, 7 -->
     <tag name="VERB">41868</tag><!-- fer, tenir, haver, dir, donar, presentar, arribar, passar, voler, demanar -->
   </tags>
@@ -43,7 +43,7 @@
     <feat name="Definite" value="Ind" upos="DET">16</feat><!-- en, l', al, col·laboració, la, sa, ses, suficient -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2556</feat><!-- més, menys, millor, major, millors, pitjor, menor, majors, menors, pitjors -->
     <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,PRON,SCONJ">3265</feat><!-- a, com, des, en, pel, respecte, per, cap, gràcies, de -->
-    <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PRON">1492</feat><!-- a, en, per, de, fins, no, tot, així, un, sí -->
+    <feat name="ExtPos" value="ADV" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PRON">1487</feat><!-- a, en, per, de, fins, no, tot, així, un, sí -->
     <feat name="ExtPos" value="CCONJ" upos="ADP,ADV,CCONJ,NOUN,SCONJ">383</feat><!-- així, sinó, a, no, és, o, mentre, de, juntament, en -->
     <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PRON,SCONJ">1233</feat><!-- ja, tot, encara, per, com, a, en, amb, de, malgrat -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,SCONJ,VERB">31</feat><!-- a, de, Ceguera, Como, I, Por, Quién, amor, amore, cadáver -->
