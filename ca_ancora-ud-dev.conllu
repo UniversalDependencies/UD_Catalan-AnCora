@@ -29132,7 +29132,7 @@
 15	Korac	Korac	PROPN	_	_	14	flat	14:flat	SpaceAfter=No|Entity=NOCOREF:Spec.other)NOCOREF:Gen)
 16	,	,	PUNCT	fc	PunctType=Comm	20	punct	20:punct	_
 17	com	com	SCONJ	cs	_	20	mark	20:mark	_
-18	li	ell	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	20	obj	20:obj	ArgTem=arg2:exp|Entity=(CESSCATAAP19990501127c1-organization-1-CorefType:ident,gstype:spec)
+18	li	ell	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	20	expl	20:expl	ArgTem=arg2:exp|Entity=(CESSCATAAP19990501127c1-organization-1-CorefType:ident,gstype:spec)
 19	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	20:aux	_
 20	passat	passar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	6:advcl	ArgTem=argM:adv
 21	aquesta	aquest	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	22	det	22:det	Entity=(CESSCATAAP19990501127c11--2-gstype:gen
@@ -30203,7 +30203,7 @@
 10	que	que	SCONJ	cs	_	14	mark	14:mark	_
 11	a	a	ADP	sps00	_	12	case	12:case	_
 12	Aznar	Aznar	PROPN	np0000p	_	14	obl:arg	14:obl:arg	ArgTem=arg2:exp|Entity=(CESSCATAAP1999070148c1-person-1-CorefType:ident,gstype:spec)
-13	li	ell	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	14	obj	14:obj	ArgTem=arg2:exp|Entity=(CESSCATAAP1999070148c1-person-1-CorefType:ident,gstype:spec)
+13	li	ell	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	14	expl	14:expl	ArgTem=arg2:exp|Entity=(CESSCATAAP1999070148c1-person-1-CorefType:ident,gstype:spec)
 14	desagradi	desagradar	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	9:ccomp	ArgTem=arg1:pat
 15	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	16	det	16:det	SpaceAfter=No|Entity=(CESSCATAAP1999070148c5--2-CorefType:ident,gstype:gen
 16	escena	escena	NOUN	ncfs000	Gender=Fem|Number=Sing	14	nsubj	14:nsubj	ArgTem=arg1:tem
@@ -50630,7 +50630,7 @@
 1	A	a	ADP	sps00	_	3	case	3:case	_
 2	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	3:det	Entity=(CESSCATAAP2001110119c1--2-CorefType:ident,gstype:gen,HomoDD
 3	castanya	castanya	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obl:arg	5:obl:arg	ArgTem=arg2:exp|Entity=CESSCATAAP2001110119c1)
-4	li	ell	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	5	obj	5:obj	ArgTem=arg2:exp|Entity=(CESSCATAAP2001110119c1--1-CorefType:ident,gstype:gen)
+4	li	ell	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	ArgTem=arg2:exp|Entity=(CESSCATAAP2001110119c1--1-CorefType:ident,gstype:gen)
 5	passa	passar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	com	com	SCONJ	cs	ExtPos=ADP	9	case	9:case	MWE=com_al|MWEPOS=ADP
 7-8	al	_	_	_	_	_	_	_	_
@@ -50704,7 +50704,7 @@
 1	A	a	ADP	sps00	_	3	case	3:case	_
 2	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	3:det	Entity=(CESSCATAAP2001110119c1--2-CorefType:ident,gstype:gen,HomoDD
 3	castanya	castanya	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obl:arg	5:obl:arg	ArgTem=arg2:exp|Entity=CESSCATAAP2001110119c1)
-4	li	ell	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	5	obj	5:obj	ArgTem=arg2:exp|Entity=(CESSCATAAP2001110119c1--1-CorefType:ident,gstype:gen)
+4	li	ell	PRON	pp3csd00	Case=Dat|Number=Sing|Person=3|PronType=Prs	5	expl	5:expl	ArgTem=arg2:exp|Entity=(CESSCATAAP2001110119c1--1-CorefType:ident,gstype:gen)
 5	passa	passar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 6	una	un	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	7	det	7:det	Entity=(NOCOREF:Gen--2-gstype:gen
 7	cosa	cosa	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg1:tem
