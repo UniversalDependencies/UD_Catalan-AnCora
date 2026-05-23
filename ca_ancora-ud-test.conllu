@@ -59931,7 +59931,7 @@
 1	De	de	ADP	rg	_	3	case	3:case	MWE=De_tota_manera|MWEPOS=ADV
 2	tota	tota	DET	_	_	3	det	3:det	_
 3	manera	manera	NOUN	_	_	7	obl	7:obl	SpaceAfter=No
-4	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
+4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
 5	Strahm	Strahm	PROPN	np0000p	_	7	nsubj	7:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2002020222c7-person-1-CorefType:ident,gstype:spec)
 6	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_
 7	considerar	considerar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
