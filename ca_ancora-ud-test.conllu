@@ -44447,9 +44447,9 @@
 16	amb	amb	ADP	sps00	_	17	case	17:case	_
 17	audiències	audiència	NOUN	ncfp000	Gender=Fem|Number=Plur	10	obl	10:obl	ArgTem=argM:adv|Entity=(CESSCATAAP20001001141c3--1-gstype:gen
 18	que	que	PRON	pr0cn000	PronType=Rel	23	nsubj	23:nsubj	ArgTem=arg1:tem|Entity=(CESSCATAAP20001001141c3--1-CorefType:ident,gstype:gen)
-19	amb	amb	ADP	rg	ExtPos=ADV	23	advmod	23:advmod	MWE=amb_prou_feines|MWEPOS=ADV
-20	prou	prou	NOUN	_	_	19	fixed	19:fixed	_
-21	feines	feina	NOUN	_	_	19	fixed	19:fixed	_
+19	amb	amb	ADP	rg	_	21	case	21:case	MWE=amb_prou_feines|MWEPOS=ADV
+20	prou	prou	ADJ	_	_	21	amod	21:amod	_
+21	feines	feina	NOUN	_	_	23	obl	23:obl	_
 22	van	anar	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	23:aux	_
 23	arribar	arribar	VERB	vmn0000	VerbForm=Inf	17	acl:relcl	17:acl:relcl	_
 24-25	al	_	_	_	_	_	_	_	_
@@ -52530,9 +52530,9 @@
 2	hi	hi	PRON	pp3cn000	Case=Loc|Person=3|PronType=Prs	3	obl:arg	3:obl:arg	_
 3	ha	haver	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	parataxis	25:parataxis	_
 4	que	que	PRON	pr0cn000	PronType=Rel	8	nsubj	8:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP20010502157c26--1-gstype:gen)
-5	amb	amb	ADP	rg	ExtPos=ADV	8	advmod	8:advmod	MWE=amb_prou_feines|MWEPOS=ADV
-6	prou	prou	NOUN	_	_	5	fixed	5:fixed	_
-7	feines	feina	NOUN	_	_	5	fixed	5:fixed	_
+5	amb	amb	ADP	rg	_	7	case	7:case	MWE=amb_prou_feines|MWEPOS=ADV
+6	prou	prou	ADJ	_	_	7	amod	7:amod	_
+7	feines	feina	NOUN	_	_	8	obl	8:obl	_
 8	guanyen	guanyar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl	_
 9	500	500	NUM	_	NumForm=Digit|NumType=Card	10	nummod	10:nummod	Entity=(NOCOREF:Spec.number-number-2-gstype:spec(NOCOREF:Spec.number-number-2-gstype:spec
 10	dòlars	dòlar	NOUN	zm	Gender=Masc|Number=Plur	8	obj	8:obj	ArgTem=arg1:pat|Currency=Yes|Entity=NOCOREF:Spec.number)
@@ -59928,9 +59928,9 @@
 # sent_id = CESS-CAT-AAP-20020202-22-s5
 # text = De tota manera, Strahm va considerar que l'impost Tobin no hauria evitat el col·lapse argentí.
 # orig_file_sentence 013#45
-1	De	de	ADP	rg	ExtPos=ADV	7	advmod	7:advmod	MWE=De_tota_manera|MWEPOS=ADV
-2	tota	tota	NOUN	_	_	1	fixed	1:fixed	_
-3	manera	manera	NOUN	_	_	1	fixed	1:fixed	SpaceAfter=No
+1	De	de	ADP	rg	_	3	case	3:case	MWE=De_tota_manera|MWEPOS=ADV
+2	tota	tota	DET	_	_	3	det	3:det	_
+3	manera	manera	NOUN	_	_	7	obl	7:obl	SpaceAfter=No
 4	,	,	PUNCT	fc	PunctType=Comm	1	punct	1:punct	_
 5	Strahm	Strahm	PROPN	np0000p	_	7	nsubj	7:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2002020222c7-person-1-CorefType:ident,gstype:spec)
 6	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	7:aux	_

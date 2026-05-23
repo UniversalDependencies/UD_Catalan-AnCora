@@ -44075,9 +44075,9 @@
 11	-	-	PUNCT	fg	PunctType=Dash	7	punct	7:punct	_
 12	no	no	ADV	rn	Polarity=Neg	13	advmod	13:advmod	_
 13	avança	avançar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	parataxis	18:parataxis	Entity=(CESSCATAAP20010401126c12--1)
-14	en	en	ADP	rg	ExtPos=ADV	13	advmod	13:advmod	MWE=en_línia_recta|MWEPOS=ADV|ArgTem=argM:adv
-15	línia	línia	NOUN	_	_	14	fixed	14:fixed	_
-16	recta	recta	NOUN	_	_	14	fixed	14:fixed	SpaceAfter=No
+14	en	en	ADP	rg	_	15	case	15:case	MWE=en_línia_recta|MWEPOS=ADV|ArgTem=argM:adv
+15	línia	línia	NOUN	_	_	13	obl	13:obl	_
+16	recta	recta	ADJ	_	_	15	amod	15:amod	SpaceAfter=No
 17	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
 18	sinó	sinó	CCONJ	cc	_	0	root	0:root	MWE=sinó_que|MWEPOS=CCONJ
 19	que	que	SCONJ	_	_	18	fixed	18:fixed	_
