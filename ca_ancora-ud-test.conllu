@@ -33819,7 +33819,7 @@
 # text = A pesar d'aquesta nova denúncia, la Conselleria de Sanidade dóna per eradicat el brot, després d'examinar els 127 pacients operats entre el maig i el juny a la unitat de cirurgia cardíaca de l'hospital.
 # orig_file_sentence 016#20
 1	A	a	ADP	sps00	ExtPos=ADP	6	case	6:case	MWE=A_pesar_d'|MWEPOS=ADP
-2	pesar	pesar	NOUN	_	_	1	fixed	1:fixed	_
+2	pesar	pesar	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	_
 3	d'	de	ADP	_	_	1	fixed	1:fixed	SpaceAfter=No
 4	aquesta	aquest	DET	dd0fs0	Gender=Fem|Number=Sing|PronType=Dem	6	det	6:det	Entity=(NOCOREF:Gen--3-gstype:gen
 5	nova	nou	ADJ	aq0fs0	Gender=Fem|Number=Sing	6	amod	6:amod	_

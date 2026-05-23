@@ -28719,7 +28719,7 @@
 10	que	que	SCONJ	cs	_	20	mark	20:mark	SpaceAfter=No
 11	,	,	PUNCT	fc	PunctType=Comm	16	punct	16:punct	_
 12	a	a	ADP	sps00	ExtPos=ADP	16	case	16:case	MWE=a_pesar_de|MWEPOS=ADP
-13	pesar	pesar	NOUN	_	_	12	fixed	12:fixed	_
+13	pesar	pesar	VERB	vmn0000	VerbForm=Inf	12	fixed	12:fixed	_
 14	de	de	ADP	_	_	12	fixed	12:fixed	_
 15	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	Entity=(CESSCATAAP1999030254c5--2-CorefType:ident
 16	prohibició	prohibició	NOUN	ncfs000	Gender=Fem|Number=Sing	20	obl	20:obl	SpaceAfter=No|Entity=CESSCATAAP1999030254c5)
@@ -40760,7 +40760,7 @@
 # text = A pesar de l'avanç tecnològic, no hi ha cap sofisticada màquina que hagi estat capaç d'imitar el so d'un bon stradivarius, d'un Guadagnini o d'un Guarneri del Gesù.
 # orig_file_sentence 009#45
 1	A	a	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=A_pesar_de|MWEPOS=ADP
-2	pesar	pesar	NOUN	_	_	1	fixed	1:fixed	_
+2	pesar	pesar	VERB	vmn0000	VerbForm=Inf	1	fixed	1:fixed	_
 3	de	de	ADP	_	_	1	fixed	1:fixed	_
 4	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	5	det	5:det	SpaceAfter=No|Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 5	avanç	avanç	NOUN	ncms000	Gender=Masc|Number=Sing	10	obl	10:obl	_

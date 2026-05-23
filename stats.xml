@@ -22,14 +22,14 @@
     <tag name="CCONJ">15049</tag><!-- i, o, però, ni, sinó, mentre, y, que, bé, et -->
     <tag name="DET">87278</tag><!-- el, un, aquest, seu, la, tot, altre, mateix, algun, divers -->
     <tag name="INTJ">22</tag><!-- no, vaja, he, compte, déu, ep, hola, home, marbella, mira -->
-    <tag name="NOUN">98561</tag><!-- any, milió, pesseta, dia, obra, persona, president, mes, grup, empresa -->
+    <tag name="NOUN">98551</tag><!-- any, milió, pesseta, dia, obra, persona, president, mes, grup, empresa -->
     <tag name="NUM">9962</tag><!-- dos, tres, un, quatre, cent, 10, cinc, sis, 15, 30 -->
     <tag name="PRON">23348</tag><!-- ell, que, hi, un, jo, tot, qual, on, què, en -->
     <tag name="PROPN">46589</tag><!-- Catalunya, barcelona, generalitat, Govern, sant, ajuntament, Girona, Josep, CiU, PP -->
     <tag name="PUNCT">57270</tag><!-- ,, ., ", ', (, ), -, :, ;, ? -->
     <tag name="SCONJ">10553</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, què -->
     <tag name="SYM">821</tag><!-- %, m2, 5, &, -, -3, 3, 7 -->
-    <tag name="VERB">41868</tag><!-- fer, tenir, haver, dir, donar, presentar, arribar, passar, voler, demanar -->
+    <tag name="VERB">41878</tag><!-- fer, tenir, haver, dir, donar, presentar, arribar, passar, voler, demanar -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="69">
@@ -100,7 +100,7 @@
     <feat name="Tense" value="Pres" upos="AUX,VERB">30598</feat><!-- va, ha, és, van, han, són, està, té, fa, pot -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">38273</feat><!-- va, ha, és, van, han, són, està, té, fa, havia -->
     <feat name="VerbForm" value="Ger" upos="AUX,VERB">1194</feat><!-- fent, sent, treballant, dient, tenint, aprofitant, donant, passant, seguint, coincidint -->
-    <feat name="VerbForm" value="Inf" upos="AUX,VERB">16968</feat><!-- ser, fer, haver, dir, tenir, donar, arribar, aconseguir, veure, passar -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">16978</feat><!-- ser, fer, haver, dir, tenir, donar, arribar, aconseguir, veure, passar -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">13073</feat><!-- estat, passat, fet, explicat, dit, presentat, tingut, destacat, assegurat, previst -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
