@@ -10,7 +10,7 @@
     <dev><sentences>1709</sentences><tokens>56379</tokens><words>58073</words><fused>1690</fused></dev>
     <test><sentences>1846</sentences><tokens>57894</tokens><words>59610</words><fused>1715</fused></test>
   </size>
-  <lemmas unique="23209" /><!-- el, de, ,, a, ., que, i, un, ell, haver, en, per, anar, ser, " -->
+  <lemmas unique="23208" /><!-- el, de, ,, a, ., que, i, un, ell, haver, en, per, anar, ser, " -->
   <forms unique="32376" /><!-- de, ,, el, la, a, ., que, i, l', els, d', per, en, les, un -->
   <fusions unique="789" /><!-- del, al, dels, als, pel, pels, fer-ho, haver-se, convertir-se, fer-se, dirigir-se, desplaçar-se, donar-li, fer-li, posar-se -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -47,7 +47,7 @@
     <feat name="ExtPos" value="CCONJ" upos="ADP,ADV,CCONJ,NOUN,SCONJ">383</feat><!-- així, sinó, a, no, és, o, mentre, de, juntament, en -->
     <feat name="ExtPos" value="SCONJ" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,PRON,SCONJ">1233</feat><!-- ja, tot, encara, per, com, a, en, amb, de, malgrat -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,SCONJ,VERB">31</feat><!-- a, de, Ceguera, Como, I, Por, Quién, amor, amore, cadáver -->
-    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">86335</feat><!-- la, les, una, aquesta, seva, pessetes, persones, seves, dues, aquestes -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">86346</feat><!-- la, les, una, aquesta, seva, pessetes, persones, seves, dues, aquestes -->
     <feat name="Gender" value="Fem,Masc" upos="PRON">176</feat><!-- l' -->
     <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">108010</feat><!-- el, els, un, aquest, seu, anys, tot, estat, milions, dos -->
     <feat name="Gender" value="Neut" upos="PRON">333</feat><!-- ho, -ho -->
@@ -55,8 +55,8 @@
     <feat name="Mood" value="Imp" upos="AUX,VERB">75</feat><!-- deixi, sigui, seguim, siguin, superi, aclareixi, estigui, estrena, gestioni, miri -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">34885</feat><!-- va, ha, és, van, han, són, està, té, fa, havia -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2623</feat><!-- hagi, sigui, pugui, puguin, hagués, hagin, tingui, siguin, fos, estigui -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">69881</feat><!-- els, les, van, han, anys, milions, pessetes, dos, són, altres -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">191987</feat><!-- el, la, l', un, va, ha, una, és, aquest, aquesta -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">69884</feat><!-- els, les, van, han, anys, milions, pessetes, dos, són, altres -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">191995</feat><!-- el, la, l', un, va, ha, una, és, aquest, aquesta -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">183</feat><!-- nostra, nostre, nostres -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">43</feat><!-- meu, meus, meva, teu, teus, teva -->
     <feat name="NumForm" value="Digit" upos="ADJ,NUM,SYM">6902</feat><!-- %, 10, 15, 30, 5, 20, 2, 12, 4, 50 -->
@@ -76,12 +76,12 @@
     <feat name="PrepCase" value="Pre" upos="PRON">51</feat><!-- mi, si, ti -->
     <feat name="PronType" value="Art" upos="DET">68307</feat><!-- el, la, l', els, les, un, una, meva, los, las -->
     <feat name="PronType" value="Dem" upos="DET,PRON">4156</feat><!-- aquest, aquesta, aquests, això, aquestes, el, aquell, aquells, tal, allò -->
-    <feat name="PronType" value="Ind" upos="DET,PRON">14074</feat><!-- un, una, altres, tots, uns, tot, mateix, cap, altra, cada -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">13754</feat><!-- un, una, altres, tots, uns, tot, mateix, cap, altra, cada -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">348</feat><!-- què, com, quina, qui, quin, quines, on, quins, quan, quant -->
     <feat name="PronType" value="Neg" upos="DET">1</feat><!-- ningún -->
     <feat name="PronType" value="Prs" upos="DET,PRON">14594</feat><!-- es, s', hi, seva, seu, se, li, seus, ho, seves -->
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">8813</feat><!-- que, on, qual, què, qui, quals, quan, com -->
-    <feat name="PronType" value="Tot" upos="DET,PRON">430</feat><!-- tot -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">761</feat><!-- tot, totes, tota -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">1937</feat><!-- ), ?, !, ], ( -->
     <feat name="PunctSide" value="Ini" upos="PUNCT">1850</feat><!-- (, ¿, ¡, [, ), ] -->
     <feat name="PunctType" value="Brck" upos="PUNCT">3400</feat><!-- (, ) -->

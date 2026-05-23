@@ -2557,7 +2557,7 @@
 34	han	haver	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux	36:aux	ArgTem=arg1:pat
 35	de	de	ADP	sps00	_	36	mark	36:mark	_
 36	valorar	valorar	VERB	vmn0000	VerbForm=Inf	31	xcomp	31:xcomp	_
-37	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	39	det	39:det	_
+37	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	39	det	39:det	_
 38	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	39:det	_
 39	opcions	opció	NOUN	ncfp000	Gender=Fem|Number=Plur	36	nsubj	36:nsubj	ArgTem=arg1:pat
 40	possibles	possible	ADJ	aq0cp0	Number=Plur	39	amod	39:amod	SpaceAfter=No
@@ -7539,7 +7539,7 @@
 28	entitat	entitat	NOUN	ncfs000	Gender=Fem|Number=Sing	25	nmod	25:nmod	_
 29	i	i	CCONJ	cc	_	33	cc	33:cc	_
 30	amb	amb	ADP	sps00	_	33	case	33:case	_
-31	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	33	det	33:det	_
+31	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	33	det	33:det	_
 32	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	33:det	_
 33	persones	persona	NOUN	ncfp000	Gender=Fem|Number=Plur	25	conj	25:conj	_
 34	amb	amb	ADP	sps00	_	35	case	35:case	_
@@ -7682,7 +7682,7 @@
 10	poden	poder	AUX	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	11:aux	_
 11	trobar	trobar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
 12	juntes	junt	ADJ	aq0fp0	Gender=Fem|Number=Plur	11	xcomp	11:xcomp	ArgTem=argM:atr
-13	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	15	det	15:det	_
+13	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	15	det	15:det	_
 14	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	15:det	_
 15	activitats	activitat	NOUN	ncfp000	Gender=Fem|Number=Plur	11	nsubj	11:nsubj	ArgTem=arg1:pat
 16	que	que	PRON	pr0cn000	PronType=Rel	19	obj	19:obj	ArgTem=arg1:pat
@@ -13947,7 +13947,7 @@
 # sent_id = CESS-CAT-A-20000902-73-s5
 # text = Totes aquestes dades van fer pensar als analistes que l'economia nord-americana està aconseguint un aterratge suau i que la Reserva Federal no haurà d'apujar al setembre els tipus d'interès.
 # orig_file_sentence 007#3
-1	Totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	3	det	3:det	Entity=(CESSCATA2000090273c7_PLUS_CESSCATA2000090273c8--3-CorefType:dx,gstype:gen|SplitAnte=CESSCATA2000090273c7<CESSCATA2000090273c7_PLUS_CESSCATA2000090273c8,CESSCATA2000090273c8<CESSCATA2000090273c7_PLUS_CESSCATA2000090273c8
+1	Totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	3	det	3:det	Entity=(CESSCATA2000090273c7_PLUS_CESSCATA2000090273c8--3-CorefType:dx,gstype:gen|SplitAnte=CESSCATA2000090273c7<CESSCATA2000090273c7_PLUS_CESSCATA2000090273c8,CESSCATA2000090273c8<CESSCATA2000090273c7_PLUS_CESSCATA2000090273c8
 2	aquestes	aquest	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	3	det	3:det	_
 3	dades	dada	NOUN	ncfp000	Gender=Fem|Number=Plur	5	nsubj	5:nsubj	ArgTem=arg0:cau|Entity=CESSCATA2000090273c7_PLUS_CESSCATA2000090273c8)
 4	van	anar	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
@@ -15073,7 +15073,7 @@
 2	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	3	det	3:det	SpaceAfter=No|Entity=(CESSCATA2001012624222c10-organization-2-CorefType:ident,gstype:spec
 3	Ajuntament	Ajuntament	PROPN	np0000o	_	11	obl	11:obl	SpaceAfter=No|Entity=CESSCATA2001012624222c10)
 4	,	,	PUNCT	fc	PunctType=Comm	3	punct	3:punct	_
-5	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	8	det	8:det	Entity=(CESSCATA2001012624222c22--4-gstype:gen
+5	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	8	det	8:det	Entity=(CESSCATA2001012624222c22--4-gstype:gen
 6	aquestes	aquest	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	8	det	8:det	_
 7	noves	nou	ADJ	aq0fp0	Gender=Fem|Number=Plur	8	amod	8:amod	_
 8	ordenacions	ordenació	NOUN	ncfp000	Gender=Fem|Number=Plur	11	nsubj	11:nsubj	ArgTem=arg1:pat|Entity=CESSCATA2001012624222c22)
@@ -15282,7 +15282,7 @@
 10	consorci	consorci	NOUN	ncms000	Gender=Masc|Number=Sing	7	nmod	7:nmod	_
 11	integrat	integrat	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	10	amod	10:amod	_
 12	per	per	ADP	sps00	_	15	case	15:case	_
-13	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	15	det	15:det	Entity=(NOCOREF:Gen--3-gstype:gen
+13	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	15	det	15:det	Entity=(NOCOREF:Gen--3-gstype:gen
 14	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	15:det	_
 15	administracions	administració	NOUN	ncfp000	Gender=Fem|Number=Plur	11	obl:agent	11:obl:agent	ArgTem=arg0:agt|Entity=NOCOREF:Gen)CESSCATA2001031227346c2)NOCOREF:Gen)
 16	perquè	perquè	SCONJ	cs	_	26	mark	26:mark	SpaceAfter=No|Entity=(CESSCATA2001031227346c10--12
@@ -16385,11 +16385,11 @@
 36	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	37	det	37:det	_
 37	diaris	diari	NOUN	ncmp000	Gender=Masc|Number=Plur	19	obl	19:obl	SpaceAfter=No|ArgTem=argM:loc|Entity=CESSCATA2001031527617c21)
 38	,	,	PUNCT	fc	PunctType=Comm	41	punct	41:punct	_
-39	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	41	det	41:det	Entity=(CESSCATA2001031527617c22--3-CorefType:ident,gstype:gen
+39	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	41	det	41:det	Entity=(CESSCATA2001031527617c22--3-CorefType:ident,gstype:gen
 40	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	41	det	41:det	_
 41	ràdios	ràdio	NOUN	ncfp000	Gender=Fem|Number=Plur	37	appos	37:appos	Entity=CESSCATA2001031527617c22)
 42	i	i	CCONJ	cc	_	45	cc	45:cc	_
-43	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	45	det	45:det	Entity=(CESSCATA2001031527617c23--3-CorefType:ident,gstype:gen
+43	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	45	det	45:det	Entity=(CESSCATA2001031527617c23--3-CorefType:ident,gstype:gen
 44	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	45:det	_
 45	televisions	televisió	NOUN	ncfp000	Gender=Fem|Number=Plur	37	conj	37:conj	SpaceAfter=No|Entity=CESSCATA2001031527617c23)
 46	:	:	PUNCT	fd	PunctType=Colo	50	punct	50:punct	_
@@ -16401,7 +16401,7 @@
 52	doncs	doncs	ADV	rg	_	50	advmod	50:advmod	SpaceAfter=No
 53	,	,	PUNCT	fc	PunctType=Comm	52	punct	52:punct	_
 54	que	que	SCONJ	cs	_	61	mark	61:mark	_
-55	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	57	det	57:det	Entity=(CESSCATA2001031527617c19--3-CorefType:ident,gstype:gen
+55	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	57	det	57:det	Entity=(CESSCATA2001031527617c19--3-CorefType:ident,gstype:gen
 56	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	57	det	57:det	_
 57	agències	agència	NOUN	ncfp000	Gender=Fem|Number=Plur	61	nsubj	61:nsubj	ArgTem=arg1:pat
 58	de	de	ADP	sps00	_	59	case	59:case	_
@@ -17242,7 +17242,7 @@
 35	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	36:det	_
 36	costos	cost	NOUN	ncmp000	Gender=Masc|Number=Plur	33	nmod	33:nmod	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD
 37	de	de	ADP	sps00	_	39	case	39:case	_
-38	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	39	det	39:det	_
+38	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	39	det	39:det	_
 39	mena	mena	NOUN	ncfs000	Gender=Fem|Number=Sing	36	nmod	36:nmod	SpaceAfter=No|Entity=NOCOREF:Gen)NOCOREF:Gen)
 40	,	,	PUNCT	fc	PunctType=Comm	42	punct	42:punct	_
 41	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	42	det	42:det	SpaceAfter=No|Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -17253,12 +17253,12 @@
 45	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	46:det	_
 46	lectors	lector	NOUN	ncmp000	Gender=Masc|Number=Plur	42	nmod	42:nmod	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)
 47	per	per	ADP	sps00	_	49	case	49:case	_
-48	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	49	det	49:det	Entity=(NOCOREF:Gen--2-gstype:gen
+48	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	49	det	49:det	Entity=(NOCOREF:Gen--2-gstype:gen
 49	mena	mena	NOUN	ncfs000	Gender=Fem|Number=Sing	42	nmod	42:nmod	_
 50	de	de	ADP	sps00	_	51	case	51:case	_
 51	notícies	notícia	NOUN	ncfp000	Gender=Fem|Number=Plur	49	nmod	49:nmod	_
 52	de	de	ADP	sps00	_	54	case	54:case	_
-53	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	54	det	54:det	Entity=(NOCOREF:Gen--2-gstype:gen
+53	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	54	det	54:det	Entity=(NOCOREF:Gen--2-gstype:gen
 54	mena	mena	NOUN	ncfs000	Gender=Fem|Number=Sing	51	nmod	51:nmod	_
 55	de	de	ADP	sps00	_	56	case	56:case	_
 56	llocs	lloc	NOUN	ncmp000	Gender=Masc|Number=Plur	54	nmod	54:nmod	SpaceAfter=No|Entity=NOCOREF:Gen)NOCOREF:Gen)NOCOREF:Gen)
@@ -19680,7 +19680,7 @@
 3	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	4:det	_
 4	diaris	diari	NOUN	ncmp000	Gender=Masc|Number=Plur	1	obj	1:obj	SpaceAfter=No|ArgTem=arg1:tem|Entity=NOCOREF:Gen)
 5	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
-6	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	8	det	8:det	Entity=(CESSCATA2001031527617c22--3-CorefType:ident,gstype:gen
+6	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	8	det	8:det	Entity=(CESSCATA2001031527617c22--3-CorefType:ident,gstype:gen
 7	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	8:det	_
 8	ràdios	ràdio	NOUN	ncfp000	Gender=Fem|Number=Plur	4	appos	4:appos	Entity=CESSCATA2001031527617c22)
 9	i	i	CCONJ	cc	_	12	cc	12:cc	_
@@ -24833,7 +24833,7 @@
 26	únic	únic	ADJ	aq0ms0	Gender=Masc|Number=Sing	27	amod	27:amod	_
 27	partit	partit	NOUN	ncms000	Gender=Masc|Number=Sing	21	ccomp	21:ccomp	ArgTem=arg2:atr
 28	que	que	PRON	pr0cn000	PronType=Rel	34	obl:arg	34:obl:arg	ArgTem=arg2:ben|Entity=(CESSCATA2003052288507c1-organization-1-CorefType:ident,gstype:spec)
-29	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	31	det	31:det	Entity=(CESSCATA2003052288507c23--3-gstype:gen
+29	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	31	det	31:det	Entity=(CESSCATA2003052288507c23--3-gstype:gen
 30	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	31:det	_
 31	enquestes	enquesta	NOUN	ncfp000	Gender=Fem|Number=Plur	34	nsubj	34:nsubj	ArgTem=arg0:agt|Entity=CESSCATA2003052288507c23)
 32	els	ell	PRON	pp3cp000	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	34	obl:arg	34:obl:arg	ArgTem=arg2:ben|Entity=(CESSCATA2003052288507c1-organization-1-CorefType:ident,gstype:spec)
@@ -29772,7 +29772,7 @@
 24	peces	peça	NOUN	nccp000	Number=Plur	20	nmod	20:nmod	_
 25	bàsiques	bàsic	ADJ	aq0fp0	Gender=Fem|Number=Plur	24	amod	24:amod	Entity=NOCOREF:Gen)
 26	en	en	ADP	sps00	_	29	case	29:case	_
-27	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	29	det	29:det	Entity=(NOCOREF:Gen--3-gstype:gen
+27	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	29	det	29:det	Entity=(NOCOREF:Gen--3-gstype:gen
 28	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	29:det	_
 29	sèrie	sèrie	NOUN	ncfs000	Gender=Fem|Number=Sing	20	nmod	20:nmod	SpaceAfter=No|Entity=NOCOREF:Gen)CESSCATAAP19990501127c24)
 30	,	,	PUNCT	fc	PunctType=Comm	33	punct	33:punct	_
@@ -32220,7 +32220,7 @@
 19	vestidor	vestidor	NOUN	ncms000	Gender=Masc|Number=Sing	16	obl	16:obl	ArgTem=argM:loc|Entity=(CESSCATAAP20000102106c18--1-gstype:gen,HomoDD)
 20	davant	davant	ADV	rg	_	16	advmod	16:advmod	ArgTem=argM:adv
 21	de	de	ADP	sps00	_	24	case	24:case	_
-22	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	24	det	24:det	Entity=(CESSCATAAP20000102106c14-other-3-gstype:spec
+22	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	24	det	24:det	Entity=(CESSCATAAP20000102106c14-other-3-gstype:spec
 23	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	24:det	_
 24	plantilla	plantilla	NOUN	ncfs000	Gender=Fem|Number=Sing	20	obl	20:obl	SpaceAfter=No|Entity=CESSCATAAP20000102106c14)CESSCATAAP20000102106c2)
 25	.	.	PUNCT	fp	PunctType=Peri	10	punct	10:punct	_
@@ -38366,7 +38366,7 @@
 # text = Però tota la pressió que rebi a Balaídos de les penyes l'entendré ", explicava ahir Horacio Gómez, president de l'entitat gallega.
 # orig_file_sentence 008#70
 1	Però	però	CCONJ	cc	_	13	advmod	13:advmod	_
-2	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	4	det	4:det	Entity=(CESSCATAAP20001202139c16--3-gstype:gen
+2	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	4	det	4:det	Entity=(CESSCATAAP20001202139c16--3-gstype:gen
 3	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	_
 4	pressió	pressió	NOUN	ncfs000	Gender=Fem|Number=Sing	13	obl:arg	13:obl:arg	ArgTem=arg1:pat
 5	que	que	PRON	pr0cn000	PronType=Rel	6	obj	6:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP20001202139c16--1-CorefType:ident,gstype:gen)
@@ -41647,7 +41647,7 @@
 11	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	12	det	12:det	SpaceAfter=No|Entity=(CESSCATAAP2001021625787c13--2-CorefType:ident,gstype:gen
 12	antic	antic	ADJ	aq0ms0	Gender=Masc|Number=Sing	10	obj	10:obj	ArgTem=arg1:pat|Entity=CESSCATAAP2001021625787c13)
 13	en	en	ADP	sps00	_	16	case	16:case	_
-14	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	16	det	16:det	Entity=(CESSCATAAP2001021625787c2--3-CorefType:ident,gstype:gen
+14	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	16	det	16:det	Entity=(CESSCATAAP2001021625787c2--3-CorefType:ident,gstype:gen
 15	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	16:det	_
 16	carreteres	carretera	NOUN	ncfp000	Gender=Fem|Number=Plur	10	obl	10:obl	ArgTem=argM:loc
 17	de	de	ADP	sps00	_	18	case	18:case	_
@@ -41664,7 +41664,7 @@
 5	estudiat	estudiar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 6	per	per	ADP	sps00	_	10	case	10:case	_
 7	a	a	ADP	sps00	_	10	case	10:case	_
-8	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	10	det	10:det	Entity=(CESSCATAAP2001021625787c2--3-CorefType:ident,gstype:gen
+8	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	10	det	10:det	Entity=(CESSCATAAP2001021625787c2--3-CorefType:ident,gstype:gen
 9	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	_
 10	xarxa	xarxa	NOUN	ncfs000	Gender=Fem|Number=Sing	5	obl	5:obl	SpaceAfter=No|ArgTem=argM:adv|Entity=CESSCATAAP2001021625787c2)
 11	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
@@ -42784,7 +42784,7 @@
 29	en	en	ADP	sps00	_	31	case	31:case	_
 30	un	un	DET	di0ms0	Gender=Masc|Number=Sing|PronType=Ind	31	det	31:det	Entity=(NOCOREF:Gen--2-gstype:gen
 31	disc-llibre	disc-llibre	NOUN	nc00000	_	27	nmod	27:nmod	Entity=NOCOREF:Gen)
-32	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	34	det	34:det	Entity=(CESSCATAAP2001030727013c1--3-gstype:gen
+32	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	34	det	34:det	Entity=(CESSCATAAP2001030727013c1--3-gstype:gen
 33	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	34:det	_
 34	cançons	cançó	NOUN	ncfp000	Gender=Fem|Number=Plur	27	appos	27:appos	SpaceAfter=No
 35	,	,	PUNCT	fc	PunctType=Comm	36	punct	36:punct	_
@@ -45706,7 +45706,7 @@
 17	s'	ell	PRON	p0300000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	18	obj	18:obj	SpaceAfter=No
 18	adreça	adreçar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 19	a	a	ADP	sps00	_	22	case	22:case	_
-20	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	22	det	22:det	Entity=(NOCOREF:Gen--3-gstype:gen
+20	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	22	det	22:det	Entity=(NOCOREF:Gen--3-gstype:gen
 21	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	22:det	_
 22	persones	persona	NOUN	ncfp000	Gender=Fem|Number=Plur	18	obl:arg	18:obl:arg	ArgTem=arg2:ben
 23	interessades	interessat	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	22	amod	22:amod	_
@@ -46900,7 +46900,7 @@
 12	millonario	millonario	PROPN	_	_	10	flat	10:flat	_
 13	?	?	PUNCT	_	_	10	punct	10:punct	SpaceAfter=No|Entity=NOCOREF:Spec.other)
 14	:	:	PUNCT	fd	PunctType=Colo	18	punct	18:punct	_
-15	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	17	det	17:det	Entity=(NOCOREF:Gen--3-gstype:gen
+15	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	17	det	17:det	Entity=(NOCOREF:Gen--3-gstype:gen
 16	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	17:det	_
 17	TV	tv	NOUN	ncfp000	Gender=Fem|Number=Plur	18	nsubj	18:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
 18	tenen	tenir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl	9:acl	_
@@ -48705,7 +48705,7 @@
 11	5	5	NUM	_	NumForm=Digit|NumType=Card	10	appos	10:appos	Entity=(NOCOREF:Spec.number-number-1-gstype:spec)NOCOREF:Spec.number)
 12	de	de	ADP	sps00	_	13	case	13:case	_
 13	Figueres	Figueres	PROPN	np0000l	_	7	nmod	7:nmod	Entity=(NOCOREF:Spec.location-place-1-gstype:spec)CESSCATAAP2001080336636c14)
-14	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	16	det	16:det	Entity=(NOCOREF:Gen--3-gstype:gen
+14	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	16	det	16:det	Entity=(NOCOREF:Gen--3-gstype:gen
 15	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	_
 16	informació	informació	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obj	4:obj	ArgTem=arg1:pat
 17	de	de	ADP	sps00	_	19	case	19:case	_
@@ -50134,7 +50134,7 @@
 52	,	,	PUNCT	fc	PunctType=Comm	54	punct	54:punct	_
 53	i	i	CCONJ	cc	_	54	cc	54:cc	_
 54	evitant	evitar	VERB	vmg0000	VerbForm=Ger	43	conj	43:conj	_
-55	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	56	det	56:det	Entity=(NOCOREF:Gen--2-gstype:gen
+55	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	56	det	56:det	Entity=(NOCOREF:Gen--2-gstype:gen
 56	intervenció	intervenció	NOUN	ncfs000	Gender=Fem|Number=Sing	54	obj	54:obj	ArgTem=arg1:pat
 57	humana	humà	ADJ	aq0fs0	Gender=Fem|Number=Sing	56	amod	56:amod	SpaceAfter=No|Entity=NOCOREF:Gen)CESSCATAAP2001102341221c27)
 58	.	.	PUNCT	fp	PunctType=Peri	11	punct	11:punct	_
@@ -51249,7 +51249,7 @@
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 9	suport	suport	NOUN	ncms000	Gender=Masc|Number=Sing	7	obj	7:obj	ArgTem=arg2:atr
 10	de	de	ADP	sps00	_	13	case	13:case	_
-11	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	13	det	13:det	Entity=(CESSCATAAP2001111643003c9--3-gstype:gen,HomoDD
+11	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	13	det	13:det	Entity=(CESSCATAAP2001111643003c9--3-gstype:gen,HomoDD
 12	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	13:det	_
 13	llotges	llotja	NOUN	ncfp000	Gender=Fem|Number=Plur	9	nmod	9:nmod	_
 14	de	de	ADP	sps00	_	16	case	16:case	_
@@ -52822,7 +52822,7 @@
 42	terrestre	terrestre	ADJ	aq0cs0	Number=Sing	41	amod	41:amod	_
 43	que	que	PRON	pr0cn000	PronType=Rel	44	nsubj	44:nsubj	ArgTem=arg0:cau|Entity=(CESSCATAAP2001120344098c9--1-CorefType:ident,gstype:gen)
 44	cobreixen	cobrir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	acl:relcl	35:acl:relcl	_
-45	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	47	det	47:det	Entity=(CESSCATAAP2001120344098c5-place-3-CorefType:ident,gstype:spec
+45	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	47	det	47:det	Entity=(CESSCATAAP2001120344098c5-place-3-CorefType:ident,gstype:spec
 46	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	47	det	47:det	SpaceAfter=No
 47	àrea	àrea	NOUN	ncfs000	Gender=Fem|Number=Sing	44	obj	44:obj	ArgTem=arg1:tem
 48-49	dels	_	_	_	_	_	_	_	_
@@ -52848,7 +52848,7 @@
 65.1	_	_	PRON	p	_	_	_	66:nsubj	ArgTem=arg1:tem|Entity=(CESSCATAAP2001120344098c11--1-CorefType:ident,gstype:gen)
 66	arriba	arribar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	advcl	61:advcl	ArgTem=argM:cau
 67	a	a	ADP	sps00	_	70	case	70:case	_
-68	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	70	det	70:det	Entity=(NOCOREF:Gen--3-gstype:gen
+68	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	70	det	70:det	Entity=(NOCOREF:Gen--3-gstype:gen
 69	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	70	det	70:det	_
 70	llars	llar	NOUN	ncfp000	Gender=Fem|Number=Plur	66	obl	66:obl	ArgTem=arg2:loc|Entity=NOCOREF:Gen)
 71	sense	sense	ADP	sps00	_	72	case	72:case	_
@@ -52931,7 +52931,7 @@
 27	i	i	CCONJ	cc	_	28	cc	28:cc	_
 28	fer	fer	VERB	vmn0000	VerbForm=Inf	25	conj	25:conj	_
 29	que	que	SCONJ	cs	_	38	mark	38:mark	_
-30	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	32	det	32:det	Entity=(NOCOREF:Gen--3-gstype:gen
+30	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	32	det	32:det	Entity=(NOCOREF:Gen--3-gstype:gen
 31	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	32:det	_
 32	gent	gent	NOUN	ncfs000	Gender=Fem|Number=Sing	38	nsubj	38:nsubj	ArgTem=arg1:tem
 33-34	del	_	_	_	_	_	_	_	_
@@ -53110,7 +53110,7 @@
 20	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 21	i	i	CCONJ	cc	_	25	cc	25:cc	_
 22	naturalment	naturalment	ADV	rg	_	25	advmod	25:advmod	_
-23	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	25	det	25:det	Entity=(NOCOREF:Gen--3-gstype:gen
+23	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	25	det	25:det	Entity=(NOCOREF:Gen--3-gstype:gen
 24	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	25:det	_
 25	característiques	característica	NOUN	ncfp000	Gender=Fem|Number=Plur	6	conj	6:conj	_
 26	pròpies	propi	ADJ	aq0fp0	Gender=Fem|Number=Plur	25	amod	25:amod	_
@@ -53382,7 +53382,7 @@
 # text = De totes les opcions que en aquest moment hi ha disponibles, algunes són realitzables totalment per aquest nou mètode i algunes cal acabar-les personalment a les oficines del Consell en algun moment o retornant la documentació per correu, bàsicament aquelles que necessiten la signatura del sol·licitant.
 # orig_file_sentence 013#30
 1	De	de	ADP	sps00	_	4	case	4:case	_
-2	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	4	det	4:det	Entity=(CESSCATAAP2002011446382c5--3-CorefType:ident,gstype:gen
+2	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	4	det	4:det	Entity=(CESSCATAAP2002011446382c5--3-CorefType:ident,gstype:gen
 3	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	4:det	_
 4	opcions	opció	NOUN	ncfp000	Gender=Fem|Number=Plur	15	obl	15:obl	ArgTem=argM:adv
 5	que	que	PRON	pr0cn000	PronType=Rel	10	obj	10:obj	ArgTem=arg1:tem|Entity=(CESSCATAAP2002011446382c5--1-CorefType:ident,gstype:gen)
@@ -54135,7 +54135,7 @@
 13	cos	cos	NOUN	ncms000	Gender=Masc|Number=Sing	11	obl	11:obl	ArgTem=argM:mnr
 14	i	i	CCONJ	cc	_	15	cc	15:cc	_
 15	ànima	ànima	NOUN	ncfs000	Gender=Fem|Number=Sing	13	conj	13:conj	_
-16	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	18	det	18:det	Entity=(NOCOREF:Gen--3-gstype:gen
+16	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	18	det	18:det	Entity=(NOCOREF:Gen--3-gstype:gen
 17	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	18:det	_
 18	vida	vida	NOUN	ncfs000	Gender=Fem|Number=Sing	11	obl	11:obl	ArgTem=argM:tmp|Entity=NOCOREF:Gen)
 19	a	a	ADP	sps00	_	21	case	21:case	_
@@ -57783,7 +57783,7 @@
 17	diu	dir	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	7:advcl	ArgTem=argM:tmp
 18	que	que	SCONJ	cs	_	23	mark	23:mark	_
 19	'	'	PUNCT	fz	PunctType=Quot	23	punct	23:punct	SpaceAfter=No
-20	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	22	det	22:det	Entity=(NOCOREF:Gen--3-gstype:gen
+20	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	22	det	22:det	Entity=(NOCOREF:Gen--3-gstype:gen
 21	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	22:det	_
 22	persones	persona	NOUN	ncfp000	Gender=Fem|Number=Plur	23	nsubj	23:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
 23	tenen	tenir	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	17:ccomp	ArgTem=arg1:pat
@@ -60493,7 +60493,7 @@
 12	de	de	ADP	_	_	11	fixed	11:fixed	_
 13	Catalunya	Catalunya	PROPN	np0000l	_	9	obl	9:obl	SpaceAfter=No|ArgTem=argM:loc|Entity=(CESSCATAAP2002051455209c15-place-1-CorefType:ident,gstype:spec)
 14	,	,	PUNCT	fc	PunctType=Comm	13	punct	13:punct	_
-15	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	17	det	17:det	Entity=(NOCOREF:Gen--3-gstype:gen
+15	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	17	det	17:det	Entity=(NOCOREF:Gen--3-gstype:gen
 16	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	17:det	_
 17	iniciatives	iniciativa	NOUN	ncfp000	Gender=Fem|Number=Plur	9	obj	9:obj	ArgTem=arg1:pat
 18	de	de	ADP	sps00	_	19	case	19:case	_
@@ -63789,7 +63789,7 @@
 43	el	el	DET	dp3ms0	Gender=Masc|Number=Sing|PronType=Art	45	det	45:det	MWE=el_seu|MWEPOS=DET|Entity=(CESSCATAAP200209019_bc94--1-CorefType:ident,gstype:gen
 44	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	det	45:det	Entity=CESSCATAAP200209019_bc94)
 45	si	ell	PRON	ncms000	Case=Acc|Person=3|PrepCase=Pre|PronType=Prs|Reflex=Yes	41	obl	41:obl	ArgTem=arg2:loc
-46	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	48	det	48:det	Entity=(CESSCATAAP200209019_bc66--3-gstype:gen
+46	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	48	det	48:det	Entity=(CESSCATAAP200209019_bc66--3-gstype:gen
 47	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	48:det	_
 48	sensibilitats	sensibilitat	NOUN	ncfp000	Gender=Fem|Number=Plur	41	obj	41:obj	ArgTem=arg1:pat
 49	que	que	PRON	pr0cn000	PronType=Rel	50	nsubj	50:nsubj	ArgTem=arg1:tem|Entity=(CESSCATAAP200209019_bc66--1-CorefType:ident,gstype:gen)
@@ -63912,7 +63912,7 @@
 17.1	_	_	PRON	p	_	_	_	19:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP200209019_bc23-organization-1-CorefType:ident,gstype:spec)
 18	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
 19	consagrat	consagrar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	parataxis	13:parataxis	_
-20	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	23	det	23:det	Entity=(NOCOREF:Gen--4-gstype:gen
+20	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	23	det	23:det	Entity=(NOCOREF:Gen--4-gstype:gen
 21	la	el	DET	dp3fs0	Gender=Fem|Number=Sing|PronType=Art	23	det	23:det	MWE=la_seva|MWEPOS=DET|Entity=(CESSCATAAP200209019_bc23-organization-1-CorefType:ident,gstype:spec
 22	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	det	23:det	Entity=CESSCATAAP200209019_bc23)
 23	existència	existència	NOUN	ncfs000	Gender=Fem|Number=Sing	19	obj	19:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
@@ -64007,7 +64007,7 @@
 64	subjecte	subjecte	NOUN	ncms000	Gender=Masc|Number=Sing	58	obl:arg	58:obl:arg	ArgTem=argM:atr
 65	únic	únic	ADJ	aq0ms0	Gender=Masc|Number=Sing	64	amod	64:amod	_
 66	de	de	ADP	sps00	_	68	case	68:case	_
-67	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	68	det	68:det	Entity=(NOCOREF:Gen--2-gstype:gen
+67	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	68	det	68:det	Entity=(NOCOREF:Gen--2-gstype:gen
 68	interlocució	interlocució	NOUN	ncfs000	Gender=Fem|Number=Sing	64	nmod	64:nmod	_
 69	amb	amb	ADP	sps00	_	71	case	71:case	_
 70	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	71	det	71:det	SpaceAfter=No|Entity=(CESSCATAAP200209019_bc72-organization-2-gstype:spec
@@ -64054,7 +64054,7 @@
 33.1	_	_	PRON	p	_	_	_	35:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP200209019_bc23-organization-1-CorefType:ident,gstype:spec)
 34	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	35:aux	_
 35	dipositat	dipositar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	4:conj	_
-36	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	39	det	39:det	Entity=(NOCOREF:Gen--4-gstype:gen
+36	tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	39	det	39:det	Entity=(NOCOREF:Gen--4-gstype:gen
 37	la	el	DET	dp3fs0	Gender=Fem|Number=Sing|PronType=Art	39	det	39:det	MWE=la_seva|MWEPOS=DET|Entity=(CESSCATAAP200209019_bc23-organization-1-CorefType:ident,gstype:spec
 38	seva	seu	DET	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	39	det	39:det	Entity=CESSCATAAP200209019_bc23)
 39	confiança	confiança	NOUN	ncfs000	Gender=Fem|Number=Sing	35	obj	35:obj	ArgTem=arg1:pat|Entity=NOCOREF:Gen)
@@ -64386,7 +64386,7 @@
 51	amb	amb	ADP	sps00	_	52	case	52:case	_
 52	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	obj	50:obj	Entity=(NOCOREF:Gen--7-gstype:gen
 53	que	que	PRON	pr0cn000	PronType=Rel	58	obj	58:obj	ArgTem=arg1:pat
-54	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	56	det	56:det	Entity=(CESSCATAAP200209019_bc80--3-CorefType:ident
+54	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	56	det	56:det	Entity=(CESSCATAAP200209019_bc80--3-CorefType:ident
 55	dues	dos	NUM	dn0fp0	Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	56	nummod	56:nummod	_
 56	organitzacions	organització	NOUN	ncfp000	Gender=Fem|Number=Plur	58	nsubj	58:nsubj	ArgTem=arg0:agt|Entity=CESSCATAAP200209019_bc80)
 57	han	haver	AUX	vaip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	58	aux	58:aux	_
@@ -66415,7 +66415,7 @@
 # sent_id = CESS-CAT-AAP-20021209-69545-s19
 # text = Tota la vegetació es regarà mitjançant un sistema de degoteig per estalviar aigua.
 # orig_file_sentence 016#35
-1	Tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	3	det	3:det	Entity=(CESSCATAAP2002120969545c24--3-CorefType:ident,gstype:gen
+1	Tota	tot	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Tot	3	det	3:det	Entity=(CESSCATAAP2002120969545c24--3-CorefType:ident,gstype:gen
 2	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	3:det	_
 3	vegetació	vegetació	NOUN	ncfs000	Gender=Fem|Number=Sing	5	nsubj	5:nsubj	ArgTem=arg1:pat|Entity=CESSCATAAP2002120969545c24)
 4	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	obj	5:obj	_
@@ -66778,7 +66778,7 @@
 7	Govern	Govern	PROPN	np0000o	_	4	obl:arg	4:obl:arg	ArgTem=arg1:pat|Entity=(CESSCATAAP2003020675289c4-organization-1-CorefType:ident,gstype:spec)
 8	a	a	ADP	sps00	_	9	mark	9:mark	_
 9	realitzar	realitzar	VERB	vmn0000	VerbForm=Inf	4	xcomp	4:xcomp	ArgTem=arg2:tem
-10	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	12	det	12:det	Entity=(CESSCATAAP2003020675289c2--3-CorefType:ident,gstype:gen
+10	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	12	det	12:det	Entity=(CESSCATAAP2003020675289c2--3-CorefType:ident,gstype:gen
 11	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	12:det	_
 12	gestions	gestió	NOUN	ncfp000	Gender=Fem|Number=Plur	9	obj	9:obj	ArgTem=arg1:pat
 13	necessàries	necessari	ADJ	aq0fp0	Gender=Fem|Number=Plur	12	amod	12:amod	Entity=CESSCATAAP2003020675289c2)
@@ -67256,7 +67256,7 @@
 10	Sallent	Sallent	PROPN	_	_	8	flat	8:flat	Entity=CESSCATAAP2003031279197c11)
 11	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	12:aux	_
 12	impulsar	impulsar	VERB	vmn0000	VerbForm=Inf	0	root	0:root	_
-13	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	15	det	15:det	Entity=(CESSCATAAP2003031279197c21_PLUS_CESSCATAAP2003031279197c7--3-gstype:gen|SplitAnte=CESSCATAAP2003031279197c21<CESSCATAAP2003031279197c21_PLUS_CESSCATAAP2003031279197c7,CESSCATAAP2003031279197c7<CESSCATAAP2003031279197c21_PLUS_CESSCATAAP2003031279197c7
+13	totes	tot	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Tot	15	det	15:det	Entity=(CESSCATAAP2003031279197c21_PLUS_CESSCATAAP2003031279197c7--3-gstype:gen|SplitAnte=CESSCATAAP2003031279197c21<CESSCATAAP2003031279197c21_PLUS_CESSCATAAP2003031279197c7,CESSCATAAP2003031279197c7<CESSCATAAP2003031279197c21_PLUS_CESSCATAAP2003031279197c7
 14	aquestes	aquest	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	15	det	15:det	_
 15	iniciatives	iniciativa	NOUN	ncfp000	Gender=Fem|Number=Plur	12	obj	12:obj	ArgTem=arg1:pat
 16	parlamentàries	parlamentari	ADJ	aq0fp0	Gender=Fem|Number=Plur	15	amod	15:amod	Entity=CESSCATAAP2003031279197c21_PLUS_CESSCATAAP2003031279197c7)
