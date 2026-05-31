@@ -44146,7 +44146,7 @@
 23	que	que	PRON	pr0cn000	PronType=Rel	35	obj	35:obj	ArgTem=arg1:pat|Entity=(CESSCATAAP20010401126c16--1-CorefType:ident,gstype:gen)
 24	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	25:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 25	Generalitat	Generalitat	PROPN	np0000o	_	35	nsubj	35:nsubj	SpaceAfter=No|ArgTem=arg0:agt|Entity=NOCOREF:Spec.organization)
-26	,	,	PUNCT	fc	PunctType=Comm	31	punct	31:punct	_
+26	,	,	PUNCT	fc	PunctType=Comm	25	punct	25:punct	_
 27	a	a	ADP	sps00	_	28	case	28:case	MWE=a_través_de|MWEPOS=ADP
 28	través	través	NOUN	_	_	35	obl	35:obl	_
 29	de	de	ADP	_	_	31	case	31:case	_
@@ -51452,7 +51452,7 @@
 44	en	en	ADP	sps00	_	45	mark	45:mark	_
 45	considerar	considerar	VERB	vmn0000	VerbForm=Inf	29	advcl	29:advcl	ArgTem=argM:adv
 46	que	que	SCONJ	cs	_	45	mark	45:mark	SpaceAfter=No
-47	,	,	PUNCT	fc	PunctType=Comm	51	punct	51:punct	_
+47	,	,	PUNCT	fc	PunctType=Comm	49	punct	49:punct	_
 48	en	en	ADP	spcms	_	49	case	49:case	MWE=en_contra_del|MWEPOS=ADP
 49	contra	contra	NOUN	_	_	59	obl	59:obl	_
 50-51	del	_	_	_	_	_	_	_	_
@@ -57701,7 +57701,7 @@
 46	primera	primer	ADJ	ao0fs0	Gender=Fem|Number=Sing|NumType=Ord	47	amod	47:amod	_
 47	ocupació	ocupació	NOUN	ncfs000	Gender=Fem|Number=Sing	43	nmod	43:nmod	Entity=NOCOREF:Gen)
 48	que	que	PRON	pr0cn000	PronType=Rel	58	nsubj	58:nsubj	SpaceAfter=No|ArgTem=arg0:agt|Entity=(CESSCATAAP2002031250714c9--1-CorefType:ident,gstype:gen)
-49	,	,	PUNCT	fc	PunctType=Comm	54	punct	54:punct	_
+49	,	,	PUNCT	fc	PunctType=Comm	48	punct	48:punct	_
 50	a	a	ADP	spcmp	_	51	case	51:case	MWE=a_través_dels|MWEPOS=ADP
 51	través	través	NOUN	_	_	58	obl	58:obl	_
 52-53	dels	_	_	_	_	_	_	_	_

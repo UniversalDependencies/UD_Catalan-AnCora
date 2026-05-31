@@ -7683,7 +7683,7 @@
 # orig_file_sentence 002#82
 1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
 2	resolució	resolució	NOUN	ncfs000	Gender=Fem|Number=Sing	13	nsubj	13:nsubj	SpaceAfter=No|ArgTem=arg0:agt
-3	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
+3	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 4	en	en	ADP	sps00	_	5	case	5:case	MWE=en_atenció_a|MWEPOS=ADP
 5	atenció	atenció	NOUN	_	_	13	obl	13:obl	_
 6	a	a	ADP	_	_	8	case	8:case	_
@@ -14860,7 +14860,7 @@
 27	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	28:det	Entity=(CESSCATA1999090174c2--2-CorefType:ident,gstype:gen
 28	permís	permís	NOUN	ncms000	Gender=Masc|Number=Sing	32	nsubj	32:nsubj	ArgTem=arg1:tem|Entity=CESSCATA1999090174c2)
 29	està	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	32:cop	_
-30	"	"	PUNCT	fe	PunctType=Quot	31	punct	31:punct	SpaceAfter=No
+30	"	"	PUNCT	fe	PunctType=Quot	32	punct	32:punct	SpaceAfter=No
 31	en	en	ADP	rg	_	32	case	32:case	MWE=en_suspens|MWEPOS=ADV|ArgTem=arg2:atr
 32	suspens	suspens	NOUN	_	_	18	advcl	18:advcl	SpaceAfter=No
 33	"	"	PUNCT	fe	PunctType=Quot	32	punct	32:punct	_
@@ -20306,7 +20306,7 @@
 3	de	de	ADP	spcms	_	5	case	5:case	_
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
 5	transport	transport	NOUN	ncms000	Gender=Masc|Number=Sing	2	nmod	2:nmod	SpaceAfter=No|Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)NOCOREF:Gen)
-6	,	,	PUNCT	fc	PunctType=Comm	11	punct	11:punct	_
+6	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 7	a	a	ADP	sps00	_	8	case	8:case	MWE=a_causa_de|MWEPOS=ADP
 8	causa	causa	NOUN	_	_	28	obl	28:obl	_
 9	de	de	ADP	_	_	11	case	11:case	_
@@ -25628,7 +25628,7 @@
 12	Eusko	Eusko	PROPN	np0000o	_	10	obl:arg	10:obl:arg	MWE=Eusko_Alkartasuna|MWEPOS=PROPN|ArgTem=arg2:ben|Entity=(CESSCATA2001070173c6-organization-1-CorefType:ident,gstype:spec
 13	Alkartasuna	Alkartasuna	PROPN	_	_	12	flat	12:flat	Entity=CESSCATA2001070173c6)
 14	que	que	SCONJ	cs	_	38	mark	38:mark	SpaceAfter=No
-15	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
+15	,	,	PUNCT	fc	PunctType=Comm	14	punct	14:punct	_
 16	en	en	ADP	sps00	_	17	case	17:case	MWE=en_comptes_d'|MWEPOS=ADP
 17	comptes	compte	NOUN	_	_	38	advcl	38:advcl	_
 18	d'	de	ADP	_	_	19	case	19:case	SpaceAfter=No
@@ -67422,7 +67422,7 @@
 # orig_file_sentence 017#86
 1	Els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	Entity=(CESSCATAAP2003021175815c10_PLUS_CESSCATAAP2003021175815c3--2-gstype:gen|SplitAnte=CESSCATAAP2003021175815c10<CESSCATAAP2003021175815c10_PLUS_CESSCATAAP2003021175815c3,CESSCATAAP2003021175815c3<CESSCATAAP2003021175815c10_PLUS_CESSCATAAP2003021175815c3
 2	promotors	promotor	NOUN	ncmp000	Gender=Masc|Number=Plur	15	nsubj	15:nsubj	SpaceAfter=No|ArgTem=arg0:agt|Entity=CESSCATAAP2003021175815c10_PLUS_CESSCATAAP2003021175815c3)
-3	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
+3	,	,	PUNCT	fc	PunctType=Comm	2	punct	2:punct	_
 4	a	a	ADP	sps00	_	5	case	5:case	MWE=a_causa_de|MWEPOS=ADP
 5	causa	causa	NOUN	_	_	15	obl	15:obl	_
 6	de	de	ADP	_	_	8	case	8:case	_
