@@ -7864,11 +7864,11 @@
 # sent_id = 3LB-CAT-107-7-s13
 # text = A través de la web, els usuaris es poden posar en contacte amb l'ADC o bé fer-se membres de l'associació.
 # orig_file_sentence 003#5
-1	A	a	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=A_través_de|MWEPOS=ADP
-2	través	través	NOUN	_	_	1	fixed	1:fixed	_
-3	de	de	ADP	_	_	1	fixed	1:fixed	_
+1	A	a	ADP	sps00	_	2	case	2:case	MWE=A_través_de|MWEPOS=ADP
+2	través	través	NOUN	_	_	11	obl	11:obl	_
+3	de	de	ADP	_	_	5	case	5:case	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	_
-5	web	web	NOUN	nccs000	Number=Sing	11	obl	11:obl	SpaceAfter=No|ArgTem=argM:mnr
+5	web	web	NOUN	nccs000	Number=Sing	2	nmod	2:nmod	SpaceAfter=No|ArgTem=argM:mnr
 6	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 7	els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	8:det	_
 8	usuaris	usuari	NOUN	ncmp000	Gender=Masc|Number=Plur	11	nsubj	11:nsubj	ArgTem=arg0:agt
@@ -16895,12 +16895,12 @@
 28	nostre	nostre	DET	dp1msp	Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	29	det	29:det	Entity=(CESSCATA2001031527617c12-person-2-CorefType:ident,gstype:spec(CESSCATA2001031527617c72-person-1-CorefType:ident,gstype:spec)
 29	Fabra	Fabra	PROPN	np0000p	_	25	nmod	25:nmod	Entity=CESSCATA2001031527617c12)CESSCATA2001031527617c16)NOCOREF:Spec.date)
 30	i	i	CCONJ	cc	_	38	cc	38:cc	_
-31	a	a	ADP	spcms	ExtPos=ADP	35	case	35:case	MWE=a_mitjans_del|MWEPOS=ADP
-32	mitjans	mitjans	NOUN	_	_	31	fixed	31:fixed	_
+31	a	a	ADP	spcms	_	32	case	32:case	MWE=a_mitjans_del|MWEPOS=ADP
+32	mitjans	mitjans	NOUN	_	_	38	obl	38:obl	_
 33-34	del	_	_	_	_	_	_	_	_
-33	de	de	ADP	_	_	31	fixed	31:fixed	_
+33	de	de	ADP	_	_	35	case	35:case	_
 34	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	35:det	_
-35	segle	segle	NOUN	_	_	38	obl	38:obl	MWE=segle_XIX|MWEPOS=NOUN|ArgTem=argM:tmp|Entity=(NOCOREF:Spec.date-time-1-gstype:spec
+35	segle	segle	NOUN	_	_	32	nmod	32:nmod	MWE=segle_XIX|MWEPOS=NOUN|ArgTem=argM:tmp|Entity=(NOCOREF:Spec.date-time-1-gstype:spec
 36	XIX	XIX	NUM	_	NumForm=Roman|NumType=Card	35	compound	35:compound	Entity=NOCOREF:Spec.date)
 37	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	38	obj	38:obj	_
 38	creà	crear	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	9:conj	_
@@ -22421,12 +22421,12 @@
 45	aquest	aquest	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	46	det	46:det	Entity=(NOCOREF:Gen--2-gstype:gen
 46	matí	matí	NOUN	ncms000	Gender=Masc|Number=Sing	44	obl	44:obl	SpaceAfter=No|ArgTem=argM:tmp|Entity=NOCOREF:Gen)CESSCATA2002012146870c9)
 47	,	,	PUNCT	fc	PunctType=Comm	32	punct	32:punct	_
-48	a	a	ADP	sps00	ExtPos=ADP	53	case	53:case	MWE=a_través_de|MWEPOS=ADP
-49	través	través	NOUN	_	_	48	fixed	48:fixed	_
-50	de	de	ADP	_	_	48	fixed	48:fixed	_
+48	a	a	ADP	sps00	_	49	case	49:case	MWE=a_través_de|MWEPOS=ADP
+49	través	través	NOUN	_	_	56	obl	56:obl	_
+50	de	de	ADP	_	_	53	case	53:case	_
 51	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	53:det	Entity=(CESSCATA2002012146870c6--3-CorefType:ident,gstype:gen
 52	tres	tres	NUM	dn0cp0	Number=Plur|NumForm=Word|NumType=Card	53	nummod	53:nummod	_
-53	dones	dona	NOUN	ncfp000	Gender=Fem|Number=Plur	56	obl	56:obl	ArgTem=argM:adv|Entity=CESSCATA2002012146870c6)
+53	dones	dona	NOUN	ncfp000	Gender=Fem|Number=Plur	49	nmod	49:nmod	ArgTem=argM:adv|Entity=CESSCATA2002012146870c6)
 54	es	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	56	expl:pass	56:expl:pass	_
 55	pot	poder	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux	56:aux	_
 56	parlar	parlar	VERB	vmn0000	VerbForm=Inf	14	advcl	14:advcl	ArgTem=argM:cau
@@ -25114,11 +25114,11 @@
 # sent_id = CESS-CAT-A-20030903-98628-s2
 # text = A través d'aquest programa, que pretén promoure els intercanvis i la cooperació entre França i l'estat espanyol, les dues cambres de comerç volen fomentar l'intercanvi entre empreses catalanes i franceses.
 # orig_file_sentence 007#35
-1	A	a	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=A_través_d'|MWEPOS=ADP
-2	través	través	NOUN	_	_	1	fixed	1:fixed	_
-3	d'	de	ADP	_	_	1	fixed	1:fixed	SpaceAfter=No
+1	A	a	ADP	sps00	_	2	case	2:case	MWE=A_través_d'|MWEPOS=ADP
+2	través	través	NOUN	_	_	27	obl	27:obl	_
+3	d'	de	ADP	_	_	5	case	5:case	SpaceAfter=No
 4	aquest	aquest	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	5	det	5:det	Entity=(CESSCATA2003090398628c1--2-CorefType:ident,gstype:gen
-5	programa	programa	NOUN	ncms000	Gender=Masc|Number=Sing	27	obl	27:obl	SpaceAfter=No|ArgTem=argM:adv
+5	programa	programa	NOUN	ncms000	Gender=Masc|Number=Sing	2	nmod	2:nmod	SpaceAfter=No|ArgTem=argM:adv
 6	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
 7	que	que	PRON	pr0cn000	PronType=Rel	8	nsubj	8:nsubj	ArgTem=arg0:agt|Entity=(CESSCATA2003090398628c1--1-CorefType:ident,gstype:gen)
 8	pretén	pretendre	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
@@ -28601,11 +28601,11 @@
 # sent_id = CESS-CAT-AAP-19990302-54-s15
 # text = A diferència del que passa amb un ésser humà, que no digereix el perdigó i l'acaba expulsant, l'estómac dels ànecs fon el plom i l'assimila.
 # orig_file_sentence 014#67
-1	A	a	ADP	spcms	ExtPos=ADP	4	case	4:case	MWE=A_diferència_del|MWEPOS=ADP
-2	diferència	diferència	NOUN	_	_	1	fixed	1:fixed	_
+1	A	a	ADP	spcms	_	2	case	2:case	MWE=A_diferència_del|MWEPOS=ADP
+2	diferència	diferència	NOUN	_	_	27	obl	27:obl	_
 3-4	del	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	1	fixed	1:fixed	_
-4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	obl	27:obl	_
+3	de	de	ADP	_	_	4	case	4:case	_
+4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	nmod	2:nmod	_
 5	que	que	PRON	pr0cn000	PronType=Rel	6	nsubj	6:nsubj	ArgTem=arg1:tem|Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 6	passa	passar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 7	amb	amb	ADP	sps00	_	9	case	9:case	_
@@ -33905,10 +33905,10 @@
 23	cultural	cultural	ADJ	aq0cs0	Number=Sing	22	amod	22:amod	_
 24	"	"	PUNCT	fe	PunctType=Quot	32	punct	32:punct	SpaceAfter=No
 25	perquè	perquè	SCONJ	cs	_	32	mark	32:mark	_
-26	a	a	ADP	sps00	ExtPos=ADP	29	case	29:case	MWE=a_fi_de|MWEPOS=ADP
-27	fi	fi	NOUN	_	_	26	fixed	26:fixed	_
-28	de	de	ADP	_	_	26	fixed	26:fixed	_
-29	mes	mes	NOUN	ncms000	Gender=Masc|Number=Sing	32	obl	32:obl	ArgTem=argM:tmp|Entity=(NOCOREF:Gen--1-gstype:gen)
+26	a	a	ADP	sps00	_	27	case	27:case	MWE=a_fi_de|MWEPOS=ADP
+27	fi	fi	NOUN	_	_	32	obl	32:obl	_
+28	de	de	ADP	_	_	29	case	29:case	_
+29	mes	mes	NOUN	ncms000	Gender=Masc|Number=Sing	27	nmod	27:nmod	ArgTem=argM:tmp|Entity=(NOCOREF:Gen--1-gstype:gen)
 30	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	32	obj	32:obj	SpaceAfter=No
 31	hi	hi	PRON	pp3cn000	Case=Loc|Person=3|PronType=Prs	32	obl	32:obl	ArgTem=argM:loc|Entity=(CESSCATAAP2000010353c8-place-1-CorefType:ident,gstype:spec)
 32	obrirà	obrir	VERB	vmif3s0	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	advcl	20:advcl	ArgTem=argM:cau
@@ -34485,10 +34485,10 @@
 # text = Per a finals de maig està previst el llançament de la marca Supersol.
 # orig_file_sentence 008#3
 1	Per	per	ADP	sps00	_	5	case	5:case	_
-2	a	a	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=a_finals_de|MWEPOS=ADP
-3	finals	finals	NOUN	_	_	2	fixed	2:fixed	_
-4	de	de	ADP	_	_	2	fixed	2:fixed	_
-5	maig	maig	NOUN	_	_	7	obl	7:obl	ArgTem=argM:tmp|Entity=(NOCOREF:Spec.date-time-1-gstype:spec)
+2	a	a	ADP	sps00	_	3	case	3:case	MWE=a_finals_de|MWEPOS=ADP
+3	finals	finals	NOUN	_	_	7	obl	7:obl	_
+4	de	de	ADP	_	_	5	case	5:case	_
+5	maig	maig	NOUN	_	_	3	nmod	3:nmod	ArgTem=argM:tmp|Entity=(NOCOREF:Spec.date-time-1-gstype:spec)
 6	està	estar	AUX	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	_
 7	previst	previst	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	0	root	0:root	ArgTem=arg2:atr
 8	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -43373,12 +43373,12 @@
 33	artistes	artista	NOUN	nccp000	Number=Plur	31	nmod	31:nmod	Entity=(CESSCATAAP2001032928643c3--1-CorefType:ident,gstype:gen
 34	i	i	CCONJ	cc	_	35	cc	35:cc	_
 35	escriptors	escriptor	NOUN	ncmp000	Gender=Masc|Number=Plur	33	conj	33:conj	_
-36	a	a	ADP	spcmp	ExtPos=ADP	40	case	40:case	MWE=a_través_dels|MWEPOS=ADP
-37	través	través	NOUN	_	_	36	fixed	36:fixed	_
+36	a	a	ADP	spcmp	_	37	case	37:case	MWE=a_través_dels|MWEPOS=ADP
+37	través	través	NOUN	_	_	41	obl	41:obl	_
 38-39	dels	_	_	_	_	_	_	_	_
-38	de	de	ADP	_	_	36	fixed	36:fixed	_
+38	de	de	ADP	_	_	40	case	40:case	_
 39	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	40:det	_
-40	quals	qual	PRON	pr0cp000	Number=Plur|PronType=Rel	41	obl	41:obl	ArgTem=argM:adv|Entity=(CESSCATAAP2001032928643c3--1-CorefType:ident,gstype:gen)
+40	quals	qual	PRON	pr0cp000	Number=Plur|PronType=Rel	37	nmod	37:nmod	ArgTem=argM:adv|Entity=(CESSCATAAP2001032928643c3--1-CorefType:ident,gstype:gen)
 40.1	_	_	PRON	p	_	_	_	41:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2001032928643c12-person-1-CorefType:ident,gstype:spec)
 41	analitza	analitzar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	33:acl:relcl	_
 42	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	43	det	43:det	SpaceAfter=No|Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
@@ -44147,11 +44147,11 @@
 24	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	25:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 25	Generalitat	Generalitat	PROPN	np0000o	_	35	nsubj	35:nsubj	SpaceAfter=No|ArgTem=arg0:agt|Entity=NOCOREF:Spec.organization)
 26	,	,	PUNCT	fc	PunctType=Comm	31	punct	31:punct	_
-27	a	a	ADP	sps00	ExtPos=ADP	31	case	31:case	MWE=a_través_de|MWEPOS=ADP
-28	través	través	NOUN	_	_	27	fixed	27:fixed	_
-29	de	de	ADP	_	_	27	fixed	27:fixed	_
+27	a	a	ADP	sps00	_	28	case	28:case	MWE=a_través_de|MWEPOS=ADP
+28	través	través	NOUN	_	_	35	obl	35:obl	_
+29	de	de	ADP	_	_	31	case	31:case	_
 30	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	31	det	31:det	SpaceAfter=No|Entity=(CESSCATAAP20010401126c17-organization-2-gstype:spec
-31	Incasol	Incasol	PROPN	np0000o	_	35	obl	35:obl	SpaceAfter=No|ArgTem=argM:adv|Entity=CESSCATAAP20010401126c17)
+31	Incasol	Incasol	PROPN	np0000o	_	28	nmod	28:nmod	SpaceAfter=No|ArgTem=argM:adv|Entity=CESSCATAAP20010401126c17)
 32	,	,	PUNCT	fc	PunctType=Comm	31	punct	31:punct	_
 33	ja	ja	ADV	rg	_	35	advmod	35:advmod	ArgTem=argM:tmp
 34	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	35:aux	_
@@ -49923,11 +49923,11 @@
 # sent_id = CESS-CAT-AAP-20011023-41221-s14
 # text = En relació amb aquest estudi, aquest matí s'ha defensat, en el marc de la UdG, el treball de recerca del Programa de Doctorat en Medi Ambient: "Anàlisi de la qualitat de l'aigua i el sediment dels recs i rieres de Banyoles per a determinar -ne l'estat ecològic i la seva utilitat com a corredors biològics" realitzat per Carles Feo Quer, sota la direcció del Catedràtic d'Ecologia Dr. Ramon Moreno-Amich.
 # orig_file_sentence 012#77
-1	En	en	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=En_relació_amb|MWEPOS=ADP
-2	relació	relació	NOUN	_	_	1	fixed	1:fixed	_
-3	amb	amb	ADP	_	_	1	fixed	1:fixed	_
+1	En	en	ADP	sps00	_	2	case	2:case	MWE=En_relació_amb|MWEPOS=ADP
+2	relació	relació	NOUN	_	_	11	obl	11:obl	_
+3	amb	amb	ADP	_	_	5	case	5:case	_
 4	aquest	aquest	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	5	det	5:det	Entity=(CESSCATAAP2001102341221c11--2-CorefType:ident,gstype:gen
-5	estudi	estudi	NOUN	ncms000	Gender=Masc|Number=Sing	11	obl	11:obl	SpaceAfter=No|Entity=CESSCATAAP2001102341221c11)
+5	estudi	estudi	NOUN	ncms000	Gender=Masc|Number=Sing	2	nmod	2:nmod	SpaceAfter=No|Entity=CESSCATAAP2001102341221c11)
 6	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 7	aquest	aquest	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	8	det	8:det	Entity=(NOCOREF:Gen--2-gstype:gen
 8	matí	matí	NOUN	ncms000	Gender=Masc|Number=Sing	11	obl	11:obl	ArgTem=argM:tmp|Entity=NOCOREF:Gen)
@@ -50078,11 +50078,11 @@
 # sent_id = CESS-CAT-AAP-20011023-41221-s16
 # text = A causa de l'estat actual dels recs es proposa naturalitzar la via: rec de Ca n'Hort i rec d'en Teixidor, riera Canaleta i riu Terri, fins a retornar-li un funcionament ecològic de riu, salvaguardant la vegetació de ribera i la vegetació submergida, i evitant tota intervenció humana.
 # orig_file_sentence 012#79
-1	A	a	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=A_causa_de|MWEPOS=ADP
-2	causa	causa	NOUN	_	_	1	fixed	1:fixed	_
-3	de	de	ADP	_	_	1	fixed	1:fixed	_
+1	A	a	ADP	sps00	_	2	case	2:case	MWE=A_causa_de|MWEPOS=ADP
+2	causa	causa	NOUN	_	_	11	obl	11:obl	_
+3	de	de	ADP	_	_	5	case	5:case	_
 4	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	5	det	5:det	SpaceAfter=No|Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-5	estat	estat	NOUN	ncms000	Gender=Masc|Number=Sing	11	obl	11:obl	ArgTem=argM:cau
+5	estat	estat	NOUN	ncms000	Gender=Masc|Number=Sing	2	nmod	2:nmod	ArgTem=argM:cau
 6	actual	actual	ADJ	aq0cs0	Number=Sing	5	amod	5:amod	_
 7-8	dels	_	_	_	_	_	_	_	_
 7	de	de	ADP	spcmp	_	9	case	9:case	_
@@ -50215,11 +50215,11 @@
 23	altra	altre	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	24	det	24:det	_
 24	banda	banda	NOUN	ncfs000	Gender=Fem|Number=Sing	40	obl	40:obl	SpaceAfter=No
 25	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
-26	a	a	ADP	sps00	ExtPos=ADP	30	case	30:case	MWE=a_causa_de|MWEPOS=ADP
-27	causa	causa	NOUN	_	_	26	fixed	26:fixed	_
-28	de	de	ADP	_	_	26	fixed	26:fixed	_
+26	a	a	ADP	sps00	_	27	case	27:case	MWE=a_causa_de|MWEPOS=ADP
+27	causa	causa	NOUN	_	_	40	obl	40:obl	_
+28	de	de	ADP	_	_	30	case	30:case	_
 29	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	30:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-30	diversitat	diversitat	NOUN	ncfs000	Gender=Fem|Number=Sing	40	obl	40:obl	ArgTem=argM:cau
+30	diversitat	diversitat	NOUN	ncfs000	Gender=Fem|Number=Sing	27	nmod	27:nmod	ArgTem=argM:cau
 31	de	de	ADP	sps00	_	32	case	32:case	_
 32	peixos	peix	NOUN	ncmp000	Gender=Masc|Number=Plur	30	nmod	30:nmod	Entity=(CESSCATAAP2001102341221c21--1-gstype:gen
 33	exòtics	exòtic	ADJ	aq0mp0	Gender=Masc|Number=Plur	32	amod	32:amod	Entity=CESSCATAAP2001102341221c21)
@@ -51453,11 +51453,11 @@
 45	considerar	considerar	VERB	vmn0000	VerbForm=Inf	29	advcl	29:advcl	ArgTem=argM:adv
 46	que	que	SCONJ	cs	_	45	mark	45:mark	SpaceAfter=No
 47	,	,	PUNCT	fc	PunctType=Comm	51	punct	51:punct	_
-48	en	en	ADP	spcms	ExtPos=ADP	51	case	51:case	MWE=en_contra_del|MWEPOS=ADP
-49	contra	contra	NOUN	_	_	48	fixed	48:fixed	_
+48	en	en	ADP	spcms	_	49	case	49:case	MWE=en_contra_del|MWEPOS=ADP
+49	contra	contra	NOUN	_	_	59	obl	59:obl	_
 50-51	del	_	_	_	_	_	_	_	_
-50	de	de	ADP	_	_	48	fixed	48:fixed	_
-51	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	obl	59:obl	_
+50	de	de	ADP	_	_	51	case	51:case	_
+51	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	nmod	49:nmod	_
 52	que	que	PRON	pr0cn000	PronType=Rel	53	obj	53:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 53	deia	dir	VERB	vmii3s0	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	51	acl:relcl	51:acl:relcl	_
 54	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	55	det	55:det	SpaceAfter=No|Entity=(CESSCATAAP2001111943111c6-organization-2-CorefType:ident,gstype:spec
@@ -57702,12 +57702,12 @@
 47	ocupació	ocupació	NOUN	ncfs000	Gender=Fem|Number=Sing	43	nmod	43:nmod	Entity=NOCOREF:Gen)
 48	que	que	PRON	pr0cn000	PronType=Rel	58	nsubj	58:nsubj	SpaceAfter=No|ArgTem=arg0:agt|Entity=(CESSCATAAP2002031250714c9--1-CorefType:ident,gstype:gen)
 49	,	,	PUNCT	fc	PunctType=Comm	54	punct	54:punct	_
-50	a	a	ADP	spcmp	ExtPos=ADP	54	case	54:case	MWE=a_través_dels|MWEPOS=ADP
-51	través	través	NOUN	_	_	50	fixed	50:fixed	_
+50	a	a	ADP	spcmp	_	51	case	51:case	MWE=a_través_dels|MWEPOS=ADP
+51	través	través	NOUN	_	_	58	obl	58:obl	_
 52-53	dels	_	_	_	_	_	_	_	_
-52	de	de	ADP	_	_	50	fixed	50:fixed	_
+52	de	de	ADP	_	_	54	case	54:case	_
 53	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	54:det	_
-54	serveis	servei	NOUN	ncmp000	Gender=Masc|Number=Plur	58	obl	58:obl	ArgTem=argM:adv|Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD
+54	serveis	servei	NOUN	ncmp000	Gender=Masc|Number=Plur	51	nmod	51:nmod	ArgTem=argM:adv|Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD
 55	tècnics	tècnic	ADJ	aq0mp0	Gender=Masc|Number=Plur	54	amod	54:amod	_
 56	municipals	municipal	ADJ	aq0cp0	Number=Plur	54	amod	54:amod	SpaceAfter=No|Entity=NOCOREF:Gen)
 57	,	,	PUNCT	fc	PunctType=Comm	54	punct	54:punct	_
@@ -57871,12 +57871,12 @@
 # sent_id = CESS-CAT-AAP-20020312-50714-s9
 # text = A suggeriment del Síndic, l'Ajuntament ja va acceptar que es tingués en compte en el procés de reallotjament aquells veïns que tot i no tenir cap títol documental, porten anys vivint al barri de manera permanent i única, però el Síndic també ha proposat a l'Ajuntament que posi pisos de protecció oficial a disposició de l'equip que gestiona els reallotjaments.
 # orig_file_sentence 014#21
-1	A	a	ADP	spcms	ExtPos=ADP	5	case	5:case	MWE=A_suggeriment_del|MWEPOS=ADP
-2	suggeriment	suggeriment	NOUN	_	_	1	fixed	1:fixed	_
+1	A	a	ADP	spcms	_	2	case	2:case	MWE=A_suggeriment_del|MWEPOS=ADP
+2	suggeriment	suggeriment	NOUN	_	_	11	obl	11:obl	_
 3-4	del	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	1	fixed	1:fixed	_
+3	de	de	ADP	_	_	5	case	5:case	_
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
-5	Síndic	Síndic	PROPN	np0000p	_	11	obl	11:obl	SpaceAfter=No|ArgTem=argM:tmp|Entity=(CESSCATAAP2002031250714c2-person-1-CorefType:ident,gstype:spec)
+5	Síndic	Síndic	PROPN	np0000p	_	2	nmod	2:nmod	SpaceAfter=No|ArgTem=argM:tmp|Entity=(CESSCATAAP2002031250714c2-person-1-CorefType:ident,gstype:spec)
 6	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 7	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	8	det	8:det	SpaceAfter=No|Entity=(CESSCATAAP2002031250714c16-organization-2-gstype:spec
 8	Ajuntament	Ajuntament	PROPN	np0000o	_	11	nsubj	11:nsubj	ArgTem=arg0:agt|Entity=CESSCATAAP2002031250714c16)

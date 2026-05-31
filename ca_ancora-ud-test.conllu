@@ -4257,11 +4257,11 @@
 # sent_id = 3LB-CAT-06020300-1-s16
 # text = A part d'aquests compromisos, ha remarcat que s'han d'oferir serveis sanitaris més confortables, com ara: uns serveis d'urgència amb més recursos, habitacions d'hospitals més còmodes i amb més intimitat, una atenció telefònica o per internet adequada, i la promoció del transport urgent arreu de Catalunya.
 # orig_file_sentence 002#4
-1	A	a	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=A_part_d'|MWEPOS=ADP
-2	part	part	NOUN	_	_	1	fixed	1:fixed	_
-3	d'	de	ADP	_	_	1	fixed	1:fixed	SpaceAfter=No
+1	A	a	ADP	sps00	_	2	case	2:case	MWE=A_part_d'|MWEPOS=ADP
+2	part	part	NOUN	_	_	8	obl	8:obl	_
+3	d'	de	ADP	_	_	5	case	5:case	SpaceAfter=No
 4	aquests	aquest	DET	dd0mp0	Gender=Masc|Number=Plur|PronType=Dem	5	det	5:det	_
-5	compromisos	compromís	NOUN	ncmp000	Gender=Masc|Number=Plur	8	obl	8:obl	SpaceAfter=No
+5	compromisos	compromís	NOUN	ncmp000	Gender=Masc|Number=Plur	2	nmod	2:nmod	SpaceAfter=No
 6	,	,	PUNCT	fc	PunctType=Comm	5	punct	5:punct	_
 7	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
 8	remarcat	remarcar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
@@ -6114,11 +6114,11 @@
 # sent_id = 3LB-CAT-06020300-3-s4
 # text = En motiu de la mostra el Departament de Cultura ha editat un catàleg de l'exposició amb textos del conseller de Cultura; del comissari; de Mònica Pagès, biògrafa de Cuixart, i de Raquel Medina.
 # orig_file_sentence 002#48
-1	En	en	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=En_motiu_de|MWEPOS=ADP
-2	motiu	motiu	NOUN	_	_	1	fixed	1:fixed	_
-3	de	de	ADP	_	_	1	fixed	1:fixed	_
+1	En	en	ADP	sps00	_	2	case	2:case	MWE=En_motiu_de|MWEPOS=ADP
+2	motiu	motiu	NOUN	_	_	11	obl	11:obl	_
+3	de	de	ADP	_	_	5	case	5:case	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	_
-5	mostra	mostra	NOUN	ncfs000	Gender=Fem|Number=Sing	11	obl	11:obl	ArgTem=argM:cau
+5	mostra	mostra	NOUN	ncfs000	Gender=Fem|Number=Sing	2	nmod	2:nmod	ArgTem=argM:cau
 6	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	7:det	Entity=(NOCOREF:Spec.organization-organization-2-gstype:spec
 7	Departament	Departament	PROPN	np0000o	_	11	nsubj	11:nsubj	MWE=Departament_de_Cultura|MWEPOS=PROPN|ArgTem=arg0:agt
 8	de	de	ADP	_	_	9	case	9:case	_
@@ -7684,11 +7684,11 @@
 1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
 2	resolució	resolució	NOUN	ncfs000	Gender=Fem|Number=Sing	13	nsubj	13:nsubj	SpaceAfter=No|ArgTem=arg0:agt
 3	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
-4	en	en	ADP	sps00	ExtPos=ADP	8	case	8:case	MWE=en_atenció_a|MWEPOS=ADP
-5	atenció	atenció	NOUN	_	_	4	fixed	4:fixed	_
-6	a	a	ADP	_	_	4	fixed	4:fixed	_
+4	en	en	ADP	sps00	_	5	case	5:case	MWE=en_atenció_a|MWEPOS=ADP
+5	atenció	atenció	NOUN	_	_	13	obl	13:obl	_
+6	a	a	ADP	_	_	8	case	8:case	_
 7	aquestes	aquest	DET	dd0fp0	Gender=Fem|Number=Plur|PronType=Dem	8	det	8:det	_
-8	falsedats	falsedat	NOUN	ncfp000	Gender=Fem|Number=Plur	13	obl	13:obl	ArgTem=argM:adv
+8	falsedats	falsedat	NOUN	ncfp000	Gender=Fem|Number=Plur	5	nmod	5:nmod	ArgTem=argM:adv
 9	i	i	CCONJ	cc	_	11	cc	11:cc	_
 10	mala	mal	ADJ	aq0fs0	Gender=Fem|Number=Sing	11	amod	11:amod	_
 11	fe	fe	NOUN	ncfs000	Gender=Fem|Number=Sing	8	conj	8:conj	SpaceAfter=No
@@ -15974,10 +15974,10 @@
 # text = "En lloc de fomentar les relacions sexuals d'aquesta manera - diuen els més conservadors -, valdria més que defensés la castedat".
 # orig_file_sentence 005#90
 1	"	"	PUNCT	fe	PunctType=Quot	19	punct	19:punct	SpaceAfter=No
-2	En	en	ADP	sps00	ExtPos=SCONJ	5	mark	5:mark	MWE=En_lloc_de|MWEPOS=ADP
-3	lloc	lloc	NOUN	_	_	2	fixed	2:fixed	_
-4	de	de	ADP	_	_	2	fixed	2:fixed	_
-5	fomentar	fomentar	VERB	vmn0000	VerbForm=Inf	19	advcl	19:advcl	ArgTem=argM:adv
+2	En	en	ADP	sps00	_	3	case	3:case	MWE=En_lloc_de|MWEPOS=ADP
+3	lloc	lloc	NOUN	_	_	19	advcl	19:advcl	_
+4	de	de	ADP	_	_	5	case	5:case	_
+5	fomentar	fomentar	VERB	vmn0000	VerbForm=Inf	3	nmod	3:nmod	ArgTem=argM:adv
 6	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	7:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 7	relacions	relació	NOUN	ncfp000	Gender=Fem|Number=Plur	5	obj	5:obj	ArgTem=arg1:pat
 8	sexuals	sexual	ADJ	aq0cp0	Number=Plur	7	amod	7:amod	Entity=NOCOREF:Gen)
@@ -19883,11 +19883,11 @@
 # sent_id = CESS-CAT-A-20000608-10482-s9
 # text = Amb motiu de la presència del president de l'Autoritat Portuària de Tarragona, Lluís Badia, la delegació ha aprofitat la seva visita per conèixer els principals ports turístics d'Ucraïna, amb els quals existeix una relació comercial.
 # orig_file_sentence 004#30
-1	Amb	amb	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=Amb_motiu_de|MWEPOS=ADP
-2	motiu	motiu	NOUN	_	_	1	fixed	1:fixed	_
-3	de	de	ADP	_	_	1	fixed	1:fixed	_
+1	Amb	amb	ADP	sps00	_	2	case	2:case	MWE=Amb_motiu_de|MWEPOS=ADP
+2	motiu	motiu	NOUN	_	_	22	obl	22:obl	_
+3	de	de	ADP	_	_	5	case	5:case	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-5	presència	presència	NOUN	ncfs000	Gender=Fem|Number=Sing	22	obl	22:obl	ArgTem=argM:cau
+5	presència	presència	NOUN	ncfs000	Gender=Fem|Number=Sing	2	nmod	2:nmod	ArgTem=argM:cau
 6-7	del	_	_	_	_	_	_	_	_
 6	de	de	ADP	spcms	_	8	case	8:case	_
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
@@ -20307,11 +20307,11 @@
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
 5	transport	transport	NOUN	ncms000	Gender=Masc|Number=Sing	2	nmod	2:nmod	SpaceAfter=No|Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD)NOCOREF:Gen)
 6	,	,	PUNCT	fc	PunctType=Comm	11	punct	11:punct	_
-7	a	a	ADP	sps00	ExtPos=ADP	11	case	11:case	MWE=a_causa_de|MWEPOS=ADP
-8	causa	causa	NOUN	_	_	7	fixed	7:fixed	_
-9	de	de	ADP	_	_	7	fixed	7:fixed	_
+7	a	a	ADP	sps00	_	8	case	8:case	MWE=a_causa_de|MWEPOS=ADP
+8	causa	causa	NOUN	_	_	28	obl	28:obl	_
+9	de	de	ADP	_	_	11	case	11:case	_
 10	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	11	det	11:det	SpaceAfter=No|Entity=(CESSCATA2000061310690c10--2-CorefType:ident,gstype:gen,HomoDD
-11	increment	increment	NOUN	ncms000	Gender=Masc|Number=Sing	28	obl	28:obl	ArgTem=argM:cau
+11	increment	increment	NOUN	ncms000	Gender=Masc|Number=Sing	8	nmod	8:nmod	ArgTem=argM:cau
 12-13	dels	_	_	_	_	_	_	_	_
 12	de	de	ADP	spcmp	_	14	case	14:case	_
 13	els	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	14:det	_
@@ -22879,12 +22879,12 @@
 17	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	18:det	Entity=(CESSCATA2000080313497c2-place-2-CorefType:ident,gstype:spec
 18	DARP	DARP	PROPN	np0000o	_	12	obl	12:obl	ArgTem=argM:adv|Entity=CESSCATA2000080313497c2)
 19	i	i	CCONJ	cc	_	39	cc	39:cc	_
-20	en	en	ADP	spcms	ExtPos=ADP	24	case	24:case	MWE=en_funció_del|MWEPOS=ADP
-21	funció	funció	NOUN	_	_	20	fixed	20:fixed	_
+20	en	en	ADP	spcms	_	21	case	21:case	MWE=en_funció_del|MWEPOS=ADP
+21	funció	funció	NOUN	_	_	39	obl	39:obl	_
 22-23	del	_	_	_	_	_	_	_	_
-22	de	de	ADP	_	_	20	fixed	20:fixed	_
+22	de	de	ADP	_	_	24	case	24:case	_
 23	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	24:det	_
-24	resultat	resultat	NOUN	ncms000	Gender=Masc|Number=Sing	39	obl	39:obl	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD
+24	resultat	resultat	NOUN	ncms000	Gender=Masc|Number=Sing	21	nmod	21:nmod	Entity=(NOCOREF:Gen--1-gstype:gen,HomoDD
 25	d'	de	ADP	sps00	_	27	case	27:case	SpaceAfter=No
 26	una	un	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	27	det	27:det	Entity=(NOCOREF:Gen--2-gstype:gen
 27	reunió	reunió	NOUN	ncfs000	Gender=Fem|Number=Sing	24	nmod	24:nmod	_
@@ -25629,10 +25629,10 @@
 13	Alkartasuna	Alkartasuna	PROPN	_	_	12	flat	12:flat	Entity=CESSCATA2001070173c6)
 14	que	que	SCONJ	cs	_	38	mark	38:mark	SpaceAfter=No
 15	,	,	PUNCT	fc	PunctType=Comm	19	punct	19:punct	_
-16	en	en	ADP	sps00	ExtPos=SCONJ	19	mark	19:mark	MWE=en_comptes_d'|MWEPOS=ADP
-17	comptes	compte	NOUN	_	_	16	fixed	16:fixed	_
-18	d'	de	ADP	_	_	16	fixed	16:fixed	SpaceAfter=No
-19	al·ludir	al·ludir	VERB	vmn0000	VerbForm=Inf	38	advcl	38:advcl	ArgTem=argM:adv
+16	en	en	ADP	sps00	_	17	case	17:case	MWE=en_comptes_d'|MWEPOS=ADP
+17	comptes	compte	NOUN	_	_	38	advcl	38:advcl	_
+18	d'	de	ADP	_	_	19	case	19:case	SpaceAfter=No
+19	al·ludir	al·ludir	VERB	vmn0000	VerbForm=Inf	17	nmod	17:nmod	ArgTem=argM:adv
 20	a	a	ADP	sps00	_	22	case	22:case	_
 21	suposades	suposat	ADJ	aq0fpp	Gender=Fem|Number=Plur|VerbForm=Part	22	amod	22:amod	Entity=(CESSCATA2001070173c17--2-CorefType:ident,gstype:gen
 22	dissensions	dissensió	NOUN	ncfp000	Gender=Fem|Number=Plur	19	obj	19:obj	ArgTem=arg1:tem
@@ -47490,11 +47490,11 @@
 # sent_id = CESS-CAT-AAP-20001024-17897-s6
 # text = A fi que tingui validesa, aquest document caldrà consignar-lo davant notari o bé davant de tres testimonis, dos dels quals no han de tenir parentiu o relació patrimonial amb el pacient, i també caldrà lliurar-lo al centre sanitari on la persona hagi de ser atesa, que s'incorporarà a la seva història clínica del pacient.
 # orig_file_sentence 012#28
-1	A	a	ADP	cs	ExtPos=SCONJ	4	mark	4:mark	MWE=A_fi_que|MWEPOS=SCONJ
-2	fi	fi	NOUN	_	_	1	fixed	1:fixed	_
-3	que	que	SCONJ	_	_	1	fixed	1:fixed	_
+1	A	a	ADP	cs	_	2	case	2:case	MWE=A_fi_que|MWEPOS=SCONJ
+2	fi	fi	NOUN	_	_	9	advcl	9:advcl	_
+3	que	que	SCONJ	_	_	4	mark	4:mark	_
 3.1	_	_	PRON	p	_	_	_	4:nsubj	ArgTem=arg1:tem|Entity=(CESSCATAAP2000102417897c13--1-CorefType:ident,gstype:gen)
-4	tingui	tenir	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl	ArgTem=argM:fin
+4	tingui	tenir	VERB	vmsp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	2:acl	ArgTem=argM:fin
 5	validesa	validesa	NOUN	ncfs000	Gender=Fem|Number=Sing	4	obj	4:obj	SpaceAfter=No|ArgTem=arg2:atr
 6	,	,	PUNCT	fc	PunctType=Comm	4	punct	4:punct	_
 7	aquest	aquest	DET	dd0ms0	Gender=Masc|Number=Sing|PronType=Dem	8	det	8:det	Entity=(CESSCATAAP2000102417897c13--2-CorefType:ident,gstype:gen
@@ -47673,11 +47673,11 @@
 # sent_id = CESS-CAT-AAP-20001114-19446-s2
 # text = A través de la pintura i l'escultura, majoritàriament, tot i que també hi ha obres de fotografia i relacionades amb la filmografia, la mostra recull una única obra dels 22 artistes lleidatans més destacats pertanyents a diferents generacions.
 # orig_file_sentence 012#55
-1	A	a	ADP	sps00	ExtPos=ADP	5	case	5:case	MWE=A_través_de|MWEPOS=ADP
-2	través	través	NOUN	_	_	1	fixed	1:fixed	_
-3	de	de	ADP	_	_	1	fixed	1:fixed	_
+1	A	a	ADP	sps00	_	2	case	2:case	MWE=A_través_de|MWEPOS=ADP
+2	través	través	NOUN	_	_	29	obl	29:obl	_
+3	de	de	ADP	_	_	5	case	5:case	_
 4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-5	pintura	pintura	NOUN	ncfs000	Gender=Fem|Number=Sing	29	obl	29:obl	ArgTem=argM:adv|Entity=NOCOREF:Gen)
+5	pintura	pintura	NOUN	ncfs000	Gender=Fem|Number=Sing	2	nmod	2:nmod	ArgTem=argM:adv|Entity=NOCOREF:Gen)
 6	i	i	CCONJ	cc	_	8	cc	8:cc	_
 7	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	8	det	8:det	SpaceAfter=No|Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 8	escultura	escultura	NOUN	ncfs000	Gender=Fem|Number=Sing	5	conj	5:conj	SpaceAfter=No|Entity=NOCOREF:Gen)
@@ -61231,11 +61231,11 @@
 130	de	de	ADP	sps00	_	132	case	132:case	_
 131	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	132	det	132:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
 132	lectura	lectura	NOUN	ncfs000	Gender=Fem|Number=Sing	129	nmod	129:nmod	Entity=NOCOREF:Gen)
-133	a	a	ADP	sps00	ExtPos=ADP	137	case	137:case	MWE=a_través_de|MWEPOS=ADP
-134	través	través	NOUN	_	_	133	fixed	133:fixed	_
-135	de	de	ADP	_	_	133	fixed	133:fixed	_
+133	a	a	ADP	sps00	_	134	case	134:case	MWE=a_través_de|MWEPOS=ADP
+134	través	través	NOUN	_	_	139	obl	139:obl	_
+135	de	de	ADP	_	_	137	case	137:case	_
 136	les	el	DET	da0fp0	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	137	det	137:det	Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-137	biblioteques	biblioteca	NOUN	ncfp000	Gender=Fem|Number=Plur	139	obl	139:obl	SpaceAfter=No|Entity=NOCOREF:Gen)
+137	biblioteques	biblioteca	NOUN	ncfp000	Gender=Fem|Number=Plur	134	nmod	134:nmod	SpaceAfter=No|Entity=NOCOREF:Gen)
 138	,	,	PUNCT	fc	PunctType=Comm	137	punct	137:punct	_
 139	fent	fer	VERB	vmg0000	VerbForm=Ger	129	acl	129:acl	MWE=fent_ús|MWEPOS=VERB
 140	ús	ús	NOUN	_	Number=Plur	139	compound	139:compound	_
@@ -67274,11 +67274,11 @@
 4	ha	haver	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	_
 5	recordat	recordar	VERB	vmp00sm	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
 6	que	que	SCONJ	cs	_	18	mark	18:mark	_
-7	a	a	ADP	spcms	ExtPos=ADP	10	case	10:case	MWE=a_través_del|MWEPOS=ADP
-8	través	través	NOUN	_	_	7	fixed	7:fixed	_
+7	a	a	ADP	spcms	_	8	case	8:case	MWE=a_través_del|MWEPOS=ADP
+8	través	través	NOUN	_	_	18	obl	18:obl	_
 9-10	del	_	_	_	_	_	_	_	_
-9	de	de	ADP	_	_	7	fixed	7:fixed	_
-10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	obl	18:obl	_
+9	de	de	ADP	_	_	10	case	10:case	_
+10	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	nmod	8:nmod	_
 11	que	que	PRON	pr0cn000	PronType=Rel	12	obj	12:obj	ArgTem=arg1:pat|Entity=(NOCOREF:Gen--3-gstype:gen
 11.1	_	_	PRON	p	_	_	_	12:nsubj	ArgTem=arg0:agt|Entity=(CESSCATAAP2002120569392c2--1-CorefType:ident,gstype:gen)
 12	aporten	aportar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	10:acl:relcl	SpaceAfter=No|ArgTem=argM:adv|Entity=NOCOREF:Gen)
@@ -67423,11 +67423,11 @@
 1	Els	el	DET	da0mp0	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	Entity=(CESSCATAAP2003021175815c10_PLUS_CESSCATAAP2003021175815c3--2-gstype:gen|SplitAnte=CESSCATAAP2003021175815c10<CESSCATAAP2003021175815c10_PLUS_CESSCATAAP2003021175815c3,CESSCATAAP2003021175815c3<CESSCATAAP2003021175815c10_PLUS_CESSCATAAP2003021175815c3
 2	promotors	promotor	NOUN	ncmp000	Gender=Masc|Number=Plur	15	nsubj	15:nsubj	SpaceAfter=No|ArgTem=arg0:agt|Entity=CESSCATAAP2003021175815c10_PLUS_CESSCATAAP2003021175815c3)
 3	,	,	PUNCT	fc	PunctType=Comm	8	punct	8:punct	_
-4	a	a	ADP	sps00	ExtPos=ADP	8	case	8:case	MWE=a_causa_de|MWEPOS=ADP
-5	causa	causa	NOUN	_	_	4	fixed	4:fixed	_
-6	de	de	ADP	_	_	4	fixed	4:fixed	_
+4	a	a	ADP	sps00	_	5	case	5:case	MWE=a_causa_de|MWEPOS=ADP
+5	causa	causa	NOUN	_	_	15	obl	15:obl	_
+6	de	de	ADP	_	_	8	case	8:case	_
 7	l'	el	DET	da0cs0	Definite=Def|Number=Sing|PronType=Art	8	det	8:det	SpaceAfter=No|Entity=(NOCOREF:Gen--2-gstype:gen,HomoDD
-8	èxit	èxit	NOUN	ncms000	Gender=Masc|Number=Sing	15	obl	15:obl	ArgTem=argM:cau
+8	èxit	èxit	NOUN	ncms000	Gender=Masc|Number=Sing	5	nmod	5:nmod	ArgTem=argM:cau
 9	de	de	ADP	sps00	_	11	case	11:case	_
 10	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	Entity=(CESSCATAAP2003021175815c17--2-CorefType:ident,gstype:gen
 11	campanya	campanya	NOUN	ncfs000	Gender=Fem|Number=Sing	8	nmod	8:nmod	SpaceAfter=No|Entity=CESSCATAAP2003021175815c17)NOCOREF:Gen)
@@ -68818,12 +68818,12 @@
 17	,	,	PUNCT	fc	PunctType=Comm	28	punct	28:punct	_
 18	encara	encara	ADV	cs	ExtPos=SCONJ	28	mark	28:mark	MWE=encara_que|MWEPOS=SCONJ
 19	que	que	SCONJ	_	_	18	fixed	18:fixed	_
-20	en	en	ADP	cs	ExtPos=SCONJ	24	mark	24:mark	MWE=en_cas_que|MWEPOS=SCONJ
-21	cas	cas	NOUN	_	_	20	fixed	20:fixed	_
-22	que	que	SCONJ	_	_	20	fixed	20:fixed	_
+20	en	en	ADP	cs	_	21	case	21:case	MWE=en_cas_que|MWEPOS=SCONJ
+21	cas	cas	NOUN	_	_	28	advcl	28:advcl	_
+22	que	que	SCONJ	_	_	24	mark	24:mark	_
 22.1	_	_	PRON	p	_	_	_	23:nsubj	ArgTem=arg1:tem|Entity=(CESSCATAAP2003052288342c14--1-CorefType:ident,gstype:gen)
 23	sigui	ser	AUX	vssp3s0	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	_
-24	insuficient	insuficient	ADJ	aq0cs0	Number=Sing	28	advcl	28:advcl	SpaceAfter=No|ArgTem=arg2:atr
+24	insuficient	insuficient	ADJ	aq0cs0	Number=Sing	21	acl	21:acl	SpaceAfter=No|ArgTem=arg2:atr
 25	,	,	PUNCT	fc	PunctType=Comm	24	punct	24:punct	_
 26	també	també	ADV	rg	_	28	advmod	28:advmod	_
 27	s'	ell	PRON	p0000000	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	28	obj	28:obj	SpaceAfter=No
