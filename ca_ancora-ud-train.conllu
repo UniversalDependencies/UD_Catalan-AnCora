@@ -223680,14 +223680,14 @@
 # text = Una cristiana va estar a punt de ser linxada dissabte i diverses cases, esglésies i mesquites van ser incendiades.
 # orig_file_sentence 083#20
 1	Una	un	DET	di0fs0	Gender=Fem|Number=Sing|PronType=Ind	2	det	2:det	Entity=(NOCOREF:Gen--2-gstype:gen
-2	cristiana	cristiana	NOUN	ncfs000	Gender=Fem|Number=Sing	9	nsubj	9:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
-3	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
-4	estar	estar	AUX	vmn0000	VerbForm=Inf	9	cop	9:cop	_
+2	cristiana	cristiana	NOUN	ncfs000	Gender=Fem|Number=Sing	6	nsubj	6:nsubj	ArgTem=arg1:tem|Entity=NOCOREF:Gen)
+3	va	anar	AUX	vaip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+4	estar	estar	AUX	vmn0000	VerbForm=Inf	6	cop	6:cop	_
 5	a	a	ADP	sps00	_	6	case	6:case	MWE=a_punt_de|MWEPOS=ADP
 6	punt	punt	NOUN	_	_	0	root	0:root	_
 7	de	de	ADP	_	_	9	case	9:case	_
 8	ser	ser	AUX	vsn0000	VerbForm=Inf	9	aux	9:aux	_
-9	linxada	linxar	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	nmod	6:nmod	ArgTem=arg2:atr
+9	linxada	linxar	VERB	vmp00sf	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	6:acl	ArgTem=arg2:atr
 10	dissabte	dissabte	NOUN	_	_	9	obl	9:obl	ArgTem=argM:tmp|Entity=(NOCOREF:Spec.date-time-1-gstype:spec)
 11	i	i	CCONJ	cc	_	20	cc	20:cc	_
 12	diverses	divers	DET	di0fp0	Gender=Fem|Number=Plur|PronType=Ind	13	det	13:det	_
@@ -483574,9 +483574,9 @@
 21	personatges	personatge	NOUN	ncmp000	Gender=Masc|Number=Plur	27	nsubj	27:nsubj	ArgTem=arg0:agt
 22	que	que	PRON	pr0cn000	PronType=Rel	26	nsubj	26:nsubj	ArgTem=arg1:tem|Entity=(CESSCATAAP2003011772783c4--1-CorefType:ident,gstype:gen)
 23	hi	hi	PRON	pp3cn000	Case=Loc|Person=3|PronType=Prs	26	obl:arg	26:obl:arg	ArgTem=arg2:cot|Entity=(CESSCATAAP2003011772783c2-person-1-CorefType:ident,gstype:spec)
-24	van	anar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	xcomp	26:xcomp	_
-25	estar	estar	AUX	vmn0000	VerbForm=Inf	26	aux	26:aux	_
-26	vinculats	vincular	VERB	vmp00pm	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl:relcl	21:acl:relcl	Entity=CESSCATAAP2003011772783c4)
+24	van	anar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	26:aux	_
+25	estar	estar	AUX	vmn0000	VerbForm=Inf	26	cop	26:cop	_
+26	vinculats	vincular	ADJ	aq0mpp	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	acl:relcl	21:acl:relcl	Entity=CESSCATAAP2003011772783c4)
 27	exposen	exposar	VERB	vmip3p0	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	_
 28	els	el	DET	dp3mp0	Gender=Masc|Number=Plur|PronType=Art	30	det	30:det	MWE=els_seus|MWEPOS=DET|Entity=(NOCOREF:Gen--3-gstype:gen(CESSCATAAP2003011772783c4--1-CorefType:ident,gstype:gen
 29	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	30	det	30:det	Entity=CESSCATAAP2003011772783c4)
