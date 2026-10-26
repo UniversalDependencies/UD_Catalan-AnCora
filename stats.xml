@@ -15,7 +15,7 @@
   <fusions unique="789" /><!-- del, al, dels, als, pel, pels, fer-ho, haver-se, convertir-se, fer-se, dirigir-se, desplaçar-se, donar-li, fer-li, posar-se -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">30100</tag><!-- nou, primer, gran, català, passat, polític, general, espanyol, últim, públic -->
+    <tag name="ADJ">30101</tag><!-- nou, primer, gran, català, passat, polític, general, espanyol, últim, públic -->
     <tag name="ADP">87975</tag><!-- de, a, per, en, amb, entre, sobre, segons, des, durant -->
     <tag name="ADV">15817</tag><!-- no, més, també, ja, després, ahir, molt, avui, només, ara -->
     <tag name="AUX">22054</tag><!-- haver, anar, ser, poder, estar, saber -->
@@ -29,7 +29,7 @@
     <tag name="PUNCT">57270</tag><!-- ,, ., ", ', (, ), -, :, ;, ? -->
     <tag name="SCONJ">10553</tag><!-- que, com, perquè, si, quan, segons, mentre, on, perqu, què -->
     <tag name="SYM">821</tag><!-- %, m2, 5, &, -, -3, 3, 7 -->
-    <tag name="VERB">41878</tag><!-- fer, tenir, haver, dir, donar, presentar, arribar, passar, voler, demanar -->
+    <tag name="VERB">41877</tag><!-- fer, tenir, haver, dir, donar, presentar, arribar, passar, voler, demanar -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="69">
@@ -96,7 +96,7 @@
     <feat name="Reflex" value="Yes" upos="PRON">6617</feat><!-- es, s', se, si, s, 's, -se, se'n -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">3724</feat><!-- serà, haurà, farà, podrà, seran, tindrà, podran, celebrarà, presentarà, faran -->
     <feat name="Tense" value="Imp" upos="AUX,VERB">3138</feat><!-- havia, era, havien, estava, tenia, eren, podia, feia, hagués, fos -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">7531</feat><!-- estat, fet, explicat, dit, presentat, tingut, assegurat, destacat, passat, demanat -->
+    <feat name="Tense" value="Past" upos="ADJ,AUX,VERB">7531</feat><!-- estat, fet, explicat, dit, presentat, tingut, assegurat, destacat, passat, demanat -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">30598</feat><!-- va, ha, és, van, han, són, està, té, fa, pot -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">38273</feat><!-- va, ha, és, van, han, són, està, té, fa, havia -->
     <feat name="VerbForm" value="Ger" upos="AUX,VERB">1194</feat><!-- fent, sent, treballant, dient, tenint, aprofitant, donant, passant, seguint, coincidint -->
@@ -105,21 +105,21 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="42">
-    <dep name="acl">2183</dep>
+    <dep name="acl">2184</dep>
     <dep name="acl:relcl">7966</dep>
     <dep name="advcl">6918</dep>
     <dep name="advmod">14926</dep>
     <dep name="advmod:emph">1</dep>
     <dep name="amod">25024</dep>
     <dep name="appos">7687</dep>
-    <dep name="aux">16738</dep>
-    <dep name="aux:pass">1</dep>
+    <dep name="aux">16002</dep>
+    <dep name="aux:pass">737</dep>
     <dep name="case">79626</dep>
     <dep name="cc">14857</dep>
     <dep name="ccomp">4188</dep>
     <dep name="compound">2620</dep>
     <dep name="conj">16525</dep>
-    <dep name="cop">4696</dep>
+    <dep name="cop">4697</dep>
     <dep name="csubj">926</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">89</dep>
@@ -133,19 +133,19 @@
     <dep name="fixed">6987</dep>
     <dep name="flat">18013</dep>
     <dep name="mark">15210</dep>
-    <dep name="nmod">42404</dep>
-    <dep name="nsubj">27638</dep>
+    <dep name="nmod">42403</dep>
+    <dep name="nsubj">27069</dep>
     <dep name="nsubj:outer">11</dep>
-    <dep name="nsubj:pass">28</dep>
+    <dep name="nsubj:pass">597</dep>
     <dep name="nummod">6270</dep>
     <dep name="obj">27039</dep>
     <dep name="obl">22051</dep>
-    <dep name="obl:agent">1166</dep>
-    <dep name="obl:arg">9223</dep>
+    <dep name="obl:agent">1167</dep>
+    <dep name="obl:arg">9222</dep>
     <dep name="parataxis">579</dep>
     <dep name="punct">57270</dep>
     <dep name="root">16678</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">4568</dep>
+    <dep name="xcomp">4567</dep>
   </deps>
 </treebank>
