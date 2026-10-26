@@ -12862,7 +12862,7 @@
 43	'	'	PUNCT	fz	PunctType=Quot	48	punct	48:punct	SpaceAfter=No
 44	en	en	ADP	sps00	_	48	mark	48:mark	_
 45	no	no	ADV	rn	Polarity=Neg	48	advmod	48:advmod	_
-46	estar	estar	AUX	vmn0000	VerbForm=Inf	48	aux	48:aux	ArgTem=argM:cau
+46	estar	estar	AUX	vmn0000	VerbForm=Inf	48	cop	48:cop	ArgTem=argM:cau
 47	degudament	degudament	ADV	rg	_	48	advmod	48:advmod	ArgTem=argM:mnr
 48	acomodada	acomodat	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	38	advcl	38:advcl	ArgTem=arg2:atr
 49	amb	amb	ADP	sps00	_	51	case	51:case	_
@@ -58512,7 +58512,7 @@
 28	a	a	ADP	sps00	ExtPos=CCONJ	34	cc	34:cc	MWE=a_més_d'|MWEPOS=ADP
 29	més	més	ADV	_	Degree=Cmp	28	fixed	28:fixed	_
 30	d'	de	ADP	_	_	28	fixed	28:fixed	SpaceAfter=No
-31	estar	estar	AUX	vmn0000	VerbForm=Inf	34	aux	34:aux	_
+31	estar	estar	AUX	vmn0000	VerbForm=Inf	34	cop	34:cop	_
 32	'	'	PUNCT	fz	PunctType=Quot	34	punct	34:punct	SpaceAfter=No
 33	poc	poc	ADV	rg	_	34	advmod	34:advmod	ArgTem=argM:adv
 34	fonamentada	fonamentat	ADJ	aq0fsp	Gender=Fem|Number=Sing|VerbForm=Part	23	conj	23:conj	SpaceAfter=No|ArgTem=arg2:atr

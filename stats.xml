@@ -39,7 +39,7 @@
     <feat name="Case" value="Gen" upos="PRON">354</feat><!-- n', en, ne, 'n, -ne -->
     <feat name="Case" value="Loc" upos="PRON">1317</feat><!-- hi -->
     <feat name="Case" value="Nom" upos="PRON">86</feat><!-- jo, tu, hom -->
-    <feat name="Definite" value="Def" upos="DET">63482</feat><!-- el, la, l', els, les -->
+    <feat name="Definite" value="Def" upos="DET">63483</feat><!-- el, la, l', els, les -->
     <feat name="Definite" value="Ind" upos="DET">16</feat><!-- en, l', al, col·laboració, la, sa, ses, suficient -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">2556</feat><!-- més, menys, millor, major, millors, pitjor, menor, majors, menors, pitjors -->
     <feat name="ExtPos" value="ADP" upos="ADP,ADV,NOUN,PRON,SCONJ">2326</feat><!-- com, des, a, pel, respecte, cap, gràcies, arran, juntament, d' -->
@@ -49,14 +49,14 @@
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,NOUN,PRON,SCONJ,VERB">31</feat><!-- a, de, Ceguera, Como, I, Por, Quién, amor, amore, cadáver -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">86346</feat><!-- la, les, una, aquesta, seva, pessetes, persones, seves, dues, aquestes -->
     <feat name="Gender" value="Fem,Masc" upos="PRON">176</feat><!-- l' -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">108015</feat><!-- el, els, un, aquest, seu, anys, tot, estat, milions, dos -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">108017</feat><!-- el, els, un, aquest, seu, anys, tot, estat, milions, dos -->
     <feat name="Gender" value="Neut" upos="PRON">333</feat><!-- ho, -ho -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">690</feat><!-- hauria, podria, seria, podrien, haurien, faria, caldria, agradaria, estaria, permetria -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">75</feat><!-- deixi, sigui, seguim, siguin, superi, aclareixi, estigui, estrena, gestioni, miri -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">34885</feat><!-- va, ha, és, van, han, són, està, té, fa, havia -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">2623</feat><!-- hagi, sigui, pugui, puguin, hagués, hagin, tingui, siguin, fos, estigui -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">69884</feat><!-- els, les, van, han, anys, milions, pessetes, dos, són, altres -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">192000</feat><!-- el, la, l', un, va, ha, una, és, aquest, aquesta -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">192001</feat><!-- el, la, l', un, va, ha, una, és, aquest, aquesta -->
     <feat name="Number[psor]" value="Plur" upos="DET,PRON">183</feat><!-- nostra, nostre, nostres -->
     <feat name="Number[psor]" value="Sing" upos="DET,PRON">43</feat><!-- meu, meus, meva, teu, teus, teva -->
     <feat name="NumForm" value="Digit" upos="ADJ,NUM,SYM">6902</feat><!-- %, 10, 15, 30, 5, 20, 2, 12, 4, 50 -->
@@ -108,18 +108,18 @@
     <dep name="acl">2183</dep>
     <dep name="acl:relcl">7966</dep>
     <dep name="advcl">6918</dep>
-    <dep name="advmod">14928</dep>
+    <dep name="advmod">14926</dep>
     <dep name="advmod:emph">1</dep>
     <dep name="amod">25024</dep>
     <dep name="appos">7687</dep>
-    <dep name="aux">16749</dep>
+    <dep name="aux">16738</dep>
     <dep name="aux:pass">1</dep>
     <dep name="case">79626</dep>
     <dep name="cc">14857</dep>
-    <dep name="ccomp">4187</dep>
+    <dep name="ccomp">4188</dep>
     <dep name="compound">2620</dep>
     <dep name="conj">16525</dep>
-    <dep name="cop">4685</dep>
+    <dep name="cop">4696</dep>
     <dep name="csubj">926</dep>
     <dep name="csubj:pass">2</dep>
     <dep name="dep">89</dep>
@@ -139,7 +139,7 @@
     <dep name="nsubj:pass">28</dep>
     <dep name="nummod">6270</dep>
     <dep name="obj">27039</dep>
-    <dep name="obl">22050</dep>
+    <dep name="obl">22051</dep>
     <dep name="obl:agent">1166</dep>
     <dep name="obl:arg">9223</dep>
     <dep name="parataxis">579</dep>

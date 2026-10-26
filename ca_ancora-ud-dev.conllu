@@ -27684,7 +27684,7 @@
 27	24	24	NUM	_	NumForm=Digit|NumType=Card	28	nummod	28:nummod	_
 28	hores	hora	NOUN	ncfp000	Gender=Fem|Number=Plur	6	obl	6:obl	ArgTem=argM:tmp
 29	d'	de	ADP	sps00	_	28	nmod	28:nmod	SpaceAfter=No
-30	estar	estar	AUX	vmn0000	VerbForm=Inf	31	aux	31:aux	_
+30	estar	estar	AUX	vmn0000	VerbForm=Inf	31	cop	31:cop	_
 31	tancats	tancat	ADJ	aq0mpp	Gender=Masc|Number=Plur|VerbForm=Part	29	advmod	29:advmod	ArgTem=arg2:atr
 32	en	en	ADP	sps00	_	33	case	33:case	_
 33	refugis	refugi	NOUN	ncmp000	Gender=Masc|Number=Plur	31	obl	31:obl	SpaceAfter=No|ArgTem=argM:loc|Entity=(CESSCATAAP1999030233c11--1-CorefType:ident,gstype:gen)
@@ -35258,7 +35258,7 @@
 28	,	,	PUNCT	fc	PunctType=Comm	27	punct	27:punct	_
 29	després	després	ADV	rg	_	52	advmod	52:advmod	ArgTem=argM:tmp
 30	d'	de	ADP	sps00	_	32	case	32:case	SpaceAfter=No
-31	estar	estar	AUX	vmn0000	VerbForm=Inf	32	aux	32:aux	_
+31	estar	estar	AUX	vmn0000	VerbForm=Inf	32	cop	32:cop	_
 32	acostumat	acostumat	ADJ	aq0msp	Gender=Masc|Number=Sing|VerbForm=Part	29	obl	29:obl	ArgTem=arg2:atr
 33	a	a	ADP	sps00	_	34	mark	34:mark	_
 34	anar	anar	VERB	vmn0000	VerbForm=Inf	32	xcomp	32:xcomp	ArgTem=arg2:efi
