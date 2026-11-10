@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Catalan-AnCora:
-commit 80baf2874ad2c3abffe80f83554327e18ae069d8
-Merge: 5b3d562 81d4fdf
+commit a882c3e84258d1c3e039f31a384cf975e64079d7
+Merge: 7f3d23e 4d60184
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ca_ancora'
@@ -19,7 +19,7 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 372959 out of 547262 total words have one or more features.
+Features: 371813 out of 547262 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
@@ -50,7 +50,7 @@ Warnings: 57
 [Line 15279 Sent CESS-CAT-A-19990902-115-s4]: [L3 WARNING fixed-gap] Gaps in fixed expression [1, 4, 5] 'Fins * * punt que'
 [Line 15774 Sent CESS-CAT-A-19991201-4-s6]: [L3 WARNING fixed-gap] Gaps in fixed expression [16, 18, 19] 'a * voltant de'
 ...suppressing further messages regarding WARNING/SYNTAX
-Warnings: 53
+Warnings: 54
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ca --max-err=10 UD_Catalan-AnCora/ca_ancora-ud-train.conllu
 [Line 2898 Sent 3LB-CAT-06010100-18-s4]: [L3 WARNING fixed-gap] Gaps in fixed expression [15, 17, 18] 'a * voltant d''
